@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graysmith Labs</title>
+<meta name="description" content="Graysmith Labs builds software and mobile applications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #15171a;
+    --paper: #f4f1ea;
+    --muted: #6b6760;
+    --accent: #3b5641;
+    --line: #d8d3c8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Spline Sans Mono", monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(var(--line) 0.5px, transparent 0.5px);
+    background-size: 22px 22px;
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 32px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .mark {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  .glyph {
+    width: 30px; height: 30px;
+    border: 1.5px solid var(--ink);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    font-family: "Fraunces", serif;
+  }
+  .est {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0;
+  }
+  .eyebrow {
+    font-size: 12.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: rise 0.7s 0.05s ease forwards;
+  }
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: clamp(38px, 7vw, 70px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    max-width: 16ch;
+    margin-bottom: 34px;
+    opacity: 0;
+    animation: rise 0.7s 0.18s ease forwards;
+  }
+  h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .lede {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--muted);
+    max-width: 54ch;
+    opacity: 0;
+    animation: rise 0.7s 0.32s ease forwards;
+  }
+  .meta {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 28px 40px;
+    padding-top: 36px;
+    border-top: 1px solid var(--line);
+    opacity: 0;
+    animation: rise 0.7s 0.46s ease forwards;
+  }
+  .meta h3 {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .meta p { font-size: 14px; line-height: 1.6; }
+  .meta a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); padding-bottom: 1px; transition: color 0.2s; }
+  .meta a:hover { color: var(--accent); }
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid var(--line);
+    margin-top: auto;
+  }
+  .foot-inner {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 26px 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 0 22px; }
+    header { padding: 28px 0; }
+    main { padding: 48px 0; }
+    .foot-inner { padding: 22px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark"><span class="glyph">G</span> Graysmith Labs</div>
+      <div class="est">EST. 2026 &middot; COLORADO</div>
+    </header>
+    <main>
+      <div class="eyebrow">Software &amp; Mobile Applications</div>
+      <h1>We design and build <em>thoughtful</em> software for everyday life.</h1>
+      <p class="lede">Graysmith Labs is an independent studio creating mobile applications and digital products. We ship our own apps and brands, with a focus on simple tools people actually enjoy using.</p>
+      <div class="meta">
+        <div>
+          <h3>Company</h3>
+          <p>Graysmith Labs LLC<br>A Colorado limited liability company</p>
+        </div>
+        <div>
+          <h3>What we do</h3>
+          <p>Mobile app development<br>Consumer software &amp; brands</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="foot-inner">
+      <span>&copy; 2026 Graysmith Labs LLC</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </footer>
+</body>
+</html>
