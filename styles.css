@@ -191,6 +191,7 @@ section.first { border-top: 0; }
 
 /* Services and process */
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
 .service {
   border: 1px solid var(--line); border-radius: 20px; padding: 30px; background: var(--card);
@@ -301,7 +302,7 @@ section.first { border-top: 0; }
   .app-card, .app-card:nth-child(4), .app-card:nth-child(5) { grid-column: span 3; }
   .app-card:nth-child(5) { grid-column: span 6; }
   .feature { grid-template-columns: 1fr; }
-  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .about, .split { grid-template-columns: 1fr; gap: 36px; }
   .contact-card { grid-template-columns: 1fr; padding: 56px 40px; }
   .app-hero { grid-template-columns: 1fr; }
@@ -318,7 +319,7 @@ section.first { border-top: 0; }
   .stats { grid-template-columns: 1fr 1fr; }
   .app-grid { grid-template-columns: 1fr; }
   .app-card, .app-card:nth-child(4), .app-card:nth-child(5) { grid-column: auto; }
-  .grid-2, .grid-4, .features, .gallery, .pager { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .grid-4, .features, .gallery, .pager { grid-template-columns: 1fr; }
   .feature .body { padding: 32px 24px; }
   .contact-card { padding: 44px 24px; border-radius: 22px; }
   .facts-bar { grid-template-columns: 1fr 1fr; }
