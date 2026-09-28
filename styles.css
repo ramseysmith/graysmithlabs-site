@@ -332,3 +332,8 @@ section.first { border-top: 0; }
   .mark { font-size: 17px; }
   .nav .btn { padding: 8px 12px; font-size: 12px; }
 }
+
+/* AI note: short and centered */
+.ai-note { text-align: center; display: grid; justify-items: center; }
+.ai-note h2 { max-width: none; }
+.ai-note .lede { margin-top: 22px; }
