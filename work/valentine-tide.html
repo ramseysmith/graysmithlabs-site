@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Tide case study | Graysmith Labs</title>
+<meta name="description" content="How Graysmith Labs designed and built valentinetide.com, a goth surf apparel storefront with Stripe checkout and automatic Printful fulfillment.">
+<link rel="canonical" href="https://graysmithlabs.com/work/valentine-tide.html">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Valentine Tide case study | Graysmith Labs">
+<meta property="og:description" content="How Graysmith Labs designed and built valentinetide.com, a goth surf apparel storefront with Stripe checkout and automatic Printful fulfillment.">
+<meta property="og:url" content="https://graysmithlabs.com/work/valentine-tide.html">
+<meta property="og:image" content="https://graysmithlabs.com/assets/work/valentine-tide/home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../#apps">Apps</a>
+      <a href="../work/valentine-tide.html" aria-current="page">Work</a>
+      <a href="../#services">Services</a>
+      <a href="../#about">About</a>
+      <a class="btn sm" href="../#contact">Start a project</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <p class="crumbs"><a href="../#work">Work</a> &nbsp;/&nbsp; Valentine Tide</p>
+    <div style="padding:48px 0 24px">
+      <p class="eyebrow rise d1">Case study &middot; Brand site and storefront</p>
+      <h1 class="rise d2">Valentine Tide: <em>surf the shadows.</em></h1>
+      <p class="lede rise d3">Valentine Tide is a goth and punk surf apparel label in the Graysmith Labs portfolio. The goal: a site that feels as dark and heavy as the clothes, and a shop that fulfills itself.</p>
+      <div class="btn-row rise d3" style="margin-top:32px">
+        <a class="btn" href="https://valentinetide.com" rel="noopener">Visit valentinetide.com</a>
+        <a class="btn ghost" href="#contact">Start a similar project</a>
+      </div>
+    </div>
+    <div class="case-hero rise d4"><img src="../assets/work/valentine-tide/home.jpg" alt="The Valentine Tide homepage with a blackletter wordmark and a Shop the drop button" width="1440" height="900"></div>
+    <div class="facts-bar" style="margin-top:40px">
+      <div><span class="label">Scope</span><p>Design, development, commerce</p></div>
+      <div><span class="label">Stack</span><p>HTML, CSS, JavaScript</p></div>
+      <div><span class="label">Commerce</span><p>Stripe and Printful</p></div>
+      <div><span class="label">Backend</span><p>Cloudflare Worker</p></div>
+      <div><span class="label">Live at</span><p><a class="link" href="https://valentinetide.com">valentinetide.com</a></p></div>
+    </div>
+  </div>
+
+  <section class="first">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">The identity</p>
+        <h2>Blackletter, bone, and <em>blood.</em></h2>
+      </div>
+      <div class="prose">
+        <p>The brand lives somewhere between a surf shop and a record store after midnight. The site leans all the way in: a blackletter wordmark set in Pirata One, clean Inter for everything you need to read, and a palette of just three colors.</p>
+        <p>A faint repeating wordmark sits behind the hero like a watermark, so the page feels textured without a single photograph.</p>
+        <div class="swatches">
+          <span class="swatch"><i style="background:#F5F0E8"></i>Bone #F5F0E8</span>
+          <span class="swatch"><i style="background:#8B0000"></i>Blood #8B0000</span>
+          <span class="swatch"><i style="background:#161616"></i>Near black #161616</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="gallery">
+        <figure><img src="../assets/work/valentine-tide/wordmark.png" alt="Valentine Tide wordmark" loading="lazy"><figcaption>The wordmark, used across the site, merch, and social.</figcaption></figure>
+        <figure><img src="../assets/work/valentine-tide/tee.jpg" alt="Black Wordmark Tee with the Valentine Tide logo across the chest" loading="lazy" style="padding:0;object-fit:cover"><figcaption>Drop 001: the Wordmark Tee, printed to order.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">The build</p>
+        <h2>A shop that <em>runs itself.</em></h2>
+        <p class="muted" style="margin-top:18px;max-width:40ch">No inventory, no packing, no platform fees beyond payment processing.</p>
+      </div>
+      <ul class="checks">
+        <li><strong>Catalog driven shop.</strong> Products, sizes, and prices live in one small catalog file, so adding a drop is an edit, not a redesign.</li>
+        <li><strong>Stripe Checkout.</strong> Payment happens on Stripe's hosted checkout, with shipping rates and a free shipping threshold built in.</li>
+        <li><strong>Automatic fulfillment.</strong> A Stripe webhook on a Cloudflare Worker is built to place the matching Printful order, so each tee is printed and shipped without anyone touching it.</li>
+        <li><strong>Email capture.</strong> A "Join the cult" signup with accessible validation and screen reader announcements.</li>
+        <li><strong>Fast and simple.</strong> Plain HTML, CSS, and JavaScript with no framework or build step, hosted on a custom domain.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow" style="color:#a9c7b0">Contact</p>
+          <h2>Launching a brand? <em>Let's make it unforgettable.</em></h2>
+          <p>Tell us what you are building, who it is for, and when you would like it live. Your message goes straight to Ramsey, who will build it.</p>
+        </div>
+        <div class="side">
+          <span class="label">Email</span>
+          <a class="email" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a>
+          <ul>
+            <li>New iOS apps, from idea to App Store</li>
+            <li>Taking over or rescuing an existing app</li>
+            <li>Websites and storefronts for brands</li>
+          </ul>
+          <a class="btn" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">Email Ramsey</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent iOS studio in Colorado. We design, build, and ship apps, and we run our own on the App Store.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../#services">Services</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; 2026 Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

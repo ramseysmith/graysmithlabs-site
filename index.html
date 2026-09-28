@@ -3,202 +3,281 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Graysmith Labs</title>
-<meta name="description" content="Graysmith Labs builds software and mobile applications.">
+<title>Graysmith Labs | iOS app studio in Colorado</title>
+<meta name="description" content="Graysmith Labs designs, builds, and ships iPhone apps. Five apps live on the App Store, every one rated 5.0. Available for client projects.">
+<link rel="canonical" href="https://graysmithlabs.com/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Graysmith Labs | iOS app studio in Colorado">
+<meta property="og:description" content="Graysmith Labs designs, builds, and ships iPhone apps. Five apps live on the App Store, every one rated 5.0. Available for client projects.">
+<meta property="og:url" content="https://graysmithlabs.com/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --ink: #15171a;
-    --paper: #f4f1ea;
-    --muted: #6b6760;
-    --accent: #3b5641;
-    --line: #d8d3c8;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font-family: "Spline Sans Mono", monospace;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-  }
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-image: radial-gradient(var(--line) 0.5px, transparent 0.5px);
-    background-size: 22px 22px;
-    opacity: 0.5;
-    pointer-events: none;
-    z-index: 0;
-  }
-  .wrap {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 0 32px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 38px 0;
-    border-bottom: 1px solid var(--line);
-  }
-  .mark {
-    font-family: "Fraunces", serif;
-    font-weight: 600;
-    font-size: 21px;
-    letter-spacing: -0.01em;
-    display: flex;
-    align-items: center;
-    gap: 11px;
-  }
-  .glyph {
-    width: 30px; height: 30px;
-    border: 1.5px solid var(--ink);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 14px;
-    font-family: "Fraunces", serif;
-  }
-  .est {
-    font-size: 12px;
-    color: var(--muted);
-    letter-spacing: 0.04em;
-  }
-  main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 70px 0;
-  }
-  .eyebrow {
-    font-size: 12.5px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 28px;
-    opacity: 0;
-    animation: rise 0.7s 0.05s ease forwards;
-  }
-  h1 {
-    font-family: "Fraunces", serif;
-    font-weight: 400;
-    font-size: clamp(38px, 7vw, 70px);
-    line-height: 1.04;
-    letter-spacing: -0.02em;
-    max-width: 16ch;
-    margin-bottom: 34px;
-    opacity: 0;
-    animation: rise 0.7s 0.18s ease forwards;
-  }
-  h1 em {
-    font-style: italic;
-    color: var(--accent);
-  }
-  .lede {
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--muted);
-    max-width: 54ch;
-    opacity: 0;
-    animation: rise 0.7s 0.32s ease forwards;
-  }
-  .meta {
-    margin-top: 64px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 28px 40px;
-    padding-top: 36px;
-    border-top: 1px solid var(--line);
-    opacity: 0;
-    animation: rise 0.7s 0.46s ease forwards;
-  }
-  .meta h3 {
-    font-size: 11px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  .meta p { font-size: 14px; line-height: 1.6; }
-  .meta a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--accent); padding-bottom: 1px; transition: color 0.2s; }
-  .meta a:hover { color: var(--accent); }
-  footer {
-    position: relative;
-    z-index: 1;
-    border-top: 1px solid var(--line);
-    margin-top: auto;
-  }
-  .foot-inner {
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 26px 32px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
-    font-size: 12px;
-    color: var(--muted);
-    letter-spacing: 0.02em;
-  }
-  @keyframes rise {
-    from { opacity: 0; transform: translateY(14px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @media (max-width: 560px) {
-    .wrap { padding: 0 22px; }
-    header { padding: 28px 0; }
-    main { padding: 48px 0; }
-    .foot-inner { padding: 22px; }
-  }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
   <div class="wrap">
-    <header>
-      <div class="mark"><span class="glyph">G</span> Graysmith Labs</div>
-      <div class="est">EST. 2026 &middot; COLORADO</div>
-    </header>
-    <main>
-      <div class="eyebrow">Software &amp; Mobile Applications</div>
-      <h1>We design and build <em>thoughtful</em> software for everyday life.</h1>
-      <p class="lede">Graysmith Labs is an independent studio creating mobile applications and digital products. We ship our own apps and brands, with a focus on simple tools people actually enjoy using.</p>
-      <div class="meta">
+    <a class="mark" href="./"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./#apps">Apps</a>
+      <a href="work/valentine-tide.html">Work</a>
+      <a href="./#services">Services</a>
+      <a href="./#about">About</a>
+      <a class="btn sm" href="./#contact">Start a project</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap hero">
+    <p class="eyebrow rise d1">Independent iOS studio &middot; Colorado</p>
+    <h1 class="rise d2">We design, build, and ship iPhone apps people <em>keep using.</em></h1>
+    <p class="lede rise d3">Graysmith Labs is a small studio that takes apps from idea to App Store and keeps them growing after launch. We know it works because we do it for ourselves: five apps of our own are live today, every one rated 5.0.</p>
+    <div class="btn-row rise d3">
+      <a class="btn" href="#contact">Start a project</a>
+      <a class="btn ghost" href="#apps">See our apps</a>
+    </div>
+    <div class="icon-strip rise d4" aria-label="Our apps">
+        <a href="apps/drift.html" title="Drift"><img src="assets/apps/drift/icon.png" alt="Drift app icon" width="56" height="56"></a>
+        <a href="apps/signsnap.html" title="SignSnap"><img src="assets/apps/signsnap/icon.png" alt="SignSnap app icon" width="56" height="56"></a>
+        <a href="apps/blitztap.html" title="BlitzTap"><img src="assets/apps/blitztap/icon.png" alt="BlitzTap app icon" width="56" height="56"></a>
+        <a href="apps/celebriday.html" title="CelebriDay"><img src="assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="56" height="56"></a>
+        <a href="apps/saybright.html" title="SayBright"><img src="assets/apps/saybright/icon.png" alt="SayBright app icon" width="56" height="56"></a>
+    </div>
+    <div class="stats rise d4">
+      <div class="stat"><b>5</b><span>apps live on the App Store</span></div>
+      <div class="stat"><b>5.0</b><span>App Store rating on every one of them</span></div>
+      <div class="stat"><b>7 mo</b><span>from our first launch to our fifth</span></div>
+      <div class="stat"><b>1</b><span>studio handling design, code, launch, and growth</span></div>
+    </div>
+  </div>
+
+  <section id="apps">
+    <div class="wrap">
+      <div class="sec-head">
         <div>
-          <h3>Company</h3>
-          <p>Graysmith Labs LLC<br>A Colorado limited liability company</p>
+          <p class="eyebrow">Our apps</p>
+          <h2>Five apps, <em>designed and shipped</em> in house.</h2>
         </div>
+        <p>Each one is a real product with real users, subscriptions, and ongoing updates. They are the best proof of what we can build for you.</p>
+      </div>
+      <div class="app-grid">
+        <a class="app-card" href="apps/drift.html">
+          <div class="top">
+            <img src="assets/apps/drift/icon.png" alt="" width="60" height="60" loading="lazy">
+            <div><h3>Drift</h3><span class="tag">Health and Fitness</span></div>
+          </div>
+          <p>Calming sleep sounds with a timer, background playback, and a dark interface built for the bedroom.</p>
+          <span class="go">View the app &rarr;</span>
+        </a>
+        <a class="app-card" href="apps/signsnap.html">
+          <div class="top">
+            <img src="assets/apps/signsnap/icon.png" alt="" width="60" height="60" loading="lazy">
+            <div><h3>SignSnap</h3><span class="tag">Business</span></div>
+          </div>
+          <p>Scan paper or import a PDF, drop in your signature, and share a clean signed PDF in seconds.</p>
+          <span class="go">View the app &rarr;</span>
+        </a>
+        <a class="app-card" href="apps/blitztap.html">
+          <div class="top">
+            <img src="assets/apps/blitztap/icon.png" alt="" width="60" height="60" loading="lazy">
+            <div><h3>BlitzTap</h3><span class="tag">Games</span></div>
+          </div>
+          <p>A lightning fast shape matching game with four difficulty tiers, streak multipliers, and tight haptics.</p>
+          <span class="go">View the app &rarr;</span>
+        </a>
+        <a class="app-card" href="apps/celebriday.html">
+          <div class="top">
+            <img src="assets/apps/celebriday/icon.png" alt="" width="60" height="60" loading="lazy">
+            <div><h3>CelebriDay</h3><span class="tag">Lifestyle</span></div>
+          </div>
+          <p>A daily holiday, a fun fact, and a shareable card every morning, with a full year calendar to browse.</p>
+          <span class="go">View the app &rarr;</span>
+        </a>
+        <a class="app-card" href="apps/saybright.html">
+          <div class="top">
+            <img src="assets/apps/saybright/icon.png" alt="" width="60" height="60" loading="lazy">
+            <div><h3>SayBright</h3><span class="tag">Health and Fitness</span></div>
+          </div>
+          <p>Personal daily affirmations with streaks, share cards, reminders, and home and lock screen widgets.</p>
+          <span class="go">View the app &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head">
         <div>
-          <h3>What we do</h3>
-          <p>Mobile app development<br>Consumer software &amp; brands</p>
+          <p class="eyebrow">Featured work</p>
+          <h2>Beyond the App Store: <em>brands on the web.</em></h2>
         </div>
+        <p>We also design and build websites and storefronts, with the same care we put into apps.</p>
+      </div>
+      <article class="feature">
+        <div class="shot"><img src="assets/work/valentine-tide/home.jpg" alt="The Valentine Tide homepage: a gothic blackletter wordmark in bone and blood red on near black, with a Shop the drop button" loading="lazy"></div>
+        <div class="body">
+          <p class="eyebrow">Valentine Tide &middot; valentinetide.com</p>
+          <h3>A storefront for a goth surf apparel label.</h3>
+          <p>A dark, moody brand site with a blackletter identity, a shop that renders from a simple product catalog, and a checkout flow designed to hand paid orders straight to print on demand fulfillment.</p>
+          <ul>
+            <li>Brand led design in bone, blood red, and near black</li>
+            <li>Stripe Checkout wired to Printful print on demand</li>
+            <li>Fast static site, no framework, custom domain</li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn" href="work/valentine-tide.html">Read the case study</a>
+            <a class="btn ghost" href="https://valentinetide.com" rel="noopener">Visit the site</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="sec-head">
         <div>
-          <h3>Contact</h3>
-          <p><a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+          <p class="eyebrow">Services</p>
+          <h2>Everything it takes to <em>get to launch</em> and beyond.</h2>
+        </div>
+        <p>Hire us for the whole journey or just the part you need. You work directly with the person building your product.</p>
+      </div>
+      <div class="grid-2">
+        <div class="service">
+          <span class="num">01</span>
+          <h3>iOS app design and development</h3>
+          <p>Native feeling iPhone and iPad apps built with React Native and Expo in TypeScript, so one codebase can reach Android when you are ready.</p>
+          <ul><li class="tag">React Native</li><li class="tag">Expo</li><li class="tag">TypeScript</li><li class="tag">Swift widgets</li></ul>
+        </div>
+        <div class="service">
+          <span class="num">02</span>
+          <h3>App Store launch</h3>
+          <p>Store listings, screenshots, privacy details, subscriptions setup, and App Review. We have shepherded five apps through it this year.</p>
+          <ul><li class="tag">App Store Connect</li><li class="tag">EAS Build</li><li class="tag">App Review</li></ul>
+        </div>
+        <div class="service">
+          <span class="num">03</span>
+          <h3>Monetization and growth</h3>
+          <p>Subscriptions, one time purchases, and ads, wired up and measured. Paywalls, free tiers, and ratings prompts that respect your users.</p>
+          <ul><li class="tag">RevenueCat</li><li class="tag">StoreKit</li><li class="tag">AdMob</li></ul>
+        </div>
+        <div class="service">
+          <span class="num">04</span>
+          <h3>Websites and storefronts</h3>
+          <p>Fast, hand built sites for apps and brands, including commerce with Stripe and print on demand fulfillment.</p>
+          <ul><li class="tag">HTML and CSS</li><li class="tag">Stripe</li><li class="tag">Cloudflare Workers</li></ul>
         </div>
       </div>
-    </main>
-  </div>
-  <footer>
-    <div class="foot-inner">
-      <span>&copy; 2026 Graysmith Labs LLC</span>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Process</p>
+          <h2>A clear path from <em>idea to App Store.</em></h2>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="step"><span class="num">i.</span><h3>Scope</h3><p>A conversation about the problem, the users, and the budget, followed by a written plan and estimate.</p></div>
+        <div class="step"><span class="num">ii.</span><h3>Design</h3><p>Flows and screens you can tap through before any heavy engineering begins.</p></div>
+        <div class="step"><span class="num">iii.</span><h3>Build</h3><p>Regular TestFlight builds so you see real progress on your own phone, not just status reports.</p></div>
+        <div class="step"><span class="num">iv.</span><h3>Launch and grow</h3><p>Store listing, App Review, and release, then updates guided by ratings, reviews, and revenue.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>A studio that <em>ships its own work.</em></h2>
+      </div>
+      <div>
+        <div class="prose">
+          <p>Graysmith Labs is run by <strong>Ramsey Graysmith</strong> out of Centennial, Colorado. The studio builds and publishes its own consumer apps, which means every recommendation we make has been tested on a live product with paying users.</p>
+          <p>That shows up in the details clients care about: apps built with App Review in mind, subscriptions that are set up correctly, and code that stays maintainable long after launch.</p>
+        </div>
+        <div class="facts" style="margin-top:36px">
+          <div><span class="label">Company</span><p>Graysmith Labs LLC, a Colorado limited liability company</p></div>
+          <div><span class="label">Based in</span><p>Centennial, Colorado. Working with clients anywhere in the United States.</p></div>
+          <div><span class="label">Contact</span><p><a class="link" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow" style="color:#a9c7b0">Contact</p>
+          <h2>Have an app in mind? <em>Let's build it.</em></h2>
+          <p>Tell us what you are building, who it is for, and when you would like it live. Your message goes straight to Ramsey, who will build it.</p>
+        </div>
+        <div class="side">
+          <span class="label">Email</span>
+          <a class="email" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a>
+          <ul>
+            <li>New iOS apps, from idea to App Store</li>
+            <li>Taking over or rescuing an existing app</li>
+            <li>Websites and storefronts for brands</li>
+          </ul>
+          <a class="btn" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">Email Ramsey</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="./"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent iOS studio in Colorado. We design, build, and ship apps, and we run our own on the App Store.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="apps/drift.html">Drift</a></li>
+          <li><a href="apps/signsnap.html">SignSnap</a></li>
+          <li><a href="apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="apps/saybright.html">SayBright</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="./#services">Services</a></li>
+          <li><a href="./#process">Process</a></li>
+          <li><a href="./#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; 2026 Graysmith Labs LLC &middot; A Colorado limited liability company</span>
       <span>Centennial, Colorado &middot; United States</span>
     </div>
-  </footer>
+  </div>
+</footer>
 </body>
 </html>
