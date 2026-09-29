@@ -96,23 +96,45 @@
     });
   });
 
-  // Inquiry form: compose a tidy email in the visitor's own mail app
+  // Inquiry form: send in the background through FormSubmit, then show a thank you panel.
+  // If the service can't be reached, fall back to a prefilled email in the visitor's own mail app.
   var form = document.getElementById("inquiry");
+  var sent = document.getElementById("sent");
+  var showSent = function () {
+    if (!form || !sent) return;
+    form.hidden = true;
+    sent.hidden = false;
+    sent.focus({ preventScroll: true });
+  };
   if (form) {
+    if (/[?&]sent=1/.test(location.search)) showSent();
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       var v = function (id) { return (document.getElementById(id).value || "").trim(); };
-      var name = v("f-name"), company = v("f-company"), type = v("f-type");
-      var subject = type + " inquiry" + (company ? " from " + company : name ? " from " + name : "");
-      var body = [
-        "Name: " + name,
-        company ? "Company: " + company : "",
-        "Looking for: " + type,
-        "Budget: " + v("f-budget"),
-        "",
-        v("f-msg")
-      ].filter(function (l, i) { return l !== "" || i === 4; }).join("\n");
-      location.href = "mailto:ramsey@graysmithlabs.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      var btn = form.querySelector("button[type=submit]");
+      var note = document.getElementById("form-note");
+      var data = {};
+      new FormData(form).forEach(function (val, key) { data[key] = val; });
+      if (data._honey) { showSent(); return; }
+      data._replyto = data.email;
+      data._subject = v("f-type") + " inquiry from " + (v("f-company") || v("f-name"));
+      btn.disabled = true;
+      btn.firstChild.textContent = "Sending ";
+      fetch("https://formsubmit.co/ajax/ramsey@graysmithlabs.com", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(data)
+      }).then(function (r) { return r.json(); }).then(function (res) {
+        if (String(res.success) !== "true") throw new Error(res.message || "Not sent");
+        showSent();
+      }).catch(function () {
+        var body = ["Name: " + v("f-name"), "Email: " + v("f-email"), "Company: " + v("f-company"),
+          "Looking for: " + v("f-type"), "Budget: " + v("f-budget"), "Timeline: " + v("f-timeline"), "", v("f-msg")].join("\n");
+        note.textContent = "Something went wrong sending that. Opening your email app with everything filled in instead.";
+        btn.disabled = false;
+        btn.firstChild.textContent = "Send inquiry ";
+        location.href = "mailto:ramsey@graysmithlabs.com?subject=" + encodeURIComponent(data._subject) + "&body=" + encodeURIComponent(body);
+      });
     });
   }
 

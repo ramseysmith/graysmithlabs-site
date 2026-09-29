@@ -576,7 +576,7 @@ section.first { border-top: 0; }
 .faq-list details[open] p { animation: pop 0.35s ease; }
 
 /* Contact form and extras */
-.contact-card { position: relative; overflow: hidden; }
+.contact-card { position: relative; overflow: hidden; overflow: clip; }
 .contact-card::before {
   content: ""; position: absolute; width: 420px; height: 420px; right: -140px; top: -180px; border-radius: 50%;
   background: radial-gradient(circle, rgba(169, 199, 176, 0.18), transparent 70%); pointer-events: none;
@@ -671,3 +671,25 @@ section.first { border-top: 0; }
   .art-term .ok span { opacity: 1; }
   .phones img:nth-child(2) { transform: translateY(-22px); }
 }
+
+/* Inquiry form: honeypot, sending state, and thank you panel */
+.inquiry[hidden] { display: none; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.inquiry .btn[disabled] { opacity: 0.7; cursor: progress; transform: none; }
+.sent { display: grid; gap: 16px; justify-items: start; align-self: center; animation: pop 0.5s ease; }
+.sent[hidden] { display: none; }
+.sent:focus { outline: none; }
+.sent h3 { font-size: clamp(26px, 3vw, 34px); }
+.sent h3 em { font-style: italic; color: #a9c7b0; }
+.sent p { margin-top: 0; }
+.sent-ico {
+  width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(169, 199, 176, 0.16); color: #a9c7b0;
+  box-shadow: 0 0 0 8px rgba(169, 199, 176, 0.06);
+}
+.sent-ico svg {
+  width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+  stroke-dasharray: 24; stroke-dashoffset: 24; animation: draw 0.6s ease 0.2s forwards;
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .sent-ico svg { stroke-dashoffset: 0; } }
