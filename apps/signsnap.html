@@ -20,6 +20,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -27,11 +28,16 @@
   <div class="wrap">
     <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
     <nav class="nav" aria-label="Main">
-      <a href="../#services">Services</a>
-      <a href="../work/valentine-tide.html">Work</a>
-      <a href="../#apps" aria-current="page">Apps</a>
-      <a href="../#about">About</a>
+      <div class="nav-links" id="nav-links">
+        <a href="../#services">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps" aria-current="page">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
       <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
     </nav>
   </div>
 </header>
@@ -152,6 +158,8 @@
           <li><a href="../#services">Services</a></li>
           <li><a href="../#ai">AI</a></li>
           <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
           <li><a href="../#about">About</a></li>
         </ul>
       </div>
@@ -164,7 +172,7 @@
       </div>
     </div>
     <div class="foot-base">
-      <span>&copy; 2026 Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
       <span>Centennial, Colorado &middot; United States</span>
     </div>
   </div>

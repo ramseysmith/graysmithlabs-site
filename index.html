@@ -20,6 +20,90 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script src="main.js" defer></script>
+<script type="application/ld+json">
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Graysmith Labs",
+  "legalName": "Graysmith Labs LLC",
+  "url": "https://graysmithlabs.com/",
+  "logo": "https://graysmithlabs.com/favicon.svg",
+  "image": "https://graysmithlabs.com/assets/og.png",
+  "email": "ramsey@graysmithlabs.com",
+  "description": "Software studio building web, mobile, desktop, backend, and AI software.",
+  "founder": {
+   "@type": "Person",
+   "name": "Ramsey Graysmith"
+  },
+  "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Centennial",
+   "addressRegion": "CO",
+   "addressCountry": "US"
+  },
+  "areaServed": "US",
+  "sameAs": [
+   "https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911"
+  ]
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "How much does a project cost?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "It depends on scope, so every project gets a written estimate after a free scoping call. Defined builds get a fixed price. Contract engineering is billed at a weekly or monthly rate."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How long does it take?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The timeline is set in the written plan before work starts. Because we share working builds regularly, you see real progress from the first week, not just status reports."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Who owns the code?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "You do. Once the work is paid for, the code, designs, and accounts belong to your company, and everything is documented so any engineer can pick it up."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Can you work inside our existing codebase and team?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. Contract engineering is built for exactly that: we join your repos, tools, and review process and work like any other member of the team."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "What happens after launch?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Software needs care after it ships. A monthly care plan covers operating system and store updates, fixes, monitoring, and ongoing improvements guided by real usage."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do you use AI?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "AI accelerates and enhances the work. Every change is still reviewed and owned by the engineer doing it, so you get the speed without giving up quality."
+    }
+   }
+  ]
+ }
+]
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -27,28 +111,73 @@
   <div class="wrap">
     <a class="mark" href="./"><span class="glyph">G</span> Graysmith Labs</a>
     <nav class="nav" aria-label="Main">
-      <a href="./#services">Services</a>
-      <a href="work/valentine-tide.html">Work</a>
-      <a href="./#apps">Apps</a>
-      <a href="./#about">About</a>
+      <div class="nav-links" id="nav-links">
+        <a href="./#services">Services</a>
+        <a href="work/valentine-tide.html">Work</a>
+        <a href="./#apps">Apps</a>
+        <a href="./#about">About</a>
+        <a href="./#faq">FAQ</a>
+        <a class="menu-cta" href="./#contact">Start a project &rarr;</a>
+      </div>
       <a class="btn sm" href="./#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
     </nav>
   </div>
 </header>
 <main id="main">
   <div class="wrap hero">
-    <p class="eyebrow rise d1">Software studio &middot; Colorado</p>
-    <h1 class="rise d2">Elegant software, built for <em>every platform.</em></h1>
-    <p class="lede rise d3">Graysmith Labs designs and builds software for the web, mobile, desktop, and the cloud. Companies contract us for everything from a single feature to a full product, accelerated and enhanced by AI.</p>
-    <div class="btn-row rise d3">
-      <a class="btn" href="#contact">Start a project</a>
-      <a class="btn ghost" href="#services">What we do</a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow rise d1"><span class="avail"><i></i>Booking new projects</span> Software studio &middot; Colorado</p>
+        <h1 class="rise d2">Elegant software, built for <em>every platform.</em></h1>
+        <p class="lede rise d3">Graysmith Labs designs and builds software for the web, mobile, desktop, and the cloud. Companies contract us for everything from a single feature to a full product, accelerated and enhanced by AI.</p>
+        <div class="btn-row rise d3">
+          <a class="btn" href="#contact">Start a project <span class="arrow" aria-hidden="true">&rarr;</span></a>
+          <a class="btn ghost" href="#services">What we do</a>
+        </div>
+      </div>
+      <div class="hero-art rise d4" aria-hidden="true">
+        <div class="art-ring"></div>
+        <div class="art-win">
+          <div class="art-bar"><i></i><i></i><i></i><span>yourproduct.com</span></div>
+          <div class="art-body">
+            <div class="sk w70"></div>
+            <div class="sk w45"></div>
+            <div class="art-chart"><b style="--h:38%"></b><b style="--h:52%"></b><b style="--h:46%"></b><b style="--h:68%"></b><b style="--h:61%"></b><b style="--h:84%"></b><b style="--h:92%"></b></div>
+            <div class="art-row"><span class="pill"></span><span class="pill ghost"></span></div>
+          </div>
+        </div>
+        <div class="art-phone">
+          <div class="notch"></div>
+          <img src="assets/apps/drift/icon.png" alt="" width="44" height="44">
+          <div class="sk w70"></div>
+          <div class="sk w45"></div>
+          <div class="art-list"><span></span><span></span><span></span></div>
+          <div class="pill"></div>
+        </div>
+        <div class="art-term">
+          <div><span class="p">$</span> <span class="typed">ship --everywhere</span></div>
+          <div class="ok"><span>&check; web</span><span>&check; ios</span><span>&check; android</span><span>&check; api</span></div>
+        </div>
+        <div class="art-chip"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>AI assisted</div>
+      </div>
     </div>
     <div class="stats rise d4">
       <div class="stat"><b>Any</b><span>platform: web, iOS, Android, desktop, and backend</span></div>
       <div class="stat"><b>AI</b><span>accelerating and enhancing everything we build</span></div>
-      <div class="stat"><b>5</b><span>products of our own live on the App Store</span></div>
-      <div class="stat"><b>5.0</b><span>App Store rating on every one of them</span></div>
+      <div class="stat"><b data-count="5">5</b><span>products of our own live on the App Store</span></div>
+      <div class="stat"><b data-count="5.0">5.0</b><span>App Store rating on every one of them</span></div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-label="Tools and platforms we work with">
+    <div class="marquee-track">
+      <ul>
+        <li>TypeScript</li><li>React</li><li>React Native</li><li>Expo</li><li>Swift</li><li>Node.js</li><li>Cloudflare Workers</li><li>Serverless</li><li>Stripe</li><li>RevenueCat</li><li>LLMs and agents</li><li>iOS</li><li>Android</li><li>Desktop</li>
+      </ul>
+      <ul aria-hidden="true">
+        <li>TypeScript</li><li>React</li><li>React Native</li><li>Expo</li><li>Swift</li><li>Node.js</li><li>Cloudflare Workers</li><li>Serverless</li><li>Stripe</li><li>RevenueCat</li><li>LLMs and agents</li><li>iOS</li><li>Android</li><li>Desktop</li>
+      </ul>
     </div>
   </div>
 
@@ -63,37 +192,37 @@
       </div>
       <div class="grid-3">
         <div class="service">
-          <span class="num">01</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span><span class="num">01</span></div>
           <h3>Contract engineering</h3>
           <p>Bring us onto your team to own a feature, a product, or a backlog. We work in your repos, your tools, and your review process.</p>
           <ul><li class="tag">Contract</li><li class="tag">Embedded</li><li class="tag">Any stack</li></ul>
         </div>
         <div class="service">
-          <span class="num">02</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M6.5 6.5h.01M9 6.5h.01"/></svg></span><span class="num">02</span></div>
           <h3>Web applications</h3>
           <p>Fast, accessible web apps and sites, from marketing pages to full products with accounts, payments, and dashboards.</p>
           <ul><li class="tag">TypeScript</li><li class="tag">React</li><li class="tag">Stripe</li></ul>
         </div>
         <div class="service">
-          <span class="num">03</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span><span class="num">03</span></div>
           <h3>Mobile apps</h3>
           <p>iOS and Android apps from one codebase, taken all the way through store review and launch. Five of our own are live today.</p>
           <ul><li class="tag">React Native</li><li class="tag">Expo</li><li class="tag">Swift</li></ul>
         </div>
         <div class="service">
-          <span class="num">04</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.7 1.8L21.5 17.5l-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z"/></svg></span><span class="num">04</span></div>
           <h3>AI features and automation</h3>
           <p>Practical AI inside your product and your operations: assistants, search, summaries, and agents that take repetitive work off your team.</p>
           <ul><li class="tag">LLMs</li><li class="tag">Agents</li><li class="tag">Automation</li></ul>
         </div>
         <div class="service">
-          <span class="num">05</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="7" rx="1.5"/><rect x="3" y="13" width="18" height="7" rx="1.5"/><path d="M7 7.5h.01M7 16.5h.01M11 7.5h6M11 16.5h6"/></svg></span><span class="num">05</span></div>
           <h3>Backend and cloud</h3>
           <p>APIs, webhooks, background jobs, and serverless infrastructure that stay quiet, fast, and reliable.</p>
           <ul><li class="tag">APIs</li><li class="tag">Serverless</li><li class="tag">Cloudflare Workers</li></ul>
         </div>
         <div class="service">
-          <span class="num">06</span>
+          <div class="svc-top"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><span class="num">06</span></div>
           <h3>Launch and growth</h3>
           <p>Payments, subscriptions, analytics, and store listings, set up correctly and measured from day one.</p>
           <ul><li class="tag">Stripe</li><li class="tag">RevenueCat</li><li class="tag">Analytics</li></ul>
@@ -104,6 +233,7 @@
 
   <section id="ai">
     <div class="wrap ai-note">
+      <div class="ai-spark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg></div>
       <p class="eyebrow">AI enabled</p>
       <h2>Accelerated. <em>Enhanced.</em></h2>
       <p class="lede">We use AI to accelerate and enhance everything we build. How we do it is our craft.</p>
@@ -155,7 +285,7 @@
             <div><h3>Drift</h3><span class="tag">Health and Fitness</span></div>
           </div>
           <p>Calming sleep sounds with a timer, background playback, and a dark interface built for the bedroom.</p>
-          <span class="go">View the app &rarr;</span>
+          <div class="card-foot"><span class="go">View the app <span class="arrow">&rarr;</span></span><span class="stars" aria-label="Rated 5.0 on the App Store">&#9733;&#9733;&#9733;&#9733;&#9733; <b>5.0</b></span></div>
         </a>
         <a class="app-card" href="apps/signsnap.html">
           <div class="top">
@@ -163,7 +293,7 @@
             <div><h3>SignSnap</h3><span class="tag">Business</span></div>
           </div>
           <p>Scan paper or import a PDF, drop in your signature, and share a clean signed PDF in seconds.</p>
-          <span class="go">View the app &rarr;</span>
+          <div class="card-foot"><span class="go">View the app <span class="arrow">&rarr;</span></span><span class="stars" aria-label="Rated 5.0 on the App Store">&#9733;&#9733;&#9733;&#9733;&#9733; <b>5.0</b></span></div>
         </a>
         <a class="app-card" href="apps/blitztap.html">
           <div class="top">
@@ -171,7 +301,7 @@
             <div><h3>BlitzTap</h3><span class="tag">Games</span></div>
           </div>
           <p>A lightning fast shape matching game with four difficulty tiers, streak multipliers, and tight haptics.</p>
-          <span class="go">View the app &rarr;</span>
+          <div class="card-foot"><span class="go">View the app <span class="arrow">&rarr;</span></span><span class="stars" aria-label="Rated 5.0 on the App Store">&#9733;&#9733;&#9733;&#9733;&#9733; <b>5.0</b></span></div>
         </a>
         <a class="app-card" href="apps/celebriday.html">
           <div class="top">
@@ -179,7 +309,7 @@
             <div><h3>CelebriDay</h3><span class="tag">Lifestyle</span></div>
           </div>
           <p>A daily holiday, a fun fact, and a shareable card every morning, with a full year calendar to browse.</p>
-          <span class="go">View the app &rarr;</span>
+          <div class="card-foot"><span class="go">View the app <span class="arrow">&rarr;</span></span><span class="stars" aria-label="Rated 5.0 on the App Store">&#9733;&#9733;&#9733;&#9733;&#9733; <b>5.0</b></span></div>
         </a>
         <a class="app-card" href="apps/saybright.html">
           <div class="top">
@@ -187,7 +317,7 @@
             <div><h3>SayBright</h3><span class="tag">Health and Fitness</span></div>
           </div>
           <p>Personal daily affirmations with streaks, share cards, reminders, and home and lock screen widgets.</p>
-          <span class="go">View the app &rarr;</span>
+          <div class="card-foot"><span class="go">View the app <span class="arrow">&rarr;</span></span><span class="stars" aria-label="Rated 5.0 on the App Store">&#9733;&#9733;&#9733;&#9733;&#9733; <b>5.0</b></span></div>
         </a>
       </div>
     </div>
@@ -201,11 +331,70 @@
           <h2>A clear path from <em>idea to launch.</em></h2>
         </div>
       </div>
-      <div class="grid-4">
-        <div class="step"><span class="num">i.</span><h3>Scope</h3><p>A conversation about the problem, the users, and the budget, followed by a written plan and estimate.</p></div>
-        <div class="step"><span class="num">ii.</span><h3>Design</h3><p>Flows and screens you can click through before any heavy engineering begins.</p></div>
-        <div class="step"><span class="num">iii.</span><h3>Build</h3><p>Regular working builds you can try in your browser or on your own device, not just status reports.</p></div>
-        <div class="step"><span class="num">iv.</span><h3>Launch and grow</h3><p>Release to the web or the app stores, then improvements guided by real usage and data.</p></div>
+      <div class="grid-4 steps">
+        <div class="step"><div class="step-top"><span class="num">i.</span><svg class="step-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg></div><h3>Scope</h3><p>A conversation about the problem, the users, and the budget, followed by a written plan and estimate.</p></div>
+        <div class="step"><div class="step-top"><span class="num">ii.</span><svg class="step-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></svg></div><h3>Design</h3><p>Flows and screens you can click through before any heavy engineering begins.</p></div>
+        <div class="step"><div class="step-top"><span class="num">iii.</span><svg class="step-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg></div><h3>Build</h3><p>Regular working builds you can try in your browser or on your own device, not just status reports.</p></div>
+        <div class="step"><div class="step-top"><span class="num">iv.</span><svg class="step-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18c.7-2.4 1.8-3.6 3.5-4.5M14 4c3.2 0 6 2.8 6 6-1.6 4-5.4 7-8.8 8.2l-5.4-5.4C7 9.4 10 5.6 14 4z"/><circle cx="14.5" cy="9.5" r="1.6"/></svg></div><h3>Launch and grow</h3><p>Release to the web or the app stores, then improvements guided by real usage and data.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="engage">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Ways to work together</p>
+          <h2>Pick the shape that <em>fits your project.</em></h2>
+        </div>
+        <p>Every engagement starts with a free scoping call and a written estimate, so you know the cost before any work begins.</p>
+      </div>
+      <div class="engage-grid">
+        <article class="engage">
+          <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg></span>
+          <p class="label">Project build</p>
+          <h3>From idea to launched product.</h3>
+          <p>A fixed scope and a fixed quote for a new app, site, or major feature. Design, build, and launch, with working builds along the way.</p>
+          <ul class="checks">
+            <li>Written plan and fixed price</li>
+            <li>Clickable designs before code</li>
+            <li>Launch to web and app stores</li>
+          </ul>
+          <a class="btn ghost" href="#contact" data-engage="Project build">Plan a build <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="engage featured">
+          <span class="badge">Most flexible</span>
+          <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>
+          <p class="label">Contract engineering</p>
+          <h3>A senior engineer on your team.</h3>
+          <p>Weekly or monthly capacity to own features, clear a backlog, or ship an AI integration, working inside your repos and review process.</p>
+          <ul class="checks">
+            <li>Flexible weekly or monthly terms</li>
+            <li>Your stack, your tools, your standups</li>
+            <li>Scale up or down as needs change</li>
+          </ul>
+          <a class="btn" href="#contact" data-engage="Contract engineering">Add capacity <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="engage">
+          <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+          <p class="label">Care plan</p>
+          <h3>Keep it fast, current, and growing.</h3>
+          <p>A monthly plan for software that is already live: updates for new iOS and Android releases, fixes, monitoring, and small improvements.</p>
+          <ul class="checks">
+            <li>OS, store, and dependency updates</li>
+            <li>Priority fixes when something breaks</li>
+            <li>Monthly hours for improvements</li>
+          </ul>
+          <a class="btn ghost" href="#contact" data-engage="Care plan">Protect your app <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </article>
+      </div>
+      <div class="audit">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5M8.5 11h5M11 8.5v5"/></svg></span>
+        <div>
+          <h3>Not ready to commit? <em>Start with an audit.</em></h3>
+          <p>A short, fixed price review of your app, codebase, or App Store listing, with a written report of what to fix first and where AI could save your team time.</p>
+        </div>
+        <a class="btn ghost" href="#contact" data-engage="Audit">Request an audit</a>
       </div>
     </div>
   </section>
@@ -230,24 +419,81 @@
     </div>
   </section>
 
+  <section id="faq">
+    <div class="wrap faq">
+      <div>
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions, <em>answered.</em></h2>
+        <p class="muted" style="margin-top:18px;max-width:34ch">Anything else? <a class="link" href="mailto:ramsey@graysmithlabs.com?subject=Question">Just ask.</a></p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>How much does a project cost?</summary>
+          <p>It depends on scope, so every project gets a written estimate after a free scoping call. Defined builds get a fixed price. Contract engineering is billed at a weekly or monthly rate.</p>
+        </details>
+        <details>
+          <summary>How long does it take?</summary>
+          <p>The timeline is set in the written plan before work starts. Because we share working builds regularly, you see real progress from the first week, not just status reports.</p>
+        </details>
+        <details>
+          <summary>Who owns the code?</summary>
+          <p>You do. Once the work is paid for, the code, designs, and accounts belong to your company, and everything is documented so any engineer can pick it up.</p>
+        </details>
+        <details>
+          <summary>Can you work inside our existing codebase and team?</summary>
+          <p>Yes. Contract engineering is built for exactly that: we join your repos, tools, and review process and work like any other member of the team.</p>
+        </details>
+        <details>
+          <summary>What happens after launch?</summary>
+          <p>Software needs care after it ships. A monthly care plan covers operating system and store updates, fixes, monitoring, and ongoing improvements guided by real usage.</p>
+        </details>
+        <details>
+          <summary>How do you use AI?</summary>
+          <p>AI accelerates and enhances the work. Every change is still reviewed and owned by the engineer doing it, so you get the speed without giving up quality.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <section id="contact">
     <div class="wrap">
-      <div class="contact-card">
+      <div class="contact-card has-form">
         <div>
           <p class="eyebrow" style="color:#a9c7b0">Contact</p>
           <h2>Have a project in mind? <em>Let's build it.</em></h2>
           <p>Tell us what you are building, who it is for, and when you need it. Your message goes straight to Ramsey, who will do the work.</p>
-        </div>
-        <div class="side">
-          <span class="label">Email</span>
-          <a class="email" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a>
-          <ul>
-            <li>Contract engineering for your team</li>
-            <li>New products for web, mobile, and desktop</li>
-            <li>AI features and automation</li>
+          <ul class="promise">
+            <li>A personal reply, usually within one business day</li>
+            <li>A free scoping call and written estimate</li>
+            <li>Happy to sign an NDA before we talk</li>
           </ul>
-          <a class="btn" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">Email Ramsey</a>
         </div>
+        <form class="inquiry" id="inquiry" action="mailto:ramsey@graysmithlabs.com" method="post" enctype="text/plain">
+          <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="f-company">Company</label><input id="f-company" name="company" autocomplete="organization"></div>
+          <div class="field"><label for="f-type">What do you need?</label>
+            <select id="f-type" name="type">
+              <option>Project build</option>
+              <option>Contract engineering</option>
+              <option>Care plan</option>
+              <option>Audit</option>
+              <option>AI features or automation</option>
+              <option>Not sure yet</option>
+            </select></div>
+          <div class="field"><label for="f-budget">Budget</label>
+            <select id="f-budget" name="budget">
+              <option>Not sure yet</option>
+              <option>Under $10k</option>
+              <option>$10k to $25k</option>
+              <option>$25k to $50k</option>
+              <option>$50k and up</option>
+            </select></div>
+          <div class="field wide"><label for="f-msg">Tell us about the project</label><textarea id="f-msg" name="message" rows="4" placeholder="What you are building, who it is for, and when you need it."></textarea></div>
+          <div class="field wide form-foot">
+            <button class="btn" type="submit">Send inquiry <span class="arrow" aria-hidden="true">&rarr;</span></button>
+            <span class="form-note">Opens your email app with everything filled in. Or write to <a class="email-sm" href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></span>
+          </div>
+        </form>
       </div>
     </div>
   </section>
@@ -276,6 +522,8 @@
           <li><a href="./#services">Services</a></li>
           <li><a href="./#ai">AI</a></li>
           <li><a href="./#process">Process</a></li>
+          <li><a href="./#engage">Ways to work</a></li>
+          <li><a href="./#faq">FAQ</a></li>
           <li><a href="./#about">About</a></li>
         </ul>
       </div>
@@ -288,7 +536,7 @@
       </div>
     </div>
     <div class="foot-base">
-      <span>&copy; 2026 Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
       <span>Centennial, Colorado &middot; United States</span>
     </div>
   </div>
