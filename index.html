@@ -476,11 +476,12 @@
             <li>Happy to sign an NDA before we talk</li>
           </ul>
         </div>
-        <form class="inquiry" id="inquiry" action="https://formsubmit.co/ramsey@graysmithlabs.com" method="POST">
-          <input type="hidden" name="_subject" value="New project inquiry from graysmithlabs.com">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_next" value="https://graysmithlabs.com/?sent=1#contact">
-          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <form class="inquiry" id="inquiry" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c607b5b0-645c-4985-8f5b-4fb1147f6bbf">
+          <input type="hidden" name="subject" value="New project inquiry from graysmithlabs.com">
+          <input type="hidden" name="from_name" value="graysmithlabs.com">
+          <input type="hidden" name="redirect" value="https://graysmithlabs.com/?sent=1#contact">
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
           <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
           <div class="field"><label for="f-company">Company</label><input id="f-company" name="company" autocomplete="organization"></div>

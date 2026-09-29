@@ -96,7 +96,7 @@
     });
   });
 
-  // Inquiry form: send in the background through FormSubmit, then show a thank you panel.
+  // Inquiry form: send in the background through Web3Forms, then show a thank you panel.
   // If the service can't be reached, fall back to a prefilled email in the visitor's own mail app.
   var form = document.getElementById("inquiry");
   var sent = document.getElementById("sent");
@@ -115,12 +115,12 @@
       var note = document.getElementById("form-note");
       var data = {};
       new FormData(form).forEach(function (val, key) { data[key] = val; });
-      if (data._honey) { showSent(); return; }
-      data._replyto = data.email;
-      data._subject = v("f-type") + " inquiry from " + (v("f-company") || v("f-name"));
+      if (data.botcheck) { showSent(); return; }
+      delete data.redirect;
+      data.subject = v("f-type") + " inquiry from " + (v("f-company") || v("f-name"));
       btn.disabled = true;
       btn.firstChild.textContent = "Sending ";
-      fetch("https://formsubmit.co/ajax/ramsey@graysmithlabs.com", {
+      fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(data)
@@ -130,10 +130,10 @@
       }).catch(function () {
         var body = ["Name: " + v("f-name"), "Email: " + v("f-email"), "Company: " + v("f-company"),
           "Looking for: " + v("f-type"), "Budget: " + v("f-budget"), "Timeline: " + v("f-timeline"), "", v("f-msg")].join("\n");
-        note.textContent = "Something went wrong sending that. Opening your email app with everything filled in instead.";
+        note.textContent = "That didn't go through, so we opened your email app with everything filled in. Just press send.";
         btn.disabled = false;
         btn.firstChild.textContent = "Send inquiry ";
-        location.href = "mailto:ramsey@graysmithlabs.com?subject=" + encodeURIComponent(data._subject) + "&body=" + encodeURIComponent(body);
+        location.href = "mailto:ramsey@graysmithlabs.com?subject=" + encodeURIComponent(data.subject) + "&body=" + encodeURIComponent(body);
       });
     });
   }
