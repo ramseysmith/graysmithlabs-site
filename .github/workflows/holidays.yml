@@ -1,0 +1,25 @@
+# Copy to graysmithlabs-site/.github/workflows/holidays.yml
+# Rebuilds the holiday pages every morning so /holidays/ shows today's date to crawlers
+# and moving holidays roll forward once they pass.
+name: Holiday pages
+on:
+  schedule:
+    - cron: "10 7 * * *" # 1:10 am in Denver (MDT), 12:10 am (MST)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/holidays/build.mjs --site .
+      - name: Commit if anything changed
+        run: |
+          git config user.name "Ramsey Graysmith"
+          git config user.email "smith.s.ramsey@gmail.com"
+          git add holidays sitemap.xml
+          git diff --cached --quiet || (git commit -m "Holiday pages for $(TZ=America/Denver date +'%B %-d')" && git push)

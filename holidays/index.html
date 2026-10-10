@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Holiday Is It Today? Today's National Days</title>
+<meta name="description" content="What holiday is it today? See today's national days and observances, the week ahead, and a full calendar of holidays for every day of the year.">
+<link rel="canonical" href="https://graysmithlabs.com/holidays/">
+<meta name="apple-itunes-app" content="app-id=6760971240">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="What Holiday Is It Today? Today's National Days">
+<meta property="og:description" content="What holiday is it today? See today's national days and observances, the week ahead, and a full calendar of holidays for every day of the year.">
+<meta property="og:url" content="https://graysmithlabs.com/holidays/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CelebriDay app screens on iPhone, free on the App Store">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="holidays.css">
+<script src="../main.js" defer></script>
+<script>
+(function () {
+  var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
+  var built = "2026-10-10";
+  var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
+  if (local === built) return;
+  fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
+    var list = ((data.fixed.find(function (e) { return e.month === m && e.day === d; }) || {}).holidays || []);
+    var heading = document.getElementById("today-date");
+    var grid = document.getElementById("today-grid");
+    var link = document.getElementById("today-link");
+    if (!heading || !grid) return;
+    heading.textContent = W[now.getDay()] + ", " + M[m - 1] + " " + d;
+    if (link) link.href = M[m - 1].toLowerCase() + "-" + d + ".html";
+    if (!list.length) return;
+    grid.innerHTML = "";
+    list.forEach(function (h) {
+      var a = document.createElement("article"); a.className = "hd-card";
+      var top = document.createElement("div"); top.className = "hd-top";
+      var em = document.createElement("span"); em.className = "hd-emoji"; em.textContent = h.emoji; top.appendChild(em);
+      var h2 = document.createElement("h2"); h2.textContent = h.name;
+      var p = document.createElement("p"); p.textContent = h.description;
+      a.appendChild(top); a.appendChild(h2); a.appendChild(p); grid.appendChild(a);
+    });
+  }).catch(function () {});
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../#services">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="./">Holidays</a>
+        <a href="../#about">About</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap hd">
+    <p class="eyebrow">Daily holidays</p>
+    <h1>What holiday is it today?</h1>
+    <p class="lede">Today is <b id="today-date">Saturday, October 10</b>. Here is what the world is celebrating.</p>
+    <div class="hd-grid" id="today-grid">
+        <article class="hd-card"><h2>A quiet day</h2><p>No verified observance on our list today. See the days ahead below.</p></article>
+    </div>
+      <aside class="hd-app">
+        <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
+        <div>
+          <h2>Get today's holiday every morning</h2>
+          <p>CelebriDay sends the day's holiday with a fun fact and a card made for sharing. Free on iPhone, with a full calendar of the year.</p>
+          <a class="btn" href="https://apps.apple.com/us/app/celebriday/id6760971240" rel="noopener">Download CelebriDay on the App Store</a>
+        </div>
+      </aside>
+    <h2 class="hd-h2">Coming up next</h2>
+    <ul class="hd-month">
+      <li><a href="november-1.html"><b>Sunday, November 1</b><span>😴 Daylight Saving Time Ends  ·  🌱 World Vegan Day  ·  ✨ All Saints Day</span></a></li>
+      <li><a href="november-2.html"><b>Monday, November 2</b><span>🥚 National Deviled Egg Day  ·  🕯️ All Souls Day</span></a></li>
+      <li><a href="november-3.html"><b>Tuesday, November 3</b><span>🥪 National Sandwich Day  ·  🪼 World Jellyfish Day</span></a></li>
+      <li><a href="november-4.html"><b>Wednesday, November 4</b><span>🍬 National Candy Day  ·  🏺 King Tut Day</span></a></li>
+      <li><a href="november-5.html"><b>Thursday, November 5</b><span>🍩 National Doughnut Day  ·  🌊 World Tsunami Awareness Day</span></a></li>
+      <li><a href="november-6.html"><b>Friday, November 6</b><span>🧀 National Nachos Day  ·  🎷 Saxophone Day</span></a></li>
+    </ul>
+    <h2 class="hd-h2">Browse by month</h2>
+    <ul class="hd-months">
+      <li><a href="january.html">January</a></li>
+      <li><a href="february.html">February</a></li>
+      <li><a href="march.html">March</a></li>
+      <li><a href="april.html">April</a></li>
+      <li><a href="may.html">May</a></li>
+      <li><a href="june.html">June</a></li>
+      <li><a href="july.html">July</a></li>
+      <li><a href="august.html">August</a></li>
+      <li><a href="september.html">September</a></li>
+      <li><a href="october.html">October</a></li>
+      <li><a href="november.html">November</a></li>
+      <li><a href="december.html">December</a></li>
+    </ul>
+  </div>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Holidays</span>
+        <ul>
+          <li><a href="./">What holiday is it today?</a></li>
+          <li><a href="january.html">January</a></li>
+          <li><a href="february.html">February</a></li>
+          <li><a href="march.html">March</a></li>
+          <li><a href="april.html">April</a></li>
+          <li><a href="may.html">May</a></li>
+          <li><a href="june.html">June</a></li>
+          <li><a href="july.html">July</a></li>
+          <li><a href="august.html">August</a></li>
+          <li><a href="september.html">September</a></li>
+          <li><a href="october.html">October</a></li>
+          <li><a href="november.html">November</a></li>
+          <li><a href="december.html">December</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

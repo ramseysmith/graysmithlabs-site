@@ -1,0 +1,43 @@
+/* Daily holiday pages. Built on styles.css tokens. */
+.hd { padding-bottom: 96px; }
+.hd h1 { font-size: clamp(36px, 5.4vw, 60px); margin: 28px 0 18px; max-width: 20ch; }
+.hd .lede { margin-bottom: 36px; }
+.hd-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.hd-card { border: 1px solid var(--line); border-radius: 20px; padding: 28px; background: var(--card); }
+.hd-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.hd-emoji { font-size: 34px; line-height: 1; }
+.hd-card h2 { font-size: 24px; max-width: none; margin-bottom: 10px; }
+.hd-card p { color: var(--muted); font-size: 14.5px; }
+.hd-card .hd-when { margin-top: 12px; font-size: 12.5px; color: var(--accent); }
+.hd-more { margin-top: 20px; }
+.hd-app {
+  display: flex; gap: 22px; align-items: flex-start; margin: 56px 0;
+  border: 1px solid var(--accent); border-radius: 22px; padding: 28px; background: var(--card);
+}
+.hd-app img { width: 64px; height: 64px; border-radius: 15px; box-shadow: var(--shadow); flex: none; }
+.hd-app h2 { font-size: 26px; max-width: none; margin-bottom: 8px; }
+.hd-app p { color: var(--muted); max-width: 52ch; margin-bottom: 18px; }
+.hd-app .btn { white-space: normal; text-align: center; }
+.hd-h2 { font-size: clamp(26px, 3.4vw, 34px); margin: 8px 0 20px; }
+.hd-month { list-style: none; display: grid; gap: 10px; margin-bottom: 48px; }
+.hd-month a {
+  display: grid; grid-template-columns: 11ch 1fr; gap: 16px; align-items: baseline;
+  padding: 14px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--card);
+  text-decoration: none; transition: border-color 0.2s;
+}
+.hd-month a:hover { border-color: var(--muted); }
+.hd-month b { font-family: var(--serif); font-weight: 400; font-size: 18px; }
+.hd-month span { color: var(--muted); font-size: 13.5px; }
+.hd-months { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.hd-months a {
+  display: block; padding: 14px 18px; border: 1px solid var(--line); border-radius: 14px;
+  background: var(--card); text-decoration: none; font-family: var(--serif); font-size: 18px;
+}
+.hd .pager { margin-top: 8px; }
+@media (max-width: 720px) {
+  .hd-app { flex-direction: column; }
+  .hd-month a { grid-template-columns: 1fr; gap: 4px; }
+  .hd-months { grid-template-columns: repeat(2, 1fr); }
+  .hd .pager { grid-template-columns: 1fr; }
+}
+.hd > .eyebrow:first-child { padding-top: 40px; margin-bottom: 0; }
