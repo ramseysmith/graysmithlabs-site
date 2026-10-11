@@ -85,10 +85,11 @@ a { color: inherit; }
   display: flex; align-items: center; gap: 11px; text-decoration: none; white-space: nowrap;
 }
 .glyph {
-  width: 30px; height: 30px; flex: none;
-  border: 1.5px solid currentColor; border-radius: 50%;
-  display: grid; place-items: center;
-  font-size: 14px; font-family: var(--serif);
+  width: 32px; height: 32px; flex: none; border-radius: 50%;
+  background: #3b5641 url(assets/art/mark.svg) center / cover no-repeat;
+  box-shadow: 0 0 0 1px rgba(21, 23, 26, 0.12);
+  display: grid; place-items: center; padding-bottom: 10px;
+  font-size: 15px; font-weight: 600; line-height: 1; font-family: var(--serif); color: #f4f1ea;
 }
 .nav { display: flex; align-items: center; gap: 26px; font-size: 13px; }
 .nav-links { display: flex; align-items: center; gap: 26px; }
@@ -451,28 +452,34 @@ section.first { border-top: 0; }
 .gl-spark g:nth-child(even) path { animation-delay: -1.6s; }
 @keyframes appear { from { opacity: 0; scale: 0.6; } }
 .gl-app {
-  position: absolute; left: var(--x); top: var(--y); width: clamp(42px, 10.6%, 60px); aspect-ratio: 1;
+  position: absolute; left: var(--x); top: var(--y); width: clamp(46px, 11.4%, 64px); aspect-ratio: 1;
   translate: calc(-50% + var(--tx) * 0.6) calc(-50% + var(--ty) * 0.6);
   display: grid; place-items: center; border-radius: 50%;
-  background: var(--card); border: 1.5px solid var(--ink); color: var(--ink); box-shadow: var(--shadow);
+  background: var(--card); border: 1.5px solid var(--ink); color: var(--ink);
+  box-shadow: inset 0 0 0 3px var(--card), inset 0 0 0 4px var(--line), var(--shadow);
   text-decoration: none;
-  transition: transform 0.25s cubic-bezier(.2, .7, .2, 1), background 0.25s, color 0.25s, border-color 0.25s;
+  transition: transform 0.25s cubic-bezier(.2, .7, .2, 1), background 0.25s, color 0.25s, border-color 0.25s, box-shadow 0.25s;
   animation: appear 0.5s cubic-bezier(.2, .7, .2, 1.3) backwards; animation-delay: calc(0.7s + var(--i) * 0.09s);
 }
-.gl-app svg { width: 64%; height: 64%; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; overflow: visible; }
+.gl-app svg { width: 68%; height: 68%; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; overflow: visible; }
 .gl-app .g-acc { fill: var(--accent); stroke: none; }
-.gl-app .g-accs { stroke: var(--accent); }
+.gl-app .g-dim { opacity: 0.6; }
+.gl-app .g-dim2 { opacity: 0.32; }
+.gl-app .g-accs { stroke: var(--accent); stroke-width: 1.7; }
 .gl-app .g-ink { fill: currentColor; stroke: none; }
-.gl-app .g-card { fill: var(--card); }
-.gl-app .g-thin { stroke-width: 1.4; opacity: 0.55; }
-.gl-app .g-thin2 { stroke-width: 1.8; }
+.gl-app .g-card { fill: var(--card); transition: fill 0.25s; }
+.gl-app .g-hollow { stroke-width: 1.4; }
+.gl-app .g-soft { stroke-width: 1.6; opacity: 0.55; }
 .gl-name {
   position: absolute; top: calc(100% + 8px); left: 50%; translate: -50% 0; white-space: nowrap;
   font-size: 11px; line-height: 1; letter-spacing: 0.04em; padding: 5px 9px; border-radius: 999px;
   background: var(--ink); color: var(--paper); opacity: 0; transform: translateY(-4px);
   transition: opacity 0.2s, transform 0.2s; pointer-events: none;
 }
-.gl-app:hover, .gl-app:focus-visible { transform: translateY(-4px) scale(1.06); background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.gl-app:hover, .gl-app:focus-visible {
+  transform: translateY(-4px) scale(1.06); background: var(--accent); border-color: var(--accent); color: var(--accent-ink);
+  box-shadow: inset 0 0 0 3px var(--accent), inset 0 0 0 4px color-mix(in srgb, var(--accent-ink) 35%, transparent), var(--shadow);
+}
 .gl-app:hover .g-acc, .gl-app:focus-visible .g-acc { fill: var(--accent-ink); }
 .gl-app:hover .g-accs, .gl-app:focus-visible .g-accs { stroke: var(--accent-ink); }
 .gl-app:hover .g-card, .gl-app:focus-visible .g-card { fill: var(--accent); }
