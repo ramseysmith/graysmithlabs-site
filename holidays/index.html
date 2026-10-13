@@ -32,7 +32,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-12";
+  var built = "2026-10-13";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -80,7 +80,7 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Monday, October 12</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Tuesday, October 13</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card"><h2>A quiet day</h2><p>No verified observance on our list today. See the days ahead below.</p></article>
     </div>
