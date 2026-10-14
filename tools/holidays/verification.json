@@ -5347,9 +5347,9 @@
   "month": 12,
   "day": 1,
   "name": "World AIDS Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 1",
+  "source": "https://canadianequality.ca/dei-calendar-december-2024/"
  },
  {
   "month": 12,
@@ -5371,9 +5371,9 @@
   "month": 12,
   "day": 2,
   "name": "International Day for the Abolition of Slavery",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 2, UN observance",
+  "source": "https://canadianequality.ca/dei-calendar-december-2024/"
  },
  {
   "month": 12,
@@ -5387,9 +5387,9 @@
   "month": 12,
   "day": 3,
   "name": "International Day of Persons with Disabilities",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 3, UN observance",
+  "source": "https://canadianequality.ca/dei-calendar-december-2024/"
  },
  {
   "month": 12,
@@ -5419,9 +5419,9 @@
   "month": 12,
   "day": 5,
   "name": "International Volunteer Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 5, UN observance",
+  "source": "https://canadianequality.ca/dei-calendar-december-2024/"
  },
  {
   "month": 12,
@@ -5467,185 +5467,185 @@
   "month": 12,
   "day": 8,
   "name": "Pretend to Be a Time Traveler Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 8",
+  "source": "https://www.nationaldaycalendar.com/national-day/pretend-to-be-a-time-traveler-day-december-8"
  },
  {
   "month": 12,
   "day": 9,
   "name": "National Pastry Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 9 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=2"
  },
  {
   "month": 12,
   "day": 9,
   "name": "Christmas Card Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 9 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=2"
  },
  {
   "month": 12,
   "day": 10,
   "name": "National Lager Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 10 listing",
+  "source": "https://nationaltoday.com/december-10-holidays/"
  },
  {
   "month": 12,
   "day": 10,
   "name": "Human Rights Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 10 listing",
+  "source": "https://nationaltoday.com/december-10-holidays/"
  },
  {
   "month": 12,
   "day": 11,
   "name": "National Noodle Ring Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 11",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-noodle-ring-day-december-11"
  },
  {
   "month": 12,
   "day": 11,
   "name": "International Mountain Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 11",
+  "source": "https://days.fead.co/en/world/international-mountain-day"
  },
  {
   "month": 12,
   "day": 12,
   "name": "National Cocoa Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "wrong_date",
+  "note": "Real date is Dec 13",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 12,
   "name": "Poinsettia Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 12, National Poinsettia Day",
+  "source": "https://nationaldaycalendar.com/december/days?week=2"
  },
  {
   "month": 12,
   "day": 13,
   "name": "National Violin Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 13 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 13,
   "name": "St. Lucia Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 13, Saint Lucy feast and festival of light",
+  "source": "https://nationaltoday.com/st-lucia-national-day/"
  },
  {
   "month": 12,
   "day": 14,
   "name": "National Biscuit Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "wrong_date",
+  "note": "US National Biscuit Day is May 29; not listed on Dec 14",
+  "source": "https://www.929wbpm.com/blogs/classic-hits-wbpm/post/may-29th-is-national-biscuit-day/"
  },
  {
   "month": 12,
   "day": 14,
   "name": "National Bouillabaisse Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 14 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 15,
   "name": "National Cupcake Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 15 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 15,
   "name": "Bill of Rights Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 15 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 16,
   "name": "National Chocolate Covered Anything Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 16 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 16,
   "name": "National Ugly Sweater Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "moving",
+  "note": "Third Friday of December (Dec 18 in 2026), not fixed Dec 16",
+  "source": "https://nationaltoday.com/national-ugly-sweater-day/"
  },
  {
   "month": 12,
   "day": 17,
   "name": "National Maple Syrup Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 17 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 17,
   "name": "Wright Brothers Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 17 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 18,
   "name": "National Roast Suckling Pig Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 18 listing",
+  "source": "https://nationaldaycalendar.com/december/days?week=3"
  },
  {
   "month": 12,
   "day": 18,
   "name": "World Arabic Language Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 18, UN Arabic Language Day",
+  "source": "https://en.wikipedia.org/wiki/UN_Arabic_Language_Day"
  },
  {
   "month": 12,
   "day": 19,
   "name": "National Hard Candy Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 19",
+  "source": "https://days.fead.co/en/united-states/national-hard-candy-day"
  },
  {
   "month": 12,
   "day": 19,
   "name": "Look for an Evergreen Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Dec 19",
+  "source": "https://nationaltoday.com/look-evergreen-day/"
  },
  {
   "month": 12,
