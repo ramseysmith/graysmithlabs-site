@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free White Noise Generator: White, Pink and Brown</title>
+<meta name="description" content="Play free white, pink or brown noise in your browser with a fade out sleep timer. No download, no account, no loop gaps. Which noise is best for sleep.">
+<link rel="canonical" href="https://graysmithlabs.com/white-noise/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Free White Noise Generator: White, Pink and Brown">
+<meta property="og:description" content="Play free white, pink or brown noise in your browser with a fade out sleep timer. No download, no account, no loop gaps. Which noise is best for sleep.">
+<meta property="og:url" content="https://graysmithlabs.com/white-noise/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/drift/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/drift/og.jpg">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<meta name="apple-itunes-app" content="app-id=6758258891">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://graysmithlabs.com/white-noise/#tool",
+      "name": "Free white noise generator",
+      "url": "https://graysmithlabs.com/white-noise/",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires JavaScript and Web Audio",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Plays white, pink or brown noise generated live in the browser, with volume and a sleep timer that fades out.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      },
+      "isRelatedTo": {
+        "@id": "https://graysmithlabs.com/apps/drift.html#app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/white-noise/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this white noise generator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It runs in your browser with no account, no download and no ads in the player. The sound is generated live on your device, so it never repeats with a gap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it keep playing when my phone locks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually not on iPhone, because mobile browsers pause web audio when the screen locks. Leave the screen on, or use the free Drift app, which keeps playing with the phone locked."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between white, pink and brown noise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "White noise has equal energy at every frequency and sounds bright. Pink noise has equal energy in every octave and sounds like rain. Brown noise is weighted further toward the low end and sounds like a deep rumble."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which noise color is best for sleep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on what keeps you awake. White noise covers sudden sharp sounds best; pink and brown are softer and easier to listen to all night. Try each for a full night."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is there no sound on my iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tap Play again after the page loads, turn up the volume, and check that the Ring and Silent switch is not set to silent, since some iPhone browsers mute web audio in silent mode."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../#services">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap guide wn">
+    <p class="crumbs"><a href="../apps/drift.html">Drift</a> &nbsp;/&nbsp; White noise</p>
+    <h1>Free white noise generator</h1>
+    <p class="guide-answer">Press play for free white, pink or brown noise right in your browser, with a sleep timer that fades out. Nothing downloads, nothing loops with a gap, and you do not need an account.</p>
+
+    <section class="wn-player" aria-label="Noise player">
+      <div class="wn-sounds" role="radiogroup" aria-label="Sound">
+        <button class="wn-sound" type="button" role="radio" aria-checked="true" data-color="brown"><b>Brown noise</b><span>Deep and soft, like a distant waterfall</span></button>
+        <button class="wn-sound" type="button" role="radio" aria-checked="false" data-color="pink"><b>Pink noise</b><span>Balanced, like steady rain</span></button>
+        <button class="wn-sound" type="button" role="radio" aria-checked="false" data-color="white"><b>White noise</b><span>Bright static that covers sharp sounds</span></button>
+      </div>
+      <div class="wn-controls">
+        <button class="btn wn-play" type="button" id="wn-play" aria-pressed="false">Play</button>
+        <label class="wn-field">Volume <input type="range" id="wn-volume" min="0" max="1" step="0.01" value="0.5"></label>
+        <label class="wn-field">Sleep timer
+          <select id="wn-timer">
+            <option value="0">Off</option>
+            <option value="15">15 minutes</option>
+            <option value="30">30 minutes</option>
+            <option value="60">1 hour</option>
+            <option value="120">2 hours</option>
+          </select>
+        </label>
+        <span class="wn-left" id="wn-left" aria-live="polite"></span>
+      </div>
+      <p class="guide-note">On iPhone, a browser tab usually stops playing when the screen locks. For all night sound with the phone locked, use the free <a href="https://apps.apple.com/us/app/id6758258891" rel="noopener">Drift app</a>.</p>
+      <noscript><p class="guide-note">The player needs JavaScript turned on.</p></noscript>
+    </section>
+
+    <section class="guide-sec">
+      <h2>White, pink or brown: which noise is best for sleep?</h2>
+      <p>All three are random sound spread across every pitch you can hear. They differ in how much of that sound sits in the low notes versus the high ones.</p>
+      <ul class="guide-list">
+        <li><strong>White noise</strong> has equal energy at every frequency, so it sounds bright and hissy, like radio static. It is the best at covering sharp sounds such as a barking dog, a snoring partner or voices through a wall.</li>
+        <li><strong>Pink noise</strong> has equal energy in every octave, so the high end is softer. It sounds like steady rain or wind, and many people find it easier to listen to for hours than white noise.</li>
+        <li><strong>Brown noise</strong> (also called red noise) drops off even more toward the highs, leaving a deep rumble like a distant waterfall or the inside of a plane. It is the gentlest of the three and covers low traffic hum well.</li>
+      </ul>
+      <p>There is no single best color. Start with brown or pink if white sounds harsh, and switch to white if sudden noises still wake you. Give each one a full night before you decide.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>Tips for using noise at night</h2>
+      <ul class="guide-list">
+        <li>Keep the volume low: just loud enough to soften the sounds that bother you, about the level of a quiet shower.</li>
+        <li>Put the speaker across the room rather than next to your pillow. For a baby, keep it well away from the crib and quiet.</li>
+        <li>Use the sleep timer if you only need help falling asleep. A slow fade is less likely to wake you than sound that stops all at once.</li>
+        <li>Keep it steady. A constant sound masks better than one that changes, which is why noise works better than music for many sleepers.</li>
+      </ul>
+    </section>
+
+    <aside class="guide-app">
+      <img src="../assets/apps/drift/icon.png" alt="Drift app icon" width="64" height="64">
+      <div>
+        <h2>Drift for iPhone</h2>
+        <p>Drift is a free sleep sounds app with white noise, rain, ocean, stream and fan sounds that loop without a gap, keep playing with the screen locked, work offline and fade out on a sleep timer. No account needed.</p>
+        <div class="btn-row">
+          <a class="btn" href="https://apps.apple.com/us/app/id6758258891" rel="noopener">Download on the App Store</a>
+          <a class="btn ghost" href="../apps/drift.html">About Drift</a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details><summary>Is this white noise generator free?</summary><p>Yes. It runs in your browser with no account, no download and no ads in the player. The sound is generated live on your device, so it never repeats with a gap.</p></details>
+        <details><summary>Will it keep playing when my phone locks?</summary><p>Usually not on iPhone, because mobile browsers pause web audio when the screen locks. Leave the screen on, or use the free Drift app, which keeps playing with the phone locked.</p></details>
+        <details><summary>What is the difference between white, pink and brown noise?</summary><p>White noise has equal energy at every frequency and sounds bright. Pink noise has equal energy in every octave and sounds like rain. Brown noise is weighted further toward the low end and sounds like a deep rumble.</p></details>
+        <details><summary>Which noise color is best for sleep?</summary><p>It depends on what keeps you awake. White noise covers sudden sharp sounds best; pink and brown are softer and easier to listen to all night. Try each for a full night.</p></details>
+        <details><summary>Why is there no sound on my iPhone?</summary><p>Tap Play again after the page loads, turn up the volume, and check that the Ring and Silent switch is not set to silent, since some iPhone browsers mute web audio in silent mode.</p></details>
+      </div>
+    </section>
+  </div>
+<script>
+(() => {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  const playBtn = document.getElementById('wn-play');
+  const volume = document.getElementById('wn-volume');
+  const timerSel = document.getElementById('wn-timer');
+  const left = document.getElementById('wn-left');
+  const sounds = [...document.querySelectorAll('.wn-sound')];
+  if (!AC) { playBtn.disabled = true; left.textContent = 'This browser cannot play generated sound.'; return; }
+  let ctx, gain, src, color = 'brown', playing = false, endAt = 0, tick;
+  const buffers = {};
+  const FADE = 30;
+
+  function makeBuffer(kind) {
+    const len = ctx.sampleRate * 12, buf = ctx.createBuffer(2, len, ctx.sampleRate);
+    for (let ch = 0; ch < 2; ch++) {
+      const d = buf.getChannelData(ch);
+      let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0, last = 0, peak = 0;
+      for (let i = 0; i < len; i++) {
+        const w = Math.random() * 2 - 1;
+        let v;
+        if (kind === 'white') v = w;
+        else if (kind === 'pink') {
+          b0 = 0.99886 * b0 + w * 0.0555179; b1 = 0.99332 * b1 + w * 0.0750759;
+          b2 = 0.969 * b2 + w * 0.153852; b3 = 0.8665 * b3 + w * 0.3104856;
+          b4 = 0.55 * b4 + w * 0.5329522; b5 = -0.7616 * b5 - w * 0.016898;
+          v = b0 + b1 + b2 + b3 + b4 + b5 + b6 + w * 0.5362; b6 = w * 0.115926;
+        } else { last = (last + 0.02 * w) / 1.02; v = last; }
+        d[i] = v; peak = Math.max(peak, Math.abs(v));
+      }
+      // Normalize, then crossfade the end into the start so the loop point is seamless
+      const k = (kind === 'white' ? 0.35 : 0.6) / peak, x = Math.floor(ctx.sampleRate * 0.5);
+      for (let i = 0; i < len; i++) d[i] *= k;
+      for (let i = 0; i < x; i++) { const t = i / x; d[i] = d[i] * t + d[len - x + i] * (1 - t); }
+    }
+    return buf;
+  }
+  function trimmed(kind) {
+    const b = makeBuffer(kind), x = Math.floor(ctx.sampleRate * 0.5), out = ctx.createBuffer(2, b.length - x, ctx.sampleRate);
+    for (let ch = 0; ch < 2; ch++) out.getChannelData(ch).set(b.getChannelData(ch).subarray(0, b.length - x));
+    return out;
+  }
+  function ensure() {
+    if (ctx) return;
+    try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
+    ctx = new AC();
+    gain = ctx.createGain(); gain.gain.value = 0; gain.connect(ctx.destination);
+  }
+  function startSource() {
+    if (src) { try { src.stop(); } catch (e) {} src.disconnect(); }
+    buffers[color] = buffers[color] || trimmed(color);
+    src = ctx.createBufferSource(); src.buffer = buffers[color]; src.loop = true; src.connect(gain); src.start();
+  }
+  function ramp(to, secs) {
+    const now = ctx.currentTime; gain.gain.cancelScheduledValues(now);
+    gain.gain.setValueAtTime(gain.gain.value, now); gain.gain.linearRampToValueAtTime(to, now + secs);
+  }
+  function setTimer() {
+    clearInterval(tick); left.textContent = '';
+    const mins = Number(timerSel.value);
+    if (!playing || !mins) { endAt = 0; return; }
+    endAt = Date.now() + mins * 60000;
+    tick = setInterval(() => {
+      const s = Math.max(0, Math.round((endAt - Date.now()) / 1000));
+      left.textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')} left`;
+      if (s <= FADE && s > 0 && !gain._fading) { gain._fading = true; ramp(0, s); }
+      if (s === 0) stop();
+    }, 1000);
+  }
+  async function play() {
+    ensure(); await ctx.resume(); startSource(); gain._fading = false; ramp(Number(volume.value), 1.5);
+    playing = true; playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true'); setTimer();
+  }
+  function stop() {
+    if (!ctx) return; playing = false; gain._fading = false; ramp(0, 0.4);
+    setTimeout(() => { if (!playing && src) { try { src.stop(); } catch (e) {} } }, 450);
+    playBtn.textContent = 'Play'; playBtn.setAttribute('aria-pressed', 'false'); clearInterval(tick); left.textContent = '';
+  }
+  playBtn.addEventListener('click', () => (playing ? stop() : play()));
+  volume.addEventListener('input', () => { if (playing && !gain._fading) ramp(Number(volume.value), 0.1); });
+  timerSel.addEventListener('change', setTimer);
+  sounds.forEach((b) => b.addEventListener('click', () => {
+    color = b.dataset.color; sounds.forEach((o) => o.setAttribute('aria-checked', String(o === b)));
+    if (playing) { ramp(0, 0.2); setTimeout(() => { startSource(); ramp(Number(volume.value), 0.6); }, 220); }
+  }));
+})();
+</script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../#services">Services</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
