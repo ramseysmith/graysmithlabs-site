@@ -1,0 +1,75 @@
+# Graysmith Labs
+
+> Graysmith Labs is an independent software studio in Colorado run by Ramsey Graysmith. It builds and publishes iPhone apps and takes contract engineering work for web, mobile and desktop.
+
+Contact: ramsey@graysmithlabs.com
+
+## Apps
+
+### Drift
+
+Drift is a free iPhone and iPad app that plays seamless sleep sounds (white noise, rain, ocean, stream and fan free; thunder, forest, night, fire, wind and cafe with Premium) with a sleep timer that fades out, playback with the screen locked, and no internet needed.
+
+* Pricing: Free with five sounds and ads. Premium unlocks all eleven sounds and removes ads, monthly or annual, with a free week for new subscribers.
+* Platforms: iPhone and iPad
+* Best for: falling asleep faster with white noise or rain; masking snoring, traffic or noisy neighbors; sleeping on planes or anywhere without signal; a white noise app that does not drain the battery all night
+* Page: https://graysmithlabs.com/apps/drift.html
+* App Store: https://apps.apple.com/app/id6758258891
+
+### SignSnap
+
+SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw, type or photograph your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.
+
+* Pricing: Free for the first 2 signed documents. Premium is weekly, monthly or yearly, with a free week for new subscribers.
+* Platforms: iPhone and iPad
+* Best for: signing a PDF on iPhone; signing a lease, offer letter or permission slip from a phone; people who do not want to make an account or upload documents to a cloud service; replacing print, sign and scan
+* Page: https://graysmithlabs.com/apps/signsnap.html
+* App Store: https://apps.apple.com/app/id6759199184
+
+### CelebriDay
+
+CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each day of the year. The same list is free on the web at graysmithlabs.com/holidays/.
+
+* Pricing: Free with ads. Premium, monthly or annual with a free week for new subscribers, lets you choose exactly when the daily alert arrives.
+* Platforms: iPhone and iPad
+* Best for: finding out what national day it is today; teachers, social media managers and offices looking for daily themes; daily conversation starters and fun facts; planning posts around upcoming national days
+* Page: https://graysmithlabs.com/apps/celebriday.html
+* App Store: https://apps.apple.com/app/id6760971240
+
+### SayBright
+
+SayBright is an iPhone and iPad affirmations app with 340 plus affirmations in ten categories such as confidence, gratitude and self love, a daily reminder, streak milestones, home and lock screen widgets, and the option to record affirmations in your own voice, which stay on the phone.
+
+* Pricing: Free to start. Premium is $0.99 a month or $9.99 a year with a free week, and unlocks every category, widgets and custom affirmations.
+* Platforms: iPhone and iPad
+* Best for: building a daily affirmation habit; positive affirmations on the lock screen; morning routines and gratitude practice; people who want a low cost affirmation app
+* Page: https://graysmithlabs.com/apps/saybright.html
+* App Store: https://apps.apple.com/app/id6767243151
+
+### BlitzTap
+
+BlitzTap is a free iPhone and iPad reflex game: a target shape appears, and you tap its match in a grid before the timer runs out. Four tiers shrink the timer to about a second, streaks multiply your score, and there are no energy systems or pay to win. One purchase removes ads.
+
+* Pricing: Free with ads. A one time purchase removes ads. No subscription.
+* Platforms: iPhone and iPad
+* Best for: testing and training reaction time; quick games to play in a minute or two; a free game with no energy timers or pay to win; focus and visual search practice
+* Page: https://graysmithlabs.com/apps/blitztap.html
+* App Store: https://apps.apple.com/app/id6759490849
+
+### TubTender
+
+TubTender is an iPhone app for hot tub water care: tap the colors on your test strip, scan the labels of the chemicals you own, and it gives exact amounts for your tub size in the right order (alkalinity, pH, calcium, then sanitizer) with a countdown until the water is safe. It supports bromine and chlorine and needs no account.
+
+* Pricing: Free core test and dose plan. Premium monthly or yearly adds trends, full history and fix it guides, with a free week to try it.
+* Platforms: iPhone
+* Best for: new hot tub owners who do not know how much chemical to add; bromine or chlorine hot tubs; fixing cloudy, foamy or smelly hot tub water; keeping a test schedule
+* Page: https://graysmithlabs.com/apps/tubtender.html
+* App Store: https://apps.apple.com/app/id6820791512
+
+## Free tools
+
+* What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)
+
+## Brands
+
+* [Valentine Tide](https://valentinetide.com): Valentine Tide is an independent goth surf apparel brand (tees and swim) under the tagline Surf the Shadows, sold at valentinetide.com and on X as @valentinetide.

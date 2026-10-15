@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TubTender: Hot Tub Care | Graysmith Labs</title>
-<meta name="description" content="TubTender: dip a strip, tap the colors and get exact amounts for your hot tub. Support, FAQ and contact for TubTender by Graysmith Labs.">
+<title>TubTender: Hot Tub Water Test and Chemical Calculator</title>
+<meta name="description" content="TubTender reads your hot tub test strip and tells you exactly how much of the chemicals you own to add, in what order, and when it is safe to soak.">
 <link rel="canonical" href="https://graysmithlabs.com/apps/tubtender.html">
 <meta name="apple-itunes-app" content="app-id=6820791512">
 <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Graysmith Labs">
-<meta property="og:title" content="TubTender: Hot Tub Care | Graysmith Labs">
-<meta property="og:description" content="TubTender: dip a strip, tap the colors and get exact amounts for your hot tub. Support, FAQ and contact for TubTender by Graysmith Labs.">
+<meta property="og:title" content="TubTender: Hot Tub Water Test and Chemical Calculator">
+<meta property="og:description" content="TubTender reads your hot tub test strip and tells you exactly how much of the chemicals you own to add, in what order, and when it is safe to soak.">
 <meta property="og:url" content="https://graysmithlabs.com/apps/tubtender.html">
 <meta property="og:image" content="https://graysmithlabs.com/assets/apps/tubtender/og.jpg?v=2">
 <meta property="og:image:width" content="1200">
@@ -32,6 +32,115 @@
 .support-card { display:grid; gap:20px; padding:36px; border:1px solid var(--line); border-radius:20px; background:var(--card); max-width:760px; }
 .support-card p { line-height:1.75; }
 </style>
+<!-- ai:head -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://graysmithlabs.com/apps/tubtender.html#app",
+      "name": "TubTender",
+      "description": "TubTender is an iPhone app for hot tub water care: tap the colors on your test strip, scan the labels of the chemicals you own, and it gives exact amounts for your tub size in the right order (alkalinity, pH, calcium, then sanitizer) with a countdown until the water is safe. It supports bromine and chlorine and needs no account.",
+      "url": "https://graysmithlabs.com/apps/tubtender.html",
+      "downloadUrl": "https://apps.apple.com/app/id6820791512",
+      "installUrl": "https://apps.apple.com/app/id6820791512",
+      "operatingSystem": "iOS",
+      "applicationCategory": "LifestyleApplication",
+      "featureList": [
+        "Tap the strip colors instead of typing numbers",
+        "Scan chemical bottle labels to get their strength",
+        "Exact amounts for your tub size and products",
+        "Steps in the right order with wait times",
+        "Safe to soak verdict and countdown",
+        "No account, data stays on the iPhone"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free core test and dose plan. Premium monthly or yearly adds trends, full history and fix it guides, with a free week to try it."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/apps/tubtender.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which test strips work with TubTender?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any common spa strip that reads free chlorine or bromine, pH and total alkalinity. Calcium hardness and stabilizer (CYA) pads are used when your strip has them. The colors in the app are a guide, so match against the chart on your own bottle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does bottle scanning work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Photograph the side of the bottle that lists the active ingredient. Your iPhone reads the text, and TubTender matches the ingredient and strength to its product list, then shows you the result to confirm. Nothing is uploaded. If the strength is not printed clearly, it fills in the typical value and asks you to check it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does TubTender work out the amounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It uses your tub size, your readings and the strength printed on each product you own. pH and alkalinity are calculated together, because changing one moves the other. Always follow the label on your product as well."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I use bromine. Why does the plan say to shock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bromine tablets slowly release bromine, and once it is used it turns into bromide in the water. A shock turns that bromide back into active bromine, so the level comes up faster than tablets alone. Keep tablets in your floater so the level holds between tests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two or three times a week, and before soaking after the tub has sat for a while. TubTender can remind you when a test is due."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Premium include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trend charts for sanitizer, pH and alkalinity, your full test history, every fix it guide (cloudy, foamy, smelly, green, itchy and scaly water) and everything added in future updates. The core test and dose plan stay free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I cancel or restore Premium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subscriptions are managed by Apple. Open Settings on your iPhone, tap your name, then Subscriptions, and choose TubTender. To restore a purchase on a new phone, open Premium in the app and tap Restore purchases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my data stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only on your iPhone. There is no account and nothing is uploaded. You can delete everything from Tub settings in the app. Read the privacy policy."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /ai:head -->
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
