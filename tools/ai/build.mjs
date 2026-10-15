@@ -127,6 +127,12 @@ for (const app of data.apps) {
   html = between(html, "head", banner + jsonLd(app, faq), "</head>");
   write(file, html);
 }
+// Every app page on the site must be tracked, so a new app cannot skip this.
+const known = new Set(data.apps.map((a) => a.slug));
+for (const f of fs.readdirSync(path.join(site, "apps"))) {
+  const m = f.match(/^([a-z0-9]+)\.html$/);
+  if (m && !known.has(m[1])) problems.push(`apps/${f} has no entry in tools/ai/products.json`);
+}
 write(path.join(site, "llms.txt"), llmsTxt());
 
 for (const p of problems) console.error(`problem: ${p}`);
