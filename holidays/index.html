@@ -32,7 +32,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-15";
+  var built = "2026-10-16";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -80,22 +80,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Thursday, October 15</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Friday, October 16</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🧀</span><span class="tag">Food</span></div>
-          <h2>National Cheese Curd Day</h2>
-          <p>A day honoring cheese curds, the fresh squeaky bites of cheddar cheese that are a Midwest favorite.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🌾</span><span class="tag">Food</span></div>
+          <h2>World Food Day</h2>
+          <p>A United Nations day commemorating the founding of the Food and Agriculture Organization, raising awareness of global hunger.</p>
           
         </article>
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🧼</span><span class="tag">Health</span></div>
-          <h2>Global Handwashing Day</h2>
-          <p>A worldwide advocacy day dedicated to increasing awareness of the importance of handwashing with soap.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">💼</span><span class="tag">Awareness</span></div>
+          <h2>National Boss Day</h2>
+          <p>A day to recognize and appreciate great bosses and the leadership they provide in the workplace.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="october-15.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="october-16.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -106,12 +106,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="october-16.html"><b>Friday, October 16</b><span>🌾 World Food Day  ·  💼 National Boss Day</span></a></li>
       <li><a href="october-17.html"><b>Saturday, October 17</b><span>🍝 National Pasta Day  ·  🤝 International Day for the Eradication of Poverty</span></a></li>
       <li><a href="october-18.html"><b>Sunday, October 18</b><span>🧁 National Chocolate Cupcake Day  ·  💜 World Menopause Day</span></a></li>
       <li><a href="october-19.html"><b>Monday, October 19</b><span>🦐 National Seafood Bisque Day  ·  🤔 Evaluate Your Life Day</span></a></li>
       <li><a href="october-20.html"><b>Tuesday, October 20</b><span>🍑 National Brandied Fruit Day</span></a></li>
       <li><a href="october-21.html"><b>Wednesday, October 21</b><span>🍎 National Apple Day  ·  🔘 Count Your Buttons Day</span></a></li>
+      <li><a href="october-22.html"><b>Thursday, October 22</b><span>🥜 National Nut Day  ·  ⬆️ International Caps Lock Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
