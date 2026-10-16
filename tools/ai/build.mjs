@@ -93,7 +93,7 @@ function llmsTxt() {
     lines.push(`### ${a.name}`, "", a.answer, "", `* Pricing: ${a.pricing}`, `* Platforms: ${a.platforms}`, `* Best for: ${a.bestFor.join("; ")}`,
       `* Page: ${data.site.url}/apps/${a.slug}.html`, `* App Store: https://apps.apple.com/app/id${a.appStoreId}`, "");
   }
-  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, "", "## Brands", "");
+  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, "", "## Brands", "");
   for (const b of data.brands) lines.push(`* [${b.name}](${b.url}): ${b.answer}`);
   return lines.join("\n") + "\n";
 }

@@ -753,3 +753,44 @@ section.first { border-top: 0; }
 .guide-sec .guide-list { color: var(--muted); }
 .guide-sec .guide-list strong { color: var(--ink); font-weight: 500; }
 .guide-sec ul + p, .guide-sec ol + p, .guide-sec .guide-table + p { margin-top: 16px; }
+
+/* Hot tub chemical calculator (hot-tub-calculator/) */
+.htc-form { margin-top: 32px; display: grid; gap: 16px; }
+.htc-box { margin: 0; padding: 20px; border: 1px solid var(--line); border-radius: 20px; min-width: 0; }
+.htc-box legend, .htc-box summary { font-family: var(--serif); font-size: 20px; padding: 0 6px; color: var(--ink); }
+.htc-box summary { cursor: pointer; padding: 0; }
+.htc-box summary span { font-family: inherit; font-size: 13px; color: var(--muted); }
+.htc-hint { color: var(--muted); font-size: 14px; margin: 4px 0 14px; }
+.htc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px 18px; }
+.htc-field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--muted); min-width: 0; }
+.htc-field small { font-size: 12px; line-height: 1.45; }
+.htc-field select, .htc-field input[type="number"] { font: inherit; font-size: 16px; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 9px 10px; width: 100%; }
+.htc-seg { display: flex; gap: 8px; }
+.htc-seg label { flex: 1; display: flex; align-items: center; gap: 8px; font-size: 15px; color: var(--ink); border: 1px solid var(--line); border-radius: 10px; padding: 9px 10px; cursor: pointer; }
+.htc-seg input { accent-color: var(--accent); }
+.htc-product > span { color: var(--ink); font-size: 14px; }
+.htc-pct { display: flex; align-items: center; gap: 8px; }
+.htc-pct input { max-width: 96px; }
+.htc-go { justify-self: start; font-size: 15px; }
+.htc-result { margin-top: 32px; padding: 22px; border: 1px solid var(--accent); border-radius: 20px; scroll-margin-top: 90px; }
+.htc-result h2 { font-size: clamp(24px, 3.4vw, 30px); margin: 22px 0 6px; }
+.htc-status { padding: 14px 16px; border-radius: 14px; border: 1px solid var(--line); }
+.htc-status b { font-family: var(--serif); font-weight: 500; font-size: 20px; }
+.htc-status ul { margin: 8px 0 0; padding-left: 20px; color: var(--muted); font-size: 14px; }
+.htc-status p { margin-top: 6px; color: var(--muted); font-size: 14px; }
+.htc-safe { border-color: var(--accent); }
+.htc-unsafe b { color: #b4473a; }
+@media (prefers-color-scheme: dark) { .htc-unsafe b { color: #e58b7e; } }
+.htc-steps { margin: 12px 0 0; padding-left: 22px; }
+.htc-steps li { margin-top: 18px; padding-left: 6px; }
+.htc-steps li::marker { font-family: var(--serif); color: var(--accent); }
+.htc-steps p { color: var(--muted); font-size: 14px; line-height: 1.6; margin-top: 4px; }
+.htc-step-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; align-items: baseline; }
+.htc-step-head b { font-family: var(--serif); font-weight: 500; font-size: 19px; }
+.htc-amount { font-family: var(--serif); font-size: 22px; color: var(--accent); }
+.htc-steps .htc-product-name { color: var(--ink); }
+.htc-tip, .htc-wait { font-size: 13px !important; }
+.htc-good { margin-top: 16px; color: var(--accent); font-weight: 500; }
+.htc-error { color: #b4473a; }
+.htc-notes { font-size: 14px; color: var(--muted); }
+@media (max-width: 560px) { .htc-box, .htc-result { padding: 16px; } .htc-grid { grid-template-columns: 1fr 1fr; } .htc-product, .htc-wide { grid-column: 1 / -1; } }

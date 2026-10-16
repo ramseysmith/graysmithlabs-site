@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hot Tub Chemical Calculator: How Much to Add and When</title>
+<meta name="description" content="Free hot tub chemical calculator for bromine and chlorine. Enter gallons and strip readings for exact doses, in order, and when it is safe to soak.">
+<link rel="canonical" href="https://graysmithlabs.com/hot-tub-calculator/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Hot Tub Chemical Calculator: How Much to Add and When">
+<meta property="og:description" content="Free hot tub chemical calculator for bromine and chlorine. Enter gallons and strip readings for exact doses, in order, and when it is safe to soak.">
+<meta property="og:url" content="https://graysmithlabs.com/hot-tub-calculator/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/tubtender/og.jpg?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/tubtender/og.jpg?v=2">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<!-- Smart App Banner and App Store buttons go in once TubTender is live (launch kit). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://graysmithlabs.com/hot-tub-calculator/#tool",
+      "name": "Hot tub chemical calculator",
+      "url": "https://graysmithlabs.com/hot-tub-calculator/",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Calculates how much alkalinity increaser, pH decreaser or increaser, calcium increaser and chlorine or bromine shock to add to a hot tub, in order, from tub size, test strip readings and product strength, using the TubTender app's chemistry engine.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      },
+      "isRelatedTo": {
+        "@id": "https://graysmithlabs.com/apps/tubtender.html#app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/hot-tub-calculator/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much chlorine do I add to my hot tub?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your tub size, your reading and your product's strength. For example, raising a 400 gallon tub from 1 to 4 ppm takes about 0.3 oz (about 1¾ tsp) of 56 percent dichlor granules. Enter your numbers in the calculator above for your exact amount, and follow the label on your product."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What order should I add hot tub chemicals in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alkalinity first, then pH, then calcium, then sanitizer last. Run the jets with the cover open while adding each one and wait about 20 minutes before the next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I raise bromine in a hot tub?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Add a chlorine shock such as dichlor granules. It turns the used up bromide in the water back into bromine, about 2.25 ppm of bromine for every 1 ppm of chlorine it adds, which works faster than tablets alone. Keep tablets in the floater so the level holds between tests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is it safe to get in the hot tub after adding chemicals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When a retest shows chlorine between 3 and 10 ppm or bromine between 4 and 8 ppm, pH between 7.2 and 7.8, and water no hotter than 104°F. After a normal dose that is usually about 20 minutes with the jets running."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I fix pH or alkalinity first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alkalinity first. Alkalinity buffers pH, so if it is low, pH bounces around, and a pH dose made before fixing it will not hold."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this hot tub calculator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It runs in your browser with no account and no download. It uses the same chemistry engine as the TubTender iPhone app."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../#services">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap guide htc">
+    <p class="crumbs"><a href="../apps/tubtender.html">TubTender</a> &nbsp;/&nbsp; Hot tub chemical calculator</p>
+    <h1>Hot tub chemical calculator</h1>
+    <p class="guide-answer">Enter your tub size and test strip readings to get how much of each chemical to add, in the right order: alkalinity, then pH, then calcium, then sanitizer, with 20 minutes of jets between each. It runs the same chemistry engine as the TubTender app, works for bromine and chlorine tubs, and is free with no account.</p>
+
+    <form class="htc-form" id="htc-form" novalidate>
+      <fieldset class="htc-box">
+        <legend>Your tub</legend>
+        <div class="htc-grid">
+          <label class="htc-field htc-wide">Size in gallons
+            <input type="number" id="htc-gallons" inputmode="numeric" min="50" max="3000" step="10" value="400" required>
+            <small>Most tubs hold 300 to 600 gallons. The manual or the maker's site lists yours.</small>
+          </label>
+          <div class="htc-field htc-wide" role="radiogroup" aria-label="Sanitizer">Sanitizer
+            <div class="htc-seg">
+              <label><input type="radio" name="htc-san" value="bromine" checked> Bromine</label>
+              <label><input type="radio" name="htc-san" value="chlorine"> Chlorine</label>
+            </div>
+            <small>The strip bottle or your floater says which one you use.</small>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="htc-box">
+        <legend>Test strip readings</legend>
+        <p class="htc-hint">Pick the closest color block on your strip. Skip any pad your strip does not have.</p>
+        <div class="htc-grid">
+          <label class="htc-field"><span id="htc-san-label">Total bromine (ppm)</span><select id="htc-sanitizer"></select></label>
+          <label class="htc-field">pH<select id="htc-ph"></select></label>
+          <label class="htc-field">Total alkalinity (ppm)<select id="htc-ta"></select></label>
+          <label class="htc-field">Calcium hardness (ppm)<select id="htc-ch"></select></label>
+          <label class="htc-field" id="htc-cya-wrap" hidden>Stabilizer, CYA (ppm)<select id="htc-cya"></select></label>
+          <label class="htc-field">Water temperature (°F)<input type="number" id="htc-temp" inputmode="numeric" min="50" max="115" placeholder="Optional"></label>
+        </div>
+      </fieldset>
+
+      <details class="htc-box htc-shelf">
+        <summary>Your products and their strength <span>(optional, the defaults are common spa products)</span></summary>
+        <p class="htc-hint">Use the percentage printed on each bottle's label so the amounts match what you own.</p>
+        <div class="htc-grid" id="htc-products"></div>
+      </details>
+
+      <button class="btn htc-go" type="submit">Get my dose plan</button>
+    </form>
+
+    <section class="htc-result" id="htc-result" aria-live="polite" hidden></section>
+    <noscript><p class="guide-note">The calculator needs JavaScript turned on.</p></noscript>
+
+    <section class="guide-sec">
+      <h2>How much chemical to add to a hot tub</h2>
+      <p>The right amount depends on three things: how many gallons your tub holds, how far each reading is from its target, and how strong your product is. Two bottles both called pH decreaser can differ in strength, and a pH dose also depends on your alkalinity, because alkalinity buffers pH. That is why a single scoop per 100 gallons chart is often wrong.</p>
+      <p>This calculator models the carbonate buffer at your water temperature, so acid and base doses account for alkalinity, and it doses bromine tubs through the bromide reserve, where each ppm of chlorine from shock turns into about 2.25 ppm of bromine.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>Add chemicals in this order</h2>
+      <ol class="guide-steps">
+        <li><strong>Alkalinity first.</strong> It steadies pH, so fixing it first stops pH from bouncing back.</li>
+        <li><strong>pH next.</strong> High pH makes chlorine and bromine much weaker; low pH stings eyes and wears on the heater.</li>
+        <li><strong>Calcium.</strong> Low calcium can etch surfaces and add to foaming; high calcium scales, and only fresh water lowers it.</li>
+        <li><strong>Sanitizer last,</strong> so it is fresh when you get in.</li>
+      </ol>
+      <p>Run the jets with the cover open while you add each one, and wait about 20 minutes before the next. Always follow the label on your product.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>Hot tub chemical levels</h2>
+      <div class="guide-table">
+        <table>
+          <thead><tr><th scope="col">Reading</th><th scope="col">Aim for</th><th scope="col">Safe to soak</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Free chlorine</th><td>About 4 ppm (more with stabilizer)</td><td>3 to 10 ppm</td></tr>
+            <tr><th scope="row">Bromine</th><td>About 5 ppm</td><td>4 to 8 ppm</td></tr>
+            <tr><th scope="row">pH</th><td>About 7.5</td><td>7.2 to 7.8</td></tr>
+            <tr><th scope="row">Total alkalinity</th><td>80 to 120 ppm, about 90</td><td>Out of range makes pH drift</td></tr>
+            <tr><th scope="row">Calcium hardness</th><td>150 to 400 ppm, about 200</td><td>Out of range is not a soak risk</td></tr>
+            <tr><th scope="row">Stabilizer (chlorine tubs)</th><td>Under 50 ppm</td><td>Above that, drain part of the water</td></tr>
+            <tr><th scope="row">Temperature</th><td>Your preference</td><td>No hotter than 104°F</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The soak limits follow CDC hot tub guidance.</p>
+    </section>
+
+    <aside class="guide-app">
+      <img src="../assets/apps/tubtender/icon.png" alt="TubTender app icon" width="64" height="64">
+      <div>
+        <h2>TubTender for iPhone</h2>
+        <p>The same engine in your pocket: tap your strip colors, scan the labels of the bottles you own, and get steps in order with a countdown until the water is safe to soak, plus reminders for testing, filters and drains. TubTender is coming to the App Store.</p>
+        <div class="btn-row">
+          <a class="btn" href="../apps/tubtender.html">About TubTender</a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details><summary>How much chlorine do I add to my hot tub?</summary><p>It depends on your tub size, your reading and your product&#x27;s strength. For example, raising a 400 gallon tub from 1 to 4 ppm takes about 0.3 oz (about 1¾ tsp) of 56 percent dichlor granules. Enter your numbers in the calculator above for your exact amount, and follow the label on your product.</p></details>
+        <details><summary>What order should I add hot tub chemicals in?</summary><p>Alkalinity first, then pH, then calcium, then sanitizer last. Run the jets with the cover open while adding each one and wait about 20 minutes before the next.</p></details>
+        <details><summary>How do I raise bromine in a hot tub?</summary><p>Add a chlorine shock such as dichlor granules. It turns the used up bromide in the water back into bromine, about 2.25 ppm of bromine for every 1 ppm of chlorine it adds, which works faster than tablets alone. Keep tablets in the floater so the level holds between tests.</p></details>
+        <details><summary>When is it safe to get in the hot tub after adding chemicals?</summary><p>When a retest shows chlorine between 3 and 10 ppm or bromine between 4 and 8 ppm, pH between 7.2 and 7.8, and water no hotter than 104°F. After a normal dose that is usually about 20 minutes with the jets running.</p></details>
+        <details><summary>Should I fix pH or alkalinity first?</summary><p>Alkalinity first. Alkalinity buffers pH, so if it is low, pH bounces around, and a pH dose made before fixing it will not hold.</p></details>
+        <details><summary>Is this hot tub calculator free?</summary><p>Yes. It runs in your browser with no account and no download. It uses the same chemistry engine as the TubTender iPhone app.</p></details>
+      </div>
+    </section>
+  </div>
+<script src="engine.js"></script>
+<script src="calculator.js"></script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../#services">Services</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

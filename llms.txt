@@ -69,6 +69,7 @@ TubTender is an iPhone app for hot tub water care: tap the colors on your test s
 ## Free tools
 
 * What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)
+* Hot tub chemical calculator: https://graysmithlabs.com/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)
 
 ## Brands
 
