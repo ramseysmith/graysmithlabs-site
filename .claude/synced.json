@@ -1,0 +1,7 @@
+{
+  "note": "Synced from ramseysmith/graysmith_labs_agent by scripts/claude_assets.mjs. Change these files in HQ and run the sync; edits made here are overwritten.",
+  "files": {
+    ".claude/hooks/guard.mjs": "templates/app/.claude/hooks/guard.mjs",
+    ".claude/settings.json#hooks": "templates/app/.claude/settings.json"
+  }
+}
