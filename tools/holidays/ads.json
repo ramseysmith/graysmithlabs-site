@@ -1,0 +1,9 @@
+{
+  "_readme": "AdSense for the holiday pages. While publisherId is empty the pages carry no ad code at all. Put the ca-pub id from AdSense here (for example ca-pub-1234567890123456), rebuild with node tools/holidays/build.mjs --site ., and the pages get the AdSense script (auto ads), one display slot per page where a slot id is set, and ads.txt at the site root. Slot ids come from AdSense, Ads, By ad unit, Display ads.",
+  "publisherId": "",
+  "slots": {
+    "day": "",
+    "month": "",
+    "today": ""
+  }
+}

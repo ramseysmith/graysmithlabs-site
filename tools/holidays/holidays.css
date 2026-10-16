@@ -41,3 +41,7 @@
   .hd .pager { grid-template-columns: 1fr; }
 }
 .hd > .eyebrow:first-child { padding-top: 40px; margin-bottom: 0; }
+
+/* AdSense slot, only present when tools/holidays/ads.json has a publisher id */
+.hd-ad { margin: 40px 0 0; min-height: 280px; }
+.hd-ad::before { content: "Advertisement"; display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }

@@ -38,6 +38,28 @@ const APP_URL = `https://apps.apple.com/us/app/celebriday/id${APP_ID}`;
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const DAYS_IN = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// AdSense: off until tools/holidays/ads.json has a publisher id (see its _readme).
+const ADS = (() => {
+  try {
+    const cfg = JSON.parse(fs.readFileSync(path.join(HERE, "ads.json"), "utf8"));
+    return /^ca-pub-\d{10,20}$/.test(cfg.publisherId ?? "") ? cfg : null;
+  } catch {
+    return null;
+  }
+})();
+const ADS_HEAD = ADS
+  ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS.publisherId}" crossorigin="anonymous"></script>\n`
+  : "";
+function adSlot(kind) {
+  const id = ADS?.slots?.[kind];
+  if (!ADS || !/^\d{6,20}$/.test(id ?? "")) return "";
+  return `    <aside class="hd-ad" aria-label="Advertisement">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="${ADS.publisherId}" data-ad-slot="${id}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </aside>
+`;
+}
+
 const CATEGORY_LABEL = {
   food: "Food", awareness: "Awareness", fun: "Fun", cultural: "Culture", nature: "Nature",
   tech: "Tech", health: "Health", arts: "Arts", sports: "Sports", other: "Observance",
@@ -193,7 +215,7 @@ function shell({ title, description, canonical, body, extraHead = "" }) {
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="holidays.css">
 <script src="../main.js" defer></script>
-${extraHead}</head>
+${ADS_HEAD}${extraHead}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
@@ -299,7 +321,7 @@ function dayPage(data, m, d, years, prev, next) {
     <div class="hd-grid">
 ${all.map(card).join("\n")}
     </div>
-${appPitch("a holiday like this")}
+${adSlot("day")}${appPitch("a holiday like this")}
     <nav class="pager" aria-label="Nearby days">
       <a href="${slug(...prev)}.html"><span><span class="label">Previous day</span><b>${label(...prev)}</b></span></a>
       <a class="next" href="${slug(...next)}.html"><span><span class="label">Next day</span><b>${label(...next)}</b></span></a>
@@ -325,7 +347,7 @@ function monthPage(data, m, years, daysWithContent) {
     <ul class="hd-month">
 ${rows.join("\n")}
     </ul>
-${appPitch("a new holiday")}
+${adSlot("month")}${appPitch("a new holiday")}
     <nav class="pager" aria-label="Other months">
       <a href="${monthSlug(m === 1 ? 12 : m - 1)}.html"><span><span class="label">Previous month</span><b>${MONTHS[(m + 10) % 12]}</b></span></a>
       <a class="next" href="${monthSlug(m === 12 ? 1 : m + 1)}.html"><span><span class="label">Next month</span><b>${MONTHS[m % 12]}</b></span></a>
@@ -387,7 +409,7 @@ function indexPage(data, today, years, daysWithContent) {
     <div class="hd-grid" id="today-grid">
 ${todayBlock}
     </div>
-${all.length ? `    <p class="hd-more"><a class="link" id="today-link" href="${slug(m, d)}.html">More about today &rarr;</a></p>\n` : ""}${appPitch("today's holiday")}
+${all.length ? `    <p class="hd-more"><a class="link" id="today-link" href="${slug(m, d)}.html">More about today &rarr;</a></p>\n` : ""}${adSlot("today")}${appPitch("today's holiday")}
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
 ${upcoming.join("\n")}
@@ -455,6 +477,11 @@ for (let m = 1; m <= 12; m++) fs.writeFileSync(path.join(OUT, `${monthSlug(m)}.h
 fs.writeFileSync(path.join(OUT, "index.html"), indexPage(data, today, years, daysWithContent));
 
 linkFromAppPage();
+// ads.txt exists only while AdSense is on, so the site never claims a seller it is not.
+const adsTxt = path.join(SITE, "ads.txt");
+const pub = ADS?.publisherId.replace(/^ca-/, "");
+if (pub) fs.writeFileSync(adsTxt, `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`);
+else if (fs.existsSync(adsTxt) && /^google\.com, pub-/.test(fs.readFileSync(adsTxt, "utf8"))) fs.unlinkSync(adsTxt);
 updateSitemap([
   `${ORIGIN}/holidays/`,
   ...MONTHS.map((n) => `${ORIGIN}/holidays/${n.toLowerCase()}.html`),
