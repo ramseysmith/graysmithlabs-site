@@ -40,7 +40,7 @@ CelebriDay is an iPhone and iPad app that tells you what fun or national holiday
 
 SayBright is an iPhone and iPad affirmations app with 340 plus affirmations in ten categories such as confidence, gratitude and self love, a daily reminder, streak milestones, home and lock screen widgets, and the option to record affirmations in your own voice, which stay on the phone.
 
-* Pricing: Free to start. Premium is $0.99 a month or $9.99 a year with a free week, and unlocks every category, widgets and custom affirmations.
+* Pricing: Free to start. Premium is $0.99 a month or $9.99 a year with a free week, and unlocks every category, widgets and voice recordings.
 * Platforms: iPhone and iPad
 * Best for: building a daily affirmation habit; positive affirmations on the lock screen; morning routines and gratitude practice; people who want a low cost affirmation app
 * Page: https://graysmithlabs.com/apps/saybright.html
