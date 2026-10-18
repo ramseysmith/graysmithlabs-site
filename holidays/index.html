@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-17";
+  var built = "2026-10-18";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,22 +81,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Saturday, October 17</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Sunday, October 18</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍝</span><span class="tag">Food</span></div>
-          <h2>National Pasta Day</h2>
-          <p>A delicious day to celebrate pasta in all its wonderful shapes, sauces, and preparations.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🧁</span><span class="tag">Food</span></div>
+          <h2>National Chocolate Cupcake Day</h2>
+          <p>A day to indulge in rich, moist chocolate cupcakes topped with fluffy frosting.</p>
           
         </article>
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🤝</span><span class="tag">Awareness</span></div>
-          <h2>International Day for the Eradication of Poverty</h2>
-          <p>A United Nations observance day calling for action to end poverty and promote social justice worldwide.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">💜</span><span class="tag">Health</span></div>
+          <h2>World Menopause Day</h2>
+          <p>A day raising awareness about menopause and the support options available for those experiencing it.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="october-17.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="october-18.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -107,12 +107,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="october-18.html"><b>Sunday, October 18</b><span>🧁 National Chocolate Cupcake Day  ·  💜 World Menopause Day</span></a></li>
       <li><a href="october-19.html"><b>Monday, October 19</b><span>🦐 National Seafood Bisque Day  ·  🤔 Evaluate Your Life Day</span></a></li>
       <li><a href="october-20.html"><b>Tuesday, October 20</b><span>🍑 National Brandied Fruit Day</span></a></li>
       <li><a href="october-21.html"><b>Wednesday, October 21</b><span>🍎 National Apple Day  ·  🔘 Count Your Buttons Day</span></a></li>
       <li><a href="october-22.html"><b>Thursday, October 22</b><span>🥜 National Nut Day  ·  ⬆️ International Caps Lock Day</span></a></li>
       <li><a href="october-23.html"><b>Friday, October 23</b><span>🍰 National Boston Cream Pie Day  ·  🎙️ TV Talk Show Host Day</span></a></li>
+      <li><a href="october-24.html"><b>Saturday, October 24</b><span>🥪 National Bologna Day  ·  🌐 United Nations Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
