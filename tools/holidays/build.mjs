@@ -268,6 +268,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
         <ul>
           <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
           <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
         </ul>
       </div>
     </div>
