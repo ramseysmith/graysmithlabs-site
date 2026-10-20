@@ -1,0 +1,40 @@
+{
+  "drift": {
+    "name": "Drift",
+    "tagline": "Calming sleep sounds with a timer, background playback and a screen built for the dark.",
+    "cta": "Free on the App Store",
+    "frame": "#3a3f45",
+    "order": [2, 1, 3]
+  },
+  "signsnap": {
+    "name": "SignSnap",
+    "tagline": "Scan paper or import a PDF, drop in your signature, share a clean signed PDF in seconds.",
+    "cta": "Free on the App Store",
+    "frame": "#3a3f45"
+  },
+  "blitztap": {
+    "name": "BlitzTap",
+    "tagline": "A lightning fast shape matching game with four difficulty tiers and streak multipliers.",
+    "cta": "Free on the App Store",
+    "frame": "#3a3f45"
+  },
+  "celebriday": {
+    "name": "CelebriDay",
+    "tagline": "A daily holiday, a fun fact and a shareable card every morning.",
+    "cta": "Free on the App Store",
+    "frame": "#e8e4dc"
+  },
+  "saybright": {
+    "name": "SayBright",
+    "tagline": "Personal daily affirmations with streaks, reminders and home screen widgets.",
+    "cta": "Free on the App Store",
+    "frame": "#e8e4dc"
+  },
+  "tubtender": {
+    "name": "TubTender",
+    "tagline": "Dip a strip, tap the colors, and get exact amounts for your hot tub.",
+    "cta": "Free on the App Store",
+    "frame": "#e8e4dc",
+    "background": "radial-gradient(120% 140% at 85% 100%, #174a4b 0%, #0f2c34 60%)"
+  }
+}
