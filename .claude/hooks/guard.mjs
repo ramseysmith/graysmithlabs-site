@@ -6,7 +6,8 @@
 // test ad unit IDs headed into production code.
 // PostToolUse (Edit, Write, MultiEdit): flags edits to files synced from HQ
 // (.claude/synced.json), checks store.config.json against App
-// Store limits, the no dashes rule and its screenshot files, and checks screen
+// Store limits, the no dashes rule and its screenshot files, checks screenshot
+// captions in scenes.json for price, free and trial wording, and checks screen
 // code against the design rules from the Drift 1.18.0 refresh (theme tokens
 // instead of raw colors, no placeholder ad text, no Alert.alert), and hands
 // problems back to Claude.
@@ -71,6 +72,28 @@ export function lintStoreConfig(json) {
   return problems;
 }
 
+// Guideline 2.3.7: screenshots and their captions may not mention price, free,
+// trials or discounts. Drift 1.18.0 (54) was rejected on Oct 18 2026 for a
+// paywall frame captioned "Your first week is free", and SayBright had the same
+// frame. Price and trial copy belongs in the description and promo text only.
+export const PRICE_WORDS =
+  /\bfree\b|\btrial\b|\bprice|\bdiscount|\bsale\b|\bdeal\b|[$€£¥]\s?\d|\d+\s?% off|\/\s?(mo|month|yr|year|week)\b|per (month|year|week)/i;
+const PAYWALL_PATH = /\/(paywall|premium|pricing|subscribe)\b/i;
+
+// scenes.json (make.py) and captions.json (compose.py) list the store frames.
+export function lintScenes(json) {
+  const problems = [];
+  for (const s of [...(json?.scenes || []), ...(json?.shots || [])]) {
+    for (const field of ['title', 'subtitle']) {
+      const hit = s?.[field] && PRICE_WORDS.exec(s[field]);
+      if (hit) problems.push(`${s.name} ${field} "${s[field]}" mentions "${hit[0]}"; captions may not reference price, free or trials (Guideline 2.3.7)`);
+    }
+    if (s?.path && PAYWALL_PATH.test(s.path))
+      problems.push(`${s.name} captures ${s.path}; the paywall belongs only in the "paywall" entry for subscription review, never in the listing`);
+  }
+  return problems;
+}
+
 // App Store screenshot slots and the pixel sizes Apple accepts for each.
 export const SCREENSHOT_SLOTS = {
   APP_IPHONE_67: [[1320, 2868], [1290, 2796]],
@@ -93,6 +116,8 @@ export function lintScreenshots(json, root, appJson) {
     for (const [slot, files] of Object.entries(shots)) {
       const sizes = SCREENSHOT_SLOTS[slot];
       for (const f of files || []) {
+        if (/paywall|premium|pricing/i.test(basename(f)))
+          problems.push(`${locale} ${slot}: ${f} looks like a paywall frame; listing screenshots may not show prices or trials (Guideline 2.3.7)`);
         const path = join(root, f);
         if (!existsSync(path)) {
           problems.push(`${locale} ${slot}: ${f} does not exist`);
@@ -227,6 +252,14 @@ async function main() {
       } catch {}
       const problems = [...lintStoreConfig(json), ...lintScreenshots(json, dirname(file), appJson)];
       if (problems.length) block(`store.config.json needs fixes before store:push:\n* ${problems.join('\n* ')}`);
+    }
+    if (/^(scenes|captions)(\.example)?\.json$/.test(basename(file)) && existsSync(file)) {
+      let scenes = null;
+      try {
+        scenes = JSON.parse(readFileSync(file, 'utf8'));
+      } catch {}
+      const problems = lintScenes(scenes);
+      if (problems.length) block(`${basename(file)} would break App Store Guideline 2.3.7:\n* ${problems.join('\n* ')}`);
     }
     if (/\.tsx$/.test(file) && existsSync(file)) {
       const root = input.cwd || cwd;
