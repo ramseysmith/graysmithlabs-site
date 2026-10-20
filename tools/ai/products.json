@@ -263,5 +263,67 @@
       "url": "https://valentinetide.com",
       "answer": "Valentine Tide is an independent goth surf apparel brand (tees and swim) under the tagline Surf the Shadows, sold at valentinetide.com and on X as @valentinetide."
     }
-  ]
+  ],
+  "services": {
+    "url": "https://graysmithlabs.com/services/",
+    "title": "App development services for iOS, Android and web | Graysmith Labs",
+    "description": "Graysmith Labs builds iOS, Android, Expo and web apps, backends and AI features, plus a fixed price app audit. Free scoping call, then a fixed quote.",
+    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, with TubTender in App Review) and built the Valentine Tide storefront.",
+    "offers": [
+      [
+        "iOS and Android app development",
+        "One React Native and Expo codebase for both stores, or native Swift, through App Store review and launch."
+      ],
+      [
+        "Web app and site development",
+        "Web apps and sites from a marketing page to a full product with accounts, payments and dashboards."
+      ],
+      [
+        "Backend and cloud engineering",
+        "APIs, webhooks, background jobs and serverless infrastructure."
+      ],
+      [
+        "AI features and automation",
+        "Assistants, search, summaries, on device features and agents inside a product or its operations."
+      ],
+      [
+        "Subscriptions and ads setup",
+        "Paywalls, free trials, RevenueCat entitlements and AdMob with App Tracking Transparency."
+      ],
+      [
+        "Contract engineering",
+        "A senior engineer inside a client team on weekly or monthly terms."
+      ],
+      [
+        "Fixed price app audit",
+        "A review of an app, its codebase and its App Store listing with a written report of what to fix first."
+      ]
+    ],
+    "faq": [
+      [
+        "What does Graysmith Labs build?",
+        "iOS and Android apps with React Native and Expo or native Swift, web apps and sites, backends and serverless APIs, and AI features and automation. It also sets up subscriptions with RevenueCat, payments with Stripe and ads with AdMob, and takes apps through App Store review."
+      ],
+      [
+        "How much does an app cost?",
+        "It depends on scope, so there are no list prices. After a free scoping call you get a written plan and a fixed quote for a defined build. Contract engineering is billed at a weekly or monthly rate."
+      ],
+      [
+        "What is the fixed price app audit?",
+        "A short review of your app, codebase and App Store listing, priced before it starts. It covers App Review risks, subscriptions and the paywall, ads and privacy, the listing and search, and the code and build setup, and ends with a written report of what to fix first."
+      ],
+      [
+        "Can you take over an existing React Native or Expo app?",
+        "Yes. Contract engineering is built for that: we join your repos, tools and review process, and an audit is a good first step to see where the app stands."
+      ],
+      [
+        "Who owns the code?",
+        "You do. Once the work is paid for, the code, designs and accounts belong to your company, and everything is documented so any engineer can pick it up."
+      ],
+      [
+        "How do I start?",
+        "Email ramsey@graysmithlabs.com with what you are building, who it is for and when you need it. The reply sets up the free scoping call."
+      ]
+    ]
+  }
 }

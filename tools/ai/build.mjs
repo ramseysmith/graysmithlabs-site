@@ -93,6 +93,10 @@ function llmsTxt() {
     lines.push(`### ${a.name}`, "", a.answer, "", `* Pricing: ${a.pricing}`, `* Platforms: ${a.platforms}`, `* Best for: ${a.bestFor.join("; ")}`,
       `* Page: ${data.site.url}/apps/${a.slug}.html`, `* App Store: https://apps.apple.com/app/id${a.appStoreId}`, "");
   }
+  if (data.services) {
+    const s = data.services;
+    lines.push("## Studio services", "", s.answer, "", ...s.offers.map(([n, d]) => `* ${n}: ${d}`), `* Page: ${s.url}`, "");
+  }
   lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, "", "## Brands", "");
   for (const b of data.brands) lines.push(`* [${b.name}](${b.url}): ${b.answer}`);
   return lines.join("\n") + "\n";
@@ -132,6 +136,44 @@ const known = new Set(data.apps.map((a) => a.slug));
 for (const f of fs.readdirSync(path.join(site, "apps"))) {
   const m = f.match(/^([a-z0-9]+)\.html$/);
   if (m && !known.has(m[1])) problems.push(`apps/${f} has no entry in tools/ai/products.json`);
+}
+// The studio services page: title, description, FAQ and JSON LD from products.json "services".
+if (data.services) {
+  const s = data.services;
+  const file = path.join(site, "services", "index.html");
+  if (!fs.existsSync(file)) problems.push("services/index.html is missing");
+  else {
+    if (s.description.length > 160) problems.push(`services: description is ${s.description.length} characters (max 160)`);
+    let html = fs.readFileSync(file, "utf8");
+    html = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(s.title)}</title>`);
+    html = setMeta(html, "name", "description", s.description);
+    html = setMeta(html, "property", "og:title", s.title);
+    const items = s.faq.map(([q, a]) => `        <details>\n          <summary>${esc(q)}</summary>\n          <p>${esc(a)}</p>\n        </details>`).join("\n");
+    html = between(html, "faq", items, "      </div>\n    </div>\n  </section>\n\n  <section id=\"contact\">");
+    const graph = [{
+      "@type": "ProfessionalService",
+      "@id": `${data.site.url}/#studio`,
+      name: data.site.name,
+      legalName: "Graysmith Labs LLC",
+      url: s.url,
+      email: data.site.contact,
+      description: s.answer,
+      address: { "@type": "PostalAddress", addressLocality: "Centennial", addressRegion: "CO", addressCountry: "US" },
+      areaServed: "US",
+      sameAs: ["https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911"],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Studio services",
+        itemListElement: s.offers.map(([n, d]) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: n, description: d } })),
+      },
+    }, {
+      "@type": "FAQPage",
+      "@id": `${s.url}#faq`,
+      mainEntity: s.faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+    }];
+    html = between(html, "jsonld", `<script type="application/ld+json">\n${JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2)}\n</script>`, "</head>");
+    write(file, html);
+  }
 }
 write(path.join(site, "llms.txt"), llmsTxt());
 
