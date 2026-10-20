@@ -150,9 +150,9 @@
       "storeCategory": "Health and Fitness",
       "platforms": "iPhone",
       "title": "SayBright: Daily Affirmations App with Widgets",
-      "description": "SayBright is a daily affirmations app for iPhone with 340 plus affirmations, streaks, home and lock screen widgets and your own voice recordings.",
-      "answer": "SayBright is an iPhone affirmations app with 340 plus affirmations in ten categories such as confidence, gratitude and self love, a daily reminder, streak milestones, home and lock screen widgets, and the option to record affirmations in your own voice, which stay on the phone.",
-      "pricing": "Free to start. Premium is $0.99 a month or $9.99 a year with a free week, and unlocks every category, widgets and voice recordings.",
+      "description": "SayBright is a daily affirmations app for iPhone: five free affirmations a day, Confidence free, 340 in all, streaks, widgets and your own voice.",
+      "answer": "SayBright is an iPhone affirmations app with 340 affirmations in ten categories such as confidence, gratitude and self love. The free plan gives five affirmations a day, the whole Confidence category and a preview of every other category, plus a daily reminder, streak milestones and your own written affirmations. Premium adds every category with no daily limit, home and lock screen widgets, recordings in your own voice and no ads.",
+      "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings and no ads.",
       "bestFor": [
         "building a daily affirmation habit",
         "positive affirmations on the lock screen",
@@ -160,21 +160,24 @@
         "people who want a low cost affirmation app"
       ],
       "features": [
-        "340 plus affirmations in ten categories",
+        "Five free affirmations a day, picked from the topics you choose",
+        "340 affirmations in ten categories, with Confidence fully free",
+        "Say your first affirmation in under a minute during setup",
         "Daily reminder at a time you pick",
         "Streak milestones from 7 to 365 days",
-        "Home and lock screen widgets",
-        "Record affirmations in your own voice, stored on device",
+        "Write your own affirmations, free",
+        "Home and lock screen widgets (Premium)",
+        "Record affirmations in your own voice, stored on device (Premium)",
         "Share cards for Stories and iMessage"
       ],
       "faq": [
         [
           "Is SayBright free?",
-          "Yes, you can start free. Premium is $0.99 a month or $9.99 a year, with a free week first, and unlocks every category, widgets and voice recordings."
+          "Yes. The free plan gives five affirmations a day, the whole Confidence category, a preview of every other category, streaks, reminders and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week first for eligible new subscribers, and opens every category with no daily limit, widgets, voice recordings and no ads."
         ],
         [
           "Can I put affirmations on my lock screen?",
-          "Yes. SayBright has home screen and lock screen widgets that refresh through the day."
+          "Yes, with Premium. SayBright has home screen and lock screen widgets that refresh through the day."
         ],
         [
           "Can I write my own affirmations?",
@@ -183,6 +186,10 @@
         [
           "How do streaks work?",
           "Open your daily affirmation each day to build a streak, with celebrations at 7, 14, 30, 60, 90, 180 and 365 days."
+        ],
+        [
+          "How many affirmations does SayBright have?",
+          "340 affirmations in ten categories: Confidence, Gratitude, Morning Energy, Self Love, Career Growth, Relationships, Health and Body, Wealth and Abundance, Calm and Anxiety Relief, and Creativity."
         ]
       ]
     },
