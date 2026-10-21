@@ -16,25 +16,26 @@
       "platforms": "iPhone and iPad",
       "title": "Drift: Sleep Sounds and White Noise App for iPhone",
       "description": "Drift is a free sleep sounds app for iPhone with white noise, rain, ocean and fan sounds, a fade out sleep timer and offline playback.",
-      "answer": "Drift is a free iPhone and iPad app that plays seamless sleep sounds (white noise, rain, ocean, stream and fan free; thunder, forest, night, fire, wind and cafe with Premium) with a sleep timer that fades out, playback with the screen locked, and no internet needed.",
-      "pricing": "Free with five sounds and ads. Premium unlocks all eleven sounds and removes ads, monthly or annual, with a free week for new subscribers.",
+      "answer": "Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream and fan are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind and cafe and removes ads.",
+      "pricing": "Free with five sounds and ads. Premium is $1.99 a month and unlocks all eleven sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds.",
       "bestFor": [
         "falling asleep faster with white noise or rain",
         "masking snoring, traffic or noisy neighbors",
         "sleeping on planes or anywhere without signal"
       ],
       "features": [
-        "Eleven seamless sleep sounds with no gap at the loop",
-        "Sleep timer that fades out after 15 minutes, 30 minutes, 1 hour or 2 hours",
+        "Eleven sleep sounds, including a deep white noise, rain, ocean, stream and fan",
+        "Sleep timer of 15 minutes, 30 minutes, 1 hour or 2 hours, with an optional wind down that fades the sound as the timer ends",
         "Keeps playing with the screen locked",
         "Works offline, every sound ships in the app",
-        "Dim sleep mode that will not light up the room",
+        "Sleep mode keeps the screen dark",
+        "30 second previews of every Premium sound",
         "No account needed"
       ],
       "faq": [
         [
           "Is Drift free?",
-          "Yes. White noise, rain, ocean, stream and fan are free. Premium unlocks six more sounds and removes ads, and new subscribers get a free week."
+          "Yes. White noise, rain, ocean, stream and fan are free. Premium is $1.99 a month, unlocks six more sounds and removes ads, and eligible new subscribers get a free week."
         ],
         [
           "Does Drift work without internet?",
@@ -50,7 +51,11 @@
         ],
         [
           "Can I set a sleep timer?",
-          "Yes. Pick 15 minutes, 30 minutes, 1 hour or 2 hours and the sound fades out gently instead of stopping abruptly."
+          "Yes. Pick 15 minutes, 30 minutes, 1 hour or 2 hours. Turn on wind down and the sound fades out as the timer ends instead of stopping abruptly."
+        ],
+        [
+          "Does Drift work offline on a plane?",
+          "Yes. Every sound ships inside the app, so nothing needs downloading before you fly. Test it once in airplane mode, set the timer and lock the screen."
         ]
       ]
     },
@@ -64,7 +69,7 @@
       "title": "SignSnap: Sign PDF Documents on iPhone, No Account",
       "description": "SignSnap lets you scan or import a PDF, add your signature and send it from your iPhone. No account and no uploads. First 2 documents free.",
       "answer": "SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw, type or photograph your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.",
-      "pricing": "Free for the first 2 signed documents. Premium is weekly, monthly or yearly, with a free week for new subscribers.",
+      "pricing": "Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.",
       "bestFor": [
         "signing a PDF on iPhone",
         "signing a lease, offer letter or permission slip from a phone",
@@ -90,7 +95,7 @@
         ],
         [
           "Is SignSnap free?",
-          "Your first 2 signed documents are free. After that, Premium is weekly, monthly or yearly, and new subscribers get a free week."
+          "Your first 2 signed documents are free, and after that you can watch one short ad to unlock one more signing. Premium is weekly, monthly or yearly with no limit, and new subscribers get a free week."
         ],
         [
           "Can I sign with Apple Pencil?",
@@ -237,9 +242,9 @@
       "storeCategory": "Lifestyle",
       "platforms": "iPhone",
       "title": "TubTender: Hot Tub Water Test and Chemical Calculator",
-      "description": "TubTender reads your hot tub test strip and tells you exactly how much of the chemicals you own to add, in what order, and when it is safe to soak.",
-      "answer": "TubTender is an iPhone app for hot tub water care: tap the colors on your test strip, scan the labels of the chemicals you own, and it gives exact amounts for your tub size in the right order (alkalinity, pH, calcium, then sanitizer) with a countdown until the water is safe. It supports bromine and chlorine and needs no account.",
-      "pricing": "Free core test and dose plan. Premium monthly or yearly adds trends, full history and fix it guides, with a free week to try it.",
+      "description": "Hot tub chemical calculator for iPhone: tap your test strip colors and TubTender shows how much of your own bottles to add, in order, and when to soak.",
+      "answer": "TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and version 1.0 is in App Review.",
+      "pricing": "Free test, dose plan, reminders, the cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history and every fix it guide, with a free week to try it.",
       "bestFor": [
         "new hot tub owners who do not know how much chemical to add",
         "bromine or chlorine hot tubs",
@@ -252,9 +257,35 @@
         "Exact amounts for your tub size and products",
         "Steps in the right order with wait times",
         "Safe to soak verdict and countdown",
-        "No account, data stays on the iPhone"
+        "No account, data stays on the iPhone",
+        "Free step by step guides for cloudy and foamy water"
       ],
-      "faq": []
+      "faq": [
+        [
+          "Is there an app that reads hot tub test strips?",
+          "TubTender reads your strip when you tap the color that matches each pad, so it works with any common spa strip. The camera is used to read the strength on your chemical bottle labels."
+        ],
+        [
+          "How does TubTender work out how much to add?",
+          "It uses your tub size, your readings and the strength printed on each product you own, and works out pH and alkalinity together. Always follow the product label as well."
+        ],
+        [
+          "Does TubTender work with bromine and chlorine?",
+          "Yes. Pick your sanitizer once and every dose plan, target range and shock step follows it."
+        ],
+        [
+          "Can TubTender help with cloudy or foamy hot tub water?",
+          "Yes. Free step by step guides cover cloudy and foamy water. Premium adds guides for smelly, green, itchy and scaly water."
+        ],
+        [
+          "Is TubTender free?",
+          "Testing, the dose plan, reminders and your last 5 tests are free. Premium, monthly or yearly with a free week, adds trends, full history and every guide."
+        ],
+        [
+          "Can I download TubTender now?",
+          "Version 1.0 is in App Review. Until it is live, the free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
+        ]
+      ]
     }
   ],
   "brands": [

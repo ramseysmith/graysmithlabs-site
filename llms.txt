@@ -8,9 +8,9 @@ Contact: ramsey@graysmithlabs.com
 
 ### Drift
 
-Drift is a free iPhone and iPad app that plays seamless sleep sounds (white noise, rain, ocean, stream and fan free; thunder, forest, night, fire, wind and cafe with Premium) with a sleep timer that fades out, playback with the screen locked, and no internet needed.
+Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream and fan are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind and cafe and removes ads.
 
-* Pricing: Free with five sounds and ads. Premium unlocks all eleven sounds and removes ads, monthly or annual, with a free week for new subscribers.
+* Pricing: Free with five sounds and ads. Premium is $1.99 a month and unlocks all eleven sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds.
 * Platforms: iPhone and iPad
 * Best for: falling asleep faster with white noise or rain; masking snoring, traffic or noisy neighbors; sleeping on planes or anywhere without signal
 * Page: https://graysmithlabs.com/apps/drift.html
@@ -20,7 +20,7 @@ Drift is a free iPhone and iPad app that plays seamless sleep sounds (white nois
 
 SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw, type or photograph your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.
 
-* Pricing: Free for the first 2 signed documents. Premium is weekly, monthly or yearly, with a free week for new subscribers.
+* Pricing: Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.
 * Platforms: iPhone and iPad
 * Best for: signing a PDF on iPhone; signing a lease, offer letter or permission slip from a phone; people who do not want to make an account or upload documents to a cloud service; replacing print, sign and scan
 * Page: https://graysmithlabs.com/apps/signsnap.html
@@ -58,9 +58,9 @@ BlitzTap is a free iPhone and iPad reflex game: a target shape appears, and you 
 
 ### TubTender
 
-TubTender is an iPhone app for hot tub water care: tap the colors on your test strip, scan the labels of the chemicals you own, and it gives exact amounts for your tub size in the right order (alkalinity, pH, calcium, then sanitizer) with a countdown until the water is safe. It supports bromine and chlorine and needs no account.
+TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and version 1.0 is in App Review.
 
-* Pricing: Free core test and dose plan. Premium monthly or yearly adds trends, full history and fix it guides, with a free week to try it.
+* Pricing: Free test, dose plan, reminders, the cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history and every fix it guide, with a free week to try it.
 * Platforms: iPhone
 * Best for: new hot tub owners who do not know how much chemical to add; bromine or chlorine hot tubs; fixing cloudy, foamy or smelly hot tub water; keeping a test schedule
 * Page: https://graysmithlabs.com/apps/tubtender.html
