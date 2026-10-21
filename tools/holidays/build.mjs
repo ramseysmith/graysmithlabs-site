@@ -313,7 +313,12 @@ function dayPage(data, m, d, years, prev, next) {
   let title = `${when} Holidays: ${names[0]}`;
   if (names.length > 1) title += " and More";
   if (title.length > 60) title = `What Holiday Is It on ${when}?`;
-  const description = clip(`What holiday is it on ${when}? ${listNames(names)}. See every observance for the day and get one each morning in CelebriDay.`, 155);
+  const longDescription = `What holiday is it on ${when}? ${listNames(names)}. See every observance for the day and get one each morning in CelebriDay.`;
+  // Too long for the full call to action: keep a whole sentence rather than ending on "in."
+  const shortDescription = `What holiday is it on ${when}? ${listNames(names)}. Get one each morning in CelebriDay.`;
+  const description = longDescription.length <= 155 ? longDescription
+    : shortDescription.length <= 155 ? shortDescription
+    : clip(`What holiday is it on ${when}? ${listNames(names)}.`, 155);
   const canonical = `${ORIGIN}/holidays/${slug(m, d)}.html`;
   const body = `  <div class="wrap hd">
     <p class="crumbs"><a href="./">Holidays</a> &nbsp;/&nbsp; <a href="${monthSlug(m)}.html">${MONTHS[m - 1]}</a> &nbsp;/&nbsp; ${d}</p>

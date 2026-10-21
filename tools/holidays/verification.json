@@ -707,241 +707,239 @@
   "month": 2,
   "day": 14,
   "name": "Valentines Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Fixed on February 14",
+  "source": "https://www.timeanddate.com/holidays/us/valentine-day"
  },
  {
   "month": 2,
   "day": 14,
   "name": "Random Acts of Kindness Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "wrong_date",
+  "note": "Random Acts of Kindness Day is February 17 (listed there); some years start a kindness week on February 14",
+  "source": "https://www.timeanddate.com/holidays/fun/random-act-of-kindness-day"
  },
  {
   "month": 2,
   "day": 15,
   "name": "National Gumdrop Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 15",
+  "source": "https://www.timeanddate.com/holidays/fun/gumdrop-day"
  },
  {
   "month": 2,
   "day": 15,
   "name": "Singles Awareness Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Observed February 15",
+  "source": "https://en.wikipedia.org/wiki/Singles_Awareness_Day"
  },
  {
   "month": 2,
   "day": 16,
   "name": "National Almond Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 16",
+  "source": "https://www.nationaldaycalendar.com/read/february-16-2025-national-do-a-grouch-a-favor-day-national-no-one-eats-alone-day-national-almond-day"
  },
  {
   "month": 2,
   "day": 16,
   "name": "Do a Grouch a Favor Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 16",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-do-a-grouch-a-favor-day-february-16"
  },
  {
   "month": 2,
   "day": 17,
   "name": "National Random Acts of Kindness Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 17",
+  "source": "https://www.nationaldaycalendar.com/celebrations/national-random-acts-of-kindness-day-february-17"
  },
  {
   "month": 2,
   "day": 17,
   "name": "World Human Spirit Day",
   "status": "unchecked",
-  "note": "search budget exhausted",
+  "note": "checked Oct 21: no holiday calendar in the search results lists it on this date",
   "source": ""
  },
  {
   "month": 2,
   "day": 18,
   "name": "National Drink Wine Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 18",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-drink-wine-day-february-18"
  },
  {
   "month": 2,
   "day": 18,
   "name": "Battery Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Battery Day on February 18",
+  "source": "https://www.punchbowl.com/holidays/national-battery-day"
  },
  {
   "month": 2,
   "day": 19,
   "name": "National Chocolate Mint Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 19",
+  "source": "https://timeanddate.com/holidays/fun/chocolate-mint-day"
  },
  {
   "month": 2,
   "day": 19,
   "name": "World Whale Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "moving",
+  "note": "Held on the third Sunday in February with the Maui Whale Festival, not a fixed date"
  },
  {
   "month": 2,
   "day": 20,
   "name": "World Day of Social Justice",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "UN day on February 20",
+  "source": "https://www.provedor-jus.pt/en/?p=18500"
  },
  {
   "month": 2,
   "day": 20,
   "name": "Love Your Pet Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 20",
+  "source": "https://news5cleveland.com/news/national/feb-20-is-national-love-your-pet-day"
  },
  {
   "month": 2,
   "day": 21,
   "name": "National Sticky Bun Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 21",
+  "source": "https://www.punchbowl.com/holidays/national-sticky-bun-day"
  },
  {
   "month": 2,
   "day": 21,
   "name": "International Mother Language Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "UNESCO day on February 21",
+  "source": "https://worldatlas.com/articles/when-and-why-is-the-international-mother-language-day-celebrated.html"
  },
  {
   "month": 2,
   "day": 22,
   "name": "National Margarita Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 22",
+  "source": "https://www.npr.org/sections/thetwo-way/2010/02/its_national_margarita_day_pin.html"
  },
  {
   "month": 2,
   "day": 22,
   "name": "George Washington Birthday",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "moving",
+  "note": "The federal holiday is the third Monday in February; February 22 is only his birth date"
  },
  {
   "month": 2,
   "day": 23,
   "name": "National Banana Bread Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 23",
+  "source": "https://www.daysoftheyear.com/days/feb/23/"
  },
  {
   "month": 2,
   "day": 23,
   "name": "Play Tennis Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 23 together with Banana Bread Day",
+  "source": "https://newsweek.ro/timp-liber/de-ce-este-bine-sa-joci-tenis-si-sa-mananci-paine-cu-banane-pe-23-februarie-traditia-de-sute-de-ani"
  },
  {
   "month": 2,
   "day": 24,
   "name": "National Tortilla Chip Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 24",
+  "source": "https://nationaldaycalendar.com/celebrations/national-tortilla-chip-day-february-24"
  },
  {
   "month": 2,
   "day": 24,
   "name": "World Bartender Day",
   "status": "unchecked",
-  "note": "search budget exhausted",
+  "note": "checked Oct 21: no holiday calendar in the search results lists it on this date",
   "source": ""
  },
  {
   "month": 2,
   "day": 25,
   "name": "National Clam Chowder Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 25",
+  "source": "https://nationaldaycalendar.com/national-clam-chowder-day-february-25/"
  },
  {
   "month": 2,
   "day": 25,
   "name": "Quiet Day",
   "status": "unchecked",
-  "note": "search budget exhausted",
+  "note": "checked Oct 21: no holiday calendar in the search results lists it on this date",
   "source": ""
  },
  {
   "month": 2,
   "day": 26,
   "name": "National Pistachio Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 26",
+  "source": "https://nationaldaycalendar.com/daily-digests/february-26-2026-national-chili-day-national-small-dog-day-national-set-a-good-example-day-carpe-diem-day-national-toast-day-national-letter-to-an-elder-day-national-tell-a-fairy-tale-day-national-pistachio-day"
  },
  {
   "month": 2,
   "day": 26,
   "name": "Tell a Fairy Tale Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 26",
+  "source": "https://nationaldaycalendar.com/daily-digests/february-26-2026-national-chili-day-national-small-dog-day-national-set-a-good-example-day-carpe-diem-day-national-toast-day-national-letter-to-an-elder-day-national-tell-a-fairy-tale-day-national-pistachio-day"
  },
  {
   "month": 2,
   "day": 27,
   "name": "National Polar Bear Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 27 (International Polar Bear Day)",
+  "source": "https://www.nationaldaycalendar.com/celebrations/national-polar-bear-day-february-27"
  },
  {
   "month": 2,
   "day": 27,
   "name": "No Brainer Day",
   "status": "unchecked",
-  "note": "search budget exhausted",
+  "note": "checked Oct 21: no holiday calendar in the search results lists it on this date",
   "source": ""
  },
  {
   "month": 2,
   "day": 28,
   "name": "National Tooth Fairy Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on February 28",
+  "source": "https://nationaldaycalendar.com/celebrations/national-tooth-fairy-day-february-28"
  },
  {
   "month": 2,
   "day": 28,
   "name": "Floral Design Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Floral Design Day on February 28",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-floral-design-day-february-28"
  },
  {
   "month": 3,
