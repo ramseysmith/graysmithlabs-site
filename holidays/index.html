@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-20";
+  var built = "2026-10-21";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,16 +81,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Tuesday, October 20</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Wednesday, October 21</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍑</span><span class="tag">Food</span></div>
-          <h2>National Brandied Fruit Day</h2>
-          <p>A day to enjoy the sweet and boozy tradition of fruit preserved in brandy, a classic homemade treat.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍎</span><span class="tag">Nature</span></div>
+          <h2>National Apple Day</h2>
+          <p>A day celebrating the beloved apple, one of the most widely grown and consumed fruits in the world.</p>
+          
+        </article>
+        <article class="hd-card">
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🔘</span><span class="tag">Fun</span></div>
+          <h2>Count Your Buttons Day</h2>
+          <p>A whimsical day encouraging people to notice, collect, and celebrate buttons of all shapes and sizes.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="october-20.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="october-21.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -101,12 +107,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="october-21.html"><b>Wednesday, October 21</b><span>🍎 National Apple Day  ·  🔘 Count Your Buttons Day</span></a></li>
       <li><a href="october-22.html"><b>Thursday, October 22</b><span>🥜 National Nut Day  ·  ⬆️ International Caps Lock Day</span></a></li>
       <li><a href="october-23.html"><b>Friday, October 23</b><span>🍰 National Boston Cream Pie Day  ·  🎙️ TV Talk Show Host Day</span></a></li>
       <li><a href="october-24.html"><b>Saturday, October 24</b><span>🥪 National Bologna Day  ·  🌐 United Nations Day</span></a></li>
       <li><a href="october-25.html"><b>Sunday, October 25</b><span>🍟 National Greasy Foods Day  ·  🍝 World Pasta Day</span></a></li>
       <li><a href="october-26.html"><b>Monday, October 26</b><span>🥧 National Mincemeat Day  ·  🎃 Pumpkin Day</span></a></li>
+      <li><a href="october-27.html"><b>Tuesday, October 27</b><span>🍺 National American Beer Day  ·  😤 Cranky Coworkers Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
