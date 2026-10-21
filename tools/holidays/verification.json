@@ -3,9 +3,9 @@
   "month": 1,
   "day": 1,
   "name": "New Year's Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Fixed public holiday on January 1",
+  "source": "https://www.timeanddate.com/holidays/common/new-year-day"
  },
  {
   "month": 1,
@@ -27,9 +27,9 @@
   "month": 1,
   "day": 2,
   "name": "World Introvert Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed every year on January 2",
+  "source": "https://www.nationaldaycalendar.com/international/world-introvert-day-january-2"
  },
  {
   "month": 1,
@@ -43,17 +43,17 @@
   "month": 1,
   "day": 3,
   "name": "Fruitcake Toss Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "moving",
+  "note": "National Day Calendar now lists it on the first Saturday in January; timeanddate still shows January 3",
+  "source": "https://www.nationaldaycalendar.com/january/national-fruitcake-toss-day-first-saturday-in-january"
  },
  {
   "month": 1,
   "day": 4,
   "name": "Trivia Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Trivia Day, January 4 each year",
+  "source": "https://www.nationaldaycalendar.com/celebrations/national-trivia-day-january-4"
  },
  {
   "month": 1,
@@ -67,25 +67,25 @@
   "month": 1,
   "day": 5,
   "name": "National Bird Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 5 each year",
+  "source": "https://www.awarenessdays.com/awareness-days-calendar/bird-day"
  },
  {
   "month": 1,
   "day": 5,
   "name": "Twelfth Night",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Eve of Epiphany, January 5 in most Western traditions (some count January 6)",
+  "source": "https://en.wikipedia.org/wiki/Twelfth_Night_(holiday)"
  },
  {
   "month": 1,
   "day": 6,
   "name": "Epiphany",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 6 in Western churches; Orthodox churches on the Julian calendar keep January 19",
+  "source": "https://www.timeanddate.com/holidays/spain/epiphany"
  },
  {
   "month": 1,
@@ -107,17 +107,17 @@
   "month": 1,
   "day": 7,
   "name": "Old Rock Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on January 7",
+  "source": "https://timeanddate.com/holidays/fun/january/7"
  },
  {
   "month": 1,
   "day": 8,
   "name": "Elvis Presley Day",
   "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "note": "only a proposed House resolution and local proclamations found; no holiday calendar lists it",
+  "source": "https://www.congress.gov/112/bills/hres818/BILLS-112hres818ih.pdf"
  },
  {
   "month": 1,
@@ -155,17 +155,17 @@
   "month": 1,
   "day": 10,
   "name": "Bittersweet Chocolate Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Bittersweet Chocolate Day, January 10",
+  "source": "https://nationaltoday.com/national-bittersweet-chocolate-day/"
  },
  {
   "month": 1,
   "day": 11,
   "name": "National Milk Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 11, anniversary of first milk bottle delivery",
+  "source": "https://census.gov/newsroom/stories/milk-day.html"
  },
  {
   "month": 1,
@@ -187,9 +187,9 @@
   "month": 1,
   "day": 12,
   "name": "Work Harder Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on January 12",
+  "source": "https://www.daysoftheyear.com/days/work-harder-day/"
  },
  {
   "month": 1,
@@ -203,17 +203,17 @@
   "month": 1,
   "day": 13,
   "name": "Korean American Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 13, recognized by Congress and state proclamations",
+  "source": "https://evers.wi.gov/Documents/011326_Acessible Proclamation_Korean American Day.pdf"
  },
  {
   "month": 1,
   "day": 14,
   "name": "Organize Your Home Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on January 14",
+  "source": "https://timeanddate.com/holidays/fun/organize-your-home-day"
  },
  {
   "month": 1,
@@ -235,17 +235,17 @@
   "month": 1,
   "day": 15,
   "name": "Strawberry Ice Cream Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Strawberry Ice Cream Day, January 15",
+  "source": "https://www.nationaldaycalendar.com/celebrations/national-strawberry-ice-cream-day-january-15"
  },
  {
   "month": 1,
   "day": 16,
   "name": "National Nothing Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 16 each year",
+  "source": "https://en.wikipedia.org/wiki/National_Nothing_Day"
  },
  {
   "month": 1,
@@ -267,9 +267,9 @@
   "month": 1,
   "day": 17,
   "name": "National Maple Syrup Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "wrong_date",
+  "note": "National Maple Syrup Day is December 17",
+  "source": "https://www.govinfo.gov/features/maple-syrup-day"
  },
  {
   "month": 1,
@@ -323,177 +323,177 @@
   "month": 1,
   "day": 21,
   "name": "National Hugging Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 21 each year",
+  "source": "https://en.wikipedia.org/wiki/National_Hugging_Day"
  },
  {
   "month": 1,
   "day": 21,
   "name": "Squirrel Appreciation Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 21 each year",
+  "source": "https://www.timeanddate.com/holidays/fun/squirrel-appreciation-day"
  },
  {
   "month": 1,
   "day": 22,
   "name": "National Blonde Brownie Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 22 each year",
+  "source": "https://www.nationaldaycalendar.com/celebrations/national-blonde-brownie-day-january-22"
  },
  {
   "month": 1,
   "day": 22,
   "name": "Answer Your Cat's Questions Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 22 each year",
+  "source": "https://timeanddate.com/holidays/fun/answer-your-cats-questions-day"
  },
  {
   "month": 1,
   "day": 23,
   "name": "National Pie Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 23, promoted by the American Pie Council",
+  "source": "https://en.wikipedia.org/wiki/National_Pie_Day"
  },
  {
   "month": 1,
   "day": 23,
   "name": "Handwriting Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Handwriting Day, January 23 (John Hancock's birthday)",
+  "source": "https://www.zaner-bloser.com/NationalHandwritingDay/index"
  },
  {
   "month": 1,
   "day": 24,
   "name": "National Compliment Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 24 each year",
+  "source": "https://www.hopperhq.com/social-media-holiday-calendar/january/national-compliment-day-january-24th/"
  },
  {
   "month": 1,
   "day": 24,
   "name": "Beer Can Appreciation Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 24, first canned beer sold 1935",
+  "source": "https://bcca.com/news/657106/BEER-CAN-APPRECIATION-DAY--JANUARY-24TH.htm"
  },
  {
   "month": 1,
   "day": 25,
   "name": "Opposite Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on January 25",
+  "source": "https://timeanddate.com/holidays/fun/opposite-day"
  },
  {
   "month": 1,
   "day": 25,
   "name": "Burns Night",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 25, Robert Burns's birthday",
+  "source": "https://timeanddate.com/holidays/uk/burns-night"
  },
  {
   "month": 1,
   "day": 26,
   "name": "Australia Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 26; the public holiday moves to Monday when it falls on a weekend",
+  "source": "https://timeanddate.com/holidays/australia/australia-day"
  },
  {
   "month": 1,
   "day": 26,
   "name": "National Peanut Brittle Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 26 each year",
+  "source": "https://nationaldaycalendar.com/celebrations/national-peanut-brittle-day-january-26"
  },
  {
   "month": 1,
   "day": 27,
   "name": "Holocaust Remembrance Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "International Holocaust Remembrance Day, January 27 (UN); Israel's Yom HaShoah is a separate spring date",
+  "source": "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day"
  },
  {
   "month": 1,
   "day": 27,
   "name": "Chocolate Cake Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Chocolate Cake Day, January 27",
+  "source": "https://www.punchbowl.com/holidays/national-chocolate-cake-day"
  },
  {
   "month": 1,
   "day": 28,
   "name": "National Blueberry Pancake Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 28 each year",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-blueberry-pancake-day-january-28"
  },
  {
   "month": 1,
   "day": 28,
   "name": "Data Privacy Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 28, also Data Protection Day in Europe",
+  "source": "https://en.wikipedia.org/wiki/Data_Privacy_Day"
  },
  {
   "month": 1,
   "day": 29,
   "name": "National Puzzle Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 29 each year",
+  "source": "https://en.wikipedia.org/wiki/National_Puzzle_Day"
  },
  {
   "month": 1,
   "day": 29,
   "name": "Corn Chip Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Corn Chip Day, January 29",
+  "source": "https://nationaldaycalendar.com/national-corn-chip-day-january-29/"
  },
  {
   "month": 1,
   "day": 30,
   "name": "Croissant Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "National Croissant Day, January 30",
+  "source": "https://www.awarenessdays.com/awareness-days-calendar/national-croissant-day/"
  },
  {
   "month": 1,
   "day": 30,
   "name": "National Inane Answering Message Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 30 each year",
+  "source": "https://nationaltoday.com/national-inane-answering-message-day/"
  },
  {
   "month": 1,
   "day": 31,
   "name": "Backwards Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "Listed on January 31",
+  "source": "https://timeanddate.com/holidays/fun/backwards-day"
  },
  {
   "month": 1,
   "day": 31,
   "name": "Inspire Your Heart with Art Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "January 31 each year",
+  "source": "https://brandywine.org/museum/blog/inspire-your-heart-art-day"
  },
  {
   "month": 2,
