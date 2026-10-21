@@ -27,7 +27,7 @@
           "intro": "SignSnap is a free iPhone and iPad app from Graysmith Labs made only for signing. It helps most when you were handed paper, when you sign often, or when you want the date next to your signature.",
           "steps": [
             "Open SignSnap and import the PDF from Files or Mail, or scan a paper page with the camera. The scanner finds the edges and straightens the page.",
-            "Create your signature once: draw it with a finger or Apple Pencil, type your name in a script font, or photograph your ink signature on paper. Save your initials the same way.",
+            "Create your signature once: draw it with a finger or Apple Pencil, or type your name in a script font. Save your initials the same way.",
             "Place it on the line and pinch to resize it. Tap Date to stamp today's date beside it.",
             "Share the signed PDF to Mail, Messages, AirDrop or Files."
           ],
@@ -55,7 +55,7 @@
               [
                 "Signature styles",
                 "Drawn",
-                "Drawn, typed or photographed"
+                "Drawn or typed"
               ],
               [
                 "Saved initials",
@@ -155,7 +155,7 @@
           "paras": [
             "Many leases ask for initials on every page or beside certain clauses, and a full signature with the date at the end. Count them before you start so none get missed.",
             "In Markup, save a second signature that is just your initials (plus button, Add Signature), then add it on each page that asks for it, and add your full signature last. Add the date with a text box.",
-            "If you scanned a paper lease or only need the final signature, SignSnap does that part in a few taps: draw, type or photograph your signature, place it on the line, pinch to resize, and tap Date to stamp today's date. SignSnap places one signature per signing, so for initials on many pages Markup is quicker."
+            "If you scanned a paper lease or only need the final signature, SignSnap does that part in a few taps: draw or type your signature, place it on the line, pinch to resize, and tap Date to stamp today's date. SignSnap places one signature per signing, so for initials on many pages Markup is quicker."
           ]
         },
         {

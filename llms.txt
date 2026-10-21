@@ -18,7 +18,7 @@ Drift is a free white noise and sleep sounds app for iPhone and iPad that works 
 
 ### SignSnap
 
-SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw, type or photograph your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.
+SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw or type your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.
 
 * Pricing: Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.
 * Platforms: iPhone and iPad

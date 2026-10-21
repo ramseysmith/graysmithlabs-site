@@ -68,7 +68,7 @@
       "platforms": "iPhone and iPad",
       "title": "SignSnap: Sign PDF Documents on iPhone, No Account",
       "description": "SignSnap lets you scan or import a PDF, add your signature and send it from your iPhone. No account and no uploads. First 2 documents free.",
-      "answer": "SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw, type or photograph your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.",
+      "answer": "SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw or type your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.",
       "pricing": "Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.",
       "bestFor": [
         "signing a PDF on iPhone",
@@ -77,7 +77,7 @@
         "replacing print, sign and scan"
       ],
       "features": [
-        "Draw, type or photograph your signature",
+        "Draw or type your signature",
         "Camera scanner with automatic edge detection",
         "Import PDFs from Files, Mail or any app",
         "Drag the signature onto the line, pinch to resize, and stamp the date beside it",
@@ -99,7 +99,7 @@
         ],
         [
           "Can I sign with Apple Pencil?",
-          "Yes. Draw with a finger or Apple Pencil, type your name in a script font, or photograph your ink signature."
+          "Yes. Draw with a finger or Apple Pencil, or type your name in a script font."
         ]
       ]
     },
