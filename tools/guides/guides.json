@@ -36,15 +36,47 @@
         {
           "h2": "Which one should you use?",
           "table": {
-            "head": ["", "Markup in Files", "SignSnap"],
+            "head": [
+              "",
+              "Markup in Files",
+              "SignSnap"
+            ],
             "rows": [
-              ["Cost", "Free", "First 2 documents free, then Premium"],
-              ["Paper documents", "Scan first in Notes, then open the PDF", "Built in scanner"],
-              ["Signature styles", "Drawn", "Drawn, typed or photographed"],
-              ["Saved initials", "Save a second signature", "Yes"],
-              ["Date stamp", "Type it with a text box", "One tap"],
-              ["Typing into blanks", "Yes, with Add Text", "No"],
-              ["Account needed", "No", "No"]
+              [
+                "Cost",
+                "Free",
+                "First 2 documents free, then Premium"
+              ],
+              [
+                "Paper documents",
+                "Scan first in Notes, then open the PDF",
+                "Built in scanner"
+              ],
+              [
+                "Signature styles",
+                "Drawn",
+                "Drawn, typed or photographed"
+              ],
+              [
+                "Saved initials",
+                "Save a second signature",
+                "Yes"
+              ],
+              [
+                "Date stamp",
+                "Type it with a text box",
+                "One tap"
+              ],
+              [
+                "Typing into blanks",
+                "Yes, with Add Text",
+                "No"
+              ],
+              [
+                "Account needed",
+                "No",
+                "No"
+              ]
             ]
           },
           "after": "For a PDF that needs blanks filled in, such as a lease or an application, see <a href=\"fill-and-sign-lease-on-phone.html\">how to fill and sign a lease on your phone</a>."
@@ -58,11 +90,26 @@
         }
       ],
       "faq": [
-        ["Can I sign a PDF on iPhone without downloading an app?", "Yes. Open the PDF in the Files app, tap the Markup button, tap the plus button and choose Add Signature. Drag the signature onto the line and tap Done."],
-        ["How do I sign a PDF that someone emailed me?", "Tap the attachment in Mail, tap the share button and choose Save to Files or open it in a signing app such as SignSnap. Sign it, then share the signed PDF back as a reply."],
-        ["How do I sign a paper document with my iPhone?", "Scan it first. SignSnap has a scanner built in that finds the page edges, so you can scan, sign and send in one app. The Notes app can also scan documents into a PDF."],
-        ["Can I add the date next to my signature?", "In Markup, tap the plus button, choose Add Text and type the date. In SignSnap, tap Date while placing your signature to stamp today's date."],
-        ["Does SignSnap upload my documents?", "No. SignSnap needs no account and keeps documents on your iPhone. A file leaves the phone only when you share it."]
+        [
+          "Can I sign a PDF on iPhone without downloading an app?",
+          "Yes. Open the PDF in the Files app, tap the Markup button, tap the plus button and choose Add Signature. Drag the signature onto the line and tap Done."
+        ],
+        [
+          "How do I sign a PDF that someone emailed me?",
+          "Tap the attachment in Mail, tap the share button and choose Save to Files or open it in a signing app such as SignSnap. Sign it, then share the signed PDF back as a reply."
+        ],
+        [
+          "How do I sign a paper document with my iPhone?",
+          "Scan it first. SignSnap has a scanner built in that finds the page edges, so you can scan, sign and send in one app. The Notes app can also scan documents into a PDF."
+        ],
+        [
+          "Can I add the date next to my signature?",
+          "In Markup, tap the plus button, choose Add Text and type the date. In SignSnap, tap Date while placing your signature to stamp today's date."
+        ],
+        [
+          "Does SignSnap upload my documents?",
+          "No. SignSnap needs no account and keeps documents on your iPhone. A file leaves the phone only when you share it."
+        ]
       ]
     },
     {
@@ -120,11 +167,237 @@
         }
       ],
       "faq": [
-        ["Can I sign a lease on my iPhone?", "Yes. Open the lease PDF in the Files app, tap Markup, then the plus button and Add Signature. Place your signature and initials where the lease asks, tap Done and send the PDF back."],
-        ["Is a lease signed on a phone legally binding?", "In the United States, electronic signatures on leases are generally valid under the ESIGN Act and state laws based on UETA. Ask your landlord if you are unsure, and keep a copy signed by both of you."],
-        ["How do I type on the lines of a PDF on iPhone?", "In Markup, tap the plus button and choose Add Text, then drag the text box onto the line and type. Fillable form fields can be tapped and typed into directly."],
-        ["What if my landlord gave me a paper lease?", "Scan every page into one PDF with a scanner app such as SignSnap or with the Notes app, then fill and sign the PDF and email it back. Ask whether a signed PDF is acceptable first."],
-        ["How do I add the date to my signature?", "In Markup, add a text box with the date beside your signature. In SignSnap, tap Date while placing your signature."]
+        [
+          "Can I sign a lease on my iPhone?",
+          "Yes. Open the lease PDF in the Files app, tap Markup, then the plus button and Add Signature. Place your signature and initials where the lease asks, tap Done and send the PDF back."
+        ],
+        [
+          "Is a lease signed on a phone legally binding?",
+          "In the United States, electronic signatures on leases are generally valid under the ESIGN Act and state laws based on UETA. Ask your landlord if you are unsure, and keep a copy signed by both of you."
+        ],
+        [
+          "How do I type on the lines of a PDF on iPhone?",
+          "In Markup, tap the plus button and choose Add Text, then drag the text box onto the line and type. Fillable form fields can be tapped and typed into directly."
+        ],
+        [
+          "What if my landlord gave me a paper lease?",
+          "Scan every page into one PDF with a scanner app such as SignSnap or with the Notes app, then fill and sign the PDF and email it back. Ask whether a signed PDF is acceptable first."
+        ],
+        [
+          "How do I add the date to my signature?",
+          "In Markup, add a text box with the date beside your signature. In SignSnap, tap Date while placing your signature."
+        ]
+      ]
+    },
+    {
+      "slug": "cloudy-hot-tub-water",
+      "app": "tubtender",
+      "title": "Cloudy Hot Tub Water: Why It Happens and How to Fix It",
+      "description": "Why is my hot tub water cloudy? Usually low sanitizer, high pH or alkalinity, or a dirty filter. Test, balance, shock and rinse the filter, in that order.",
+      "h1": "Cloudy hot tub water: why it happens and how to fix it",
+      "answer": "Cloudy hot tub water almost always comes from low sanitizer, pH or alkalinity that has crept too high, or a clogged filter, and old water full of dissolved solids makes all three worse. Test the water first, bring alkalinity and then pH into range, shock to restore the sanitizer, rinse the filter, and run the jets with the cover open; most haze clears within a day.",
+      "updated": "2026-10-21",
+      "cta": {
+        "href": "../hot-tub-calculator/",
+        "label": "Try the free hot tub calculator"
+      },
+      "sections": [
+        {
+          "h2": "Step 1: test before you add anything",
+          "intro": "Guessing is how a cloudy tub turns into a cloudy tub with too much acid in it. Dip a fresh test strip, or use a drop kit, and write down four numbers: sanitizer (free chlorine or bromine), pH, total alkalinity and, if your strip has it, calcium hardness.",
+          "after": "The free <a href=\"../hot-tub-calculator/\">hot tub chemical calculator</a> takes those readings, your tub size and the strength printed on your own bottles, and lists what to add in the right order."
+        },
+        {
+          "h2": "What the readings tell you",
+          "intro": "Compare your numbers with the usual hot tub ranges. These follow CDC hot tub guidance for soaking and the common spa targets for balance.",
+          "table": {
+            "head": [
+              "Reading",
+              "Usual range",
+              "If it is outside the range"
+            ],
+            "rows": [
+              [
+                "Free chlorine",
+                "3 to 10 ppm",
+                "Low chlorine lets bacteria and body oils cloud the water"
+              ],
+              [
+                "Bromine",
+                "4 to 8 ppm",
+                "Low bromine does the same; shocking reactivates spent bromide"
+              ],
+              [
+                "pH",
+                "7.2 to 7.8",
+                "High pH makes sanitizer weaker and lets calcium come out as haze"
+              ],
+              [
+                "Total alkalinity",
+                "80 to 120 ppm",
+                "High alkalinity pushes pH up and keeps it there"
+              ],
+              [
+                "Calcium hardness",
+                "150 to 400 ppm",
+                "Very high calcium plus high pH turns the water milky and leaves scale"
+              ]
+            ]
+          },
+          "note": "If every number is in range and the water is still cloudy, the filter or old water is the likely cause."
+        },
+        {
+          "h2": "Step 2: fix it in this order",
+          "steps": [
+            "Alkalinity first. It buffers pH, so correcting pH before alkalinity means doing it twice. Raise it with an alkalinity increaser or lower it with pH decreaser, following the label on your product.",
+            "Then pH. Bring it to about 7.4 to 7.6 with pH increaser or decreaser.",
+            "Then shock. A non chlorine or chlorine shock (whichever matches your sanitizer, per its label) burns off oils and restores the sanitizer level.",
+            "Rinse the filter with a garden hose, pleat by pleat, from top to bottom. Soak it in a filter cleaner if it is greasy.",
+            "Run the jets with the cover open for about 20 minutes after each addition, wait before adding the next product, and test again before anyone soaks."
+          ]
+        },
+        {
+          "h2": "Still cloudy the next day?",
+          "list": [
+            "Add a spa clarifier. It clumps fine particles so the filter can catch them. Follow its label and rinse the filter a day later.",
+            "Check the filter's age. Most spa filters need replacing about once a year, or sooner in a busy tub.",
+            "Think about the water's age. Most hot tubs need draining and refilling every three to four months. Water near its drain date is often faster to replace than to fix.",
+            "Look at what goes in with the bathers. Lotion, makeup, hair products and detergent in swimsuits all cloud water. A quick rinse before soaking helps."
+          ]
+        },
+        {
+          "h2": "Cloudy or foamy?",
+          "paras": [
+            "Cloudy water is hazy all the way through and usually means a chemistry or filtration problem. Foam sits on the surface and is usually soap, lotion or hair product, often with soft water (low calcium).",
+            "Foam often follows the same fix: test, balance, shock and rinse the filter. A spa defoamer knocks it down for the moment, but it comes back until the cause is gone."
+          ]
+        },
+        {
+          "h2": "A faster way next time",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in this same order, with a countdown until the water is safe to soak. Its cloudy and foamy water guides are free.",
+          "note": "TubTender 1.0 is in App Review. Until it is live, the free hot tub calculator on this site runs the same engine in your browser."
+        }
+      ],
+      "faq": [
+        [
+          "Why is my hot tub water cloudy?",
+          "Usually low sanitizer, high pH or alkalinity, or a clogged filter. Old water with a lot of dissolved solids makes all of these worse."
+        ],
+        [
+          "Is it safe to use a cloudy hot tub?",
+          "It is best to wait. Cloudy water often means the sanitizer is too low to keep the water safe. Test, fix the sanitizer and pH, and soak once the readings are back in range."
+        ],
+        [
+          "How long does it take to clear cloudy hot tub water?",
+          "Most haze clears within 24 hours once the water is balanced, shocked and the filter is clean. If it is still cloudy after that, try a clarifier or drain and refill."
+        ],
+        [
+          "Will shock clear a cloudy hot tub?",
+          "Often, if low sanitizer or oils are the cause. Balance alkalinity and pH first so the shock works, and rinse the filter so it can catch what the shock breaks down."
+        ],
+        [
+          "Should I drain a cloudy hot tub?",
+          "Drain and refill if the water is near its drain date (typically three to four months), if calcium or dissolved solids are very high, or if balancing and shocking have not cleared it."
+        ]
+      ]
+    },
+    {
+      "slug": "sleep-sounds-offline-on-a-plane",
+      "app": "drift",
+      "title": "Sleep Sounds That Work Offline on a Plane (iPhone)",
+      "description": "Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.",
+      "h1": "Sleep sounds that work offline on a plane",
+      "answer": "Yes: a sleep sounds app plays on a plane as long as its sounds are stored on your phone, so pick one whose sounds ship inside the app (Drift, for example) or download your sounds before you board, and test it in airplane mode at home. Steady sounds like fan or a deep white noise mask engine roar best, at the lowest volume that covers it.",
+      "updated": "2026-10-21",
+      "sections": [
+        {
+          "h2": "Test it in airplane mode before you fly",
+          "intro": "Many sleep apps stream their sounds or keep most of them online. Find out on the ground, not at 35,000 feet.",
+          "steps": [
+            "Open Control Center and turn on Airplane Mode. Turn WiFi off too, because planes often let you turn it back on.",
+            "Open your sleep app and play each sound you plan to use.",
+            "Lock the screen and wait a minute. The sound should keep playing.",
+            "Set the sleep timer and make sure it still counts down offline.",
+            "If a sound will not play, it is streamed. Download it inside the app, or use an app whose sounds are built in."
+          ]
+        },
+        {
+          "h2": "Which sounds cover engine noise best",
+          "paras": [
+            "Cabin noise is a steady low roar, so a steady sound with plenty of low end covers it best. Fan and a deep white noise (often called brown noise) blend into the engine instead of fighting it. Rain and ocean change over time, which some people find more relaxing but which masks less.",
+            "Keep the volume low. Headphones on a plane are easy to turn up too far, and a sound only needs to be slightly louder than the noise you are covering."
+          ]
+        },
+        {
+          "h2": "Set up before boarding",
+          "list": [
+            "Charge your phone and headphones, or pack a short cable.",
+            "Pick one sound and a sleep timer of about an hour so the app stops on its own.",
+            "Wired headphones or earbuds that fit well block more noise than loose ones. Noise cancelling headphones plus a quiet sound work better than either alone.",
+            "Turn on Do Not Disturb or a Sleep focus so notifications do not wake you when you land."
+          ]
+        },
+        {
+          "h2": "Apps whose sounds ship inside compared with streamed sounds",
+          "table": {
+            "head": [
+              "",
+              "Sounds built into the app",
+              "Streamed or downloadable sounds"
+            ],
+            "rows": [
+              [
+                "Works in airplane mode",
+                "Yes, nothing to prepare",
+                "Only the sounds you downloaded first"
+              ],
+              [
+                "Storage used",
+                "Small and fixed",
+                "Grows with each download"
+              ],
+              [
+                "Choice of sounds",
+                "A focused set",
+                "Usually a much larger library"
+              ],
+              [
+                "Examples",
+                "Drift",
+                "Calm, BetterSleep and most large libraries (download first)"
+              ]
+            ]
+          },
+          "after": "The free <a href=\"../white-noise/\">white noise generator</a> on this site plays in a browser, but it needs a connection to load, so use an app on the plane."
+        },
+        {
+          "h2": "Drift: built for offline sleep",
+          "intro": "Drift is a free white noise and sleep sounds app for iPhone and iPad from Graysmith Labs. Every sound ships inside the app, so it plays the same in airplane mode as at home, and it keeps playing with the screen locked.",
+          "steps": [
+            "Pick a sound. White noise, rain, ocean, stream and fan are free.",
+            "Set the sleep timer: 15 minutes, 30 minutes, 1 hour or 2 hours. Turn on wind down if you want it to fade out at the end.",
+            "Lock your phone. Sleep mode keeps the screen dark if you leave it open."
+          ],
+          "note": "Premium is $1.99 a month for six more sounds and no ads, and eligible new subscribers get a free week."
+        }
+      ],
+      "faq": [
+        [
+          "Do sleep sound apps work in airplane mode?",
+          "Only if the sounds are stored on your phone. Apps that stream need you to download sounds first. Drift's sounds ship inside the app, so it works in airplane mode with nothing to prepare."
+        ],
+        [
+          "What is the best sound to sleep on a plane?",
+          "A steady sound with low tones, such as fan or a deep white noise, blends into engine noise better than changing sounds like waves."
+        ],
+        [
+          "Will the sound keep playing when my iPhone locks?",
+          "In apps that support background audio, yes. Test it at home by locking the screen for a minute before you rely on it in the air."
+        ],
+        [
+          "Is white noise safe to listen to on a long flight?",
+          "Keep the volume at the lowest level that covers the cabin noise and use a sleep timer so it does not play all flight."
+        ]
       ]
     }
   ]

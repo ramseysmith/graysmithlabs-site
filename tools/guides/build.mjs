@@ -113,7 +113,9 @@ function guidePage(g) {
       },
     ],
   };
-  const extra = `<meta name="apple-itunes-app" content="app-id=${app.appStoreId}">\n<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n`;
+  // A guide for an app still in App Review sets cta, so it never offers a download that does not exist yet
+  const banner = g.cta ? '' : `<meta name="apple-itunes-app" content="app-id=${app.appStoreId}">\n`;
+  const extra = `${banner}<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n`;
   const others = data.guides.filter((o) => o.slug !== g.slug && o.app === g.app);
   return (
     head({ title: g.title, description: g.description, url, image, extra }) +
@@ -130,7 +132,7 @@ ${g.sections.map(section).join('')}
         <p>${esc(app.answer)}</p>
         <p class="guide-note">${esc(app.pricing)}</p>
         <div class="btn-row">
-          <a class="btn" href="${store}" rel="noopener">Download on the App Store</a>
+          ${g.cta ? `<a class="btn" href="${g.cta.href}">${esc(g.cta.label)}</a>` : `<a class="btn" href="${store}" rel="noopener">Download on the App Store</a>`}
           <a class="btn ghost" href="../apps/${app.slug}.html">About ${esc(app.name)}</a>
         </div>
       </div>

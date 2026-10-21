@@ -83,6 +83,14 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 
 * What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)
 * Hot tub chemical calculator: https://graysmithlabs.com/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)
+* White noise generator: https://graysmithlabs.com/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)
+
+## Guides
+
+* [How to sign a PDF on iPhone](https://graysmithlabs.com/guides/sign-pdf-on-iphone.html): How to sign a PDF on iPhone for free: use Markup in the Files app, or scan and sign with SignSnap. Step by step, no printer and no account.
+* [How to fill and sign a lease on your phone](https://graysmithlabs.com/guides/fill-and-sign-lease-on-phone.html): Fill in and sign a rental lease on iPhone: get it as a PDF, type into the blanks, initial and sign each page, and send it back. No printer needed.
+* [Cloudy hot tub water: why it happens and how to fix it](https://graysmithlabs.com/guides/cloudy-hot-tub-water.html): Why is my hot tub water cloudy? Usually low sanitizer, high pH or alkalinity, or a dirty filter. Test, balance, shock and rinse the filter, in that order.
+* [Sleep sounds that work offline on a plane](https://graysmithlabs.com/guides/sleep-sounds-offline-on-a-plane.html): Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.
 
 ## Brands
 

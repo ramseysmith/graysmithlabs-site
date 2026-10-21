@@ -97,7 +97,10 @@ function llmsTxt() {
     const s = data.services;
     lines.push("## Studio services", "", s.answer, "", ...s.offers.map(([n, d]) => `* ${n}: ${d}`), `* Page: ${s.url}`, "");
   }
-  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, "", "## Brands", "");
+  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, `* White noise generator: ${data.site.url}/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)`, "", "## Guides", "");
+  const guidesFile = path.join(site, "tools/guides/guides.json");
+  if (fs.existsSync(guidesFile)) for (const g of JSON.parse(fs.readFileSync(guidesFile, "utf8")).guides) lines.push(`* [${g.h1}](${data.site.url}/guides/${g.slug}.html): ${g.description}`);
+  lines.push("", "## Brands", "");
   for (const b of data.brands) lines.push(`* [${b.name}](${b.url}): ${b.answer}`);
   return lines.join("\n") + "\n";
 }
