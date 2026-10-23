@@ -28,9 +28,9 @@ SignSnap is an iPhone and iPad app for signing documents: scan paper with the ca
 
 ### CelebriDay
 
-CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each day of the year. The same list is free on the web at graysmithlabs.com/holidays/.
+CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.
 
-* Pricing: Free with ads. Premium, monthly or annual with a free week for new subscribers, lets you choose exactly when the daily alert arrives.
+* Pricing: Free with ads: today and tomorrow, every holiday's fun fact, sharing and the 8 AM daily note. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, favorites, choosing the note time and removes ads.
 * Platforms: iPhone and iPad
 * Best for: finding out what national day it is today; teachers, social media managers and offices looking for daily themes; daily conversation starters and fun facts; planning posts around upcoming national days
 * Page: https://graysmithlabs.com/apps/celebriday.html

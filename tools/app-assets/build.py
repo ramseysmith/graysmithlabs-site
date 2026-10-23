@@ -89,6 +89,11 @@ p{{position:absolute;left:72px;top:313px;width:385px;font-size:25px;line-height:
 <div class="ph" style="left:481px;top:101px"><img src="{phones[0]}"></div>
 <div class="ph" style="left:713px;top:69px"><img src="{phones[1]}"></div>
 <div class="ph" style="left:944px;top:101px"><img src="{phones[2]}"></div>
+<script>
+// keep the name clear of the first phone (left 481): shrink it until it fits
+const h = document.querySelector('h1'); let s = 84;
+while (h.getBoundingClientRect().right > 455 && s > 48) {{ s -= 2; h.style.fontSize = s + 'px'; }}
+</script>
 </body></html>"""
 
 from playwright.sync_api import sync_playwright
@@ -108,7 +113,9 @@ if args.version:
     for root, dirs, files in os.walk(SITE):
         dirs[:] = [d for d in dirs if d not in ('.git', 'node_modules')]
         for f in files:
-            if not f.endswith(('.html', '.json', '.txt', '.xml')):
+            # .mjs too: the holiday, guide and AI page builders write these URLs
+            # into pages every morning, so a stamp only in the built HTML is lost
+            if not f.endswith(('.html', '.json', '.txt', '.xml', '.mjs')):
                 continue
             path = os.path.join(root, f)
             text = open(path, encoding='utf-8').read()

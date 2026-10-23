@@ -112,8 +112,8 @@
       "platforms": "iPhone and iPad",
       "title": "CelebriDay: What Holiday Is It Today? App for iPhone",
       "description": "CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 365 plus holidays.",
-      "answer": "CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each day of the year. The same list is free on the web at graysmithlabs.com/holidays/.",
-      "pricing": "Free with ads. Premium, monthly or annual with a free week for new subscribers, lets you choose exactly when the daily alert arrives.",
+      "answer": "CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.",
+      "pricing": "Free with ads: today and tomorrow, every holiday's fun fact, sharing and the 8 AM daily note. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, favorites, choosing the note time and removes ads.",
       "bestFor": [
         "finding out what national day it is today",
         "teachers, social media managers and offices looking for daily themes",
@@ -121,11 +121,12 @@
         "planning posts around upcoming national days"
       ],
       "features": [
+        "Today and tomorrow free, with every holiday and fun fact",
         "Morning notification with today's holiday",
-        "A fun fact for every holiday",
-        "Color coded share cards",
-        "A calendar of the whole year",
-        "Favorites",
+        "Share cards for every holiday",
+        "A calendar of the whole year (Premium beyond tomorrow)",
+        "Favorites (Premium)",
+        "Choose when the daily note arrives (Premium)",
         "Free daily holiday pages on graysmithlabs.com/holidays/"
       ],
       "faq": [
@@ -139,7 +140,7 @@
         ],
         [
           "Is CelebriDay free?",
-          "Yes, CelebriDay is free with ads. Premium, monthly or annual with a free week to try it, lets you pick exactly when the morning alert arrives."
+          "Yes. Today and tomorrow are free with ads, including the fun facts, sharing and the morning note at 8 AM. Premium, monthly or yearly with a free week to try it, opens the whole calendar and favorites, lets you pick when the note arrives and removes ads."
         ],
         [
           "Can I share a holiday?",
