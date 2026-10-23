@@ -2145,9 +2145,9 @@
   "month": 5,
   "day": 15,
   "name": "National Nougat Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "wrong_date",
+  "note": "National Nougat Day is March 26, not May 15",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-nougat-day-march-26"
  },
  {
   "month": 5,
@@ -2177,241 +2177,241 @@
   "month": 5,
   "day": 17,
   "name": "National Cherry Cobbler Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 17 listing",
+  "source": "https://nationaldaycalendar.com/celebrations/national-cherry-cobbler-day-may-17"
  },
  {
   "month": 5,
   "day": 17,
   "name": "World Telecommunications Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: ITU World Telecommunication and Information Society Day, May 17",
+  "source": "https://itu.int/newsarchive/wtd/1997/documents/hist.html"
  },
  {
   "month": 5,
   "day": 18,
   "name": "National Cheese Souffle Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 18 listing",
+  "source": "https://nationaldaycalendar.com/may-18-2023-national-no-dirty-dishes-day-international-museum-day-national-visit-your-relatives-day-national-cheese-souffle-day-national-hiv-vaccine-awareness-day/"
  },
  {
   "month": 5,
   "day": 18,
   "name": "International Museum Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 18",
+  "source": "https://www.upi.com/Odd_News/2022/05/18/International-Museum-Day/2621652821837/"
  },
  {
   "month": 5,
   "day": 19,
   "name": "National Devils Food Cake Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 19 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-devils-food-cake-day-may-19"
  },
  {
   "month": 5,
   "day": 19,
   "name": "Bike to Work Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "moving",
+  "note": "checked Oct 23: third Friday in May (League of American Bicyclists), not a fixed May 19",
+  "source": "https://bikeleague.org/bikemonth/"
  },
  {
   "month": 5,
   "day": 20,
   "name": "National Quiche Lorraine Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 20 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-quiche-lorraine-day-may-20"
  },
  {
   "month": 5,
   "day": 20,
   "name": "World Bee Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: UN World Bee Day, May 20",
+  "source": "https://en.wikipedia.org/wiki/World_Bee_Day"
  },
  {
   "month": 5,
   "day": 21,
   "name": "National Strawberries and Cream Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 21",
+  "source": "https://www.punchbowl.com/holidays/2027/5/21/national-strawberries-and-cream-day"
  },
  {
   "month": 5,
   "day": 21,
   "name": "Talk Like Yoda Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 21",
+  "source": "https://www.timeanddate.com/holidays/fun/talk-like-yoda-day"
  },
  {
   "month": 5,
   "day": 22,
   "name": "National Vanilla Pudding Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 22",
+  "source": "https://nationaltoday.com/national-vanilla-pudding-day/"
  },
  {
   "month": 5,
   "day": 22,
   "name": "World Biodiversity Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: UN International Day for Biological Diversity, May 22",
+  "source": "https://www.cbd.int/idb/"
  },
  {
   "month": 5,
   "day": 23,
   "name": "National Taffy Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 23 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-taffy-day-may-23"
  },
  {
   "month": 5,
   "day": 23,
   "name": "World Turtle Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 23",
+  "source": "https://www.floridamuseum.ufl.edu/earth-systems/blog/tell-me-about-world-turtle-day/"
  },
  {
   "month": 5,
   "day": 24,
   "name": "National Escargot Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 24 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-escargot-day-may-24"
  },
  {
   "month": 5,
   "day": 24,
   "name": "Brothers Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 24 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/brothers-day-may-24"
  },
  {
   "month": 5,
   "day": 25,
   "name": "National Wine Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 25",
+  "source": "https://www.daysoftheyear.com/days/may/25"
  },
  {
   "month": 5,
   "day": 25,
   "name": "Towel Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 25",
+  "source": "https://www.nationaldaycalendar.com/read/may-25-2024-national-wine-day-national-missing-childrens-day-geek-pride-day-towel-day-national-brown-bag-it-day-national-tap-dance-day"
  },
  {
   "month": 5,
   "day": 26,
   "name": "National Blueberry Cheesecake Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 26 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-blueberry-cheesecake-day-may-26"
  },
  {
   "month": 5,
   "day": 26,
   "name": "World Dracula Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 26, publication of Dracula in 1897",
+  "source": "https://www.daysoftheyear.com/days/may/26/2027/"
  },
  {
   "month": 5,
   "day": 27,
   "name": "National Grape Popsicle Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 27",
+  "source": "https://digital-release.wearegreenbay.com/news/local-news/national-grape-popsicle-day-is-may-27"
  },
  {
   "month": 5,
   "day": 27,
   "name": "Cellophane Tape Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 27 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-cellophane-tape-day-may-27"
  },
  {
   "month": 5,
   "day": 28,
   "name": "National Hamburger Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 28 listing",
+  "source": "https://nationaldaycalendar.com/celebrations/national-hamburger-day-may-28"
  },
  {
   "month": 5,
   "day": 28,
   "name": "World Hunger Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 28",
+  "source": "https://www.primarycareit.co.uk/events/world-hunger-day/"
  },
  {
   "month": 5,
   "day": 29,
   "name": "National Biscuit Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 29",
+  "source": "https://www.wionews.com/web-stories/trending/national-biscuit-day-2024-1716980157869"
  },
  {
   "month": 5,
   "day": 29,
   "name": "Learn About Composting Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 29",
+  "source": "https://mayor.dc.gov/release/national-learn-about-composting-day"
  },
  {
   "month": 5,
   "day": 30,
   "name": "National Mint Julep Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 30 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-mint-julep-day-may-30"
  },
  {
   "month": 5,
   "day": 30,
   "name": "World MS Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 30",
+  "source": "https://www.moh.gov.sa/en/healthawareness/healthday/2026/pages/healthday-2026-05-30-001.aspx"
  },
  {
   "month": 5,
   "day": 31,
   "name": "National Macaroon Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: May 31",
+  "source": "https://www.daysoftheyear.com/days/may/31"
  },
  {
   "month": 5,
   "day": 31,
   "name": "World No Tobacco Day",
-  "status": "unchecked",
-  "note": "search budget exhausted",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: WHO, May 31",
+  "source": "https://www.emro.who.int/tfi/world-no-tobacco-day/index.html"
  },
  {
   "month": 6,
