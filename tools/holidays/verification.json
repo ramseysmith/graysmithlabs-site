@@ -1489,9 +1489,9 @@
   "month": 4,
   "day": 4,
   "name": "National Carrot Day",
-  "status": "unchecked",
-  "note": "No search hit returned; not confirmed.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 4, also listed as International Carrot Day",
+  "source": "https://jas.com/usa-compliance-blog/national-carrot-day"
  },
  {
   "month": 4,
@@ -1569,9 +1569,9 @@
   "month": 4,
   "day": 9,
   "name": "National Cherries Jubilee Day",
-  "status": "unchecked",
-  "note": "No search hit returned; not confirmed.",
-  "source": ""
+  "status": "wrong_date",
+  "note": "National Cherries Jubilee Day is September 24, not April 9",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-cherries-jubilee-day-september-24"
  },
  {
   "month": 4,
@@ -1593,9 +1593,9 @@
   "month": 4,
   "day": 10,
   "name": "National Safety Pin Day",
-  "status": "unchecked",
-  "note": "No search hit returned; not confirmed.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 10, the safety pin patent date; also called International Safety Pin Day",
+  "source": "https://dayspedia.com/us/calendar/holiday/2441/"
  },
  {
   "month": 4,
@@ -1649,9 +1649,9 @@
   "month": 4,
   "day": 14,
   "name": "National Pecan Day",
-  "status": "unchecked",
-  "note": "No search hit returned; not confirmed.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 14 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-pecan-day-april-14"
  },
  {
   "month": 4,
@@ -1761,161 +1761,161 @@
   "month": 4,
   "day": 21,
   "name": "National Kindergarten Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 21, Froebel birthday",
+  "source": "https://www.nationaldaycalendar.com/read/april-21-2025-national-kindergarten-day-national-rendering-day-national-yellow-bat-day-national-chocolate-covered-cashews-day"
  },
  {
   "month": 4,
   "day": 21,
   "name": "National Chocolate Covered Cashews Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 21 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-chocolate-covered-cashews-day-april-21"
  },
  {
   "month": 4,
   "day": 22,
   "name": "Earth Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 22",
+  "source": "https://www.trvst.world/awareness-dates/april/22/"
  },
  {
   "month": 4,
   "day": 22,
   "name": "National Jelly Bean Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 22",
+  "source": "https://www.kalw.org/2016-04-22/national-jelly-beans-day-kalw-almanac-4-22-2016"
  },
  {
   "month": 4,
   "day": 23,
   "name": "National Picnic Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 23 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-picnic-day-april-23"
  },
  {
   "month": 4,
   "day": 23,
   "name": "World Book Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: UNESCO World Book and Copyright Day, April 23",
+  "source": "https://morungexpress.com/april-23-is-world-book-and-copyright-day"
  },
  {
   "month": 4,
   "day": 24,
   "name": "National Pigs in a Blanket Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 24 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-pigs-in-a-blanket-day-april-24"
  },
  {
   "month": 4,
   "day": 24,
   "name": "Administrative Professionals Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "moving",
+  "note": "Wednesday of the last full week of April, not a fixed April 24",
+  "source": "https://en.wikipedia.org/wiki/Administrative_Professionals_Day"
  },
  {
   "month": 4,
   "day": 25,
   "name": "World Penguin Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 25",
+  "source": "https://www.worldatlas.com/articles/what-and-when-is-world-penguin-day.html"
  },
  {
   "month": 4,
   "day": 25,
   "name": "National Zucchini Bread Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 25 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-zucchini-bread-day-april-25"
  },
  {
   "month": 4,
   "day": 26,
   "name": "National Pretzel Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 26",
+  "source": "https://www.daysoftheyear.com/days/apr/26/2027/"
  },
  {
   "month": 4,
   "day": 26,
   "name": "Hug an Australian Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 26",
+  "source": "https://nationaltoday.com/hug-an-australian-day"
  },
  {
   "month": 4,
   "day": 27,
   "name": "National Prime Rib Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 27",
+  "source": "https://www.nationaldaycalendar.com/read/april-27-2025-national-tell-a-story-day-national-devil-dog-day-national-gummi-bear-day-national-pet-parents-day-national-prime-rib-day-national-babe-ruth-day"
  },
  {
   "month": 4,
   "day": 27,
   "name": "Tell a Story Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 27 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-tell-a-story-day-april-27"
  },
  {
   "month": 4,
   "day": 28,
   "name": "National Superhero Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 28 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-superhero-day-april-28"
  },
  {
   "month": 4,
   "day": 28,
   "name": "Workers Memorial Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 28",
+  "source": "https://en.wikipedia.org/wiki/Workers%27_Memorial_Day"
  },
  {
   "month": 4,
   "day": 29,
   "name": "International Dance Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 29",
+  "source": "https://www.daysoftheyear.com/days/apr/29/2027/"
  },
  {
   "month": 4,
   "day": 29,
   "name": "National Shrimp Scampi Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 29 listing",
+  "source": "https://www.nationaldaycalendar.com/national-day/national-shrimp-scampi-day-april-29"
  },
  {
   "month": 4,
   "day": 30,
   "name": "National Raisin Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 30",
+  "source": "https://farmprogress.com/grapes/april-30-is-national-raisin-day"
  },
  {
   "month": 4,
   "day": 30,
   "name": "Hairstyle Appreciation Day",
-  "status": "unchecked",
-  "note": "Not checked: WebSearch budget exhausted.",
-  "source": ""
+  "status": "verified",
+  "note": "checked Oct 23: April 30",
+  "source": "https://www.checkiday.com/847e7d6fac5d8c6fdfb1818aa104a6da/hairstyle-appreciation-day"
  },
  {
   "month": 5,
