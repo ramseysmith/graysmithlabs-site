@@ -86,6 +86,7 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * White noise generator: https://graysmithlabs.com/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)
 * Sleep calculator: https://graysmithlabs.com/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)
 * Signature maker: https://graysmithlabs.com/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)
+* Affirmation of the day: https://graysmithlabs.com/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)
 
 ## Guides
 
