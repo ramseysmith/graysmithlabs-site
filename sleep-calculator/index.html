@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sleep Calculator: What Time Should I Go to Bed?</title>
+<meta name="description" content="Free sleep calculator: enter the time you need to wake up and get bedtimes that line up with 90 minute sleep cycles, or find when to wake if you sleep now.">
+<link rel="canonical" href="https://graysmithlabs.com/sleep-calculator/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Sleep Calculator: What Time Should I Go to Bed?">
+<meta property="og:description" content="Free sleep calculator: enter the time you need to wake up and get bedtimes that line up with 90 minute sleep cycles, or find when to wake if you sleep now.">
+<meta property="og:url" content="https://graysmithlabs.com/sleep-calculator/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/drift/og.jpg?v=1.18">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/drift/og.jpg?v=1.18">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<meta name="apple-itunes-app" content="app-id=6758258891">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://graysmithlabs.com/sleep-calculator/#tool",
+      "name": "Sleep calculator",
+      "url": "https://graysmithlabs.com/sleep-calculator/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Works out bedtimes from a wake up time, or wake up times from now, by counting back whole sleep cycles of about 90 minutes plus the time it takes to fall asleep.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      },
+      "isRelatedTo": {
+        "@id": "https://graysmithlabs.com/apps/drift.html#app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/sleep-calculator/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What time should I go to bed if I wake up at 6 AM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aim to be in bed around 8:45 PM for six sleep cycles (9 hours) or 10:15 PM for five cycles (7.5 hours). That counts back 90 minute cycles from 6 AM and allows 15 minutes to fall asleep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the sleep calculator work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sleep runs in cycles of roughly 90 minutes. The calculator counts back whole cycles from your wake up time and adds the minutes you usually take to fall asleep, so the alarm is more likely to ring near the end of a cycle than in the middle of deep sleep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is a sleep cycle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About 90 minutes on average, but it varies from person to person and through the night, roughly 70 to 120 minutes. If 90 minute timings leave you groggy, try 80 or 100 in the calculator."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many hours of sleep do adults need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The CDC recommends 7 or more hours a night for adults, which is five cycles or more. Teenagers need 8 to 10 hours. Fewer than four cycles a night is short sleep for almost everyone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do I wake up tired after 8 hours of sleep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Waking in the middle of a cycle, during deep sleep, can leave you groggy for a while even after a full night. Noise that half wakes you, an irregular schedule and late caffeine are other common reasons. If you are tired most days, talk to a doctor."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../services/">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap guide sc">
+    <p class="crumbs"><a href="../apps/drift.html">Drift</a> &nbsp;/&nbsp; Sleep calculator</p>
+    <h1>Sleep calculator: what time should I go to bed?</h1>
+    <p class="guide-answer">Enter the time you need to wake up and this calculator gives the bedtimes that fit whole sleep cycles of about 90 minutes, plus 15 minutes to fall asleep. For a 7 AM alarm, that means bed at about 9:45 PM for 9 hours or 11:15 PM for 7.5 hours.</p>
+
+    <section class="sc-tool" aria-label="Sleep calculator">
+      <div class="sc-form">
+        <label class="sc-field">I need to wake up at
+          <input type="time" id="sc-wake" value="07:00" required>
+        </label>
+        <label class="sc-field">I fall asleep in about
+          <select id="sc-latency">
+            <option value="5">5 minutes</option>
+            <option value="10">10 minutes</option>
+            <option value="15" selected>15 minutes</option>
+            <option value="20">20 minutes</option>
+            <option value="30">30 minutes</option>
+          </select>
+        </label>
+        <label class="sc-field">Sleep cycle length
+          <select id="sc-cycle">
+            <option value="80">80 minutes</option>
+            <option value="90" selected>90 minutes</option>
+            <option value="100">100 minutes</option>
+          </select>
+        </label>
+      </div>
+      <div class="btn-row sc-actions">
+        <button class="btn" type="button" id="sc-bed">Find my bedtime</button>
+        <button class="btn ghost" type="button" id="sc-now">I am going to bed now</button>
+      </div>
+      <div class="sc-result" id="sc-result" aria-live="polite"></div>
+      <noscript><p class="guide-note">The calculator needs JavaScript turned on. Without it: count back 90 minutes at a time from your alarm, five or six times, then subtract 15 minutes.</p></noscript>
+    </section>
+
+    <section class="guide-sec">
+      <h2>How the sleep calculator works</h2>
+      <p>Through the night you move through light sleep, deep sleep and dream (REM) sleep in a repeating cycle that lasts about 90 minutes. Most adults go through four to six cycles a night. Waking at the end of a cycle, when sleep is lighter, tends to feel easier than an alarm that cuts into deep sleep.</p>
+      <p>So the calculator counts back whole cycles from your wake up time and adds the minutes you usually lie awake first. Cycle length varies from person to person, so treat the times as a starting point: if you still wake up groggy, try 80 or 100 minute cycles for a week.</p>
+      <div class="guide-table">
+        <table>
+          <thead><tr><th scope="col">Wake up at</th><th scope="col">6 cycles (9 h)</th><th scope="col">5 cycles (7.5 h)</th><th scope="col">4 cycles (6 h)</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">5:00 AM</th><td>7:45 PM</td><td>9:15 PM</td><td>10:45 PM</td></tr>
+            <tr><th scope="row">5:30 AM</th><td>8:15 PM</td><td>9:45 PM</td><td>11:15 PM</td></tr>
+            <tr><th scope="row">6:00 AM</th><td>8:45 PM</td><td>10:15 PM</td><td>11:45 PM</td></tr>
+            <tr><th scope="row">6:30 AM</th><td>9:15 PM</td><td>10:45 PM</td><td>12:15 AM</td></tr>
+            <tr><th scope="row">7:00 AM</th><td>9:45 PM</td><td>11:15 PM</td><td>12:45 AM</td></tr>
+            <tr><th scope="row">7:30 AM</th><td>10:15 PM</td><td>11:45 PM</td><td>1:15 AM</td></tr>
+            <tr><th scope="row">8:00 AM</th><td>10:45 PM</td><td>12:15 AM</td><td>1:45 AM</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Bedtimes include 15 minutes to fall asleep. The CDC recommends at least 7 hours a night for adults, so five or six cycles is the target; four cycles is a short night.</p>
+    </section>
+
+    <section class="guide-sec">
+      <h2>Tips for falling asleep on time</h2>
+      <ul class="guide-list">
+        <li><strong>Keep the wake up time fixed,</strong> weekends included. A steady alarm sets your body clock faster than a steady bedtime.</li>
+        <li><strong>Start winding down 30 minutes early.</strong> Dim the lights and put the phone face down once the timer or alarm is set.</li>
+        <li><strong>Cover the noise that wakes you.</strong> A steady sound such as white noise, rain or a fan masks traffic, snoring and voices through the wall. Try the free <a href="../white-noise/">white noise generator</a> tonight.</li>
+        <li><strong>Cut caffeine by early afternoon.</strong> Its effect lasts for hours, long after you stop feeling it.</li>
+      </ul>
+      <p class="guide-note">This calculator is a planning aid, not medical advice. If you are tired most days however long you sleep, or you snore loudly and wake up gasping, talk to a doctor.</p>
+    </section>
+
+    <aside class="guide-app">
+      <img src="../assets/apps/drift/icon.png?v=1.18" alt="Drift app icon" width="64" height="64">
+      <div>
+        <h2>Drift for iPhone</h2>
+        <p>Drift is a free sleep sounds app with white noise, rain, ocean, stream and fan sounds that loop without a gap, keep playing with the screen locked, work offline and fade out on a sleep timer. No account needed.</p>
+        <div class="btn-row">
+          <a class="btn" href="https://apps.apple.com/us/app/id6758258891" rel="noopener">Download on the App Store</a>
+          <a class="btn ghost" href="../apps/drift.html">About Drift</a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details><summary>What time should I go to bed if I wake up at 6 AM?</summary><p>Aim to be in bed around 8:45 PM for six sleep cycles (9 hours) or 10:15 PM for five cycles (7.5 hours). That counts back 90 minute cycles from 6 AM and allows 15 minutes to fall asleep.</p></details>
+        <details><summary>How does the sleep calculator work?</summary><p>Sleep runs in cycles of roughly 90 minutes. The calculator counts back whole cycles from your wake up time and adds the minutes you usually take to fall asleep, so the alarm is more likely to ring near the end of a cycle than in the middle of deep sleep.</p></details>
+        <details><summary>How long is a sleep cycle?</summary><p>About 90 minutes on average, but it varies from person to person and through the night, roughly 70 to 120 minutes. If 90 minute timings leave you groggy, try 80 or 100 in the calculator.</p></details>
+        <details><summary>How many hours of sleep do adults need?</summary><p>The CDC recommends 7 or more hours a night for adults, which is five cycles or more. Teenagers need 8 to 10 hours. Fewer than four cycles a night is short sleep for almost everyone.</p></details>
+        <details><summary>Why do I wake up tired after 8 hours of sleep?</summary><p>Waking in the middle of a cycle, during deep sleep, can leave you groggy for a while even after a full night. Noise that half wakes you, an irregular schedule and late caffeine are other common reasons. If you are tired most days, talk to a doctor.</p></details>
+      </div>
+    </section>
+  </div>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const wake = $('sc-wake'), lat = $('sc-latency'), cyc = $('sc-cycle'), out = $('sc-result');
+  const fmt = (m) => { m = ((m % 1440) + 1440) % 1440; const h = Math.floor(m / 60), mm = m % 60; return `${h % 12 || 12}:${String(mm).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`; };
+  const hrs = (m) => { const h = m / 60; return `${Number.isInteger(h) ? h : h.toFixed(1).replace(/\.0$/, '')} hours`; };
+  const note = (n) => (n >= 5 ? 'recommended' : n === 4 ? 'short night' : 'very short');
+  function show(title, rows, foot) {
+    out.innerHTML = `<h2 class="sc-title">${title}</h2><ul class="sc-times">${rows.map((r) => `<li class="sc-time${r.n >= 5 ? ' best' : ''}"><b>${r.t}</b><span>${r.n} cycles, ${hrs(r.sleep)} of sleep</span><em>${note(r.n)}</em></li>`).join('')}</ul><p class="sc-foot">${foot}</p>`;
+  }
+  $('sc-bed').addEventListener('click', () => {
+    const [h, m] = (wake.value || '07:00').split(':').map(Number), w = h * 60 + m, L = Number(lat.value), C = Number(cyc.value);
+    const rows = [6, 5, 4, 3].map((n) => ({ n, sleep: n * C, t: fmt(w - n * C - L) }));
+    show(`To wake up at ${fmt(w)}, go to bed at`, rows, `Each time allows ${L} minutes to fall asleep. Aim for the first two.`);
+  });
+  $('sc-now').addEventListener('click', () => {
+    const d = new Date(), now = d.getHours() * 60 + d.getMinutes(), L = Number(lat.value), C = Number(cyc.value);
+    const rows = [3, 4, 5, 6].map((n) => ({ n, sleep: n * C, t: fmt(now + L + n * C) }));
+    show(`If you go to bed now (${fmt(now)}), set an alarm for`, rows, `Each time allows ${L} minutes to fall asleep. Five or six cycles is a full night.`);
+  });
+})();
+</script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

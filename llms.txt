@@ -84,6 +84,8 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)
 * Hot tub chemical calculator: https://graysmithlabs.com/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)
 * White noise generator: https://graysmithlabs.com/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)
+* Sleep calculator: https://graysmithlabs.com/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)
+* Signature maker: https://graysmithlabs.com/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)
 
 ## Guides
 
