@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-24";
+  var built = "2026-10-25";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,22 +81,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Saturday, October 24</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Sunday, October 25</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🥪</span><span class="tag">Food</span></div>
-          <h2>National Bologna Day</h2>
-          <p>A day celebrating the classic American lunchbox staple, bologna, the beloved processed meat sandwich hero.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍟</span><span class="tag">Food</span></div>
+          <h2>National Greasy Foods Day</h2>
+          <p>A gloriously indulgent day giving permission to enjoy all the fried, greasy, guilty pleasure foods you love.</p>
           
         </article>
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🌐</span><span class="tag">Culture</span></div>
-          <h2>United Nations Day</h2>
-          <p>A day marking the anniversary of the United Nations Charter coming into force in 1945, celebrating global cooperation.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍝</span><span class="tag">Food</span></div>
+          <h2>World Pasta Day</h2>
+          <p>An international celebration of pasta in all its forms, bringing together pasta lovers from around the globe.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="october-24.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="october-25.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -107,12 +107,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="october-25.html"><b>Sunday, October 25</b><span>🍟 National Greasy Foods Day  ·  🍝 World Pasta Day</span></a></li>
       <li><a href="october-26.html"><b>Monday, October 26</b><span>🥧 National Mincemeat Day  ·  🎃 Pumpkin Day</span></a></li>
       <li><a href="october-27.html"><b>Tuesday, October 27</b><span>🍺 National American Beer Day  ·  😤 Cranky Coworkers Day</span></a></li>
       <li><a href="october-28.html"><b>Wednesday, October 28</b><span>🍫 National Chocolate Day  ·  🧸 Plush Animal Lovers Day</span></a></li>
       <li><a href="october-29.html"><b>Thursday, October 29</b><span>🥣 National Oatmeal Day  ·  💛 World Psoriasis Day</span></a></li>
       <li><a href="october-30.html"><b>Friday, October 30</b><span>🍬 National Candy Corn Day  ·  👻 Haunted Refrigerator Night</span></a></li>
+      <li><a href="october-31.html"><b>Saturday, October 31</b><span>🎃 Halloween  ·  🍎 National Caramel Apple Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
