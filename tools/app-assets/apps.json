@@ -4,7 +4,11 @@
     "tagline": "Calming sleep sounds with a timer, background playback and a screen built for the dark.",
     "cta": "Free on the App Store",
     "frame": "#3a3f45",
-    "order": [2, 1, 3]
+    "order": [
+      2,
+      1,
+      3
+    ]
   },
   "signsnap": {
     "name": "SignSnap",
@@ -36,5 +40,12 @@
     "cta": "Free on the App Store",
     "frame": "#e8e4dc",
     "background": "radial-gradient(120% 140% at 85% 100%, #174a4b 0%, #0f2c34 60%)"
+  },
+  "tallyhand": {
+    "name": "Tallyhand",
+    "tagline": "Say the job once and get a clean invoice, estimate or receipt.",
+    "cta": "Free to start on iPhone",
+    "frame": "#e8e4dc",
+    "background": "radial-gradient(120% 140% at 85% 100%, #2c6a50 0%, #12301f 60%)"
   }
 }

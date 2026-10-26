@@ -71,8 +71,8 @@ function jsonLd(app, faq) {
     name: app.name,
     description: app.answer,
     url,
-    downloadUrl: `https://apps.apple.com/app/id${app.appStoreId}`,
-    installUrl: `https://apps.apple.com/app/id${app.appStoreId}`,
+    // An app still waiting on its App Store listing has no appStoreId yet: no store links until it does.
+    ...(app.appStoreId ? { downloadUrl: `https://apps.apple.com/app/id${app.appStoreId}`, installUrl: `https://apps.apple.com/app/id${app.appStoreId}` } : {}),
     operatingSystem: "iOS",
     applicationCategory: app.category,
     featureList: app.features,
@@ -91,13 +91,13 @@ function llmsTxt() {
   const lines = [`# ${data.site.name}`, "", `> ${data.site.summary}`, "", `Contact: ${data.site.contact}`, "", "## Apps", ""];
   for (const a of data.apps) {
     lines.push(`### ${a.name}`, "", a.answer, "", `* Pricing: ${a.pricing}`, `* Platforms: ${a.platforms}`, `* Best for: ${a.bestFor.join("; ")}`,
-      `* Page: ${data.site.url}/apps/${a.slug}.html`, `* App Store: https://apps.apple.com/app/id${a.appStoreId}`, "");
+      `* Page: ${data.site.url}/apps/${a.slug}.html`, a.appStoreId ? `* App Store: https://apps.apple.com/app/id${a.appStoreId}` : "* App Store: coming soon", "");
   }
   if (data.services) {
     const s = data.services;
     lines.push("## Studio services", "", s.answer, "", ...s.offers.map(([n, d]) => `* ${n}: ${d}`), `* Page: ${s.url}`, "");
   }
-  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, `* White noise generator: ${data.site.url}/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)`, `* Sleep calculator: ${data.site.url}/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)`, `* Signature maker: ${data.site.url}/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)`, `* Affirmation of the day: ${data.site.url}/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)`, "", "## Guides", "");
+  lines.push("## Free tools", "", `* What holiday is it today: ${data.site.url}/holidays/ (verified daily observances, from the team behind CelebriDay)`, `* Hot tub chemical calculator: ${data.site.url}/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)`, `* White noise generator: ${data.site.url}/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)`, `* Sleep calculator: ${data.site.url}/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)`, `* Signature maker: ${data.site.url}/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)`, `* Affirmation of the day: ${data.site.url}/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)`, `* Invoice generator: ${data.site.url}/invoice-generator/ (fill in your business, client and items and download a PDF invoice, no sign up, nothing uploaded, from the team behind Tallyhand)`, "", "## Guides", "");
   const guidesFile = path.join(site, "tools/guides/guides.json");
   if (fs.existsSync(guidesFile)) for (const g of JSON.parse(fs.readFileSync(guidesFile, "utf8")).guides) lines.push(`* [${g.h1}](${data.site.url}/guides/${g.slug}.html): ${g.description}`);
   lines.push("", "## Brands", "");
@@ -130,7 +130,7 @@ for (const app of data.apps) {
   const faq = pageFaq.length ? pageFaq : app.faq;
   if (!faq.length) problems.push(`${app.slug}: no FAQ on the page or in products.json`);
   const outsideHead = html.replace(/<!-- ai:head -->[\s\S]*?<!-- \/ai:head -->/, "");
-  const banner = outsideHead.includes('name="apple-itunes-app"') ? "" : `<meta name="apple-itunes-app" content="app-id=${app.appStoreId}">\n`;
+  const banner = !app.appStoreId || outsideHead.includes('name="apple-itunes-app"') ? "" : `<meta name="apple-itunes-app" content="app-id=${app.appStoreId}">\n`;
   html = between(html, "head", banner + jsonLd(app, faq), "</head>");
   write(file, html);
 }

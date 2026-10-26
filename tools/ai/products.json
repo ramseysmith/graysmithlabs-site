@@ -287,6 +287,56 @@
           "Version 1.0 is in App Review. Until it is live, the free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
         ]
       ]
+    },
+    {
+      "slug": "tallyhand",
+      "name": "Tallyhand",
+      "appStoreId": "",
+      "category": "BusinessApplication",
+      "storeCategory": "Business",
+      "platforms": "iPhone",
+      "title": "Tallyhand: Invoice, Estimate and Receipt Maker for iPhone",
+      "description": "Invoice app for iPhone: describe a job in one sentence and Tallyhand builds the invoice, sends a PDF and reminds you when a client is late.",
+      "answer": "Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and version 1.0 is coming to the App Store.",
+      "pricing": "First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export.",
+      "bestFor": [
+        "lawn care and landscaping invoices",
+        "house cleaning invoices",
+        "handyman and contractor estimates",
+        "turning a paid invoice into a receipt",
+        "knowing which clients still owe you"
+      ],
+      "features": [
+        "One sentence becomes invoice line items, on device",
+        "PDF invoices, estimates and receipts shared by text, email or AirDrop",
+        "Payment instructions and a Pay online link on every invoice",
+        "Due date and overdue reminders with a friendly message to send",
+        "Estimates turn into invoices in one tap",
+        "Clients with history and what they owe",
+        "No account, data stays on the iPhone"
+      ],
+      "faq": [
+        [
+          "What is a simple invoice app for lawn care?",
+          "Tallyhand is built for solo service pros like lawn care: type \"mowed lawn 2 hrs at $40, mulch 3 bags at 6.50\" and it builds the invoice and PDF."
+        ],
+        [
+          "Can an app make a receipt from a paid invoice?",
+          "Yes. In Tallyhand you mark the invoice paid, pick cash, check, card or app, and share a receipt PDF with a Paid stamp."
+        ],
+        [
+          "Is Tallyhand free?",
+          "The first 3 invoices or estimates are free with every feature. Premium, monthly or yearly with a free week, adds unlimited documents, your logo and income reports."
+        ],
+        [
+          "Does Tallyhand need an account?",
+          "No. Clients and invoices stay on your iPhone and only leave it when you share a PDF or message."
+        ],
+        [
+          "Can I download Tallyhand now?",
+          "Version 1.0 is coming to the App Store. This page will link to it the day it is live."
+        ]
+      ]
     }
   ],
   "brands": [

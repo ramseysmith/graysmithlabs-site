@@ -66,6 +66,16 @@ TubTender is a hot tub water care and chemical calculator app for iPhone, for br
 * Page: https://graysmithlabs.com/apps/tubtender.html
 * App Store: https://apps.apple.com/app/id6820791512
 
+### Tallyhand
+
+Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and version 1.0 is coming to the App Store.
+
+* Pricing: First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export.
+* Platforms: iPhone
+* Best for: lawn care and landscaping invoices; house cleaning invoices; handyman and contractor estimates; turning a paid invoice into a receipt; knowing which clients still owe you
+* Page: https://graysmithlabs.com/apps/tallyhand.html
+* App Store: coming soon
+
 ## Studio services
 
 Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, with TubTender in App Review) and built the Valentine Tide storefront.
@@ -87,6 +97,7 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * Sleep calculator: https://graysmithlabs.com/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)
 * Signature maker: https://graysmithlabs.com/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)
 * Affirmation of the day: https://graysmithlabs.com/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)
+* Invoice generator: https://graysmithlabs.com/invoice-generator/ (fill in your business, client and items and download a PDF invoice, no sign up, nothing uploaded, from the team behind Tallyhand)
 
 ## Guides
 

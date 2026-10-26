@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tallyhand: Invoice, Estimate and Receipt Maker for iPhone</title>
+<meta name="description" content="Invoice app for iPhone: describe a job in one sentence and Tallyhand builds the invoice, sends a PDF and reminds you when a client is late.">
+<link rel="canonical" href="https://graysmithlabs.com/apps/tallyhand.html">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Tallyhand: Invoice, Estimate and Receipt Maker for iPhone">
+<meta property="og:description" content="Invoice app for iPhone: describe a job in one sentence and Tallyhand builds the invoice, sends a PDF and reminds you when a client is late.">
+<meta property="og:url" content="https://graysmithlabs.com/apps/tallyhand.html">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tallyhand app screens on iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<meta name="twitter:image:alt" content="Tallyhand app screens on iPhone">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<style>
+.support-card { display:grid; gap:20px; padding:36px; border:1px solid var(--line); border-radius:20px; background:var(--card); max-width:760px; }
+.support-card p { line-height:1.75; }
+</style>
+<!-- ai:head -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://graysmithlabs.com/apps/tallyhand.html#app",
+      "name": "Tallyhand",
+      "description": "Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and version 1.0 is coming to the App Store.",
+      "url": "https://graysmithlabs.com/apps/tallyhand.html",
+      "operatingSystem": "iOS",
+      "applicationCategory": "BusinessApplication",
+      "featureList": [
+        "One sentence becomes invoice line items, on device",
+        "PDF invoices, estimates and receipts shared by text, email or AirDrop",
+        "Payment instructions and a Pay online link on every invoice",
+        "Due date and overdue reminders with a friendly message to send",
+        "Estimates turn into invoices in one tap",
+        "Clients with history and what they owe",
+        "No account, data stays on the iPhone"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export."
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/apps/tallyhand.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Quick add understand a sentence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with the client and a colon if you like, then list each item with its price, separated by commas. &ldquo;2 hrs at $40&rdquo;, &ldquo;3 bags @ 6.50&rdquo;, &ldquo;haul away 25&rdquo; and &ldquo;3 hours for $120&rdquo; all work. It runs on your iPhone, and anything it cannot price is shown to you instead of guessed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I speak the job instead of typing it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Tap the microphone on your iPhone keyboard in Quick add and say it. Dictation is handled by your iPhone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kinds of businesses is Tallyhand for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One person service businesses that bill per job or per hour: lawn care, house cleaning, handyman work, pet sitting, mobile detailing, tutoring and similar. If you need payroll, inventory or full bookkeeping, pair it with your accounting software and use the CSV export."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do my clients pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Add payment instructions (Venmo, Zelle, checks) and a Pay online link from Square, PayPal, Stripe or Venmo in Settings. They print on every invoice and go in the message you send. Tallyhand does not handle the money itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Tallyhand make receipts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mark an invoice paid, choose how they paid, and send a receipt PDF with a Paid stamp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Tallyhand free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your first 3 invoices or estimates are free with every feature. Premium, monthly or yearly with a free week, adds unlimited documents, your logo on every PDF with no Tallyhand line, and income reports with a CSV export for tax time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I cancel or restore Premium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Subscriptions are managed by Apple. Open Settings on your iPhone, tap your name, then Subscriptions, and choose Tallyhand. To restore a purchase on a new phone, open Settings in the app and tap Restore purchases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my data stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only on your iPhone. There is no account and nothing is uploaded. You can delete everything from Settings in the app. Read the privacy policy."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /ai:head -->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../services/">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps" aria-current="page">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <p class="crumbs"><a href="../#apps">Apps</a> &nbsp;/&nbsp; Tallyhand</p>
+    <div class="app-hero">
+      <div>
+        <div class="id rise d1">
+          <img src="../assets/apps/tallyhand/icon.png?v=1.0.0" alt="Tallyhand app icon" width="88" height="88">
+          <div><span class="tag">Business</span></div>
+        </div>
+        <h1 class="rise d2">Tallyhand</h1>
+        <p class="lede rise d2" style="font-family:var(--serif);font-size:22px;color:var(--ink);line-height:1.4">Say the job once. Get paid.</p>
+        <p class="lede rise d3" style="margin-top:18px">Tallyhand is an invoice, estimate and receipt maker for one person service businesses. Type or dictate what you did, like &ldquo;Hendersons: mowed lawn 2 hrs at $40, mulch 3 bags at 6.50&rdquo;, and it builds the line items, sends a clean PDF and tells you when someone is late.</p>
+        <div class="btn-row rise d3">
+          <a class="btn" href="../invoice-generator/">Try the free invoice generator</a><!-- launch day: replace with the Download on the App Store button to https://apps.apple.com/us/app/tallyhand/id<APP_ID> -->
+          <a class="btn ghost" href="#support">Get help</a>
+        </div>
+      </div>
+      <div class="phones rise d4">
+        <img src="../assets/apps/tallyhand/shot1.jpg?v=1.0.0" alt="Quick add turning one sentence into invoice line items" width="600" height="1304" loading="eager">
+        <img src="../assets/apps/tallyhand/shot2.jpg?v=1.0.0" alt="Home screen showing money owed, overdue and paid this month" width="600" height="1304" loading="lazy">
+        <img src="../assets/apps/tallyhand/shot3.jpg?v=1.0.0" alt="An invoice ready to send as a PDF" width="600" height="1304" loading="lazy">
+      </div>
+    </div>
+    <div class="facts-bar">
+      <div><span class="label">Platform</span><p>iPhone</p></div>
+      <div><span class="label">Category</span><p>Business</p></div>
+      <div><span class="label">Status</span><p>Coming to the App Store</p></div>
+      <div><span class="label">Made for</span><p>Lawn care, cleaning, handyman and other solo pros</p></div>
+      <div><span class="label">Pricing</span><p>First 3 documents free, then Premium monthly or yearly with a free week to try it</p></div>
+    </div>
+  </div>
+  <section class="first">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">What it does</p><h2>Features</h2></div></div>
+      <div class="features">
+        <div class="service"><h3>One sentence, one invoice</h3><p>Describe the job the way you would say it. Tallyhand finds the client, the quantities and the prices, and adds them up to the cent.</p></div>
+        <div class="service"><h3>PDF in one tap</h3><p>Send a clean, professional invoice by text, email or AirDrop from the driveway, with your payment details and a Pay online button.</p></div>
+        <div class="service"><h3>Know who owes you</h3><p>Home shows what is owed, what is overdue and what came in this month, at a glance.</p></div>
+        <div class="service"><h3>Friendly reminders</h3><p>An alert on the due date and the day after, with a polite reminder message ready to send.</p></div>
+        <div class="service"><h3>Estimates to invoices</h3><p>Send an estimate, follow up after three days, and turn it into an invoice in one tap when the client says yes.</p></div>
+        <div class="service"><h3>Receipts</h3><p>Mark an invoice paid by cash, check, card or app and send a Paid receipt for their records.</p></div>
+        <div class="service"><h3>Private by design</h3><p>No account. Your clients and invoices stay on your iPhone unless you share them.</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="faq">
+    <div class="wrap faq">
+      <div>
+        <p class="eyebrow">FAQ</p>
+        <h2>Tallyhand, <em>answered.</em></h2>
+        <p class="muted" style="margin-top:18px;max-width:34ch">Something else? <a class="link" href="mailto:ramsey@graysmithlabs.com?subject=Tallyhand%20help">Email us.</a></p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>How does Quick add understand a sentence?</summary>
+          <p>Start with the client and a colon if you like, then list each item with its price, separated by commas. &ldquo;2 hrs at $40&rdquo;, &ldquo;3 bags @ 6.50&rdquo;, &ldquo;haul away 25&rdquo; and &ldquo;3 hours for $120&rdquo; all work. It runs on your iPhone, and anything it cannot price is shown to you instead of guessed.</p>
+        </details>
+        <details>
+          <summary>Can I speak the job instead of typing it?</summary>
+          <p>Yes. Tap the microphone on your iPhone keyboard in Quick add and say it. Dictation is handled by your iPhone.</p>
+        </details>
+        <details>
+          <summary>What kinds of businesses is Tallyhand for?</summary>
+          <p>One person service businesses that bill per job or per hour: lawn care, house cleaning, handyman work, pet sitting, mobile detailing, tutoring and similar. If you need payroll, inventory or full bookkeeping, pair it with your accounting software and use the CSV export.</p>
+        </details>
+        <details>
+          <summary>How do my clients pay?</summary>
+          <p>Add payment instructions (Venmo, Zelle, checks) and a Pay online link from Square, PayPal, Stripe or Venmo in Settings. They print on every invoice and go in the message you send. Tallyhand does not handle the money itself.</p>
+        </details>
+        <details>
+          <summary>Can Tallyhand make receipts?</summary>
+          <p>Yes. Mark an invoice paid, choose how they paid, and send a receipt PDF with a Paid stamp.</p>
+        </details>
+        <details>
+          <summary>Is Tallyhand free?</summary>
+          <p>Your first 3 invoices or estimates are free with every feature. Premium, monthly or yearly with a free week, adds unlimited documents, your logo on every PDF with no Tallyhand line, and income reports with a CSV export for tax time.</p>
+        </details>
+        <details>
+          <summary>How do I cancel or restore Premium?</summary>
+          <p>Subscriptions are managed by Apple. Open Settings on your iPhone, tap your name, then Subscriptions, and choose Tallyhand. To restore a purchase on a new phone, open Settings in the app and tap Restore purchases.</p>
+        </details>
+        <details>
+          <summary>Where is my data stored?</summary>
+          <p>Only on your iPhone. There is no account and nothing is uploaded. You can delete everything from Settings in the app. Read the <a class="link" href="tallyhand-privacy.html">privacy policy</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+  <section id="support">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Support</p><h2>Need a hand?</h2></div></div>
+      <div class="support-card">
+        <p>Email us with what you are seeing and, if you can, the sentence you typed in Quick add. A real person reads every message.</p>
+        <div class="btn-row">
+          <a class="btn" href="mailto:ramsey@graysmithlabs.com?subject=Tallyhand%20help">Email Tallyhand support</a>
+          <a class="btn ghost" href="tallyhand-privacy.html">Privacy policy</a>
+        </div>
+        <p class="muted">Tallyhand creates invoices, estimates and receipts from what you enter. It does not give tax or legal advice; check with your accountant about sales tax and record keeping where you work.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Try it now</p><h2>Free invoice generator, <em>in your browser.</em></h2></div></div>
+      <ul class="guide-index">
+        <li><a href="../invoice-generator/"><b>Free invoice generator</b><span>Your business, your client and each item in, a clean PDF invoice out. No sign up and nothing uploaded.</span></a></li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <p class="muted" style="margin-bottom:28px;max-width:60ch">Tallyhand was designed, engineered and shipped end to end by Graysmith Labs, including the on device sentence parser. <a class="link" href="../services/">Work with us</a> on an app of your own.</p>
+      <nav class="pager" aria-label="More apps">
+        <a href="tubtender.html"><img src="../assets/apps/tubtender/icon.png" alt="" width="44" height="44"><span><span class="label">Previous</span><b>TubTender</b></span></a>
+        <a class="next" href="drift.html"><span><span class="label">Next</span><b>Drift</b></span><img src="../assets/apps/drift/icon.png?v=1.18" alt="" width="44" height="44"></a>
+      </nav>
+    </div>
+  </section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+          <li><a href="../apps/tallyhand.html">Tallyhand</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

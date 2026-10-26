@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Invoice Generator: Make a PDF Invoice Online</title>
+<meta name="description" content="Make a free invoice online: add your business, client and items, see the total, and download a clean PDF. No sign up, no watermark, nothing uploaded.">
+<link rel="canonical" href="https://graysmithlabs.com/invoice-generator/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Free Invoice Generator: Make a PDF Invoice Online">
+<meta property="og:description" content="Make a free invoice online: add your business, client and items, see the total, and download a clean PDF. No sign up, no watermark, nothing uploaded.">
+<meta property="og:url" content="https://graysmithlabs.com/invoice-generator/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://graysmithlabs.com/invoice-generator/#tool",
+      "name": "Free invoice generator",
+      "url": "https://graysmithlabs.com/invoice-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Fill in your business, your client and each item, see the total with tax, and download a clean PDF invoice. Everything runs in the browser and nothing is uploaded.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      },
+      "isRelatedTo": {
+        "@id": "https://graysmithlabs.com/apps/tallyhand.html#app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/invoice-generator/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this invoice generator really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. There is no account, no watermark and no limit on how many invoices you make. Everything runs in your browser and nothing is uploaded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I save the invoice as a PDF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tap Download PDF. Your browser opens its print window; choose Save as PDF (on iPhone, pinch out on the preview and tap Share, then Save to Files). Only the invoice is printed, not this page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should an invoice include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your business name and contact details, the client's name, an invoice number, the date issued and the due date, each item with quantity and rate, the total, and how to pay. This generator fills in every one of those."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between an invoice and a receipt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An invoice asks to be paid; a receipt confirms payment arrived. Send the invoice when the work is done, and a receipt once the client pays."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get paid faster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send the invoice the same day as the job, set a clear due date, include a pay link or payment instructions, and send a friendly reminder the day after it is due. The Tallyhand iPhone app does those steps for you."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+.ig { display:grid; grid-template-columns: minmax(0,1fr); gap:24px; margin-top:32px; }
+.ig-form { display:grid; gap:18px; padding:22px; border:1px solid var(--line); border-radius:20px; }
+.ig-form fieldset { border:0; padding:0; margin:0; display:grid; gap:10px; }
+.ig-form legend { font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+.ig-form label { display:grid; gap:4px; font-size:14px; color:var(--muted); }
+.ig-form input, .ig-form textarea, .ig-form select { font:inherit; font-size:16px; color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; width:100%; box-sizing:border-box; }
+.ig-form textarea { min-height:64px; resize:vertical; }
+.ig-two { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px; }
+.ig-form input, .ig-form select { min-width:0; }
+.ig-form fieldset { min-width:0; }
+.ig-item { display:grid; grid-template-columns: minmax(0,1fr) 72px 110px 44px; gap:8px; align-items:end; }
+.ig-item button { height:44px; border:1px solid var(--line); background:transparent; border-radius:10px; color:var(--muted); cursor:pointer; font-size:16px; }
+.ig-actions { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+.ig-msg { font-size:14px; color:var(--muted); }
+.ig-sheet { background:#fff; color:#1C2321; border-radius:16px; box-shadow:var(--shadow); padding:32px; font:13px/1.45 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.inv-top { display:flex; justify-content:space-between; gap:18px; }
+.inv-biz { font-size:17px; font-weight:700; margin:0 0 4px; }
+.inv-muted { color:#5B6660; white-space:pre-line; }
+.inv-title { text-align:right; }
+.inv-title h2 { font:700 26px/1 -apple-system, "Helvetica Neue", Arial, sans-serif; letter-spacing:3px; text-transform:uppercase; color:#1F4D3A; margin:0 0 8px; }
+.inv-meta td { padding:1px 0 1px 12px; text-align:right; white-space:nowrap; }
+.inv-meta td:first-child { color:#5B6660; }
+.inv-to { margin:22px 0 14px; }
+.inv-h { font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:#5B6660; margin:0 0 4px; }
+.inv-items { width:100%; border-collapse:collapse; }
+.inv-items th { text-align:left; font-size:10px; letter-spacing:1.2px; text-transform:uppercase; color:#fff; background:#1F4D3A; padding:7px 9px; }
+.inv-items td { padding:8px 9px; border-bottom:1px solid #E4E0D6; vertical-align:top; }
+.inv-items .n { text-align:right; white-space:nowrap; }
+.inv-totals { margin:10px 0 0 auto; border-collapse:collapse; min-width:220px; }
+.inv-totals td { padding:4px 9px; text-align:right; }
+.inv-totals td:first-child { color:#5B6660; }
+.inv-totals tr.g td { font-size:15px; font-weight:700; color:#1C2321; border-top:2px solid #1F4D3A; padding-top:8px; }
+.inv-block { margin-top:18px; white-space:pre-line; }
+.inv-credit { margin-top:22px; text-align:center; font-size:9px; color:#8A948E; }
+.ig > * { min-width:0; }
+@media (max-width: 860px) { .ig { grid-template-columns: minmax(0,1fr); } .ig-sheet { position:static; padding:20px; overflow-x:auto; } }
+@media (max-width: 560px) { .ig-form { padding:16px; } .ig-item { grid-template-columns: minmax(0,1fr) 54px 76px 36px; gap:6px; } .ig-sheet { padding:16px; font-size:12px; } .inv-top { flex-direction:column; } .inv-title { text-align:left; } .inv-meta td { text-align:left; padding:1px 12px 1px 0; } .inv-totals { min-width:0; width:100%; } }
+@media print {
+  body * { visibility:hidden; }
+  .ig-sheet, .ig-sheet * { visibility:visible; }
+  .ig-sheet { position:absolute; left:0; top:0; width:100%; box-shadow:none; border-radius:0; padding:0; }
+  @page { margin:36px 40px; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../services/">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap guide">
+    <p class="crumbs"><a href="../apps/tallyhand.html">Tallyhand</a> &nbsp;/&nbsp; Invoice generator</p>
+    <h1>Free invoice generator</h1>
+    <p class="guide-answer">Fill in your business, your client and what you did, and this free invoice generator adds up the total with tax and gives you a clean PDF to send. There is no sign up and no watermark, and nothing leaves your device.</p>
+
+    <div class="ig">
+      <form class="ig-form" id="ig-form" autocomplete="on" aria-label="Invoice details">
+        <fieldset>
+          <legend>From</legend>
+          <label>Business name <input name="biz" placeholder="Green Acre Lawn Care" autocomplete="organization"></label>
+          <label>Address, phone, email <textarea name="from" placeholder="418 Juniper Street&#10;Centennial, CO&#10;(555) 010 0142"></textarea></label>
+        </fieldset>
+        <fieldset>
+          <legend>Bill to</legend>
+          <label>Client name <input name="client" placeholder="The Hendersons"></label>
+          <label>Client details <textarea name="to" placeholder="Address or email"></textarea></label>
+        </fieldset>
+        <fieldset>
+          <legend>Invoice</legend>
+          <div class="ig-two">
+            <label>Number <input name="number" value="INV-0001"></label>
+            <label>Currency
+              <select name="currency"><option>USD</option><option>CAD</option><option>GBP</option><option>EUR</option><option>AUD</option><option>NZD</option></select>
+            </label>
+          </div>
+          <div class="ig-two">
+            <label>Date <input type="date" name="date"></label>
+            <label>Due <input type="date" name="due"></label>
+          </div>
+        </fieldset>
+        <fieldset id="ig-items">
+          <legend>Items</legend>
+        </fieldset>
+        <div class="ig-actions"><button class="btn ghost sm" type="button" id="ig-add">Add item</button></div>
+        <fieldset>
+          <legend>Totals and notes</legend>
+          <label>Tax rate (%) <input name="tax" inputmode="decimal" placeholder="0"></label>
+          <label>How to pay <textarea name="pay" placeholder="Venmo @greenacre or Zelle (555) 010 0142"></textarea></label>
+          <label>Notes <textarea name="notes" placeholder="Thank you for your business!"></textarea></label>
+        </fieldset>
+        <div class="ig-actions">
+          <button class="btn" type="button" id="ig-print">Download PDF</button>
+          <button class="btn ghost sm" type="button" id="ig-reset">Start over</button>
+          <span class="ig-msg" id="ig-msg" aria-live="polite"></span>
+        </div>
+        <p class="guide-note">Your invoice is saved only in this browser so you can come back to it. Nothing is uploaded.</p>
+        <noscript><p class="guide-note">The invoice generator needs JavaScript turned on.</p></noscript>
+      </form>
+
+      <div><p class="muted" style="margin:0 0 10px;font-size:14px">Preview: this is exactly what the PDF looks like.</p><div class="ig-sheet" id="ig-sheet" aria-label="Invoice preview" aria-live="polite"></div></div>
+    </div>
+
+    <section class="guide-sec">
+      <h2>How to make an invoice</h2>
+      <ol class="guide-steps">
+        <li><strong>Add your business.</strong> Your name and how to reach you go at the top, so the client knows who to pay.</li>
+        <li><strong>Add the client.</strong> Their name and address or email go under Bill to.</li>
+        <li><strong>Number and date it.</strong> Use a new number for every invoice, like INV-0001, INV-0002, and set a due date, often 14 days after the job.</li>
+        <li><strong>List what you did.</strong> One line per item with a quantity and rate, such as 2 hours at 40. The total adds itself up, with tax if you charge it.</li>
+        <li><strong>Say how to pay.</strong> Venmo, Zelle, a check or a pay link. Invoices with clear payment details get paid sooner.</li>
+        <li><strong>Download and send.</strong> Save the PDF and send it by email or text the same day as the job.</li>
+      </ol>
+    </section>
+
+    <aside class="guide-app">
+      <img src="../assets/apps/tallyhand/icon.png?v=1.0.0" alt="Tallyhand app icon" width="64" height="64">
+      <div>
+        <h2>Tallyhand for iPhone</h2>
+        <p>Invoicing from your phone is faster still: tell Tallyhand the job in one sentence, like &ldquo;Hendersons: mowed lawn 2 hrs at $40, mulch 3 bags at 6.50&rdquo;, and it builds the invoice, sends the PDF, keeps every client in one place and reminds you when someone is late. Your first 3 documents are free.</p>
+        <div class="btn-row">
+          <a class="btn" href="../apps/tallyhand.html">About Tallyhand</a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details><summary>Is this invoice generator really free?</summary><p>Yes. There is no account, no watermark and no limit on how many invoices you make. Everything runs in your browser and nothing is uploaded.</p></details>
+        <details><summary>How do I save the invoice as a PDF?</summary><p>Tap Download PDF. Your browser opens its print window; choose Save as PDF (on iPhone, pinch out on the preview and tap Share, then Save to Files). Only the invoice is printed, not this page.</p></details>
+        <details><summary>What should an invoice include?</summary><p>Your business name and contact details, the client's name, an invoice number, the date issued and the due date, each item with quantity and rate, the total, and how to pay. This generator fills in every one of those.</p></details>
+        <details><summary>What is the difference between an invoice and a receipt?</summary><p>An invoice asks to be paid; a receipt confirms payment arrived. Send the invoice when the work is done, and a receipt once the client pays.</p></details>
+        <details><summary>How do I get paid faster?</summary><p>Send the invoice the same day as the job, set a clear due date, include a pay link or payment instructions, and send a friendly reminder the day after it is due. The Tallyhand iPhone app does those steps for you.</p></details>
+      </div>
+    </section>
+  </div>
+<script src="invoice.js" defer></script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+          <li><a href="../apps/tallyhand.html">Tallyhand</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
