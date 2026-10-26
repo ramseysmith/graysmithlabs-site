@@ -17,6 +17,23 @@
     cya: [0, 30, 50, 100, 150, 300],
   };
   const ROLES = ['sanitizer', 'phDown', 'phUp', 'alkalinityUp', 'calciumUp'];
+  // Amazon Associates search links for the product type each step names. The
+  // engine still decides every amount; these only help find the product.
+  const AMAZON_TAG = 'graysmithlabs-20';
+  const AMAZON_SEARCH = {
+    dichlor: 'spa dichlor chlorine granules',
+    liquid_chlorine: 'unscented bleach',
+    sodium_bisulfate: 'spa ph decreaser',
+    muriatic_acid: 'muriatic acid',
+    soda_ash: 'spa ph increaser',
+    sodium_bicarbonate: 'spa alkalinity increaser',
+    calcium_chloride: 'spa calcium hardness increaser',
+    bromine_shock: 'spa shock for bromine hot tubs',
+    test_strips: 'hot tub test strips',
+  };
+  const amazon = (key, label) => AMAZON_TAG && AMAZON_SEARCH[key]
+    ? `<a class="htc-buy" href="https://www.amazon.com/s?k=${encodeURIComponent(AMAZON_SEARCH[key])}&amp;tag=${AMAZON_TAG}" target="_blank" rel="sponsored nofollow noopener">${esc(label)}</a>`
+    : '';
   const fmt = (v) => (Number.isInteger(v) ? String(v) : v.toFixed(1));
   const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
@@ -90,7 +107,13 @@
     };
     const tub = { id: 'web', name: 'Hot tub', gallons: Math.round(gallons), sanitizer: s, avgDailyBathers: 2, createdAt: new Date().toISOString() };
     const now = E.waterStatus(reading, s);
-    const plan = E.buildDosePlan(tub, reading, shelf());
+    const shelfNow = shelf();
+    const plan = E.buildDosePlan(tub, reading, shelfNow);
+    const buyKey = (st) => {
+      const role = Object.keys(shelfNow).find((r) => shelfNow[r].name === st.productName);
+      const kind = role ? shelfNow[role].kind : Object.keys(E.DEFAULT_PRODUCTS).find((k) => E.DEFAULT_PRODUCTS[k].name === st.productName);
+      return role === 'sanitizer' && s === 'bromine' ? 'bromine_shock' : kind;
+    };
 
     let html = `<div class="htc-status htc-${now.level}"><b>Right now: ${esc(now.headline)}</b>`;
     if (now.issues.length) html += `<ul>${now.issues.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`;
@@ -106,6 +129,7 @@
           html += `<li><div class="htc-step-head"><b>${esc(st.title)}</b><span class="htc-amount">${esc(st.amount.primary)}</span></div>
             <p class="htc-product-name">${esc(st.productName)}${st.amount.hint ? ` &middot; ${esc(st.amount.hint)}` : ''}</p>
             <p>${esc(st.why)}</p>
+            ${amazon(buyKey(st), 'Find it on Amazon') ? `<p class="htc-buy-row">${amazon(buyKey(st), 'Find it on Amazon')}</p>` : ''}
             ${st.splitInHalf ? '<p class="htc-tip">Add it in two halves, retesting between them.</p>' : ''}
             <p class="htc-wait">Then run the jets and wait ${st.waitMinutes} minutes.</p></li>`;
         } else {
@@ -118,6 +142,7 @@
       }
     }
     if (plan.notes.length) html += `<ul class="guide-list htc-notes">${plan.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>`;
+    if (AMAZON_TAG) html += `<p class="htc-buy-row">Retest with fresh strips: ${amazon('test_strips', 'hot tub test strips on Amazon')}</p>`;
     html += '<p class="guide-note">Amounts are calculated from your readings and the product strengths above. Measure with a kitchen scale or measuring cup, never more than the label allows. Follow the label on your product.</p>';
     out.innerHTML = html;
     out.hidden = false;

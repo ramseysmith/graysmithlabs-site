@@ -847,3 +847,7 @@ section.first { border-top: 0; }
 .af-msg { min-height: 1.4em; margin-top: 10px; font-size: 13px; color: #2A1E45; }
 .af-list li { color: var(--ink); }
 @media (max-width: 560px) { .af-card { padding: 24px 16px 18px; } .af-text { padding: 20px 18px; } }
+.htc-buy-row { font-size: 14px !important; }
+.htc-buy { font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.htc-disclosure { font-size: 13px; }
+.htc-result > .htc-buy-row { margin-top: 16px; }
