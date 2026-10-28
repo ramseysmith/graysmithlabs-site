@@ -68,38 +68,44 @@
       "platforms": "iPhone and iPad",
       "title": "SignSnap: Sign PDF Documents on iPhone, No Account",
       "description": "SignSnap lets you scan or import a PDF, add your signature and send it from your iPhone. No account and no uploads. First 2 documents free.",
-      "answer": "SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw or type your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.",
+      "answer": "SignSnap is a free iPhone and iPad app to sign a PDF or scan and sign a paper form, such as a lease, offer letter or permission slip, with no account and no uploads: draw or type your signature, place it on the line, stamp the date and share the signed PDF. It is a simple alternative to DocuSign when you only need to sign one document yourself.",
       "pricing": "Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.",
       "bestFor": [
-        "signing a PDF on iPhone",
+        "signing a PDF on iPhone for free",
+        "signing one document without a DocuSign account",
         "signing a lease, offer letter or permission slip from a phone",
         "people who do not want to make an account or upload documents to a cloud service",
         "replacing print, sign and scan"
       ],
       "features": [
-        "Draw or type your signature",
-        "Camera scanner with automatic edge detection",
-        "Import PDFs from Files, Mail or any app",
+        "Draw or type your signature in a script font",
+        "Camera scanner with automatic edge detection, one page at a time",
+        "Import PDFs from the Files app or Photos",
         "Drag the signature onto the line, pinch to resize, and stamp the date beside it",
+        "Save a signature and initials for next time",
         "Share a PDF to Mail, Messages or AirDrop",
         "No account and no cloud uploads"
       ],
       "faq": [
         [
           "How do I sign a PDF on my iPhone with SignSnap?",
-          "Open the PDF in SignSnap from Files or Mail (or scan the paper with the camera), add your saved signature, drag it onto the line and tap share to send the signed PDF."
+          "Import the PDF from the Files app (save an email attachment to Files first) or scan the paper with the camera, add your saved signature, drag it onto the line and tap share to send the signed PDF."
         ],
         [
           "Do I need an account?",
           "No. SignSnap works without an account, and documents stay on your iPhone instead of being uploaded."
         ],
         [
+          "Is SignSnap a free alternative to DocuSign?",
+          "For signing a document yourself, yes: the first 2 signed documents are free, then one short ad unlocks one more signing. DocuSign is built for sending documents to other people to sign, which SignSnap does not do."
+        ],
+        [
           "Is SignSnap free?",
           "Your first 2 signed documents are free, and after that you can watch one short ad to unlock one more signing. Premium is weekly, monthly or yearly with no limit, and new subscribers get a free week."
         ],
         [
-          "Can I sign with Apple Pencil?",
-          "Yes. Draw with a finger or Apple Pencil, or type your name in a script font."
+          "Can I type my signature instead of drawing it?",
+          "Yes. Draw it with your finger or type your name and pick a script font."
         ]
       ]
     },
@@ -111,14 +117,14 @@
       "storeCategory": "Lifestyle",
       "platforms": "iPhone and iPad",
       "title": "CelebriDay: What Holiday Is It Today? App for iPhone",
-      "description": "CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 365 plus holidays.",
-      "answer": "CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.",
+      "description": "CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 700 plus holidays.",
+      "answer": "CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year: a morning notification names today's holiday, and each of its 700 plus observances, from National Pizza Day to World Emoji Day, has a fun fact and a card to share on social media. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.",
       "pricing": "Free with ads: today and tomorrow, every holiday's fun fact, sharing and the 8 AM daily note. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, favorites, choosing the note time and removes ads.",
       "bestFor": [
         "finding out what national day it is today",
-        "teachers, social media managers and offices looking for daily themes",
-        "daily conversation starters and fun facts",
-        "planning posts around upcoming national days"
+        "teachers, offices and teams looking for fun national days to celebrate at work",
+        "social media managers planning posts around national days",
+        "daily conversation starters and fun facts"
       ],
       "features": [
         "Today and tomorrow free, with every holiday and fun fact",
@@ -127,24 +133,24 @@
         "A calendar of the whole year (Premium beyond tomorrow)",
         "Favorites (Premium)",
         "Choose when the daily note arrives (Premium)",
-        "Free daily holiday pages on graysmithlabs.com/holidays/"
+        "Free national day lists by month on graysmithlabs.com/holidays/"
       ],
       "faq": [
         [
-          "What holiday is it today?",
-          "The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app sends it to your phone each morning with a fun fact."
+          "What national day is it today?",
+          "The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app names it in a notification each morning, with a fun fact and a share card inside the app."
         ],
         [
           "Are the holidays in CelebriDay real?",
-          "Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year."
+          "Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year. The app uses the same list; its dates were checked in October 2026 and the few that were wrong were corrected."
         ],
         [
           "Is CelebriDay free?",
           "Yes. Today and tomorrow are free with ads, including the fun facts, sharing and the morning note at 8 AM. Premium, monthly or yearly with a free week to try it, opens the whole calendar and favorites, lets you pick when the note arrives and removes ads."
         ],
         [
-          "Can I share a holiday?",
-          "Yes. Every holiday has a card you can share to Messages, Instagram or anywhere else."
+          "Can I use it to plan social media posts?",
+          "Yes. Every holiday has a card you can share to Instagram, Messages or anywhere else, and the month pages on graysmithlabs.com/holidays/ list every national day ahead for free."
         ]
       ]
     },

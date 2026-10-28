@@ -79,7 +79,10 @@ function guidePage(g) {
   const app = facts.apps.find((a) => a.slug === g.app);
   if (!app) throw new Error(`${g.slug}: no facts for app ${g.app}`);
   const url = `${BASE}/guides/${g.slug}.html`;
-  const image = `${BASE}/assets/apps/${app.slug}/og.jpg`;
+  // Keep the cache stamp the app page uses for its own art (set by tools/app-assets/build.py)
+  const appPage = fs.readFileSync(path.join(site, `apps/${app.slug}.html`), 'utf8');
+  const stamp = (file) => appPage.match(new RegExp(`assets/apps/${app.slug}/${file.replace('.', '\\.')}(\\?v=[\\w.]+)`))?.[1] ?? '';
+  const image = `${BASE}/assets/apps/${app.slug}/og.jpg${stamp('og.jpg')}`;
   const store = `https://apps.apple.com/us/app/id${app.appStoreId}`;
   for (const [k, max] of [['title', 60], ['description', 155]]) {
     if (g[k].length > max) throw new Error(`${g.slug}: ${k} is ${g[k].length} characters, limit ${max}`);
@@ -126,7 +129,7 @@ function guidePage(g) {
     <p class="guide-meta">Updated ${new Date(g.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} by Graysmith Labs</p>
 ${g.sections.map(section).join('')}
     <aside class="guide-app">
-      <img src="../assets/apps/${app.slug}/icon.png" alt="${esc(app.name)} app icon" width="64" height="64">
+      <img src="../assets/apps/${app.slug}/icon.png${stamp('icon.png')}" alt="${esc(app.name)} app icon" width="64" height="64">
       <div>
         <h2>${esc(app.name)}</h2>
         <p>${esc(app.answer)}</p>

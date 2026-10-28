@@ -7,8 +7,8 @@
       "title": "How to Sign a PDF on iPhone (Free, Two Ways)",
       "description": "How to sign a PDF on iPhone for free: use Markup in the Files app, or scan and sign with SignSnap. Step by step, no printer and no account.",
       "h1": "How to sign a PDF on iPhone",
-      "answer": "You can sign a PDF on iPhone for free with Markup, which is built into the Files app: open the PDF, tap the Markup button, tap the plus button, choose Add Signature and drag it onto the line. If the document is on paper, or you sign things often, a signing app such as SignSnap scans the page with the camera, keeps your signature and initials ready and adds the date in one tap.",
-      "updated": "2026-10-15",
+      "answer": "You can sign a PDF on iPhone for free with Markup, which is built into the Files app: open the PDF, tap the Markup button, tap the plus button, choose Add Signature and drag it onto the line. If the document is on paper, or you sign things often, a signing app such as SignSnap scans the page with the camera, keeps your signature ready and adds the date in one tap.",
+      "updated": "2026-10-28",
       "sections": [
         {
           "h2": "Method 1: Markup in the Files app (built in, free)",
@@ -26,8 +26,8 @@
           "h2": "Method 2: SignSnap (paper documents and frequent signing)",
           "intro": "SignSnap is a free iPhone and iPad app from Graysmith Labs made only for signing. It helps most when you were handed paper, when you sign often, or when you want the date next to your signature.",
           "steps": [
-            "Open SignSnap and import the PDF from Files or Mail, or scan a paper page with the camera. The scanner finds the edges and straightens the page.",
-            "Create your signature once: draw it with a finger or Apple Pencil, or type your name in a script font. Save your initials the same way.",
+            "Open SignSnap and import the PDF from the Files app (save an email attachment to Files first) or Photos, or scan a paper page with the camera. The scanner finds the edges and straightens the page.",
+            "Create your signature once: draw it with your finger, or type your name in a script font. You can save your initials the same way; each signing places one mark plus the date.",
             "Place it on the line and pinch to resize it. Tap Date to stamp today's date beside it.",
             "Share the signed PDF to Mail, Messages, AirDrop or Files."
           ],
@@ -50,7 +50,7 @@
               [
                 "Paper documents",
                 "Scan first in Notes, then open the PDF",
-                "Built in scanner"
+                "Built in scanner, one page at a time"
               ],
               [
                 "Signature styles",
@@ -60,7 +60,7 @@
               [
                 "Saved initials",
                 "Save a second signature",
-                "Yes"
+                "Yes, one mark per signing"
               ],
               [
                 "Date stamp",
@@ -96,11 +96,11 @@
         ],
         [
           "How do I sign a PDF that someone emailed me?",
-          "Tap the attachment in Mail, tap the share button and choose Save to Files or open it in a signing app such as SignSnap. Sign it, then share the signed PDF back as a reply."
+          "Tap the attachment in Mail, tap the share button and choose Save to Files. Then sign it with Markup in Files, or import it into a signing app such as SignSnap, and share the signed PDF back as a reply."
         ],
         [
           "How do I sign a paper document with my iPhone?",
-          "Scan it first. SignSnap has a scanner built in that finds the page edges, so you can scan, sign and send in one app. The Notes app can also scan documents into a PDF."
+          "Scan it first. SignSnap has a scanner built in that finds the page edges, so you can scan, sign and send a one page form in one app. For several pages, the Notes app can scan them into one PDF."
         ],
         [
           "Can I add the date next to my signature?",
@@ -119,13 +119,13 @@
       "description": "Fill in and sign a rental lease on iPhone: get it as a PDF, type into the blanks, initial and sign each page, and send it back. No printer needed.",
       "h1": "How to fill and sign a lease on your phone",
       "answer": "To fill and sign a lease on your phone, open the lease PDF in the Files app, type your details into the blanks with Markup, add your initials and signature wherever the lease asks for them, then send the finished PDF back to your landlord. If you were handed paper, scan it into a PDF first.",
-      "updated": "2026-10-15",
+      "updated": "2026-10-28",
       "sections": [
         {
           "h2": "Step 1: Get the lease as a PDF",
           "paras": [
             "If the lease came by email, tap the attachment, tap the share button and choose Save to Files. If your landlord uses a signing service such as DocuSign, follow its link instead; it walks you through every field and you do not need anything else.",
-            "If the lease is on paper, scan every page into one PDF. SignSnap has a scanner that finds the page edges and straightens them, and the Notes app can scan documents too. Scan in good light on a dark table so the edges are clear."
+            "If the lease is on paper, scan every page into one PDF with the Notes app (open a note, tap the camera button, choose Scan Documents). SignSnap's scanner also finds the page edges and straightens them, one page at a time, which suits a single signature page. Scan in good light on a dark table so the edges are clear."
           ]
         },
         {
@@ -181,7 +181,7 @@
         ],
         [
           "What if my landlord gave me a paper lease?",
-          "Scan every page into one PDF with a scanner app such as SignSnap or with the Notes app, then fill and sign the PDF and email it back. Ask whether a signed PDF is acceptable first."
+          "Scan every page into one PDF with the Notes app, then fill and sign the PDF and email it back. If only one page needs your signature, SignSnap can scan and sign that page. Ask whether a signed PDF is acceptable first."
         ],
         [
           "How do I add the date to my signature?",
@@ -408,6 +408,255 @@
         [
           "Is white noise safe to listen to on a long flight?",
           "Keep the volume at the lowest level that covers the cabin noise and use a sleep timer so it does not play all flight."
+        ]
+      ]
+    },
+    {
+      "slug": "sign-one-document-without-docusign",
+      "app": "signsnap",
+      "title": "Sign One Document Free Without a DocuSign Account",
+      "description": "Need to sign just one document? Three free ways to sign a PDF on iPhone with no DocuSign account or subscription, and when DocuSign still fits.",
+      "h1": "How to sign one document for free without DocuSign",
+      "answer": "If someone sent you a DocuSign link, you can sign it for free without creating an account: open the email, tap Review Document and follow the prompts. If you only have a PDF or a paper form to sign yourself, you do not need DocuSign at all: sign it with Markup in the iPhone Files app, or with a signing app such as SignSnap, which needs no account and keeps the document on your phone.",
+      "updated": "2026-10-28",
+      "sections": [
+        {
+          "h2": "First: did someone send you a DocuSign link?",
+          "intro": "Signing a document someone sent you through DocuSign is always free. The sender pays; you do not need an account or the app.",
+          "steps": [
+            "Open the email from DocuSign and tap Review Document.",
+            "Agree to use electronic records and signatures when it asks.",
+            "Tap each yellow tag to place your signature, initials or date. The first time, DocuSign asks you to adopt a signature: pick a style or draw one.",
+            "Tap Finish. You can download a copy without signing up."
+          ],
+          "note": "Only make an account if you want to send documents to other people for signature. That is the part DocuSign charges for."
+        },
+        {
+          "h2": "Signing a PDF yourself: Markup in Files (free, built in)",
+          "intro": "For a PDF that is already on your iPhone, the Files app signs it with nothing to install.",
+          "steps": [
+            "In Mail, tap the attachment, tap the share button and choose Save to Files.",
+            "Open the PDF in Files and tap the Markup button (a pen tip inside a circle).",
+            "Tap the plus button, choose Add Signature, sign with your finger and tap Done.",
+            "Drag the signature onto the line, resize it, then tap Done and share the PDF back."
+          ],
+          "after": "The full step by step version is in <a href=\"sign-pdf-on-iphone.html\">how to sign a PDF on iPhone</a>."
+        },
+        {
+          "h2": "Paper forms and frequent signing: SignSnap",
+          "intro": "SignSnap is an iPhone and iPad app from Graysmith Labs made only for signing your own documents. It suits paper forms, and people who sign often and want the date stamped beside the signature.",
+          "steps": [
+            "Scan the page with the camera (the scanner finds the edges and straightens it) or import the PDF from Files or Photos.",
+            "Draw your signature with your finger, or type your name and pick a script font. It is saved for next time.",
+            "Place it on the line, pinch to resize and tap Date to stamp today's date.",
+            "Share the signed PDF to Mail, Messages or AirDrop."
+          ],
+          "note": "No account and no uploads. The first 2 signed documents are free, then one short ad unlocks one more signing; Premium (weekly, monthly or yearly, with a free week for new subscribers) removes the limit and the ads."
+        },
+        {
+          "h2": "Quick comparison",
+          "table": {
+            "head": [
+              "",
+              "DocuSign (as signer)",
+              "Markup in Files",
+              "SignSnap"
+            ],
+            "rows": [
+              [
+                "Cost to sign",
+                "Free",
+                "Free",
+                "2 documents free, then an ad or Premium"
+              ],
+              [
+                "Account needed",
+                "No",
+                "No",
+                "No"
+              ],
+              [
+                "Send to others to sign",
+                "Yes, paid plans",
+                "No",
+                "No"
+              ],
+              [
+                "Paper forms",
+                "No",
+                "Scan in Notes first",
+                "Built in scanner"
+              ],
+              [
+                "Typed signature",
+                "Yes",
+                "No, drawn only",
+                "Yes"
+              ],
+              [
+                "Date stamp",
+                "Date tag if the sender added one",
+                "Add a text box",
+                "One tap"
+              ]
+            ]
+          },
+          "after": "Need a signature image for a Word file or a website form instead? The <a href=\"../signature-maker/\">free signature maker</a> draws or types one and downloads a transparent PNG, with nothing uploaded."
+        },
+        {
+          "h2": "Is it legally valid without DocuSign?",
+          "paras": [
+            "In the United States, the ESIGN Act and the state laws based on UETA generally treat an electronic signature as valid whatever tool made it, as long as both sides agree to sign electronically. DocuSign adds an audit trail of who signed and when, which matters most for high value contracts.",
+            "Some documents need more, such as wills, certain court papers and anything that must be notarized. When unsure, ask whoever sent the document whether a signed PDF is acceptable. This is general information, not legal advice."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I sign a DocuSign document without an account?",
+          "Yes. Signing a document someone sent you through DocuSign is free and needs no account: open the email, tap Review Document, place your signature and tap Finish."
+        ],
+        [
+          "What is a free alternative to DocuSign for one document?",
+          "To sign a PDF yourself, use Markup in the iPhone Files app, which is built in, or a signing app such as SignSnap, whose first 2 signed documents are free with no account."
+        ],
+        [
+          "Do I need DocuSign to sign a PDF on my phone?",
+          "No. Any PDF can be signed with Markup in the Files app or with a signing app, then emailed back."
+        ],
+        [
+          "Can SignSnap send a document to someone else to sign?",
+          "No. SignSnap is for signing your own documents. To collect signatures from other people, use a service built for that, such as DocuSign."
+        ]
+      ]
+    },
+    {
+      "slug": "weird-holidays-november",
+      "app": "celebriday",
+      "title": "Weird Holidays in November 2026, With Dates",
+      "description": "Weird and fun holidays in November 2026, from Deviled Egg Day to Red Planet Day, with each date checked and ideas to celebrate them at work.",
+      "h1": "Weird holidays in November 2026",
+      "answer": "The weirdest holidays in November 2026 include National Deviled Egg Day (Monday, November 2), National Scrapple Day (November 9), National Pickle Day (November 14), World Toilet Day (November 19), World Hello Day (November 21) and Red Planet Day (November 28). Every date on this page was checked against a public source; the full day by day list is on the <a href=\"../holidays/november.html\">November holidays page</a>.",
+      "updated": "2026-10-28",
+      "sections": [
+        {
+          "h2": "The weirdest days, in order",
+          "table": {
+            "head": [
+              "Day",
+              "Date",
+              "What to do"
+            ],
+            "rows": [
+              [
+                "National Deviled Egg Day",
+                "Monday, November 2",
+                "Bring a tray to the break room, or vote on the best paprika."
+              ],
+              [
+                "Saxophone Day",
+                "Friday, November 6",
+                "Put a sax solo playlist on for the afternoon."
+              ],
+              [
+                "National Bittersweet Chocolate with Almonds Day",
+                "Saturday, November 7",
+                "Probably the most specific day of the month."
+              ],
+              [
+                "National Scrapple Day",
+                "Monday, November 9",
+                "A Pennsylvania Dutch breakfast loaf. Ask who has actually tried it."
+              ],
+              [
+                "National Indian Pudding Day",
+                "Friday, November 13",
+                "A New England cornmeal and molasses pudding, good for a guess the ingredients quiz."
+              ],
+              [
+                "National Pickle Day",
+                "Saturday, November 14",
+                "Pickle tasting, or a pickle fact of the day."
+              ],
+              [
+                "National Vichyssoise Day",
+                "Wednesday, November 18",
+                "A cold potato soup in November; practice saying it out loud."
+              ],
+              [
+                "World Toilet Day",
+                "Thursday, November 19",
+                "A real United Nations day about sanitation, and the easiest one to make people laugh at first."
+              ],
+              [
+                "National Carbonated Beverage with Caffeine Day",
+                "Thursday, November 19",
+                "Yes, that is the full name."
+              ],
+              [
+                "World Hello Day",
+                "Saturday, November 21",
+                "Say hello to ten people today. It started in 1973."
+              ],
+              [
+                "Celebrate Your Unique Talent Day",
+                "Tuesday, November 24",
+                "Ask everyone to share one odd skill."
+              ],
+              [
+                "Red Planet Day",
+                "Saturday, November 28",
+                "Marks the launch of Mariner 4 toward Mars in 1964."
+              ]
+            ]
+          }
+        },
+        {
+          "h2": "Fun November national days to celebrate at work",
+          "intro": "These fall on workdays or are easy to move to one, and none needs more than a snack or five minutes.",
+          "list": [
+            "<b>National Sandwich Day</b>, Tuesday, November 3. Team lunch, or a build your own sandwich bar.",
+            "<b>National Doughnut Day</b>, Thursday, November 5. The easiest office treat of the month. (The June Doughnut Day is a different one.)",
+            "<b>National Cappuccino Day</b>, Sunday, November 8. It falls on a Sunday, so the coffee run moves to Monday the 9th.",
+            "<b>World Hello Day</b>, Saturday, November 21. On a Saturday this year, so greet a coworker you have never met on Friday the 20th.",
+            "<b>Celebrate Your Unique Talent Day</b>, Tuesday, November 24. A five minute talent share at the start of a meeting.",
+            "<b>National Cake Day</b>, Thursday, November 26. Thursday the 26th is Thanksgiving, so bring the cake on Wednesday the 25th.",
+            "<b>Computer Security Day</b>, Monday, November 30. A good Monday to update passwords and turn on two step sign in."
+          ]
+        },
+        {
+          "h2": "The big November dates",
+          "list": [
+            "Daylight saving time ends, Sunday, November 1 (clocks fall back one hour).",
+            "Veterans Day, Wednesday, November 11.",
+            "Thanksgiving, Thursday, November 26, and Black Friday the next day.",
+            "Giving Tuesday is Tuesday, December 1 this year."
+          ]
+        },
+        {
+          "h2": "Never miss one",
+          "paras": [
+            "The <a href=\"../holidays/\">today page</a> shows every verified observance for today, and each month has its own list, starting with <a href=\"../holidays/november.html\">November</a> and <a href=\"../holidays/december.html\">December</a>.",
+            "On iPhone, CelebriDay names today's holiday in a notification each morning, with a fun fact and a card you can share; today and tomorrow are free."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "What weird holidays are in November?",
+          "Weird November holidays include National Deviled Egg Day (November 2), National Scrapple Day (November 9), National Pickle Day (November 14), World Toilet Day (November 19), World Hello Day (November 21) and Red Planet Day (November 28)."
+        ],
+        [
+          "What national days in November can we celebrate at work?",
+          "Easy ones are National Sandwich Day (November 3), National Doughnut Day (November 5), Celebrate Your Unique Talent Day (November 24) and Computer Security Day (November 30)."
+        ],
+        [
+          "When is Thanksgiving in 2026?",
+          "Thanksgiving is Thursday, November 26, 2026, the fourth Thursday of November. Black Friday is November 27."
+        ],
+        [
+          "Is there an app that tells you what holiday it is every day?",
+          "Yes. CelebriDay for iPhone and iPad sends today's holiday each morning, and graysmithlabs.com/holidays/ lists every day free on the web."
         ]
       ]
     }

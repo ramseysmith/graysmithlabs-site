@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CelebriDay: What Holiday Is It Today? App for iPhone</title>
-<meta name="description" content="CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 365 plus holidays.">
+<meta name="description" content="CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 700 plus holidays.">
 <link rel="canonical" href="https://graysmithlabs.com/apps/celebriday.html">
 <meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Graysmith Labs">
 <meta property="og:title" content="CelebriDay: What Holiday Is It Today? App for iPhone">
-<meta property="og:description" content="CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 365 plus holidays.">
+<meta property="og:description" content="CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 700 plus holidays.">
 <meta property="og:url" content="https://graysmithlabs.com/apps/celebriday.html">
 <meta property="og:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg?v=1.6.0">
 <meta property="og:image:width" content="1200">
@@ -37,7 +37,7 @@
       "@type": "MobileApplication",
       "@id": "https://graysmithlabs.com/apps/celebriday.html#app",
       "name": "CelebriDay",
-      "description": "CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.",
+      "description": "CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year: a morning notification names today's holiday, and each of its 700 plus observances, from National Pizza Day to World Emoji Day, has a fun fact and a card to share on social media. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.",
       "url": "https://graysmithlabs.com/apps/celebriday.html",
       "downloadUrl": "https://apps.apple.com/app/id6760971240",
       "installUrl": "https://apps.apple.com/app/id6760971240",
@@ -50,7 +50,7 @@
         "A calendar of the whole year (Premium beyond tomorrow)",
         "Favorites (Premium)",
         "Choose when the daily note arrives (Premium)",
-        "Free daily holiday pages on graysmithlabs.com/holidays/"
+        "Free national day lists by month on graysmithlabs.com/holidays/"
       ],
       "offers": {
         "@type": "Offer",
@@ -70,10 +70,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What holiday is it today?",
+          "name": "What national day is it today?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app sends it to your phone each morning with a fun fact."
+            "text": "The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app names it in a notification each morning, with a fun fact and a share card inside the app."
           }
         },
         {
@@ -81,7 +81,7 @@
           "name": "Are the holidays in CelebriDay real?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year."
+            "text": "Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year. The app uses the same list; its dates were checked in October 2026 and the few that were wrong were corrected."
           }
         },
         {
@@ -94,10 +94,10 @@
         },
         {
           "@type": "Question",
-          "name": "Can I share a holiday?",
+          "name": "Can I use it to plan social media posts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Every holiday has a card you can share to Messages, Instagram or anywhere else."
+            "text": "Yes. Every holiday has a card you can share to Instagram, Messages or anywhere else, and the month pages on graysmithlabs.com/holidays/ list every national day ahead for free."
           }
         }
       ]
@@ -163,11 +163,11 @@
     <div class="wrap">
       <div class="sec-head"><div><p class="eyebrow">What it does</p><h2>Features</h2></div></div>
       <div class="features">
-        <div class="service"><h3>Morning notifications</h3><p>A cheerful alert with today's holiday and a fun fact before you are out of bed.</p></div>
+        <div class="service"><h3>Morning notifications</h3><p>A cheerful alert with today's holiday before you are out of bed, and its fun fact one tap away.</p></div>
         <div class="service"><h3>Color coded cards</h3><p>Each holiday gets a vibrant card with a description, a fun fact, and a Share button.</p></div>
         <div class="service"><h3>Today and tomorrow, free</h3><p>Every holiday for today and tomorrow, with its fun fact and Share button, at no cost.</p></div>
         <div class="service"><h3>The whole year</h3><p>With Premium, a full calendar with category dots and a pull up sheet for any day you tap.</p></div>
-        <div class="service"><h3>365 plus fun facts</h3><p>A hand picked fact for every holiday, ready for dinner conversation.</p></div>
+        <div class="service"><h3>700 plus fun facts</h3><p>A hand picked fact for every holiday, ready for dinner conversation.</p></div>
         <div class="service"><h3>Favorites</h3><p>With Premium, heart the holidays you love to keep your own collection.</p></div>
         <div class="service"><h3>Your schedule</h3><p>The daily note comes at 8 AM. Premium lets you choose exactly when it arrives, with no ads.</p></div>
       </div>
@@ -186,6 +186,16 @@
           <li><strong>Share cards.</strong> Holiday cards render to images on device for sharing to Messages and social apps.</li>
           <li><strong>Current stack.</strong> Expo SDK 55, React Native 0.83, and Reanimated 4, kept on the latest releases.</li>
           <li><strong>Subscriptions.</strong> RevenueCat powers monthly and annual Premium, with AdMob for the free tier.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Guides</p><h2>National days, <em>by month.</em></h2></div></div>
+      <ul class="guide-index">
+        <li><a href="../holidays/"><b>What national day is it today?</b><span>Every verified observance for today, free on the web.</span></a></li>
+        <li><a href="../guides/weird-holidays-november.html"><b>Weird holidays in November 2026</b><span>From Deviled Egg Day to Red Planet Day, with ideas for work.</span></a></li>
       </ul>
     </div>
   </section>
@@ -211,24 +221,24 @@
       <div>
         <p class="eyebrow">FAQ</p>
         <h2>CelebriDay, <em>answered.</em></h2>
-        <p class="muted" style="margin-top:18px;max-width:34ch">CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.</p>
+        <p class="muted" style="margin-top:18px;max-width:34ch">CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year: a morning notification names today's holiday, and each of its 700 plus observances, from National Pizza Day to World Emoji Day, has a fun fact and a card to share on social media. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.</p>
       </div>
       <div class="faq-list">
         <details>
-          <summary>What holiday is it today?</summary>
-          <p>The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app sends it to your phone each morning with a fun fact.</p>
+          <summary>What national day is it today?</summary>
+          <p>The today page at graysmithlabs.com/holidays/ lists every verified observance for today, and the CelebriDay app names it in a notification each morning, with a fun fact and a share card inside the app.</p>
         </details>
         <details>
           <summary>Are the holidays in CelebriDay real?</summary>
-          <p>Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year.</p>
+          <p>Every observance on the website is checked against a public source before it is published, and moving holidays are recalculated each year. The app uses the same list; its dates were checked in October 2026 and the few that were wrong were corrected.</p>
         </details>
         <details>
           <summary>Is CelebriDay free?</summary>
           <p>Yes. Today and tomorrow are free with ads, including the fun facts, sharing and the morning note at 8 AM. Premium, monthly or yearly with a free week to try it, opens the whole calendar and favorites, lets you pick when the note arrives and removes ads.</p>
         </details>
         <details>
-          <summary>Can I share a holiday?</summary>
-          <p>Yes. Every holiday has a card you can share to Messages, Instagram or anywhere else.</p>
+          <summary>Can I use it to plan social media posts?</summary>
+          <p>Yes. Every holiday has a card you can share to Instagram, Messages or anywhere else, and the month pages on graysmithlabs.com/holidays/ list every national day ahead for free.</p>
         </details>
       </div>
     </div>

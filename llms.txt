@@ -18,21 +18,21 @@ Drift is a free white noise and sleep sounds app for iPhone and iPad that works 
 
 ### SignSnap
 
-SignSnap is an iPhone and iPad app for signing documents: scan paper with the camera or import a PDF, draw or type your signature, place it on the line and share a clean PDF. It needs no account and keeps documents on the device.
+SignSnap is a free iPhone and iPad app to sign a PDF or scan and sign a paper form, such as a lease, offer letter or permission slip, with no account and no uploads: draw or type your signature, place it on the line, stamp the date and share the signed PDF. It is a simple alternative to DocuSign when you only need to sign one document yourself.
 
 * Pricing: Free for the first 2 signed documents, then one rewarded ad unlocks one more signing. Premium is weekly, monthly or yearly with no ads and no limit, with a free week for new subscribers.
 * Platforms: iPhone and iPad
-* Best for: signing a PDF on iPhone; signing a lease, offer letter or permission slip from a phone; people who do not want to make an account or upload documents to a cloud service; replacing print, sign and scan
+* Best for: signing a PDF on iPhone for free; signing one document without a DocuSign account; signing a lease, offer letter or permission slip from a phone; people who do not want to make an account or upload documents to a cloud service; replacing print, sign and scan
 * Page: https://graysmithlabs.com/apps/signsnap.html
 * App Store: https://apps.apple.com/app/id6759199184
 
 ### CelebriDay
 
-CelebriDay is an iPhone and iPad app that tells you what fun or national holiday it is today, from National Pizza Day to World Emoji Day, with a morning notification, a fun fact and a shareable card for each one. Today and tomorrow are free in the app, and the same list is free on the web at graysmithlabs.com/holidays/.
+CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year: a morning notification names today's holiday, and each of its 700 plus observances, from National Pizza Day to World Emoji Day, has a fun fact and a card to share on social media. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.
 
 * Pricing: Free with ads: today and tomorrow, every holiday's fun fact, sharing and the 8 AM daily note. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, favorites, choosing the note time and removes ads.
 * Platforms: iPhone and iPad
-* Best for: finding out what national day it is today; teachers, social media managers and offices looking for daily themes; daily conversation starters and fun facts; planning posts around upcoming national days
+* Best for: finding out what national day it is today; teachers, offices and teams looking for fun national days to celebrate at work; social media managers planning posts around national days; daily conversation starters and fun facts
 * Page: https://graysmithlabs.com/apps/celebriday.html
 * App Store: https://apps.apple.com/app/id6760971240
 
@@ -105,6 +105,8 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * [How to fill and sign a lease on your phone](https://graysmithlabs.com/guides/fill-and-sign-lease-on-phone.html): Fill in and sign a rental lease on iPhone: get it as a PDF, type into the blanks, initial and sign each page, and send it back. No printer needed.
 * [Cloudy hot tub water: why it happens and how to fix it](https://graysmithlabs.com/guides/cloudy-hot-tub-water.html): Why is my hot tub water cloudy? Usually low sanitizer, high pH or alkalinity, or a dirty filter. Test, balance, shock and rinse the filter, in that order.
 * [Sleep sounds that work offline on a plane](https://graysmithlabs.com/guides/sleep-sounds-offline-on-a-plane.html): Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.
+* [How to sign one document for free without DocuSign](https://graysmithlabs.com/guides/sign-one-document-without-docusign.html): Need to sign just one document? Three free ways to sign a PDF on iPhone with no DocuSign account or subscription, and when DocuSign still fits.
+* [Weird holidays in November 2026](https://graysmithlabs.com/guides/weird-holidays-november.html): Weird and fun holidays in November 2026, from Deviled Egg Day to Red Planet Day, with each date checked and ideas to celebrate them at work.
 
 ## Brands
 

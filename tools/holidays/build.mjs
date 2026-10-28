@@ -299,7 +299,7 @@ function appPitch(context) {
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
           <h2>Get ${context} every morning</h2>
-          <p>CelebriDay sends the day's holiday with a fun fact and a card made for sharing. Free on iPhone, with a full calendar of the year.</p>
+          <p>CelebriDay names the day's holiday each morning, with a fun fact and a card made for sharing inside the app. Today and tomorrow are free on iPhone; Premium opens the whole year.</p>
           <a class="btn" href="${APP_URL}" rel="noopener">Download CelebriDay on the App Store</a>
         </div>
       </aside>`;
