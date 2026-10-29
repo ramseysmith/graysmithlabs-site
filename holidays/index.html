@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-10-28";
+  var built = "2026-10-29";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,22 +81,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Wednesday, October 28</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Thursday, October 29</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍫</span><span class="tag">Food</span></div>
-          <h2>National Chocolate Day</h2>
-          <p>A day to indulge in all things chocolate, from dark and milk to white chocolate in every form imaginable.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🥣</span><span class="tag">Food</span></div>
+          <h2>National Oatmeal Day</h2>
+          <p>A wholesome day celebrating oatmeal, the hearty and nutritious breakfast staple enjoyed around the world.</p>
           
         </article>
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🧸</span><span class="tag">Fun</span></div>
-          <h2>Plush Animal Lovers Day</h2>
-          <p>A cozy day celebrating the beloved stuffed animals and plush toys that bring comfort and joy to people of all ages.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">💛</span><span class="tag">Health</span></div>
+          <h2>World Psoriasis Day</h2>
+          <p>A global awareness day for those living with psoriasis and psoriatic arthritis, advocating for better care and understanding.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="october-28.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="october-29.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -107,12 +107,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="october-29.html"><b>Thursday, October 29</b><span>🥣 National Oatmeal Day  ·  💛 World Psoriasis Day</span></a></li>
       <li><a href="october-30.html"><b>Friday, October 30</b><span>🍬 National Candy Corn Day  ·  👻 Haunted Refrigerator Night</span></a></li>
       <li><a href="october-31.html"><b>Saturday, October 31</b><span>🎃 Halloween  ·  🍎 National Caramel Apple Day</span></a></li>
       <li><a href="november-1.html"><b>Sunday, November 1</b><span>😴 Daylight Saving Time Ends  ·  🌱 World Vegan Day  ·  ✨ All Saints Day</span></a></li>
       <li><a href="november-2.html"><b>Monday, November 2</b><span>🥚 National Deviled Egg Day  ·  🕯️ All Souls Day</span></a></li>
       <li><a href="november-3.html"><b>Tuesday, November 3</b><span>🥪 National Sandwich Day  ·  🪼 World Jellyfish Day</span></a></li>
+      <li><a href="november-4.html"><b>Wednesday, November 4</b><span>🍬 National Candy Day  ·  🏺 King Tut Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
