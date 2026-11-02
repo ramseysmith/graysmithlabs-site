@@ -89,6 +89,12 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * Fixed price app audit: A review of an app, its codebase and its App Store listing with a written report of what to fix first.
 * Page: https://graysmithlabs.com/services/
 
+## Starter kit
+
+Graysmith Labs is preparing an Expo starter kit for subscription and ad supported iPhone apps, taken from the code behind its App Store apps: a RevenueCat paywall with trial eligibility checks, AdMob with App Tracking Transparency and capped interstitials, PostHog analytics events, App Store screenshot automation with Guideline 2.3.7 checks, EAS build, submit and listings, guard hooks and Claude Code subagents. It is not for sale yet and has no price; there is a waitlist.
+
+* Page: https://graysmithlabs.com/kit/
+
 ## Free tools
 
 * What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)

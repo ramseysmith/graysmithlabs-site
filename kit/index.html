@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expo starter kit with RevenueCat, AdMob and App Store automation | Graysmith Labs</title>
+<meta name="description" content="The Expo template behind the Graysmith Labs App Store apps: RevenueCat paywall with trial checks, AdMob with ATT, analytics, screenshot automation and release checks. Join the waitlist.">
+<link rel="canonical" href="https://graysmithlabs.com/kit/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Expo starter kit with RevenueCat, AdMob and App Store automation | Graysmith Labs">
+<meta property="og:description" content="An Expo plus RevenueCat plus AdMob starter, taken from the code behind five live App Store apps. Join the waitlist.">
+<meta property="og:url" content="https://graysmithlabs.com/kit/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Graysmith Labs, a software studio in Colorado">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/og.png">
+<meta name="twitter:image:alt" content="Graysmith Labs, a software studio in Colorado">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://graysmithlabs.com/kit/#page",
+      "url": "https://graysmithlabs.com/kit/",
+      "name": "Expo starter kit with RevenueCat, AdMob and App Store automation | Graysmith Labs",
+      "description": "The Expo template behind the Graysmith Labs App Store apps: RevenueCat paywall with trial checks, AdMob with ATT, analytics, screenshot automation and release checks. Join the waitlist.",
+      "publisher": {
+        "@id": "https://graysmithlabs.com/#studio"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/kit/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Graysmith Labs starter kit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Expo React Native template for subscription and ad supported iPhone apps, taken from the code and checks behind the Graysmith Labs App Store apps. It includes a RevenueCat paywall, AdMob with App Tracking Transparency, analytics, App Store screenshot automation, EAS build and submit, and release checks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the kit available now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. It is being prepared from the template the studio already uses, and the waitlist decides whether it ships. People on the waitlist hear first when it is ready."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much will it cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no price yet. It will be on the page before anyone can buy, and joining the waitlist costs nothing and commits you to nothing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which stack does it use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expo managed React Native with TypeScript, EAS Build, Update and Submit, RevenueCat for subscriptions with an entitlement named premium, Google AdMob for ads and PostHog for analytics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why would I trust it with App Review?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every check in it comes from a real App Store review the studio went through, such as a rejection for a paywall frame in screenshots (Guideline 2.3.7) and one for a reviewer who could not find the subscriptions (Guideline 2.1). The release check looks for those before you submit."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://graysmithlabs.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Starter kit",
+          "item": "https://graysmithlabs.com/kit/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../services/">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../services/#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="#waitlist">Join the waitlist</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <p class="crumbs"><a href="../">Home</a> &nbsp;/&nbsp; Starter kit</p>
+    <div style="padding:48px 0 24px">
+      <p class="eyebrow rise d1">Starter kit &middot; Waitlist open</p>
+      <h1 class="rise d2">The Expo template behind <em>our App Store apps.</em></h1>
+      <p class="lede rise d3">A starter for subscription and ad supported iPhone apps: Expo, RevenueCat and AdMob wired the way that passes App Review, with screenshots, listings and release checks automated. It comes from the code behind five live Graysmith Labs apps. It is not for sale yet; join the waitlist and the number of people on it decides whether it ships.</p>
+      <div class="btn-row rise d3" style="margin-top:32px">
+        <a class="btn" href="#waitlist">Join the waitlist</a>
+        <a class="btn ghost" href="#inside">What is inside</a>
+      </div>
+    </div>
+    <div class="facts-bar" style="margin-top:24px">
+      <div><span class="label">Stack</span><p>Expo, React Native, TypeScript</p></div>
+      <div><span class="label">Money</span><p>RevenueCat, AdMob</p></div>
+      <div><span class="label">Ships with</span><p>EAS Build, Update, Submit</p></div>
+      <div><span class="label">Status</span><p>Waitlist, no price yet</p></div>
+    </div>
+  </div>
+
+  <section class="first" id="inside">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">What is inside</p>
+          <h2>The parts every paid app <em>needs.</em></h2>
+        </div>
+        <p>The same pieces run in <a class="link" href="../apps/drift.html">Drift</a>, <a class="link" href="../apps/signsnap.html">SignSnap</a>, <a class="link" href="../apps/celebriday.html">CelebriDay</a>, <a class="link" href="../apps/saybright.html">SayBright</a> and <a class="link" href="../apps/blitztap.html">BlitzTap</a> today.</p>
+      </div>
+      <div class="grid-3">
+        <div class="service">
+          <h3>RevenueCat paywall</h3>
+          <p>Plans read live from RevenueCat with annual first, free trial copy only when Apple reports the user eligible, a retry state instead of an endless spinner, restore, and the legal lines Guideline 3.1.2 asks for.</p>
+        </div>
+        <div class="service">
+          <h3>AdMob done fairly</h3>
+          <p>App Tracking Transparency asked after onboarding, personalized ads only when tracking is allowed, capped interstitials that never interrupt the core experience, a banner that never shifts the layout, and a guard against test ad ids in production.</p>
+        </div>
+        <div class="service">
+          <h3>Analytics events</h3>
+          <p>A fixed list of onboarding, paywall and purchase events sent to PostHog over fetch, switched on by one environment variable and off when it is missing.</p>
+        </div>
+        <div class="service">
+          <h3>Screenshot kit</h3>
+          <p>App Store screenshots for iPhone 6.9 inch, 6.1 inch and iPad 13 inch made from the Expo web export in one command, with captions, and a check that fails any frame showing a price, a trial or a paywall (Guideline 2.3.7).</p>
+        </div>
+        <div class="service">
+          <h3>Build, submit and listings</h3>
+          <p>EAS Build and Submit profiles, over the air updates, and the App Store listing kept in store.config.json and pushed with EAS Metadata.</p>
+        </div>
+        <div class="service">
+          <h3>Guard hooks and Claude subagents</h3>
+          <p>Claude Code hooks that check commit authorship, store field limits and test ad ids on every edit, plus subagents for listing copy, UX review, monetization and a release audit you run before every build.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="who">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Who it is for</p>
+          <h2>Indie builders who want to <em>ship, not set up.</em></h2>
+        </div>
+        <p>You know React Native or want to learn it, you plan to charge for your app with a subscription or ads, and you would rather spend your first week on the product than on paywalls, tracking prompts and App Review rejections.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap faq">
+      <div>
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions, <em>answered.</em></h2>
+        <p class="muted" style="margin-top:18px;max-width:34ch">Anything else? <a class="link" href="mailto:ramsey@graysmithlabs.com?subject=Starter%20kit%20question">Just ask.</a></p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>What is the Graysmith Labs starter kit?</summary>
+          <p>An Expo React Native template for subscription and ad supported iPhone apps, taken from the code and checks behind the Graysmith Labs App Store apps. It includes a RevenueCat paywall, AdMob with App Tracking Transparency, analytics, App Store screenshot automation, EAS build and submit, and release checks.</p>
+        </details>
+        <details>
+          <summary>Is the kit available now?</summary>
+          <p>Not yet. It is being prepared from the template the studio already uses, and the waitlist decides whether it ships. People on the waitlist hear first when it is ready.</p>
+        </details>
+        <details>
+          <summary>How much will it cost?</summary>
+          <p>There is no price yet. It will be on the page before anyone can buy, and joining the waitlist costs nothing and commits you to nothing.</p>
+        </details>
+        <details>
+          <summary>Which stack does it use?</summary>
+          <p>Expo managed React Native with TypeScript, EAS Build, Update and Submit, RevenueCat for subscriptions with an entitlement named premium, Google AdMob for ads and PostHog for analytics.</p>
+        </details>
+        <details>
+          <summary>Why would I trust it with App Review?</summary>
+          <p>Every check in it comes from a real App Store review the studio went through, such as a rejection for a paywall frame in screenshots (Guideline 2.3.7) and one for a reviewer who could not find the subscriptions (Guideline 2.1). The release check looks for those before you submit.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="waitlist">
+    <div class="wrap">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow" style="color:#a9c7b0">Waitlist</p>
+          <h2>Want the kit? <em>Get on the list.</em></h2>
+          <p>Leave your email and you hear once when the kit is ready, with the price. No newsletter, and you can ask to be removed at any time.</p>
+          <p class="kit-joined" id="kit-joined" hidden style="margin-top:14px;color:#a9c7b0">You are on the list. Thank you.</p>
+        </div>
+        <form class="inquiry" id="kit-waitlist" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c607b5b0-645c-4985-8f5b-4fb1147f6bbf">
+          <input type="hidden" name="subject" value="Starter kit waitlist">
+          <input type="hidden" name="from_name" value="graysmithlabs.com/kit">
+          <input type="hidden" name="redirect" value="https://graysmithlabs.com/kit/?joined=1#waitlist">
+          <input type="hidden" name="ref" id="kit-ref" value="">
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field wide"><label for="k-email">Email</label><input id="k-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field wide"><label for="k-app">What are you building? (optional)</label><input id="k-app" name="building"></div>
+          <div class="field wide"><button class="btn" type="submit">Join the waitlist</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+(function () {
+  var m = /[?&]ref=([^&#]+)/.exec(location.search);
+  if (m) document.getElementById("kit-ref").value = decodeURIComponent(m[1]).slice(0, 40);
+  if (/[?&]joined=1/.test(location.search)) document.getElementById("kit-joined").hidden = false;
+})();
+</script>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+          <li><a href="../apps/tallyhand.html">Tallyhand</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../kit/">Starter kit</a></li>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>Centennial, Colorado &middot; United States</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
