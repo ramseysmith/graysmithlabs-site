@@ -636,7 +636,7 @@
         {
           "h2": "Never miss one",
           "paras": [
-            "The <a href=\"../holidays/\">today page</a> shows every verified observance for today, and each month has its own list, starting with <a href=\"../holidays/november.html\">November</a> and <a href=\"../holidays/december.html\">December</a>.",
+            "The <a href=\"../holidays/\">today page</a> shows every verified observance for today, and each month has its own list, starting with <a href=\"../holidays/november.html\">November</a> and <a href=\"../holidays/december.html\">December</a>. Next month's guide is <a href=\"weird-holidays-december.html\">weird holidays in December</a>.",
             "On iPhone, CelebriDay names today's holiday in a notification each morning, with a fun fact and a card you can share; today and tomorrow are free."
           ]
         }
@@ -657,6 +657,216 @@
         [
           "Is there an app that tells you what holiday it is every day?",
           "Yes. CelebriDay for iPhone and iPad sends today's holiday each morning, and graysmithlabs.com/holidays/ lists every day free on the web."
+        ]
+      ]
+    },
+    {
+      "slug": "affirmations-on-iphone-lock-screen",
+      "app": "saybright",
+      "title": "How to Put Affirmations on Your iPhone Lock Screen",
+      "description": "Put affirmations on your iPhone Lock Screen for free with a wallpaper or a daily reminder, or add a widget that shows a new affirmation through the day.",
+      "h1": "How do I put affirmations on my iPhone lock screen?",
+      "answer": "The free way is to make a wallpaper with your affirmation on it and set it as your Lock Screen, or to add a daily repeating reminder whose text is your affirmation so it appears on the Lock Screen each morning. If you want a different affirmation through the day without making images, add a Lock Screen widget from an affirmations app such as SayBright (its widgets come with Premium).",
+      "updated": "2026-11-04",
+      "sections": [
+        {
+          "h2": "Free method 1: an affirmation wallpaper",
+          "intro": "This takes about two minutes and needs no app.",
+          "steps": [
+            "Write your affirmation in large text: in Notes, in a photo editor, or on paper you photograph. Short lines read best, for example I am calm and capable.",
+            "Take a screenshot or a photo of it and crop it in Photos so the words sit in the middle of the frame, below where the clock will be.",
+            "Open Settings, tap Wallpaper, then Add New Wallpaper, and choose Photos.",
+            "Pick your image, move it so the clock does not cover the words, and tap Add.",
+            "Choose Set as Wallpaper Pair, or Customize Home Screen if you want a different home screen."
+          ]
+        },
+        {
+          "h2": "Free method 2: a daily reminder that says it for you",
+          "intro": "A notification shows on the Lock Screen, so a repeating reminder puts the words in front of you at the time you choose.",
+          "steps": [
+            "Open the Reminders app and tap New Reminder.",
+            "Type your affirmation as the reminder's title.",
+            "Tap the details button, turn on Date and Time, and pick the time you want to see it.",
+            "Tap Repeat and choose Daily, then tap Done.",
+            "Each day the affirmation appears on your Lock Screen. Mark it done after you read it out loud, and it comes back tomorrow."
+          ]
+        },
+        {
+          "h2": "With an app: a Lock Screen widget",
+          "paras": [
+            "A wallpaper says the same thing every day. An affirmations app widget changes through the day, so the words do not fade into the background. To add one, touch and hold the Lock Screen, tap Customize, tap Lock Screen, tap the area below the clock and pick the app's widget.",
+            "SayBright is one option: its free plan gives five affirmations a day, the whole Confidence category, a daily reminder and streaks, and Premium ($0.99 a month or $9.99 a year) adds home screen and Lock Screen widgets, every category and recordings in your own voice. Other affirmation apps such as I am and ThinkUp also offer widgets, so pick the one whose words sound like you."
+          ]
+        },
+        {
+          "h2": "Make it stick",
+          "list": [
+            "Keep it short and in the present tense: I handle hard things, not I will be less anxious.",
+            "Read it out loud once when you first see it. Saying it is what turns a wallpaper into a habit.",
+            "Change it every week or two so your eyes do not skip over it.",
+            "Pair it with something you already do, like the first time you unlock your phone in the morning."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "How do I put affirmations on my iPhone lock screen for free?",
+          "Make an image with your affirmation, then open Settings, Wallpaper, Add New Wallpaper, Photos, and set it as your Lock Screen. Or create a daily repeating reminder in Reminders whose title is your affirmation."
+        ],
+        [
+          "Is there an affirmation widget for the iPhone lock screen?",
+          "Yes. Several affirmation apps offer Lock Screen widgets. SayBright's home screen and Lock Screen widgets come with Premium, $0.99 a month or $9.99 a year, and its free plan gives five affirmations a day."
+        ],
+        [
+          "How do I add a widget to my iPhone lock screen?",
+          "Touch and hold the Lock Screen, tap Customize, tap Lock Screen, then tap the area below the clock and choose a widget. Tap Done to save."
+        ],
+        [
+          "Can I record affirmations in my own voice?",
+          "Yes, with SayBright Premium you can record any affirmation in your own voice, and the recordings stay on your phone."
+        ]
+      ]
+    },
+    {
+      "slug": "weird-holidays-december",
+      "app": "celebriday",
+      "title": "Weird Holidays in December 2026, With Dates",
+      "description": "Weird and fun holidays in December 2026, from Pretend to Be a Time Traveler Day to Festivus, with each date checked and ideas for the office.",
+      "h1": "Weird holidays in December 2026",
+      "answer": "The weirdest holidays in December 2026 include Pretend to Be a Time Traveler Day (Tuesday, December 8), National Noodle Ring Day (December 11), National Chocolate Covered Anything Day (December 16), Festivus (December 23), Make a Cut Out Snowflake Day (December 27) and Tick Tock Day (December 29). Every date on this page was checked against a public source; the full day by day list is on the <a href=\"../holidays/december.html\">December holidays page</a>.",
+      "updated": "2026-11-04",
+      "sections": [
+        {
+          "h2": "The weirdest days, in order",
+          "table": {
+            "head": [
+              "Day",
+              "Date",
+              "What to do"
+            ],
+            "rows": [
+              [
+                "National Fritters Day",
+                "Wednesday, December 2",
+                "Apple, corn or zucchini; take a vote."
+              ],
+              [
+                "National Sacher Torte Day",
+                "Saturday, December 5",
+                "A Viennese chocolate cake with apricot jam inside."
+              ],
+              [
+                "National Gazpacho Day",
+                "Sunday, December 6",
+                "A cold summer soup, celebrated in December."
+              ],
+              [
+                "National Cotton Candy Day",
+                "Monday, December 7",
+                "The fair snack, in the middle of winter."
+              ],
+              [
+                "Pretend to Be a Time Traveler Day",
+                "Tuesday, December 8",
+                "Act amazed by everyday things all day. Coworkers will ask questions."
+              ],
+              [
+                "National Noodle Ring Day",
+                "Friday, December 11",
+                "A baked ring of egg noodles, mostly forgotten. Good trivia."
+              ],
+              [
+                "National Bouillabaisse Day",
+                "Monday, December 14",
+                "The Marseille fish stew. Practice spelling it first."
+              ],
+              [
+                "National Chocolate Covered Anything Day",
+                "Wednesday, December 16",
+                "Bring fondue and let the team test the rule."
+              ],
+              [
+                "National Roast Suckling Pig Day",
+                "Friday, December 18",
+                "Probably not an office lunch."
+              ],
+              [
+                "Look for an Evergreen Day",
+                "Saturday, December 19",
+                "A walk to find the nearest pine, fir or holly."
+              ],
+              [
+                "National Flashlight Day",
+                "Monday, December 21",
+                "Fitting for the longest night of the year, the winter solstice."
+              ],
+              [
+                "Festivus",
+                "Wednesday, December 23",
+                "The Seinfeld holiday: an aluminum pole and the Airing of Grievances."
+              ],
+              [
+                "National Bicarbonate of Soda Day",
+                "Wednesday, December 30",
+                "Baking soda gets its own day."
+              ],
+              [
+                "Make Up Your Mind Day",
+                "Thursday, December 31",
+                "Decide on the thing you have put off all year."
+              ]
+            ]
+          }
+        },
+        {
+          "h2": "Fun December national days to celebrate at work",
+          "intro": "Most of these fall on workdays before the holiday break, and none needs more than a snack or five minutes.",
+          "list": [
+            "<b>National Pie Day</b>, Tuesday, December 1. A pie potluck to open the month.",
+            "<b>National Cookie Day</b>, Friday, December 4. The easiest office treat of the month, and a natural cookie swap.",
+            "<b>National Brownie Day</b>, Tuesday, December 8. Pairs well with acting like a time traveler.",
+            "<b>Christmas Card Day</b>, Wednesday, December 9. Sign one card from the whole team for a client or another office.",
+            "<b>National Cupcake Day</b>, Tuesday, December 15. Cupcakes for everyone with a December birthday.",
+            "<b>National Maple Syrup Day</b>, Thursday, December 17. A pancake breakfast before the break.",
+            "<b>Go Caroling Day</b>, Sunday, December 20. On a Sunday this year, so the office playlist goes festive on Friday the 18th.",
+            "<b>National Card Playing Day</b>, Monday, December 28. A quiet week for a lunchtime game of cards."
+          ]
+        },
+        {
+          "h2": "The big December dates",
+          "list": [
+            "Giving Tuesday, Tuesday, December 1.",
+            "Hanukkah begins at sundown on Friday, December 4, and ends at sundown on Saturday, December 12.",
+            "Winter solstice, Monday, December 21.",
+            "Christmas Eve, Thursday, December 24, and Christmas Day, Friday, December 25.",
+            "Kwanzaa begins Saturday, December 26, the same day as Boxing Day.",
+            "New Year's Eve, Thursday, December 31."
+          ]
+        },
+        {
+          "h2": "Never miss one",
+          "paras": [
+            "The <a href=\"../holidays/\">today page</a> shows every verified observance for today, and each month has its own list, including <a href=\"../holidays/december.html\">December</a> and <a href=\"../holidays/january.html\">January</a>. Last month's guide is <a href=\"weird-holidays-november.html\">weird holidays in November</a>.",
+            "On iPhone, CelebriDay names today's holiday in a notification each morning, and each observance has a fun fact and a card you can share; today and tomorrow are free."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "What weird holidays are in December?",
+          "Weird December holidays include Pretend to Be a Time Traveler Day (December 8), National Noodle Ring Day (December 11), National Chocolate Covered Anything Day (December 16), Festivus (December 23), Make a Cut Out Snowflake Day (December 27) and Tick Tock Day (December 29)."
+        ],
+        [
+          "What national days in December can we celebrate at work?",
+          "Easy ones are National Cookie Day (Friday, December 4), Christmas Card Day (December 9), National Cupcake Day (December 15) and National Maple Syrup Day (December 17)."
+        ],
+        [
+          "When is Hanukkah in 2026?",
+          "Hanukkah 2026 begins at sundown on Friday, December 4, and ends at sundown on Saturday, December 12."
+        ],
+        [
+          "Is there an app that tells you what holiday it is every day?",
+          "Yes. CelebriDay for iPhone and iPad names today's holiday each morning, and graysmithlabs.com/holidays/ lists every day free on the web."
         ]
       ]
     }
