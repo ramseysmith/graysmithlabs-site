@@ -9,8 +9,11 @@
 // Store limits, the no dashes rule and its screenshot files, checks screenshot
 // captions in scenes.json for price, free and trial wording, and checks screen
 // code against the design rules from the Drift 1.18.0 refresh (theme tokens
-// instead of raw colors, no placeholder ad text, no Alert.alert), and hands
-// problems back to Claude.
+// instead of raw colors, no placeholder ad text, no Alert.alert), checks the
+// Android pieces (play.config.json limits and Play metadata policy, the
+// com.graysmithlabs package rule and per platform AdMob app IDs in app.json,
+// App Store links with no Android branch in app code), and hands problems
+// back to Claude.
 //
 // Exit 2 with a message on stderr blocks the call (Pre) or reports back (Post).
 // Any internal error exits 0, so a broken hook never stops work.
@@ -159,6 +162,54 @@ export function lintScreenCode(text, file, hasTheme) {
   return problems;
 }
 
+// Google Play listing (play.config.json, pushed by scripts/android/play-listing.mjs).
+// Same limits as the Play Console, the no dashes rule, Play's ban on promo and
+// price claims in the title and short description, and no mention of iOS.
+export function lintPlayConfig(json) {
+  const problems = [];
+  const LIMITS = { title: 30, shortDescription: 80, fullDescription: 4000 };
+  for (const [lang, l] of Object.entries(json?.listings || {})) {
+    for (const [field, max] of Object.entries(LIMITS)) {
+      if (typeof l[field] !== 'string') continue;
+      if (l[field].length > max) problems.push(`${lang} ${field} is ${l[field].length} characters, limit ${max}`);
+      for (const hit of proseDashes(l[field])) problems.push(`${lang} ${field} has a dash: "${hit}"`);
+    }
+    for (const field of ['title', 'shortDescription']) {
+      const hit = l[field] && /\bfree\b|\btrial\b|\bdiscount|\bsale\b|\bbest\b|#1|\btop\b|[$€£¥]\s?\d|\d+\s?% off/i.exec(l[field]);
+      if (hit) problems.push(`${lang} ${field} says "${hit[0]}"; Play bans price, ranking and promo claims there`);
+    }
+    if (/\b(iphone|ipad|app store|ios)\b/i.test(`${l.title} ${l.shortDescription} ${l.fullDescription}`))
+      problems.push(`${lang} mentions iPhone, iPad, iOS or the App Store; Play rejects that`);
+  }
+  return problems;
+}
+
+// Android parts of app.json: the permanent package name and per platform AdMob app IDs.
+export function lintAndroidAppJson(json) {
+  const problems = [];
+  const expo = json?.expo || {};
+  const pkg = expo.android?.package;
+  if (pkg && !/^com\.graysmithlabs\.[a-z][a-z0-9]*$/.test(pkg))
+    problems.push(`android.package ${pkg}: Graysmith Labs apps use com.graysmithlabs.<app>, and it can never change once on Play`);
+  for (const p of expo.plugins || []) {
+    if (!Array.isArray(p) || p[0] !== 'react-native-google-mobile-ads') continue;
+    const { androidAppId, iosAppId } = p[1] || {};
+    if (androidAppId && androidAppId === iosAppId)
+      problems.push('react-native-google-mobile-ads androidAppId equals iosAppId; AdMob app IDs are per platform, so Android would serve nothing');
+  }
+  return problems;
+}
+
+// App Store links in app code with no Android branch send Android users to the App Store.
+const APP_CODE = /(^|\/)(src|app|components|hooks|utils|contexts|lib)\/.+\.[jt]sx?$/;
+export function lintStoreLinks(text, file) {
+  if (!APP_CODE.test(file) || /\.(ios|web|test|spec)\.[jt]sx?$/.test(file) || /android-ok/.test(text)) return [];
+  const code = String(text).replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|[^:])\/\/.*$/gm, '$1');
+  if (/apps\.apple\.com|itms-apps:/.test(code) && !/Platform\.(OS|select)|storeLinks|stores['"]/.test(code))
+    return ['App Store URL with no Android branch; use src/lib/stores.ts (listingUrl, openReview, openManageSubscriptions) so Android users land on Google Play'];
+  return [];
+}
+
 // Files synced from HQ (listed in the repo's .claude/synced.json) are edited in
 // HQ, not here; the next sync would overwrite an edit made in the repo.
 export function syncedSource(file) {
@@ -252,6 +303,30 @@ async function main() {
       } catch {}
       const problems = [...lintStoreConfig(json), ...lintScreenshots(json, dirname(file), appJson)];
       if (problems.length) block(`store.config.json needs fixes before store:push:\n* ${problems.join('\n* ')}`);
+    }
+    if (basename(file) === 'play.config.json' && existsSync(file)) {
+      let json;
+      try {
+        json = JSON.parse(readFileSync(file, 'utf8'));
+      } catch (e) {
+        block(`play.config.json is not valid JSON: ${e.message}`);
+      }
+      const problems = lintPlayConfig(json);
+      if (problems.length) block(`play.config.json needs fixes before play:push:\n* ${problems.join('\n* ')}`);
+    }
+    if (basename(file) === 'app.json' && existsSync(file)) {
+      let json = null;
+      try {
+        json = JSON.parse(readFileSync(file, 'utf8'));
+      } catch {}
+      const problems = lintAndroidAppJson(json);
+      if (problems.length) block(`app.json would break Android:\n* ${problems.join('\n* ')}`);
+    }
+    if (/\.[jt]sx?$/.test(file) && existsSync(file)) {
+      const root = input.cwd || cwd;
+      const rel = relative(root, file);
+      const problems = lintStoreLinks(readFileSync(file, 'utf8'), rel.startsWith('..') ? file : rel);
+      if (problems.length) block(`${basename(file)}:\n* ${problems.join('\n* ')}`);
     }
     if (/^(scenes|captions)(\.example)?\.json$/.test(basename(file)) && existsSync(file)) {
       let scenes = null;
