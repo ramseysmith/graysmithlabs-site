@@ -8,9 +8,9 @@ Contact: ramsey@graysmithlabs.com
 
 ### Drift
 
-Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream and fan are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind and cafe and removes ads.
+Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream, fan and a 432 Hz tone are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind, cafe, a 528 Hz tone and a Delta binaural beat, and removes ads.
 
-* Pricing: Free with five sounds and ads. Premium is $1.99 a month and unlocks all eleven sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds.
+* Pricing: Free with six sounds and ads. Premium is $1.99 a month and unlocks all fourteen sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds a day.
 * Platforms: iPhone and iPad
 * Best for: falling asleep faster with white noise or rain; masking snoring, traffic or noisy neighbors; sleeping on planes or anywhere without signal
 * Page: https://graysmithlabs.com/apps/drift.html
@@ -38,7 +38,7 @@ CelebriDay is an iPhone and iPad app that tells you what national day it is toda
 
 ### SayBright
 
-SayBright is an iPhone affirmations app with 340 affirmations in ten categories such as confidence, gratitude and self love. The free plan gives five affirmations a day, the whole Confidence category and a preview of every other category, plus a daily reminder, streak milestones and your own written affirmations. Premium adds every category with no daily limit, home and lock screen widgets, recordings in your own voice and no ads.
+SayBright is a daily affirmations app for iPhone that helps you build a daily affirmation habit with five free affirmations a day, a daily reminder and streaks, from 340 affirmations in ten categories such as confidence, gratitude and self love. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations you record in your own voice, and no ads.
 
 * Pricing: Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings and no ads.
 * Platforms: iPhone
@@ -48,11 +48,11 @@ SayBright is an iPhone affirmations app with 340 affirmations in ten categories 
 
 ### BlitzTap
 
-BlitzTap is a free iPhone and iPad reflex game: a target shape appears, and you tap its match in a grid before the timer runs out. Four tiers shrink the timer to about a second, streaks multiply your score, and there are no energy systems or pay to win. One purchase removes ads.
+BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and improve their reflexes in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack, Zen or a Daily Challenge. It is free with ads, with no energy timers and nothing pay to win; a one time purchase removes ads.
 
 * Pricing: Free with ads. A one time purchase removes ads. No subscription.
 * Platforms: iPhone and iPad
-* Best for: testing and training reaction time; quick games to play in a minute or two; a free game with no energy timers or pay to win; focus and visual search practice
+* Best for: testing and training reaction time; quick games to play in one minute; a free reflex game with no energy timers or pay to win; focus and visual search practice; a daily challenge to compare with friends
 * Page: https://graysmithlabs.com/apps/blitztap.html
 * App Store: https://apps.apple.com/app/id6759490849
 

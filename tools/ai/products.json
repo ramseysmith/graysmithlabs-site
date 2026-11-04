@@ -15,27 +15,27 @@
       "storeCategory": "Health and Fitness",
       "platforms": "iPhone and iPad",
       "title": "Drift: Sleep Sounds and White Noise App for iPhone",
-      "description": "Drift is a free sleep sounds app for iPhone with white noise, rain, ocean and fan sounds, a fade out sleep timer and offline playback.",
-      "answer": "Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream and fan are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind and cafe and removes ads.",
-      "pricing": "Free with five sounds and ads. Premium is $1.99 a month and unlocks all eleven sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds.",
+      "description": "Drift is a free sleep sounds app for iPhone with white noise, rain, ocean, fan and a 432 Hz tone, a fade out sleep timer and offline playback.",
+      "answer": "Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream, fan and a 432 Hz tone are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind, cafe, a 528 Hz tone and a Delta binaural beat, and removes ads.",
+      "pricing": "Free with six sounds and ads. Premium is $1.99 a month and unlocks all fourteen sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds a day.",
       "bestFor": [
         "falling asleep faster with white noise or rain",
         "masking snoring, traffic or noisy neighbors",
         "sleeping on planes or anywhere without signal"
       ],
       "features": [
-        "Eleven sleep sounds, including a deep white noise, rain, ocean, stream and fan",
+        "Fourteen sleep sounds: eleven nature and noise sounds (including a deep white noise, rain, ocean, stream and fan) plus three Frequencies (432 Hz, 528 Hz and a Delta binaural beat)",
         "Sleep timer of 15 minutes, 30 minutes, 1 hour or 2 hours, with an optional wind down that fades the sound as the timer ends",
         "Keeps playing with the screen locked",
         "Works offline, every sound ships in the app",
         "Sleep mode keeps the screen dark",
-        "30 second previews of every Premium sound",
+        "30 seconds a day of previews of the Premium sounds",
         "No account needed"
       ],
       "faq": [
         [
           "Is Drift free?",
-          "Yes. White noise, rain, ocean, stream and fan are free. Premium is $1.99 a month, unlocks six more sounds and removes ads, and eligible new subscribers get a free week."
+          "Yes. White noise, rain, ocean, stream, fan and the 432 Hz tone are free. Premium is $1.99 a month, unlocks eight more sounds including 528 Hz and a Delta binaural beat, and removes ads; eligible new subscribers get a free week."
         ],
         [
           "Does Drift work without internet?",
@@ -56,6 +56,10 @@
         [
           "Does Drift work offline on a plane?",
           "Yes. Every sound ships inside the app, so nothing needs downloading before you fly. Test it once in airplane mode, set the timer and lock the screen."
+        ],
+        [
+          "Does Drift have 432 Hz or binaural beats?",
+          "Yes. Drift 1.18.2 added Frequencies: a 432 Hz tone, which is free, plus a 528 Hz tone and a Delta binaural beat with Premium. Delta works best with headphones. They are steady background tones for winding down, not a medical treatment."
         ]
       ]
     },
@@ -163,7 +167,7 @@
       "platforms": "iPhone",
       "title": "SayBright: Daily Affirmations App with Widgets",
       "description": "SayBright is a daily affirmations app for iPhone: five free affirmations a day, Confidence free, 340 in all, streaks, widgets and your own voice.",
-      "answer": "SayBright is an iPhone affirmations app with 340 affirmations in ten categories such as confidence, gratitude and self love. The free plan gives five affirmations a day, the whole Confidence category and a preview of every other category, plus a daily reminder, streak milestones and your own written affirmations. Premium adds every category with no daily limit, home and lock screen widgets, recordings in your own voice and no ads.",
+      "answer": "SayBright is a daily affirmations app for iPhone that helps you build a daily affirmation habit with five free affirmations a day, a daily reminder and streaks, from 340 affirmations in ten categories such as confidence, gratitude and self love. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations you record in your own voice, and no ads.",
       "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings and no ads.",
       "bestFor": [
         "building a daily affirmation habit",
@@ -180,7 +184,7 @@
         "Write your own affirmations, free",
         "Home and lock screen widgets (Premium)",
         "Record affirmations in your own voice, stored on device (Premium)",
-        "Share cards for Stories and iMessage"
+        "Share cards for Stories and iMessage (free cards carry a small SayBright mark; Premium cards have none)"
       ],
       "faq": [
         [
@@ -202,6 +206,14 @@
         [
           "How many affirmations does SayBright have?",
           "340 affirmations in ten categories: Confidence, Gratitude, Morning Energy, Self Love, Career Growth, Relationships, Health and Body, Wealth and Abundance, Calm and Anxiety Relief, and Creativity."
+        ],
+        [
+          "Is there an affirmation app that does not require a subscription?",
+          "SayBright's free plan needs no subscription: five affirmations a day, the full Confidence category, streaks, reminders and your own written affirmations stay free. A subscription only adds the other categories in full, widgets, voice recordings and removes ads."
+        ],
+        [
+          "How do I put affirmations on my iPhone lock screen?",
+          "Free: make a wallpaper with your affirmation and set it as your Lock Screen. With SayBright Premium, add its lock screen widget so a new affirmation shows through the day. Step by step instructions are in the lock screen guide on graysmithlabs.com."
         ]
       ]
     },
@@ -213,21 +225,24 @@
       "storeCategory": "Games",
       "platforms": "iPhone and iPad",
       "title": "BlitzTap: Reaction Time and Reflex Game for iPhone",
-      "description": "BlitzTap is a free reaction time game for iPhone: tap the matching shape before the clock runs out, with four tiers and streak multipliers.",
-      "answer": "BlitzTap is a free iPhone and iPad reflex game: a target shape appears, and you tap its match in a grid before the timer runs out. Four tiers shrink the timer to about a second, streaks multiply your score, and there are no energy systems or pay to win. One purchase removes ads.",
+      "description": "BlitzTap is a free reaction time game for iPhone and iPad: tap the matching shape before the timer runs out, in four modes with a daily challenge.",
+      "answer": "BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and improve their reflexes in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack, Zen or a Daily Challenge. It is free with ads, with no energy timers and nothing pay to win; a one time purchase removes ads.",
       "pricing": "Free with ads. A one time purchase removes ads. No subscription.",
       "bestFor": [
         "testing and training reaction time",
-        "quick games to play in a minute or two",
-        "a free game with no energy timers or pay to win",
-        "focus and visual search practice"
+        "quick games to play in one minute",
+        "a free reflex game with no energy timers or pay to win",
+        "focus and visual search practice",
+        "a daily challenge to compare with friends"
       ],
       "features": [
-        "Four difficulty tiers",
+        "Four modes: Classic (one wrong tap ends the round), Time Attack (60 seconds), Zen (no timer) and a Daily Challenge with the same 30 targets for every player",
+        "Four difficulty tiers; by Tier 4 the timer is close to one second",
         "Streak multipliers up to 5x",
-        "Haptics and sound on every hit",
-        "Personal bests tracked",
-        "Reduce Motion and silent switch support",
+        "Coins from every round and a daily streak bonus, spent on shape skins, backgrounds and tap effects",
+        "40 achievements",
+        "Stats for high score, longest streak, highest tier and games played",
+        "Haptics and sound on every hit, Reduce Motion and silent switch support",
         "No energy systems, no wait timers"
       ],
       "faq": [
@@ -238,6 +253,18 @@
         [
           "Does BlitzTap improve reaction time?",
           "It trains quick visual matching under time pressure and tracks your best scores, so you can see yourself get faster. It is a game, not a medical or cognitive test."
+        ],
+        [
+          "Does BlitzTap have energy timers?",
+          "No. You can play as many rounds as you like, whenever you like. Coins only buy looks such as skins, never an advantage."
+        ],
+        [
+          "What is a good reaction time?",
+          "For a simple visual reaction to a light or a color change, about 200 to 250 milliseconds is typical for adults. BlitzTap measures something harder, matching a shape among distractors, so judge yourself by your own best scores going up."
+        ],
+        [
+          "Is there a free alternative to Human Benchmark on iPhone?",
+          "BlitzTap is a free iPhone and iPad game built around reaction speed, with a daily challenge and personal best tracking. Human Benchmark is a web test of single reactions; BlitzTap turns training into short rounds."
         ]
       ]
     },
