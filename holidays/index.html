@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-11-04";
+  var built = "2026-11-05";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,22 +81,22 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Wednesday, November 4</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Thursday, November 5</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍬</span><span class="tag">Food</span></div>
-          <h2>National Candy Day</h2>
-          <p>A sweet celebration of all things candy, from chocolates to gummies.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍩</span><span class="tag">Food</span></div>
+          <h2>National Doughnut Day</h2>
+          <p>A delicious day dedicated to celebrating the iconic ring shaped fried treat.</p>
           
         </article>
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🏺</span><span class="tag">Culture</span></div>
-          <h2>King Tut Day</h2>
-          <p>Commemorating the discovery of Tutankhamuns tomb by Howard Carter in 1922.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🌊</span><span class="tag">Awareness</span></div>
+          <h2>World Tsunami Awareness Day</h2>
+          <p>A global day to raise awareness about tsunamis and promote preparedness.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="november-4.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="november-5.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -107,12 +107,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="november-5.html"><b>Thursday, November 5</b><span>🍩 National Doughnut Day  ·  🌊 World Tsunami Awareness Day</span></a></li>
       <li><a href="november-6.html"><b>Friday, November 6</b><span>🧀 National Nachos Day  ·  🎷 Saxophone Day</span></a></li>
       <li><a href="november-7.html"><b>Saturday, November 7</b><span>😴 Daylight Saving Time Ends  ·  🍫 National Bittersweet Chocolate with Almonds Day  ·  🎗️ National Cancer Awareness Day</span></a></li>
       <li><a href="november-8.html"><b>Sunday, November 8</b><span>☕ National Cappuccino Day</span></a></li>
       <li><a href="november-9.html"><b>Monday, November 9</b><span>🍳 National Scrapple Day  ·  🕊️ World Freedom Day</span></a></li>
       <li><a href="november-10.html"><b>Tuesday, November 10</b><span>🧁 National Vanilla Cupcake Day  ·  🎖️ Marine Corps Birthday</span></a></li>
+      <li><a href="november-11.html"><b>Wednesday, November 11</b><span>🇺🇸 Veterans Day  ·  🍨 National Sundae Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
