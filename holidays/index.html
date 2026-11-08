@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-11-07";
+  var built = "2026-11-08";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -81,28 +81,16 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Saturday, November 7</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Sunday, November 8</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">😴</span><span class="tag">Observance</span></div>
-          <h2>Daylight Saving Time Ends</h2>
-          <p>Clocks fall back one hour tonight, which means one glorious extra hour of sleep.</p>
-          <p class="hd-when">The date moves each year. In 2027 it falls on this day.</p>
-        </article>
-        <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍫</span><span class="tag">Food</span></div>
-          <h2>National Bittersweet Chocolate with Almonds Day</h2>
-          <p>A day to savor the rich combination of dark chocolate and crunchy almonds.</p>
-          
-        </article>
-        <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🎗️</span><span class="tag">Health</span></div>
-          <h2>National Cancer Awareness Day</h2>
-          <p>A day to raise awareness about cancer prevention, detection, and treatment.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">☕</span><span class="tag">Food</span></div>
+          <h2>National Cappuccino Day</h2>
+          <p>A day to enjoy the classic Italian espresso drink topped with steamed milk foam.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="november-7.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="november-8.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -113,12 +101,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="november-8.html"><b>Sunday, November 8</b><span>☕ National Cappuccino Day</span></a></li>
       <li><a href="november-9.html"><b>Monday, November 9</b><span>🍳 National Scrapple Day  ·  🕊️ World Freedom Day</span></a></li>
       <li><a href="november-10.html"><b>Tuesday, November 10</b><span>🧁 National Vanilla Cupcake Day  ·  🎖️ Marine Corps Birthday</span></a></li>
       <li><a href="november-11.html"><b>Wednesday, November 11</b><span>🇺🇸 Veterans Day  ·  🍨 National Sundae Day</span></a></li>
       <li><a href="november-12.html"><b>Thursday, November 12</b><span>🍕 National Pizza with the Works Day</span></a></li>
       <li><a href="november-13.html"><b>Friday, November 13</b><span>🍮 National Indian Pudding Day</span></a></li>
+      <li><a href="november-14.html"><b>Saturday, November 14</b><span>🥒 National Pickle Day  ·  💙 World Diabetes Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
