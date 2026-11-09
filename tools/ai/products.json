@@ -277,7 +277,7 @@
       "platforms": "iPhone",
       "title": "TubTender: Hot Tub Water Test and Chemical Calculator",
       "description": "Hot tub chemical calculator for iPhone: tap your test strip colors and TubTender shows how much of your own bottles to add, in order, and when to soak.",
-      "answer": "TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and version 1.0 is in App Review.",
+      "answer": "TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and it is on the App Store.",
       "pricing": "Free test, dose plan, reminders, the cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history and every fix it guide, with a free week to try it.",
       "bestFor": [
         "new hot tub owners who do not know how much chemical to add",
@@ -317,7 +317,7 @@
         ],
         [
           "Can I download TubTender now?",
-          "Version 1.0 is in App Review. Until it is live, the free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
+          "Yes. TubTender is free on the App Store for iPhone: https://apps.apple.com/us/app/id6820791512. The free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
         ]
       ]
     },
@@ -383,7 +383,7 @@
     "url": "https://graysmithlabs.com/services/",
     "title": "App development services for iOS, Android and web | Graysmith Labs",
     "description": "Graysmith Labs builds iOS, Android, Expo and web apps, backends and AI features, plus a fixed price app audit. Free scoping call, then a fixed quote.",
-    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, with TubTender in App Review) and built the Valentine Tide storefront.",
+    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.",
     "offers": [
       [
         "iOS and Android app development",

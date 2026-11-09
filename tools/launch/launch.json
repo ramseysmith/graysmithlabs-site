@@ -1,50 +1,6 @@
 {
   "_readme": "Launch day edits per app, applied by tools/launch/launch.mjs. Every find must match exactly once on the prelaunch site; --check proves that without writing. Remove an app once it has launched.",
   "apps": {
-    "tubtender": {
-      "appStoreId": "6820791512",
-      "answer": [
-        "and version 1.0 is in App Review.",
-        "and it is on the App Store."
-      ],
-      "faq": [
-        "Can I download TubTender now?",
-        "Yes. TubTender is free on the App Store for iPhone: https://apps.apple.com/us/app/id6820791512. The free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
-      ],
-      "guideNote": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser.",
-      "edits": [
-        {
-          "file": "apps/tubtender.html",
-          "find": "<a class=\"btn\" href=\"../hot-tub-calculator/\">Try the free calculator</a><!-- launch day: restore the Download on the App Store button to https://apps.apple.com/us/app/tubtender/id6820791512 -->",
-          "replace": "<a class=\"btn\" href=\"https://apps.apple.com/us/app/id6820791512\" rel=\"noopener\">Download on the App Store</a>\n          <a class=\"btn ghost\" href=\"../hot-tub-calculator/\">Try the free calculator</a>"
-        },
-        {
-          "file": "apps/tubtender.html",
-          "find": "<span class=\"label\">Status</span><p>In App Review</p>",
-          "replace": "<span class=\"label\">Status</span><p>On the App Store</p>"
-        },
-        {
-          "file": "hot-tub-calculator/index.html",
-          "find": "<!-- Smart App Banner and App Store buttons go in once TubTender is live (launch kit). -->",
-          "replace": "<meta name=\"apple-itunes-app\" content=\"app-id=6820791512\">"
-        },
-        {
-          "file": "hot-tub-calculator/index.html",
-          "find": "reminders for testing, filters and drains. TubTender is coming to the App Store.</p>\n        <div class=\"btn-row\">\n          <a class=\"btn\" href=\"../apps/tubtender.html\">About TubTender</a>",
-          "replace": "reminders for testing, filters and drains. TubTender is free on the App Store.</p>\n        <div class=\"btn-row\">\n          <a class=\"btn\" href=\"https://apps.apple.com/us/app/id6820791512\" rel=\"noopener\">Download on the App Store</a>\n          <a class=\"btn ghost\" href=\"../apps/tubtender.html\">About TubTender</a>"
-        },
-        {
-          "file": "services/index.html",
-          "find": "with bottle label scanning on device. In App Review now.</p>\n          <ul style=\"gap:18px\"><li><a class=\"link\" href=\"../apps/tubtender.html\">Details</a></li></ul>",
-          "replace": "with bottle label scanning on device.</p>\n          <ul style=\"gap:18px\"><li><a class=\"link\" href=\"https://apps.apple.com/us/app/id6820791512\" rel=\"noopener\">App Store</a></li><li><a class=\"link\" href=\"../apps/tubtender.html\">Details</a></li></ul>"
-        },
-        {
-          "file": "tools/ai/products.json",
-          "find": "BlitzTap, with TubTender in App Review)",
-          "replace": "BlitzTap, TubTender)"
-        }
-      ]
-    },
     "tallyhand": {
       "appStoreId": "6827360818",
       "answer": [

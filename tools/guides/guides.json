@@ -197,10 +197,6 @@
       "h1": "Cloudy hot tub water: why it happens and how to fix it",
       "answer": "Cloudy hot tub water almost always comes from low sanitizer, pH or alkalinity that has crept too high, or a clogged filter, and old water full of dissolved solids makes all three worse. Test the water first, bring alkalinity and then pH into range, shock to restore the sanitizer, rinse the filter, and run the jets with the cover open; most haze clears within a day.",
       "updated": "2026-10-21",
-      "cta": {
-        "href": "../hot-tub-calculator/",
-        "label": "Try the free hot tub calculator"
-      },
       "sections": [
         {
           "h2": "Step 1: test before you add anything",
@@ -275,7 +271,7 @@
         {
           "h2": "A faster way next time",
           "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in this same order, with a countdown until the water is safe to soak. Its cloudy and foamy water guides are free.",
-          "note": "TubTender 1.0 is in App Review. Until it is live, the free hot tub calculator on this site runs the same engine in your browser."
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
         },
         {
           "h2": "What to keep on hand",

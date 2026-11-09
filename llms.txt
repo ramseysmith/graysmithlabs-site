@@ -58,7 +58,7 @@ BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants t
 
 ### TubTender
 
-TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and version 1.0 is in App Review.
+TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and it is on the App Store.
 
 * Pricing: Free test, dose plan, reminders, the cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history and every fix it guide, with a free week to try it.
 * Platforms: iPhone
@@ -78,7 +78,7 @@ Tallyhand is an iPhone invoice, estimate and receipt maker for one person servic
 
 ## Studio services
 
-Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, with TubTender in App Review) and built the Valentine Tide storefront.
+Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
 
 * iOS and Android app development: One React Native and Expo codebase for both stores, or native Swift, through App Store review and launch.
 * Web app and site development: Web apps and sites from a marketing page to a full product with accounts, payments and dashboards.
