@@ -8,9 +8,9 @@ Contact: ramsey@graysmithlabs.com
 
 ### Drift
 
-Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream, fan and a 432 Hz tone are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds thunder, forest, night, fire, wind, cafe, a 528 Hz tone and a Delta binaural beat, and removes ads.
+Drift is a free white noise and sleep sounds app for iPhone and iPad that works offline, even on a plane: white noise, rain, ocean, stream, fan and a 432 Hz tone are free, with a sleep timer and sound that keeps playing with the screen locked. It is a free alternative to Calm for masking snoring or traffic, and Premium at $1.99 a month, with a free first week, adds pink noise, green noise, thunder, forest, night, fire, wind, cafe, 174 Hz and 528 Hz tones and Alpha, Theta and Delta binaural beats, and removes ads.
 
-* Pricing: Free with six sounds and ads. Premium is $1.99 a month and unlocks all fourteen sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds a day.
+* Pricing: Free with six sounds and ads. Premium is $1.99 a month and unlocks all nineteen sounds with no ads; eligible new subscribers get a free week. Premium sounds can be previewed for 30 seconds a day.
 * Platforms: iPhone and iPad
 * Best for: falling asleep faster with white noise or rain; masking snoring, traffic or noisy neighbors; sleeping on planes or anywhere without signal
 * Page: https://graysmithlabs.com/apps/drift.html
