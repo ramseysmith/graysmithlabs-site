@@ -382,8 +382,8 @@
   "services": {
     "url": "https://graysmithlabs.com/services/",
     "title": "App development services for iOS, Android and web | Graysmith Labs",
-    "description": "Graysmith Labs builds iOS, Android, Expo and web apps, backends and AI features, plus a fixed price app audit. Free scoping call, then a fixed quote.",
-    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.",
+    "description": "Graysmith Labs builds iOS, Android, Expo and web apps, backends and AI features, plus a $499 app audit. Free scoping call, then a fixed quote.",
+    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.",
     "offers": [
       [
         "iOS and Android app development",
@@ -411,7 +411,7 @@
       ],
       [
         "Fixed price app audit",
-        "A review of an app, its codebase and its App Store listing with a written report of what to fix first."
+        "$499. A review of an app, its codebase, its paywall and its App Store listing, with a written report of what to fix first in 5 business days and a 30 minute walkthrough call."
       ]
     ],
     "faq": [
@@ -421,11 +421,11 @@
       ],
       [
         "How much does an app cost?",
-        "It depends on scope, so there are no list prices. After a free scoping call you get a written plan and a fixed quote for a defined build. Contract engineering is billed at a weekly or monthly rate."
+        "Builds depend on scope, so they have no list price; the app audit is $499 flat. After a free scoping call you get a written plan and a fixed quote for a defined build. Contract engineering is billed at a weekly or monthly rate."
       ],
       [
         "What is the fixed price app audit?",
-        "A short review of your app, codebase and App Store listing, priced before it starts. It covers App Review risks, subscriptions and the paywall, ads and privacy, the listing and search, and the code and build setup, and ends with a written report of what to fix first."
+        "$499 flat. A review of your app, codebase and App Store listing, delivered as a written report within 5 business days of access, plus a 30 minute walkthrough call. It covers App Review risks, subscriptions and the paywall, ads and privacy, the listing and search, and the code and build setup, and ends with a written report of what to fix first."
       ],
       [
         "Can you take over an existing React Native or Expo app?",

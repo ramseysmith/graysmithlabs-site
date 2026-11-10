@@ -78,7 +78,7 @@ Tallyhand is an iPhone invoice, estimate and receipt maker for one person servic
 
 ## Studio services
 
-Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit. Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
+Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
 
 * iOS and Android app development: One React Native and Expo codebase for both stores, or native Swift, through App Store review and launch.
 * Web app and site development: Web apps and sites from a marketing page to a full product with accounts, payments and dashboards.
@@ -86,7 +86,7 @@ Graysmith Labs is a founder led software studio in Centennial, Colorado that des
 * AI features and automation: Assistants, search, summaries, on device features and agents inside a product or its operations.
 * Subscriptions and ads setup: Paywalls, free trials, RevenueCat entitlements and AdMob with App Tracking Transparency.
 * Contract engineering: A senior engineer inside a client team on weekly or monthly terms.
-* Fixed price app audit: A review of an app, its codebase and its App Store listing with a written report of what to fix first.
+* Fixed price app audit: $499. A review of an app, its codebase, its paywall and its App Store listing, with a written report of what to fix first in 5 business days and a 30 minute walkthrough call.
 * Page: https://graysmithlabs.com/services/
 
 ## Starter kit
