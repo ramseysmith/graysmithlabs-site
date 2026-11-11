@@ -851,3 +851,24 @@ section.first { border-top: 0; }
 .htc-buy { font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
 .htc-disclosure { font-size: 13px; }
 .htc-result > .htc-buy-row { margin-top: 16px; }
+
+/* Reaction time test */
+.rt-tool { margin-top: 32px; }
+.rt-pad { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; width: 100%; min-height: 300px; padding: 24px; border: 0; border-radius: 20px; font: inherit; cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; background: var(--card); color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); }
+.rt-pad:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.rt-big { font-family: var(--serif); font-weight: 500; font-size: clamp(30px, 6vw, 48px); line-height: 1.1; }
+.rt-small { font-size: 13.5px; color: inherit; opacity: 0.8; max-width: 36ch; text-align: center; }
+.rt-pad[data-state="wait"] { background: #b3372f; color: #fff; box-shadow: none; }
+.rt-pad[data-state="go"] { background: #2f8a4a; color: #fff; box-shadow: none; }
+.rt-pad[data-state="early"] { background: #c98a1b; color: #15171a; box-shadow: none; }
+.rt-pad[data-state="between"], .rt-pad[data-state="done"] { background: var(--accent); color: var(--accent-ink); box-shadow: none; }
+.rt-rounds { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.rt-rounds:empty { display: none; }
+.rt-rounds li { border: 1px solid var(--line); border-radius: 12px; padding: 10px; font-size: 12px; color: var(--muted); }
+.rt-rounds b { display: block; font-family: var(--serif); font-weight: 500; font-size: 20px; color: var(--ink); }
+.rt-result:empty { display: none; }
+.rt-result { margin-top: 18px; }
+.rt-score { font-size: 16px; }
+.rt-score b { font-family: var(--serif); font-weight: 500; font-size: 22px; }
+.rt-cta { font-size: 13.5px; color: var(--muted); margin-top: 6px; }
+@media (max-width: 560px) { .rt-pad { min-height: 260px; } .rt-rounds { grid-template-columns: repeat(3, 1fr); } }
