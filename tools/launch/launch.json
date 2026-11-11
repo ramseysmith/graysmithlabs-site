@@ -1,43 +1,4 @@
 {
   "_readme": "Launch day edits per app, applied by tools/launch/launch.mjs. Every find must match exactly once on the prelaunch site; --check proves that without writing. Remove an app once it has launched.",
-  "apps": {
-    "tallyhand": {
-      "appStoreId": "6827360818",
-      "answer": [
-        "and version 1.0 is coming to the App Store.",
-        "and it is on the App Store."
-      ],
-      "faq": [
-        "Can I download Tallyhand now?",
-        "Yes. Tallyhand is free on the App Store for iPhone: https://apps.apple.com/us/app/id6827360818. The free invoice generator on graysmithlabs.com makes a single PDF invoice in the browser."
-      ],
-      "edits": [
-        {
-          "file": "apps/tallyhand.html",
-          "find": "<a class=\"btn\" href=\"../invoice-generator/\">Try the free invoice generator</a><!-- launch day: replace with the Download on the App Store button to https://apps.apple.com/us/app/tallyhand/id<APP_ID> -->",
-          "replace": "<a class=\"btn\" href=\"https://apps.apple.com/us/app/id6827360818\" rel=\"noopener\">Download on the App Store</a>\n          <a class=\"btn ghost\" href=\"../invoice-generator/\">Try the free invoice generator</a>"
-        },
-        {
-          "file": "apps/tallyhand.html",
-          "find": "<span class=\"label\">Status</span><p>Coming to the App Store</p>",
-          "replace": "<span class=\"label\">Status</span><p>On the App Store</p>"
-        },
-        {
-          "file": "invoice-generator/index.html",
-          "find": "<script src=\"../main.js\" defer></script>\n<script type=\"application/ld+json\">",
-          "replace": "<script src=\"../main.js\" defer></script>\n<meta name=\"apple-itunes-app\" content=\"app-id=6827360818\">\n<script type=\"application/ld+json\">"
-        },
-        {
-          "file": "invoice-generator/index.html",
-          "find": "Your first 3 documents are free.</p>\n        <div class=\"btn-row\">\n          <a class=\"btn\" href=\"../apps/tallyhand.html\">About Tallyhand</a>",
-          "replace": "Your first 3 documents are free.</p>\n        <div class=\"btn-row\">\n          <a class=\"btn\" href=\"https://apps.apple.com/us/app/id6827360818\" rel=\"noopener\">Download on the App Store</a>\n          <a class=\"btn ghost\" href=\"../apps/tallyhand.html\">About Tallyhand</a>"
-        },
-        {
-          "file": "index.html",
-          "find": "Invoices, estimates and receipts from one sentence about the job, made for lawn care, cleaning and handyman pros.</p>\n          <div class=\"card-foot\"><span class=\"go\">View the app <span class=\"arrow\">&rarr;</span></span><span class=\"tag\">Coming soon</span></div>",
-          "replace": "Invoices, estimates and receipts from one sentence about the job, made for lawn care, cleaning and handyman pros.</p>\n          <div class=\"card-foot\"><span class=\"go\">View the app <span class=\"arrow\">&rarr;</span></span><span class=\"tag\">New</span></div>"
-        }
-      ]
-    }
-  }
+  "apps": {}
 }

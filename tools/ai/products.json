@@ -324,13 +324,13 @@
     {
       "slug": "tallyhand",
       "name": "Tallyhand",
-      "appStoreId": "",
+      "appStoreId": "6827360818",
       "category": "BusinessApplication",
       "storeCategory": "Business",
       "platforms": "iPhone",
       "title": "Tallyhand: Invoice, Estimate and Receipt Maker for iPhone",
       "description": "Invoice app for iPhone: describe a job in one sentence and Tallyhand builds the invoice, sends a PDF and reminds you when a client is late.",
-      "answer": "Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and version 1.0 is coming to the App Store.",
+      "answer": "Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and it is on the App Store.",
       "pricing": "First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export.",
       "bestFor": [
         "lawn care and landscaping invoices",
@@ -367,7 +367,7 @@
         ],
         [
           "Can I download Tallyhand now?",
-          "Version 1.0 is coming to the App Store. This page will link to it the day it is live."
+          "Yes. Tallyhand is free on the App Store for iPhone: https://apps.apple.com/us/app/id6827360818. The free invoice generator on graysmithlabs.com makes a single PDF invoice in the browser."
         ]
       ]
     }
