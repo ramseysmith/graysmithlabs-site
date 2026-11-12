@@ -3,7 +3,7 @@
   "site": {
     "name": "Graysmith Labs",
     "url": "https://graysmithlabs.com",
-    "summary": "Graysmith Labs is an independent software studio in Colorado run by Ramsey Graysmith. It builds and publishes iPhone apps and takes contract engineering work for web, mobile and desktop.",
+    "summary": "Graysmith Labs is an independent software studio in the United States run by Ramsey Graysmith. It builds and publishes iPhone apps and takes contract engineering work for web, mobile and desktop.",
     "contact": "ramsey@graysmithlabs.com"
   },
   "apps": [
@@ -383,7 +383,7 @@
     "url": "https://graysmithlabs.com/services/",
     "title": "App development services for iOS, Android and web | Graysmith Labs",
     "description": "Graysmith Labs builds iOS, Android, Expo and web apps, backends and AI features, plus a $499 app audit. Free scoping call, then a fixed quote.",
-    "answer": "Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.",
+    "answer": "Graysmith Labs is a founder led software studio in the United States, working with clients worldwide, that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.",
     "offers": [
       [
         "iOS and Android app development",

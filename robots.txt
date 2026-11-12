@@ -1,3 +1,39 @@
+# Graysmith Labs: every page is open to search engines and AI assistants.
 User-agent: *
 Allow: /
+
+# AI search and assistant crawlers, named so it is plain they are welcome
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
 Sitemap: https://graysmithlabs.com/sitemap.xml

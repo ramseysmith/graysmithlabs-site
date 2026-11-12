@@ -184,7 +184,26 @@ function dayEntries(data, m, d) {
 
 // ---------- page shell (matches the app pages on the site) ----------
 
+// Breadcrumb and WebPage structured data for every holiday page, worked out
+// from its canonical URL: Holidays, then the month, then the day.
+function pageLd(title, description, canonical) {
+  const crumbs = [["Graysmith Labs", `${ORIGIN}/`], ["Holidays", `${ORIGIN}/holidays/`]];
+  const slug = canonical.replace(`${ORIGIN}/holidays/`, "").replace(/\.html$/, "");
+  const [monthPart, dayPart] = slug.split("-");
+  const mi = MONTHS.findIndex((n, i) => monthSlug(i + 1) === `${monthPart}.html` || monthSlug(i + 1).replace(/\.html$/, "") === monthPart);
+  if (mi >= 0) {
+    crumbs.push([MONTHS[mi], `${ORIGIN}/holidays/${monthSlug(mi + 1)}.html`.replace(/\.html\.html$/, ".html")]);
+    if (dayPart) crumbs.push([`${MONTHS[mi]} ${Number(dayPart)}`, canonical]);
+  }
+  const graph = [
+    { "@type": "WebPage", "@id": canonical, url: canonical, name: title, description, isPartOf: { "@type": "WebSite", name: "Graysmith Labs", url: `${ORIGIN}/` }, inLanguage: "en" },
+    { "@type": "BreadcrumbList", itemListElement: crumbs.map(([name, item], i) => ({ "@type": "ListItem", position: i + 1, name, item })) },
+  ];
+  return `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": graph })}</script>\n`;
+}
+
 function shell({ title, description, canonical, body, extraHead = "" }) {
+  extraHead = pageLd(title, description, canonical) + extraHead;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -226,6 +245,7 @@ ${ADS_HEAD}${extraHead}</head>
         <a href="../services/">Services</a>
         <a href="../work/valentine-tide.html">Work</a>
         <a href="../#apps">Apps</a>
+        <a href="../#tools">Free tools</a>
         <a href="./">Holidays</a>
         <a href="../#about">About</a>
         <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
@@ -243,7 +263,7 @@ ${body}
     <div class="foot-grid">
       <div>
         <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
-        <p class="blurb">An independent software studio in Colorado. Elegant software across every platform, for clients and for ourselves.</p>
+        <p class="blurb">An independent software studio in the United States. Elegant software across every platform, for clients and for ourselves.</p>
       </div>
       <div>
         <span class="label">Holidays</span>
@@ -265,6 +285,20 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
         </ul>
       </div>
       <div>
+        <span class="label">Free tools</span>
+        <ul>
+          <li><a href="../holidays/">Today's holiday</a></li>
+          <li><a href="../invoice-generator/">Invoice generator</a></li>
+          <li><a href="../signature-maker/">Signature maker</a></li>
+          <li><a href="../white-noise/">White noise generator</a></li>
+          <li><a href="../sleep-calculator/">Sleep calculator</a></li>
+          <li><a href="../hot-tub-calculator/">Hot tub calculator</a></li>
+          <li><a href="../reaction-time-test/">Reaction time test</a></li>
+          <li><a href="../affirmations/">Affirmation of the day</a></li>
+          <li><a href="../guides/">Guides</a></li>
+        </ul>
+      </div>
+      <div>
         <span class="label">Contact</span>
         <ul>
           <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
@@ -275,7 +309,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
     </div>
     <div class="foot-base">
       <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
-      <span>Centennial, Colorado &middot; United States</span>
+      <span>United States &middot; clients worldwide</span>
     </div>
   </div>
 </footer>

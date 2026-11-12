@@ -1,0 +1,32 @@
+name: IndexNow
+# After GitHub Pages publishes, sends the pages changed in the last commit to
+# IndexNow (Bing, and through it ChatGPT search and Copilot). Run it by hand
+# with all set to true to send every URL in sitemap.xml.
+on:
+  page_build:
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Send every URL in sitemap.xml
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Submit
+        run: |
+          if [ "${{ inputs.all }}" = "true" ]; then
+            node tools/indexnow/submit.mjs --all
+          else
+            node tools/indexnow/submit.mjs $(git diff --name-only HEAD~1 HEAD -- '*.html' | tr '\n' ' ')
+          fi

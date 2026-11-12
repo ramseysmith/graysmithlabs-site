@@ -184,6 +184,13 @@ section.first { border-top: 0; }
   border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px;
 }
 
+/* Free tools */
+.tool-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.tool-grid .app-card { grid-column: auto; padding: 22px; gap: 12px; max-width: none; }
+.tool-grid .app-card h3 { font-size: 19px; }
+@media (max-width: 960px) { .tool-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .tool-grid { grid-template-columns: 1fr; } }
+
 /* Featured work (Valentine Tide) */
 .feature {
   --vt-bone: #f5f0e8; --vt-blood: #8b0000; --vt-black: #161616;
@@ -300,7 +307,7 @@ section.first { border-top: 0; }
   background: url(assets/art/horizon-light.svg) center bottom / cover no-repeat;
 }
 @media (prefers-color-scheme: dark) { .site-foot::after { background-image: url(assets/art/horizon-dark.svg); } }
-.foot-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 32px; }
+.foot-grid { display: grid; grid-template-columns: 1.5fr repeat(4, 1fr); gap: 32px; }
 .foot-grid ul { list-style: none; display: grid; gap: 8px; margin-top: 12px; font-size: 13.5px; }
 .foot-grid a { text-decoration: none; color: var(--muted); }
 .foot-grid a:hover { color: var(--ink); }

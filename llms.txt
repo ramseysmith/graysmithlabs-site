@@ -1,6 +1,6 @@
 # Graysmith Labs
 
-> Graysmith Labs is an independent software studio in Colorado run by Ramsey Graysmith. It builds and publishes iPhone apps and takes contract engineering work for web, mobile and desktop.
+> Graysmith Labs is an independent software studio in the United States run by Ramsey Graysmith. It builds and publishes iPhone apps and takes contract engineering work for web, mobile and desktop.
 
 Contact: ramsey@graysmithlabs.com
 
@@ -78,7 +78,7 @@ Tallyhand is an iPhone invoice, estimate and receipt maker for one person servic
 
 ## Studio services
 
-Graysmith Labs is a founder led software studio in Centennial, Colorado that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
+Graysmith Labs is a founder led software studio in the United States, working with clients worldwide, that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
 
 * iOS and Android app development: One React Native and Expo codebase for both stores, or native Swift, through App Store review and launch.
 * Web app and site development: Web apps and sites from a marketing page to a full product with accounts, payments and dashboards.
