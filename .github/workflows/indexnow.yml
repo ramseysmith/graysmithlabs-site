@@ -4,6 +4,8 @@ name: IndexNow
 # with all set to true to send every URL in sitemap.xml.
 on:
   page_build:
+  schedule:
+    - cron: "40 9 * * 1" # Mondays: send every URL again
   workflow_dispatch:
     inputs:
       all:
@@ -25,7 +27,7 @@ jobs:
           node-version: 22
       - name: Submit
         run: |
-          if [ "${{ inputs.all }}" = "true" ]; then
+          if [ "${{ inputs.all }}" = "true" ] || [ "${{ github.event_name }}" = "schedule" ]; then
             node tools/indexnow/submit.mjs --all
           else
             node tools/indexnow/submit.mjs $(git diff --name-only HEAD~1 HEAD -- '*.html' | tr '\n' ' ')

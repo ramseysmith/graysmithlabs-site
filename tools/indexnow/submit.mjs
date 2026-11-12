@@ -32,5 +32,8 @@ for (let i = 0; i < urls.length; i += 10000) {
     body: JSON.stringify({ host: HOST, key: KEY, keyLocation: `https://${HOST}/${KEY}.txt`, urlList: urls.slice(i, i + 10000) }),
   });
   console.log(`IndexNow: ${urls.slice(i, i + 10000).length} URLs, HTTP ${res.status}`);
-  if (res.status >= 400 && res.status !== 429) process.exit(1);
+  // 403 means the key file has not been checked yet; a new key can take a day
+  // to verify, and the next publish sends again. Anything else is a real error.
+  if (res.status === 403) console.log("key not verified yet; the next publish retries");
+  else if (res.status >= 400 && res.status !== 429) process.exit(1);
 }
