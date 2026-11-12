@@ -212,6 +212,19 @@ export function lintStoreLinks(text, file) {
 
 // Files synced from HQ (listed in the repo's .claude/synced.json) are edited in
 // HQ, not here; the next sync would overwrite an edit made in the repo.
+// Paywall events must name where the paywall was opened, or the nightly
+// Paywalls table cannot tell entry points apart (HQ docs/paywalls.md).
+export function lintPaywallEvents(text) {
+  const problems = [];
+  const re = /track\(\s*['"](paywall_view|paywall_close|trial_start|purchase)['"]\s*(?:,\s*(\{[^}]*\}))?\s*\)/g;
+  let m;
+  while ((m = re.exec(text))) {
+    if (!/\bsource\b/.test(m[2] || ''))
+      problems.push(`track('${m[1]}') at line ${text.slice(0, m.index).split('\n').length} has no source; pass { source, paywall_version: PAYWALL_VERSION }`);
+  }
+  return problems;
+}
+
 export function syncedSource(file) {
   let dir = dirname(file);
   for (let i = 0; i < 12 && dir && dir !== dirname(dir); i++, dir = dirname(dir)) {
@@ -325,7 +338,8 @@ async function main() {
     if (/\.[jt]sx?$/.test(file) && existsSync(file)) {
       const root = input.cwd || cwd;
       const rel = relative(root, file);
-      const problems = lintStoreLinks(readFileSync(file, 'utf8'), rel.startsWith('..') ? file : rel);
+      const text = readFileSync(file, 'utf8');
+      const problems = [...lintStoreLinks(text, rel.startsWith('..') ? file : rel), ...lintPaywallEvents(text)];
       if (problems.length) block(`${basename(file)}:\n* ${problems.join('\n* ')}`);
     }
     if (/^(scenes|captions)(\.example)?\.json$/.test(basename(file)) && existsSync(file)) {
