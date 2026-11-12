@@ -244,6 +244,13 @@ export function checkCommand(cmd, cwd) {
   const isCommit = /\bgit\b[^;&|]*\bcommit\b/.test(cmd);
   const branch = /\bgit\b[^;&|]*\b(checkout\s+-b|switch\s+-c|branch|push)\b[^;&|]*\bclaude\//.test(cmd);
   if (branch) return 'Branch names starting with claude/ are not allowed. Use growth/<topic>.';
+  // Over the air updates go through the HQ gate (Nov 12 2026): it checks the smoke
+  // ran on this sha, the paywall doctor, tsc and that no RevenueCat test key rides
+  // along (a release build or update with a test_ key makes the app quit on launch).
+  if (/\beas(-cli)?\s+update\b/.test(cmd) && !/ota_ready\.sh/.test(cmd) && !/\b--help\b|\bupdate:(list|view|rollback)\b/.test(cmd))
+    return 'Publish over the air updates with: bash ~/Documents/Github/graysmith_labs_agent/scripts/ota_ready.sh <app dir> "<message>" (it gates the smoke sha, the paywall doctor, tsc and RevenueCat test keys, then publishes).';
+  if (/REVENUECAT_TEST_KEY=/.test(cmd) && /\beas(-cli)?\s+(build|update)\b|\bexpo\s+export\b|build:(testflight|play)/.test(cmd))
+    return 'A RevenueCat test key must never reach a store build or update: RevenueCat closes release builds that carry one. Test keys are for Debug builds only (HQ scripts/paywall_preview.sh).';
   if (/Co-Authored-By|Claude-Session/i.test(cmd))
     return 'Remove the Co-Authored-By and Claude-Session trailers. Commits are Ramsey\'s alone.';
   if (/\bgh\s+pr\s+(create|edit)\b/.test(cmd) && /Generated with|claude\.com\/claude-code|claude\.ai\/code/i.test(cmd))
@@ -303,6 +310,8 @@ async function main() {
         `${basename(file)} is synced from HQ (graysmith_labs_agent/${source}), so this edit will be overwritten by the next sync. ` +
           `Make the change in that HQ file instead, then run: node scripts/claude_assets.mjs sync <this repo> from HQ. Revert this file here.`,
       );
+    if (basename(file) === 'eas.json' && existsSync(file) && /REVENUECAT_TEST_KEY/.test(readFileSync(file, 'utf8')))
+      block('eas.json now carries a RevenueCat test key. Remove it: RevenueCat closes release builds (simulator builds included) that carry a test_ key. Test keys live in HQ data/revenuecat-test-keys.json and are used only by scripts/paywall_preview.sh in Debug builds.');
     if (basename(file) === 'store.config.json' && existsSync(file)) {
       let json;
       try {
