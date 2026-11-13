@@ -21,7 +21,9 @@
   @media (prefers-color-scheme: dark) { :root { --gold: #e3b45a; --gold-soft: rgba(227, 180, 90, .14); --good: #8fb398; } }
   body { padding: 0 16px 64px; }
   .fwrap { max-width: 640px; margin: 0 auto; }
-  .brand { display: flex; align-items: center; gap: 8px; padding: 20px 0 0; font: 600 17px var(--serif); color: var(--ink); text-decoration: none; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 16px 0 0; }
+  .brand { display: flex; align-items: center; gap: 8px; font: 600 17px var(--serif); color: var(--ink); text-decoration: none; }
+  .site { font: 500 12px var(--mono); color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 11px; white-space: nowrap; background: var(--card); }
   .brand small { font: 500 10px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
   .fhero { text-align: center; padding: 8px 0 4px; }
   .fhero svg { width: min(100%, 360px); height: auto; display: block; margin: 0 auto; overflow: visible; }
@@ -37,17 +39,18 @@
   .meter { flex: 1; height: 8px; border-radius: 99px; background: var(--line); overflow: hidden; }
   .meter i { display: block; height: 100%; width: 0; background: var(--gold); border-radius: 99px; transition: width .6s cubic-bezier(.2, .8, .2, 1); }
   .apps { display: grid; gap: 10px; }
-  .app { position: relative; display: grid; grid-template-columns: 56px 1fr; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px; box-shadow: var(--shadow); transition: border-color .3s, transform .3s; }
-  .app img { width: 56px; height: 56px; border-radius: 13px; display: block; }
-  .app h3 { font: 600 17px var(--serif); margin: 0; }
-  .app p { margin: 1px 0 10px; font-size: 13px; color: var(--muted); line-height: 1.45; }
-  .fbtns { display: flex; gap: 8px; flex-wrap: wrap; }
-  .fbtn { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--mono); border-radius: 999px; padding: 8px 14px; text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--paper); cursor: pointer; }
+  .app { position: relative; display: grid; grid-template-columns: 56px 1fr; grid-template-areas: "icon name" "icon line" "btns btns"; column-gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px; box-shadow: var(--shadow); transition: border-color .3s, transform .3s; }
+  .app img { grid-area: icon; width: 56px; height: 56px; border-radius: 13px; display: block; }
+  .app h3 { grid-area: name; align-self: end; font: 600 18px var(--serif); margin: 0; display: flex; align-items: center; gap: 8px; }
+  .app p { grid-area: line; align-self: start; margin: 1px 0 0; font-size: 13px; color: var(--muted); line-height: 1.4; }
+  .new { font: 600 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); background: var(--accent); border-radius: 999px; padding: 2px 7px; }
+  .fbtns { grid-area: btns; display: grid; grid-template-columns: 1fr 1.4fr; gap: 8px; margin-top: 12px; }
+  .fbtn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font: 500 14px var(--mono); border-radius: 999px; padding: 11px 14px; min-height: 44px; text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--paper); cursor: pointer; }
   .fbtn:hover { border-color: var(--ink); }
   .fbtn.rate { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
   .app.done { border-color: var(--gold); }
   .app.done .fbtn.rate { background: var(--gold-soft); border-color: var(--gold); color: var(--ink); }
-  .stamp { position: absolute; top: 10px; right: 12px; font: 600 12px var(--serif); color: var(--gold); opacity: 0; transform: scale(.4) rotate(-14deg); transition: opacity .35s, transform .45s cubic-bezier(.2, 1.6, .4, 1); pointer-events: none; }
+  .stamp { position: absolute; top: 12px; right: 14px; font: 600 12px var(--serif); color: var(--gold); opacity: 0; transform: scale(.4) rotate(-14deg); transition: opacity .35s, transform .45s cubic-bezier(.2, 1.6, .4, 1); pointer-events: none; }
   .app.done .stamp { opacity: 1; transform: scale(1) rotate(-8deg); }
   .more { display: grid; gap: 10px; }
   .more a, .more button { display: flex; align-items: center; gap: 12px; text-align: left; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; color: var(--ink); text-decoration: none; font: inherit; cursor: pointer; }
@@ -58,10 +61,11 @@
   .note { font-size: 12.5px; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; margin-top: 14px; }
   .thanks { text-align: center; margin: 40px 0 0; font: 400 17px/1.5 var(--serif); }
   .thanks .sig { font: italic 400 22px var(--serif); display: block; margin-top: 4px; }
+  .thanks a { text-decoration: none; }
   .qr { text-align: center; margin-top: 36px; }
   .qr img { display: block; margin: 0 auto; width: 168px; height: 168px; background: #fff; padding: 10px; border-radius: 14px; border: 1px solid var(--line); }
   .qr p { font-size: 12px; color: var(--muted); margin-top: 8px; }
-  .toast { position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 20px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 99px; font-size: 13px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 20; }
+  .toast { position: fixed; left: 50%; top: 14px; transform: translate(-50%, -20px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 99px; font-size: 13px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 20; }
   .toast.on { opacity: 1; transform: translate(-50%, 0); }
   /* the star burst when someone rates */
   .burst { position: fixed; pointer-events: none; z-index: 30; width: 0; height: 0; }
@@ -82,26 +86,46 @@
   .fhero.cheer .star { animation: cheer .7s ease-out, twinkle 1.8s ease-in-out infinite; }
   @keyframes cheer { 40% { transform: scale(1.5) } }
   @media (prefers-reduced-motion: reduce) { .bub, .star, .liquid, .heart, .tile, .burst i { animation: none !important } .bub { opacity: 0 } }
-  @media (max-width: 520px) { .fsteps { grid-template-columns: 1fr; } .fstep { display: flex; gap: 12px; text-align: left; align-items: center; } .fstep::before { margin: 0; flex: none; } }
+  @media (max-width: 520px) {
+    body { padding: 0 16px 48px; }
+    .fhero svg { width: min(100%, 300px); }
+    h1 { font-size: 28px; margin: 4px 0 10px; }
+    .flede { font-size: 16px; line-height: 1.5; }
+    .fsteps { grid-template-columns: 1fr; gap: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin: 18px 0 0; }
+    .fstep { display: flex; gap: 12px; text-align: left; align-items: center; background: none; border: 0; border-radius: 0; padding: 11px 14px; }
+    .fstep + .fstep { border-top: 1px solid var(--line); }
+    .fstep::before { margin: 0; flex: none; width: 26px; height: 26px; font-size: 13px; }
+    .fstep b { display: block; font-size: 14.5px; margin: 0; }
+    .brand { white-space: nowrap; } .brand small { display: none; }
+    h2 { font-size: 21px; margin: 28px 0 2px; }
+    .sub { margin-bottom: 10px; }
+    .app { padding: 12px; column-gap: 12px; }
+    .more a, .more button { padding: 11px 12px; }
+    .thanks { margin-top: 30px; }
+  }
 </style>
 </head>
 <body>
 <div class="fwrap">
-  <a class="brand" href="https://graysmithlabs.com/">Graysmith Labs <small>for friends</small></a>
+  <div class="top"><a class="brand" href="https://graysmithlabs.com/">Graysmith Labs <small>for friends</small></a><a class="site" href="https://graysmithlabs.com/">graysmithlabs.com ↗</a></div>
 
   <div class="fhero" id="fhero" aria-hidden="true">
     <svg viewBox="0 0 360 250" role="img">
       <defs>
+        <clipPath id="ic" clipPathUnits="objectBoundingBox"><rect width="1" height="1" rx=".23" ry=".23"/></clipPath>
         <clipPath id="flask"><path d="M156 92 h48 v34 l40 70 a18 18 0 0 1 -16 27 h-96 a18 18 0 0 1 -16 -27 l40 -70 Z"/></clipPath>
         <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity=".85"/><stop offset="1" stop-color="var(--accent)"/></linearGradient>
       </defs>
       <!-- floor and shadow -->
       <ellipse cx="180" cy="231" rx="92" ry="8" fill="var(--line)" opacity=".7"/>
-      <!-- app tiles floating around the flask -->
-      <g class="tile" style="animation-delay:-1s"><rect x="58" y="120" width="40" height="40" rx="11" fill="#1d2a4a"/><circle cx="78" cy="140" r="9" fill="#9fb4ff" opacity=".9"/><circle cx="82" cy="136" r="7" fill="#1d2a4a"/></g>
-      <g class="tile" style="animation-delay:-2.5s"><rect x="268" y="128" width="38" height="38" rx="10" fill="#f2c14e"/><path d="M287 139 l3 7 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1 Z" fill="#fff"/></g>
-      <g class="tile" style="animation-delay:-4s"><rect x="84" y="186" width="30" height="30" rx="8" fill="#e46a5e"/><path d="M93 205 l5 -9 l5 6 l4 -4 l4 7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
-      <g class="tile" style="animation-delay:-3s"><rect x="250" y="188" width="30" height="30" rx="8" fill="#2e8c84"/><path d="M258 203 h14 M265 196 v14" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></g>
+      <!-- the real app icons floating around the flask -->
+      <g class="tile" style="animation-delay:-1s"><image href="../assets/apps/tallyhand/icon.png" x="52" y="88" width="42" height="42" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-2.5s"><image href="../assets/apps/celebriday/icon.png" x="266" y="88" width="42" height="42" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-4s"><image href="../assets/apps/tubtender/icon.png" x="82" y="140" width="36" height="36" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-3s"><image href="../assets/apps/blitztap/icon.png" x="246" y="140" width="36" height="36" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-1.8s"><image href="../assets/apps/saybright/icon.png" x="40" y="190" width="32" height="32" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-3.6s"><image href="../assets/apps/signsnap/icon.png" x="290" y="190" width="32" height="32" clip-path="url(#ic)"/></g>
+      <g class="tile" style="animation-delay:-2.2s"><image href="../assets/apps/drift/icon.png" x="12" y="132" width="30" height="30" clip-path="url(#ic)"/></g>
       <!-- the flask -->
       <g clip-path="url(#flask)">
         <rect x="100" y="80" width="160" height="160" fill="var(--card)"/>
@@ -129,17 +153,17 @@
 
   <div style="text-align:center">
     <h1>Two minutes that really help</h1>
-    <p class="flede">Hey, thank you for being here. I build these apps myself, after hours, as Graysmith Labs. Ratings decide whether the App Store shows an app to strangers, and new apps start with almost none. A few from people I know make a real difference.</p>
+    <p class="flede">Thanks for being here! I build these apps myself as Graysmith Labs. Ratings decide whether the App Store shows an app to new people, so a few from friends make a huge difference.</p>
   </div>
 
   <div class="fsteps">
-    <div class="fstep"><div><b>Grab one</b>Pick an app you might actually use. They are all free to download.</div></div>
-    <div class="fstep"><div><b>Give it a go</b>Open it for a minute or two so your rating is real.</div></div>
-    <div class="fstep"><div><b>Rate it</b>Tap Rate it below. A few honest words help even more than the stars.</div></div>
+    <div class="fstep"><div><b>Grab one</b>Pick an app you might use. They are all free.</div></div>
+    <div class="fstep"><div><b>Give it a go</b>Try it for a minute or two.</div></div>
+    <div class="fstep"><div><b>Rate it</b>Tap Rate it. A few words help even more.</div></div>
   </div>
 
   <h2>The apps</h2>
-  <p class="sub">iPhone for now. Tap Rate it after you have tried one; it opens the review page in the App Store.</p>
+  <p class="sub">Newest first. iPhone for now; Rate it opens the review page in the App Store.</p>
   <div class="progress"><span id="count">Rated 0 of 7</span><span class="meter"><i id="meter"></i></span></div>
   <div class="apps" id="apps"></div>
 
@@ -150,25 +174,27 @@
     <a href="https://x.com/GraysmithLabs" target="_blank" rel="noopener"><span class="ic">𝕏</span><span><b>Follow @GraysmithLabs</b><span class="t">Build notes and new apps as they ship. A like or repost spreads them further.</span></span></a>
     <a href="https://www.etsy.com/shop/ValentineTide" target="_blank" rel="noopener"><span class="ic">♥</span><span><b>Favorite Valentine Tide on Etsy</b><span class="t">My goth surf clothing brand. Favoriting the shop helps Etsy show it to others.</span></span></a>
     <a href="https://www.pinterest.com/valentinetide/" target="_blank" rel="noopener"><span class="ic">📌</span><span><b>Follow Valentine Tide on Pinterest</b><span class="t">Save a pin you like; saves are how Pinterest decides what to show.</span></span></a>
+    <a href="https://graysmithlabs.com/" target="_blank" rel="noopener"><span class="ic">🧪</span><span><b>Explore graysmithlabs.com</b><span class="t">Every app, free web tools like the sleep calculator and signature maker, and what I am building next.</span></span></a>
     <a href="mailto:ramsey@graysmithlabs.com?subject=Feedback%20from%20a%20friend"><span class="ic">✉</span><span><b>Tell me what is broken</b><span class="t">Found a bug, a confusing screen or an idea? Email me directly. That is gold.</span></span></a>
   </div>
   <p class="note">Please rate honestly, and only apps you have tried. I would rather have a true three than a five you do not mean, and there is nothing in return beyond my thanks.</p>
 
-  <p class="thanks" id="thanks">Thank you, truly. Every rating, share and note gets me a little closer to doing this full time.<span class="sig">Ramsey</span></p>
+  <p class="thanks" id="thanks">Thank you, truly. Every rating, share and note gets me a little closer to doing this full time.<span class="sig">Ramsey</span><a href="https://graysmithlabs.com/" style="display:inline-block;margin-top:10px;font:500 13px var(--mono);color:var(--accent)">graysmithlabs.com</a></p>
 
   <div class="qr"><img src="qr.svg" alt="QR code for graysmithlabs.com/friends" width="168" height="168"><p>Show this to someone to open the page on their phone.</p></div>
 </div>
 <div class="toast" id="toast"></div>
 <script>
 (function () {
+  // Newest first: Tallyhand (live Nov 11 2026) down to Drift, the first app.
   var APPS = [
-    { slug: 'drift', name: 'Drift', id: '6758258891', line: 'Sleep sounds, white noise and rain, with a sleep timer.' },
-    { slug: 'celebriday', name: 'CelebriDay', id: '6760971240', line: 'What national day it is today, with a fun fact each morning.' },
+    { slug: 'tallyhand', name: 'Tallyhand', id: '6827360818', line: 'Invoices for solo service pros, from one sentence.', isNew: true },
+    { slug: 'tubtender', name: 'TubTender', id: '6820791512', line: 'Hot tub chemistry made easy: what to add, in order.', isNew: true },
     { slug: 'saybright', name: 'SayBright', id: '6767243151', line: 'Five daily affirmations, even in your own voice.' },
+    { slug: 'celebriday', name: 'CelebriDay', id: '6760971240', line: 'What national day it is today, with a fun fact each morning.' },
     { slug: 'blitztap', name: 'BlitzTap', id: '6759490849', line: 'A quick reaction time game with a daily challenge.' },
     { slug: 'signsnap', name: 'SignSnap', id: '6759199184', line: 'Sign a PDF on your phone in seconds, no account.' },
-    { slug: 'tubtender', name: 'TubTender', id: '6820791512', line: 'Hot tub chemistry made easy: what to add, in order.' },
-    { slug: 'tallyhand', name: 'Tallyhand', id: '6827360818', line: 'Invoices for solo service pros, from one sentence.' }
+    { slug: 'drift', name: 'Drift', id: '6758258891', line: 'Sleep sounds, white noise and rain, with a sleep timer.' }
   ];
   var KEY = 'gl.friends.rated';
   var rated = {};
@@ -200,10 +226,10 @@
   $('apps').innerHTML = APPS.map(function (a) {
     return '<div class="app" id="app-' + a.slug + '"><span class="stamp">★ thank you</span>' +
       '<img src="../assets/apps/' + a.slug + '/icon.png" alt="" loading="lazy">' +
-      '<div><h3>' + a.name + '</h3><p>' + a.line + '</p><div class="fbtns">' +
+      '<h3>' + a.name + (a.isNew ? ' <span class="new">New</span>' : '') + '</h3><p>' + a.line + '</p><div class="fbtns">' +
       '<a class="fbtn" href="https://apps.apple.com/app/id' + a.id + '" target="_blank" rel="noopener">Get it</a>' +
       '<a class="fbtn rate" data-slug="' + a.slug + '" href="https://apps.apple.com/app/id' + a.id + '?action=write-review" target="_blank" rel="noopener">★ Rate it</a>' +
-      '</div></div></div>';
+      '</div></div>';
   }).join('');
   $('apps').addEventListener('click', function (e) {
     var t = e.target.closest('.rate'); if (!t) return;
