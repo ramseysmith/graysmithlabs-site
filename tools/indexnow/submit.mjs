@@ -14,6 +14,8 @@ const args = process.argv.slice(2);
 function toUrl(file) {
   const f = file.replace(/^\.\//, "");
   if (!f.endsWith(".html") || f === "404.html") return null;
+  // Pages marked noindex (the friends page, shared by link only) are never announced.
+  try { if (/<meta name="robots" content="noindex/i.test(fs.readFileSync(f, "utf8"))) return null; } catch {}
   return `https://${HOST}/${f.replace(/(^|\/)index\.html$/, "$1")}`;
 }
 

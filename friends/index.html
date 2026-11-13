@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Graysmith Labs</title>
+<!-- A page for Ramsey's friends and family, shared by link and QR code only:
+     kept out of search (noindex), the sitemap and IndexNow. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="A two minute way to help a one person app studio.">
+<meta property="og:title" content="Two minutes to help Graysmith Labs">
+<meta property="og:description" content="Try an app, leave an honest rating, and make Ramsey's day.">
+<meta property="og:image" content="https://graysmithlabs.com/assets/og.png">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  :root { --gold: #c9922e; --gold-soft: rgba(201, 146, 46, .14); --good: #2f6f45; }
+  @media (prefers-color-scheme: dark) { :root { --gold: #e3b45a; --gold-soft: rgba(227, 180, 90, .14); --good: #8fb398; } }
+  body { padding: 0 16px 64px; }
+  .fwrap { max-width: 640px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 8px; padding: 20px 0 0; font: 600 17px var(--serif); color: var(--ink); text-decoration: none; }
+  .brand small { font: 500 10px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .fhero { text-align: center; padding: 8px 0 4px; }
+  .fhero svg { width: min(100%, 360px); height: auto; display: block; margin: 0 auto; overflow: visible; }
+  h1 { font: 600 clamp(28px, 7vw, 40px)/1.12 var(--serif); letter-spacing: -.015em; margin: 6px 0 12px; }
+  .flede { font: 400 18px/1.55 var(--serif); color: var(--ink); max-width: 34em; margin: 0 auto; }
+  .fsteps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 26px 0 8px; counter-reset: s; }
+  .fstep { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 12px; text-align: center; font-size: 13px; line-height: 1.45; }
+  .fstep::before { counter-increment: s; content: counter(s); display: grid; place-items: center; width: 28px; height: 28px; margin: 0 auto 8px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font: 600 14px var(--serif); }
+  .fstep b { display: block; font: 600 15px var(--serif); margin-bottom: 2px; }
+  h2 { font: 600 22px var(--serif); margin: 34px 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+  .progress { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+  .meter { flex: 1; height: 8px; border-radius: 99px; background: var(--line); overflow: hidden; }
+  .meter i { display: block; height: 100%; width: 0; background: var(--gold); border-radius: 99px; transition: width .6s cubic-bezier(.2, .8, .2, 1); }
+  .apps { display: grid; gap: 10px; }
+  .app { position: relative; display: grid; grid-template-columns: 56px 1fr; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px; box-shadow: var(--shadow); transition: border-color .3s, transform .3s; }
+  .app img { width: 56px; height: 56px; border-radius: 13px; display: block; }
+  .app h3 { font: 600 17px var(--serif); margin: 0; }
+  .app p { margin: 1px 0 10px; font-size: 13px; color: var(--muted); line-height: 1.45; }
+  .fbtns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .fbtn { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--mono); border-radius: 999px; padding: 8px 14px; text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--paper); cursor: pointer; }
+  .fbtn:hover { border-color: var(--ink); }
+  .fbtn.rate { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .app.done { border-color: var(--gold); }
+  .app.done .fbtn.rate { background: var(--gold-soft); border-color: var(--gold); color: var(--ink); }
+  .stamp { position: absolute; top: 10px; right: 12px; font: 600 12px var(--serif); color: var(--gold); opacity: 0; transform: scale(.4) rotate(-14deg); transition: opacity .35s, transform .45s cubic-bezier(.2, 1.6, .4, 1); pointer-events: none; }
+  .app.done .stamp { opacity: 1; transform: scale(1) rotate(-8deg); }
+  .more { display: grid; gap: 10px; }
+  .more a, .more button { display: flex; align-items: center; gap: 12px; text-align: left; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; color: var(--ink); text-decoration: none; font: inherit; cursor: pointer; }
+  .more a:hover, .more button:hover { border-color: var(--accent); }
+  .more .ic { flex: none; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 10px; background: var(--paper); border: 1px solid var(--line); }
+  .more b { font: 600 15px var(--serif); display: block; }
+  .more span.t { font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+  .note { font-size: 12.5px; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; margin-top: 14px; }
+  .thanks { text-align: center; margin: 40px 0 0; font: 400 17px/1.5 var(--serif); }
+  .thanks .sig { font: italic 400 22px var(--serif); display: block; margin-top: 4px; }
+  .qr { text-align: center; margin-top: 36px; }
+  .qr img { display: block; margin: 0 auto; width: 168px; height: 168px; background: #fff; padding: 10px; border-radius: 14px; border: 1px solid var(--line); }
+  .qr p { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .toast { position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 20px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 99px; font-size: 13px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 20; }
+  .toast.on { opacity: 1; transform: translate(-50%, 0); }
+  /* the star burst when someone rates */
+  .burst { position: fixed; pointer-events: none; z-index: 30; width: 0; height: 0; }
+  .burst i { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; background: var(--gold); clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); animation: fly .9s cubic-bezier(.15, .7, .3, 1) forwards; }
+  @keyframes fly { 0% { transform: translate(0, 0) scale(.3) rotate(0); opacity: 1 } 100% { transform: translate(var(--x), var(--y)) scale(1) rotate(var(--r)); opacity: 0 } }
+  /* the illustration */
+  .bub { animation: bub 3.2s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes bub { 0% { transform: translateY(0) scale(.6); opacity: 0 } 15% { opacity: .9 } 100% { transform: translateY(-58px) scale(1); opacity: 0 } }
+  .star { transform-box: fill-box; transform-origin: center; animation: rise 3.6s ease-out infinite, twinkle 1.8s ease-in-out infinite; }
+  @keyframes rise { 0% { transform: translate(0, 40px) scale(.2); opacity: 0 } 25% { opacity: 1 } 70% { transform: translate(0, 0) scale(1); opacity: 1 } 100% { transform: translate(0, -6px) scale(1); opacity: 1 } }
+  @keyframes twinkle { 50% { filter: brightness(1.25) } }
+  .liquid { animation: slosh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes slosh { 50% { transform: translateX(3px) } }
+  .heart { transform-box: fill-box; transform-origin: center; animation: beat 1.6s ease-in-out infinite; }
+  @keyframes beat { 0%, 100% { transform: scale(1) } 15% { transform: scale(1.16) } 30% { transform: scale(1) } 45% { transform: scale(1.1) } }
+  .tile { transform-box: fill-box; transform-origin: center; animation: float 5s ease-in-out infinite; }
+  @keyframes float { 50% { transform: translateY(-6px) rotate(3deg) } }
+  .fhero.cheer .star { animation: cheer .7s ease-out, twinkle 1.8s ease-in-out infinite; }
+  @keyframes cheer { 40% { transform: scale(1.5) } }
+  @media (prefers-reduced-motion: reduce) { .bub, .star, .liquid, .heart, .tile, .burst i { animation: none !important } .bub { opacity: 0 } }
+  @media (max-width: 520px) { .fsteps { grid-template-columns: 1fr; } .fstep { display: flex; gap: 12px; text-align: left; align-items: center; } .fstep::before { margin: 0; flex: none; } }
+</style>
+</head>
+<body>
+<div class="fwrap">
+  <a class="brand" href="https://graysmithlabs.com/">Graysmith Labs <small>for friends</small></a>
+
+  <div class="fhero" id="fhero" aria-hidden="true">
+    <svg viewBox="0 0 360 250" role="img">
+      <defs>
+        <clipPath id="flask"><path d="M156 92 h48 v34 l40 70 a18 18 0 0 1 -16 27 h-96 a18 18 0 0 1 -16 -27 l40 -70 Z"/></clipPath>
+        <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity=".85"/><stop offset="1" stop-color="var(--accent)"/></linearGradient>
+      </defs>
+      <!-- floor and shadow -->
+      <ellipse cx="180" cy="231" rx="92" ry="8" fill="var(--line)" opacity=".7"/>
+      <!-- app tiles floating around the flask -->
+      <g class="tile" style="animation-delay:-1s"><rect x="58" y="120" width="40" height="40" rx="11" fill="#1d2a4a"/><circle cx="78" cy="140" r="9" fill="#9fb4ff" opacity=".9"/><circle cx="82" cy="136" r="7" fill="#1d2a4a"/></g>
+      <g class="tile" style="animation-delay:-2.5s"><rect x="268" y="128" width="38" height="38" rx="10" fill="#f2c14e"/><path d="M287 139 l3 7 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1 Z" fill="#fff"/></g>
+      <g class="tile" style="animation-delay:-4s"><rect x="84" y="186" width="30" height="30" rx="8" fill="#e46a5e"/><path d="M93 205 l5 -9 l5 6 l4 -4 l4 7" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <g class="tile" style="animation-delay:-3s"><rect x="250" y="188" width="30" height="30" rx="8" fill="#2e8c84"/><path d="M258 203 h14 M265 196 v14" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></g>
+      <!-- the flask -->
+      <g clip-path="url(#flask)">
+        <rect x="100" y="80" width="160" height="160" fill="var(--card)"/>
+        <path class="liquid" d="M96 160 q21 -10 42 0 t42 0 t42 0 t42 0 v90 h-168 Z" fill="url(#liq)"/>
+        <circle class="bub" cx="166" cy="208" r="5" fill="var(--accent-ink)" opacity=".7"/>
+        <circle class="bub" cx="186" cy="214" r="4" fill="var(--accent-ink)" opacity=".7" style="animation-delay:-1.1s"/>
+        <circle class="bub" cx="198" cy="200" r="3" fill="var(--accent-ink)" opacity=".7" style="animation-delay:-2.2s"/>
+        <circle class="bub" cx="176" cy="196" r="3.5" fill="var(--accent-ink)" opacity=".7" style="animation-delay:-.6s"/>
+      </g>
+      <path d="M156 92 h48 v34 l40 70 a18 18 0 0 1 -16 27 h-96 a18 18 0 0 1 -16 -27 l40 -70 Z" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="150" y="84" width="60" height="10" rx="5" fill="var(--ink)"/>
+      <path d="M140 170 q4 -2 6 -8" stroke="var(--card)" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+      <!-- the heart on the flask -->
+      <path class="heart" d="M180 190 c-9 -7 -14 -11 -14 -16 a6 6 0 0 1 14 -2 a6 6 0 0 1 14 2 c0 5 -5 9 -14 16 Z" fill="var(--accent-ink)"/>
+      <!-- five stars rising out of the flask -->
+      <g fill="var(--gold)">
+        <path class="star" style="animation-delay:0s, 0s" d="M112 46 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1 Z"/>
+        <path class="star" style="animation-delay:.25s, .3s" d="M146 22 l5 11 l12 1 l-9 8 l3 12 l-11 -6 l-11 6 l3 -12 l-9 -8 l12 -1 Z"/>
+        <path class="star" style="animation-delay:.5s, .6s" d="M180 4 l6 13 l14 1 l-10 10 l3 14 l-13 -7 l-13 7 l3 -14 l-10 -10 l14 -1 Z"/>
+        <path class="star" style="animation-delay:.75s, .9s" d="M214 22 l5 11 l12 1 l-9 8 l3 12 l-11 -6 l-11 6 l3 -12 l-9 -8 l12 -1 Z"/>
+        <path class="star" style="animation-delay:1s, 1.2s" d="M248 46 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1 Z"/>
+      </g>
+    </svg>
+  </div>
+
+  <div style="text-align:center">
+    <h1>Two minutes that really help</h1>
+    <p class="flede">Hey, thank you for being here. I build these apps myself, after hours, as Graysmith Labs. Ratings decide whether the App Store shows an app to strangers, and new apps start with almost none. A few from people I know make a real difference.</p>
+  </div>
+
+  <div class="fsteps">
+    <div class="fstep"><div><b>Grab one</b>Pick an app you might actually use. They are all free to download.</div></div>
+    <div class="fstep"><div><b>Give it a go</b>Open it for a minute or two so your rating is real.</div></div>
+    <div class="fstep"><div><b>Rate it</b>Tap Rate it below. A few honest words help even more than the stars.</div></div>
+  </div>
+
+  <h2>The apps</h2>
+  <p class="sub">iPhone for now. Tap Rate it after you have tried one; it opens the review page in the App Store.</p>
+  <div class="progress"><span id="count">Rated 0 of 7</span><span class="meter"><i id="meter"></i></span></div>
+  <div class="apps" id="apps"></div>
+
+  <h2>Other ways to help</h2>
+  <p class="sub">No app needed for these.</p>
+  <div class="more">
+    <button type="button" id="share"><span class="ic">↗</span><span><b>Send this page to a friend</b><span class="t">Someone who sleeps badly, runs a small business, or owns a hot tub would love one of these.</span></span></button>
+    <a href="https://x.com/GraysmithLabs" target="_blank" rel="noopener"><span class="ic">𝕏</span><span><b>Follow @GraysmithLabs</b><span class="t">Build notes and new apps as they ship. A like or repost spreads them further.</span></span></a>
+    <a href="https://www.etsy.com/shop/ValentineTide" target="_blank" rel="noopener"><span class="ic">♥</span><span><b>Favorite Valentine Tide on Etsy</b><span class="t">My goth surf clothing brand. Favoriting the shop helps Etsy show it to others.</span></span></a>
+    <a href="https://www.pinterest.com/valentinetide/" target="_blank" rel="noopener"><span class="ic">📌</span><span><b>Follow Valentine Tide on Pinterest</b><span class="t">Save a pin you like; saves are how Pinterest decides what to show.</span></span></a>
+    <a href="mailto:ramsey@graysmithlabs.com?subject=Feedback%20from%20a%20friend"><span class="ic">✉</span><span><b>Tell me what is broken</b><span class="t">Found a bug, a confusing screen or an idea? Email me directly. That is gold.</span></span></a>
+  </div>
+  <p class="note">Please rate honestly, and only apps you have tried. I would rather have a true three than a five you do not mean, and there is nothing in return beyond my thanks.</p>
+
+  <p class="thanks" id="thanks">Thank you, truly. Every rating, share and note gets me a little closer to doing this full time.<span class="sig">Ramsey</span></p>
+
+  <div class="qr"><img src="qr.svg" alt="QR code for graysmithlabs.com/friends" width="168" height="168"><p>Show this to someone to open the page on their phone.</p></div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+(function () {
+  var APPS = [
+    { slug: 'drift', name: 'Drift', id: '6758258891', line: 'Sleep sounds, white noise and rain, with a sleep timer.' },
+    { slug: 'celebriday', name: 'CelebriDay', id: '6760971240', line: 'What national day it is today, with a fun fact each morning.' },
+    { slug: 'saybright', name: 'SayBright', id: '6767243151', line: 'Five daily affirmations, even in your own voice.' },
+    { slug: 'blitztap', name: 'BlitzTap', id: '6759490849', line: 'A quick reaction time game with a daily challenge.' },
+    { slug: 'signsnap', name: 'SignSnap', id: '6759199184', line: 'Sign a PDF on your phone in seconds, no account.' },
+    { slug: 'tubtender', name: 'TubTender', id: '6820791512', line: 'Hot tub chemistry made easy: what to add, in order.' },
+    { slug: 'tallyhand', name: 'Tallyhand', id: '6827360818', line: 'Invoices for solo service pros, from one sentence.' }
+  ];
+  var KEY = 'gl.friends.rated';
+  var rated = {};
+  try { rated = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { rated = {}; }
+  var save = function () { try { localStorage.setItem(KEY, JSON.stringify(rated)); } catch (e) {} };
+  var reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var $ = function (id) { return document.getElementById(id); };
+  var toast = function (t) { var el = $('toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(function () { el.classList.remove('on'); }, 2600); };
+
+  function burst(x, y) {
+    if (reduced) return;
+    var b = document.createElement('div'); b.className = 'burst'; b.style.left = x + 'px'; b.style.top = y + 'px';
+    for (var i = 0; i < 14; i++) {
+      var s = document.createElement('i'), a = (Math.PI * 2 * i) / 14 + Math.random() * .4, d = 60 + Math.random() * 70;
+      s.style.setProperty('--x', Math.cos(a) * d + 'px'); s.style.setProperty('--y', Math.sin(a) * d - 30 + 'px'); s.style.setProperty('--r', (Math.random() * 360 - 180) + 'deg');
+      s.style.animationDelay = Math.random() * .08 + 's'; b.appendChild(s);
+    }
+    document.body.appendChild(b); setTimeout(function () { b.remove(); }, 1200);
+    var h = $('fhero'); h.classList.remove('cheer'); void h.offsetWidth; h.classList.add('cheer');
+  }
+
+  var LINES = ['Rated 0 of 7', 'Rated 1 of 7. That already helps.', 'Rated 2 of 7. You are on a roll.', 'Rated 3 of 7. Seriously, thank you.', 'Rated 4 of 7. Legend status.', 'Rated 5 of 7. Five stars for you.', 'Rated 6 of 7. One to go!', 'All 7 rated. You are the best.'];
+  function paint() {
+    var n = APPS.filter(function (a) { return rated[a.slug]; }).length;
+    $('count').textContent = LINES[n]; $('meter').style.width = (n / APPS.length * 100) + '%';
+    APPS.forEach(function (a) { var el = document.getElementById('app-' + a.slug); if (el) el.classList.toggle('done', !!rated[a.slug]); });
+  }
+
+  $('apps').innerHTML = APPS.map(function (a) {
+    return '<div class="app" id="app-' + a.slug + '"><span class="stamp">★ thank you</span>' +
+      '<img src="../assets/apps/' + a.slug + '/icon.png" alt="" loading="lazy">' +
+      '<div><h3>' + a.name + '</h3><p>' + a.line + '</p><div class="fbtns">' +
+      '<a class="fbtn" href="https://apps.apple.com/app/id' + a.id + '" target="_blank" rel="noopener">Get it</a>' +
+      '<a class="fbtn rate" data-slug="' + a.slug + '" href="https://apps.apple.com/app/id' + a.id + '?action=write-review" target="_blank" rel="noopener">★ Rate it</a>' +
+      '</div></div></div>';
+  }).join('');
+  $('apps').addEventListener('click', function (e) {
+    var t = e.target.closest('.rate'); if (!t) return;
+    var slug = t.getAttribute('data-slug'), first = !rated[slug];
+    rated[slug] = Date.now(); save(); paint();
+    var r = t.getBoundingClientRect(); burst(r.left + r.width / 2, r.top + r.height / 2);
+    if (first) toast('Thank you! That means a lot.');
+  });
+  paint();
+
+  $('share').addEventListener('click', function () {
+    var url = 'https://graysmithlabs.com/friends/';
+    if (navigator.share) { navigator.share({ title: 'Graysmith Labs', text: 'My friend Ramsey makes these apps. Two minutes to help:', url: url }).catch(function () {}); return; }
+    var done = function () { toast('Link copied. Paste it anywhere.'); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { toast(url); }); else toast(url);
+  });
+})();
+</script>
+</body>
+</html>
