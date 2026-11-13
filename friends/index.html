@@ -27,7 +27,8 @@
   .brand small { font: 500 10px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
   .fhero { text-align: center; padding: 8px 0 4px; }
   .fhero svg { width: min(100%, 360px); height: auto; display: block; margin: 0 auto; overflow: visible; }
-  h1 { font: 600 clamp(28px, 7vw, 40px)/1.12 var(--serif); letter-spacing: -.015em; margin: 6px 0 12px; }
+  /* the site's h1 is capped at 17ch and sits left; center it here */
+  h1 { font: 600 clamp(28px, 7vw, 40px)/1.12 var(--serif); letter-spacing: -.015em; margin: 6px auto 12px; max-width: none; text-align: center; text-wrap: balance; }
   .flede { font: 400 18px/1.55 var(--serif); color: var(--ink); max-width: 34em; margin: 0 auto; }
   .fsteps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 26px 0 8px; counter-reset: s; }
   .fstep { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 12px; text-align: center; font-size: 13px; line-height: 1.45; }
@@ -89,7 +90,7 @@
   @media (max-width: 520px) {
     body { padding: 0 16px 48px; }
     .fhero svg { width: min(100%, 300px); }
-    h1 { font-size: 28px; margin: 4px 0 10px; }
+    h1 { font-size: 28px; margin: 4px auto 10px; }
     .flede { font-size: 16px; line-height: 1.5; }
     .fsteps { grid-template-columns: 1fr; gap: 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin: 18px 0 0; }
     .fstep { display: flex; gap: 12px; text-align: left; align-items: center; background: none; border: 0; border-radius: 0; padding: 11px 14px; }
