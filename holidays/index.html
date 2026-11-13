@@ -34,7 +34,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-11-12";
+  var built = "2026-11-13";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   fetch("data.json").then(function (r) { return r.json(); }).then(function (data) {
@@ -83,16 +83,16 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Thursday, November 12</b>. Here is what the world is celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Friday, November 13</b>. Here is what the world is celebrating.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card">
-          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍕</span><span class="tag">Food</span></div>
-          <h2>National Pizza with the Works Day</h2>
-          <p>A celebration of pizza loaded with every topping you can imagine.</p>
+          <div class="hd-top"><span class="hd-emoji" aria-hidden="true">🍮</span><span class="tag">Food</span></div>
+          <h2>National Indian Pudding Day</h2>
+          <p>A day celebrating the traditional New England cornmeal based baked pudding.</p>
           
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="november-12.html">More about today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="november-13.html">More about today &rarr;</a></p>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.6.0" alt="CelebriDay app icon" width="64" height="64">
         <div>
@@ -103,12 +103,12 @@
       </aside>
     <h2 class="hd-h2">Coming up next</h2>
     <ul class="hd-month">
-      <li><a href="november-13.html"><b>Friday, November 13</b><span>🍮 National Indian Pudding Day</span></a></li>
       <li><a href="november-14.html"><b>Saturday, November 14</b><span>🥒 National Pickle Day  ·  💙 World Diabetes Day</span></a></li>
       <li><a href="november-15.html"><b>Sunday, November 15</b><span>🎂 National Bundt Cake Day  ·  ♻️ America Recycles Day</span></a></li>
       <li><a href="november-16.html"><b>Monday, November 16</b><span>🍔 National Fast Food Day  ·  🌍 International Day for Tolerance</span></a></li>
       <li><a href="november-17.html"><b>Tuesday, November 17</b><span>🍯 National Baklava Day  ·  💜 World Prematurity Day</span></a></li>
       <li><a href="november-18.html"><b>Wednesday, November 18</b><span>🥣 National Vichyssoise Day  ·  🍎 National Apple Cider Day</span></a></li>
+      <li><a href="november-19.html"><b>Thursday, November 19</b><span>🥤 National Carbonated Beverage with Caffeine Day  ·  🚽 World Toilet Day</span></a></li>
     </ul>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
