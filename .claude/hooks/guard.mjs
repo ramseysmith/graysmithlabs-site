@@ -240,6 +240,21 @@ export function syncedSource(file) {
   return null;
 }
 
+// The directory a `git ... commit` in this command runs in.
+export function commitDir(cmd, cwd) {
+  const at = cmd.search(/\bgit\b[^;&|]*\bcommit\b/);
+  const before = at < 0 ? cmd : cmd.slice(0, at);
+  const home = process.env.HOME || '';
+  const abs = (d) => { d = d.replace(/^["']|["']$/g, '').replace(/^~(?=\/|$)/, home).replace(/^\$HOME(?=\/|$)/, home); return d.startsWith('/') ? d : join(cwd || process.cwd(), d); };
+  const c = /\bgit\s+-C\s+("[^"]+"|'[^']+'|\S+)[^;&|]*\bcommit\b/.exec(cmd);
+  if (c) return abs(c[1]);
+  const cds = [...before.matchAll(/(?:^|[;&|(]\s*)cd\s+("[^"]+"|'[^']+'|[^\s;&|)]+)/g)];
+  if (!cds.length) return cwd;
+  // A loop like `for r in a b; do (cd $r && git commit ...)` cannot be resolved here; use the last literal cd.
+  const lit = cds.map((m) => m[1]).filter((d) => !d.includes('$')).pop();
+  return lit ? abs(lit) : cwd;
+}
+
 export function checkCommand(cmd, cwd) {
   const isCommit = /\bgit\b[^;&|]*\bcommit\b/.test(cmd);
   const branch = /\bgit\b[^;&|]*\b(checkout\s+-b|switch\s+-c|branch|push)\b[^;&|]*\bclaude\//.test(cmd);
@@ -261,14 +276,19 @@ export function checkCommand(cmd, cwd) {
     const fileArg = /\s(?:-F|--file)[= ]["']?([^\s"']+)/.exec(cmd);
     if (fileArg && existsSync(fileArg[1]) && /Co-Authored-By|Claude-Session/i.test(readFileSync(fileArg[1], 'utf8')))
       return 'The commit message file has attribution trailers. Remove them.';
-    const email = sh('git config user.email', cwd);
-    const name = sh('git config user.name', cwd);
+    // Check the repo the commit runs in: `git -C <dir> commit` or a `cd <dir>` earlier in the
+    // command, not the folder the command starts from (Nov 13 2026: a loop over app repos run
+    // from ~/Documents/Github was blocked on the global noreply identity).
+    const dir = commitDir(cmd, cwd);
+    const inRepo = !!sh('git rev-parse --is-inside-work-tree', dir);
+    const email = inRepo ? sh('git config user.email', dir) : '';
+    const name = inRepo ? sh('git config user.name', dir) : '';
     if (email && (email !== OWNER_EMAIL || name !== OWNER_NAME))
       return `Git identity is ${name} <${email}>. Run: git config user.name "${OWNER_NAME}" && git config user.email "${OWNER_EMAIL}"`;
     // Only app code can ship a test ID. Docs, tests and this hook mention it on purpose.
     const CODE = /\.(m?[jt]sx?|json)$/;
     const SKIP = /(^|\/)(\.claude|__tests__|node_modules)\/|\.(test|spec)\./;
-    const diff = sh('git diff HEAD -U0 --no-color', cwd);
+    const diff = inRepo ? sh('git diff HEAD -U0 --no-color', dir) : '';
     const added = [];
     let current = '';
     for (const l of diff.split('\n')) {
