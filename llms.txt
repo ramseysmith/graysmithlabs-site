@@ -105,6 +105,7 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 * Affirmation of the day: https://graysmithlabs.com/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)
 * Invoice generator: https://graysmithlabs.com/invoice-generator/ (fill in your business, client and items and download a PDF invoice, no sign up, nothing uploaded, from the team behind Tallyhand)
 * Reaction time test: https://graysmithlabs.com/reaction-time-test/ (five rounds, tap when the box turns green, average and best in milliseconds, from the team behind BlitzTap)
+* Thanksgiving countdown: https://graysmithlabs.com/days-until-thanksgiving/ (days, hours and minutes until US Thanksgiving, the dates for the next five years and every verified national day until then, from the team behind CelebriDay)
 
 ## Guides
 
