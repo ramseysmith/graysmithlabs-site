@@ -20,7 +20,8 @@
 // Any internal error exits 0, so a broken hook never stops work.
 
 import { execSync } from 'node:child_process';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, statSync, writeFileSync, openSync, readSync, closeSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { basename, dirname, join, relative } from 'node:path';
 
 const OWNER_NAME = 'Ramsey Graysmith';
@@ -313,8 +314,44 @@ export function checkCommand(cmd, cwd) {
 // Token waste the flow audit found (Nov 14 2026): a whole PLAN.md Read is about 60k characters that
 // every later model call in the session re-reads, and PostHog "info execute-sql" returns about 100 KB of
 // schema. Both were already against CLAUDE.md; this makes them stop instead of relying on memory.
-export function checkTokenWaste(tool, input, cwd) {
+// The first 24 bytes of a PNG hold its size; reading only those keeps the hook fast.
+function pngHead(file) {
+  try {
+    const fd = openSync(file, 'r'), buf = Buffer.alloc(24);
+    readSync(fd, buf, 0, 24, 0); closeSync(fd);
+    return pngSize(buf);
+  } catch { return null; }
+}
+
+// An image Read stays in the session and is paid for again on every later call
+// (CLAUDE.md, Images cost tokens). Week to Nov 15: 127 images Read, full size 1320 x 2868
+// store frames among them and the same simulator shots Read twice in one session.
+// `session` (the hook's session_id) enables the second rule; without it only size is checked.
+export function checkImageRead(file, session, stateDir = tmpdir()) {
+  if (!/\.png$/i.test(file) || !existsSync(file)) return '';
+  const size = pngHead(file);
+  if (size && Math.max(size[0], size[1]) > 1000) {
+    const out = '/tmp/look';
+    return `${basename(file)} is ${size[0]} x ${size[1]}. Shrink it first and Read the copy: \`mkdir -p ${out} && sips -Z 900 "${file}" --out ${out}/\` then Read ${out}/${basename(file)}. Read only the one shot that decides the check.`;
+  }
+  if (!session) return '';
+  const state = join(stateDir, `guard-images-${String(session).replace(/[^\w-]/g, '')}.json`);
+  let seen = {};
+  try { seen = JSON.parse(readFileSync(state, 'utf8')); } catch {}
+  const mtime = statSync(file).mtimeMs;
+  if (seen[file] === mtime)
+    return `${basename(file)} was already Read in this session and has not changed since; it is still in context. Use what you saw, or retake the shot if the screen changed.`;
+  seen[file] = mtime;
+  try { writeFileSync(state, JSON.stringify(seen)); } catch {}
+  return '';
+}
+
+export function checkTokenWaste(tool, input, cwd, session) {
   const x = input || {};
+  if (tool === 'Read' && x.file_path) {
+    const msg = checkImageRead(String(x.file_path), session);
+    if (msg) return msg;
+  }
   if (tool === 'Read' && basename(String(x.file_path || '')) === 'PLAN.md' && !x.offset && !x.limit) {
     const root = dirname(String(x.file_path));
     if (existsSync(join(root, 'scripts/plan_view.mjs')))
@@ -334,7 +371,7 @@ async function main() {
   const cwd = input.cwd || process.cwd();
 
   if (event === 'PreToolUse' && tool !== 'Bash') {
-    const msg = checkTokenWaste(tool, input.tool_input, cwd);
+    const msg = checkTokenWaste(tool, input.tool_input, cwd, input.session_id);
     if (msg) block(msg);
   }
 
