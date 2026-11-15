@@ -331,7 +331,7 @@
       "title": "Tallyhand: Invoice, Estimate and Receipt Maker for iPhone",
       "description": "Invoice app for iPhone: describe a job in one sentence and Tallyhand builds the invoice, sends a PDF and reminds you when a client is late.",
       "answer": "Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and it is on the App Store.",
-      "pricing": "First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export.",
+      "pricing": "First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export. If the price ever changes, existing subscribers keep the price they signed up at for as long as they stay subscribed.",
       "bestFor": [
         "lawn care and landscaping invoices",
         "house cleaning invoices",
@@ -360,6 +360,10 @@
         [
           "Is Tallyhand free?",
           "The first 3 invoices or estimates are free with every feature. Premium, monthly or yearly with a free week, adds unlimited documents, your logo and income reports."
+        ],
+        [
+          "Will my Tallyhand subscription price go up?",
+          "No. If the Tallyhand price ever changes, you keep the price you signed up at for as long as you stay subscribed. Only new subscribers see a new price."
         ],
         [
           "Does Tallyhand need an account?",

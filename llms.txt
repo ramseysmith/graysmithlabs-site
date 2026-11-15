@@ -70,7 +70,7 @@ TubTender is a hot tub water care and chemical calculator app for iPhone, for br
 
 Tallyhand is an iPhone invoice, estimate and receipt maker for one person service businesses such as lawn care, house cleaning and handyman work: you type or dictate the job in one sentence, it builds the line items and total, shares a professional PDF, and reminds you on the due date and when a client is late. The first 3 documents are free with no account, and it is on the App Store.
 
-* Pricing: First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export.
+* Pricing: First 3 invoices or estimates free with every feature. Premium monthly or yearly, with a free week to try it, adds unlimited documents, your logo on every PDF and income reports with a CSV export. If the price ever changes, existing subscribers keep the price they signed up at for as long as they stay subscribed.
 * Platforms: iPhone
 * Best for: lawn care and landscaping invoices; house cleaning invoices; handyman and contractor estimates; turning a paid invoice into a receipt; knowing which clients still owe you
 * Page: https://graysmithlabs.com/apps/tallyhand.html
