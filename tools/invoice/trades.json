@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "lawn-care",
+    "trade": "lawn care",
+    "title": "Free Lawn Care Invoice Template: Make a PDF Invoice",
+    "h1": "Free lawn care invoice template",
+    "description": "Free lawn care invoice template you fill in online: mowing, edging and cleanup lines already added. Change the prices, add your business and download a PDF. No sign up.",
+    "answer": "This lawn care invoice template opens with mowing, edging and yard waste lines already in place. Change the prices to yours, add your business and your client, and download a clean PDF to send the same day you finish the yard. There is no sign up and nothing leaves your device.",
+    "biz": "Green Acre Lawn Care",
+    "client": "The Hendersons",
+    "items": [
+      { "d": "Mow, trim and edge front and back yard", "q": "1", "r": "55" },
+      { "d": "Leaf cleanup (hours)", "q": "2", "r": "40" },
+      { "d": "Yard waste haul away (bags)", "q": "6", "r": "3" }
+    ],
+    "howTitle": "How to bill lawn care",
+    "how": [
+      ["Price the visit, not the minutes.", "Most clients expect a flat price per mow for a lot size they know. Keep hourly rates for cleanups and jobs that change each time."],
+      ["Put extras on their own lines.", "Edging, leaf cleanup, mulch and haul away each get a line with a quantity, so the client sees what changed from last week."],
+      ["Bill weekly or monthly, the same way every time.", "Regular clients often prefer one invoice at the end of the month listing every visit by date. One off jobs get an invoice the same day."],
+      ["Write down what you used.", "Bags of mulch, fertilizer and seed go on as materials at your price, which keeps a busy season from eating your margin."]
+    ],
+    "faq": [
+      ["What should a lawn care invoice include?", "Your business name and contact details, the client and the property address, the visit date, each service on its own line (mowing, edging, cleanup, materials) with a quantity and price, the total, the due date and how to pay."],
+      ["Should I charge for lawn care per hour or per visit?", "Per visit for regular mowing, because clients like a price they can plan on and you earn more as you get faster. Per hour for cleanups, hedge work and anything you cannot see before you start."],
+      ["How do I bill clients I mow for every week?", "Either send a short invoice after each visit, or one monthly invoice with a line per visit date. Pick one, tell the client up front and keep the same day each month so they know when it is coming."]
+    ],
+    "quickAdd": "Hendersons: mowed and edged $55, leaf cleanup 2 hrs at $40, 6 bags haul away at 3"
+  },
+  {
+    "slug": "cleaning",
+    "trade": "house cleaning",
+    "title": "Free House Cleaning Invoice Template: Make a PDF Invoice",
+    "h1": "Free house cleaning invoice template",
+    "description": "Free house cleaning invoice template you fill in online: standard clean, deep clean add ons and supplies already listed. Set your prices and download a PDF. No sign up.",
+    "answer": "This house cleaning invoice template starts with a standard clean, an inside the oven add on and supplies already listed. Set your own prices, add your business and the client, and download a clean PDF to send when you lock up. There is no sign up and nothing leaves your device.",
+    "biz": "Bright Corner Cleaning",
+    "client": "Maria Alvarez",
+    "items": [
+      { "d": "Standard clean, 3 bed 2 bath", "q": "1", "r": "140" },
+      { "d": "Inside oven and fridge", "q": "1", "r": "35" },
+      { "d": "Supplies", "q": "1", "r": "8" }
+    ],
+    "howTitle": "How to bill house cleaning",
+    "how": [
+      ["Quote by the home, then by the extras.", "A flat price for the size of the home is easiest for clients to say yes to. Ovens, fridges, windows and laundry go on as their own lines."],
+      ["Name the type of clean.", "Standard, deep and move out cleans take very different time. Writing which one it was on the invoice heads off questions later."],
+      ["Say when recurring visits are billed.", "Weekly and every other week clients can pay per visit or monthly. Put the visit dates on the invoice so a missed week is easy to spot."],
+      ["Spell out your cancellation fee once.", "If you charge for a late cancel, put it in the notes on the first invoice, then bill it as a normal line when it happens."]
+    ],
+    "faq": [
+      ["What should a cleaning invoice include?", "Your business name and contact details, the client and the address you cleaned, the date, the type of clean, each add on with its price, any supplies, the total, the due date and how to pay."],
+      ["Do I charge per hour or a flat rate for cleaning?", "A flat rate per home is the norm for regular clients because they know the price before you arrive. Hourly works for first visits and homes you have not seen, with a minimum number of hours."],
+      ["When should a house cleaner send the invoice?", "The same day, ideally as you leave. Clients pay fastest while the clean house is in front of them, and a due date within a few days keeps recurring visits from piling up."]
+    ],
+    "quickAdd": "Maria Alvarez: standard clean $140, inside oven and fridge 35, supplies 8"
+  },
+  {
+    "slug": "handyman",
+    "trade": "handyman",
+    "title": "Free Handyman Invoice Template: Make a PDF Invoice",
+    "h1": "Free handyman invoice template",
+    "description": "Free handyman invoice template you fill in online: labor hours, a trip charge and materials already listed. Set your rates and download a PDF. No sign up.",
+    "answer": "This handyman invoice template starts with labor hours, a trip charge and a materials line already in place. Put in your rates, add your business and the client, and download a clean PDF before you leave the driveway. There is no sign up and nothing leaves your device.",
+    "biz": "Fix It Fred Home Repair",
+    "client": "Dana Brooks",
+    "items": [
+      { "d": "Labor: hang two doors and patch drywall (hours)", "q": "3", "r": "65" },
+      { "d": "Trip charge", "q": "1", "r": "25" },
+      { "d": "Materials: hinges, joint compound, paint", "q": "1", "r": "42.50" }
+    ],
+    "howTitle": "How to bill handyman work",
+    "how": [
+      ["Separate labor from materials.", "Clients accept a materials line with receipts much more easily than one number that hides them. Add your markup to the materials price if you charge one."],
+      ["Use a minimum or a trip charge.", "Small jobs still cost you the drive. A one hour minimum or a flat trip charge on its own line keeps short calls worth taking."],
+      ["List the tasks, not just the hours.", "Two doors hung and one patch is clearer than 3 hours, and it reminds the client of everything you did."],
+      ["Send an estimate first on bigger jobs.", "For anything over a few hours, an estimate the client accepts becomes the invoice when you finish, with the same lines."]
+    ],
+    "faq": [
+      ["What should a handyman invoice include?", "Your business name and contact details, the client and job address, the date, each task or the labor hours with your rate, materials with their cost, any trip charge, the total, the due date and how to pay."],
+      ["How do handymen charge for small jobs?", "With a minimum, usually one or two hours of labor, or a flat trip charge plus time. Put it on the invoice as its own line so the client sees why a ten minute fix has a minimum."],
+      ["Should I mark up materials on a handyman invoice?", "Many handymen add 10 to 20 percent to cover buying, driving and returns. Either build it into each materials price or add it as its own line; just be consistent."]
+    ],
+    "quickAdd": "Dana Brooks: labor 3 hrs at $65, trip charge 25, hinges and compound 42.50"
+  },
+  {
+    "slug": "pet-sitting",
+    "trade": "pet sitting",
+    "title": "Free Pet Sitting Invoice Template: Make a PDF Invoice",
+    "h1": "Free pet sitting invoice template",
+    "description": "Free pet sitting and dog walking invoice template you fill in online: visits, walks and overnight stays already listed. Set your rates and download a PDF. No sign up.",
+    "answer": "This pet sitting invoice template starts with drop in visits, dog walks and an overnight stay already listed. Change the counts and rates to yours, add the owner, and download a clean PDF to send when they get home. There is no sign up and nothing leaves your device.",
+    "biz": "Happy Tails Pet Care",
+    "client": "Sam and Priya Patel",
+    "items": [
+      { "d": "Drop in visits, 30 minutes", "q": "4", "r": "22" },
+      { "d": "Dog walks, 45 minutes", "q": "5", "r": "25" },
+      { "d": "Overnight stay", "q": "2", "r": "75" }
+    ],
+    "howTitle": "How to bill pet sitting",
+    "how": [
+      ["Count visits, walks and nights separately.", "Each kind of visit gets its own line with a count, so a ten day trip reads at a glance."],
+      ["Put the dates of the stay on the invoice.", "Owners compare the invoice to their trip. A note with the first and last day saves a back and forth."],
+      ["Add holiday and extra pet rates as lines.", "If you charge more on holidays or for a second pet, bill it as a line, not a hidden change to the rate."],
+      ["Ask for a deposit on long stays.", "For a week or more, invoice part up front and the rest when the owner is home."]
+    ],
+    "faq": [
+      ["What should a pet sitting invoice include?", "Your business name and contact details, the owner's name, the pets, the dates of the stay, each visit type with its count and rate, any holiday or extra pet charges, the total, the due date and how to pay."],
+      ["How do pet sitters charge for overnight stays?", "Usually a flat rate per night that includes the evening and morning care, with drop in visits during the day charged on top. List nights and visits on separate lines."],
+      ["Can I use this for dog walking invoices?", "Yes. Change the lines to the number of walks and your rate per walk. Many walkers send one invoice per week or per month listing every walk."]
+    ],
+    "quickAdd": "Patels: 4 drop ins at $22, 5 walks at 25, 2 overnights at 75"
+  },
+  {
+    "slug": "detailing",
+    "trade": "auto detailing",
+    "title": "Free Auto Detailing Invoice Template: Make a PDF Invoice",
+    "h1": "Free car detailing invoice template",
+    "description": "Free car detailing invoice template you fill in online: interior and exterior packages and add ons already listed. Set your prices and download a PDF. No sign up.",
+    "answer": "This car detailing invoice template starts with a full detail package, a ceramic spray coat and pet hair removal already listed. Set your prices, add the vehicle and the client, and download a clean PDF to hand over with the keys. There is no sign up and nothing leaves your device.",
+    "biz": "Mirror Finish Mobile Detailing",
+    "client": "Chris Nguyen",
+    "items": [
+      { "d": "Full detail, interior and exterior, midsize SUV", "q": "1", "r": "185" },
+      { "d": "Ceramic spray sealant", "q": "1", "r": "45" },
+      { "d": "Pet hair removal", "q": "1", "r": "30" }
+    ],
+    "howTitle": "How to bill auto detailing",
+    "how": [
+      ["Lead with the package.", "Clients book a package (interior, exterior, full). Put it first, with the vehicle size in the line, since size sets the price."],
+      ["Add ons each get a line.", "Pet hair, stains, headlights, engine bay and coatings change the job. Listing them separately shows why this detail cost more than the last."],
+      ["Write the vehicle on the invoice.", "Make, model and color in the client details make the invoice easy to match later, especially for clients with more than one car."],
+      ["Note a mobile or travel fee.", "If you come to the client, a travel fee on its own line covers the drive and water."]
+    ],
+    "faq": [
+      ["What should a car detailing invoice include?", "Your business name and contact details, the client, the vehicle (make, model, color), the date, the package with its price, each add on, any travel fee, the total and how to pay."],
+      ["How do detailers price by vehicle size?", "Most use three tiers: car, midsize SUV and truck or large SUV, with the same package costing more for each. Put the size in the package line so the price makes sense."],
+      ["Should a detailer take payment before or after?", "After the client has seen the car, with the invoice handed over or texted on the spot. For ceramic coatings and long jobs, many take a deposit when booking."]
+    ],
+    "quickAdd": "Chris Nguyen: full detail midsize SUV $185, ceramic spray 45, pet hair 30"
+  },
+  {
+    "slug": "tutoring",
+    "trade": "tutoring",
+    "title": "Free Tutoring Invoice Template: Make a PDF Invoice",
+    "h1": "Free tutoring invoice template",
+    "description": "Free tutoring invoice template you fill in online: sessions, hours and prep already listed. Set your hourly rate and download a PDF for parents. No sign up.",
+    "answer": "This tutoring invoice template starts with weekly sessions, an extra test prep session and materials already listed. Set your hourly rate, add the student and the parent, and download a clean PDF to send at the end of the month. There is no sign up and nothing leaves your device.",
+    "biz": "Ms. Rivera Math Tutoring",
+    "client": "The Johnson family (student: Ava)",
+    "items": [
+      { "d": "Algebra sessions, 1 hour (Nov 3, 10, 17, 24)", "q": "4", "r": "50" },
+      { "d": "SAT practice test review, 1.5 hours", "q": "1.5", "r": "50" },
+      { "d": "Workbook", "q": "1", "r": "18" }
+    ],
+    "howTitle": "How to bill tutoring",
+    "how": [
+      ["Bill monthly with the session dates.", "Parents like one invoice a month. Listing each date in the line lets them check it against their calendar."],
+      ["Charge in hours, including half hours.", "A quantity of 1.5 at your hourly rate is clearer than a new rate for every length of session."],
+      ["Name the student and the subject.", "Families with more than one child, or a parent paying for a sibling, need to see who each line is for."],
+      ["State your cancellation rule.", "Late cancels and no shows are the most common tutoring dispute. Put the rule in the notes and bill it as a line when it applies."]
+    ],
+    "faq": [
+      ["What should a tutoring invoice include?", "Your name and contact details, the parent or client, the student's name, the subject, each session date with its length, your hourly rate, any materials, the total, the due date and how to pay."],
+      ["Should tutors bill per session or per month?", "Per month for regular students, listing every session, so parents pay once. Per session suits one off help and test prep before an exam."],
+      ["Can I charge for late cancellations as a tutor?", "Yes, if you told the family the rule before the first session. Common rules charge the full session when a cancel comes less than 24 hours ahead."]
+    ],
+    "quickAdd": "Johnsons: algebra 4 sessions at $50, SAT review 1.5 hrs at 50, workbook 18"
+  }
+]

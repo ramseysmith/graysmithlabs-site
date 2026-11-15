@@ -25,12 +25,23 @@
     items: [{ d: '', q: '1', r: '' }]
   };
 
+  // Trade pages (/invoice-generator/<trade>/) set window.IG_PRESET with typical
+  // line items. They fill in only when the saved invoice has no items yet, so a
+  // visitor's own invoice is never replaced.
+  var preset = window.IG_PRESET && Array.isArray(window.IG_PRESET.items) ? window.IG_PRESET : null;
+  function emptyItems(items) {
+    return !items.some(function (it) { return it && (it.d || it.r); });
+  }
+
   function load() {
+    var s = null;
     try {
-      var s = JSON.parse(localStorage.getItem(KEY) || 'null');
-      if (s && Array.isArray(s.items)) return s;
-    } catch (e) {}
-    return JSON.parse(JSON.stringify(blank));
+      s = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (!s || !Array.isArray(s.items)) s = null;
+    } catch (e) { s = null; }
+    if (!s) s = JSON.parse(JSON.stringify(blank));
+    if (preset && emptyItems(s.items)) s.items = JSON.parse(JSON.stringify(preset.items));
+    return s;
   }
   function save(state) {
     try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
