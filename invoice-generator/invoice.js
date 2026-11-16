@@ -3,8 +3,15 @@
 // own print to PDF with a print stylesheet that shows only the invoice.
 // Money math matches the Tallyhand app engine: integer cents, quantities to two
 // decimals, each line rounded to the cent, tax on the rounded subtotal.
+// The estimate generator (/estimate-generator/) sets window.IG_DOC = { kind: 'estimate' }:
+// the same form and math, saved under its own key, with Valid until in place of Due,
+// Prepared for in place of Bill to and Estimated total in place of Amount due.
 (function () {
-  var KEY = 'gl-invoice-v1';
+  var EST = !!(window.IG_DOC && window.IG_DOC.kind === 'estimate');
+  var L = EST
+    ? { key: 'gl-estimate-v1', title: 'Estimate', num: 'Estimate number', first: 'EST-0001', due: 'Valid until', dueNone: 'On request', to: 'Prepared for', total: 'Estimated total', pay: 'Terms', fresh: 'New estimate started. Your business details were kept.', credit: 'Made with the free estimate generator at graysmithlabs.com', days: 30 }
+    : { key: 'gl-invoice-v1', title: 'Invoice', num: 'Invoice number', first: 'INV-0001', due: 'Due', dueNone: 'On receipt', to: 'Bill to', total: 'Amount due', pay: 'How to pay', fresh: 'New invoice started. Your business details were kept.', credit: 'Made with the free invoice generator at graysmithlabs.com', days: 14 };
+  var KEY = L.key;
   var form = document.getElementById('ig-form');
   var itemsBox = document.getElementById('ig-items');
   var sheet = document.getElementById('ig-sheet');
@@ -20,8 +27,8 @@
   }
 
   var blank = {
-    biz: '', from: '', client: '', to: '', number: 'INV-0001', currency: 'USD',
-    date: today(0), due: today(14), tax: '', pay: '', notes: '',
+    biz: '', from: '', client: '', to: '', number: L.first, currency: 'USD',
+    date: today(0), due: today(L.days), tax: '', pay: '', notes: '',
     items: [{ d: '', q: '1', r: '' }]
   };
 
@@ -116,21 +123,21 @@
     var tax = rate ? Math.round((subtotal * rate) / 100) : 0;
     var totals = '';
     if (tax) totals += '<tr><td>Subtotal</td><td>' + money(subtotal, cur) + '</td></tr><tr><td>Tax (' + rate + '%)</td><td>' + money(tax, cur) + '</td></tr>';
-    totals += '<tr class="g"><td>Amount due</td><td>' + money(subtotal + tax, cur) + '</td></tr>';
+    totals += '<tr class="g"><td>' + L.total + '</td><td>' + money(subtotal + tax, cur) + '</td></tr>';
     sheet.innerHTML =
       '<div class="inv-top"><div><p class="inv-biz">' + esc(state.biz || 'Your business') + '</p><div class="inv-muted">' + esc(state.from) + '</div></div>' +
-      '<div class="inv-title"><h2>Invoice</h2><table class="inv-meta">' +
-      '<tr><td>Invoice number</td><td>' + esc(state.number) + '</td></tr>' +
+      '<div class="inv-title"><h2>' + L.title + '</h2><table class="inv-meta">' +
+      '<tr><td>' + L.num + '</td><td>' + esc(state.number) + '</td></tr>' +
       (state.date ? '<tr><td>Date</td><td>' + fmtDate(state.date) + '</td></tr>' : '') +
-      '<tr><td>Due</td><td>' + (state.due && state.due !== state.date ? fmtDate(state.due) : 'On receipt') + '</td></tr>' +
+      '<tr><td>' + L.due + '</td><td>' + (state.due && state.due !== state.date ? fmtDate(state.due) : L.dueNone) + '</td></tr>' +
       '</table></div></div>' +
-      '<div class="inv-to"><p class="inv-h">Bill to</p><strong>' + esc(state.client || 'Client name') + '</strong><div class="inv-muted">' + esc(state.to) + '</div></div>' +
+      '<div class="inv-to"><p class="inv-h">' + L.to + '</p><strong>' + esc(state.client || 'Client name') + '</strong><div class="inv-muted">' + esc(state.to) + '</div></div>' +
       '<table class="inv-items"><thead><tr><th>Description</th><th class="n">Qty</th><th class="n">Rate</th><th class="n">Amount</th></tr></thead><tbody>' +
       (rows || '<tr><td colspan="4" class="inv-muted">Add an item to start</td></tr>') + '</tbody></table>' +
       '<table class="inv-totals">' + totals + '</table>' +
-      (state.pay ? '<div class="inv-block"><p class="inv-h">How to pay</p>' + esc(state.pay) + '</div>' : '') +
+      (state.pay ? '<div class="inv-block"><p class="inv-h">' + L.pay + '</p>' + esc(state.pay) + '</div>' : '') +
       (state.notes ? '<div class="inv-block"><p class="inv-h">Notes</p>' + esc(state.notes) + '</div>' : '') +
-      '<p class="inv-credit">Made with the free invoice generator at graysmithlabs.com</p>';
+      '<p class="inv-credit">' + esc(L.credit) + '</p>';
   }
 
   form.addEventListener('input', function (e) {
@@ -165,7 +172,7 @@
     save(state);
     fill();
     preview();
-    msg.textContent = 'New invoice started. Your business details were kept.';
+    msg.textContent = L.fresh;
   });
   document.getElementById('ig-print').addEventListener('click', function () {
     msg.textContent = 'Choose Save as PDF in the print window.';

@@ -105,6 +105,7 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 * Affirmation of the day: https://graysmithlabs.com/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)
 * Invoice generator: https://graysmithlabs.com/invoice-generator/ (fill in your business, client and items and download a PDF invoice, no sign up, nothing uploaded, from the team behind Tallyhand)
 * Invoice templates by trade: https://graysmithlabs.com/invoice-generator/<trade>/ for lawn-care, cleaning, handyman, pet-sitting, detailing and tutoring (the same free generator prefilled with typical lines for lawn care, house cleaning, handyman, pet sitting, auto detailing, tutoring, plus how to bill each trade)
+* Estimate generator: https://graysmithlabs.com/estimate-generator/ (fill in your business, the client and each line of work with a valid until date and terms, and download a PDF estimate or quote, no sign up, nothing uploaded, from the team behind Tallyhand)
 * Reaction time test: https://graysmithlabs.com/reaction-time-test/ (five rounds, tap when the box turns green, average and best in milliseconds, from the team behind BlitzTap)
 * Thanksgiving countdown: https://graysmithlabs.com/days-until-thanksgiving/ (days, hours and minutes until US Thanksgiving, the dates for the next five years and every verified national day until then, from the team behind CelebriDay)
 

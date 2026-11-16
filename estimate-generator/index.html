@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Estimate Generator: Make a PDF Estimate or Quote</title>
+<meta name="description" content="Make a free estimate or quote online: add your business, the client and the work, see the estimated total with tax, and download a clean PDF. No sign up, nothing uploaded.">
+<link rel="canonical" href="https://graysmithlabs.com/estimate-generator/">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Free Estimate Generator: Make a PDF Estimate or Quote">
+<meta property="og:description" content="Make a free estimate or quote online: add your business, the client and the work, see the estimated total with tax, and download a clean PDF. No sign up, nothing uploaded.">
+<meta property="og:url" content="https://graysmithlabs.com/estimate-generator/">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/tallyhand/og.jpg?v=1.0.0">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<meta name="apple-itunes-app" content="app-id=6827360818">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://graysmithlabs.com/estimate-generator/#tool",
+      "name": "Free estimate generator",
+      "url": "https://graysmithlabs.com/estimate-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Fill in your business, your client and each line of work, see the estimated total with tax and a valid until date, and download a clean PDF estimate or quote. Everything runs in the browser and nothing is uploaded.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Graysmith Labs",
+        "url": "https://graysmithlabs.com"
+      },
+      "isRelatedTo": {
+        "@id": "https://graysmithlabs.com/apps/tallyhand.html#app"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/estimate-generator/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this estimate generator really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. There is no account, no watermark and no limit on how many estimates you make. Everything runs in your browser and nothing is uploaded."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between an estimate and an invoice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An estimate tells the client what the job should cost before you start, so they can say yes. An invoice asks to be paid once the work is done. When the client accepts the estimate, send an invoice for the same lines when you finish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an estimate the same as a quote?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Close. A quote is usually a fixed price for exactly the work listed, while an estimate is your best figure and can change if the job changes. Either way, list each line of work, the total and how long the price holds. You can title the PDF either way by writing Quote in the notes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should an estimate include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your business name and contact details, the client's name, an estimate number, the date and a valid until date, each line of work with quantity and rate, the estimated total with any tax, and your terms, such as a deposit to book or what happens if the job grows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long should an estimate be valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thirty days is common and is the default here. Use a shorter window, such as 14 days, when material prices move quickly."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+.ig { display:grid; grid-template-columns: minmax(0,1fr); gap:24px; margin-top:32px; }
+.ig-form { display:grid; gap:18px; padding:22px; border:1px solid var(--line); border-radius:20px; }
+.ig-form fieldset { border:0; padding:0; margin:0; display:grid; gap:10px; }
+.ig-form legend { font-family:var(--mono); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+.ig-form label { display:grid; gap:4px; font-size:14px; color:var(--muted); }
+.ig-form input, .ig-form textarea, .ig-form select { font:inherit; font-size:16px; color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; width:100%; box-sizing:border-box; }
+.ig-form textarea { min-height:64px; resize:vertical; }
+.ig-two { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px; }
+.ig-form input, .ig-form select { min-width:0; }
+.ig-form fieldset { min-width:0; }
+.ig-item { display:grid; grid-template-columns: minmax(0,1fr) 72px 110px 44px; gap:8px; align-items:end; }
+.ig-item button { height:44px; border:1px solid var(--line); background:transparent; border-radius:10px; color:var(--muted); cursor:pointer; font-size:16px; }
+.ig-actions { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+.ig-msg { font-size:14px; color:var(--muted); }
+.ig-sheet { background:#fff; color:#1C2321; border-radius:16px; box-shadow:var(--shadow); padding:32px; font:13px/1.45 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.inv-top { display:flex; justify-content:space-between; gap:18px; }
+.inv-biz { font-size:17px; font-weight:700; margin:0 0 4px; }
+.inv-muted { color:#5B6660; white-space:pre-line; }
+.inv-title { text-align:right; }
+.inv-title h2 { font:700 26px/1 -apple-system, "Helvetica Neue", Arial, sans-serif; letter-spacing:3px; text-transform:uppercase; color:#1F4D3A; margin:0 0 8px; }
+.inv-meta td { padding:1px 0 1px 12px; text-align:right; white-space:nowrap; }
+.inv-meta td:first-child { color:#5B6660; }
+.inv-to { margin:22px 0 14px; }
+.inv-h { font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:#5B6660; margin:0 0 4px; }
+.inv-items { width:100%; border-collapse:collapse; }
+.inv-items th { text-align:left; font-size:10px; letter-spacing:1.2px; text-transform:uppercase; color:#fff; background:#1F4D3A; padding:7px 9px; }
+.inv-items td { padding:8px 9px; border-bottom:1px solid #E4E0D6; vertical-align:top; }
+.inv-items .n { text-align:right; white-space:nowrap; }
+.inv-totals { margin:10px 0 0 auto; border-collapse:collapse; min-width:220px; }
+.inv-totals td { padding:4px 9px; text-align:right; }
+.inv-totals td:first-child { color:#5B6660; }
+.inv-totals tr.g td { font-size:15px; font-weight:700; color:#1C2321; border-top:2px solid #1F4D3A; padding-top:8px; }
+.inv-block { margin-top:18px; white-space:pre-line; }
+.inv-credit { margin-top:22px; text-align:center; font-size:9px; color:#8A948E; }
+.ig > * { min-width:0; }
+@media (max-width: 860px) { .ig { grid-template-columns: minmax(0,1fr); } .ig-sheet { position:static; padding:20px; overflow-x:auto; } }
+@media (max-width: 560px) { .ig-form { padding:16px; } .ig-item { grid-template-columns: minmax(0,1fr) 54px 76px 36px; gap:6px; } .ig-sheet { padding:16px; font-size:12px; } .inv-top { flex-direction:column; } .inv-title { text-align:left; } .inv-meta td { text-align:left; padding:1px 12px 1px 0; } .inv-totals { min-width:0; width:100%; } }
+@media print {
+  body * { visibility:hidden; }
+  .ig-sheet, .ig-sheet * { visibility:visible; }
+  .ig-sheet { position:absolute; left:0; top:0; width:100%; box-shadow:none; border-radius:0; padding:0; }
+  @page { margin:36px 40px; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../services/">Services</a>
+        <a href="../work/valentine-tide.html">Work</a>
+        <a href="../#apps">Apps</a>
+        <a href="../#tools">Free tools</a>
+        <a href="../#about">About</a>
+        <a href="../#faq">FAQ</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="../#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap guide">
+    <p class="crumbs"><a href="../apps/tallyhand.html">Tallyhand</a> &nbsp;/&nbsp; Estimate generator</p>
+    <h1>Free estimate generator</h1>
+    <p class="guide-answer">Fill in your business, the client and the work you plan to do, and this free estimate generator adds up the estimated total with tax, sets how long the price holds and gives you a clean PDF estimate or quote to send. There is no sign up and no watermark, and nothing leaves your device.</p>
+
+    <div class="ig">
+      <form class="ig-form" id="ig-form" autocomplete="on" aria-label="Estimate details">
+        <fieldset>
+          <legend>From</legend>
+          <label>Business name <input name="biz" placeholder="Green Acre Lawn Care" autocomplete="organization"></label>
+          <label>Address, phone, email <textarea name="from" placeholder="418 Juniper Street&#10;Centennial, CO&#10;(555) 010 0142"></textarea></label>
+        </fieldset>
+        <fieldset>
+          <legend>Prepared for</legend>
+          <label>Client name <input name="client" placeholder="The Hendersons"></label>
+          <label>Client details <textarea name="to" placeholder="Address or email"></textarea></label>
+        </fieldset>
+        <fieldset>
+          <legend>Estimate</legend>
+          <div class="ig-two">
+            <label>Number <input name="number" value="EST-0001"></label>
+            <label>Currency
+              <select name="currency"><option>USD</option><option>CAD</option><option>GBP</option><option>EUR</option><option>AUD</option><option>NZD</option></select>
+            </label>
+          </div>
+          <div class="ig-two">
+            <label>Date <input type="date" name="date"></label>
+            <label>Valid until <input type="date" name="due"></label>
+          </div>
+        </fieldset>
+        <fieldset id="ig-items">
+          <legend>Items</legend>
+        </fieldset>
+        <div class="ig-actions"><button class="btn ghost sm" type="button" id="ig-add">Add item</button></div>
+        <fieldset>
+          <legend>Totals and notes</legend>
+          <label>Tax rate (%) <input name="tax" inputmode="decimal" placeholder="0"></label>
+          <label>Terms <textarea name="pay" placeholder="50% deposit to book the date, the rest when the job is done"></textarea></label>
+          <label>Notes <textarea name="notes" placeholder="Materials at cost. Any extra work is quoted before it starts."></textarea></label>
+        </fieldset>
+        <div class="ig-actions">
+          <button class="btn" type="button" id="ig-print">Download PDF</button>
+          <button class="btn ghost sm" type="button" id="ig-reset">Start over</button>
+          <span class="ig-msg" id="ig-msg" aria-live="polite"></span>
+        </div>
+        <p class="guide-note">Your estimate is saved only in this browser so you can come back to it. Nothing is uploaded.</p>
+        <noscript><p class="guide-note">The estimate generator needs JavaScript turned on.</p></noscript>
+      </form>
+
+      <div><p class="muted" style="margin:0 0 10px;font-size:14px">Preview: this is exactly what the PDF looks like.</p><div class="ig-sheet" id="ig-sheet" aria-label="Estimate preview" aria-live="polite"></div></div>
+    </div>
+
+    <section class="guide-sec">
+      <h2>How to write an estimate</h2>
+      <ol class="guide-steps">
+        <li><strong>Add your business.</strong> Your name and how to reach you go at the top, so the client can say yes.</li>
+        <li><strong>Add the client.</strong> Their name and the job address or email go under Prepared for.</li>
+        <li><strong>Number and date it.</strong> Use a new number for every estimate, like EST-0001, and set a valid until date, often 30 days out.</li>
+        <li><strong>List the work.</strong> One line per task or material with a quantity and rate, such as 6 hours of labor at 55 or 4 gallons of stain at 42. The estimated total adds itself up, with tax if you charge it.</li>
+        <li><strong>Write your terms.</strong> A deposit to book, when the rest is due, and that extra work is priced before it starts. Clear terms stop most disputes.</li>
+        <li><strong>Download, send and follow up.</strong> Send the PDF the same day you see the job, and check in after three days if you have not heard back.</li>
+      </ol>
+    </section>
+
+    <section class="guide-sec">
+      <h2>When the client says yes</h2>
+      <p>Do the work, then bill the same lines with the <a href="../invoice-generator/">free invoice generator</a>, or start from an invoice template for your trade: <a href="../invoice-generator/lawn-care/">lawn care</a>, <a href="../invoice-generator/cleaning/">house cleaning</a>, <a href="../invoice-generator/handyman/">handyman</a>, <a href="../invoice-generator/pet-sitting/">pet sitting</a>, <a href="../invoice-generator/detailing/">car detailing</a> or <a href="../invoice-generator/tutoring/">tutoring</a>.</p>
+    </section>
+
+    <aside class="guide-app">
+      <img src="../assets/apps/tallyhand/icon.png?v=1.0.0" alt="Tallyhand app icon" width="64" height="64">
+      <div>
+        <h2>Tallyhand for iPhone</h2>
+        <p>Estimates from your phone are faster still: tell Tallyhand the job in one sentence and it builds the estimate and sends the PDF. It reminds you to follow up after three days, and when the client says yes it turns the estimate into an invoice with one tap. Your first 3 documents are free.</p>
+        <div class="btn-row">
+          <a class="btn" href="https://apps.apple.com/us/app/id6827360818?ct=estimate-generator&amp;mt=8" rel="noopener">Download on the App Store</a>
+          <a class="btn ghost" href="../apps/tallyhand.html">About Tallyhand</a>
+        </div>
+      </div>
+    </aside>
+
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details><summary>Is this estimate generator really free?</summary><p>Yes. There is no account, no watermark and no limit on how many estimates you make. Everything runs in your browser and nothing is uploaded.</p></details>
+        <details><summary>What is the difference between an estimate and an invoice?</summary><p>An estimate tells the client what the job should cost before you start, so they can say yes. An invoice asks to be paid once the work is done. When the client accepts the estimate, send an invoice for the same lines when you finish.</p></details>
+        <details><summary>Is an estimate the same as a quote?</summary><p>Close. A quote is usually a fixed price for exactly the work listed, while an estimate is your best figure and can change if the job changes. Either way, list each line of work, the total and how long the price holds. You can title the PDF either way by writing Quote in the notes.</p></details>
+        <details><summary>What should an estimate include?</summary><p>Your business name and contact details, the client's name, an estimate number, the date and a valid until date, each line of work with quantity and rate, the estimated total with any tax, and your terms, such as a deposit to book or what happens if the job grows.</p></details>
+        <details><summary>How long should an estimate be valid?</summary><p>Thirty days is common and is the default here. Use a shorter window, such as 14 days, when material prices move quickly.</p></details>
+      </div>
+    </section>
+  </div>
+<script>window.IG_DOC = { kind: "estimate" };</script>
+<script src="../invoice-generator/invoice.js" defer></script>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">An independent software studio in the United States. Elegant software across every platform, for clients and for ourselves.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+          <li><a href="../apps/tallyhand.html">Tallyhand</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../kit/">Starter kit</a></li>
+          <li><a href="../#ai">AI</a></li>
+          <li><a href="../#process">Process</a></li>
+          <li><a href="../#engage">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Free tools</span>
+        <ul>
+          <li><a href="../holidays/">Today's holiday</a></li>
+          <li><a href="../invoice-generator/">Invoice generator</a></li>
+          <li><a href="../estimate-generator/">Estimate generator</a></li>
+          <li><a href="../signature-maker/">Signature maker</a></li>
+          <li><a href="../white-noise/">White noise generator</a></li>
+          <li><a href="../sleep-calculator/">Sleep calculator</a></li>
+          <li><a href="../hot-tub-calculator/">Hot tub calculator</a></li>
+          <li><a href="../reaction-time-test/">Reaction time test</a></li>
+          <li><a href="../days-until-thanksgiving/">Thanksgiving countdown</a></li>
+          <li><a href="../affirmations/">Affirmation of the day</a></li>
+          <li><a href="../guides/">Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>United States &middot; clients worldwide</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
