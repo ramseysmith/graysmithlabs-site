@@ -192,6 +192,8 @@ ${datesHtml}
       </div>
     </section>
 
+    <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day of December.</p>
+
     <aside class="guide-app">
       <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
       <div>
