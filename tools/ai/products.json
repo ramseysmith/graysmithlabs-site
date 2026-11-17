@@ -121,9 +121,9 @@
       "storeCategory": "Lifestyle",
       "platforms": "iPhone and iPad",
       "title": "CelebriDay: What Holiday Is It Today? App for iPhone",
-      "description": "CelebriDay tells you what national day it is today, with a morning notification, a fun fact and a share card for 700 plus holidays.",
-      "answer": "CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year: a morning notification names today's holiday, and each of its 700 plus observances, from National Pizza Day to World Emoji Day, has a fun fact and a card to share on social media. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.",
-      "pricing": "Free with ads: today and tomorrow, every holiday's fun fact, sharing and the 8 AM daily note. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, favorites, choosing the note time and removes ads.",
+      "description": "CelebriDay tells you what national day it is today, with its own illustration, a morning note with its picture, story share cards and family birthdays.",
+      "answer": "CelebriDay is an iPhone and iPad app that tells you what national day it is today, every day of the year. Each of its 700 plus observances, from National Pizza Day to World Emoji Day, has its own illustration, a fun fact and a picture to share as a square post or a 9:16 story, and a morning note names the day with its picture. A People tab shows the national day each friend or family member was born on, with a birthday card ready to send. Today and tomorrow are free in the app, and a free list of national days by month, with every date checked, is on the web at graysmithlabs.com/holidays/.",
+      "pricing": "Free with ads: today and tomorrow, every holiday's art and fun fact, square and story share pictures, the morning note with the day's picture, your own birthday holiday and up to three people in People. Premium, monthly or yearly with a free week for new subscribers, opens every other day of the calendar, unlimited people with a note the day before each birthday, the full idea lists for big holidays such as Thanksgiving and Christmas, favorites, choosing the note time, and removes ads.",
       "bestFor": [
         "finding out what national day it is today",
         "teachers, offices and teams looking for fun national days to celebrate at work",
@@ -131,10 +131,12 @@
         "daily conversation starters and fun facts"
       ],
       "features": [
-        "Today and tomorrow free, with every holiday and fun fact",
-        "Morning notification with today's holiday",
-        "Share cards for every holiday",
-        "A calendar of the whole year (Premium beyond tomorrow)",
+        "Today and tomorrow free, one holiday per screen with its own illustration and fun fact",
+        "Morning notification with the day's greeting, a fun fact and its picture",
+        "Share pictures for every holiday, square for messages and 9:16 for stories",
+        "People: friends' and family birthdays with the national day they were born on and a card to send (three free, unlimited with Premium)",
+        "Idea lists for big holidays: Christmas gift ideas, New Year's resolutions, Thanksgiving and more (two free, the rest Premium)",
+        "A calendar of the whole year with each day's art (Premium beyond tomorrow)",
         "Favorites (Premium)",
         "Choose when the daily note arrives (Premium)",
         "Free national day lists by month on graysmithlabs.com/holidays/"
@@ -150,11 +152,15 @@
         ],
         [
           "Is CelebriDay free?",
-          "Yes. Today and tomorrow are free with ads, including the fun facts, sharing and the morning note at 8 AM. Premium, monthly or yearly with a free week to try it, opens the whole calendar and favorites, lets you pick when the note arrives and removes ads."
+          "Yes. Today and tomorrow are free with ads, including each holiday's art and fun fact, square and story share pictures, the morning note and up to three birthdays in People. Premium, monthly or yearly with a free week to try it, opens the whole calendar, unlimited people with a reminder the day before, the full holiday idea lists and favorites, lets you pick when the note arrives and removes ads."
         ],
         [
           "Can I use it to plan social media posts?",
           "Yes. Every holiday has a card you can share to Instagram, Messages or anywhere else, and the month pages on graysmithlabs.com/holidays/ list every national day ahead for free."
+        ],
+        [
+          "Can CelebriDay remind me of friends' birthdays?",
+          "Yes. Add people in the People tab with their birthday and CelebriDay shows the national day they were born on, sends a note that morning with a birthday card ready to share, and with Premium a reminder the day before. Names and birthdays stay on your phone."
         ]
       ]
     },
