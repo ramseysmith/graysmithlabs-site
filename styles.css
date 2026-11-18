@@ -148,6 +148,31 @@ section.first { border-top: 0; }
 }
 .stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: 40px; letter-spacing: -0.02em; line-height: 1; margin-bottom: 10px; }
 .stat span { font-size: 13px; color: var(--muted); line-height: 1.5; display: block; }
+#services .stats { margin-top: 0; padding-top: 0; border-top: 0; margin-bottom: 64px; }
+
+/* Hero products strip: the apps first (audit Nov 15 item 5) */
+.product-strip { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); }
+.ps-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 0 0 16px; font-size: 14px; }
+.ps-head b { font-weight: 600; }
+.ps-head a { color: var(--muted); text-decoration: none; font-size: 13px; }
+.ps-head a:hover { color: var(--ink); }
+.ps-head .arrow { color: var(--accent); }
+.ps-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.ps-item { display: flex; flex-direction: column; justify-content: space-between; gap: 10px; padding: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; transition: transform 0.2s, box-shadow 0.2s; }
+.ps-item:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.ps-main { display: flex; gap: 12px; align-items: flex-start; text-decoration: none; color: var(--ink); }
+.ps-main img { flex: none; width: 44px; height: 44px; border-radius: 11px; box-shadow: var(--shadow); }
+.ps-main > span { display: grid; gap: 2px; font-size: 13px; line-height: 1.4; }
+.ps-main b { font-weight: 600; font-size: 15px; }
+.ps-main > span > span { color: var(--muted); }
+.ps-store { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; border-radius: 999px; background: var(--ink); color: var(--paper); font-size: 12px; font-weight: 600; text-decoration: none; }
+.ps-store svg { width: 13px; height: 13px; fill: currentColor; }
+.ps-store:hover { opacity: 0.86; }
+@media (max-width: 720px) {
+  .product-strip { margin-top: 36px; }
+  .ps-list { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) 6px; scroll-padding: 0 var(--gutter); }
+  .ps-item { flex: 0 0 78%; scroll-snap-align: start; }
+}
 .icon-strip { display: flex; gap: 10px; margin-top: 44px; flex-wrap: wrap; }
 
 /* Hero proof: live apps */
