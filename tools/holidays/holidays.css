@@ -45,3 +45,9 @@
 /* AdSense slot, only present when tools/holidays/ads.json has a publisher id */
 .hd-ad { margin: 40px 0 0; min-height: 280px; }
 .hd-ad::before { content: "Advertisement"; display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.hd-related { margin-top: 48px; }
+.hd-related h2 { font-size: 24px; margin-bottom: 16px; }
+.hd-related .hd-month { margin-bottom: 0; }
+.hd-table table { border-collapse: collapse; min-width: 260px; font-size: 15px; }
+.hd-table th, .hd-table td { text-align: left; padding: 10px 18px 10px 0; border-bottom: 1px solid var(--line); }
+.hd-table thead th { color: var(--muted); font-weight: 500; font-size: 13px; }

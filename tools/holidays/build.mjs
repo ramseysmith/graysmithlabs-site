@@ -342,9 +342,55 @@ function appPitch(context) {
       </aside>`;
 }
 
+// More days like this one: the next dates in calendar order with a fixed
+// observance in the same category, so every day page links to its neighbors
+// by topic as well as by date (search indexing, Nov 18 2026).
+function relatedDays(data, m, d, daysWithContent) {
+  const own = (data.fixed.find((e) => e.month === m && e.day === d)?.holidays ?? [])[0];
+  if (!own) return "";
+  const cat = own.category;
+  const order = [];
+  for (let mm = 1; mm <= 12; mm++) for (let dd = 1; dd <= DAYS_IN[mm - 1]; dd++) order.push([mm, dd]);
+  const start = order.findIndex(([a, b]) => a === m && b === d);
+  const picks = [];
+  for (let i = 1; i < order.length && picks.length < 6; i++) {
+    const [mm, dd] = order[(start + i) % order.length];
+    if (!daysWithContent.has(`${mm}-${dd}`)) continue;
+    const h = (data.fixed.find((e) => e.month === mm && e.day === dd)?.holidays ?? []).find((x) => x.category === cat);
+    if (h) picks.push([mm, dd, h]);
+  }
+  if (!picks.length) return "";
+  const kind = (CATEGORY_LABEL[cat] ?? "Observance").toLowerCase();
+  return `    <section class="hd-related">
+      <h2>More ${kind} days coming up after ${own.name}</h2>
+      <ul class="hd-month">
+${picks.map(([mm, dd, h]) => `        <li><a href="${slug(mm, dd)}.html"><b>${label(mm, dd)}</b><span>${esc(`${h.emoji} ${h.name}`)}</span></a></li>`).join("\n")}
+      </ul>
+    </section>
+`;
+}
+
+// The weekday this date falls on for the next five years.
+function weekdayRows(m, d, year) {
+  const rows = [];
+  for (let y = year; rows.length < 5 && y < year + 12; y++) {
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    if (dt.getUTCMonth() !== m - 1) continue;
+    rows.push(`<tr><th scope="row">${y}</th><td>${WEEKDAYS[dt.getUTCDay()]}</td></tr>`);
+  }
+  return `    <section class="hd-related">
+      <h2>What day of the week is ${label(m, d)}?</h2>
+      <div class="hd-table"><table>
+        <thead><tr><th scope="col">Year</th><th scope="col">Weekday</th></tr></thead>
+        <tbody>${rows.join("")}</tbody>
+      </table></div>
+    </section>
+`;
+}
+
 // ---------- pages ----------
 
-function dayPage(data, m, d, years, prev, next) {
+function dayPage(data, m, d, years, prev, next, daysWithContent) {
   const { all } = dayEntries(data, m, d);
   const names = all.map((h) => h.name);
   const when = label(m, d);
@@ -365,7 +411,7 @@ function dayPage(data, m, d, years, prev, next) {
     <div class="hd-grid">
 ${all.map(card).join("\n")}
     </div>
-${adSlot("day")}${appPitch("a holiday like this")}
+${relatedDays(data, m, d, daysWithContent)}${weekdayRows(m, d, years[0])}${adSlot("day")}${appPitch("a holiday like this")}
     <nav class="pager" aria-label="Nearby days">
       <a href="${slug(...prev)}.html"><span><span class="label">Previous day</span><b>${label(...prev)}</b></span></a>
       <a class="next" href="${slug(...next)}.html"><span><span class="label">Next day</span><b>${label(...next)}</b></span></a>
@@ -515,7 +561,7 @@ for (const f of fs.readdirSync(OUT)) {
 days.forEach(([m, d], i) => {
   const prev = days[(i - 1 + days.length) % days.length];
   const next = days[(i + 1) % days.length];
-  fs.writeFileSync(path.join(OUT, `${slug(m, d)}.html`), dayPage(data, m, d, years, prev, next));
+  fs.writeFileSync(path.join(OUT, `${slug(m, d)}.html`), dayPage(data, m, d, years, prev, next, daysWithContent));
 });
 for (let m = 1; m <= 12; m++) fs.writeFileSync(path.join(OUT, `${monthSlug(m)}.html`), monthPage(data, m, years, daysWithContent));
 fs.writeFileSync(path.join(OUT, "index.html"), indexPage(data, today, years, daysWithContent));
