@@ -309,6 +309,123 @@
       ]
     },
     {
+      "slug": "lower-hot-tub-alkalinity",
+      "app": "tubtender",
+      "title": "How to Lower Hot Tub Alkalinity (and Keep pH Steady)",
+      "description": "Lower hot tub alkalinity: add pH decreaser until pH is about 7.2, then run the jets with the cover off so pH rises. Repeat daily until 80 to 120 ppm.",
+      "h1": "How to lower hot tub alkalinity",
+      "answer": "To lower hot tub alkalinity, add pH decreaser (dry acid) or muriatic acid until pH reads about 7.2, which uses up alkalinity, then run the jets with the cover off for 30 to 60 minutes so pH climbs back without the alkalinity returning. Retest the next day and repeat until total alkalinity sits between 80 and 120 ppm; most tubs get there in two to four rounds.",
+      "updated": "2026-11-18",
+      "sections": [
+        {
+          "h2": "Why acid and air, not acid alone",
+          "paras": [
+            "Total alkalinity is the water's buffer: it holds pH in place. Any acid you add lowers both pH and alkalinity at the same time, so there is no product that lowers alkalinity on its own.",
+            "The trick is the second half. Aeration (jets, air blower, cover off) lets dissolved carbon dioxide escape, and that raises pH without adding any alkalinity back. Acid down, air up, repeat: each round leaves alkalinity lower and pH where it started."
+          ]
+        },
+        {
+          "h2": "Step by step",
+          "steps": [
+            "Test first. Write down total alkalinity and pH. If alkalinity is 120 ppm or less, leave it alone and fix pH instead.",
+            "Work out the dose. The free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> takes your readings, tub size and the strength on your bottle, and gives the amount of pH decreaser that brings pH to 7.2. Without it, follow the label and start with less than it says; you can always add more.",
+            "Add the acid with the circulation pump running and the air jets off, so it mixes without being aerated away. Pour dry acid into the water slowly, or dissolve it in a bucket of tub water first. Add muriatic acid to water, never water to acid, with gloves and eye protection.",
+            "Wait 20 minutes and retest pH. If it is still above 7.2, add a smaller second dose.",
+            "Aerate. Turn the jets and air blower on and leave the cover off for 30 to 60 minutes. pH rises; alkalinity stays down.",
+            "Retest the next day. Alkalinity still above 120 ppm? Repeat from step 2. Once it is in range, set pH to about 7.4 to 7.6 and shock as usual."
+          ]
+        },
+        {
+          "h2": "Target readings",
+          "intro": "These are the common spa targets, the same ones the calculator and TubTender use.",
+          "table": {
+            "head": [
+              "Reading",
+              "Target",
+              "Why it matters"
+            ],
+            "rows": [
+              [
+                "Total alkalinity",
+                "80 to 120 ppm",
+                "Too high and pH keeps drifting up; too low and pH swings with every soak"
+              ],
+              [
+                "pH",
+                "7.2 to 7.8",
+                "High pH weakens chlorine and bromine and can cloud the water"
+              ],
+              [
+                "pH while lowering alkalinity",
+                "about 7.2",
+                "Low enough to use up alkalinity, not so low that it bites skin or metal"
+              ]
+            ]
+          },
+          "note": "Do not soak while pH is below 7.2. Wait until aeration has brought it back into range."
+        },
+        {
+          "h2": "Why alkalinity keeps creeping up",
+          "list": [
+            "Fill water. Many areas have hard, high alkalinity tap water, so every top up adds more. Test a glass of tap water once to know what you start with.",
+            "pH increaser (soda ash) and alkalinity increaser (baking soda) both add alkalinity. Using either to fix a low pH reading that was really a testing error is a common cause.",
+            "Liquid chlorine and bleach nudge pH up, which tempts more acid and more swings. Small, regular doses keep it steady.",
+            "Old water. After three to four months dissolved solids build up and balance gets harder. If alkalinity is far above 200 ppm and the water is near its drain date, a partial drain and refill is faster."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Lowering pH first and alkalinity later. Alkalinity pulls pH back up within a day, so you end up doing it twice. Fix alkalinity first, then pH.",
+            "Adding the whole label dose at once. Big doses overshoot pH into the 6s. Split it and retest.",
+            "Using vinegar. It barely moves alkalinity and adds organics the sanitizer has to burn off.",
+            "Running the air jets while the acid goes in. That raises pH again before the acid has used up any alkalinity."
+          ]
+        },
+        {
+          "h2": "A faster way next time",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. When alkalinity is high it shows this same lower then aerate plan.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works; what matters is the strength printed on the label, which the calculator asks for.",
+          "steps": [
+            "Test strips or a drop kit that read alkalinity and pH: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub test strips on Amazon</a>.",
+            "A pH decreaser (sodium bisulfate, also sold as dry acid): <a href=\"https://www.amazon.com/s?k=spa+ph+decreaser&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa pH decreaser</a>.",
+            "Gloves and eye protection if you use <a href=\"https://www.amazon.com/s?k=muriatic+acid+for+spa&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">muriatic acid</a> instead."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
+        }
+      ],
+      "faq": [
+        [
+          "How do I lower alkalinity in my hot tub?",
+          "Add pH decreaser or muriatic acid until pH is about 7.2, then run the jets with the cover off for 30 to 60 minutes so pH rises again. Retest the next day and repeat until alkalinity is 80 to 120 ppm."
+        ],
+        [
+          "Can I lower alkalinity without lowering pH?",
+          "Not with one product. Acid always lowers both. Aeration then raises pH back without adding alkalinity, so the pair of steps lowers alkalinity while pH ends where it began."
+        ],
+        [
+          "What is the right total alkalinity for a hot tub?",
+          "80 to 120 ppm for most hot tubs. Check your tub's manual, since some makers name a slightly different range."
+        ],
+        [
+          "How long does it take to lower hot tub alkalinity?",
+          "Usually two to four days, one round of acid and aeration per day, with a retest each morning. Very high readings may need a partial drain."
+        ],
+        [
+          "Should I fix alkalinity or pH first?",
+          "Alkalinity first. It buffers pH, so pH set before alkalinity drifts back within a day."
+        ],
+        [
+          "Is it safe to use the hot tub while lowering alkalinity?",
+          "Wait until pH is back to at least 7.2 and the sanitizer is in range. Low pH can sting eyes and skin."
+        ]
+      ]
+    },
+    {
       "slug": "sleep-sounds-offline-on-a-plane",
       "app": "drift",
       "title": "Sleep Sounds That Work Offline on a Plane (iPhone)",

@@ -83,7 +83,7 @@ function guidePage(g) {
   const appPage = fs.readFileSync(path.join(site, `apps/${app.slug}.html`), 'utf8');
   const stamp = (file) => appPage.match(new RegExp(`assets/apps/${app.slug}/${file.replace('.', '\\.')}(\\?v=[\\w.]+)`))?.[1] ?? '';
   const image = `${BASE}/assets/apps/${app.slug}/og.jpg${stamp('og.jpg')}`;
-  const store = `https://apps.apple.com/us/app/id${app.appStoreId}`;
+  const store = `https://apps.apple.com/us/app/id${app.appStoreId}?ct=guide-${g.slug}&amp;mt=8`;
   for (const [k, max] of [['title', 60], ['description', 155]]) {
     if (g[k].length > max) throw new Error(`${g.slug}: ${k} is ${g[k].length} characters, limit ${max}`);
   }
