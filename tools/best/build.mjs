@@ -10,6 +10,9 @@ const BASE = 'https://graysmithlabs.com';
 const data = JSON.parse(fs.readFileSync(path.join(site, 'tools/best/best.json'), 'utf8'));
 const facts = JSON.parse(fs.readFileSync(path.join(site, 'tools/ai/products.json'), 'utf8'));
 const check = process.argv.includes('--check');
+// The lists carry their own stylesheet, stamped by content, so a cached styles.css never leaves them unstyled
+const css = fs.readFileSync(path.join(site, 'tools/best/best.css'), 'utf8');
+const cssStamp = (await import('node:crypto')).createHash('sha1').update(css).digest('hex').slice(0, 8);
 
 // Header and footer come from an app page so these pages never drift from the site
 const shell = fs.readFileSync(path.join(site, 'apps/signsnap.html'), 'utf8');
@@ -51,6 +54,7 @@ function head({ title, description, url, image, extra = '' }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="best.css?v=${cssStamp}">
 <script src="../main.js" defer></script>
 ${extra}</head>
 <body>
@@ -121,8 +125,10 @@ function listPage(l) {
   };
   const extra = `<meta name="apple-itunes-app" content="app-id=${app.appStoreId}">\n<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n`;
 
-  const pick = (p) => `      <li class="bx-pick${p.ours ? ' ours' : ''}">
-        <h3>${esc(p.name)} <span class="bx-badge">${esc(p.best)}</span></h3>
+  const id = (p) => 'pick-' + p.name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replaceAll(' ', '_');
+  const pick = (p) => `      <li class="bx-pick${p.ours ? ' ours' : ''}" id="${id(p)}">
+        <p class="bx-badge">${esc(p.best)}</p>
+        <h3>${esc(p.name)}</h3>
         <p>${html(p.body)}</p>
         <ul class="guide-list">
 ${p.pros.map((x) => `          <li>${html(x)}</li>`).join('\n')}
@@ -139,7 +145,15 @@ ${p.ours ? `        <div class="btn-row">\n          <a class="btn" href="${stor
     <p class="guide-answer">${html(l.answer)}</p>
     <p class="guide-meta">Updated ${dateText(l.updated)} by Graysmith Labs</p>
     ${art(l.slug, 'bx')}
-    <p class="guide-note bx-disclose">We make ${esc(app.name)}, so weigh our first place with that in mind. We compared every app here on its App Store listing, free tier, features and recent reviews, and each pick says plainly when another app is the better fit for you.</p>
+    <div class="bx-top">
+      <img src="../assets/apps/${app.slug}/icon.png${stamp('icon.png')}" alt="${esc(app.name)} app icon" width="56" height="56">
+      <div class="bx-top-text">
+        <p class="bx-badge">Our top pick</p>
+        <b>${esc(app.name)}</b>
+        <span>${esc(l.picks[0].best)}</span>
+      </div>
+      <a class="btn" href="${store}" rel="noopener">Get ${esc(app.name)}</a>
+    </div>
 
     <section class="guide-sec">
       <h2>How we picked</h2>
@@ -153,7 +167,7 @@ ${l.how.map((x) => `        <li>${html(x)}</li>`).join('\n')}
       <div class="guide-table"><table>
         <thead><tr><th scope="col">App</th>${l.table.map((h) => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead>
         <tbody>
-${l.picks.map((p) => `          <tr><th scope="row">${esc(p.name)}</th>${(l.rows[p.name] ?? []).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('\n')}
+${l.picks.map((p) => `          <tr${p.ours ? ' class="ours"' : ''}><th scope="row"><a href="#${id(p)}">${esc(p.name)}</a></th>${(l.rows[p.name] ?? []).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('\n')}
         </tbody>
       </table></div>
     </section>
@@ -191,6 +205,7 @@ ${l.faq.map(([q, a]) => `        <details>\n          <summary>${esc(q)}</summar
 ${others.map((o) => `        <li><a href="${o.slug}.html">${esc(o.h1)}</a></li>`).join('\n')}
       </ul>
     </section>
+    <p class="guide-note bx-disclose">We make ${esc(app.name)}, so weigh our first place with that in mind. We compared every app here on its App Store listing, free tier, features and recent reviews, and each pick says plainly when another app is the better fit for you.</p>
   </article>
 </main>
 ${footer}
@@ -228,7 +243,7 @@ ${footer}
   );
 }
 
-const pages = new Map([['best/index.html', indexPage()]]);
+const pages = new Map([['best/index.html', indexPage()], ['best/best.css', css]]);
 for (const l of data.lists) pages.set(`best/${l.slug}.html`, listPage(l));
 
 // Sitemap: one line per list, kept between markers

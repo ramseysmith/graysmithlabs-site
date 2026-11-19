@@ -24,6 +24,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="best.css?v=1f1c0f6d">
 <script src="../main.js" defer></script>
 <meta name="apple-itunes-app" content="app-id=6767243151">
 <script type="application/ld+json">
@@ -167,7 +168,15 @@
 <path d="M400 262c-36-26-54-44-54-64a26 26 0 0 1 54-8 26 26 0 0 1 54 8c0 20-18 38-54 64z" class="bx-acc bx-ink" stroke-width="3"/></g>
 <g class="bx-ink"><path d="M620 120v22M609 131h22M170 140v18M161 149h18"/></g>
 </svg>
-    <p class="guide-note bx-disclose">We make SayBright, so weigh our first place with that in mind. We compared every app here on its App Store listing, free tier, features and recent reviews, and each pick says plainly when another app is the better fit for you.</p>
+    <div class="bx-top">
+      <img src="../assets/apps/saybright/icon.png?v=1.3" alt="SayBright app icon" width="56" height="56">
+      <div class="bx-top-text">
+        <p class="bx-badge">Our top pick</p>
+        <b>SayBright</b>
+        <span>Best overall, and the lowest price</span>
+      </div>
+      <a class="btn" href="https://apps.apple.com/us/app/id6767243151?ct=best-affirmation-apps&amp;mt=8" rel="noopener">Get SayBright</a>
+    </div>
 
     <section class="guide-sec">
       <h2>How we picked</h2>
@@ -184,10 +193,10 @@
       <div class="guide-table"><table>
         <thead><tr><th scope="col">App</th><th scope="col">Free to start</th><th scope="col">Widgets</th><th scope="col">Standout</th></tr></thead>
         <tbody>
-          <tr><th scope="row">SayBright</th><td>Five a day</td><td>Premium</td><td>$0.99 a month</td></tr>
-          <tr><th scope="row">I am</th><td>Yes</td><td>Free</td><td>Biggest following</td></tr>
-          <tr><th scope="row">Motivation</th><td>Yes</td><td>Free</td><td>Quotes</td></tr>
-          <tr><th scope="row">ThinkUp</th><td>Limited</td><td>Yes</td><td>Your own voice</td></tr>
+          <tr class="ours"><th scope="row"><a href="#pick-saybright">SayBright</a></th><td>Five a day</td><td>Premium</td><td>$0.99 a month</td></tr>
+          <tr><th scope="row"><a href="#pick-i_am">I am</a></th><td>Yes</td><td>Free</td><td>Biggest following</td></tr>
+          <tr><th scope="row"><a href="#pick-motivation">Motivation</a></th><td>Yes</td><td>Free</td><td>Quotes</td></tr>
+          <tr><th scope="row"><a href="#pick-thinkup">ThinkUp</a></th><td>Limited</td><td>Yes</td><td>Your own voice</td></tr>
         </tbody>
       </table></div>
     </section>
@@ -195,8 +204,9 @@
     <section class="guide-sec">
       <h2>The 4 best affirmations apps in 2026</h2>
       <ol class="bx-picks">
-      <li class="bx-pick ours">
-        <h3>SayBright <span class="bx-badge">Best overall, and the lowest price</span></h3>
+      <li class="bx-pick ours" id="pick-saybright">
+        <p class="bx-badge">Best overall, and the lowest price</p>
+        <h3>SayBright</h3>
         <p>SayBright gets you saying your first affirmation in under a minute, then gives you five a day from the topics you pick, out of 340 in ten categories, with the whole Confidence category free. A reminder at the time you choose and streak milestones from 7 to 365 days keep the habit going, and you can write your own. Premium, $0.99 a month or $9.99 a year, opens every category, Lock Screen and Home Screen widgets, and recordings in your own voice.</p>
         <ul class="guide-list">
           <li>Five free affirmations a day and Confidence fully free</li>
@@ -209,8 +219,9 @@
           <a class="btn ghost" href="../apps/saybright.html">About SayBright</a>
         </div>
       </li>
-      <li class="bx-pick">
-        <h3>I am <span class="bx-badge">Best for free widgets</span></h3>
+      <li class="bx-pick" id="pick-i_am">
+        <p class="bx-badge">Best for free widgets</p>
+        <h3>I am</h3>
         <p>The most popular affirmation app, with hundreds of thousands of ratings, leads with Lock Screen and Home Screen widgets and updates almost every week.</p>
         <ul class="guide-list">
           <li>Free widgets</li>
@@ -218,8 +229,9 @@
         </ul>
         <p class="bx-con"><strong>Pick something else if:</strong> A pricier subscription for the full library.</p>
       </li>
-      <li class="bx-pick">
-        <h3>Motivation <span class="bx-badge">Best for quotes</span></h3>
+      <li class="bx-pick" id="pick-motivation">
+        <p class="bx-badge">Best for quotes</p>
+        <h3>Motivation</h3>
         <p>From the same playbook as I am, with inspirational quotes and widgets, and around a million ratings.</p>
         <ul class="guide-list">
           <li>Large quote library</li>
@@ -227,8 +239,9 @@
         </ul>
         <p class="bx-con"><strong>Pick something else if:</strong> More quotes than personal affirmations.</p>
       </li>
-      <li class="bx-pick">
-        <h3>ThinkUp <span class="bx-badge">Best for recording your own voice</span></h3>
+      <li class="bx-pick" id="pick-thinkup">
+        <p class="bx-badge">Best for recording your own voice</p>
+        <h3>ThinkUp</h3>
         <p>ThinkUp built its name on recording affirmations in your own voice over music, backed by expert endorsements.</p>
         <ul class="guide-list">
           <li>Voice recording with music</li>
@@ -280,6 +293,7 @@
         <li><a href="invoice-apps.html">The best invoice apps for small service businesses</a></li>
       </ul>
     </section>
+    <p class="guide-note bx-disclose">We make SayBright, so weigh our first place with that in mind. We compared every app here on its App Store listing, free tier, features and recent reviews, and each pick says plainly when another app is the better fit for you.</p>
   </article>
 </main>
 <footer class="site-foot">
