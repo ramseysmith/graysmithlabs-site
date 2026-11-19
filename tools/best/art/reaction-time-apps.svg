@@ -1,0 +1,7 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">A target with a lightning bolt, tap ripples and a stopwatch</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<circle cx="360" cy="215" r="160" class="bx-card bx-ink"/><circle cx="360" cy="215" r="118" fill="url(#{{p}}-h)" class="bx-ink"/><circle cx="360" cy="215" r="76" class="bx-card bx-ink"/><circle cx="360" cy="215" r="36" class="bx-acc"/>
+<g class="bx-ripple"><circle cx="360" cy="215" r="52" class="bx-inkacc"/></g>
+<path d="M392 60l-70 150h48l-30 150 98-190h-54l40-110z" class="bx-acc bx-ink" stroke-width="3"/>
+<g class="bx-float"><circle cx="620" cy="250" r="72" class="bx-card bx-ink"/><rect x="605" y="160" width="30" height="16" rx="5" class="bx-inkfill"/><path class="bx-ink" d="M620 250v-44M620 250l28 18"/><circle cx="620" cy="250" r="6" class="bx-inkfill"/></g>
+<g class="bx-ink"><path d="M140 120l-26-16M130 170h-34M150 75l-14-26"/></g>
+</svg>

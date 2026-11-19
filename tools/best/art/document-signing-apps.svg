@@ -1,0 +1,9 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">A document with a fresh signature, a pen and a check mark</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<circle cx="400" cy="210" r="170" class="bx-ring"/>
+<g transform="rotate(-6 380 210)"><rect x="270" y="60" width="220" height="290" rx="14" class="bx-card bx-ink"/>
+<g class="bx-inksoft"><path d="M305 110h150M305 140h150M305 170h110M305 200h150M305 230h90"/></g>
+<path class="bx-ink" d="M305 300h150"/>
+<path class="bx-sig" d="M312 290c14-40 26-46 24-14s10 6 22-12 4 34 22 10 14-6 22 4 14-8 30-10"/></g>
+<g class="bx-float" transform="rotate(38 560 230)"><rect x="540" y="110" width="34" height="200" rx="12" class="bx-inkfill"/><rect x="540" y="110" width="34" height="60" rx="12" fill="url(#{{p}}-h)" stroke="var(--art-rim)" stroke-width="2"/><path d="M540 300l17 40 17-40z" class="bx-acc"/></g>
+<circle cx="220" cy="300" r="44" class="bx-acc"/><path class="bx-inkpaper" d="M200 300l14 14 28-30"/>
+</svg>

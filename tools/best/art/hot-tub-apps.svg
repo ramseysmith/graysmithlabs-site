@@ -1,0 +1,9 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">A steaming hot tub with bubbles and a test strip</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<g class="bx-steam bx-inksoft"><path d="M300 150c-20-24 20-36 0-60s20-36 0-56"/><path d="M380 140c-20-24 20-36 0-60s20-36 0-56"/><path d="M460 150c-20-24 20-36 0-60s20-36 0-56"/></g>
+<path d="M200 200h400l-22 150a24 24 0 0 1-24 20H246a24 24 0 0 1-24-20z" class="bx-card bx-ink"/>
+<path d="M210 230c32-18 64-18 96 0s64 18 96 0 64-18 96 0 64 18 92 0l-14 116a20 20 0 0 1-20 16H250a20 20 0 0 1-20-16z" class="bx-acc"/>
+<path d="M210 230c32-18 64-18 96 0s64 18 96 0 64-18 96 0 64 18 92 0l-14 116a20 20 0 0 1-20 16H250a20 20 0 0 1-20-16z" fill="url(#{{p}}-h)"/>
+<rect x="186" y="186" width="428" height="22" rx="11" class="bx-inkfill"/>
+<g class="bx-bubbles"><circle cx="290" cy="290" r="12" class="bx-inkpaper"/><circle cx="350" cy="320" r="8" class="bx-inkpaper"/><circle cx="450" cy="300" r="14" class="bx-inkpaper"/><circle cx="520" cy="330" r="7" class="bx-inkpaper"/></g>
+<g class="bx-float" transform="rotate(14 680 220)"><rect x="660" y="90" width="40" height="250" rx="8" class="bx-card bx-ink"/><rect x="668" y="110" width="24" height="24" rx="4" class="bx-acc"/><rect x="668" y="146" width="24" height="24" rx="4" fill="url(#{{p}}-h)" stroke="var(--art-rim)" stroke-width="2"/><rect x="668" y="182" width="24" height="24" rx="4" class="bx-soft"/><rect x="668" y="218" width="24" height="24" rx="4" class="bx-inkfill"/></g>
+</svg>

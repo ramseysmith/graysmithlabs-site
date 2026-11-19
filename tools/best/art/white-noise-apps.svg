@@ -1,0 +1,9 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">A crescent moon and stars over rolling sound waves</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<circle cx="400" cy="210" r="150" class="bx-ring"/><circle cx="400" cy="210" r="190" class="bx-ring dash"/>
+<g class="bx-float"><circle cx="440" cy="150" r="78" class="bx-acc"/><circle cx="440" cy="150" r="78" fill="url(#{{p}}-h)"/><circle cx="478" cy="122" r="66" class="bx-sky"/></g>
+<g class="bx-ink"><path d="M262 92v28M248 106h28"/><path d="M598 230v20M588 240h20"/><path d="M330 182v14M323 189h14"/></g>
+<circle cx="560" cy="80" r="5" class="bx-inkfill"/><circle cx="300" cy="250" r="4" class="bx-inkfill"/>
+<g class="bx-wave"><path class="bx-ink" d="M40 300c50-36 100-36 150 0s100 36 150 0 100-36 150 0 100 36 150 0 100-36 150 0"/>
+<path class="bx-inkacc" d="M40 336c50-30 100-30 150 0s100 30 150 0 100-30 150 0 100 30 150 0 100-30 150 0"/>
+<path class="bx-inksoft" d="M40 370c50-22 100-22 150 0s100 22 150 0 100-22 150 0 100 22 150 0 100-22 150 0"/></g>
+</svg>

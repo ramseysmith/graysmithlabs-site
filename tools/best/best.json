@@ -1,0 +1,815 @@
+{
+  "_readme": "Best apps lists on graysmithlabs.com/best/. node tools/best/build.mjs writes best/<slug>.html and best/index.html from this file and the art in tools/best/art/<slug>.svg ({{p}} becomes a per page id prefix). Our app is pick 1 with a plain disclosure and an honest 'pick another app if' line. Competitor facts come from HQ docs/competitors/<slug>.md or a source you read that day; never invent ratings or prices. Our app's facts come from tools/ai/products.json. No dashes in prose.",
+  "lists": [
+    {
+      "slug": "white-noise-apps",
+      "app": "drift",
+      "title": "Best White Noise Apps for iPhone in 2026",
+      "description": "The best white noise apps for iPhone in 2026 compared: Drift, White Noise Lite, Rain Rain, BetterSleep, Dark Noise and Calm, on free sounds and price.",
+      "h1": "The best white noise apps for iPhone in 2026",
+      "topic": "White noise",
+      "answer": "The best white noise app for most people is Drift: its white noise, rain, ocean, stream, fan and 432 Hz sounds are free, it plays all night with the screen locked and offline, and Premium is only $1.99 a month. If you want to mix many sounds together, White Noise Lite and Rain Rain have the largest free catalogs, and Calm is worth it only if you also want guided sleep stories.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Free tier that works all night.</strong> No two hour caps and no pop ups once the lights are off.",
+        "<strong>Offline and locked screen playback.</strong> A sleep app that stops on a plane or when the phone locks fails at its one job.",
+        "<strong>Sound quality and loops.</strong> Noise should sound continuous, without an audible seam every few seconds.",
+        "<strong>Fair price.</strong> What Premium costs a year, and what you lose without it."
+      ],
+      "picks": [
+        {
+          "name": "Drift",
+          "ours": true,
+          "best": "Best overall, and the best value",
+          "body": "Drift is built for one thing: putting a steady sound on and falling asleep. White noise, rain, ocean, stream, fan and a 432 Hz tone are free, every sound ships inside the app so it works in airplane mode, and a sleep timer can fade the sound out as it ends. Premium adds pink noise, green noise, thunder, forest, fire, wind, cafe, more tones and Alpha, Theta and Delta binaural beats for $1.99 a month, a fraction of the big sleep apps.",
+          "pros": [
+            "Six good sounds free, with no time cap",
+            "Works offline and with the screen locked",
+            "No account needed",
+            "Premium is $1.99 a month with a free first week"
+          ],
+          "cons": "No mixer yet: you play one sound at a time."
+        },
+        {
+          "name": "White Noise Lite",
+          "best": "Best for every noise color and a bedside clock",
+          "body": "TMSOFT's app has been around for about fifteen years and carries hundreds of thousands of ratings. The free version has more than 50 sounds, including white, pink, brown, blue and violet noise, plus a mix pad, alarms and a clock face.",
+          "pros": [
+            "Very large free catalog",
+            "Mixing and fading alarms"
+          ],
+          "cons": "Free with ads; removing them means buying a separate paid app."
+        },
+        {
+          "name": "Rain Rain Sleep Sounds",
+          "best": "Best free catalog for mixing",
+          "body": "Rain Rain gives away more than 50 sounds with no time limit and only a small banner, and lets you blend them with a mixer and a fade timer. People with tinnitus like its oscillator and soften filter.",
+          "pros": [
+            "Generous free tier with no time limit",
+            "Mixer, timer and a Lock Screen widget"
+          ],
+          "cons": "The interface is busy next to simpler apps."
+        },
+        {
+          "name": "BetterSleep",
+          "best": "Best for building your own soundscape",
+          "body": "Formerly Relax Melodies, BetterSleep has more than 300 sounds, per sound volume mixing, a sleep tracker and bedtime reminders. Its mixer is the one reviewers praise most.",
+          "pros": [
+            "Huge library and a strong mixer",
+            "Sleep tracking built in"
+          ],
+          "cons": "Much of the library is locked, and reviews mention recurring charges."
+        },
+        {
+          "name": "Dark Noise",
+          "best": "Best design and iPhone integration",
+          "body": "A small team app focused on noise colors, with widgets, Live Activities, a Control Center control and a fade timer. Pro comes as monthly, yearly or lifetime.",
+          "pros": [
+            "Beautiful, ad free design",
+            "Lifetime option"
+          ],
+          "cons": "The free tier is thin compared with the apps above."
+        },
+        {
+          "name": "Calm",
+          "best": "Best if you want sleep stories, not just noise",
+          "body": "Calm is a full meditation and sleep subscription with narrated sleep stories, music and soundscapes. Noise is a small part of what you pay for, and it asks for an account and pushes a yearly plan early.",
+          "pros": [
+            "Famous narrators and sleep stories",
+            "Meditation courses included"
+          ],
+          "cons": "One of the most expensive choices if all you want is white noise."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "Offline",
+        "Standout"
+      ],
+      "rows": {
+        "Drift": [
+          "Six sounds, no cap",
+          "Yes",
+          "$1.99 a month Premium"
+        ],
+        "White Noise Lite": [
+          "50 plus sounds, ads",
+          "Yes",
+          "Every noise color"
+        ],
+        "Rain Rain Sleep Sounds": [
+          "50 plus sounds",
+          "Yes",
+          "Free mixer"
+        ],
+        "BetterSleep": [
+          "Limited",
+          "Partly",
+          "300 plus sound mixer"
+        ],
+        "Dark Noise": [
+          "Limited",
+          "Yes",
+          "Widgets, lifetime plan"
+        ],
+        "Calm": [
+          "Trial",
+          "Downloads",
+          "Sleep stories"
+        ]
+      },
+      "faq": [
+        [
+          "What is the best free white noise app for iPhone?",
+          "Drift is the best free white noise app for most people: white noise, rain, ocean, stream, fan and a 432 Hz tone are free with no time cap, and it plays offline with the screen locked. White Noise Lite and Rain Rain have larger free catalogs if you want to mix sounds."
+        ],
+        [
+          "Do white noise apps work in airplane mode?",
+          "Drift, White Noise Lite and Rain Rain keep their sounds on the phone, so they play in airplane mode. Streaming apps like Calm need each sound downloaded first. Test in airplane mode at home before a trip."
+        ],
+        [
+          "Is white noise or pink noise better for sleep?",
+          "Both mask sounds such as traffic and snoring. Pink noise is softer and deeper, which many people find easier to sleep with. Try each for a few nights; Drift has white noise free and pink noise in Premium."
+        ],
+        [
+          "Is there a white noise app with no subscription?",
+          "White Noise Lite is free with ads and sells a one time upgrade as a separate app. Drift's free sounds need no subscription at all; Premium is optional."
+        ],
+        [
+          "Can I try white noise without an app?",
+          "Yes. Our free <a href=\"../white-noise/\">white noise generator</a> plays white, pink and brown noise in the browser."
+        ]
+      ]
+    },
+    {
+      "slug": "holiday-apps",
+      "app": "celebriday",
+      "title": "Best National Day and Holiday Apps for iPhone (2026)",
+      "description": "The best apps to see what national day it is today: CelebriDay, Checkiday, National Holiday Today, National Day Calendar and Apple Calendar.",
+      "h1": "The best national day and holiday apps for iPhone",
+      "topic": "Holidays",
+      "answer": "The best app to see what holiday it is today is CelebriDay: each of its 700 plus national days has its own illustration, a fun fact and a picture ready to share as a post or story, and today and tomorrow are always free. Checkiday is the pick for detailed sourced write ups, and National Holiday Today has the biggest following and a widget.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Every day covered.</strong> Hundreds of real observances, from National Pizza Day to World Emoji Day, with dates you can trust.",
+        "<strong>Something to share.</strong> Most people look up the day to post it, tell a coworker or plan a theme.",
+        "<strong>A daily nudge.</strong> A morning note so you never miss the fun ones.",
+        "<strong>Free use.</strong> How much you get before paying."
+      ],
+      "picks": [
+        {
+          "name": "CelebriDay",
+          "ours": true,
+          "best": "Best overall, and best for sharing",
+          "body": "CelebriDay shows one holiday per screen with its own drawn illustration and a fun fact, and turns it into a square picture for messages or a 9:16 picture for Stories in one tap. A morning note names the day with its picture, and the People tab shows which national day each friend or family member was born on, with a birthday card ready to send. Premium opens the whole calendar, unlimited people and the idea lists for big holidays like Thanksgiving and Christmas.",
+          "pros": [
+            "Original art for every one of 700 plus days",
+            "Share pictures sized for posts and Stories",
+            "Birthday national days for family and friends",
+            "Today and tomorrow free, forever"
+          ],
+          "cons": "No home screen widget yet."
+        },
+        {
+          "name": "Checkiday",
+          "best": "Best for sourced detail",
+          "body": "Checkiday writes detailed pages for each observance with where it came from, and ships updates several times a month. It has a widget and a well known website.",
+          "pros": [
+            "Detailed origins for each day",
+            "Widget and frequent updates"
+          ],
+          "cons": "Text first, with less to share as a picture."
+        },
+        {
+          "name": "National Holiday Today",
+          "best": "Most popular, with a widget",
+          "body": "Rated 4.6 from thousands of reviews, it is a long running special day calendar with a widget and sharing built in.",
+          "pros": [
+            "Years of ratings and polish",
+            "Home screen widget"
+          ],
+          "cons": "Stock style imagery rather than art made for each day."
+        },
+        {
+          "name": "National Day: Calendar 2026",
+          "best": "Best for the biggest list",
+          "body": "This app leads with more than 1,000 holidays and fun days and pitches them as conversation starters.",
+          "pros": [
+            "Very large list",
+            "Photo led design"
+          ],
+          "cons": "A smaller, newer app with few ratings so far."
+        },
+        {
+          "name": "Apple Calendar",
+          "best": "Best built in option for public holidays",
+          "body": "The Calendar app already on your iPhone can show public holidays like Thanksgiving and Memorial Day. It does not include national days such as National Coffee Day.",
+          "pros": [
+            "Free and already installed"
+          ],
+          "cons": "Official holidays only, no fun national days."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "Share pictures",
+        "Standout"
+      ],
+      "rows": {
+        "CelebriDay": [
+          "Today and tomorrow",
+          "Post and Story",
+          "Art for every day"
+        ],
+        "Checkiday": [
+          "Yes",
+          "Text",
+          "Sourced detail"
+        ],
+        "National Holiday Today": [
+          "Yes",
+          "Yes",
+          "Widget, big following"
+        ],
+        "National Day: Calendar 2026": [
+          "Yes",
+          "Yes",
+          "1,000 plus days"
+        ],
+        "Apple Calendar": [
+          "Built in",
+          "No",
+          "Public holidays"
+        ]
+      },
+      "faq": [
+        [
+          "What app tells you what national day it is?",
+          "CelebriDay tells you what national day it is today with its own illustration, a fun fact and a picture to share, and sends a morning note so you see it first thing. Checkiday and National Holiday Today are good alternatives."
+        ],
+        [
+          "Is there a free app for national days?",
+          "Yes. CelebriDay's today and tomorrow are free with ads, including the art, fun fact and share pictures. You can also browse every day by month on our free <a href=\"../holidays/\">national day calendar</a>."
+        ],
+        [
+          "What national day is my birthday?",
+          "CelebriDay's People tab shows the national day you were born on, and the one for each friend or family member you add."
+        ],
+        [
+          "Does the iPhone Calendar show national days?",
+          "No. Apple Calendar shows public holidays like Thanksgiving, not fun observances like National Donut Day. You need an app such as CelebriDay for those."
+        ]
+      ]
+    },
+    {
+      "slug": "document-signing-apps",
+      "app": "signsnap",
+      "title": "Best Apps to Sign Documents on iPhone (2026)",
+      "description": "The best apps to sign a PDF or paper form on iPhone in 2026: SignSnap, Markup, Adobe Fill & Sign, DocuSign and Signeasy, with what each costs and needs.",
+      "h1": "The best apps to sign documents on iPhone",
+      "topic": "Signing",
+      "answer": "The best app to sign your own documents on iPhone is SignSnap: it scans a paper form or opens a PDF, places your saved signature and the date, and shares the signed PDF with no account and no uploads. If someone sent you a DocuSign request, sign it in DocuSign for free, and for a one off PDF the built in Markup tool costs nothing.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Paper and PDF.</strong> Leases and permission slips often arrive on paper, not as a file.",
+        "<strong>No account.</strong> Signing one document should not mean a new login.",
+        "<strong>Privacy.</strong> Whether your documents leave your phone.",
+        "<strong>Speed.</strong> Saved signature, initials and the date in a tap or two."
+      ],
+      "picks": [
+        {
+          "name": "SignSnap",
+          "ours": true,
+          "best": "Best overall for signing your own documents",
+          "body": "SignSnap does one job well. Scan a page with the camera (it finds the edges and straightens it) or import a PDF from Files or Photos, drop in the signature you drew or typed once, pinch to size it, tap to stamp the date, and share the PDF to Mail, Messages or AirDrop. Nothing is uploaded and there is no account. The first 2 signed documents are free, a short ad unlocks another, and Premium removes the limit.",
+          "pros": [
+            "Scans paper forms, not just PDFs",
+            "No account and no cloud uploads",
+            "Saved signature, initials and a date stamp"
+          ],
+          "cons": "Made for signing yourself; it does not send documents out for others to sign."
+        },
+        {
+          "name": "Markup (built into iPhone)",
+          "best": "Best free option for a PDF you already have",
+          "body": "Open a PDF in the Files app, tap Markup, then the plus button and Add Signature. It is free and saves your signature, but scanning paper and adding a date take extra steps.",
+          "pros": [
+            "Free and already installed"
+          ],
+          "cons": "No date stamp, and paper needs a separate scan first."
+        },
+        {
+          "name": "Adobe Fill & Sign",
+          "best": "Best for filling in form fields",
+          "body": "Adobe's free app is good at typing into form fields and signing. It works best when you are happy to use an Adobe account.",
+          "pros": [
+            "Strong form filling",
+            "Free to use"
+          ],
+          "cons": "Saving a plain local copy is less direct than in simpler apps."
+        },
+        {
+          "name": "DocuSign",
+          "best": "Best when someone sends you a DocuSign request",
+          "body": "Signing documents other people send you through DocuSign is free. Sending documents for others to sign is where the paid plans start.",
+          "pros": [
+            "Legally robust audit trail",
+            "Free to sign what you are sent"
+          ],
+          "cons": "Overkill, and an account, for signing your own PDF."
+        },
+        {
+          "name": "Signeasy",
+          "best": "Best for occasional sending",
+          "body": "Signeasy lets you sign and send documents, with the first few documents free before a paid plan.",
+          "pros": [
+            "Sign and request signatures in one app"
+          ],
+          "cons": "Account required and a limited free tier."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "No account",
+        "Standout"
+      ],
+      "rows": {
+        "SignSnap": [
+          "2 documents, then ad or Premium",
+          "Yes",
+          "Scan, sign, date, share"
+        ],
+        "Markup (built into iPhone)": [
+          "Free",
+          "Yes",
+          "Already installed"
+        ],
+        "Adobe Fill & Sign": [
+          "Free",
+          "Optional",
+          "Form fields"
+        ],
+        "DocuSign": [
+          "Free to sign",
+          "No",
+          "Requests from others"
+        ],
+        "Signeasy": [
+          "A few documents",
+          "No",
+          "Send for signature"
+        ]
+      },
+      "faq": [
+        [
+          "What is the best free app to sign documents on iPhone?",
+          "For a PDF already on your phone, Markup in the Files app is free. For paper forms, or to add the date and reuse your signature, SignSnap is free for the first 2 documents with no account."
+        ],
+        [
+          "Can I sign a paper document with my iPhone?",
+          "Yes. SignSnap scans the paper page with your camera, straightens it, and lets you sign it and send it back as a PDF. See our guide to <a href=\"../guides/fill-and-sign-lease-on-phone.html\">signing a lease on your phone</a>."
+        ],
+        [
+          "Is an iPhone signature legally binding?",
+          "In the United States, electronic signatures are generally valid under the ESIGN Act for most everyday documents such as leases and permission slips. Check with the person asking for the signature if you are unsure."
+        ],
+        [
+          "Do I need DocuSign to sign a PDF?",
+          "No. You only need DocuSign when someone sends you a DocuSign request. To sign your own PDF, use Markup or SignSnap. Our free <a href=\"../signature-maker/\">signature maker</a> also makes a signature image in the browser."
+        ]
+      ]
+    },
+    {
+      "slug": "reaction-time-apps",
+      "app": "blitztap",
+      "title": "Best Reaction Time Apps and Reflex Games (2026)",
+      "description": "The best reaction time apps and reflex games for iPhone in 2026: BlitzTap, Human Benchmark, Reaction Time Test and Training and Reflex, compared.",
+      "h1": "The best reaction time apps and reflex games",
+      "topic": "Reflexes",
+      "answer": "The best reaction time app to actually improve your reflexes is BlitzTap, a free iPhone and iPad game where you tap the matching shape before a shrinking timer runs out, with a Daily Challenge, no energy timers and nothing pay to win. To measure a single reaction time in milliseconds, use a simple test like Human Benchmark or our free browser test.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Training, not just testing.</strong> A test tells you a number; a game you come back to moves it.",
+        "<strong>Fair to play.</strong> No energy systems, wait timers or pay to win.",
+        "<strong>Short sessions.</strong> Rounds of a minute or two.",
+        "<strong>Progress you can see.</strong> Stats, tiers and something to compare with friends."
+      ],
+      "picks": [
+        {
+          "name": "BlitzTap",
+          "ours": true,
+          "best": "Best overall for training reflexes",
+          "body": "A target shape appears and you tap its match in a grid before the timer runs out. The timer shrinks tier by tier until it is close to one second, which trains speed and visual search together. Play Classic, a 60 second Time Attack, a no timer Zen mode, or the Daily Challenge, where every player gets the same 30 targets. It is free with ads, and a one time purchase removes them.",
+          "pros": [
+            "Four modes and a shared Daily Challenge",
+            "No energy timers and nothing pay to win",
+            "One time purchase, no subscription"
+          ],
+          "cons": "It scores rounds, not a single millisecond reading."
+        },
+        {
+          "name": "Human Benchmark",
+          "best": "Best quick reaction time test",
+          "body": "The classic browser test: wait for the screen to turn green, then tap. It gives you a millisecond average and a chart of where you sit.",
+          "pros": [
+            "Free, in any browser",
+            "Well known benchmark"
+          ],
+          "cons": "A test, not a game you will keep playing."
+        },
+        {
+          "name": "Reaction Time: Test & Training",
+          "best": "Best for variety",
+          "body": "This app bundles dozens of reaction tests and training activities, free with ads, with a one time Pro unlock for all of them and Game Center leaderboards.",
+          "pros": [
+            "Many test types",
+            "One time Pro unlock"
+          ],
+          "cons": "Feels more like a toolbox than a game."
+        },
+        {
+          "name": "Reflex: Reaction Time Trainer",
+          "best": "Best for racing fans",
+          "body": "A set of eight small games, including a start lights test inspired by Formula 1, that measure reaction time to the millisecond.",
+          "pros": [
+            "F1 style start lights",
+            "Several game types"
+          ],
+          "cons": "A newer app with few ratings so far."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "Type",
+        "Standout"
+      ],
+      "rows": {
+        "BlitzTap": [
+          "Yes, ads",
+          "Game",
+          "Daily Challenge, no energy timers"
+        ],
+        "Human Benchmark": [
+          "Yes",
+          "Test",
+          "Millisecond average"
+        ],
+        "Reaction Time: Test & Training": [
+          "Yes, ads",
+          "Tests",
+          "Many activities"
+        ],
+        "Reflex: Reaction Time Trainer": [
+          "Yes",
+          "Mini games",
+          "F1 start lights"
+        ]
+      },
+      "faq": [
+        [
+          "What is a good reaction time?",
+          "Most people average around 200 to 300 milliseconds on a simple tap test. Try our free <a href=\"../reaction-time-test/\">reaction time test</a> to see yours."
+        ],
+        [
+          "Can you improve your reaction time with an app?",
+          "Practice helps with the specific skill you practice. A game like BlitzTap trains fast visual search and tapping under time pressure, and short daily sessions such as its Daily Challenge are the easiest way to keep at it."
+        ],
+        [
+          "Is BlitzTap free?",
+          "Yes. BlitzTap is free with ads on iPhone and iPad, with no energy timers. A one time purchase removes ads; there is no subscription."
+        ]
+      ]
+    },
+    {
+      "slug": "affirmation-apps",
+      "app": "saybright",
+      "title": "Best Affirmation Apps for iPhone in 2026",
+      "description": "The best daily affirmation apps for iPhone in 2026: SayBright, I am, Motivation and ThinkUp, compared on free use, widgets, your own voice and price.",
+      "h1": "The best affirmation apps for iPhone in 2026",
+      "topic": "Affirmations",
+      "answer": "The best affirmation app for building a daily habit is SayBright: five free affirmations a day picked from the topics you choose, streaks and a daily reminder, and Premium for just $0.99 a month adds widgets and affirmations in your own voice. I am is the pick if free Lock Screen widgets are all you want, and ThinkUp is known for recording your own voice.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Habit first.</strong> Reminders and streaks that bring you back each day.",
+        "<strong>Your topics.</strong> Confidence, gratitude, self love: affirmations that fit you.",
+        "<strong>Seen through the day.</strong> Widgets on the Lock Screen and Home Screen.",
+        "<strong>Price.</strong> What a year costs."
+      ],
+      "picks": [
+        {
+          "name": "SayBright",
+          "ours": true,
+          "best": "Best overall, and the lowest price",
+          "body": "SayBright gets you saying your first affirmation in under a minute, then gives you five a day from the topics you pick, out of 340 in ten categories, with the whole Confidence category free. A reminder at the time you choose and streak milestones from 7 to 365 days keep the habit going, and you can write your own. Premium, $0.99 a month or $9.99 a year, opens every category, Lock Screen and Home Screen widgets, and recordings in your own voice.",
+          "pros": [
+            "Five free affirmations a day and Confidence fully free",
+            "Streaks and a daily reminder",
+            "Premium for $9.99 a year"
+          ],
+          "cons": "Widgets are Premium."
+        },
+        {
+          "name": "I am",
+          "best": "Best for free widgets",
+          "body": "The most popular affirmation app, with hundreds of thousands of ratings, leads with Lock Screen and Home Screen widgets and updates almost every week.",
+          "pros": [
+            "Free widgets",
+            "Huge library"
+          ],
+          "cons": "A pricier subscription for the full library."
+        },
+        {
+          "name": "Motivation",
+          "best": "Best for quotes",
+          "body": "From the same playbook as I am, with inspirational quotes and widgets, and around a million ratings.",
+          "pros": [
+            "Large quote library",
+            "Widgets"
+          ],
+          "cons": "More quotes than personal affirmations."
+        },
+        {
+          "name": "ThinkUp",
+          "best": "Best for recording your own voice",
+          "body": "ThinkUp built its name on recording affirmations in your own voice over music, backed by expert endorsements.",
+          "pros": [
+            "Voice recording with music"
+          ],
+          "cons": "The free version is limited."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "Widgets",
+        "Standout"
+      ],
+      "rows": {
+        "SayBright": [
+          "Five a day",
+          "Premium",
+          "$0.99 a month"
+        ],
+        "I am": [
+          "Yes",
+          "Free",
+          "Biggest following"
+        ],
+        "Motivation": [
+          "Yes",
+          "Free",
+          "Quotes"
+        ],
+        "ThinkUp": [
+          "Limited",
+          "Yes",
+          "Your own voice"
+        ]
+      },
+      "faq": [
+        [
+          "What is the best free affirmation app?",
+          "SayBright gives five free affirmations a day, the whole Confidence category, streaks and reminders. I am is a good free choice if you mainly want widgets."
+        ],
+        [
+          "How do I put affirmations on my iPhone Lock Screen?",
+          "Add an affirmation app's widget from the Lock Screen editor. Our guide on <a href=\"../guides/affirmations-on-iphone-lock-screen.html\">affirmations on the iPhone Lock Screen</a> walks through it."
+        ],
+        [
+          "Do affirmation apps work?",
+          "Affirmations work best as a short daily habit, which is why reminders and streaks matter more than the size of the library. Try today's <a href=\"../affirmations/\">affirmation of the day</a>."
+        ]
+      ]
+    },
+    {
+      "slug": "hot-tub-apps",
+      "app": "tubtender",
+      "title": "Best Hot Tub Apps for Water Care in 2026",
+      "description": "The best hot tub apps for testing water and dosing chemicals in 2026: TubTender, Pool Pilot, TubTest and the label chart, for bromine or chlorine.",
+      "h1": "The best hot tub apps for water care",
+      "topic": "Hot tubs",
+      "answer": "The best hot tub app is TubTender: tap the colors on your test strip, scan the labels of the chemicals you already own, and it tells you exactly how much of each to add for your tub size, in the right order, with a countdown until it is safe to soak. The test and dose plan are free with no account. Pool Pilot suits owners of both a pool and a spa.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Doses for your products.</strong> Amounts in your own bottles, not a generic chemical.",
+        "<strong>Built for spas.</strong> Bromine and chlorine hot tubs, not pool sized math.",
+        "<strong>Order and wait times.</strong> What to add first and when you can get in.",
+        "<strong>Free use and privacy.</strong> What you get without paying or making an account."
+      ],
+      "picks": [
+        {
+          "name": "TubTender",
+          "ours": true,
+          "best": "Best overall for hot tub owners",
+          "body": "TubTender is made only for hot tubs. Tap the strip colors instead of typing numbers, scan your chemical labels once so it knows their strength, and get exact amounts for your tub, step by step with wait times, ending in a safe to soak verdict and countdown. Free guides fix cloudy and foamy water. Premium adds trend charts, full history and every fix it guide.",
+          "pros": [
+            "Amounts in the products you own",
+            "Right order, wait times and safe to soak",
+            "Free plan, no account, data stays on your iPhone"
+          ],
+          "cons": "iPhone only for now, and made for hot tubs rather than pools."
+        },
+        {
+          "name": "Pool Pilot",
+          "best": "Best if you have a pool and a spa",
+          "body": "Pool Pilot covers pools and spas, with free manual testing and paid photo scanning of test strips.",
+          "pros": [
+            "Pools and spas in one app",
+            "Free manual entry"
+          ],
+          "cons": "Strip scanning is a paid unlock."
+        },
+        {
+          "name": "TubTest",
+          "best": "Best for learning to test",
+          "body": "TubTest walks you through testing your water step by step and keeps the data on your device.",
+          "pros": [
+            "Clear testing walkthrough",
+            "Data stays local"
+          ],
+          "cons": "Less help working out exact doses."
+        },
+        {
+          "name": "The label and a dosage chart",
+          "best": "The no app way",
+          "body": "Every chemical bottle has a dosing table on the back. It works, but you do the math for your gallons and remember the order yourself.",
+          "pros": [
+            "Free"
+          ],
+          "cons": "Easy to over dose, and no reminders."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "Your own products",
+        "Standout"
+      ],
+      "rows": {
+        "TubTender": [
+          "Test and dose plan",
+          "Yes, label scan",
+          "Safe to soak countdown"
+        ],
+        "Pool Pilot": [
+          "Manual testing",
+          "Partly",
+          "Pool and spa"
+        ],
+        "TubTest": [
+          "Yes",
+          "No",
+          "Testing walkthrough"
+        ],
+        "The label and a dosage chart": [
+          "Free",
+          "One bottle at a time",
+          "No app"
+        ]
+      },
+      "faq": [
+        [
+          "Is there an app that tells you how much chemical to put in a hot tub?",
+          "Yes. TubTender reads your test strip colors, knows your tub size and the strength of your own bottles, and gives exact amounts in order. Our free <a href=\"../hot-tub-calculator/\">hot tub chemical calculator</a> does the same math in the browser."
+        ],
+        [
+          "Can an app read hot tub test strips?",
+          "TubTender has you tap the matching color for each pad, which avoids lighting errors from photos. Pool Pilot offers paid photo scanning."
+        ],
+        [
+          "Why is my hot tub cloudy?",
+          "Usually low sanitizer, high pH or alkalinity, or a dirty filter. Our guide to <a href=\"../guides/cloudy-hot-tub-water.html\">cloudy hot tub water</a> goes through the fixes in order."
+        ]
+      ]
+    },
+    {
+      "slug": "invoice-apps",
+      "app": "tallyhand",
+      "title": "Best Invoice Apps for Small Businesses (2026)",
+      "description": "The best invoice apps for lawn care, cleaning and handyman work in 2026: Tallyhand, Invoice Simple, Invoice Fly, Tofu, Joist and Easy Invoice Maker.",
+      "h1": "The best invoice apps for small service businesses",
+      "topic": "Invoices",
+      "answer": "The best invoice app for a one person service business is Tallyhand: describe the job in one sentence and it builds the invoice, shares a professional PDF and reminds you when a client is late, with the first 3 documents free and no account. If you need card payments and read receipts built in, Invoice Simple and Invoice Maker by Tofu are the strongest larger apps.",
+      "updated": "2026-11-19",
+      "how": [
+        "<strong>Speed on the job.</strong> An invoice sent from the driveway, not at night at the kitchen table.",
+        "<strong>Getting paid.</strong> Due date reminders and a clear way to pay.",
+        "<strong>Fair pricing.</strong> No caps on a plan you paid for and no surprise price rises.",
+        "<strong>Made for trades.</strong> Lawn care, cleaning, handyman, detailing and similar work."
+      ],
+      "picks": [
+        {
+          "name": "Tallyhand",
+          "ours": true,
+          "best": "Best overall for one person businesses",
+          "body": "Type or dictate something like \"mowed and edged the Parkers' lawn, two hours at 45\" and Tallyhand turns it into line items and a total on your iPhone. Share a PDF invoice, estimate or receipt by text, email or AirDrop with your payment instructions and a Pay online link, turn an estimate into an invoice in one tap, and get a reminder on the due date with a friendly message to send. If the price ever changes, subscribers keep the price they signed up at.",
+          "pros": [
+            "One sentence becomes an invoice",
+            "Due date and overdue reminders",
+            "No account; first 3 documents free with every feature",
+            "Your price never rises while you stay subscribed"
+          ],
+          "cons": "No card processing built in: the Pay online link goes to your own processor."
+        },
+        {
+          "name": "Invoice Simple",
+          "best": "Best for read receipts",
+          "body": "The category leader by ratings, with a release about every two weeks, job photos on invoices and a notice when your client opens the invoice.",
+          "pros": [
+            "Knows when the client viewed it",
+            "Photo attachments"
+          ],
+          "cons": "Recent reviews complain about price rises and plan caps."
+        },
+        {
+          "name": "Invoice Fly",
+          "best": "Fastest growing all rounder",
+          "body": "Weekly releases, receipt scanning and generators for every document type.",
+          "pros": [
+            "Feature rich",
+            "Very active development"
+          ],
+          "cons": "Weekly billing options that some reviewers dislike."
+        },
+        {
+          "name": "Invoice Maker by Tofu",
+          "best": "Best for card payments",
+          "body": "Card payments by link or QR code, pay in 4, automatic overdue reminders and viewed status.",
+          "pros": [
+            "Payments on every invoice",
+            "Automatic reminders"
+          ],
+          "cons": "Paid plans needed for the payment features."
+        },
+        {
+          "name": "Joist",
+          "best": "Best for contractors with crews",
+          "body": "Joist owns the contractor niche with estimates, payments and financing for bigger jobs.",
+          "pros": [
+            "Built for contractors",
+            "Customer financing"
+          ],
+          "cons": "Recent reviews complain about features moving to higher tiers."
+        },
+        {
+          "name": "Easy Invoice Maker",
+          "best": "Easiest for beginners",
+          "body": "Starts you straight in a document with no pressure paywall and a small free allowance each year.",
+          "pros": [
+            "Very simple start"
+          ],
+          "cons": "The free plan is only a handful of documents a year."
+        }
+      ],
+      "table": [
+        "Free to start",
+        "No account",
+        "Standout"
+      ],
+      "rows": {
+        "Tallyhand": [
+          "3 documents, every feature",
+          "Yes",
+          "One sentence invoices"
+        ],
+        "Invoice Simple": [
+          "Trial",
+          "No",
+          "Read receipts"
+        ],
+        "Invoice Fly": [
+          "Trial",
+          "No",
+          "Receipt scanning"
+        ],
+        "Invoice Maker by Tofu": [
+          "Limited",
+          "No",
+          "Card payments"
+        ],
+        "Joist": [
+          "Limited",
+          "No",
+          "Contractor financing"
+        ],
+        "Easy Invoice Maker": [
+          "A few a year",
+          "No",
+          "Simple start"
+        ]
+      },
+      "faq": [
+        [
+          "What is the easiest invoice app for iPhone?",
+          "Tallyhand is the fastest: you describe the job in one sentence and it fills in the invoice. Easy Invoice Maker is also simple to start."
+        ],
+        [
+          "Is there a free invoice app with no account?",
+          "Tallyhand needs no account and the first 3 invoices or estimates are free with every feature. For a one off, our free <a href=\"../invoice-generator/\">invoice generator</a> works in the browser."
+        ],
+        [
+          "What should an invoice for lawn care or cleaning include?",
+          "Your business name and contact, the client, the date and due date, each service with its price, the total, and how to pay. See our trade templates for <a href=\"../invoice-generator/lawn-care/\">lawn care</a> and <a href=\"../invoice-generator/cleaning/\">cleaning</a>."
+        ]
+      ]
+    }
+  ]
+}

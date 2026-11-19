@@ -1,0 +1,8 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">A sun rising behind a speech bubble holding a heart</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<path d="M220 300a180 180 0 0 1 360 0z" class="bx-acc"/><path d="M220 300a180 180 0 0 1 360 0z" fill="url(#{{p}}-h)"/>
+<g class="bx-ink"><path d="M400 70v-36M260 128l-26-26M540 128l26-26M190 230h-38M610 230h38"/></g>
+<path class="bx-ink" d="M60 300h680"/><path class="bx-inksoft" d="M120 330h560M200 358h400"/>
+<g class="bx-float"><path d="M300 150h200a26 26 0 0 1 26 26v84a26 26 0 0 1-26 26h-120l-40 34v-34h-40a26 26 0 0 1-26-26v-84a26 26 0 0 1 26-26z" class="bx-card bx-ink"/>
+<path d="M400 262c-36-26-54-44-54-64a26 26 0 0 1 54-8 26 26 0 0 1 54 8c0 20-18 38-54 64z" class="bx-acc bx-ink" stroke-width="3"/></g>
+<g class="bx-ink"><path d="M620 120v22M609 131h22M170 140v18M161 149h18"/></g>
+</svg>

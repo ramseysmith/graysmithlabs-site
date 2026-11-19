@@ -1,0 +1,10 @@
+<svg class="bx-art" viewBox="0 0 800 420" role="img" aria-labelledby="{{p}}-t"><title id="{{p}}-t">An invoice with a paid stamp and a coin</title><defs><pattern id="{{p}}-h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="bx-hatch"/></pattern><pattern id="{{p}}-d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" class="bx-dot"/></pattern></defs><rect width="800" height="420" fill="url(#{{p}}-d)"/>
+<circle cx="400" cy="210" r="170" class="bx-ring dash"/>
+<g class="bx-float"><path d="M290 50h220v300l-22-14-22 14-22-14-22 14-22-14-22 14-22-14-22 14-22-14-22 14z" class="bx-card bx-ink"/>
+<rect x="318" y="80" width="80" height="16" rx="4" class="bx-inkfill"/>
+<g class="bx-inksoft"><path d="M318 136h120M318 166h150M318 196h100M318 226h140"/></g>
+<path class="bx-ink" d="M318 270h164"/><rect x="420" y="282" width="62" height="16" rx="4" class="bx-acc"/></g>
+<g transform="rotate(-14 560 160)"><rect x="500" y="130" width="130" height="56" rx="10" class="bx-stamp"/><text x="565" y="168" text-anchor="middle" class="bx-stamptext">PAID</text></g>
+<g><circle cx="220" cy="300" r="56" class="bx-acc bx-ink" stroke-width="3"/><circle cx="220" cy="300" r="40" fill="url(#{{p}}-h)"/><circle cx="220" cy="300" r="40" class="bx-ink"/></g>
+<g class="bx-ink"><path d="M640 300v22M629 311h22M160 120v18M151 129h18"/></g>
+</svg>
