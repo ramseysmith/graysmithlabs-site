@@ -164,6 +164,20 @@ export function lintScreenCode(text, file, hasTheme) {
   return problems;
 }
 
+// Bottom tab bar icons are the app's own, in the TubTender style (Ramsey, Nov 19 2026;
+// HQ tab-icons skill). Any file that sets tabBarIcon must render the generated TabIcon,
+// never a stock icon pack.
+const TAB_STOCK = /@expo\/vector-icons|react-native-vector-icons|lucide-react-native|expo-symbols|react-native-heroicons|phosphor-react-native/;
+export function lintTabBar(text) {
+  const code = String(text);
+  if (!/tabBarIcon\s*[:=]/.test(code)) return [];
+  const problems = [];
+  const stock = TAB_STOCK.exec(code);
+  if (stock) problems.push(`tab bar icons from ${stock[0]}: draw the app's own set in design/tabs and run node scripts/ui/tab-icons.mjs port (HQ tab-icons skill)`);
+  else if (!/\bTabIcon\b/.test(code)) problems.push('tabBarIcon does not render TabIcon: draw design/tabs/*.svg and run node scripts/ui/tab-icons.mjs port (HQ tab-icons skill)');
+  return problems;
+}
+
 // Google Play listing (play.config.json, pushed by scripts/android/play-listing.mjs).
 // Same limits as the Play Console, the no dashes rule, Play's ban on promo and
 // price claims in the title and short description, and no mention of iOS.
@@ -426,7 +440,7 @@ async function main() {
       const root = input.cwd || cwd;
       const rel = relative(root, file);
       const text = readFileSync(file, 'utf8');
-      const problems = [...lintStoreLinks(text, rel.startsWith('..') ? file : rel), ...lintPaywallEvents(text)];
+      const problems = [...lintStoreLinks(text, rel.startsWith('..') ? file : rel), ...lintPaywallEvents(text), ...lintTabBar(text)];
       if (problems.length) block(`${basename(file)}:\n* ${problems.join('\n* ')}`);
     }
     if (/^(scenes|captions)(\.example)?\.json$/.test(basename(file)) && existsSync(file)) {
