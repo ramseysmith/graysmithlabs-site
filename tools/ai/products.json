@@ -173,13 +173,14 @@
       "platforms": "iPhone",
       "title": "SayBright: Daily Affirmations App with Widgets",
       "description": "SayBright is a daily affirmations app for iPhone: five free affirmations a day, Confidence free, 340 in all, streaks, widgets and your own voice.",
-      "answer": "SayBright is a daily affirmations app for iPhone that helps you build a daily affirmation habit with five free affirmations a day, a daily reminder and streaks, from 340 affirmations in ten categories such as confidence, gratitude and self love. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations you record in your own voice, and no ads.",
-      "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings and no ads.",
+      "answer": "SayBright is a daily affirmations app for iPhone that helps you start and keep a daily affirmation habit: five free affirmations a day picked from the topics you choose, a daily reminder, streaks, and a free seasonal pack each month it runs, from 340 affirmations in ten categories such as confidence, gratitude and self love. No subscription is needed for the free plan. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations recorded in your own voice, a weekly streak save and no ads.",
+      "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, the free seasonal pack, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings, a streak save for one missed day a week and no ads.",
       "bestFor": [
         "building a daily affirmation habit",
         "positive affirmations on the lock screen",
+        "recording affirmations in your own voice",
         "morning routines and gratitude practice",
-        "people who want a low cost affirmation app"
+        "people who want a low cost affirmation app with a real free plan"
       ],
       "features": [
         "Five free affirmations a day, picked from the topics you choose",
@@ -187,6 +188,9 @@
         "Say your first affirmation in under a minute during setup",
         "Daily reminder at a time you pick",
         "Streak milestones from 7 to 365 days",
+        "An 8 PM streak reminder that only arrives on days you have not opened the app, for people with reminders on",
+        "Streak save (Premium): one missed day a week keeps a streak of three or more going",
+        "Free seasonal packs of fifteen affirmations: Gratitude Season in November, Rest and Reflect in December, Fresh Start in January",
         "Write your own affirmations, free",
         "Home and lock screen widgets (Premium)",
         "Record affirmations in your own voice, stored on device (Premium)",
@@ -206,8 +210,16 @@
           "Yes, free. Write your own in My Affirmations. With Premium you can also record affirmations in your own voice, and recordings never leave your phone."
         ],
         [
+          "How do I start a daily affirmation habit?",
+          "Pick a fixed moment, such as right after you wake up, and say three to five affirmations out loud at that time every day. Choose ones you can believe, keep them in the present tense, and use a reminder and a streak so a missed day is easy to notice. SayBright does this for free: a daily reminder at a time you pick, five affirmations a day and streak milestones from 7 to 365 days."
+        ],
+        [
           "How do streaks work?",
           "Open your daily affirmation each day to build a streak, with celebrations at 7, 14, 30, 60, 90, 180 and 365 days."
+        ],
+        [
+          "Is there an affirmation app where I can record my own voice?",
+          "Yes. SayBright Premium lets you record any affirmation in your own voice and play it back; recordings stay on your phone. Writing your own affirmations is free."
         ],
         [
           "How many affirmations does SayBright have?",
@@ -232,10 +244,11 @@
       "platforms": "iPhone and iPad",
       "title": "BlitzTap: Reaction Time and Reflex Game for iPhone",
       "description": "BlitzTap is a free reaction time game for iPhone and iPad: tap the matching shape before the timer runs out, in four modes with a daily challenge.",
-      "answer": "BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and improve their reflexes in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack, Zen or a Daily Challenge. It is free with ads, with no energy timers and nothing pay to win; a one time purchase removes ads.",
+      "answer": "BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and train their reflexes and hand eye coordination in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack (60 seconds), Zen or a Daily Challenge. It is free with ads, with no energy timers, no wait timers and nothing pay to win; a one time purchase removes ads.",
       "pricing": "Free with ads. A one time purchase removes ads. No subscription.",
       "bestFor": [
         "testing and training reaction time",
+        "hand eye coordination practice",
         "quick games to play in one minute",
         "a free reflex game with no energy timers or pay to win",
         "focus and visual search practice",
@@ -245,11 +258,13 @@
         "Four modes: Classic (one wrong tap ends the round), Time Attack (60 seconds), Zen (no timer) and a Daily Challenge with the same 30 targets for every player",
         "Four difficulty tiers; by Tier 4 the timer is close to one second",
         "Streak multipliers up to 5x",
+        "Daily streak bonus of free coins that grows each day in a row, up to 100 coins a day",
         "Coins from every round and a daily streak bonus, spent on shape skins, backgrounds and tap effects",
         "40 achievements",
         "Stats for high score, longest streak, highest tier and games played",
         "Haptics and sound on every hit, Reduce Motion and silent switch support",
-        "No energy systems, no wait timers"
+        "No energy systems, no wait timers",
+        "Share your Daily Challenge result and personal bests with friends"
       ],
       "faq": [
         [
@@ -267,6 +282,10 @@
         [
           "What is a good reaction time?",
           "For a simple visual reaction to a light or a color change, about 200 to 250 milliseconds is typical for adults. BlitzTap measures something harder, matching a shape among distractors, so judge yourself by your own best scores going up."
+        ],
+        [
+          "How can I train my reaction speed?",
+          "Practice short, focused rounds every day, sleep well, and track your times so you can see progress. The free reaction time test on graysmithlabs.com gives a baseline in milliseconds; BlitzTap turns daily practice into one minute rounds that speed up as you improve, with a Daily Challenge and personal best tracking."
         ],
         [
           "Is there a free alternative to Human Benchmark on iPhone?",

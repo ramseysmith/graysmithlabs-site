@@ -898,6 +898,102 @@
       ]
     },
     {
+      "slug": "improve-reaction-time",
+      "app": "blitztap",
+      "title": "How to Improve Reaction Time: What Works, 10 Minutes a Day",
+      "description": "How to improve reaction time: short daily practice on fast decisions, enough sleep and fewer distractions. Test a baseline, train, retest weekly.",
+      "h1": "How to improve your reaction time",
+      "answer": "You can improve your reaction time with short daily practice on tasks that ask for fast decisions, enough sleep, and fewer distractions while you play or drive. Practice mostly makes you faster at the kind of task you practice, so train something close to what you want to be quick at, take a baseline with a free <a href=\"../reaction-time-test/\">reaction time test</a>, and retest once a week on the same device.",
+      "updated": "2026-11-19",
+      "sections": [
+        {
+          "h2": "Simple and choice reaction time",
+          "intro": "There are two kinds, and they train differently.",
+          "table": {
+            "head": [
+              "Kind",
+              "Example",
+              "What changes it"
+            ],
+            "rows": [
+              [
+                "Simple reaction",
+                "Tap when a box turns green",
+                "Mostly alertness, sleep and your device. Most adults land about 250 to 300 ms in a tap test, and practice shaves off a little"
+              ],
+              [
+                "Choice reaction",
+                "Find the right shape among several and tap it",
+                "Slower, and slower again with more options to choose from. This is where practice pays off most, because you learn to spot the target faster"
+              ]
+            ]
+          },
+          "after": "Sports, driving and games are almost all choice reactions: you have to notice, decide and then move. That is why drills that make you pick the right target train more of what matters than a single go signal."
+        },
+        {
+          "h2": "What actually helps",
+          "list": [
+            "Short, daily practice. Ten focused minutes a day beats an hour once a week, and speed gains come from repetition of the same kind of decision.",
+            "Practice that gets harder. Once a drill feels easy, shrink the time limit or add more options to choose from, so you keep working at the edge of your speed.",
+            "Sleep. Being short on sleep slows reactions and causes more misses; a tired attempt is often 30 to 50 ms slower on a tap test.",
+            "Fewer distractions. Talking, notifications and a phone in hand while driving all slow how fast you notice a change.",
+            "Fast paced games. Studies of action video game players, starting with Green and Bavelier in Nature in 2003, found better visual attention than in non players, and short training sessions improved it in some people.",
+            "Being warm and ready. A quick warm up and a relaxed, ready hand (finger hovering, not resting) help in the moment."
+          ]
+        },
+        {
+          "h2": "A 10 minute daily routine",
+          "steps": [
+            "Take a baseline. Do five rounds of the free <a href=\"../reaction-time-test/\">reaction time test</a> and write down your average, not your best.",
+            "Two minutes of simple reaction. A few more rounds of the test, focusing on a hovering finger and watching the whole box.",
+            "Six minutes of choice reaction. Play a game that makes you find and tap a target fast, and let it get harder as you improve.",
+            "Two minutes of review. Note your average and anything that slowed you down: tiredness, distraction, a slow screen.",
+            "Retest once a week, at the same time of day and on the same device, so the comparison is fair."
+          ]
+        },
+        {
+          "h2": "What does not help much",
+          "list": [
+            "Guessing early. Jumping before the signal makes a test score look better and teaches nothing useful.",
+            "Changing devices between tests. Screens and touch sensors each add their own delay, often a few tens of milliseconds.",
+            "Supplements sold for reflexes. Caffeine can help a little for a while; most other claims have weak evidence."
+          ],
+          "note": "This guide is for fun and training. It is not medical advice. If your reactions suddenly get slower, see a doctor."
+        },
+        {
+          "h2": "Train it in one minute rounds",
+          "intro": "BlitzTap is a free iPhone and iPad game from Graysmith Labs built for choice reaction practice: a target shape appears and you tap its match in a grid before the timer runs out. As your score climbs the grid grows, distractors multiply and the timer shrinks to about a second by Tier 4, so it keeps you at the edge of your speed.",
+          "note": "Classic, Time Attack (60 seconds), Zen and a Daily Challenge with the same 30 targets for every player. Personal bests are tracked, so you can see the change week to week."
+        }
+      ],
+      "faq": [
+        [
+          "How can I improve my reaction time?",
+          "Practice short daily sessions on tasks that need fast decisions, make them harder as you improve, sleep enough and cut distractions. Measure a baseline and retest weekly on the same device."
+        ],
+        [
+          "What is a good reaction time?",
+          "In a tap or click test, most adults average about 250 to 300 milliseconds. Under 250 ms is quick and under 200 ms is very fast."
+        ],
+        [
+          "Can you really train reaction time?",
+          "Yes, mostly for the kind of task you practice. Choice reactions, where you have to find the right target first, improve the most with practice."
+        ],
+        [
+          "How long does it take to improve reaction time?",
+          "Many people see their averages drop within a couple of weeks of daily practice. Big jumps usually come from fixing sleep or distraction rather than drills alone."
+        ],
+        [
+          "Do video games improve reaction time?",
+          "Fast paced games that make you spot and respond to targets have been linked with better visual attention in studies. Short daily sessions work better than long ones."
+        ],
+        [
+          "What slows reaction time down?",
+          "Too little sleep, distraction, alcohol, some medicines, and the device itself, since screens and touch sensors each add a little delay."
+        ]
+      ]
+    },
+    {
       "slug": "sign-one-document-without-docusign",
       "app": "signsnap",
       "title": "Sign One Document Free Without a DocuSign Account",
@@ -1210,6 +1306,87 @@
         [
           "Can I record affirmations in my own voice?",
           "Yes, with SayBright Premium you can record any affirmation in your own voice, and the recordings stay on your phone."
+        ]
+      ]
+    },
+    {
+      "slug": "start-daily-affirmation-habit",
+      "app": "saybright",
+      "title": "How to Start a Daily Affirmation Habit That Sticks",
+      "description": "Start a daily affirmation habit: pick a fixed moment, say three to five believable affirmations out loud, and use a reminder and a streak to keep it going.",
+      "h1": "How to start a daily affirmation habit",
+      "answer": "To start a daily affirmation habit, tie it to something you already do every day, such as right after you wake up or brush your teeth, and say three to five short affirmations out loud at that moment. Pick ones you can believe, keep them in the present tense, and use a reminder and a simple streak so a missed day is easy to notice and easy to restart.",
+      "updated": "2026-11-19",
+      "sections": [
+        {
+          "h2": "Step by step",
+          "steps": [
+            "Pick your anchor. Choose one thing you already do daily, like making coffee or brushing your teeth. Your affirmations come right after it.",
+            "Choose three to five affirmations. Start with one area you want more of, such as confidence or calm. Keep them short and believable: \"I can handle today one step at a time\" lands better than a claim you do not believe yet.",
+            "Say them out loud. Speaking slows you down and makes you notice the words. A whisper counts.",
+            "Set one reminder at your anchor time, for the first few weeks while the habit forms.",
+            "Track a streak. A mark on a calendar or a streak counter in an app makes a missed day visible, so you can start again the next morning instead of drifting off.",
+            "Refresh them every few weeks. When a line stops meaning anything, swap it for a new one."
+          ]
+        },
+        {
+          "h2": "How to write affirmations you will keep saying",
+          "list": [
+            "Present tense: \"I am learning to rest\" rather than \"I will rest more\".",
+            "Believable: a small step you can accept today works better than a big claim that makes you argue back.",
+            "Specific: name the thing you care about, such as work, your body, a relationship or money.",
+            "Short: one breath long, so you can say it without reading."
+          ]
+        },
+        {
+          "h2": "Where to put them so you see them",
+          "list": [
+            "Your Lock Screen, where you look dozens of times a day. Our guide shows <a href=\"affirmations-on-iphone-lock-screen.html\">how to put affirmations on your iPhone Lock Screen</a>.",
+            "A sticky note on the mirror or the coffee machine at your anchor spot.",
+            "A recording in your own voice, to play on a walk or a commute.",
+            "The free <a href=\"../affirmations/\">affirmation of the day</a> page, which shows a new one every day."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Too many at once. Twenty affirmations turn into a chore; three to five said with attention stick.",
+            "No fixed time. \"Sometime today\" usually means never. Tie it to your anchor.",
+            "Quitting after a missed day. A streak is a tool, not a test. Restart the next morning.",
+            "Lines you do not believe. If one makes you wince, soften it until it feels possible."
+          ],
+          "note": "Affirmations are a self care habit, not a treatment. If low mood or anxiety gets in the way of daily life, talk to a doctor or a mental health professional."
+        },
+        {
+          "h2": "Make it easier with an app",
+          "intro": "SayBright is a daily affirmations app for iPhone from Graysmith Labs built around this habit: five free affirmations a day from the topics you choose, a reminder at the time you pick, and streak milestones from 7 to 365 days. You can write your own affirmations for free.",
+          "note": "Premium adds every category with no daily limit, Lock Screen and Home Screen widgets, recordings in your own voice and a streak save for one missed day a week."
+        }
+      ],
+      "faq": [
+        [
+          "How do I start a daily affirmation habit?",
+          "Tie it to something you already do every day, say three to five short, believable affirmations out loud at that moment, and use a reminder and a streak so a missed day is easy to restart."
+        ],
+        [
+          "How many affirmations should I say a day?",
+          "Three to five is plenty to start. Saying a few with attention works better than reading a long list."
+        ],
+        [
+          "What is the best time to say affirmations?",
+          "Whenever you will actually do it every day. Mornings work well for many people because the day has not filled up yet."
+        ],
+        [
+          "Should I say affirmations out loud?",
+          "Out loud is better if you can. It slows you down and makes you notice the words. A whisper or saying them in your head still counts."
+        ],
+        [
+          "How long does it take to form an affirmation habit?",
+          "It varies a lot from person to person. Expect a few weeks of reminders before it feels automatic, and do not worry about the odd missed day."
+        ],
+        [
+          "Can I record affirmations in my own voice?",
+          "Yes. Your phone's voice memo app works, and SayBright Premium lets you record any affirmation in your own voice and play it back in the app."
         ]
       ]
     },

@@ -38,21 +38,21 @@ CelebriDay is an iPhone and iPad app that tells you what national day it is toda
 
 ### SayBright
 
-SayBright is a daily affirmations app for iPhone that helps you build a daily affirmation habit with five free affirmations a day, a daily reminder and streaks, from 340 affirmations in ten categories such as confidence, gratitude and self love. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations you record in your own voice, and no ads.
+SayBright is a daily affirmations app for iPhone that helps you start and keep a daily affirmation habit: five free affirmations a day picked from the topics you choose, a daily reminder, streaks, and a free seasonal pack each month it runs, from 340 affirmations in ten categories such as confidence, gratitude and self love. No subscription is needed for the free plan. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations recorded in your own voice, a weekly streak save and no ads.
 
-* Pricing: Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings and no ads.
+* Pricing: Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, the free seasonal pack, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings, a streak save for one missed day a week and no ads.
 * Platforms: iPhone
-* Best for: building a daily affirmation habit; positive affirmations on the lock screen; morning routines and gratitude practice; people who want a low cost affirmation app
+* Best for: building a daily affirmation habit; positive affirmations on the lock screen; recording affirmations in your own voice; morning routines and gratitude practice; people who want a low cost affirmation app with a real free plan
 * Page: https://graysmithlabs.com/apps/saybright.html
 * App Store: https://apps.apple.com/app/id6767243151
 
 ### BlitzTap
 
-BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and improve their reflexes in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack, Zen or a Daily Challenge. It is free with ads, with no energy timers and nothing pay to win; a one time purchase removes ads.
+BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants to test and train their reflexes and hand eye coordination in rounds of a minute or two: a target shape appears and you tap its match in a grid before the timer runs out, in Classic, Time Attack (60 seconds), Zen or a Daily Challenge. It is free with ads, with no energy timers, no wait timers and nothing pay to win; a one time purchase removes ads.
 
 * Pricing: Free with ads. A one time purchase removes ads. No subscription.
 * Platforms: iPhone and iPad
-* Best for: testing and training reaction time; quick games to play in one minute; a free reflex game with no energy timers or pay to win; focus and visual search practice; a daily challenge to compare with friends
+* Best for: testing and training reaction time; hand eye coordination practice; quick games to play in one minute; a free reflex game with no energy timers or pay to win; focus and visual search practice; a daily challenge to compare with friends
 * Page: https://graysmithlabs.com/apps/blitztap.html
 * App Store: https://apps.apple.com/app/id6759490849
 
@@ -120,9 +120,11 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 * [Hot tub pH too high? How to lower it](https://graysmithlabs.com/guides/hot-tub-ph-too-high.html): Hot tub pH too high: check alkalinity first, then add pH decreaser with the pump on. About 2¾ tsp takes a 400 gallon tub from pH 8.0 to 7.5.
 * [Sleep sounds that work offline on a plane](https://graysmithlabs.com/guides/sleep-sounds-offline-on-a-plane.html): Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.
 * [Brown noise for sleep: what it is and how to use it](https://graysmithlabs.com/guides/brown-noise-for-sleep.html): Brown noise is a deep, soft rumble with more low tones than white noise. How it differs, who it suits, and how to play it free all night on iPhone.
+* [How to improve your reaction time](https://graysmithlabs.com/guides/improve-reaction-time.html): How to improve reaction time: short daily practice on fast decisions, enough sleep and fewer distractions. Test a baseline, train, retest weekly.
 * [How to sign one document for free without DocuSign](https://graysmithlabs.com/guides/sign-one-document-without-docusign.html): Need to sign just one document? Three free ways to sign a PDF on iPhone with no DocuSign account or subscription, and when DocuSign still fits.
 * [Weird holidays in November 2026](https://graysmithlabs.com/guides/weird-holidays-november.html): Weird and fun holidays in November 2026, from Deviled Egg Day to Red Planet Day, with each date checked and ideas to celebrate them at work.
 * [How do I put affirmations on my iPhone lock screen?](https://graysmithlabs.com/guides/affirmations-on-iphone-lock-screen.html): Put affirmations on your iPhone Lock Screen for free with a wallpaper or a daily reminder, or add a widget that shows a new affirmation through the day.
+* [How to start a daily affirmation habit](https://graysmithlabs.com/guides/start-daily-affirmation-habit.html): Start a daily affirmation habit: pick a fixed moment, say three to five believable affirmations out loud, and use a reminder and a streak to keep it going.
 * [Weird holidays in December 2026](https://graysmithlabs.com/guides/weird-holidays-december.html): Weird and fun holidays in December 2026, from Pretend to Be a Time Traveler Day to Festivus, with each date checked and ideas for the office.
 
 ## Brands
