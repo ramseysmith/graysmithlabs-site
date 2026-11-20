@@ -174,8 +174,19 @@ function placeMoving(data, todayIso) {
 }
 
 // Every observance on month/day.
+// Where each published date was checked (tools/holidays/verification.json), shown
+// on the day page so readers and crawlers can see the source behind the date.
+const SOURCES = (() => {
+  try {
+    const list = JSON.parse(fs.readFileSync(path.join(HERE, "verification.json"), "utf8"));
+    return new Map(list.filter((v) => v.status === "verified" && /^https:\/\//.test(v.source ?? "")).map((v) => [`${v.month}/${v.day}/${v.name}`, v.source]));
+  } catch {
+    return new Map();
+  }
+})();
+
 function dayEntries(data, m, d) {
-  const fixed = (data.fixed.find((e) => e.month === m && e.day === d)?.holidays ?? []).map((h) => ({ ...h }));
+  const fixed = (data.fixed.find((e) => e.month === m && e.day === d)?.holidays ?? []).map((h) => ({ ...h, source: SOURCES.get(`${m}/${d}/${h.name}`) }));
   const moving = NEXT_MOVING
     .filter((mh) => mh.at.getUTCMonth() + 1 === m && mh.at.getUTCDate() === d)
     .map((mh) => ({ ...mh, year: mh.at.getUTCFullYear() }));
@@ -322,7 +333,10 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
 }
 
 function card(h) {
-  const when = h.year ? `<p class="hd-when">The date moves each year. In ${h.year} it falls on this day.</p>` : "";
+  const host = h.source ? new URL(h.source).hostname.replace(/^www\./, "") : "";
+  const when = h.year
+    ? `<p class="hd-when">The date moves each year. In ${h.year} it falls on this day.</p>`
+    : host ? `<p class="hd-when">Same date every year. Date checked against <a href="${esc(h.source)}" rel="nofollow noopener" target="_blank">${esc(host)}</a>.</p>` : "";
   return `        <article class="hd-card">
           <div class="hd-top"><span class="hd-emoji" aria-hidden="true">${h.emoji}</span><span class="tag">${CATEGORY_LABEL[h.category] ?? "Observance"}</span></div>
           <h2>${esc(h.name)}</h2>
