@@ -329,6 +329,7 @@
         "Steps in the right order with wait times",
         "Safe to soak verdict and countdown",
         "No account, data stays on the iPhone",
+        "A tub with moods on Home, from curious and sleepy to happy and thriving, that changes with your latest test and how long since you checked",
         "Free step by step guides for cloudy and foamy water"
       ],
       "faq": [
@@ -355,6 +356,10 @@
         [
           "Can I download TubTender now?",
           "Yes. TubTender is free on the App Store for iPhone: https://apps.apple.com/us/app/id6820791512. The free hot tub chemical calculator on graysmithlabs.com runs the same engine in the browser."
+        ],
+        [
+          "Does TubTender remind me when to test?",
+          "Yes. Home shows your tub with a mood that follows your water: happy when it is clear and balanced, worried when something drifts, sleepy when a test is overdue. A test reminder is free, and a fresh test brings it back to happy."
         ]
       ]
     },
