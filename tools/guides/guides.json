@@ -696,6 +696,161 @@
       ]
     },
     {
+      "slug": "how-often-to-test-hot-tub-water",
+      "app": "tubtender",
+      "title": "How Often to Test Hot Tub Water: A Simple Schedule",
+      "description": "Test hot tub sanitizer and pH two to three times a week and before every soak after a busy day, alkalinity weekly, calcium monthly. Full schedule inside.",
+      "h1": "How often to test hot tub water",
+      "answer": "Test sanitizer (chlorine or bromine) and pH at least two to three times a week in a home hot tub, and before you soak after heavy use, a party or a few days away. Test total alkalinity once a week and calcium hardness once a month and after every refill. Rinse the filter about every two weeks and drain and refill every three to four months, sooner when the tub is used every day.",
+      "updated": "2026-11-20",
+      "sections": [
+        {
+          "h2": "The hot tub testing schedule",
+          "intro": "A schedule for a home tub with one to four regular soakers. The target ranges come from the same chemistry engine as the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> and the TubTender app.",
+          "table": {
+            "head": [
+              "What",
+              "How often",
+              "Target"
+            ],
+            "rows": [
+              [
+                "Chlorine (free chlorine)",
+                "2 to 3 times a week, and before soaking after heavy use",
+                "3 to 10 ppm"
+              ],
+              [
+                "Bromine",
+                "2 to 3 times a week, and before soaking after heavy use",
+                "4 to 8 ppm"
+              ],
+              [
+                "pH",
+                "2 to 3 times a week, with the sanitizer",
+                "7.2 to 7.8"
+              ],
+              [
+                "Total alkalinity",
+                "Once a week",
+                "80 to 120 ppm"
+              ],
+              [
+                "Calcium hardness",
+                "Once a month and after every refill",
+                "150 to 400 ppm"
+              ],
+              [
+                "Filter rinse",
+                "About every 2 weeks",
+                "Hose it off, pleat by pleat"
+              ],
+              [
+                "Drain and refill",
+                "Every 3 to 4 months, sooner with daily use",
+                "Fresh water, then rebalance"
+              ]
+            ]
+          },
+          "note": "Test more often in the first week after a refill, after a big group soak and after rain gets in. Chemistry moves fastest then."
+        },
+        {
+          "h2": "When to test right away",
+          "list": [
+            "Before the first soak after a party or several people in a row. Every soaker uses up sanitizer.",
+            "When the water looks hazy or smells strong of chemicals. That smell usually means used up chlorine, not too much. See <a href=\"cloudy-hot-tub-water.html\">cloudy hot tub water</a>.",
+            "After you add any chemical. Wait 20 minutes with the pump running, then retest before adding more.",
+            "After a few days away or a power cut. Sanitizer fades fast in hot water with the cover on and no one adding any.",
+            "When skin itches or eyes sting. pH is often the cause; see <a href=\"hot-tub-ph-too-high.html\">hot tub pH too high</a>."
+          ]
+        },
+        {
+          "h2": "How to test hot tub water in a minute",
+          "steps": [
+            "Run the pump for a few minutes so the water is mixed, then turn the jets off.",
+            "Dip a strip elbow deep, away from the jets and any floating dispenser, for the time on the bottle (usually one or two seconds).",
+            "Hold it flat and compare the colors to the chart within about 15 seconds. Colors keep changing after that.",
+            "Fix things in order: alkalinity first, then pH, then sanitizer. The free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> gives the amount for each from your readings and tub size.",
+            "Write the readings down, or log them in an app, so you can see which way the water is drifting."
+          ]
+        },
+        {
+          "h2": "How often to drain a hot tub",
+          "intro": "A common rule is gallons divided by 3, divided by the number of people who soak on an average day, gives the days between refills. TubTender uses that rule and keeps the result between two weeks and about four months.",
+          "table": {
+            "head": [
+              "Tub size",
+              "1 soaker a day",
+              "2 soakers a day"
+            ],
+            "rows": [
+              [
+                "300 gallons",
+                "about 100 days",
+                "about 50 days"
+              ],
+              [
+                "400 gallons",
+                "about 4 months",
+                "about 67 days"
+              ],
+              [
+                "500 gallons",
+                "about 4 months",
+                "about 83 days"
+              ]
+            ]
+          },
+          "note": "Drain sooner if the water stays cloudy or foamy after balancing, or if sanitizer will not hold. Old water is full of dissolved solids that no dose can fix."
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Testing only when the water looks wrong. By then sanitizer has usually been low for days.",
+            "Using old strips. A bottle that has been open for months or kept in a humid spot reads wrong; keep the lid tight and replace it once it passes the date on the label.",
+            "Reading the strip late. A strip read a minute after dipping looks stronger than the water is.",
+            "Adjusting everything at once. Change one thing, circulate, retest, then move to the next."
+          ]
+        },
+        {
+          "h2": "A faster way to keep up",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. Free reminders nudge you to test every three days, rinse the filter every two weeks and drain when the tub is due, and the tub on Home changes mood with your latest test and how long it has been since you checked.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works; what matters is that the strips read your sanitizer and the chemicals list their strength on the label.",
+          "steps": [
+            "Test strips that read your sanitizer, pH and alkalinity: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub test strips on Amazon</a>.",
+            "Your sanitizer: <a href=\"https://www.amazon.com/s?k=spa+chlorine+granules&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa chlorine granules</a> or <a href=\"https://www.amazon.com/s?k=spa+bromine+tablets&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">bromine tablets</a>.",
+            "A filter cleaner for the rinse every two weeks: <a href=\"https://www.amazon.com/s?k=hot+tub+filter+cleaner&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub filter cleaner</a>."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
+        }
+      ],
+      "faq": [
+        [
+          "How often should I test my hot tub water?",
+          "Test chlorine or bromine and pH two to three times a week, and before soaking after heavy use. Test alkalinity weekly and calcium hardness monthly and after each refill."
+        ],
+        [
+          "Should I test hot tub water before every use?",
+          "If several people soak or the tub sat unused for a few days, yes. Sanitizer fades fast in hot water, and a quick strip takes under a minute."
+        ],
+        [
+          "How often should I test a new hot tub fill?",
+          "Every day for the first week. Fresh water moves quickly while you bring alkalinity, pH, calcium and sanitizer into range."
+        ],
+        [
+          "How often should I drain my hot tub?",
+          "Every three to four months for most home tubs. Divide the gallons by 3, then by the number of daily soakers, for the days between refills."
+        ],
+        [
+          "Are test strips accurate enough?",
+          "Yes for routine checks, if they are fresh, kept dry and read within about 15 seconds. Use a drop kit to double check a strange reading."
+        ]
+      ]
+    },
+    {
       "slug": "sleep-sounds-offline-on-a-plane",
       "app": "drift",
       "title": "Sleep Sounds That Work Offline on a Plane (iPhone)",
