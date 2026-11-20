@@ -6,9 +6,16 @@
 // The estimate generator (/estimate-generator/) sets window.IG_DOC = { kind: 'estimate' }:
 // the same form and math, saved under its own key, with Valid until in place of Due,
 // Prepared for in place of Bill to and Estimated total in place of Amount due.
+// The receipt generator (/receipt-generator/) sets window.IG_DOC = { kind: 'receipt' }:
+// Paid on in place of Date, no due date, Received from, the payment method in the
+// header, Amount paid with a zero balance line and a PAID stamp on the sheet.
 (function () {
-  var EST = !!(window.IG_DOC && window.IG_DOC.kind === 'estimate');
-  var L = EST
+  var KIND = (window.IG_DOC && window.IG_DOC.kind) || 'invoice';
+  var EST = KIND === 'estimate';
+  var RCPT = KIND === 'receipt';
+  var L = RCPT
+    ? { key: 'gl-receipt-v1', title: 'Receipt', num: 'Receipt number', first: 'RCPT-0001', date: 'Paid on', due: '', dueNone: '', to: 'Received from', total: 'Amount paid', pay: 'Paid by', fresh: 'New receipt started. Your business details were kept.', credit: 'Made with the free receipt generator at graysmithlabs.com', days: 0 }
+    : EST
     ? { key: 'gl-estimate-v1', title: 'Estimate', num: 'Estimate number', first: 'EST-0001', due: 'Valid until', dueNone: 'On request', to: 'Prepared for', total: 'Estimated total', pay: 'Terms', fresh: 'New estimate started. Your business details were kept.', credit: 'Made with the free estimate generator at graysmithlabs.com', days: 30 }
     : { key: 'gl-invoice-v1', title: 'Invoice', num: 'Invoice number', first: 'INV-0001', due: 'Due', dueNone: 'On receipt', to: 'Bill to', total: 'Amount due', pay: 'How to pay', fresh: 'New invoice started. Your business details were kept.', credit: 'Made with the free invoice generator at graysmithlabs.com', days: 14 };
   var KEY = L.key;
@@ -28,7 +35,7 @@
 
   var blank = {
     biz: '', from: '', client: '', to: '', number: L.first, currency: 'USD',
-    date: today(0), due: today(L.days), tax: '', pay: '', notes: '',
+    date: today(0), due: RCPT ? '' : today(L.days), tax: '', pay: '', notes: '',
     items: [{ d: '', q: '1', r: '' }]
   };
 
@@ -124,18 +131,22 @@
     var totals = '';
     if (tax) totals += '<tr><td>Subtotal</td><td>' + money(subtotal, cur) + '</td></tr><tr><td>Tax (' + rate + '%)</td><td>' + money(tax, cur) + '</td></tr>';
     totals += '<tr class="g"><td>' + L.total + '</td><td>' + money(subtotal + tax, cur) + '</td></tr>';
+    if (RCPT) totals += '<tr><td>Balance due</td><td>' + money(0, cur) + '</td></tr>';
     sheet.innerHTML =
       '<div class="inv-top"><div><p class="inv-biz">' + esc(state.biz || 'Your business') + '</p><div class="inv-muted">' + esc(state.from) + '</div></div>' +
       '<div class="inv-title"><h2>' + L.title + '</h2><table class="inv-meta">' +
       '<tr><td>' + L.num + '</td><td>' + esc(state.number) + '</td></tr>' +
-      (state.date ? '<tr><td>Date</td><td>' + fmtDate(state.date) + '</td></tr>' : '') +
-      '<tr><td>' + L.due + '</td><td>' + (state.due && state.due !== state.date ? fmtDate(state.due) : L.dueNone) + '</td></tr>' +
+      (state.date ? '<tr><td>' + (L.date || 'Date') + '</td><td>' + fmtDate(state.date) + '</td></tr>' : '') +
+      (RCPT
+        ? (state.pay ? '<tr><td>' + L.pay + '</td><td>' + esc(state.pay) + '</td></tr>' : '')
+        : '<tr><td>' + L.due + '</td><td>' + (state.due && state.due !== state.date ? fmtDate(state.due) : L.dueNone) + '</td></tr>') +
       '</table></div></div>' +
       '<div class="inv-to"><p class="inv-h">' + L.to + '</p><strong>' + esc(state.client || 'Client name') + '</strong><div class="inv-muted">' + esc(state.to) + '</div></div>' +
       '<table class="inv-items"><thead><tr><th>Description</th><th class="n">Qty</th><th class="n">Rate</th><th class="n">Amount</th></tr></thead><tbody>' +
       (rows || '<tr><td colspan="4" class="inv-muted">Add an item to start</td></tr>') + '</tbody></table>' +
       '<table class="inv-totals">' + totals + '</table>' +
-      (state.pay ? '<div class="inv-block"><p class="inv-h">' + L.pay + '</p>' + esc(state.pay) + '</div>' : '') +
+      (RCPT ? '<p class="inv-stamp" aria-hidden="true">Paid</p>' : '') +
+      (state.pay && !RCPT ? '<div class="inv-block"><p class="inv-h">' + L.pay + '</p>' + esc(state.pay) + '</div>' : '') +
       (state.notes ? '<div class="inv-block"><p class="inv-h">Notes</p>' + esc(state.notes) + '</div>' : '') +
       '<p class="inv-credit">' + esc(L.credit) + '</p>';
   }
