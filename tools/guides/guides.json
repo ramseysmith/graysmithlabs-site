@@ -426,6 +426,276 @@
       ]
     },
     {
+      "slug": "how-much-chlorine-to-add-to-hot-tub",
+      "app": "tubtender",
+      "title": "How Much Chlorine to Add to a Hot Tub (by Tub Size)",
+      "description": "How much chlorine to add to a hot tub: about 1¾ tsp of dichlor or 2½ fl oz of 6% bleach raises a 400 gallon tub by 3 ppm. Keep it at 3 to 10 ppm.",
+      "h1": "How much chlorine to add to a hot tub",
+      "answer": "For a typical 400 gallon hot tub, about 1¾ teaspoons (0.3 oz) of 56 percent dichlor granules, or about 2½ fl oz of 6 percent unscented bleach, raises free chlorine by 3 ppm, enough to take a reading of 1 ppm up to the 4 ppm target. As a rule of thumb, half a teaspoon of dichlor per 100 gallons adds about 3.5 ppm. Keep free chlorine between 3 and 10 ppm, the range CDC guidance gives for hot tubs, and retest 20 minutes after each dose.",
+      "updated": "2026-11-19",
+      "sections": [
+        {
+          "h2": "How much to add, by tub size",
+          "intro": "Amounts to raise free chlorine by 3 ppm, for example from 1 ppm to 4 ppm. They come from the same chemistry engine as the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> and the TubTender app, and assume dichlor at 56 percent available chlorine and bleach at the strength shown.",
+          "table": {
+            "head": [
+              "Tub size",
+              "Dichlor granules (56%)",
+              "Bleach (6%)",
+              "Bleach (8.25%)"
+            ],
+            "rows": [
+              [
+                "250 gallons",
+                "0.2 oz, about 1 tsp",
+                "1.6 fl oz, about 3 tbsp",
+                "1.1 fl oz, about 2 tbsp"
+              ],
+              [
+                "300 gallons",
+                "0.2 oz, about 1¼ tsp",
+                "1.9 fl oz, about 3½ tbsp",
+                "1.3 fl oz, about 2½ tbsp"
+              ],
+              [
+                "400 gallons",
+                "0.3 oz, about 1¾ tsp",
+                "2.5 fl oz, about 5 tbsp",
+                "1.8 fl oz, about 3½ tbsp"
+              ],
+              [
+                "500 gallons",
+                "0.35 oz, about 2¼ tsp",
+                "3.1 fl oz, about 6 tbsp",
+                "2.2 fl oz, about 4½ tbsp"
+              ],
+              [
+                "600 gallons",
+                "0.45 oz, about 2½ tsp",
+                "3.7 fl oz, about 7½ tbsp",
+                "2.6 fl oz, about 5½ tbsp"
+              ]
+            ]
+          },
+          "note": "Need a different rise? Scale it: 1 ppm is a third of the amount shown. Products vary, so check the strength on your label or enter it in the calculator for an exact dose.",
+          "after": "A typical label shock dose is about 1 teaspoon of dichlor per 100 gallons, which adds roughly 7 ppm. Use it after a busy soak, then wait until a retest shows 10 ppm or less before anyone gets in."
+        },
+        {
+          "h2": "Step by step",
+          "steps": [
+            "Test first with a strip or drop kit and write down free chlorine and pH. If pH is above 7.8, lower it first: chlorine is much weaker at high pH.",
+            "Know your tub's volume in gallons. It is in the manual or on the maker's site; most two to six seat tubs hold 250 to 600 gallons.",
+            "Read the strength on your product's label: the percent of available chlorine for granules, or the percent of sodium hypochlorite for bleach.",
+            "Work out the dose with the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a>, or use the table above. Start with a little less than you think; you can always add more.",
+            "Add it with the cover open and the jets running. Sprinkle granules slowly across the water, or pour bleach in front of a jet.",
+            "Wait 20 minutes with the jets on, then retest. Soak only when free chlorine reads 3 to 10 ppm and pH 7.2 to 7.8."
+          ]
+        },
+        {
+          "h2": "How often to add chlorine",
+          "list": [
+            "Before each soak: test, and top up if free chlorine is under 3 ppm.",
+            "After each soak: bodies, lotion and sweat use chlorine up fast in hot water, so a small dose after use keeps the next reading in range.",
+            "At least two or three times a week when the tub sits unused, because heat and the jets slowly burn chlorine off.",
+            "After a heavy use day or a party: a full shock dose, then wait for it to drop to 10 ppm or less before soaking."
+          ]
+        },
+        {
+          "h2": "Dichlor or bleach?",
+          "paras": [
+            "Both work. Dichlor granules (sodium dichloroisocyanurate, sold as spa shock or chlorinating granules) store well and barely move pH, but each dose also adds stabilizer (cyanuric acid), about 0.9 ppm for every 1 ppm of chlorine. Stabilizer builds up over weeks and makes chlorine slower; once it passes about 50 ppm, drain part of the water and refill.",
+            "Plain unscented bleach adds no stabilizer, costs little and is easy to measure, but it nudges pH up a little and loses strength as it ages, so buy it fresh and use the regular kind, not splashless or scented. Many owners use dichlor for daily doses and switch to bleach for a while when stabilizer gets high.",
+            "Skip chlorine pucks made for pools (trichlor): they are very acidic and build stabilizer quickly. Calcium hypochlorite raises calcium and can cloud spa water."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Reading total chlorine instead of free chlorine. Free chlorine is the part that sanitizes; dose from that number.",
+            "Adding chlorine to water with pH above 7.8. At pH 8 only about a quarter of free chlorine is in its strong form, against about half at 7.5.",
+            "Closing the cover right after a dose. Leave it open with the jets on for 20 minutes so gases escape.",
+            "Getting in above 10 ppm. High chlorine irritates skin, eyes and lungs; wait for it to come down.",
+            "Guessing the dose from a pool chart. Hot tubs are small, so pool amounts overshoot badly."
+          ]
+        },
+        {
+          "h2": "A faster way next time",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. For a low chlorine reading it gives the exact dose for your own granules or bleach.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works; what matters is the strength printed on the label, which the calculator asks for.",
+          "steps": [
+            "Test strips or a drop kit that read free chlorine and pH: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub test strips on Amazon</a>.",
+            "Spa chlorine granules (dichlor): <a href=\"https://www.amazon.com/s?k=spa+chlorine+granules+dichlor&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa chlorine granules</a>.",
+            "A measuring spoon set kept only for tub chemicals, and a <a href=\"https://www.amazon.com/s?k=spa+ph+decreaser&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">pH decreaser</a> for when pH runs high."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
+        }
+      ],
+      "faq": [
+        [
+          "How much chlorine do I put in my hot tub?",
+          "Enough to keep free chlorine between 3 and 10 ppm. For a 400 gallon tub, about 1¾ teaspoons of 56 percent dichlor granules or about 2½ fl oz of 6 percent bleach raises it by 3 ppm."
+        ],
+        [
+          "How much chlorine per 100 gallons in a hot tub?",
+          "Half a teaspoon of 56 percent dichlor granules per 100 gallons raises free chlorine by about 3.5 ppm. A full teaspoon per 100 gallons, the usual shock dose, adds about 7 ppm."
+        ],
+        [
+          "What should the chlorine level be in a hot tub?",
+          "Free chlorine 3 to 10 ppm, with pH 7.2 to 7.8. Those are the ranges in CDC hot tub guidance."
+        ],
+        [
+          "Can I use regular bleach in my hot tub?",
+          "Yes, plain unscented bleach works. Check its strength on the label (often 6 or 8.25 percent), dose by that, and avoid scented or splashless bleach."
+        ],
+        [
+          "How long after adding chlorine can I get in the hot tub?",
+          "Usually about 20 minutes with the jets running, once a retest shows free chlorine at 10 ppm or less and pH between 7.2 and 7.8."
+        ],
+        [
+          "Why does my hot tub chlorine keep dropping?",
+          "Heat, jets and bathers use it up quickly. High pH, too much stabilizer or old water also make it fade faster. Test before each soak and dose after use."
+        ]
+      ]
+    },
+    {
+      "slug": "hot-tub-ph-too-high",
+      "app": "tubtender",
+      "title": "Hot Tub pH Too High? How to Lower It Safely",
+      "description": "Hot tub pH too high: check alkalinity first, then add pH decreaser with the pump on. About 2¾ tsp takes a 400 gallon tub from pH 8.0 to 7.5.",
+      "h1": "Hot tub pH too high? How to lower it",
+      "answer": "When hot tub pH reads above 7.8, check total alkalinity first: if it is above 120 ppm, lower alkalinity instead, or pH will climb straight back. If alkalinity is in range, add pH decreaser (dry acid) with the pump running and the air jets off. For a 400 gallon tub at pH 8.0 with alkalinity at 90 ppm, about 2¾ teaspoons (0.5 oz) brings it to about 7.5; add half, wait 20 minutes, retest, then add the rest if needed.",
+      "updated": "2026-11-19",
+      "sections": [
+        {
+          "h2": "How much pH decreaser to add",
+          "intro": "Amounts to bring pH down to about 7.5 with total alkalinity at 90 ppm. They come from the same chemistry engine as the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> and the TubTender app, for dry acid (sodium bisulfate, 93 percent) and muriatic acid (31.45 percent).",
+          "table": {
+            "head": [
+              "Tub size and reading",
+              "Dry acid",
+              "Muriatic acid"
+            ],
+            "rows": [
+              [
+                "300 gallons at pH 8.0",
+                "0.4 oz, about 2 tsp",
+                "about 1¾ tsp"
+              ],
+              [
+                "300 gallons at pH 8.4",
+                "0.6 oz, about 1 tbsp",
+                "about 2¾ tsp"
+              ],
+              [
+                "400 gallons at pH 8.0",
+                "0.5 oz, about 2¾ tsp",
+                "about 2¼ tsp"
+              ],
+              [
+                "400 gallons at pH 8.4",
+                "0.85 oz, about 1½ tbsp",
+                "about 3¾ tsp"
+              ],
+              [
+                "500 gallons at pH 8.0",
+                "0.65 oz, about 1 tbsp",
+                "about 3 tsp"
+              ],
+              [
+                "500 gallons at pH 8.4",
+                "1 oz, about 2 tbsp",
+                "about 4¾ tsp"
+              ]
+            ]
+          },
+          "note": "Higher alkalinity needs more acid for the same change. Strip readings are coarse, so split every dose in half and retest between halves."
+        },
+        {
+          "h2": "Step by step",
+          "steps": [
+            "Test total alkalinity and pH. Alkalinity above 120 ppm? Follow <a href=\"lower-hot-tub-alkalinity.html\">how to lower hot tub alkalinity</a> instead; it brings pH down along the way.",
+            "Work out the dose with the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> or the table above, using the strength on your label.",
+            "Turn the circulation pump on and the air jets and blower off. Air raises pH, so it would undo part of the dose.",
+            "Add half the dose. Pour dry acid slowly over the water or dissolve it in a bucket of tub water first. Add muriatic acid to water, never water to acid, with gloves and eye protection.",
+            "Wait 20 minutes and retest. Still above 7.8? Add the second half and retest again.",
+            "Once pH reads 7.2 to 7.8, check sanitizer and top it up if it is low. High pH may have let it fade."
+          ]
+        },
+        {
+          "h2": "Why pH keeps going up",
+          "list": [
+            "Jets and the air blower. Aeration lets carbon dioxide escape, and pH rises a little every time the tub runs. A slow upward drift is normal.",
+            "High total alkalinity. It pushes pH up and resists every dose. Fix it first.",
+            "Bleach and pH increaser. Liquid chlorine nudges pH up, and an extra scoop of soda ash after a misread strip is a common cause.",
+            "Fresh fill water. Many areas have tap water at pH 8 or higher, so a new fill often needs a first dose."
+          ]
+        },
+        {
+          "h2": "What high pH does",
+          "intro": "Target pH is 7.2 to 7.8, the range in CDC hot tub guidance. Above it:",
+          "list": [
+            "Chlorine and bromine get much weaker. At pH 8 only about a quarter of free chlorine is in its strong form, against about half at 7.5.",
+            "Calcium comes out of the water as scale on the shell, jets and heater.",
+            "The water turns cloudy and can leave skin itchy or dry. See <a href=\"cloudy-hot-tub-water.html\">cloudy hot tub water</a> if it looks hazy."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Dumping in the whole label dose at once. Big doses overshoot pH below 7.2, which stings eyes and wears on the heater.",
+            "Running the air jets while the acid goes in. That raises pH again before the acid has done its work.",
+            "Using vinegar or lemon juice. They barely move pH in a hot tub and add organics the sanitizer has to burn off.",
+            "Retesting right away. Give it 20 minutes of circulation or the reading will not be settled."
+          ]
+        },
+        {
+          "h2": "A faster way next time",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that turns a test strip into a plan: tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. When pH is high it gives the pH decreaser dose and tells you when to split it in half.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works; what matters is the strength printed on the label, which the calculator asks for.",
+          "steps": [
+            "Test strips or a drop kit that read pH and alkalinity: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub test strips on Amazon</a>.",
+            "A pH decreaser (sodium bisulfate, also sold as dry acid): <a href=\"https://www.amazon.com/s?k=spa+ph+decreaser&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa pH decreaser</a>.",
+            "Gloves and eye protection if you use <a href=\"https://www.amazon.com/s?k=muriatic+acid+for+spa&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">muriatic acid</a> instead."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
+        }
+      ],
+      "faq": [
+        [
+          "How do I lower the pH in my hot tub?",
+          "Add pH decreaser (dry acid) or muriatic acid with the pump running and the air jets off. Add half the dose, wait 20 minutes, retest, then add the rest if pH is still above 7.8."
+        ],
+        [
+          "What happens if hot tub pH is too high?",
+          "Chlorine and bromine work much less well, scale forms on the shell and heater, and the water can turn cloudy and dry out skin."
+        ],
+        [
+          "Is it safe to use a hot tub with high pH?",
+          "It is better to wait. Above 7.8 the sanitizer is weak, so germs are not killed as fast. Lower pH to 7.2 to 7.8 first."
+        ],
+        [
+          "Why does my hot tub pH keep rising?",
+          "Aeration from the jets raises pH a little every day. High alkalinity, bleach and high pH tap water make it rise faster."
+        ],
+        [
+          "Should I lower alkalinity or pH first?",
+          "Alkalinity first when it is above 120 ppm. Lowering it brings pH down too, and pH set before alkalinity drifts back within a day."
+        ],
+        [
+          "Can I use vinegar to lower hot tub pH?",
+          "No. It barely moves pH in a hot tub and adds organics the sanitizer has to burn off. Use a spa pH decreaser."
+        ]
+      ]
+    },
+    {
       "slug": "sleep-sounds-offline-on-a-plane",
       "app": "drift",
       "title": "Sleep Sounds That Work Offline on a Plane (iPhone)",
