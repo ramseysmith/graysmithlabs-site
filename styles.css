@@ -780,7 +780,7 @@ section.first { border-top: 0; }
 
 /* White noise player (white-noise/) */
 .wn-player { margin-top: 32px; padding: 22px; border: 1px solid var(--line); border-radius: 20px; }
-.wn-sounds { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.wn-sounds { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .wn-sound { text-align: left; font: inherit; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 14px; padding: 14px; cursor: pointer; }
 .wn-sound b { display: block; font-family: var(--serif); font-weight: 500; font-size: 18px; }
 .wn-sound span { display: block; color: var(--muted); font-size: 12.5px; margin-top: 6px; line-height: 1.45; }
