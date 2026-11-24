@@ -19,8 +19,9 @@
 // Exit 2 with a message on stderr blocks the call (Pre) or reports back (Post).
 // Any internal error exits 0, so a broken hook never stops work.
 
-import { execSync } from 'node:child_process';
-import { readFileSync, existsSync, statSync, writeFileSync, openSync, readSync, closeSync } from 'node:fs';
+import { execSync, execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
+import { readFileSync, existsSync, statSync, writeFileSync, openSync, readSync, closeSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { basename, dirname, join, relative } from 'node:path';
 
@@ -271,6 +272,22 @@ export function commitDir(cmd, cwd) {
   return lit ? abs(lit) : cwd;
 }
 
+// The command with text that is only data taken out: heredoc bodies not fed to a shell, and quoted
+// strings a shell would not run. Three weeks to Nov 24 2026 the update gate stopped 33 commands that
+// only mentioned "eas update" (grep patterns, commit messages, notes) and 4 that ran it. Anything that
+// can execute text (bash -c, eval, xargs, $( ), backticks, a script heredoc that spawns) is kept whole.
+export function commandOnly(cmd) {
+  let kept = false;
+  let out = String(cmd).replace(/^(.*)<<-?\s*(['"]?)([A-Za-z_]\w*)\2([^\n]*)\n([\s\S]*?)\n[ \t]*\3[ \t]*$/gm, (all, before, q, tag, after, body) => {
+    const runs = /(^|[\s;&|(])(ba|z|da|k)?sh\b|\b(source|eval|ssh|xargs)\b/.test(before + after) || /subprocess|os\.system|os\.popen|child_process|execSync|spawnSync|\bexec\(/.test(body) || (!q && /\$\(|`/.test(body));
+    if (runs) kept = true;
+    return runs ? all : before + after;
+  });
+  if (kept || /\b(ba|z|da|k)?sh\s+(-\w+\s+)*-\w*c\b|\beval\b|\bxargs\b|\b(node|python3?|perl|ruby)\s+-(e|c|p)\b|\bssh\b|\|\s*(ba|z|da|k)?sh\b/.test(out)) return out;
+  out = out.replace(/'[^']*'/g, "''").replace(/"(?:\\[\s\S]|[^"\\])*"/g, (q) => (/\$\(|`/.test(q) ? q : '""'));
+  return out;
+}
+
 export function checkCommand(cmd, cwd) {
   const isCommit = /\bgit\b[^;&|]*\bcommit\b/.test(cmd);
   const branch = /\bgit\b[^;&|]*\b(checkout\s+-b|switch\s+-c|branch|push)\b[^;&|]*\bclaude\//.test(cmd);
@@ -278,7 +295,8 @@ export function checkCommand(cmd, cwd) {
   // Over the air updates go through the HQ gate (Nov 12 2026): it checks the smoke
   // ran on this sha, the paywall doctor, tsc and that no RevenueCat test key rides
   // along (a release build or update with a test_ key makes the app quit on launch).
-  if (/\beas(-cli)?\s+update\b/.test(cmd) && !/ota_ready\.sh/.test(cmd) && !/\b--help\b|\bupdate:(list|view|rollback)\b/.test(cmd))
+  const ran = /\beas(-cli)?(@[\w.-]+)?\s+update\b/.test(cmd) ? commandOnly(cmd) : '';
+  if (/\beas(-cli)?(@[\w.-]+)?\s+update\b/.test(ran) && !/ota_ready\.sh/.test(cmd) && !/\b--help\b|\bupdate:(list|view|rollback)\b/.test(cmd))
     return 'Publish over the air updates with: bash ~/Documents/Github/graysmith_labs_agent/scripts/ota_ready.sh <app dir> "<message>" (it gates the smoke sha, the paywall doctor, tsc and RevenueCat test keys, then publishes).';
   if (/REVENUECAT_TEST_KEY=/.test(cmd) && /\beas(-cli)?\s+(build|update)\b|\bexpo\s+export\b|build:(testflight|play)/.test(cmd))
     return 'A RevenueCat test key must never reach a store build or update: RevenueCat closes release builds that carry one. Test keys are for Debug builds only (HQ scripts/paywall_preview.sh).';
@@ -341,10 +359,10 @@ function pngHead(file) {
 // (CLAUDE.md, Images cost tokens). Week to Nov 15: 127 images Read, full size 1320 x 2868
 // store frames among them and the same simulator shots Read twice in one session.
 // `session` (the hook's session_id) enables the second rule; without it only size is checked.
-export function checkImageRead(file, session, stateDir = tmpdir()) {
+export function checkImageRead(file, session, stateDir = tmpdir(), shrink = false) {
   if (!/\.png$/i.test(file) || !existsSync(file)) return '';
   const size = pngHead(file);
-  if (size && Math.max(size[0], size[1]) > 1000) {
+  if (size && Math.max(size[0], size[1]) > 1000 && !shrink) {
     const out = '/tmp/look';
     return `${basename(file)} is ${size[0]} x ${size[1]}. Shrink it first and Read the copy: \`mkdir -p ${out} && sips -Z 900 "${file}" --out ${out}/\` then Read ${out}/${basename(file)}. Read only the one shot that decides the check.`;
   }
@@ -360,10 +378,28 @@ export function checkImageRead(file, session, stateDir = tmpdir()) {
   return '';
 }
 
-export function checkTokenWaste(tool, input, cwd, session) {
+// On the Mac an image over 1000 px is shrunk here and the Read goes to the copy, so nothing is
+// blocked and no call is spent on it (29 blocked Reads in the three weeks to Nov 24 2026). Null
+// where sips is missing or fails; the block above then says what to run.
+export function shrunkCopy(file, dir = join(tmpdir(), 'guard-look')) {
+  try {
+    if (!/\.png$/i.test(file)) return null;
+    const size = pngHead(file);
+    if (!size || Math.max(size[0], size[1]) <= 1000) return null;
+    const tag = createHash('sha1').update(`${file}:${statSync(file).mtimeMs}`).digest('hex').slice(0, 8);
+    const out = join(dir, `${basename(file).replace(/\.png$/i, '')}-${tag}.png`);
+    if (!existsSync(out)) {
+      mkdirSync(dir, { recursive: true });
+      execFileSync('sips', ['-Z', '900', file, '--out', out], { stdio: 'ignore', timeout: 15000 });
+    }
+    return existsSync(out) ? { path: out, from: size } : null;
+  } catch { return null; }
+}
+
+export function checkTokenWaste(tool, input, cwd, session, shrink = false) {
   const x = input || {};
   if (tool === 'Read' && x.file_path) {
-    const msg = checkImageRead(String(x.file_path), session);
+    const msg = checkImageRead(String(x.file_path), session, tmpdir(), shrink);
     if (msg) return msg;
   }
   if (tool === 'Read' && basename(String(x.file_path || '')) === 'PLAN.md' && !x.offset && !x.limit) {
@@ -385,8 +421,13 @@ async function main() {
   const cwd = input.cwd || process.cwd();
 
   if (event === 'PreToolUse' && tool !== 'Bash') {
-    const msg = checkTokenWaste(tool, input.tool_input, cwd, input.session_id);
+    const small = tool === 'Read' ? shrunkCopy(String(input.tool_input?.file_path || '')) : null;
+    const msg = checkTokenWaste(tool, input.tool_input, cwd, input.session_id, !!small);
     if (msg) block(msg);
+    if (small)
+      process.stdout.write(JSON.stringify({ hookSpecificOutput: { hookEventName: 'PreToolUse',
+        updatedInput: { ...input.tool_input, file_path: small.path },
+        additionalContext: `${basename(String(input.tool_input.file_path))} is ${small.from[0]} x ${small.from[1]}; you are shown a 900 px copy. To judge fine detail, crop that part with sips -c and Read the crop.` } }));
   }
 
   if (event === 'PreToolUse' && tool === 'Bash') {
