@@ -60,6 +60,12 @@ function adSlot(kind) {
 `;
 }
 
+// Only day pages with proven search demand, or kept on purpose, are indexed
+// (tools/holidays/indexed.json; AdSense called the thin ones Low value content).
+const INDEXED = JSON.parse(fs.readFileSync(path.join(HERE, "indexed.json"), "utf8"));
+const INDEXED_DAYS = new Set([...INDEXED.seen, ...INDEXED.keep]);
+const isIndexed = (data, m, d) => !INDEXED.enabled || INDEXED_DAYS.has(slug(m, d)) || dayEntries(data, m, d).moving.length > 0;
+
 const CATEGORY_LABEL = {
   food: "Food", awareness: "Awareness", fun: "Fun", cultural: "Culture", nature: "Nature",
   tech: "Tech", health: "Health", arts: "Arts", sports: "Sports", other: "Observance",
@@ -318,6 +324,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
         <ul>
           <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
           <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="../about.html">About and contact</a></li>
           <li><a href="../privacy.html">Privacy policy</a></li>
         </ul>
       </div>
@@ -337,7 +344,7 @@ function card(h) {
   const host = h.source ? new URL(h.source).hostname.replace(/^www\./, "") : "";
   const when = h.year
     ? `<p class="hd-when">The date moves each year. In ${h.year} it falls on this day.</p>`
-    : host ? `<p class="hd-when">Same date every year. Date checked against <a href="${esc(h.source)}" rel="nofollow noopener" target="_blank">${esc(host)}</a>.</p>` : "";
+    : host ? `<p class="hd-when">Same date every year. Date checked against <a href="${esc(h.source)}" rel="nofollow noopener" target="_blank">${esc(host)}</a>. <a href="../about.html#dates">How we check</a>.</p>` : "";
   return `        <article class="hd-card">
           <div class="hd-top"><span class="hd-emoji" aria-hidden="true">${h.emoji}</span><span class="tag">${CATEGORY_LABEL[h.category] ?? "Observance"}</span></div>
           <h2>${esc(h.name)}</h2>
@@ -432,7 +439,8 @@ ${relatedDays(data, m, d, daysWithContent)}${weekdayRows(m, d, years[0])}${adSlo
       <a class="next" href="${slug(...next)}.html"><span><span class="label">Next day</span><b>${label(...next)}</b></span></a>
     </nav>
   </div>`;
-  return shell({ title, description, canonical, body });
+  const extraHead = isIndexed(data, m, d) ? "" : `<meta name="robots" content="noindex, follow">\n`;
+  return shell({ title, description, canonical, body, extraHead });
 }
 
 function monthPage(data, m, years, daysWithContent) {
@@ -590,6 +598,6 @@ else if (fs.existsSync(adsTxt) && /^google\.com, pub-/.test(fs.readFileSync(adsT
 updateSitemap([
   `${ORIGIN}/holidays/`,
   ...MONTHS.map((n) => `${ORIGIN}/holidays/${n.toLowerCase()}.html`),
-  ...days.map(([m, d]) => `${ORIGIN}/holidays/${slug(m, d)}.html`),
+  ...days.filter(([m, d]) => isIndexed(data, m, d)).map(([m, d]) => `${ORIGIN}/holidays/${slug(m, d)}.html`),
 ]);
 console.log(`built ${days.length} day pages, 12 month pages and the today page for ${today}`);
