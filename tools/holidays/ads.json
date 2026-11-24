@@ -1,5 +1,6 @@
 {
-  "_readme": "AdSense for the holiday pages. While publisherId is empty the pages carry no ad code at all. Put the ca-pub id from AdSense here (for example ca-pub-1234567890123456), rebuild with node tools/holidays/build.mjs --site ., and the pages get the AdSense script (auto ads), one display slot per page where a slot id is set, and ads.txt at the site root. Slot ids come from AdSense, Ads, By ad unit, Display ads.",
+  "_readme": "enabled false (Nov 24 2026, AdSense said Low value content) keeps ads.txt and takes every ad tag off the pages; set it true only once AdSense approves the site. AdSense for the holiday pages. While publisherId is empty the pages carry no ad code at all. Put the ca-pub id from AdSense here (for example ca-pub-1234567890123456), rebuild with node tools/holidays/build.mjs --site ., and the pages get the AdSense script (auto ads), one display slot per page where a slot id is set, and ads.txt at the site root. Slot ids come from AdSense, Ads, By ad unit, Display ads.",
+  "enabled": false,
   "publisherId": "ca-pub-8327362355420246",
   "slots": {
     "day": "",

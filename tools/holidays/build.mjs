@@ -38,7 +38,7 @@ const APP_URL = `https://apps.apple.com/us/app/celebriday/id${APP_ID}`;
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const DAYS_IN = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-// AdSense: off until tools/holidays/ads.json has a publisher id (see its _readme).
+// AdSense: tags only when ads.json enabled is true; ads.txt follows the publisher id. Off until tools/holidays/ads.json has a publisher id (see its _readme).
 const ADS = (() => {
   try {
     const cfg = JSON.parse(fs.readFileSync(path.join(HERE, "ads.json"), "utf8"));
@@ -47,12 +47,12 @@ const ADS = (() => {
     return null;
   }
 })();
-const ADS_HEAD = ADS
+const ADS_HEAD = ADS?.enabled
   ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADS.publisherId}" crossorigin="anonymous"></script>\n`
   : "";
 function adSlot(kind) {
   const id = ADS?.slots?.[kind];
-  if (!ADS || !/^\d{6,20}$/.test(id ?? "")) return "";
+  if (!ADS?.enabled || !/^\d{6,20}$/.test(id ?? "")) return "";
   return `    <aside class="hd-ad" aria-label="Advertisement">
       <ins class="adsbygoogle" style="display:block" data-ad-client="${ADS.publisherId}" data-ad-slot="${id}" data-ad-format="auto" data-full-width-responsive="true"></ins>
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -582,7 +582,7 @@ for (let m = 1; m <= 12; m++) fs.writeFileSync(path.join(OUT, `${monthSlug(m)}.h
 fs.writeFileSync(path.join(OUT, "index.html"), indexPage(data, today, years, daysWithContent));
 
 linkFromAppPage();
-// ads.txt exists only while AdSense is on, so the site never claims a seller it is not.
+// ads.txt exists only while a publisher id is set, so the site never claims a seller it is not.
 const adsTxt = path.join(SITE, "ads.txt");
 const pub = ADS?.publisherId.replace(/^ca-/, "");
 if (pub) fs.writeFileSync(adsTxt, `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`);
