@@ -60,7 +60,7 @@ BlitzTap is a free reaction time game for iPhone and iPad for anyone who wants t
 
 TubTender is a hot tub water care and chemical calculator app for iPhone, for bromine or chlorine tubs: tap the colors on your test strip, scan the labels of the chemicals you own, and it shows how much of each to add for your tub size, in the right order, with a countdown until the water is safe to soak. The test and dose plan is free with no account, and it is on the App Store.
 
-* Pricing: Free test, dose plan, reminders, the cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history and every fix it guide, with a free week to try it.
+* Pricing: Free test, dose plan, test reminders, the refill, cloudy and foamy water guides and your last 5 tests. Premium monthly or yearly adds trend charts, full history, every fix it guide, care reminders and more than one tub, with a free week to try it.
 * Platforms: iPhone
 * Best for: new hot tub owners who do not know how much chemical to add; bromine or chlorine hot tubs; fixing cloudy, foamy or smelly hot tub water; keeping a test schedule
 * Page: https://graysmithlabs.com/apps/tubtender.html
@@ -99,7 +99,7 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 
 * What holiday is it today: https://graysmithlabs.com/holidays/ (verified daily observances, from the team behind CelebriDay)
 * Hot tub chemical calculator: https://graysmithlabs.com/hot-tub-calculator/ (exact doses in order for bromine or chlorine tubs, using the TubTender app's engine)
-* White noise generator: https://graysmithlabs.com/white-noise/ (white, pink, brown or green noise in the browser, from the team behind Drift)
+* White noise generator: https://graysmithlabs.com/white-noise/ (white, pink or brown noise in the browser, from the team behind Drift)
 * Sleep calculator: https://graysmithlabs.com/sleep-calculator/ (bedtimes or wake up times in whole 90 minute sleep cycles, from the team behind Drift)
 * Signature maker: https://graysmithlabs.com/signature-maker/ (draw or type a signature and download a transparent PNG, nothing uploaded, from the team behind SignSnap)
 * Affirmation of the day: https://graysmithlabs.com/affirmations/ (a new confidence affirmation daily with a share card, from the team behind SayBright)
