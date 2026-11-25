@@ -138,6 +138,36 @@
     });
   }
 
+  // Audit request form on the services page, sent the same way
+  var audit = document.getElementById("audit-form");
+  if (audit) {
+    var auditSent = document.getElementById("audit-sent");
+    var auditDone = function () { audit.hidden = true; auditSent.hidden = false; auditSent.focus({ preventScroll: true }); };
+    if (/[?&]sent=audit/.test(location.search)) auditDone();
+    audit.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var data = {};
+      new FormData(audit).forEach(function (val, key) { data[key] = val; });
+      if (data.botcheck) { auditDone(); return; }
+      delete data.redirect;
+      var btn = audit.querySelector("button[type=submit]");
+      btn.disabled = true;
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(data)
+      }).then(function (r) { return r.json(); }).then(function (res) {
+        if (String(res.success) !== "true") throw new Error(res.message || "Not sent");
+        auditDone();
+      }).catch(function () {
+        btn.disabled = false;
+        document.getElementById("audit-note").textContent = "That didn't go through, so we opened your email app with everything filled in. Just press send.";
+        location.href = "mailto:ramsey@graysmithlabs.com?subject=App%20audit%20request&body=" +
+          encodeURIComponent("App: " + data.app_link + "\nEmail: " + data.email + "\n\n" + data.message);
+      });
+    });
+  }
+
   // Copy email button next to the address in every contact card
   document.querySelectorAll(".contact-card .email").forEach(function (a) {
     if (!navigator.clipboard) return;
