@@ -59,7 +59,6 @@ for (const t of trades) {
   if (t.items.length !== 3 || t.faq.length !== 3) throw new Error(`${t.slug}: needs 3 items and 3 FAQ entries`);
 
   const url = `${BASE}${t.slug}/`;
-  const appLink = `${APP}?ct=inv-${t.slug}&amp;mt=8`;
   let html = template;
 
   // Paths are one folder deeper.
@@ -139,7 +138,8 @@ for (const t of trades) {
     /<p>Invoicing from your phone is faster still:[\s\S]*?<\/p>/,
     `<p>Invoicing ${esc(t.trade)} from your phone is faster still: tell Tallyhand the job in one sentence, like &ldquo;${esc(t.quickAdd)}&rdquo;, and it builds the invoice, sends the PDF, keeps every client in one place and reminds you when someone is late. Your first 3 documents are free.</p>`
   );
-  html = must(html, `<a class="btn" href="${APP}" rel="noopener">`, `<a class="btn" href="${appLink}" rel="noopener">`, "App Store link");
+  // tools/links/tag.mjs (run after this) sets the campaign token.
+  html = must(html, `<a class="btn" href="${APP}`, `<a class="btn" href="${APP}`, "App Store link");
 
   // FAQ.
   const faq =

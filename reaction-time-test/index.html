@@ -182,7 +182,7 @@
         <h2>BlitzTap for iPhone</h2>
         <p>BlitzTap is a free reaction time game for iPhone and iPad: a target shape appears and you tap its match in a grid before the timer runs out. Classic, Time Attack, Zen and a Daily Challenge with the same 30 targets for every player, four tiers down to about a second, and no energy timers.</p>
         <div class="btn-row">
-          <a class="btn" href="https://apps.apple.com/us/app/id6759490849" rel="noopener">Download on the App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/id6759490849?ct=reaction-time-test&amp;mt=8" rel="noopener">Download on the App Store</a>
           <a class="btn ghost" href="../apps/blitztap.html">About BlitzTap</a>
         </div>
       </div>
@@ -217,7 +217,7 @@
   function finish() {
     const avg = Math.round(times.reduce((a, b) => a + b, 0) / times.length), best = Math.min(...times);
     set('done', `${avg} ms average`, 'Tap to try again');
-    out.innerHTML = `<p class="rt-score"><b>${avg} ms</b> average, best <b>${best} ms</b>. That is ${rate(avg)} for a tap or click test.</p><p class="rt-cta">Want to get faster? <a href="https://apps.apple.com/us/app/id6759490849" rel="noopener">BlitzTap</a> turns reaction training into one minute rounds on iPhone.</p>`;
+    out.innerHTML = `<p class="rt-score"><b>${avg} ms</b> average, best <b>${best} ms</b>. That is ${rate(avg)} for a tap or click test.</p><p class="rt-cta">Want to get faster? <a href="https://apps.apple.com/us/app/id6759490849?ct=reaction-time-test&amp;mt=8" rel="noopener">BlitzTap</a> turns reaction training into one minute rounds on iPhone.</p>`;
   }
   function hit(e) {
     if (e) e.preventDefault();
