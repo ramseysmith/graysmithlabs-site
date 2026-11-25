@@ -92,7 +92,7 @@ function listPage(l) {
         url,
         image,
         dateModified: l.updated,
-        author: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
+        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html`, founder: { '@type': 'Person', name: 'Ramsey Graysmith' } },
         publisher: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
         about: { '@id': `${BASE}/apps/${app.slug}.html#app` },
       },
@@ -100,7 +100,7 @@ function listPage(l) {
         '@type': 'ItemList',
         '@id': `${url}#list`,
         name: l.h1,
-        itemListOrder: 'https://schema.org/ItemListOrderAscending',
+        itemListOrder: 'https://schema.org/ItemListUnordered',
         numberOfItems: l.picks.length,
         itemListElement: l.picks.map((p, i) => ({
           '@type': 'ListItem',
@@ -117,7 +117,7 @@ function listPage(l) {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Best apps', item: `${BASE}/best/` },
+          { '@type': 'ListItem', position: 1, name: 'App comparisons', item: `${BASE}/best/` },
           { '@type': 'ListItem', position: 2, name: l.h1, item: url },
         ],
       },
@@ -127,7 +127,7 @@ function listPage(l) {
 
   const id = (p) => 'pick-' + p.name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replaceAll(' ', '_');
   const pick = (p) => `      <li class="bx-pick${p.ours ? ' ours' : ''}" id="${id(p)}">
-        <p class="bx-badge">${esc(p.best)}</p>
+        <p class="bx-badge">${esc(p.best)}${p.ours ? " &middot; our app" : ""}</p>
         <h3>${esc(p.name)}</h3>
         <p>${html(p.body)}</p>
         <ul class="guide-list">
@@ -140,23 +140,14 @@ ${p.ours ? `        <div class="btn-row">\n          <a class="btn" href="${stor
   return (
     head({ title: l.title, description: l.description, url, image, extra }) +
     `  <article class="wrap guide">
-    <p class="crumbs"><a href="./">Best apps</a> &nbsp;/&nbsp; ${esc(l.topic)}</p>
+    <p class="crumbs"><a href="./">App comparisons</a> &nbsp;/&nbsp; ${esc(l.topic)}</p>
     <h1>${esc(l.h1)}</h1>
     <p class="guide-answer">${html(l.answer)}</p>
-    <p class="guide-meta">Updated ${dateText(l.updated)} by Graysmith Labs</p>
+    <p class="guide-meta">Updated ${dateText(l.updated)} by <a href="../about.html">Graysmith Labs</a>, Ramsey Graysmith&rsquo;s studio</p>
+    <p class="bx-note"><strong>We make one of these.</strong> ${esc(app.name)} is our app, listed first so you know which it is. This is a comparison, not a ranking. Details on the others come from their App Store listings and reviews. <a href="../about.html#lists">How we choose apps</a>.</p>
     ${art(l.slug, 'bx')}
-    <div class="bx-top">
-      <img src="../assets/apps/${app.slug}/icon.png${stamp('icon.png')}" alt="${esc(app.name)} app icon" width="56" height="56">
-      <div class="bx-top-text">
-        <p class="bx-badge">Our top pick</p>
-        <b>${esc(app.name)}</b>
-        <span>${esc(l.picks[0].best)}</span>
-      </div>
-      <a class="btn" href="${store}" rel="noopener">Get ${esc(app.name)}</a>
-    </div>
-
     <section class="guide-sec">
-      <h2>How we picked</h2>
+      <h2>What we looked for</h2>
       <ul class="guide-list">
 ${l.how.map((x) => `        <li>${html(x)}</li>`).join('\n')}
       </ul>
@@ -173,7 +164,7 @@ ${l.picks.map((p) => `          <tr${p.ours ? ' class="ours"' : ''}><th scope="r
     </section>
 
     <section class="guide-sec">
-      <h2>The ${l.picks.length} best ${esc(l.topic.toLowerCase())} apps in ${year}</h2>
+      <h2>${l.picks.length} ways to do it, and who each suits</h2>
       <ol class="bx-picks">
 ${l.picks.map(pick).join('\n')}
       </ol>
@@ -182,7 +173,7 @@ ${l.picks.map(pick).join('\n')}
     <aside class="guide-app">
       <img src="../assets/apps/${app.slug}/icon.png${stamp('icon.png')}" alt="${esc(app.name)} app icon" width="64" height="64">
       <div>
-        <h2>Our pick: ${esc(app.name)}</h2>
+        <h2>About ${esc(app.name)}, our app</h2>
         <p>${esc(app.answer)}</p>
         <p class="guide-note">${esc(app.pricing)}</p>
         <div class="btn-row">
@@ -200,12 +191,11 @@ ${l.faq.map(([q, a]) => `        <details>\n          <summary>${esc(q)}</summar
     </section>
 
     <section class="guide-sec">
-      <h2>More best apps lists</h2>
+      <h2>More comparisons</h2>
       <ul class="guide-list">
 ${others.map((o) => `        <li><a href="${o.slug}.html">${esc(o.h1)}</a></li>`).join('\n')}
       </ul>
     </section>
-    <p class="guide-note bx-disclose">We make ${esc(app.name)}, so weigh our first place with that in mind. We compared every app here on its App Store listing, free tier, features and recent reviews, and each pick says plainly when another app is the better fit for you.</p>
   </article>
 </main>
 ${footer}
@@ -217,20 +207,20 @@ ${footer}
 
 function indexPage() {
   const url = `${BASE}/best/`;
-  const title = 'Best Apps for iPhone: Honest Lists by Graysmith Labs';
-  const description = 'Honest lists of the best iPhone apps for white noise, national days, signing PDFs, reflexes, affirmations, hot tub care and invoices, updated for 2026.';
+  const title = 'iPhone App Comparisons by Graysmith Labs';
+  const description = 'Comparisons of iPhone apps for white noise, national days, signing PDFs, reflexes, affirmations, hot tub care and invoices, updated for 2026.';
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Best apps',
+    name: 'App comparisons',
     url,
     hasPart: data.lists.map((l) => ({ '@type': 'Article', headline: l.h1, url: `${BASE}/best/${l.slug}.html` })),
   };
   return (
-    head({ title, description, url, image: `${BASE}/assets/og.png`, extra: `<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n` }) +
+    head({ title, description, url, image: `${BASE}/assets/og.jpg`, extra: `<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n` }) +
     `  <div class="wrap guide">
-    <h1>Best apps</h1>
-    <p class="guide-answer">Short, honest lists of the best iPhone apps for everyday jobs. We make one app in each list and say so; every pick tells you when another app suits you better.</p>
+    <h1>App comparisons</h1>
+    <p class="guide-answer">Short comparisons of iPhone apps for everyday jobs. We make one app in each and say so at the top; every entry tells you when another app suits you better.</p>
     <ul class="bx-index">
 ${data.lists.map((l, i) => `      <li><a href="${l.slug}.html">${art(l.slug, `bx${i}`)}<b>${esc(l.h1)}</b><span>${esc(l.description)}</span></a></li>`).join('\n')}
     </ul>

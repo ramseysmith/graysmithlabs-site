@@ -1,15 +1,15 @@
 {
-  "_readme": "Best apps lists on graysmithlabs.com/best/. node tools/best/build.mjs writes best/<slug>.html and best/index.html from this file and the art in tools/best/art/<slug>.svg ({{p}} becomes a per page id prefix). Our app is pick 1 with a plain disclosure and an honest 'pick another app if' line. Competitor facts come from HQ docs/competitors/<slug>.md or a source you read that day; never invent ratings or prices. Our app's facts come from tools/ai/products.json. No dashes in prose.",
+  "_readme": "Best apps lists on graysmithlabs.com/best/. node tools/best/build.mjs writes best/<slug>.html and best/index.html from this file and the art in tools/best/art/<slug>.svg ({{p}} becomes a per page id prefix). These are comparisons, not rankings: our app is listed first and labelled as ours at the top of the page, no list says ours is the best, and the answer names when another app wins. Competitor facts come from HQ docs/competitors/<slug>.md or a source you read that day; never invent ratings or prices. Our app's facts come from tools/ai/products.json. No dashes in prose.",
   "lists": [
     {
       "slug": "white-noise-apps",
       "app": "drift",
-      "title": "Best White Noise Apps for iPhone in 2026",
-      "description": "The best white noise apps for iPhone in 2026 compared: Drift, White Noise Lite, Rain Rain, BetterSleep, Dark Noise and Calm, on free sounds and price.",
-      "h1": "The best white noise apps for iPhone in 2026",
+      "title": "White Noise Apps for iPhone Compared (2026)",
+      "description": "White noise apps for iPhone compared: Drift, White Noise Lite, Rain Rain, BetterSleep, Dark Noise and Calm, on free sounds and price.",
+      "h1": "White noise apps for iPhone, compared",
       "topic": "White noise",
-      "answer": "The best white noise app for most people is Drift: its white noise, rain, ocean, stream, fan and 432 Hz sounds are free, it plays all night with the screen locked and offline, and Premium is only $1.99 a month. If you want to mix many sounds together, White Noise Lite and Rain Rain have the largest free catalogs, and Calm is worth it only if you also want guided sleep stories.",
-      "updated": "2026-11-19",
+      "answer": "Pick Drift for free sounds that play all night offline, White Noise Lite or Rain Rain for the biggest free catalogs and mixing, Dark Noise for design, and Calm only if you also want guided sleep stories. The free tiers differ far more than the sounds do, so check what stops at night.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Free tier that works all night.</strong> No two hour caps and no pop ups once the lights are off.",
         "<strong>Offline and locked screen playback.</strong> A sleep app that stops on a plane or when the phone locks fails at its one job.",
@@ -20,7 +20,7 @@
         {
           "name": "Drift",
           "ours": true,
-          "best": "Best overall, and the best value",
+          "best": "Best for free sounds offline",
           "body": "Drift is built for one thing: putting a steady sound on and falling asleep. White noise, rain, ocean, stream, fan and a 432 Hz tone are free, every sound ships inside the app so it works in airplane mode, and a sleep timer can fade the sound out as it ends. Premium adds pink noise, green noise, thunder, forest, fire, wind, cafe, more tones and Alpha, Theta and Delta binaural beats for $1.99 a month, a fraction of the big sleep apps.",
           "pros": [
             "Six good sounds free, with no time cap",
@@ -121,7 +121,7 @@
       "faq": [
         [
           "What is the best free white noise app for iPhone?",
-          "Drift is the best free white noise app for most people: white noise, rain, ocean, stream, fan and a 432 Hz tone are free with no time cap, and it plays offline with the screen locked. White Noise Lite and Rain Rain have larger free catalogs if you want to mix sounds."
+          "Drift is a good free choice: white noise, rain, ocean, stream, fan and a 432 Hz tone are free with no time cap, and it plays offline with the screen locked. White Noise Lite and Rain Rain have larger free catalogs if you want to mix sounds."
         ],
         [
           "Do white noise apps work in airplane mode?",
@@ -144,12 +144,12 @@
     {
       "slug": "holiday-apps",
       "app": "celebriday",
-      "title": "Best National Day and Holiday Apps for iPhone (2026)",
-      "description": "The best apps to see what national day it is today: CelebriDay, Checkiday, National Holiday Today, National Day Calendar and Apple Calendar.",
-      "h1": "The best national day and holiday apps for iPhone",
+      "title": "National Day and Holiday Apps Compared (2026)",
+      "description": "Apps to see what national day it is today: CelebriDay, Checkiday, National Holiday Today, National Day Calendar and Apple Calendar.",
+      "h1": "National day and holiday apps, compared",
       "topic": "Holidays",
-      "answer": "The best app to see what holiday it is today is CelebriDay: each of its 700 plus national days has its own illustration, a fun fact and a picture ready to share as a post or story, and today and tomorrow are always free. Checkiday is the pick for detailed sourced write ups, and National Holiday Today has the biggest following and a widget.",
-      "updated": "2026-11-19",
+      "answer": "Pick CelebriDay for drawings and cards to share, Checkiday for sourced write ups, National Holiday Today for a widget and the largest following, and Apple Calendar if you only need public holidays.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Every day covered.</strong> Hundreds of real observances, from National Pizza Day to World Emoji Day, with dates you can trust.",
         "<strong>Something to share.</strong> Most people look up the day to post it, tell a coworker or plan a theme.",
@@ -160,7 +160,7 @@
         {
           "name": "CelebriDay",
           "ours": true,
-          "best": "Best overall, and best for sharing",
+          "best": "Best for art and sharing",
           "body": "CelebriDay shows one holiday per screen with its own drawn illustration and a fun fact, and turns it into a square picture for messages or a 9:16 picture for Stories in one tap. A morning note names the day with its picture, and the People tab shows which national day each friend or family member was born on, with a birthday card ready to send. Premium opens the whole calendar, unlimited people and the idea lists for big holidays like Thanksgiving and Christmas.",
           "pros": [
             "Original art for every one of 700 plus days",
@@ -264,12 +264,12 @@
     {
       "slug": "document-signing-apps",
       "app": "signsnap",
-      "title": "Best Apps to Sign Documents on iPhone (2026)",
-      "description": "The best apps to sign a PDF or paper form on iPhone in 2026: SignSnap, Markup, Adobe Fill & Sign, DocuSign and Signeasy, with what each costs and needs.",
-      "h1": "The best apps to sign documents on iPhone",
+      "title": "Apps to Sign Documents on iPhone Compared (2026)",
+      "description": "Apps to sign a PDF or paper form on iPhone in 2026: SignSnap, Markup, Adobe Fill & Sign, DocuSign and Signeasy, with what each costs and needs.",
+      "h1": "Apps to sign documents on iPhone, compared",
       "topic": "Signing",
-      "answer": "The best app to sign your own documents on iPhone is SignSnap: it scans a paper form or opens a PDF, places your saved signature and the date, and shares the signed PDF with no account and no uploads. If someone sent you a DocuSign request, sign it in DocuSign for free, and for a one off PDF the built in Markup tool costs nothing.",
-      "updated": "2026-11-19",
+      "answer": "For a PDF already on your phone, the built in Markup tool is free and enough. If someone sent you a DocuSign request, sign it there for free. SignSnap is for paper forms and repeat signing, Adobe Fill & Sign for form fields, and Signeasy for sending a few requests.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Paper and PDF.</strong> Leases and permission slips often arrive on paper, not as a file.",
         "<strong>No account.</strong> Signing one document should not mean a new login.",
@@ -280,7 +280,7 @@
         {
           "name": "SignSnap",
           "ours": true,
-          "best": "Best overall for signing your own documents",
+          "best": "Best for paper forms and repeat signing",
           "body": "SignSnap does one job well. Scan a page with the camera (it finds the edges and straightens it) or import a PDF from Files or Photos, drop in the signature you drew or typed once, pinch to size it, tap to stamp the date, and share the PDF to Mail, Messages or AirDrop. Nothing is uploaded and there is no account. The first 2 signed documents are free, a short ad unlocks another, and Premium removes the limit.",
           "pros": [
             "Scans paper forms, not just PDFs",
@@ -382,12 +382,12 @@
     {
       "slug": "reaction-time-apps",
       "app": "blitztap",
-      "title": "Best Reaction Time Apps and Reflex Games (2026)",
-      "description": "The best reaction time apps and reflex games for iPhone in 2026: BlitzTap, Human Benchmark, Reaction Time Test and Training and Reflex, compared.",
-      "h1": "The best reaction time apps and reflex games",
+      "title": "Reaction Time Apps and Reflex Games Compared",
+      "description": "Reaction time apps and reflex games for iPhone in 2026: BlitzTap, Human Benchmark, Reaction Time Test and Training and Reflex, compared.",
+      "h1": "Reaction time apps and reflex games, compared",
       "topic": "Reflexes",
-      "answer": "The best reaction time app to actually improve your reflexes is BlitzTap, a free iPhone and iPad game where you tap the matching shape before a shrinking timer runs out, with a Daily Challenge, no energy timers and nothing pay to win. To measure a single reaction time in milliseconds, use a simple test like Human Benchmark or our free browser test.",
-      "updated": "2026-11-19",
+      "answer": "To measure one reaction time in milliseconds, use Human Benchmark or our free browser test. To practice under pressure as a game, try BlitzTap. Reaction Time: Test and Training has the most variety, and Reflex suits racing fans.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Training, not just testing.</strong> A test tells you a number; a game you come back to moves it.",
         "<strong>Fair to play.</strong> No energy systems, wait timers or pay to win.",
@@ -398,7 +398,7 @@
         {
           "name": "BlitzTap",
           "ours": true,
-          "best": "Best overall for training reflexes",
+          "best": "Best for practice as a game",
           "body": "A target shape appears and you tap its match in a grid before the timer runs out. The timer shrinks tier by tier until it is close to one second, which trains speed and visual search together. Play Classic, a 60 second Time Attack, a no timer Zen mode, or the Daily Challenge, where every player gets the same 30 targets. It is free with ads, and a one time purchase removes them.",
           "pros": [
             "Four modes and a shared Daily Challenge",
@@ -483,12 +483,12 @@
     {
       "slug": "affirmation-apps",
       "app": "saybright",
-      "title": "Best Affirmation Apps for iPhone in 2026",
-      "description": "The best daily affirmation apps for iPhone in 2026: SayBright, I am, Motivation and ThinkUp, compared on free use, widgets, your own voice and price.",
-      "h1": "The best affirmation apps for iPhone in 2026",
+      "title": "Affirmation Apps for iPhone Compared (2026)",
+      "description": "Daily affirmation apps for iPhone in 2026: SayBright, I am, Motivation and ThinkUp, compared on free use, widgets, your own voice and price.",
+      "h1": "Affirmation apps for iPhone, compared",
       "topic": "Affirmations",
-      "answer": "The best affirmation app for building a daily habit is SayBright: five free affirmations a day picked from the topics you choose, streaks, a daily reminder and free widgets, and Premium for just $0.99 a month adds every category and affirmations in your own voice. I am is the pick for the biggest following, and ThinkUp is known for recording your own voice.",
-      "updated": "2026-11-19",
+      "answer": "Pick SayBright for a short daily habit at a low price, I am for the biggest following, Motivation if you want quotes, and ThinkUp if recording your own voice is the point. All of them can put words on your Lock Screen or Home Screen; what differs is how much is free.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Habit first.</strong> Reminders and streaks that bring you back each day.",
         "<strong>Your topics.</strong> Confidence, gratitude, self love: affirmations that fit you.",
@@ -499,7 +499,7 @@
         {
           "name": "SayBright",
           "ours": true,
-          "best": "Best overall, and the lowest price",
+          "best": "Best for a small daily habit",
           "body": "SayBright gets you saying your first affirmation in under a minute, then gives you five a day from the topics you pick, out of 550 in ten categories, with the whole Confidence category free. Home Screen and Lock Screen widgets are free, and so is the Sunrise, which puts today's five on your Lock Screen. A reminder at the time you choose and streak milestones from 7 to 365 days keep the habit going, and you can write your own. Premium, $0.99 a month or $9.99 a year, opens every category, widgets that change all day, and recordings in your own voice.",
           "pros": [
             "Five free affirmations a day and Confidence fully free",
@@ -583,12 +583,12 @@
     {
       "slug": "hot-tub-apps",
       "app": "tubtender",
-      "title": "Best Hot Tub Apps for Water Care in 2026",
-      "description": "The best hot tub apps for testing water and dosing chemicals in 2026: TubTender, Pool Pilot, TubTest and the label chart, for bromine or chlorine.",
-      "h1": "The best hot tub apps for water care",
+      "title": "Hot Tub Water Care Apps Compared (2026)",
+      "description": "Hot tub apps for testing water and dosing chemicals in 2026: TubTender, Pool Pilot, TubTest and the label chart, for bromine or chlorine.",
+      "h1": "Hot tub water care apps, compared",
       "topic": "Hot tubs",
-      "answer": "The best hot tub app is TubTender: tap the colors on your test strip, scan the labels of the chemicals you already own, and it tells you exactly how much of each to add for your tub size, in the right order, with a countdown until it is safe to soak. The test and dose plan are free with no account. Pool Pilot suits owners of both a pool and a spa.",
-      "updated": "2026-11-19",
+      "answer": "Pick TubTender if you have one hot tub and want doses from your own bottles, Pool Pilot if you also have a pool, and TubTest to learn testing. The label on the bottle and a dosage chart still work with no app at all.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Doses for your products.</strong> Amounts in your own bottles, not a generic chemical.",
         "<strong>Built for spas.</strong> Bromine and chlorine hot tubs, not pool sized math.",
@@ -599,7 +599,7 @@
         {
           "name": "TubTender",
           "ours": true,
-          "best": "Best overall for hot tub owners",
+          "best": "Best for a single hot tub",
           "body": "TubTender is made only for hot tubs. Tap the strip colors instead of typing numbers, scan your chemical labels once so it knows their strength, and get exact amounts for your tub, step by step with wait times, ending in a safe to soak verdict and countdown. Free guides fix cloudy and foamy water. Premium adds trend charts, full history and every fix it guide.",
           "pros": [
             "Amounts in the products you own",
@@ -683,12 +683,12 @@
     {
       "slug": "invoice-apps",
       "app": "tallyhand",
-      "title": "Best Invoice Apps for Small Businesses (2026)",
-      "description": "The best invoice apps for lawn care, cleaning and handyman work in 2026: Tallyhand, Invoice Simple, Invoice Fly, Tofu, Joist and Easy Invoice Maker.",
-      "h1": "The best invoice apps for small service businesses",
+      "title": "Invoice Apps for Service Businesses Compared",
+      "description": "Invoice apps for lawn care, cleaning and handyman work in 2026: Tallyhand, Invoice Simple, Invoice Fly, Tofu, Joist and Easy Invoice Maker.",
+      "h1": "Invoice apps for small service businesses, compared",
       "topic": "Invoices",
-      "answer": "The best invoice app for a one person service business is Tallyhand: describe the job in one sentence and it builds the invoice, shares a professional PDF and reminds you when a client is late, with the first 3 documents free and no account. If you need card payments and read receipts built in, Invoice Simple and Invoice Maker by Tofu are the strongest larger apps.",
-      "updated": "2026-11-19",
+      "answer": "Pick Invoice Maker by Tofu for card payments, Invoice Simple for read receipts, Joist for contractors with crews, Easy Invoice Maker to start simply, and Tallyhand if you work alone and want to describe the job in a sentence.",
+      "updated": "2026-11-25",
       "how": [
         "<strong>Speed on the job.</strong> An invoice sent from the driveway, not at night at the kitchen table.",
         "<strong>Getting paid.</strong> Due date reminders and a clear way to pay.",
@@ -699,7 +699,7 @@
         {
           "name": "Tallyhand",
           "ours": true,
-          "best": "Best overall for one person businesses",
+          "best": "Best for working alone",
           "body": "Type or dictate something like \"mowed and edged the Parkers' lawn, two hours at 45\" and Tallyhand turns it into line items and a total on your iPhone. Share a PDF invoice, estimate or receipt by text, email or AirDrop with your payment instructions and a Pay online link, turn an estimate into an invoice in one tap, and get a reminder on the due date with a friendly message to send. If the price ever changes, subscribers keep the price they signed up at.",
           "pros": [
             "One sentence becomes an invoice",
@@ -799,7 +799,7 @@
       "faq": [
         [
           "What is the easiest invoice app for iPhone?",
-          "Tallyhand is the fastest: you describe the job in one sentence and it fills in the invoice. Easy Invoice Maker is also simple to start."
+          "Tallyhand is built for speed: you describe the job in one sentence and it fills in the invoice. Easy Invoice Maker is also simple to start."
         ],
         [
           "Is there a free invoice app with no account?",

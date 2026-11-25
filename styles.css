@@ -923,7 +923,7 @@ section.first { border-top: 0; }
 .btn.chunky.alt { background: var(--card); color: var(--ink); border-color: var(--line); box-shadow: 0 4px 0 var(--line); }
 .btn.chunky.alt:hover { box-shadow: 0 6px 0 var(--line); }
 .home-hero { padding-top: 64px; padding-bottom: 8px; max-width: 1240px; }
-.hh-copy { display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px 56px; align-items: end; margin-bottom: 44px; }
+.hh-copy { max-width: 1016px; margin-inline: auto; display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px 56px; align-items: end; margin-bottom: 44px; }
 .hh-copy h1 { margin: 0; font-size: clamp(40px, 5.6vw, 72px); max-width: 13ch; }
 .hh-copy .btn-row { margin-top: 26px; }
 .hs-frame { border-radius: 32px; overflow: hidden; box-shadow: 0 2px 4px rgba(21, 23, 26, 0.06), 0 24px 60px rgba(40, 30, 60, 0.2); }
@@ -1049,3 +1049,17 @@ a:hover > .tc-art img { transform: scale(1.07) rotate(-1.5deg); }
   .tc-art, .td-art, .hd-stage { filter: brightness(0.88); }
   .hs-frame { box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5); }
 }
+
+/* Guide and tool art */
+.guide-art { max-width: 420px; margin: 22px 0 6px; }
+.guide-art .tc-art { margin: 0; }
+.guide-index.art { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; list-style: none; padding: 0; }
+.guide-index.art li { margin: 0; padding: 0; border: 0; }
+.guide-index.art a { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 10px 10px 20px; border-radius: 24px; background: var(--card); border: 1px solid var(--line); text-decoration: none; }
+.guide-index.art a > :not(.tc-art) { margin-inline: 8px; }
+.tool-art { float: right; width: min(300px, 32%); height: auto; margin: 0 0 12px 32px; border-radius: 22px; padding: 12px; }
+.app-art { display: grid; grid-template-columns: 1fr 1.2fr; gap: 32px; align-items: center; margin-top: 56px; padding: 28px; border-radius: 28px; background: var(--card); border: 1px solid var(--line); }
+.app-art img { width: 100%; height: auto; border-radius: 18px; padding: 16px; }
+.app-art h2 { font-size: 28px; margin-bottom: 10px; }
+@media (max-width: 700px) { .tool-art { float: none; display: block; width: 190px; margin: 0 0 16px; } .app-art { grid-template-columns: 1fr; } }
+@media (prefers-color-scheme: dark) { .tool-art, .app-art img { filter: brightness(0.88); } }

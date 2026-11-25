@@ -61,3 +61,5 @@
 .bx-index b { display: block; font-family: var(--serif); font-weight: 500; font-size: 20px; line-height: 1.25; }
 .bx-index span { display: block; color: var(--muted); font-size: 14px; margin-top: 6px; line-height: 1.5; }
 @media (max-width: 560px) { .bx-pick { padding: 18px; } .bx-pick h3 { font-size: 24px; } .bx-top { flex-wrap: wrap; } .bx-top .btn { width: 100%; justify-content: center; text-align: center; } }
+
+.bx-note { margin: 18px 0 8px; padding: 16px 20px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); font-size: 15px; }

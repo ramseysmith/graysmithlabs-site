@@ -98,7 +98,7 @@ function guidePage(g) {
         url,
         image,
         dateModified: g.updated,
-        author: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
+        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html`, founder: { '@type': 'Person', name: 'Ramsey Graysmith' } },
         publisher: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
         about: { '@id': `${BASE}/apps/${app.slug}.html#app` },
       },
@@ -126,7 +126,8 @@ function guidePage(g) {
     <p class="crumbs"><a href="./">Guides</a> &nbsp;/&nbsp; ${esc(app.name)}</p>
     <h1>${esc(g.h1)}</h1>
     <p class="guide-answer">${html(g.answer)}</p>
-    <p class="guide-meta">Updated ${new Date(g.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} by Graysmith Labs</p>
+    <p class="guide-meta">Updated ${new Date(g.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} by <a href="../about.html">Graysmith Labs</a>, Ramsey Graysmith&rsquo;s studio</p>
+    <div class="guide-art">${spot(g)}</div>
 ${g.sections.map(section).join('')}
     <aside class="guide-app">
       <img src="../assets/apps/${app.slug}/icon.png${stamp('icon.png')}" alt="${esc(app.name)} app icon" width="64" height="64">
@@ -156,17 +157,21 @@ ${footer}
   );
 }
 
+const SPOT = {"drift": "noise", "celebriday": "calendar", "signsnap": "signature", "blitztap": "reaction", "saybright": "affirmation", "tubtender": "hottub", "tallyhand": "invoice"};
+const TINT = {"drift": "#dbe6f8", "celebriday": "#fde1d6", "signsnap": "#e5e5fb", "blitztap": "#fdf0c4", "saybright": "#ffe6cf", "tubtender": "#d5eeec", "tallyhand": "#dff0e4"};
+const spot = (g) => `<span class="tc-art" style="--tint:${TINT[g.app]}"><img src="../assets/art/spots/${g.art ?? SPOT[g.app]}.svg" alt="" width="320" height="200"></span>`;
+
 function indexPage() {
   const url = `${BASE}/guides/`;
   const title = 'Guides: Phone How Tos from Graysmith Labs';
-  const description = 'Short, tested how to guides for everyday tasks on iPhone, from signing a PDF to filling in a lease, by the team behind SignSnap and Drift.';
+  const description = 'Short how to guides for everyday tasks on iPhone, from signing a PDF to filling in a lease, by the maker of SignSnap and Drift.';
   return (
-    head({ title, description, url, image: `${BASE}/assets/og.png` }) +
+    head({ title, description, url, image: `${BASE}/assets/og.jpg` }) +
     `  <div class="wrap guide">
     <h1>Guides</h1>
     <p class="guide-answer">Short how to guides for everyday tasks on your phone. Each one shows the free built in way first, then where one of our apps saves time.</p>
-    <ul class="guide-index">
-${data.guides.map((g) => `      <li><a href="${g.slug}.html"><b>${esc(g.h1)}</b><span>${esc(g.description)}</span></a></li>`).join('\n')}
+    <ul class="guide-index art">
+${data.guides.map((g) => `      <li><a href="${g.slug}.html">${spot(g)}<b>${esc(g.h1)}</b><span>${esc(g.description)}</span></a></li>`).join('\n')}
     </ul>
   </div>
 </main>
