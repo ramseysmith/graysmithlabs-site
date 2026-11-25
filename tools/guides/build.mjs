@@ -98,7 +98,7 @@ function guidePage(g) {
         url,
         image,
         dateModified: g.updated,
-        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html`, founder: { '@type': 'Person', name: 'Ramsey Graysmith' } },
+        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html` },
         publisher: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
         about: { '@id': `${BASE}/apps/${app.slug}.html#app` },
       },
@@ -126,7 +126,7 @@ function guidePage(g) {
     <p class="crumbs"><a href="./">Guides</a> &nbsp;/&nbsp; ${esc(app.name)}</p>
     <h1>${esc(g.h1)}</h1>
     <p class="guide-answer">${html(g.answer)}</p>
-    <p class="guide-meta">Updated ${new Date(g.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} by <a href="../about.html">Graysmith Labs</a>, Ramsey Graysmith&rsquo;s studio</p>
+    <p class="guide-meta">Updated ${new Date(g.updated + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} by <a href="../about.html">Graysmith Labs</a></p>
     <div class="guide-art">${spot(g)}</div>
 ${g.sections.map(section).join('')}
     <aside class="guide-app">

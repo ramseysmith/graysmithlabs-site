@@ -92,7 +92,7 @@ function listPage(l) {
         url,
         image,
         dateModified: l.updated,
-        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html`, founder: { '@type': 'Person', name: 'Ramsey Graysmith' } },
+        author: { '@type': 'Organization', name: 'Graysmith Labs', url: `${BASE}/about.html` },
         publisher: { '@type': 'Organization', name: 'Graysmith Labs', url: BASE },
         about: { '@id': `${BASE}/apps/${app.slug}.html#app` },
       },
@@ -143,7 +143,7 @@ ${p.ours ? `        <div class="btn-row">\n          <a class="btn" href="${stor
     <p class="crumbs"><a href="./">App comparisons</a> &nbsp;/&nbsp; ${esc(l.topic)}</p>
     <h1>${esc(l.h1)}</h1>
     <p class="guide-answer">${html(l.answer)}</p>
-    <p class="guide-meta">Updated ${dateText(l.updated)} by <a href="../about.html">Graysmith Labs</a>, Ramsey Graysmith&rsquo;s studio</p>
+    <p class="guide-meta">Updated ${dateText(l.updated)} by <a href="../about.html">Graysmith Labs</a></p>
     <p class="bx-note"><strong>We make one of these.</strong> ${esc(app.name)} is our app, listed first so you know which it is. This is a comparison, not a ranking. Details on the others come from their App Store listings and reviews. <a href="../about.html#lists">How we choose apps</a>.</p>
     ${art(l.slug, 'bx')}
     <section class="guide-sec">
