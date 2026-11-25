@@ -54,17 +54,20 @@
   function renderProducts() {
     const box = $('htc-products');
     const keep = {};
-    box.querySelectorAll('[data-role]').forEach((el) => { keep[el.dataset.role] = { kind: el.querySelector('select').value, pct: el.querySelector('input').value }; });
+    box.querySelectorAll('[data-role]').forEach((el) => { keep[el.dataset.role] = { kind: el.querySelector('select').value, pct: el.querySelector('input').value, chosen: el.dataset.chosen === '1' }; });
     box.innerHTML = ROLES.map((role) => {
       const kinds = E.ROLE_KINDS[role];
-      const kind = keep[role] && kinds.includes(keep[role].kind) ? keep[role].kind : kinds[0];
+      // Chlorine starts on bleach (CDC advises against dichlor in hot tubs) until the person picks a product
+      const was = role === 'sanitizer' && keep[role] && !keep[role].chosen ? null : keep[role];
+      const kind = was && kinds.includes(was.kind) ? was.kind : role === 'sanitizer' && sanitizer() === 'chlorine' ? 'liquid_chlorine' : kinds[0];
       const pct = keep[role] && keep[role].kind === kind ? keep[role].pct : E.DEFAULT_PRODUCTS[kind].strengthPct;
-      return `<div class="htc-field htc-product" data-role="${role}">
+      return `<div class="htc-field htc-product" data-role="${role}"${keep[role] && keep[role].chosen ? ' data-chosen="1"' : ''}>
         <span>${esc(E.roleLabel(role, sanitizer()))}</span>
         <select aria-label="${esc(E.roleLabel(role, sanitizer()))} product">${kinds.map((k) => `<option value="${k}"${k === kind ? ' selected' : ''}>${esc(E.DEFAULT_PRODUCTS[k].name)}</option>`).join('')}</select>
         <label class="htc-pct"><input type="number" min="1" max="100" step="0.1" value="${pct}" inputmode="decimal" aria-label="Strength in percent"> % on the label</label>
       </div>`;
     }).join('');
+    box.querySelectorAll('[data-role]').forEach((row) => row.addEventListener('change', () => { row.dataset.chosen = '1'; }));
     box.querySelectorAll('select').forEach((sel) => sel.addEventListener('change', (e) => {
       const row = e.target.closest('[data-role]');
       row.querySelector('input').value = E.DEFAULT_PRODUCTS[e.target.value].strengthPct;
