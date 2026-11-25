@@ -487,7 +487,7 @@
       "description": "The best daily affirmation apps for iPhone in 2026: SayBright, I am, Motivation and ThinkUp, compared on free use, widgets, your own voice and price.",
       "h1": "The best affirmation apps for iPhone in 2026",
       "topic": "Affirmations",
-      "answer": "The best affirmation app for building a daily habit is SayBright: five free affirmations a day picked from the topics you choose, streaks and a daily reminder, and Premium for just $0.99 a month adds widgets and affirmations in your own voice. I am is the pick if free Lock Screen widgets are all you want, and ThinkUp is known for recording your own voice.",
+      "answer": "The best affirmation app for building a daily habit is SayBright: five free affirmations a day picked from the topics you choose, streaks, a daily reminder and free widgets, and Premium for just $0.99 a month adds every category and affirmations in your own voice. I am is the pick for the biggest following, and ThinkUp is known for recording your own voice.",
       "updated": "2026-11-19",
       "how": [
         "<strong>Habit first.</strong> Reminders and streaks that bring you back each day.",
@@ -500,17 +500,17 @@
           "name": "SayBright",
           "ours": true,
           "best": "Best overall, and the lowest price",
-          "body": "SayBright gets you saying your first affirmation in under a minute, then gives you five a day from the topics you pick, out of 340 in ten categories, with the whole Confidence category free. A reminder at the time you choose and streak milestones from 7 to 365 days keep the habit going, and you can write your own. Premium, $0.99 a month or $9.99 a year, opens every category, Lock Screen and Home Screen widgets, and recordings in your own voice.",
+          "body": "SayBright gets you saying your first affirmation in under a minute, then gives you five a day from the topics you pick, out of 550 in ten categories, with the whole Confidence category free. Home Screen and Lock Screen widgets are free, and so is the Sunrise, which puts today's five on your Lock Screen. A reminder at the time you choose and streak milestones from 7 to 365 days keep the habit going, and you can write your own. Premium, $0.99 a month or $9.99 a year, opens every category, widgets that change all day, and recordings in your own voice.",
           "pros": [
             "Five free affirmations a day and Confidence fully free",
-            "Streaks and a daily reminder",
+            "Free widgets, streaks and a daily reminder",
             "Premium for $9.99 a year"
           ],
-          "cons": "Widgets are Premium."
+          "cons": "Free widgets show one affirmation a day; a widget that changes all day is Premium."
         },
         {
           "name": "I am",
-          "best": "Best for free widgets",
+          "best": "Most popular, with free widgets",
           "body": "The most popular affirmation app, with hundreds of thousands of ratings, leads with Lock Screen and Home Screen widgets and updates almost every week.",
           "pros": [
             "Free widgets",
@@ -546,7 +546,7 @@
       "rows": {
         "SayBright": [
           "Five a day",
-          "Premium",
+          "Free",
           "$0.99 a month"
         ],
         "I am": [
@@ -568,7 +568,7 @@
       "faq": [
         [
           "What is the best free affirmation app?",
-          "SayBright gives five free affirmations a day, the whole Confidence category, streaks and reminders. I am is a good free choice if you mainly want widgets."
+          "SayBright gives five free affirmations a day, the whole Confidence category, widgets, streaks and reminders. I am, which has the biggest following, also has free widgets."
         ],
         [
           "How do I put affirmations on my iPhone Lock Screen?",

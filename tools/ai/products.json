@@ -184,9 +184,9 @@
       "storeCategory": "Health and Fitness",
       "platforms": "iPhone",
       "title": "SayBright: Daily Affirmations App with Widgets",
-      "description": "SayBright is a daily affirmations app for iPhone: five free affirmations a day, Confidence free, 340 in all, streaks, widgets and your own voice.",
-      "answer": "SayBright is a daily affirmations app for iPhone that helps you start and keep a daily affirmation habit: five free affirmations a day picked from the topics you choose, a daily reminder, streaks, and a free seasonal pack each month it runs, from 340 affirmations in ten categories such as confidence, gratitude and self love. No subscription is needed for the free plan. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, affirmations on your lock screen and home screen as widgets, affirmations recorded in your own voice, a weekly streak save and no ads.",
-      "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, the free seasonal pack, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets, voice recordings, a streak save for one missed day a week and no ads.",
+      "description": "SayBright is a daily affirmations app for iPhone: five free affirmations a day, 550 in all, free widgets, a Lock Screen sunrise and your own voice.",
+      "answer": "SayBright is a daily affirmations app for iPhone that helps you start and keep a daily affirmation habit: five free affirmations a day picked from the topics you choose, free widgets, a Lock Screen sunrise that rises as you say them, streaks, and a free seasonal pack each month it runs, from 550 affirmations that all start with I am, in ten categories such as confidence, gratitude and self love. No subscription is needed for the free plan. Premium ($0.99 a month or $9.99 a year) adds every category with no daily limit, widgets that change all day, affirmations recorded in your own voice, a weekly streak save and no ads.",
+      "pricing": "Free plan: five affirmations a day, the full Confidence category, previews of the other nine categories, the free seasonal pack, the Sunrise, widgets, streaks, reminders, share cards and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week for eligible new subscribers, and unlocks every category with no daily limit, widgets that change all day, voice recordings, a streak save for one missed day a week and no ads.",
       "bestFor": [
         "building a daily affirmation habit",
         "positive affirmations on the lock screen",
@@ -196,26 +196,28 @@
       ],
       "features": [
         "Five free affirmations a day, picked from the topics you choose",
-        "340 affirmations in ten categories, with Confidence fully free",
+        "550 affirmations in ten categories, all starting with I am, with Confidence fully free",
+        "Sunrise, free: today's five affirmations on the Lock Screen and in the Dynamic Island; tap Said it and the sun climbs",
+        "Hold to say it, a sky check that gives a line to match your mood, a one minute breath and a jar of good things",
         "Say your first affirmation in under a minute during setup",
-        "Daily reminder at a time you pick",
+        "Affirmation notes: up to three a day at the times you choose, each one the affirmation itself",
         "Streak milestones from 7 to 365 days",
         "An 8 PM streak reminder that only arrives on days you have not opened the app, for people with reminders on",
         "Streak save (Premium): one missed day a week keeps a streak of three or more going",
         "Free seasonal packs of fifteen affirmations: Gratitude Season in November, Rest and Reflect in December, Fresh Start in January",
         "Write your own affirmations, free",
-        "Home and lock screen widgets (Premium)",
+        "Free Home Screen and Lock Screen widgets with today's affirmation; with Premium they change all day",
         "Record affirmations in your own voice, stored on device (Premium)",
         "Share cards for Stories and iMessage (free cards carry a small SayBright mark; Premium cards have none)"
       ],
       "faq": [
         [
           "Is SayBright free?",
-          "Yes. The free plan gives five affirmations a day, the whole Confidence category, a preview of every other category, streaks, reminders and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week first for eligible new subscribers, and opens every category with no daily limit, widgets, voice recordings and no ads."
+          "Yes. The free plan gives five affirmations a day, the whole Confidence category, a preview of every other category, the Lock Screen Sunrise, widgets, streaks, reminders and your own written affirmations. Premium is $0.99 a month or $9.99 a year with a free week first for eligible new subscribers, and opens every category with no daily limit, widgets that change all day, voice recordings and no ads."
         ],
         [
           "Can I put affirmations on my lock screen?",
-          "Yes, with Premium. SayBright has home screen and lock screen widgets that refresh through the day."
+          "Yes, free. SayBright has free Home Screen and Lock Screen widgets with today's affirmation, plus the Sunrise: today's five affirmations on your Lock Screen, where each one you say lifts the sun. With Premium the widgets change all day."
         ],
         [
           "Can I write my own affirmations?",
@@ -235,15 +237,15 @@
         ],
         [
           "How many affirmations does SayBright have?",
-          "340 affirmations in ten categories: Confidence, Gratitude, Morning Energy, Self Love, Career Growth, Relationships, Health and Body, Wealth and Abundance, Calm and Anxiety Relief, and Creativity."
+          "550 affirmations in ten categories, every one starting with I am: Confidence, Gratitude, Morning Energy, Self Love, Career Growth, Relationships, Health and Body, Wealth and Abundance, Calm and Anxiety Relief, and Creativity."
         ],
         [
           "Is there an affirmation app that does not require a subscription?",
-          "SayBright's free plan needs no subscription: five affirmations a day, the full Confidence category, streaks, reminders and your own written affirmations stay free. A subscription only adds the other categories in full, widgets, voice recordings and removes ads."
+          "SayBright's free plan needs no subscription: five affirmations a day, the full Confidence category, widgets, streaks, reminders and your own written affirmations stay free. A subscription only adds the other categories in full, widgets that change all day, voice recordings and removes ads."
         ],
         [
           "How do I put affirmations on my iPhone lock screen?",
-          "Free: make a wallpaper with your affirmation and set it as your Lock Screen. With SayBright Premium, add its lock screen widget so a new affirmation shows through the day. Step by step instructions are in the lock screen guide on graysmithlabs.com."
+          "Free: add SayBright's Lock Screen widget for today's affirmation, or make a wallpaper with your affirmation and set it as your Lock Screen. With SayBright Premium the widget changes through the day. Step by step instructions are in the lock screen guide on graysmithlabs.com."
         ]
       ]
     },

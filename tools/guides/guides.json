@@ -432,7 +432,7 @@
       "description": "How much chlorine to add to a hot tub: about 1¾ tsp of dichlor or 2½ fl oz of 6% bleach raises a 400 gallon tub by 3 ppm. Keep it at 3 to 10 ppm.",
       "h1": "How much chlorine to add to a hot tub",
       "answer": "For a typical 400 gallon hot tub, about 1¾ teaspoons (0.3 oz) of 56 percent dichlor granules, or about 2½ fl oz of 6 percent unscented bleach, raises free chlorine by 3 ppm, enough to take a reading of 1 ppm up to the 4 ppm target. As a rule of thumb, half a teaspoon of dichlor per 100 gallons adds about 3.5 ppm. Keep free chlorine between 3 and 10 ppm, the range CDC guidance gives for hot tubs, and retest 20 minutes after each dose.",
-      "updated": "2026-11-19",
+      "updated": "2026-11-25",
       "sections": [
         {
           "h2": "How much to add, by tub size",
@@ -506,7 +506,9 @@
             "Both work. Dichlor granules (sodium dichloroisocyanurate, sold as spa shock or chlorinating granules) store well and barely move pH, but each dose also adds stabilizer (cyanuric acid), about 0.9 ppm for every 1 ppm of chlorine. Stabilizer builds up over weeks and makes chlorine slower; once it passes about 50 ppm, drain part of the water and refill.",
             "Plain unscented bleach adds no stabilizer, costs little and is easy to measure, but it nudges pH up a little and loses strength as it ages, so buy it fresh and use the regular kind, not splashless or scented. Many owners use dichlor for daily doses and switch to bleach for a while when stabilizer gets high.",
             "Skip chlorine pucks made for pools (trichlor): they are very acidic and build stabilizer quickly. Calcium hypochlorite raises calcium and can cloud spa water."
-          ]
+          ],
+          "note": "CDC recommends not using chlorine products that contain cyanuric acid, dichlor included, in hot tubs, because the stabilizer slows disinfection (<a href=\"https://www.cdc.gov/healthy-swimming/about/home-pool-and-hot-tub-water-treatment-and-testing.html\" rel=\"noopener\">CDC home hot tub page</a>). Many home owners and spa brands still use dichlor. To follow CDC, use plain unscented bleach.",
+          "after": "Still choosing a sanitizer? See <a href=\"bromine-vs-chlorine-hot-tub.html\">bromine vs chlorine for a hot tub</a>."
         },
         {
           "h2": "Common mistakes",
@@ -821,7 +823,7 @@
           "intro": "Any brand works; what matters is that the strips read your sanitizer and the chemicals list their strength on the label.",
           "steps": [
             "Test strips that read your sanitizer, pH and alkalinity: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub test strips on Amazon</a>.",
-            "Your sanitizer: <a href=\"https://www.amazon.com/s?k=spa+chlorine+granules&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa chlorine granules</a> or <a href=\"https://www.amazon.com/s?k=spa+bromine+tablets&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">bromine tablets</a>.",
+            "Your sanitizer: <a href=\"https://www.amazon.com/s?k=spa+chlorine+granules&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa chlorine granules</a> or <a href=\"https://www.amazon.com/s?k=spa+bromine+tablets&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">bromine tablets</a>. Not sure which? See <a href=\"bromine-vs-chlorine-hot-tub.html\">bromine vs chlorine</a>.",
             "A filter cleaner for the rinse every two weeks: <a href=\"https://www.amazon.com/s?k=hot+tub+filter+cleaner&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub filter cleaner</a>."
           ],
           "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
@@ -847,6 +849,174 @@
         [
           "Are test strips accurate enough?",
           "Yes for routine checks, if they are fresh, kept dry and read within about 15 seconds. Use a drop kit to double check a strange reading."
+        ]
+      ]
+    },
+    {
+      "slug": "bromine-vs-chlorine-hot-tub",
+      "app": "tubtender",
+      "title": "Bromine vs Chlorine for a Hot Tub: Which to Use",
+      "description": "Bromine holds steadier in hot water and smells less; chlorine costs less and works faster. Levels, cost, smell, sunlight and how to switch safely.",
+      "h1": "Bromine vs chlorine for a hot tub",
+      "answer": "Choose bromine if you want a level that holds steadily in hot water with a floater and less smell; choose chlorine if you want the cheaper, faster option and do not mind dosing after each soak. Both keep a hot tub clean when the level is right: bromine 4 to 8 ppm or free chlorine 3 to 10 ppm, with pH at 7.2 to 7.8. Never mix the two products or put them in the same feeder, and drain the tub before changing from one to the other.",
+      "updated": "2026-11-25",
+      "sections": [
+        {
+          "h2": "Bromine and chlorine side by side",
+          "intro": "The levels are the ranges in <a href=\"https://www.cdc.gov/control-legionella/php/toolkit/hot-tub-module.html\" rel=\"noopener\">CDC hot tub guidance</a>, which the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> and the TubTender app also use.",
+          "table": {
+            "head": [
+              "",
+              "Bromine",
+              "Chlorine"
+            ],
+            "rows": [
+              [
+                "Level to keep",
+                "4 to 8 ppm",
+                "3 to 10 ppm free chlorine"
+              ],
+              [
+                "In hot water",
+                "More stable, holds between tests",
+                "Works fast, fades sooner"
+              ],
+              [
+                "In sunlight",
+                "Breaks down faster",
+                "Breaks down, but slower than bromine"
+              ],
+              [
+                "Smell",
+                "Mild",
+                "Stronger, mostly from used up chlorine"
+              ],
+              [
+                "Cost",
+                "Usually more",
+                "Usually less"
+              ],
+              [
+                "Daily work",
+                "Keep a floater filled, shock to refresh",
+                "Dose by hand, often after each soak"
+              ],
+              [
+                "After a refill",
+                "Build a bromide reserve first",
+                "Dose and go"
+              ]
+            ]
+          },
+          "note": "Skin reactions vary. Some people find one gentler than the other, but pH out of range bothers skin with either."
+        },
+        {
+          "h2": "Which one should you use?",
+          "list": [
+            "<strong>Bromine</strong> suits a tub that stays hot, has its cover on and is used most days, or anyone who would rather fill a floater than dose by hand.",
+            "<strong>Chlorine</strong> suits a tub in the open sun, occasional use, frequent refills or a tight budget.",
+            "<strong>Check the manual first.</strong> Some covers, heaters and salt systems are made for one of them, and the warranty may say so.",
+            "<strong>If someone has had a reaction to pool water,</strong> ask a doctor before choosing. Bromine is not a cure for a chlorine allergy."
+          ]
+        },
+        {
+          "h2": "How each one works day to day",
+          "paras": [
+            "Chlorine acts on its own. You add granules or bleach, test, and add more as it is used up. Used up chlorine is what smells. See <a href=\"how-much-chlorine-to-add-to-hot-tub.html\">how much chlorine to add to a hot tub</a> for amounts by tub size.",
+            "Bromine works from a reserve. After a fill you add sodium bromide as its label says, then keep tablets in a floater. When the reading falls, a chlorine based shock turns the used bromide in the water back into bromine. That is why a small dose goes a long way: 1 ppm of chlorine makes about 2.25 ppm of bromine. A zero reading just after a refill usually means the reserve has not been added yet.",
+            "Using shock to refresh a bromine tub is normal. Mixing the dry products is not: never put bromine and chlorine in the same container, scoop or feeder."
+          ]
+        },
+        {
+          "h2": "How much shock raises bromine",
+          "intro": "To raise bromine by 3 ppm, for example from 2 to 5 ppm, in a tub that already has its bromide reserve. Worked out with the formula in the TubTender engine, for 56 percent dichlor and 6 percent bleach. Use one or the other, not both.",
+          "table": {
+            "head": [
+              "Tub size",
+              "Dichlor (56%)",
+              "or bleach (6%)"
+            ],
+            "rows": [
+              [
+                "250 gallons",
+                "about ½ tsp",
+                "about 0.7 fl oz"
+              ],
+              [
+                "300 gallons",
+                "a little over ½ tsp",
+                "about 0.8 fl oz"
+              ],
+              [
+                "400 gallons",
+                "about ¾ tsp",
+                "about 1.1 fl oz"
+              ],
+              [
+                "500 gallons",
+                "about 1 tsp",
+                "about 1.4 fl oz"
+              ]
+            ]
+          },
+          "note": "Dichlor adds stabilizer (cyanuric acid). CDC recommends not using products that contain it in hot tubs (<a href=\"https://www.cdc.gov/healthy-swimming/about/home-pool-and-hot-tub-water-treatment-and-testing.html\" rel=\"noopener\">CDC home hot tub page</a>), so plain unscented bleach is the choice that follows CDC. Products vary; enter the strength on your label in the calculator."
+        },
+        {
+          "h2": "How to switch from one to the other",
+          "steps": [
+            "Drain the tub. Bromide stays in the water, so chlorine added to it just makes more bromine.",
+            "Clean the shell, rinse or replace the filter, and use a new floater if the old one held the other product.",
+            "Refill and balance alkalinity first, then pH, then calcium.",
+            "For bromine, add the bromide reserve as its label says, then shock. For chlorine, add the first dose.",
+            "Run the jets with the cover open for 20 minutes, test, and soak once the level and pH are in range.",
+            "Store the old product away from the new one, dry and sealed."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "list": [
+            "Adding trichlor pool tablets to a hot tub floater. They are very acidic and look much like bromine tablets.",
+            "Reading a bromine tub on the chlorine scale. Use the bromine colors on the strip.",
+            "Relying on tablets alone. They hold a level; shock brings a low one back quickly.",
+            "Going by smell. Test two or three times a week at least; CDC advises twice a day. See <a href=\"how-often-to-test-hot-tub-water.html\">how often to test hot tub water</a>."
+          ]
+        },
+        {
+          "h2": "Let the app do the math",
+          "intro": "TubTender is an iPhone app from Graysmith Labs that works with bromine and chlorine tubs. Tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in order. Bromine tubs get shock doses and a floater reminder.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works. Buy for the sanitizer you picked and check the label.",
+          "steps": [
+            "Bromine tub: <a href=\"https://www.amazon.com/s?k=spa+bromine+tablets&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">bromine tablets</a>, a <a href=\"https://www.amazon.com/s?k=spa+bromine+floater&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">floater</a> and <a href=\"https://www.amazon.com/s?k=spa+sodium+bromide&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">sodium bromide</a> for refills.",
+            "Chlorine tub: <a href=\"https://www.amazon.com/s?k=spa+chlorine+granules&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">spa chlorine granules</a> or plain unscented bleach.",
+            "Both: <a href=\"https://www.amazon.com/s?k=hot+tub+test+strips+bromine+chlorine&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">test strips that read your sanitizer</a>."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes how much to add."
+        }
+      ],
+      "faq": [
+        [
+          "Is bromine or chlorine better for a hot tub?",
+          "Bromine is steadier in hot water and smells less. Chlorine costs less, works faster and lasts better in sun. Either is fine if you keep it in range."
+        ],
+        [
+          "Can I switch from chlorine to bromine without draining?",
+          "Drain first. Swim University gives the same advice: drain, clean and refill before adding the new sanitizer. Going from bromine to chlorine always needs it, because bromide stays in the water."
+        ],
+        [
+          "Can you use chlorine shock in a bromine hot tub?",
+          "Yes. A chlorine based shock turns used bromide back into bromine. Follow the label, and never mix the dry products together."
+        ],
+        [
+          "What level should bromine be in a hot tub?",
+          "4 to 8 ppm, with pH 7.2 to 7.8. Chlorine should be 3 to 10 ppm. TubTender aims for 5 ppm bromine."
+        ],
+        [
+          "Is bromine better for sensitive skin?",
+          "Some people find it gentler, but reactions vary and pH out of range irritates skin with either. Ask a doctor if you have had a reaction."
         ]
       ]
     },
@@ -1403,7 +1573,7 @@
       "title": "How to Put Affirmations on Your iPhone Lock Screen",
       "description": "Put affirmations on your iPhone Lock Screen for free with a wallpaper or a daily reminder, or add a widget that shows a new affirmation through the day.",
       "h1": "How do I put affirmations on my iPhone lock screen?",
-      "answer": "The free way is to make a wallpaper with your affirmation on it and set it as your Lock Screen, or to add a daily repeating reminder whose text is your affirmation so it appears on the Lock Screen each morning. If you want a different affirmation through the day without making images, add a Lock Screen widget from an affirmations app such as SayBright (its widgets come with Premium).",
+      "answer": "The free way is to make a wallpaper with your affirmation on it and set it as your Lock Screen, or to add a daily repeating reminder whose text is your affirmation so it appears on the Lock Screen each morning. If you want a different affirmation through the day without making images, add a Lock Screen widget from an affirmations app such as SayBright (today's affirmation is free; changing through the day is Premium).",
       "updated": "2026-11-04",
       "sections": [
         {
@@ -1432,7 +1602,7 @@
           "h2": "With an app: a Lock Screen widget",
           "paras": [
             "A wallpaper says the same thing every day. An affirmations app widget changes through the day, so the words do not fade into the background. To add one, touch and hold the Lock Screen, tap Customize, tap Lock Screen, tap the area below the clock and pick the app's widget.",
-            "SayBright is one option: its free plan gives five affirmations a day, the whole Confidence category, a daily reminder and streaks, and Premium ($0.99 a month or $9.99 a year) adds home screen and Lock Screen widgets, every category and recordings in your own voice. Other affirmation apps such as I am and ThinkUp also offer widgets, so pick the one whose words sound like you."
+            "SayBright is one option: its free plan gives five affirmations a day, the whole Confidence category, a daily reminder, streaks and free Home Screen and Lock Screen widgets with today's affirmation, and Premium ($0.99 a month or $9.99 a year) adds widgets that change all day, every category and recordings in your own voice. Other affirmation apps such as I am and ThinkUp also offer widgets, so pick the one whose words sound like you."
           ]
         },
         {
@@ -1452,7 +1622,7 @@
         ],
         [
           "Is there an affirmation widget for the iPhone lock screen?",
-          "Yes. Several affirmation apps offer Lock Screen widgets. SayBright's home screen and Lock Screen widgets come with Premium, $0.99 a month or $9.99 a year, and its free plan gives five affirmations a day."
+          "Yes. Several affirmation apps offer Lock Screen widgets. SayBright's Home Screen and Lock Screen widgets show today's affirmation for free; Premium, $0.99 a month or $9.99 a year, makes them change all day. Its free plan gives five affirmations a day."
         ],
         [
           "How do I add a widget to my iPhone lock screen?",
@@ -1515,7 +1685,7 @@
         {
           "h2": "Make it easier with an app",
           "intro": "SayBright is a daily affirmations app for iPhone from Graysmith Labs built around this habit: five free affirmations a day from the topics you choose, a reminder at the time you pick, and streak milestones from 7 to 365 days. You can write your own affirmations for free.",
-          "note": "Premium adds every category with no daily limit, Lock Screen and Home Screen widgets, recordings in your own voice and a streak save for one missed day a week."
+          "note": "Premium adds every category with no daily limit, widgets that change all day, recordings in your own voice and a streak save for one missed day a week."
         }
       ],
       "faq": [
