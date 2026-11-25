@@ -79,6 +79,7 @@ function listPage(l) {
   const stamp = (file) => appPage.match(new RegExp(`assets/apps/${app.slug}/${file.replace('.', '\\.')}(\\?v=[\\w.]+)`))?.[1] ?? '';
   const image = `${BASE}/assets/apps/${app.slug}/og.jpg${stamp('og.jpg')}`;
   const store = `https://apps.apple.com/us/app/id${app.appStoreId}?ct=best-${l.slug}&amp;mt=8`;
+  const play = app.playPackage ? `\n          <a class="btn ghost" href="https://play.google.com/store/apps/details?id=${app.playPackage}" rel="noopener">Get it on Google Play</a>` : '';
   const year = l.updated.slice(0, 4);
 
   const ld = {
@@ -134,7 +135,7 @@ function listPage(l) {
 ${p.pros.map((x) => `          <li>${html(x)}</li>`).join('\n')}
         </ul>
         <p class="bx-con"><strong>Pick something else if:</strong> ${html(p.cons)}</p>
-${p.ours ? `        <div class="btn-row">\n          <a class="btn" href="${store}" rel="noopener">Get ${esc(p.name)} on the App Store</a>\n          <a class="btn ghost" href="../apps/${app.slug}.html">About ${esc(p.name)}</a>\n        </div>\n` : ''}      </li>`;
+${p.ours ? `        <div class="btn-row">\n          <a class="btn" href="${store}" rel="noopener">Get ${esc(p.name)} on the App Store</a>${play}\n          <a class="btn ghost" href="../apps/${app.slug}.html">About ${esc(p.name)}</a>\n        </div>\n` : ''}      </li>`;
 
   const others = data.lists.filter((o) => o.slug !== l.slug);
   return (
@@ -177,7 +178,7 @@ ${l.picks.map(pick).join('\n')}
         <p>${esc(app.answer)}</p>
         <p class="guide-note">${esc(app.pricing)}</p>
         <div class="btn-row">
-          <a class="btn" href="${store}" rel="noopener">Download on the App Store</a>
+          <a class="btn" href="${store}" rel="noopener">Download on the App Store</a>${play}
           <a class="btn ghost" href="../apps/${app.slug}.html">About ${esc(app.name)}</a>
         </div>
       </div>

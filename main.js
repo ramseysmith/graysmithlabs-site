@@ -22,6 +22,23 @@
     onScroll();
   }
 
+  // Android visitors: Google Play first wherever the app is on it
+  if (/Android/i.test(navigator.userAgent)) {
+    document.querySelectorAll('a.btn[href*="play.google.com/store/apps/details"]').forEach(function (play) {
+      var apple = play.parentNode.querySelector('a.btn[href*="apps.apple.com"]');
+      if (!apple) return;
+      play.classList.remove("ghost");
+      apple.classList.add("ghost");
+      play.parentNode.insertBefore(play, apple);
+    });
+    document.querySelectorAll("a[data-play]").forEach(function (a) {
+      a.href = a.getAttribute("data-play");
+      a.setAttribute("aria-label", a.getAttribute("aria-label").replace("the App Store", "Google Play"));
+      var glyph = a.querySelector("svg");
+      if (glyph) glyph.remove();
+    });
+  }
+
   // Mobile menu
   var menuBtn = document.querySelector(".menu-btn");
   if (menuBtn && head) {

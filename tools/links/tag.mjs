@@ -31,6 +31,8 @@ export function campaign(file) {
 }
 
 const LINK = /href="(https:\/\/apps\.apple\.com\/(?:us\/)?app\/(?:[a-z0-9-]+\/)?id\d+)(\?[^"]*)?"/g;
+// Play reads the install referrer, so the same campaign name shows in Play Console.
+const PLAY = /href="(https:\/\/play\.google\.com\/store\/apps\/details\?id=[\w.]+)((?:&amp;|&)[^"]*)?"/g;
 let changed = 0, links = 0;
 function walk(dir) {
   for (const e of fs.readdirSync(path.join(SITE, dir), { withFileTypes: true })) {
@@ -44,10 +46,15 @@ function walk(dir) {
         links++;
         return `href="${base}?${providerToken ? `pt=${providerToken}&amp;` : ""}ct=${campaign(rel)}&amp;mt=8"`;
       });
-      if (out === html) continue;
+      const tagged = out.replace(PLAY, (all, base, query = "") => {
+        if (query.includes("showAllReviews")) return all;
+        links++;
+        return `href="${base}&amp;referrer=utm_source%3Dgraysmithlabs.com%26utm_medium%3Dweb%26utm_campaign%3D${campaign(rel)}"`;
+      });
+      if (tagged === html) continue;
       changed++;
-      if (check) console.error(`FAIL ${rel}: App Store link without its campaign token; run node tools/links/tag.mjs`);
-      else fs.writeFileSync(path.join(SITE, rel), out);
+      if (check) console.error(`FAIL ${rel}: App Store or Google Play link without its campaign token; run node tools/links/tag.mjs`);
+      else fs.writeFileSync(path.join(SITE, rel), tagged);
     }
   }
 }

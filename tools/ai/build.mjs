@@ -63,6 +63,15 @@ ${items}
   </section>`;
 }
 
+const playUrl = (app) => `https://play.google.com/store/apps/details?id=${app.playPackage}`;
+// playPackage is set only once the app is public on Google Play.
+function storeUrls(app) {
+  const urls = [app.appStoreId && `https://apps.apple.com/app/id${app.appStoreId}`, app.playPackage && playUrl(app)].filter(Boolean);
+  if (!urls.length) return {};
+  const v = urls.length > 1 ? urls : urls[0];
+  return { downloadUrl: v, installUrl: v };
+}
+
 function jsonLd(app, faq) {
   const url = `${data.site.url}/apps/${app.slug}.html`;
   const graph = [{
@@ -72,8 +81,8 @@ function jsonLd(app, faq) {
     description: app.answer,
     url,
     // An app still waiting on its App Store listing has no appStoreId yet: no store links until it does.
-    ...(app.appStoreId ? { downloadUrl: `https://apps.apple.com/app/id${app.appStoreId}`, installUrl: `https://apps.apple.com/app/id${app.appStoreId}` } : {}),
-    operatingSystem: "iOS",
+    ...storeUrls(app),
+    operatingSystem: app.playPackage ? "iOS, Android" : "iOS",
     applicationCategory: app.category,
     featureList: app.features,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD", description: app.pricing },
@@ -91,7 +100,7 @@ function llmsTxt() {
   const lines = [`# ${data.site.name}`, "", `> ${data.site.summary}`, "", `Contact: ${data.site.contact}`, "", "## Apps", ""];
   for (const a of data.apps) {
     lines.push(`### ${a.name}`, "", a.answer, "", `* Pricing: ${a.pricing}`, `* Platforms: ${a.platforms}`, `* Best for: ${a.bestFor.join("; ")}`,
-      `* Page: ${data.site.url}/apps/${a.slug}.html`, a.appStoreId ? `* App Store: https://apps.apple.com/app/id${a.appStoreId}` : "* App Store: coming soon", "");
+      `* Page: ${data.site.url}/apps/${a.slug}.html`, a.appStoreId ? `* App Store: https://apps.apple.com/app/id${a.appStoreId}` : "* App Store: coming soon", ...(a.playPackage ? [`* Google Play: ${playUrl(a)}`] : []), "");
   }
   if (data.services) {
     const s = data.services;

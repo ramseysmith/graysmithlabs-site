@@ -285,7 +285,7 @@ ${body}
     <div class="foot-grid">
       <div>
         <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
-        <p class="blurb">A small independent studio in Colorado. Seven iPhone apps, free tools, and software for clients.</p>
+        <p class="blurb">A small independent studio in Colorado. Seven apps, free tools, and software for clients.</p>
       </div>
       <div>
         <span class="label">Holidays</span>
@@ -329,6 +329,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
         <ul>
           <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
           <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=Graysmith+Labs+LLC">Our Google Play page</a></li>
           <li><a href="../about.html">About and contact</a></li>
           <li><a href="../privacy.html">Privacy policy</a></li>
         </ul>

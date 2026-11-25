@@ -66,6 +66,7 @@
   .qr { text-align: center; margin-top: 36px; }
   .qr img { display: block; margin: 0 auto; width: 168px; height: 168px; background: #fff; padding: 10px; border-radius: 14px; border: 1px solid var(--line); }
   .qr p { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .toast { position: fixed; left: 50%; top: 14px; transform: translate(-50%, -20px); background: var(--ink); color: var(--paper); padding: 10px 16px; border-radius: 99px; font-size: 13px; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; z-index: 20; }
   .toast.on { opacity: 1; transform: translate(-50%, 0); }
   /* the star burst when someone rates */
@@ -154,7 +155,7 @@
 
   <div style="text-align:center">
     <h1>Two minutes that really help</h1>
-    <p class="flede">Thanks for being here! I build these apps myself as Graysmith Labs. Ratings decide whether the App Store shows an app to new people, so a few from friends make a huge difference.</p>
+    <p class="flede">Thanks for being here! I build these apps myself as Graysmith Labs. Ratings decide whether the app stores show an app to new people, so a few from friends make a huge difference.</p>
   </div>
 
   <div class="fsteps">
@@ -164,9 +165,10 @@
   </div>
 
   <h2>The apps</h2>
-  <p class="sub">Newest first. iPhone for now; Rate it opens the review page in the App Store.</p>
+  <p class="sub" id="appsub">Newest first. All seven are on iPhone, and Drift is on Android too. Rate it opens the review page in the store.</p>
   <div class="progress"><span id="count">Rated 0 of 7</span><span class="meter"><i id="meter"></i></span></div>
   <div class="apps" id="apps"></div>
+  <p class="note" id="iosonly" hidden>The other six apps are on iPhone only for now: <span id="ioslist"></span>. Know someone with an iPhone? Sending them this page helps just as much.</p>
 
   <h2>Other ways to help</h2>
   <p class="sub">No app needed for these.</p>
@@ -195,8 +197,19 @@
     { slug: 'celebriday', name: 'CelebriDay', id: '6760971240', line: 'What national day it is today, with a fun fact each morning.' },
     { slug: 'blitztap', name: 'BlitzTap', id: '6759490849', line: 'A quick reaction time game with a daily challenge.' },
     { slug: 'signsnap', name: 'SignSnap', id: '6759199184', line: 'Sign a PDF on your phone in seconds, no account.' },
-    { slug: 'drift', name: 'Drift', id: '6758258891', line: 'Sleep sounds, white noise and rain, with a sleep timer.' }
+    { slug: 'drift', name: 'Drift', id: '6758258891', play: 'com.graysmithlabs.drift', line: 'Sleep sounds, white noise and rain, with a sleep timer.' }
   ];
+  // Android phones see only the apps on Google Play; iPhones only the App Store;
+  // computers see both stores. ?store=android or ?store=ios forces one.
+  var force = (/[?&]store=(android|ios)/.exec(location.search) || [])[1];
+  var ua = navigator.userAgent;
+  var store = force || (/Android/i.test(ua) ? 'android' : /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1) ? 'ios' : 'both');
+  if (store === 'android') {
+    document.getElementById('appsub').textContent = 'Get it opens Google Play. To rate, tap Rate it, then pick your stars on the Play page once Drift is installed.';
+    document.getElementById('iosonly').hidden = false;
+    document.getElementById('ioslist').innerHTML = APPS.filter(function (a) { return !a.play; }).map(function (a) { return '<a href="../apps/' + a.slug + '.html">' + a.name + '</a>'; }).join(', ');
+    APPS = APPS.filter(function (a) { return a.play; });
+  }
   var KEY = 'gl.friends.rated';
   var rated = {};
   try { rated = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { rated = {}; }
@@ -218,18 +231,29 @@
   }
 
   var LINES = ['Rated 0 of 7', 'Rated 1 of 7. That already helps.', 'Rated 2 of 7. You are on a roll.', 'Rated 3 of 7. Seriously, thank you.', 'Rated 4 of 7. Legend status.', 'Rated 5 of 7. Five stars for you.', 'Rated 6 of 7. One to go!', 'All 7 rated. You are the best.'];
+  if (store === 'android') LINES = ['Rated 0 of ' + APPS.length];
+  LINES[APPS.length] = store === 'android' ? 'Rated. You are the best.' : LINES[APPS.length];
   function paint() {
     var n = APPS.filter(function (a) { return rated[a.slug]; }).length;
     $('count').textContent = LINES[n]; $('meter').style.width = (n / APPS.length * 100) + '%';
     APPS.forEach(function (a) { var el = document.getElementById('app-' + a.slug); if (el) el.classList.toggle('done', !!rated[a.slug]); });
   }
 
+  function pair(a, get, rate, label) {
+    return '<a class="fbtn" href="' + get + '" target="_blank" rel="noopener">' + (label ? label : 'Get it') + '</a>' +
+      '<a class="fbtn rate" data-slug="' + a.slug + '" href="' + rate + '" target="_blank" rel="noopener">★ Rate it' + (label ? '<span class="vh"> on ' + label + '</span>' : '') + '</a>';
+  }
+  function buttons(a) {
+    var p = 'https://play.google.com/store/apps/details?id=' + a.play, out = '', both = store === 'both' && a.play;
+    if (store !== 'android') out += pair(a, 'https://apps.apple.com/app/id' + a.id + '?pt=128481288&amp;ct=friends&amp;mt=8', 'https://apps.apple.com/app/id' + a.id + '?action=write-review', both ? 'App Store' : '');
+    if (store !== 'ios' && a.play) out += pair(a, p + '&amp;referrer=utm_source%3Dgraysmithlabs.com%26utm_medium%3Dweb%26utm_campaign%3Dfriends', p + '&amp;showAllReviews=true', both ? 'Google Play' : '');
+    return out;
+  }
   $('apps').innerHTML = APPS.map(function (a) {
     return '<div class="app" id="app-' + a.slug + '"><span class="stamp">★ thank you</span>' +
       '<img src="../assets/apps/' + a.slug + '/icon.png" alt="" loading="lazy">' +
       '<h3>' + a.name + (a.isNew ? ' <span class="new">New</span>' : '') + '</h3><p>' + a.line + '</p><div class="fbtns">' +
-      '<a class="fbtn" href="https://apps.apple.com/app/id' + a.id + '?pt=128481288&amp;ct=friends&amp;mt=8" target="_blank" rel="noopener">Get it</a>' +
-      '<a class="fbtn rate" data-slug="' + a.slug + '" href="https://apps.apple.com/app/id' + a.id + '?action=write-review" target="_blank" rel="noopener">★ Rate it</a>' +
+      buttons(a) +
       '</div></div>';
   }).join('');
   $('apps').addEventListener('click', function (e) {

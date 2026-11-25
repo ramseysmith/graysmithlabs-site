@@ -84,6 +84,7 @@ function guidePage(g) {
   const stamp = (file) => appPage.match(new RegExp(`assets/apps/${app.slug}/${file.replace('.', '\\.')}(\\?v=[\\w.]+)`))?.[1] ?? '';
   const image = `${BASE}/assets/apps/${app.slug}/og.jpg${stamp('og.jpg')}`;
   const store = `https://apps.apple.com/us/app/id${app.appStoreId}?ct=guide-${g.slug}&amp;mt=8`;
+  const play = app.playPackage ? `\n          <a class="btn ghost" href="https://play.google.com/store/apps/details?id=${app.playPackage}" rel="noopener">Get it on Google Play</a>` : '';
   for (const [k, max] of [['title', 60], ['description', 155]]) {
     if (g[k].length > max) throw new Error(`${g.slug}: ${k} is ${g[k].length} characters, limit ${max}`);
   }
@@ -136,7 +137,7 @@ ${g.sections.map(section).join('')}
         <p>${esc(app.answer)}</p>
         <p class="guide-note">${esc(app.pricing)}</p>
         <div class="btn-row">
-          ${g.cta ? `<a class="btn" href="${g.cta.href}">${esc(g.cta.label)}</a>` : `<a class="btn" href="${store}" rel="noopener">Download on the App Store</a>`}
+          ${g.cta ? `<a class="btn" href="${g.cta.href}">${esc(g.cta.label)}</a>` : `<a class="btn" href="${store}" rel="noopener">Download on the App Store</a>${play}`}
           <a class="btn ghost" href="../apps/${app.slug}.html">About ${esc(app.name)}</a>
         </div>
       </div>
