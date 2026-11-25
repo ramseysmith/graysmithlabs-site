@@ -172,7 +172,7 @@ if (data.services) {
       email: data.site.contact,
       description: s.answer,
       address: { "@type": "PostalAddress", addressLocality: "Centennial", addressRegion: "CO", addressCountry: "US" },
-      areaServed: "US",
+      areaServed: "Worldwide",
       sameAs: ["https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911"],
       hasOfferCatalog: {
         "@type": "OfferCatalog",

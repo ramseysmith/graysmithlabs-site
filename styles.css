@@ -1063,3 +1063,6 @@ a:hover > .tc-art img { transform: scale(1.07) rotate(-1.5deg); }
 .app-art h2 { font-size: 28px; margin-bottom: 10px; }
 @media (max-width: 700px) { .tool-art { float: none; display: block; width: 190px; margin: 0 0 16px; } .app-art { grid-template-columns: 1fr; } }
 @media (prefers-color-scheme: dark) { .tool-art, .app-art img { filter: brightness(0.88); } }
+.audit-h { font-family: var(--serif); font-weight: 500; font-size: 22px; margin-top: 36px; }
+.guide-sec .audit-tag { font-size: 13px; color: var(--accent); margin: 6px 0 12px; }
+.guide-sec p strong { color: var(--ink); font-weight: 500; }

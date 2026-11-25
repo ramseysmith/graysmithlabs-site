@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample app audit report: what $499 gets you | Graysmith Labs</title>
+<meta name="description" content="Read a real sample of our $499 mobile app audit: seven findings on our own app SignSnap, ranked by impact, each with the evidence and the fix.">
+<link rel="canonical" href="https://graysmithlabs.com/services/app-audit.html">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131513" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Graysmith Labs">
+<meta property="og:title" content="Sample app audit report: what $499 gets you | Graysmith Labs">
+<meta property="og:description" content="Read a real sample of our $499 mobile app audit: seven findings on our own app SignSnap, ranked by impact, each with the evidence and the fix.">
+<meta property="og:url" content="https://graysmithlabs.com/services/app-audit.html">
+<meta property="og:image" content="https://graysmithlabs.com/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Graysmith Labs, an independent software studio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GraysmithLabs">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/og.jpg">
+<meta name="twitter:image:alt" content="Graysmith Labs, an independent software studio">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script src="../main.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://graysmithlabs.com/services/app-audit.html#service",
+      "name": "Mobile app audit",
+      "description": "A review of an app, its codebase, its paywall and its store listing, with a written report of what to fix first within 5 business days of access and a 30 minute walkthrough call.",
+      "url": "https://graysmithlabs.com/services/app-audit.html",
+      "provider": {
+        "@id": "https://graysmithlabs.com/#studio"
+      },
+      "areaServed": "Worldwide",
+      "offers": {
+        "@type": "Offer",
+        "price": "499",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://graysmithlabs.com/services/app-audit.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does the $499 app audit cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five areas: App Review risk, subscriptions and the paywall, ads and privacy, the store listing and search, and the code and builds. You get a written report ranked by what to fix first, then a 30 minute walkthrough call."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do you need from me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app link to start. For a code review, read access to the repository; for store and revenue findings, view only access to App Store Connect or RevenueCat, or screenshots of them. The audit can run on the public app and listing alone, with less depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The written report arrives within 5 business days of access. The walkthrough call is booked after you have read it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you fix what you find?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The audit is the report and the call. You can fix everything yourself from it. If you want us to do the work, it is quoted separately as a fixed price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will an audit raise my revenue?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It tells you what is broken and what to try first. Nobody can promise a revenue number from a review, and we do not."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Services",
+          "item": "https://graysmithlabs.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sample app audit",
+          "item": "https://graysmithlabs.com/services/app-audit.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links" id="nav-links">
+        <a href="../#apps">Apps</a>
+        <a href="../#tools">Free tools</a>
+        <a href="../holidays/">Holidays</a>
+        <a href="../guides/">Guides</a>
+        <a href="../services/">Services</a>
+        <a href="../about.html">About</a>
+        <a class="menu-cta" href="../#contact">Start a project &rarr;</a>
+      </div>
+      <a class="btn sm" href="./#contact">Start a project</a>
+      <button class="menu-btn" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <article class="wrap guide">
+    <p class="crumbs"><a href="./">Services</a> &nbsp;/&nbsp; Sample app audit</p>
+    <h1>A sample app audit, on our own app</h1>
+    <p class="guide-answer">This is the kind of report a $499 app audit gives you. We ran it on SignSnap, our iPhone app for signing documents, in November 2026. Every finding is real, including the one we have not fixed yet.</p>
+    <p class="guide-meta">Updated November 25, 2026 by <a href="../about.html">Graysmith Labs</a></p>
+    <div class="btn-row" style="margin-top:28px">
+      <a class="btn" href="./#audit-request">Request an audit, $499</a>
+      <a class="btn ghost" href="https://calendly.com/graysmithlabs/30min" target="_blank" rel="noopener">Talk first</a>
+    </div>
+    <section class="guide-sec">
+      <h2>Summary: what to fix first</h2>
+      <div class="guide-table"><table>
+        <thead><tr><th scope="col">Finding</th><th scope="col">Impact</th><th scope="col">Status</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">1. The paywall did not fit on one screen</th><td>High</td><td>Fixed November 20</td></tr>
+          <tr><th scope="row">2. Updates asked the ad network for test ads</th><td>High</td><td>Fixed November 20, with a check in the publish script</td></tr>
+          <tr><th scope="row">3. Every launch could wait behind the splash</th><td>High</td><td>Fixed in 1.9.2</td></tr>
+          <tr><th scope="row">4. Four ways into the paywall shared one generic headline</th><td>Medium</td><td>Fixed November 20</td></tr>
+          <tr><th scope="row">5. The rating prompt came too late</th><td>Medium</td><td>Fixed November 12</td></tr>
+          <tr><th scope="row">6. Nobody could tell why a paywall failed</th><td>Medium</td><td>Fixed November 13</td></tr>
+          <tr><th scope="row">7. Search words are out of reach, and 8 characters are unused</th><td>Medium</td><td>Open, planned for the next version</td></tr>
+        </tbody>
+      </table></div>
+      <p class="guide-note">Condensed from our own working audits. A client report covers all five areas and is private to you. Impact is our judgment of how many people a problem touches and how close it sits to a purchase; SignSnap is too small for us to claim a revenue result from these fixes.</p>
+    </section>
+    <section class="guide-sec">
+      <h2>The findings</h2>
+      <h3 class="audit-h">1. The paywall did not fit on one screen</h3>
+      <p class="audit-tag">High &middot; Subscriptions and paywall</p>
+      <p><strong>What we found.</strong> At 393 by 852 points, a common iPhone size, the feature list ran under the plans. The thing a person came to decide on was competing with a scroll.</p>
+      <p><strong>What to do.</strong> Rebuild on one screen: art, benefits, both plans, the trial line and the button visible together at 375 by 667, 393 by 852 and 440 by 956 points.</p>
+      <p><strong>Status.</strong> Fixed November 20.</p>
+      <h3 class="audit-h">2. Updates asked the ad network for test ads</h3>
+      <p class="audit-tag">High &middot; Ads and privacy</p>
+      <p><strong>What we found.</strong> Over the air updates ran with the app environment set to development, so they requested Google test ad units. The store build was configured correctly, which is why nothing looked wrong.</p>
+      <p><strong>What to do.</strong> Set the production environment for every update, and stop any update that is not set from publishing.</p>
+      <p><strong>Status.</strong> Fixed November 20, with a check in the publish script.</p>
+      <h3 class="audit-h">3. Every launch could wait behind the splash</h3>
+      <p class="audit-tag">High &middot; Code and builds</p>
+      <p><strong>What we found.</strong> The splash held for up to 12 seconds while looking for an update, on every launch. A slow network made the app feel broken.</p>
+      <p><strong>What to do.</strong> Check once per install, for 3 seconds at most, then open.</p>
+      <p><strong>Status.</strong> Fixed in 1.9.2.</p>
+      <h3 class="audit-h">4. Four ways into the paywall shared one generic headline</h3>
+      <p class="audit-tag">Medium &middot; Subscriptions and paywall</p>
+      <p><strong>What we found.</strong> Home (two places), Settings and the success screen all opened on the same line, the product name plus Premium. Neither was told why the screen had opened.</p>
+      <p><strong>What to do.</strong> Give each entry point its own headline, with and without a trial.</p>
+      <p><strong>Status.</strong> Fixed November 20.</p>
+      <h3 class="audit-h">5. The rating prompt came too late</h3>
+      <p class="audit-tag">Medium &middot; Listing and search</p>
+      <p><strong>What we found.</strong> The app asked for a rating only after many sessions. Most people sign one document and leave.</p>
+      <p><strong>What to do.</strong> Ask after the first signed document is exported, the moment the app has done its job.</p>
+      <p><strong>Status.</strong> Fixed November 12.</p>
+      <h3 class="audit-h">6. Nobody could tell why a paywall failed</h3>
+      <p class="audit-tag">Medium &middot; Subscriptions and paywall</p>
+      <p><strong>What we found.</strong> Views were counted, but not whether the plans had loaded, whether a trial was offered, or whether a purchase was started and cancelled.</p>
+      <p><strong>What to do.</strong> Record plans loaded, trial shown, purchase tapped, cancelled and failed, each tied to the entry point.</p>
+      <p><strong>Status.</strong> Fixed November 13.</p>
+      <h3 class="audit-h">7. Search words are out of reach, and 8 characters are unused</h3>
+      <p class="audit-tag">Medium &middot; Listing and search</p>
+      <p><strong>What we found.</strong> The keyword field uses 92 of 100 characters, and none of our 14 tracked words ranks in the top 25. The words we chose belong to far larger apps.</p>
+      <p><strong>What to do.</strong> Add maker, so the listing can match signature maker, then test narrower words one listing at a time.</p>
+      <p><strong>Status.</strong> Open, planned for the next version.</p>
+    </section>
+    <section class="guide-sec">
+      <h2>What you get</h2>
+      <ul class="guide-list">
+        <li>A written report within 5 business days of access, ranked by what to fix first.</li>
+        <li>The evidence for each finding, and a fix specific enough to hand to whoever does the work.</li>
+        <li>Store copy you can paste in, counted against the limits.</li>
+        <li>A 30 minute walkthrough call.</li>
+      </ul>
+      <p>$499 flat, no subscription. You get a personal reply with the next steps before anything is billed.</p>
+      <div class="btn-row" style="margin-top:24px">
+        <a class="btn" href="./#audit-request">Request an audit</a>
+      </div>
+    </section>
+    <section class="guide-sec" id="faq">
+      <h2>Questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>What does the $499 app audit cover?</summary>
+          <p>Five areas: App Review risk, subscriptions and the paywall, ads and privacy, the store listing and search, and the code and builds. You get a written report ranked by what to fix first, then a 30 minute walkthrough call.</p>
+        </details>
+        <details>
+          <summary>What do you need from me?</summary>
+          <p>The app link to start. For a code review, read access to the repository; for store and revenue findings, view only access to App Store Connect or RevenueCat, or screenshots of them. The audit can run on the public app and listing alone, with less depth.</p>
+        </details>
+        <details>
+          <summary>How long does it take?</summary>
+          <p>The written report arrives within 5 business days of access. The walkthrough call is booked after you have read it.</p>
+        </details>
+        <details>
+          <summary>Do you fix what you find?</summary>
+          <p>The audit is the report and the call. You can fix everything yourself from it. If you want us to do the work, it is quoted separately as a fixed price.</p>
+        </details>
+        <details>
+          <summary>Will an audit raise my revenue?</summary>
+          <p>It tells you what is broken and what to try first. Nobody can promise a revenue number from a review, and we do not.</p>
+        </details>
+      </div>
+    </section>
+  </article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="mark" href="../"><span class="glyph">G</span> Graysmith Labs</a>
+        <p class="blurb">A small independent studio in Colorado. Seven apps, free tools, and software for clients.</p>
+      </div>
+      <div>
+        <span class="label">Apps</span>
+        <ul>
+          <li><a href="../apps/drift.html">Drift</a></li>
+          <li><a href="../apps/signsnap.html">SignSnap</a></li>
+          <li><a href="../apps/blitztap.html">BlitzTap</a></li>
+          <li><a href="../apps/celebriday.html">CelebriDay</a></li>
+          <li><a href="../apps/saybright.html">SayBright</a></li>
+          <li><a href="../apps/tubtender.html">TubTender</a></li>
+          <li><a href="../apps/tallyhand.html">Tallyhand</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Studio</span>
+        <ul>
+          <li><a href="../services/">Services</a></li>
+          <li><a href="../kit/">Starter kit</a></li>
+          <li><a href="../work/valentine-tide.html">Valentine Tide</a></li>
+          <li><a href="../#studio">Ways to work</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+          <li><a href="../#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Free tools</span>
+        <ul>
+          <li><a href="../holidays/">Today's holiday</a></li>
+          <li><a href="../invoice-generator/">Invoice generator</a></li>
+          <li><a href="../estimate-generator/">Estimate generator</a></li>
+          <li><a href="../receipt-generator/">Receipt generator</a></li>
+          <li><a href="../signature-maker/">Signature maker</a></li>
+          <li><a href="../white-noise/">White noise generator</a></li>
+          <li><a href="../sleep-calculator/">Sleep calculator</a></li>
+          <li><a href="../hot-tub-calculator/">Hot tub calculator</a></li>
+          <li><a href="../reaction-time-test/">Reaction time test</a></li>
+          <li><a href="../days-until-thanksgiving/">Thanksgiving countdown</a></li>
+          <li><a href="../days-until-christmas/">Christmas countdown</a></li>
+          <li><a href="../affirmations/">Affirmation of the day</a></li>
+          <li><a href="../guides/">Guides</a></li><li><a href="../best/">App comparisons</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="label">Contact</span>
+        <ul>
+          <li><a href="mailto:ramsey@graysmithlabs.com?subject=Project%20inquiry">ramsey@graysmithlabs.com</a></li>
+          <li><a href="https://apps.apple.com/us/developer/graysmith-labs-llc/id1871756911">Our App Store page</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=Graysmith+Labs+LLC">Our Google Play page</a></li>
+          <li><a href="../about.html">About and contact</a></li>
+          <li><a href="../privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span data-year>2026</span> Graysmith Labs LLC &middot; A Colorado limited liability company</span>
+      <span>United States &middot; clients worldwide</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

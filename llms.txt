@@ -79,7 +79,7 @@ Tallyhand is an iPhone invoice, estimate and receipt maker for one person servic
 
 ## Studio services
 
-Graysmith Labs is a founder led software studio in the United States, working with clients worldwide, that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own iPhone apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender) and built the Valentine Tide storefront.
+Graysmith Labs is a founder led software studio in the United States, working with clients worldwide, that designs and builds iOS and Android apps (React Native and Expo, or Swift), web apps, backends and AI features for companies, takes apps through App Store review and launch, and offers a fixed price app audit for $499 (written report in 5 business days plus a 30 minute walkthrough call). Every project starts with a free scoping call, then a written plan and a fixed quote; contract engineering is billed weekly or monthly. Proof is public: the studio publishes its own apps (Drift, SignSnap, CelebriDay, SayBright, BlitzTap, TubTender, Tallyhand) and built the Valentine Tide storefront.
 
 * iOS and Android app development: One React Native and Expo codebase for both stores, or native Swift, through App Store review and launch.
 * Web app and site development: Web apps and sites from a marketing page to a full product with accounts, payments and dashboards.
@@ -87,7 +87,7 @@ Graysmith Labs is a founder led software studio in the United States, working wi
 * AI features and automation: Assistants, search, summaries, on device features and agents inside a product or its operations.
 * Subscriptions and ads setup: Paywalls, free trials, RevenueCat entitlements and AdMob with App Tracking Transparency.
 * Contract engineering: A senior engineer inside a client team on weekly or monthly terms.
-* Fixed price app audit: $499. A review of an app, its codebase, its paywall and its App Store listing, with a written report of what to fix first in 5 business days and a 30 minute walkthrough call.
+* Fixed price app audit: $499. A review of an app, its codebase, its paywall and its App Store listing, with a written report of what to fix first in 5 business days and a 30 minute walkthrough call. Sample report: https://graysmithlabs.com/services/app-audit.html
 * Page: https://graysmithlabs.com/services/
 
 ## Starter kit
@@ -121,6 +121,7 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 * [How much chlorine to add to a hot tub](https://graysmithlabs.com/guides/how-much-chlorine-to-add-to-hot-tub.html): How much chlorine to add to a hot tub: about 1¾ tsp of dichlor or 2½ fl oz of 6% bleach raises a 400 gallon tub by 3 ppm. Keep it at 3 to 10 ppm.
 * [Hot tub pH too high? How to lower it](https://graysmithlabs.com/guides/hot-tub-ph-too-high.html): Hot tub pH too high: check alkalinity first, then add pH decreaser with the pump on. About 2¾ tsp takes a 400 gallon tub from pH 8.0 to 7.5.
 * [How often to test hot tub water](https://graysmithlabs.com/guides/how-often-to-test-hot-tub-water.html): Test hot tub sanitizer and pH two to three times a week and before every soak after a busy day, alkalinity weekly, calcium monthly. Full schedule inside.
+* [Hot tub log sheet (free printable PDF)](https://graysmithlabs.com/guides/hot-tub-log-sheet.html): Free printable hot tub log sheet with target ranges, plus a maintenance checklist. Two page PDF, no email needed, ready to print.
 * [Bromine vs chlorine for a hot tub](https://graysmithlabs.com/guides/bromine-vs-chlorine-hot-tub.html): Bromine holds steadier in hot water and smells less; chlorine costs less and works faster. Levels, cost, smell, sunlight and how to switch safely.
 * [Sleep sounds that work offline on a plane](https://graysmithlabs.com/guides/sleep-sounds-offline-on-a-plane.html): Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.
 * [Brown noise for sleep: what it is and how to use it](https://graysmithlabs.com/guides/brown-noise-for-sleep.html): Brown noise is a deep, soft rumble with more low tones than white noise. How it differs, who it suits, and how to play it free all night on iPhone.
