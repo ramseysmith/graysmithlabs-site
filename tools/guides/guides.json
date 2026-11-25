@@ -113,7 +113,8 @@
       ]
     },
     {
-      "slug": "fill-and-sign-lease-on-phone", "art": "lease",
+      "slug": "fill-and-sign-lease-on-phone",
+      "art": "lease",
       "app": "signsnap",
       "title": "How to Fill and Sign a Lease on Your Phone",
       "description": "Fill in and sign a rental lease on iPhone: get it as a PDF, type into the blanks, initial and sign each page, and send it back. No printer needed.",
@@ -190,7 +191,8 @@
       ]
     },
     {
-      "slug": "cloudy-hot-tub-water", "art": "cloudy",
+      "slug": "cloudy-hot-tub-water",
+      "art": "cloudy",
       "app": "tubtender",
       "title": "Cloudy Hot Tub Water: Why It Happens and How to Fix It",
       "description": "Why is my hot tub water cloudy? Usually low sanitizer, high pH or alkalinity, or a dirty filter. Test, balance, shock and rinse the filter, in that order.",
@@ -309,7 +311,8 @@
       ]
     },
     {
-      "slug": "lower-hot-tub-alkalinity", "art": "alkalinity",
+      "slug": "lower-hot-tub-alkalinity",
+      "art": "alkalinity",
       "app": "tubtender",
       "title": "How to Lower Hot Tub Alkalinity (and Keep pH Steady)",
       "description": "Lower hot tub alkalinity: add pH decreaser until pH is about 7.2, then run the jets with the cover off so pH rises. Repeat daily until 80 to 120 ppm.",
@@ -426,7 +429,8 @@
       ]
     },
     {
-      "slug": "how-much-chlorine-to-add-to-hot-tub", "art": "chlorine",
+      "slug": "how-much-chlorine-to-add-to-hot-tub",
+      "art": "chlorine",
       "app": "tubtender",
       "title": "How Much Chlorine to Add to a Hot Tub (by Tub Size)",
       "description": "How much chlorine to add to a hot tub: about 1¾ tsp of dichlor or 2½ fl oz of 6% bleach raises a 400 gallon tub by 3 ppm. Keep it at 3 to 10 ppm.",
@@ -564,7 +568,8 @@
       ]
     },
     {
-      "slug": "hot-tub-ph-too-high", "art": "ph",
+      "slug": "hot-tub-ph-too-high",
+      "art": "ph",
       "app": "tubtender",
       "title": "Hot Tub pH Too High? How to Lower It Safely",
       "description": "Hot tub pH too high: check alkalinity first, then add pH decreaser with the pump on. About 2¾ tsp takes a 400 gallon tub from pH 8.0 to 7.5.",
@@ -698,13 +703,14 @@
       ]
     },
     {
-      "slug": "how-often-to-test-hot-tub-water", "art": "testing",
+      "slug": "how-often-to-test-hot-tub-water",
+      "art": "testing",
       "app": "tubtender",
       "title": "How Often to Test Hot Tub Water: A Simple Schedule",
       "description": "Test hot tub sanitizer and pH two to three times a week and before every soak after a busy day, alkalinity weekly, calcium monthly. Full schedule inside.",
       "h1": "How often to test hot tub water",
       "answer": "Test sanitizer (chlorine or bromine) and pH at least two to three times a week in a home hot tub, and before you soak after heavy use, a party or a few days away. Test total alkalinity once a week and calcium hardness once a month and after every refill. Rinse the filter about every two weeks and drain and refill every three to four months, sooner when the tub is used every day.",
-      "updated": "2026-11-20",
+      "updated": "2026-11-25",
       "sections": [
         {
           "h2": "The hot tub testing schedule",
@@ -753,7 +759,7 @@
               ]
             ]
           },
-          "note": "Test more often in the first week after a refill, after a big group soak and after rain gets in. Chemistry moves fastest then."
+          "note": "Test more often in the first week after a refill, after a big group soak and after rain gets in. Chemistry moves fastest then. Print the <a href=\"hot-tub-log-sheet.html\">free hot tub log sheet</a> to keep track on paper."
         },
         {
           "h2": "When to test right away",
@@ -853,7 +859,123 @@
       ]
     },
     {
-      "slug": "bromine-vs-chlorine-hot-tub", "art": "versus",
+      "slug": "hot-tub-log-sheet",
+      "art": "testing",
+      "app": "tubtender",
+      "title": "Hot Tub Log Sheet and Maintenance Checklist, Free PDF",
+      "description": "Free printable hot tub log sheet with target ranges, plus a maintenance checklist. Two page PDF, no email needed, ready to print.",
+      "h1": "Hot tub log sheet (free printable PDF)",
+      "answer": "<a href=\"../assets/printables/hot-tub-log-sheet.pdf\">Download the hot tub log sheet (PDF)</a>: one page to write down each test with the target ranges at the top, and one page of maintenance jobs to tick off. It prints on US letter paper, uses little ink and needs no email.",
+      "updated": "2026-11-25",
+      "sections": [
+        {
+          "h2": "What is on the log sheet",
+          "intro": "Page one has 26 rows, about two months of tests at three a week. Each column shows the range to aim for.",
+          "table": {
+            "head": [
+              "Column",
+              "Target",
+              "How often"
+            ],
+            "rows": [
+              [
+                "Free chlorine",
+                "3 to 10 ppm",
+                "2 to 3 times a week"
+              ],
+              [
+                "Bromine, if you use it instead",
+                "4 to 8 ppm",
+                "2 to 3 times a week"
+              ],
+              [
+                "pH",
+                "7.2 to 7.8",
+                "2 to 3 times a week"
+              ],
+              [
+                "Total alkalinity",
+                "80 to 120 ppm",
+                "Once a week"
+              ],
+              [
+                "Calcium hardness",
+                "150 to 400 ppm",
+                "Once a month and after a refill"
+              ],
+              [
+                "Water temperature",
+                "Your setting",
+                "When you test"
+              ],
+              [
+                "Added, and how much",
+                "Product and amount",
+                "Every time you add something"
+              ]
+            ]
+          },
+          "note": "Use one row per test and leave a box blank when you did not test it. The label on your chemicals comes first when it disagrees with a range here."
+        },
+        {
+          "h2": "The maintenance checklist on page two",
+          "list": [
+            "Two to three times a week: test sanitizer and pH, and look at the water.",
+            "Every week: test alkalinity, wipe the waterline and pillows.",
+            "Every two weeks: rinse the filter, pleat by pleat.",
+            "Every month: test calcium hardness, wipe the cover inside and out.",
+            "Every three to four months: drain, clean and refill, then test daily for the first week."
+          ],
+          "after": "The reasons behind each interval are in <a href=\"how-often-to-test-hot-tub-water.html\">how often to test hot tub water</a>."
+        },
+        {
+          "h2": "How to read your own log",
+          "list": [
+            "Alkalinity falls first, then pH swings: raise alkalinity before you chase pH.",
+            "pH climbs a little after every soak: jets add air, and air raises pH. See <a href=\"hot-tub-ph-too-high.html\">hot tub pH too high</a>.",
+            "Sanitizer is gone by the next test each time: you are adding too little for the number of soakers, or the water is old.",
+            "You keep adding more of everything to hold the same numbers: count the days since the last refill, the water may be due."
+          ],
+          "note": "Write down what you added as well as the reading. The log is only useful when you can see what each dose did."
+        },
+        {
+          "h2": "Working out the amounts",
+          "paras": [
+            "A log tells you what is off; it does not tell you how much to add. The free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> takes your tub size and readings and gives the amounts in order: alkalinity, pH, calcium, then sanitizer."
+          ]
+        },
+        {
+          "h2": "Keeping the log on your phone instead",
+          "intro": "TubTender for iPhone keeps the same record: match your test strip to the colors on screen and it saves the test, lists what to add for your tub size and reminds you when the next test is due. Your last 5 tests are free to look back on; the full history and trend charts are Premium.",
+          "note": "Paper works just as well for many people, and the PDF is free either way."
+        }
+      ],
+      "faq": [
+        [
+          "Is the hot tub log sheet free to copy?",
+          "Yes. Print as many as you like for your home, rental or front desk. No email or account is needed."
+        ],
+        [
+          "What should I write in a hot tub log?",
+          "The date, chlorine or bromine, pH, alkalinity, calcium when you test it, the water temperature, and the name and amount of anything you added."
+        ],
+        [
+          "How many rows do I need?",
+          "At three tests a week, the 26 rows on one sheet last about two months."
+        ],
+        [
+          "Can I use it for a rental hot tub?",
+          "Yes, as a home record between guests. Public and commercial spas have their own rules on what to record and how often, so use the form your health department asks for."
+        ],
+        [
+          "Can I use it with bromine or salt?",
+          "Yes. Use the bromine range for bromine. Most salt systems make chlorine, so use the chlorine range, or the range your system's manual gives."
+        ]
+      ]
+    },
+    {
+      "slug": "bromine-vs-chlorine-hot-tub",
+      "art": "versus",
       "app": "tubtender",
       "title": "Bromine vs Chlorine for a Hot Tub: Which to Use",
       "description": "Bromine holds steadier in hot water and smells less; chlorine costs less and works faster. Levels, cost, smell, sunlight and how to switch safely.",
@@ -1021,7 +1143,8 @@
       ]
     },
     {
-      "slug": "sleep-sounds-offline-on-a-plane", "art": "plane",
+      "slug": "sleep-sounds-offline-on-a-plane",
+      "art": "plane",
       "app": "drift",
       "title": "Sleep Sounds That Work Offline on a Plane (iPhone)",
       "description": "Yes, you can play sleep sounds offline on a plane. Use an app whose sounds ship inside it, test in airplane mode before you fly, and set a sleep timer.",
@@ -1319,7 +1442,8 @@
       ]
     },
     {
-      "slug": "sign-one-document-without-docusign", "art": "audit",
+      "slug": "sign-one-document-without-docusign",
+      "art": "audit",
       "app": "signsnap",
       "title": "Sign One Document Free Without a DocuSign Account",
       "description": "Need to sign just one document? Three free ways to sign a PDF on iPhone with no DocuSign account or subscription, and when DocuSign still fits.",
@@ -1438,7 +1562,8 @@
       ]
     },
     {
-      "slug": "weird-holidays-november", "art": "november",
+      "slug": "weird-holidays-november",
+      "art": "november",
       "app": "celebriday",
       "title": "Weird Holidays in November 2026, With Dates",
       "description": "Weird and fun holidays in November 2026, from Deviled Egg Day to Red Planet Day, with each date checked and ideas to celebrate them at work.",
@@ -1568,7 +1693,8 @@
       ]
     },
     {
-      "slug": "affirmations-on-iphone-lock-screen", "art": "lockscreen",
+      "slug": "affirmations-on-iphone-lock-screen",
+      "art": "lockscreen",
       "app": "saybright",
       "title": "How to Put Affirmations on Your iPhone Lock Screen",
       "description": "Put affirmations on your iPhone Lock Screen for free with a wallpaper or a daily reminder, or add a widget that shows a new affirmation through the day.",
@@ -1716,7 +1842,8 @@
       ]
     },
     {
-      "slug": "weird-holidays-december", "art": "december",
+      "slug": "weird-holidays-december",
+      "art": "december",
       "app": "celebriday",
       "title": "Weird Holidays in December 2026, With Dates",
       "description": "Weird and fun holidays in December 2026, from Pretend to Be a Time Traveler Day to Festivus, with each date checked and ideas for the office.",
