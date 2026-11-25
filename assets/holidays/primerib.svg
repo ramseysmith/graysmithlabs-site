@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="90" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="116" y="150" width="172" height="16" rx="6" fill="#9C5A30"/>
+<rect x="282" y="152" width="22" height="10" rx="5" fill="#9C5A30"/>
+<circle cx="297" cy="157" r="2.6" fill="#6B3F25"/>
+<path d="M120 154 H200" stroke="#C2743A" stroke-width="2.6" stroke-linecap="round"/>
+<g fill="#FEFAF7"><rect x="144" y="56" width="11" height="40" rx="5.5" transform="rotate(-10 150 76)"/><rect x="166" y="50" width="11" height="44" rx="5.5" transform="rotate(-6 172 72)"/><rect x="188" y="48" width="11" height="44" rx="5.5" transform="rotate(-2 194 70)"/></g>
+<g fill="#F3D29E"><circle cx="146" cy="58" r="7"/><circle cx="170" cy="52" r="7"/><circle cx="193" cy="50" r="7"/></g>
+<path d="M128 150 C122 120 132 88 160 84 C196 78 236 84 254 96 C268 106 270 132 262 150 Z" fill="#6B3F25"/>
+<path d="M140 104 C150 92 176 88 206 88 C228 88 244 94 252 102" stroke="#9C5A30" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M150 124 C158 118 170 116 180 118 M200 112 C212 108 226 110 236 116 M168 138 C178 134 190 134 198 138" stroke="#4A2A1C" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M226 152 C222 136 224 118 236 110 C252 108 270 118 274 134 C278 146 272 152 262 152 Z" fill="#9C5A30"/>
+<path d="M232 150 C229 138 232 122 240 116 C252 116 264 124 267 136 C269 146 266 150 260 150 Z" fill="#FF8C9B"/>
+<path d="M240 140 C238 132 242 126 248 126 C256 128 258 136 256 142 C252 146 244 146 240 140 Z" fill="#E5384F"/>
+<path d="M240 122 C246 120 252 120 258 124" stroke="#FFC2CB" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M134 148 C152 140 168 140 184 146" stroke="#3FB874" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<g fill="#68DB8C"><ellipse cx="142" cy="140" rx="5" ry="2" transform="rotate(-50 142 140)"/><ellipse cx="148" cy="148" rx="5" ry="2" transform="rotate(40 148 148)"/><ellipse cx="158" cy="137" rx="5" ry="2" transform="rotate(-60 158 137)"/><ellipse cx="164" cy="146" rx="5" ry="2" transform="rotate(50 164 146)"/><ellipse cx="174" cy="138" rx="5" ry="2" transform="rotate(-55 174 138)"/></g>
+<g id="move" stroke="#FEFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75"><path d="M218 70 c-6 -8 6 -16 0 -24"/><path d="M244 76 c-6 -8 6 -16 0 -24"/></g>
+</svg>

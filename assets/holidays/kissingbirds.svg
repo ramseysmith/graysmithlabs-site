@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M122 164 C160 158 220 156 286 160" stroke="#9C5A30" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M250 158 C258 148 264 142 274 138" stroke="#9C5A30" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="280" cy="134" rx="9" ry="5" fill="#3FB874" transform="rotate(-30 280 134)"/><ellipse cx="140" cy="154" rx="9" ry="5" fill="#3FB874" transform="rotate(-20 140 154)"/><ellipse cx="262" cy="146" rx="7" ry="4" fill="#7FA83A" transform="rotate(40 262 146)"/>
+<path d="M172 158 L170 164 M180 158 L180 164 M220 158 L220 164 M228 158 L230 164" stroke="#E0A04A" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 140 L136 128 L142 146 Z" fill="#E5708A"/>
+<ellipse cx="174" cy="142" rx="21" ry="16" fill="#F9A8B8"/>
+<circle cx="188" cy="122" r="12" fill="#F9A8B8"/>
+<ellipse cx="170" cy="140" rx="12" ry="8" fill="#E5708A" transform="rotate(-15 170 140)"/>
+<path d="M198 118 L206 123 L198 127 Z" fill="#F2C06A"/>
+<circle cx="192" cy="119" r="2.2" fill="#1E1712"/><circle cx="184" cy="127" r="2.6" fill="#E5384F" opacity="0.4"/>
+<path d="M240 140 L264 128 L258 146 Z" fill="#2FB3A8"/>
+<ellipse cx="226" cy="142" rx="21" ry="16" fill="#9FE3D9"/>
+<circle cx="212" cy="122" r="12" fill="#9FE3D9"/>
+<ellipse cx="230" cy="140" rx="12" ry="8" fill="#2FB3A8" transform="rotate(15 230 140)"/>
+<path d="M202 118 L194 123 L202 127 Z" fill="#E0A04A"/>
+<circle cx="208" cy="119" r="2.2" fill="#1E1712"/><circle cx="216" cy="127" r="2.6" fill="#E5384F" opacity="0.4"/>
+<path d="M166 132 C170 128 176 127 180 128 M220 128 C224 127 230 128 234 132" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+<g id="move"><path d="M200 100.8 C180.8 88.8 190.4 75.6 200 85.2 C209.6 75.6 219.2 88.8 200 100.8 Z" fill="#E5384F"/><circle cx="194" cy="84" r="2.6" fill="#FEFAF7" opacity="0.7"/><path d="M226 74.5 C218 69.5 222 64 226 68 C230 64 234 69.5 226 74.5 Z" fill="#F9A8B8"/></g>
+</svg>

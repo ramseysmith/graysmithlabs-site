@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M146 120 C150 102 174 94 200 94 C226 94 250 102 254 120 Z" fill="#FFC93C"/>
+<path d="M156 116 C170 104 186 112 198 104 C210 98 226 108 244 112 M162 120 C176 112 192 118 206 110 C220 104 236 114 250 118" stroke="#E8A63A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M166 108 C176 100 188 100 196 102" stroke="#FFF3E0" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.6"/>
+<path d="M126 122 L274 122 C270 148 244 166 200 166 C156 166 130 148 126 122 Z" fill="#FEFAF7"/>
+<path d="M238 128 L272 128 C266 150 244 164 214 166 C240 156 254 144 258 128 Z" fill="#E8D8C8"/>
+<path d="M140 136 C150 152 170 160 194 162" stroke="#E8455A" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+<ellipse cx="200" cy="122" rx="74" ry="7" fill="#FFF3E0"/>
+<path d="M134 122 C150 118 160 124 176 120 C190 116 210 124 226 120 C242 116 254 124 266 121" stroke="#FFC93C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M150 114 C150 104 170 104 170 114 Z" fill="#C9CED6"/>
+<path d="M154 112 C155 107 165 107 166 112" stroke="#7A4A2A" stroke-width="1.4" fill="none" opacity="0.6"/>
+<path d="M232 114 C232 104 252 104 252 114 Z" fill="#C9CED6"/>
+<path d="M236 112 C237 107 247 107 248 112" stroke="#7A4A2A" stroke-width="1.4" fill="none" opacity="0.6"/>
+<g fill="#4CAF6E"><circle cx="178" cy="112" r="2.6"/><circle cx="220" cy="106" r="2.6"/><circle cx="214" cy="116" r="2.2"/><circle cx="186" cy="102" r="2.2"/></g>
+<g id="move">
+<rect x="196" y="40" width="8" height="52" rx="4" fill="#C9CED6"/>
+<path d="M199 44 V84" stroke="#FEFAF7" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+<path d="M200 96 C196 104 204 108 198 116" stroke="#FFC93C" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="200" cy="92" rx="15" ry="10" fill="#FFC93C"/>
+<path d="M187 88 C196 84 206 86 213 90 M186 94 C196 98 206 98 214 94" stroke="#E8A63A" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+</g>
+</svg>

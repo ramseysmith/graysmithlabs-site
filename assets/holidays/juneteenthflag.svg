@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="60" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="146" y="46" width="6" height="118" rx="3" fill="#C9C2BC"/>
+<circle cx="149" cy="45" r="6" fill="#FFE08A"/>
+<path d="M134 168 L138 158 H160 L164 168 Z" fill="#6B3F25"/>
+<rect x="134" y="156" width="30" height="5" rx="2.5" fill="#9C5A30"/>
+<g id="move">
+<path d="M152 52 C190 40 226 64 278 52 V124 C226 136 190 112 152 124 Z" fill="#E5384F"/>
+<path d="M152 52 C190 40 226 64 278 52 V98 C240 74 196 70 152 96 Z" fill="#1F4EA8"/>
+<path d="M152 96 C196 70 240 74 278 98" stroke="#FEFAF7" stroke-width="4" fill="none"/>
+<path d="M184.0 73.0 L186.6 81.9 L194.0 76.2 L190.9 85.0 L200.2 84.7 L192.5 90.0 L200.2 95.3 L190.9 95.0 L194.0 103.8 L186.6 98.1 L184.0 107.0 L181.4 98.1 L174.0 103.8 L177.1 95.0 L167.8 95.3 L175.5 90.0 L167.8 84.7 L177.1 85.0 L174.0 76.2 L181.4 81.9 Z" fill="none" stroke="#FEFAF7" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M184.0 82.0 L185.9 87.3 L191.6 87.5 L187.1 91.0 L188.7 96.5 L184.0 93.3 L179.3 96.5 L180.9 91.0 L176.4 87.5 L182.1 87.3 Z" fill="#FEFAF7"/>
+<path d="M156 58 C186 49 214 64 250 60" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.25"/>
+</g>
+</svg>

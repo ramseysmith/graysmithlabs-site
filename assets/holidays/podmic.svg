@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="204" cy="168" rx="86" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="128" y="150" width="20" height="18" rx="3" fill="#4A505A"/>
+<path d="M138 152 L152 92 L208 58" stroke="#4A505A" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M142 140 L154 96" stroke="#C9CED6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+<circle cx="152" cy="92" r="5" fill="#C9CED6"/>
+<path d="M208 58 V68" stroke="#4A505A" stroke-width="5" stroke-linecap="round"/>
+<path d="M200 72 C200 66 228 66 228 72" stroke="#C9CED6" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="202" y="68" width="24" height="60" rx="12" fill="#4A505A"/>
+<rect x="204" y="70" width="20" height="28" rx="10" fill="#C9CED6"/>
+<path d="M208 78 H220 M206 84 H222 M208 90 H220" stroke="#8A929C" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="202" y="100" width="24" height="5" fill="#FFC93C"/>
+<path d="M226 92 C236 92 240 96 242 98" stroke="#4A505A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<circle cx="252" cy="92" r="16" fill="#C9CED6" opacity="0.6"/><path d="M242 86 H262 M238 92 H266 M242 98 H262 M246 82 V102 M252 78 V106 M258 82 V102" stroke="#8A929C" stroke-width="1.2" opacity="0.7"/>
+<circle cx="252" cy="92" r="16" fill="none" stroke="#4A505A" stroke-width="3.4"/>
+<path d="M244 84 C246 81 249 79 252 79" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.6"/>
+<path d="M213 160 C213 126 267 126 267 160" stroke="#4A505A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<rect x="206" y="150" width="14" height="18" rx="6" fill="#E8455A"/>
+<rect x="260" y="150" width="14" height="18" rx="6" fill="#E8455A"/>
+<rect x="216" y="152" width="5" height="14" rx="2" fill="#2A3440"/>
+<rect x="259" y="152" width="5" height="14" rx="2" fill="#2A3440"/>
+<g id="move" stroke="#FFD84D" stroke-width="3.4" fill="none" stroke-linecap="round">
+<path d="M276 80 C282 88 282 98 276 106"/>
+<path d="M286 72 C296 84 296 102 286 114" opacity="0.6"/>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="70" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M200 66 C199 86 202 104 200 124" stroke="#4CAF6E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M201 104 C210 94 222 94 228 98 C220 106 210 108 201 104 Z" fill="#7BC96F"/>
+<path d="M199 92 C190 84 180 84 174 88 C182 96 192 96 199 92 Z" fill="#4CAF6E"/>
+<rect x="190" y="116" width="20" height="16" rx="3" fill="#3B82D6"/>
+<rect x="186" y="113" width="28" height="6" rx="3" fill="#6AA8FF"/>
+<circle cx="200" cy="146" r="22" fill="#3B82D6"/>
+<path d="M200 168 C214 168 222 158 222 146 C222 156 212 162 200 162 C188 162 180 156 178 148 C178 160 188 168 200 168 Z" fill="#2A63A8"/>
+<path d="M186 138 C188 132 192 129 196 128" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+<path d="M212 120 C222 126 232 132 236 138" stroke="#FFF3E0" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M231 136 L249 132 L254 150 L236 154 C232 155 230 153 229 150 L227 141 C226 138 228 137 231 136 Z" fill="#FFD84D"/>
+<path d="M233 140 L250 136 L251 140 L234 144 Z" fill="#FFC93C"/>
+<circle cx="233" cy="141" r="2" fill="#2A1C14"/>
+<g id="move">
+<g transform="rotate(0 200 62)">
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(45 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(90 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(135 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(180 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(225 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(270 200 62)"/>
+<ellipse cx="200" cy="49" rx="5.5" ry="11" fill="#FEFAF7" transform="rotate(315 200 62)"/>
+<circle cx="200" cy="62" r="8" fill="#FFC93C"/>
+<circle cx="198" cy="60" r="3" fill="#FFD84D"/>
+</g>
+</g>
+</svg>

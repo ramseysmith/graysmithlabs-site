@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="80" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="162" rx="74" ry="7" fill="#C9CED6"/>
+<ellipse cx="200" cy="158" rx="74" ry="8" fill="#FEFAF7"/>
+<path d="M160 76 L142 66 V146 L160 156 Z" fill="#C98A4E"/>
+<path d="M142 66 L160 76 H250 L232 66 Z" fill="#FEFAF7"/>
+<path d="M160 76 H250 V152 C250 155 248 156 245 156 H160 Z" fill="#FFD84D"/>
+<path d="M160 76 H250 V80 H160 Z" fill="#C98A4E"/>
+<path d="M160 104 H250 V112 H160 Z" fill="#FEFAF7"/>
+<path d="M160 112 H250 V120 H160 Z" fill="#E8455A"/>
+<path d="M160 146 H250 V152 C250 155 248 156 245 156 H160 Z" fill="#C98A4E"/>
+<path d="M160 136 H250 V146 H160 Z" fill="#FFC93C" opacity="0.6"/>
+<circle cx="176" cy="92" r="2" fill="#FFC93C"/>
+<circle cx="206" cy="88" r="2" fill="#FFC93C"/>
+<circle cx="232" cy="96" r="2" fill="#FFC93C"/>
+<circle cx="188" cy="130" r="2" fill="#FFC93C"/>
+<circle cx="222" cy="134" r="2" fill="#FFC93C"/>
+<path d="M146 74 V140" stroke="#FFF3E0" stroke-width="2.4" stroke-linecap="round" opacity="0.35"/>
+<path d="M150 68 C170 72 210 72 236 68" stroke="#FFF3E0" stroke-width="2" fill="none" opacity="0.8"/>
+<g id="move">
+<circle cx="180" cy="54" r="2.2" fill="#FEFAF7"/>
+<circle cx="200" cy="46" r="2" fill="#FEFAF7" opacity="0.85"/>
+<circle cx="218" cy="56" r="2.2" fill="#FEFAF7"/>
+<circle cx="234" cy="48" r="1.8" fill="#FEFAF7" opacity="0.8"/>
+<circle cx="164" cy="46" r="1.8" fill="#FEFAF7" opacity="0.8"/>
+</g>
+</svg>

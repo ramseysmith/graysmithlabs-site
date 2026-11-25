@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="56" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M200 122 C196 104 180 96 160 96 M200 122 C204 104 222 96 242 98 M200 122 C200 100 204 84 206 66" stroke="#3FB874" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g id="move">
+<g transform="translate(160 98) rotate(-62) scale(0.8)"><path d="M0 -4 C-16 6 -42 -4 -44 -32 C-46 -60 -22 -76 0 -78 C22 -76 46 -60 44 -32 C42 -4 16 6 0 -4 Z M-7 -20 L-37 -26 L-37 -20 L-7 -16 Z M-7 -36 L-41 -42 L-41 -36 L-7 -32 Z M-7 -52 L-36 -58 L-36 -52 L-7 -48 Z M7 -20 L37 -26 L37 -20 L7 -16 Z M7 -36 L41 -42 L41 -36 L7 -32 Z M7 -52 L36 -58 L36 -52 L7 -48 Z" fill="#3FB874" fill-rule="evenodd"/><path d="M0 -6 V-70" stroke="#B8F07A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></g>
+<g transform="translate(242 100) rotate(60) scale(0.82)"><path d="M0 -4 C-16 6 -42 -4 -44 -32 C-46 -60 -22 -76 0 -78 C22 -76 46 -60 44 -32 C42 -4 16 6 0 -4 Z M-7 -20 L-37 -26 L-37 -20 L-7 -16 Z M-7 -36 L-41 -42 L-41 -36 L-7 -32 Z M-7 -52 L-36 -58 L-36 -52 L-7 -48 Z M7 -20 L37 -26 L37 -20 L7 -16 Z M7 -36 L41 -42 L41 -36 L7 -32 Z M7 -52 L36 -58 L36 -52 L7 -48 Z" fill="#3FB874" fill-rule="evenodd"/><path d="M0 -6 V-70" stroke="#B8F07A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></g>
+<g transform="translate(206 72) rotate(8) scale(0.72)"><path d="M0 -4 C-16 6 -42 -4 -44 -32 C-46 -60 -22 -76 0 -78 C22 -76 46 -60 44 -32 C42 -4 16 6 0 -4 Z M-7 -20 L-37 -26 L-37 -20 L-7 -16 Z M-7 -36 L-41 -42 L-41 -36 L-7 -32 Z M-7 -52 L-36 -58 L-36 -52 L-7 -48 Z M7 -20 L37 -26 L37 -20 L7 -16 Z M7 -36 L41 -42 L41 -36 L7 -32 Z M7 -52 L36 -58 L36 -52 L7 -48 Z" fill="#68DB8C" fill-rule="evenodd"/><path d="M0 -6 V-70" stroke="#B8F07A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/></g>
+</g>
+<path d="M172 128 h56 l-8 34 c-1 4 -4 6 -8 6 h-24 c-4 0 -7 -2 -8 -6 z" fill="#D9764A"/>
+<rect x="166" y="118" width="68" height="14" rx="4" fill="#E88B5C"/>
+<path d="M170 122 h60" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.35"/>
+<path d="M182 138 l4 22" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+</svg>

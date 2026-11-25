@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="152" rx="90" ry="16" fill="#E8D6C2"/>
+<ellipse cx="200" cy="149" rx="88" ry="15" fill="#FEFAF7"/>
+<ellipse cx="200" cy="149" rx="68" ry="10" fill="#F3E3C8"/>
+<g transform="rotate(-24 150 126)"><rect x="136" y="102" width="28" height="48" rx="8" fill="#D9606E"/><rect x="136" y="102" width="28" height="9" rx="4.5" fill="#FCE7D9"/><path d="M143 120 L156 128 M143 132 L156 140" stroke="#F28C96" stroke-width="2.5" stroke-linecap="round"/></g><g transform="rotate(-14 170 124)"><rect x="156" y="100" width="28" height="48" rx="8" fill="#D9606E"/><rect x="156" y="100" width="28" height="9" rx="4.5" fill="#FCE7D9"/><path d="M163 118 L176 126 M163 130 L176 138" stroke="#F28C96" stroke-width="2.5" stroke-linecap="round"/></g><g transform="rotate(-4 190 124)"><rect x="176" y="100" width="28" height="48" rx="8" fill="#D9606E"/><rect x="176" y="100" width="28" height="9" rx="4.5" fill="#FCE7D9"/><path d="M183 118 L196 126 M183 130 L196 138" stroke="#F28C96" stroke-width="2.5" stroke-linecap="round"/></g>
+<path d="M216 148 L246 98 C262 104 272 120 272 148 Z" fill="#5DBB63"/>
+<path d="M224 148 L248 106 C258 112 264 126 264 148 Z" fill="#C8E59A"/>
+<path d="M234 146 C240 132 246 120 250 110 M244 146 C248 136 252 128 256 120 M254 146 C256 140 258 134 260 128" stroke="#EEF9C4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="200" cy="152" rx="13" ry="10" fill="#E0B070"/>
+<ellipse cx="226" cy="155" rx="12" ry="9" fill="#D9A25E"/>
+<path d="M192 148 C194 145 198 144 201 144" stroke="#F7D9A8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<g fill="#3F8F4E"><circle cx="204" cy="147" r="1.8"/><circle cx="222" cy="151" r="1.8"/><circle cx="230" cy="153" r="1.6"/></g>
+<g id="move" stroke="#FEFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75"><path d="M172 92 c-6 -8 6 -16 0 -24"/><path d="M196 92 c-6 -8 6 -16 0 -24"/><path d="M220 92 c-6 -8 6 -16 0 -24"/></g>
+</svg>

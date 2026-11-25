@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="90" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M132 132 L156 104 H296 L272 132 Z" fill="#F2C46B"/>
+<path d="M132 132 L144 118 L190.7 118 L178.7 132 Z" fill="#1E7F76"/>
+<path d="M144 118 H284 M178.7 132 L202.7 104 M225.3 132 L249.3 104" stroke="#C98A3E" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M184 128 L198 112 L208 126 L222 110 L232 126 L246 110 L256 124 L270 108 L278 116" stroke="#C47A1E" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186 126 L198 113 M210 124 L222 111 M234 124 L246 111" stroke="#FFC93C" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+<rect x="132" y="132" width="140" height="34" rx="4" fill="#2FB3A8"/>
+<path d="M272 132 L296 104 V138 L272 166 Z" fill="#23968C"/>
+<path d="M140 140 H264" stroke="#5CC6BC" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M132 132 H272 L296 104" stroke="#7FD3CB" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 140 L120 130 H164 L154 140 Z" fill="#F2C46B"/>
+<rect x="110" y="140" width="44" height="26" rx="3" fill="#D99A4A"/>
+<path d="M154 140 L164 130 V156 L154 166 Z" fill="#B97A3A"/>
+<path d="M116 137 L124 132 L132 137 L140 132 L150 136" stroke="#C47A1E" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126 139 V148 A3 3 0 0 0 132 148 V139 Z" fill="#C47A1E"/>
+<path d="M142 139 V144 A2.5 2.5 0 0 0 147 144 V139 Z" fill="#C47A1E"/>
+<g fill="#B97A3A"><rect x="116" y="152" width="5" height="4" rx="1.5"/><rect x="138" y="156" width="5" height="4" rx="1.5"/><rect x="146" y="150" width="4" height="4" rx="1.5"/></g>
+<path d="M314 56 L262 88" stroke="#9C5A30" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="256" cy="92" rx="11" ry="7" transform="rotate(-32 256 92)" fill="#B06A2A"/>
+<path d="M248 96 C250 100 254 100 256 98" stroke="#C47A1E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g id="move"><path d="M252 102 C255 107 256 110 252 112 C248 110 249 107 252 102 Z" fill="#C47A1E"/></g>
+</svg>

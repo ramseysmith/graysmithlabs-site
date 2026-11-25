@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="82" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="154" cy="160" rx="14" ry="8" fill="#C98A4E"/><ellipse cx="182" cy="160" rx="14" ry="8" fill="#C98A4E"/>
+<ellipse cx="168" cy="126" rx="30" ry="34" fill="#C98A4E"/>
+<ellipse cx="168" cy="132" rx="17" ry="20" fill="#F6DCC0" opacity="0.55"/>
+<circle cx="152" cy="60" r="10" fill="#C98A4E"/><circle cx="152" cy="60" r="5" fill="#8A5A3C"/>
+<circle cx="186" cy="58" r="10" fill="#C98A4E"/><circle cx="186" cy="58" r="5" fill="#8A5A3C"/>
+<circle cx="172" cy="82" r="27" fill="#C98A4E"/>
+<ellipse cx="182" cy="92" rx="12" ry="9" fill="#F6DCC0"/>
+<ellipse cx="187" cy="87" rx="4.5" ry="3.5" fill="#2E251F"/>
+<path d="M165 78 q5 -5 10 0" stroke="#2E251F" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<circle cx="176" cy="92" r="4" fill="#FF7BC0" opacity="0.5"/><ellipse cx="218" cy="160" rx="14" ry="8" fill="#E8B07A"/><ellipse cx="246" cy="160" rx="14" ry="8" fill="#E8B07A"/>
+<ellipse cx="232" cy="126" rx="30" ry="34" fill="#E8B07A"/>
+<ellipse cx="232" cy="132" rx="17" ry="20" fill="#F6DCC0" opacity="0.55"/>
+<circle cx="214" cy="60" r="10" fill="#E8B07A"/><circle cx="214" cy="60" r="5" fill="#B87A44"/>
+<circle cx="248" cy="58" r="10" fill="#E8B07A"/><circle cx="248" cy="58" r="5" fill="#B87A44"/>
+<circle cx="228" cy="82" r="27" fill="#E8B07A"/>
+<ellipse cx="218" cy="92" rx="12" ry="9" fill="#F6DCC0"/>
+<ellipse cx="213" cy="87" rx="4.5" ry="3.5" fill="#2E251F"/>
+<path d="M225 78 q5 -5 10 0" stroke="#2E251F" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<circle cx="224" cy="92" r="4" fill="#FF7BC0" opacity="0.5"/>
+<path d="M226 128 q-30 -10 -58 4" stroke="#E8B07A" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="M174 116 q30 -8 60 6" stroke="#C98A4E" stroke-width="15" fill="none" stroke-linecap="round"/>
+<g id="move"><path d="M200 50 c-11 -7 -15 -13 -11 -18 c3 -4 9 -3 11 2 c2 -5 8 -6 11 -2 c4 5 0 11 -11 18 z" fill="#FF7BC0"/></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="80" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="144" y="124" width="112" height="42" rx="7" fill="#4A2A18"/>
+<rect x="144" y="124" width="112" height="13" rx="6" fill="#6B3F25"/>
+<path d="M154 130 l10 2 l8 -3 l12 3 M198 131 l10 -2 l9 3 l12 -2 l10 2" stroke="#9A6038" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="rotate(-5 200 104)">
+<rect x="158" y="84" width="88" height="40" rx="7" fill="#4A2A18"/>
+<rect x="158" y="84" width="88" height="13" rx="6" fill="#6B3F25"/>
+<path d="M168 90 l9 2 l8 -3 l10 3 l9 -2 M214 91 l9 -2 l8 3 l8 -2" stroke="#9A6038" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M166 104 v12" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.18"/>
+</g>
+<path d="M152 144 v14" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.18"/>
+<g transform="rotate(-12 204 76)"><ellipse cx="204" cy="76" rx="16" ry="11" fill="#C98A4E"/><path d="M204 66 v20 M196 70 c4 3 4 9 0 12 M212 70 c-4 3 -4 9 0 12" stroke="#8E5A30" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>
+<g fill="#6B3F25"><rect x="270" y="160" width="7" height="6" rx="2" transform="rotate(20 273 163)"/><rect x="284" y="162" width="5" height="4" rx="1.5"/><rect x="122" y="161" width="6" height="5" rx="2" transform="rotate(-15 125 163)"/></g>
+<g id="move"><rect x="262" y="138" width="6" height="5" rx="2" fill="#6B3F25"/></g>
+</svg>

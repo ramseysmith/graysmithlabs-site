@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="214" y="38" width="5" height="110" rx="2.5" fill="#C9CED6" transform="rotate(12 216 93)"/>
+<path d="M172 70 L178 160 C178 164 180 166 184 166 H216 C220 166 222 164 222 160 L228 70 Z" fill="#DFF3F1" opacity="0.3"/>
+<path d="M175.4 140 L176.8 160 C177 163 179 164 184 164 H216 C221 164 223 163 223.2 160 L224.6 140 Z" fill="#E5384F"/>
+<path d="M174.6 128 L175.4 140 H224.6 L225.4 128 Z" fill="#FFF3E0"/>
+<path d="M174 116 L174.6 128 H225.4 L226 116 Z" fill="#FF7BC0"/>
+<path d="M173.3 102 L174 116 H226 L226.7 102 Z" fill="#FFF3E0"/>
+<path d="M172.8 92 L173.3 102 H226.7 L227.2 92 Z" fill="#E5384F"/>
+<path d="M176 132 C184 126 190 136 200 130 C210 124 216 136 224 130" stroke="#FF7BC0" stroke-width="3" fill="none" opacity="0.7"/>
+<path d="M176 108 C184 102 192 112 200 106 C208 100 216 112 224 106" stroke="#E5384F" stroke-width="3" fill="none" opacity="0.7"/>
+<path d="M178 150 L186 144 L190 154 Z M204 148 L212 142 L216 152 Z" fill="#FEFAF7" opacity="0.5"/>
+<path d="M174 92 C174 80 186 74 200 74 C214 74 226 80 226 92 C214 96 186 96 174 92 Z" fill="#FFF3E0"/>
+<path d="M184 80 C190 76 196 76 200 76" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M172 70 L178 160 C178 164 180 166 184 166 H216 C220 166 222 164 222 160 L228 70" fill="none" stroke="#9FE3D9" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="200" cy="70" rx="28" ry="3.5" fill="none" stroke="#9FE3D9" stroke-width="2.5"/>
+<path d="M180 96 L184 154" stroke="#FEFAF7" stroke-width="3.5" stroke-linecap="round" opacity="0.45"/>
+<g id="move">
+<path d="M200 84 C188 84 184 70 188 62 C192 56 208 56 212 62 C216 70 212 84 200 84 Z" fill="#E5384F"/>
+<path d="M190 58 L196 62 L200 54 L204 62 L210 58 L206 64 H194 Z" fill="#3FB874"/>
+<g fill="#FFE08A"><circle cx="194" cy="68" r="1.1"/><circle cx="202" cy="68" r="1.1"/><circle cx="198" cy="74" r="1.1"/><circle cx="206" cy="74" r="1.1"/><circle cx="194" cy="76" r="1.1"/></g>
+<circle cx="192" cy="66" r="2" fill="#FEFAF7" opacity="0.7"/>
+</g>
+</svg>

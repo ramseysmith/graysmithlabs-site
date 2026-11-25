@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="86" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="158" rx="80" ry="12" fill="#C9CED6"/>
+<ellipse cx="200" cy="155" rx="68" ry="8" fill="#FEFAF7"/>
+<path d="M154 116 V146 C154 160 246 160 246 146 V116 Z" fill="#C0504A"/>
+<path d="M156 126 C170 132 186 128 200 134 C214 140 230 132 244 136 M156 140 C172 146 188 140 202 148 C216 152 232 146 244 148" stroke="#FCE7D9" stroke-width="3.6" fill="none" stroke-linecap="round" opacity="0.85"/>
+<path d="M156 120 V146 M244 120 V146" stroke="#8A2E2A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+<ellipse cx="200" cy="116" rx="46" ry="15" fill="#8A4A2C"/>
+<ellipse cx="200" cy="116" rx="38" ry="11" fill="#A65A34"/>
+<path d="M170 111 L184 122" stroke="#4A2A1C" stroke-width="3" stroke-linecap="round"/>
+<path d="M186 111 L200 122" stroke="#4A2A1C" stroke-width="3" stroke-linecap="round"/>
+<path d="M202 111 L216 122" stroke="#4A2A1C" stroke-width="3" stroke-linecap="round"/>
+<path d="M216 111 L230 122" stroke="#4A2A1C" stroke-width="3" stroke-linecap="round"/>
+<path d="M168 112 C176 108 186 107 194 107" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+<path d="M244 160 C258 154 272 148 288 138" stroke="#6B8A3A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M252 157 L250 148 M252 157 L258 163" stroke="#3FB874" stroke-width="3" stroke-linecap="round"/>
+<path d="M262 152 L260 143 M262 152 L268 158" stroke="#3FB874" stroke-width="3" stroke-linecap="round"/>
+<path d="M272 147 L270 138 M272 147 L278 153" stroke="#3FB874" stroke-width="3" stroke-linecap="round"/>
+<path d="M282 141 L280 132 M282 141 L288 147" stroke="#3FB874" stroke-width="3" stroke-linecap="round"/>
+<g id="move">
+<path d="M184 98 C176 90 192 84 184 74 C178 68 186 62 184 56" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+<path d="M210 96 C202 88 218 82 210 72 C204 66 212 62 210 58" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.45"/>
+</g>
+</svg>

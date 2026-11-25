@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><radialGradient id="sun" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#FFE680"/><stop offset="1" stop-color="#FF9152"/></radialGradient></defs>
+<ellipse cx="200" cy="168" rx="46" ry="5" fill="#FCE7D9" opacity="0.18"/>
+<g id="move"><path d="M250 102 L262 102 M243.3 127 L253.7 133 M225 145.3 L231 155.7 M200 152 L200 164 M175 145.3 L169 155.7 M156.7 127 L146.3 133 M150 102 L138 102 M156.7 77 L146.3 71 M175 58.7 L169 48.3 M200 52 L200 40 M225 58.7 L231 48.3 M243.3 77 L253.7 71" stroke="#FFD84D" stroke-width="9" stroke-linecap="round"/></g>
+<circle cx="200" cy="102" r="40" fill="url(#sun)"/>
+<path d="M180 96 Q186 89 192 96 M208 96 Q214 89 220 96 M186 112 Q200 124 214 112" stroke="#2E251F" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="178" cy="110" r="6" fill="#FF7BC0" opacity="0.55"/><circle cx="222" cy="110" r="6" fill="#FF7BC0" opacity="0.55"/>
+</svg>

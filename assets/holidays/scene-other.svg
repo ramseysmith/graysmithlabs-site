@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<defs>
+<radialGradient id="g" cx="50%" cy="55%" r="50%"><stop offset="0" stop-color="#FF9A3D" stop-opacity="0.3"/><stop offset="1" stop-color="#FF7A3D" stop-opacity="0"/></radialGradient>
+<linearGradient id="page" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFCF7"/><stop offset="1" stop-color="#F6ECE2"/></linearGradient>
+<linearGradient id="star" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#FFC857"/><stop offset="1" stop-color="#FF7A3D"/></linearGradient>
+<linearGradient id="box" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6BB94"/><stop offset="1" stop-color="#D28F63"/></linearGradient>
+</defs>
+<ellipse cx="200" cy="110" rx="190" ry="90" fill="url(#g)"/>
+<ellipse cx="200" cy="182" rx="80" ry="7" fill="#090705" opacity="0.35"/>
+<rect x="140" y="58" width="120" height="112" rx="22" fill="url(#page)"/>
+<path d="M140 88 v-8 a22 22 0 0 1 22 -22 h76 a22 22 0 0 1 22 22 v8 z" fill="#FCE6D7"/>
+<rect x="166" y="44" width="13" height="30" rx="6.5" fill="#AF734B"/>
+<rect x="221" y="44" width="13" height="30" rx="6.5" fill="#AF734B"/>
+<path d="M200 98 l9 22 l23 1 l-18 15 l6 22 l-20 -13 l-20 13 l6 -22 l-18 -15 l23 -1 z" fill="url(#star)" stroke="url(#star)" stroke-width="6" stroke-linejoin="round"/>
+<g><rect x="40" y="122" width="58" height="48" rx="8" fill="url(#box)"/><rect x="34" y="110" width="70" height="16" rx="6" fill="#F6BB94"/><rect x="63" y="110" width="12" height="60" fill="#3DDB72"/><path d="M69 110 c-10 -14 -26 -10 -20 0 z M69 110 c10 -14 26 -10 20 0 z" fill="#3DDB72"/></g>
+<g><circle cx="330" cy="118" r="30" fill="#FF7BC0"/><path d="M330 148 l-4 6 h8 z" fill="#FF7BC0"/><path d="M330 154 c-6 10 6 18 0 30" stroke="#FCE7D9" stroke-width="2" fill="none"/><ellipse cx="320" cy="106" rx="7" ry="10" fill="#FFFFFF" opacity="0.35" transform="rotate(20 320 106)"/></g>
+<path d="M120 40 l-2 -7 l-2 7 l-7 2 l7 2 l2 7 l2 -7 l7 -2 z" fill="#FFD84D"/>
+<path d="M290 50 l-2 -7 l-2 7 l-7 2 l7 2 l2 7 l2 -7 l7 -2 z" fill="#FFFFFF" opacity="0.85"/>
+<circle cx="30" cy="60" r="5" fill="#3DDB72"/><circle cx="372" cy="50" r="5" fill="#68DB8C"/><circle cx="110" cy="96" r="4" fill="#6AA8FF"/><circle cx="282" cy="160" r="4" fill="#FFD84D"/>
+<rect x="364" y="170" width="14" height="6" rx="3" fill="#FF9152" transform="rotate(30 371 173)"/>
+</svg>

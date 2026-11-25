@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="158" rx="80" ry="12" fill="#F3E3C8"/>
+<ellipse cx="200" cy="156" rx="62" ry="7" fill="#E8CFA8"/>
+<path d="M144 140 C140 112 166 94 200 94 C234 94 260 112 256 140 C254 156 146 156 144 140 Z" fill="#C2703E"/>
+<path d="M148 136 C150 146 160 152 176 154" stroke="#E0955E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M146 124 C150 102 178 94 200 94 C226 94 252 104 254 124 C254 130 250 132 248 128 C246 140 238 140 236 130 C226 134 216 134 210 132 C208 146 198 146 198 132 C186 132 176 130 168 128 C166 140 156 140 156 128 C150 130 146 128 146 124 Z" fill="#9E4A1C"/>
+<path d="M200 112 C210 112 212 122 202 124 C186 126 180 112 188 104 C200 94 224 100 226 116 C228 130 206 136 190 132 C170 128 166 108 176 100" stroke="#E0955E" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+<g transform="rotate(-20 172 112)"><ellipse cx="172" cy="112" rx="9" ry="6" fill="#6B3F25"/><path d="M164 112 H180" stroke="#9E6A44" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(15 226 106)"><ellipse cx="226" cy="106" rx="9" ry="6" fill="#6B3F25"/><path d="M218 106 H234" stroke="#9E6A44" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(-5 214 124)"><ellipse cx="214" cy="124" rx="8" ry="5.5" fill="#6B3F25"/><path d="M207 124 H221" stroke="#9E6A44" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="rotate(30 196 104)"><ellipse cx="196" cy="104" rx="7" ry="5" fill="#6B3F25"/><path d="M190 104 H202" stroke="#9E6A44" stroke-width="2" stroke-linecap="round"/></g>
+<path d="M164 102 C176 96 188 96 196 96" stroke="#FFC79E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="242" cy="114" r="2.5" fill="#FFC79E"/>
+<g id="move" stroke="#FEFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75"><path d="M172 84 c-6 -8 6 -16 0 -24"/><path d="M228 84 c-6 -8 6 -16 0 -24"/></g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="88" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M140 104 L126 84 L232 84 L246 104 Z" fill="#2FB3A8"/>
+<g><rect x="146" y="74" width="16" height="40" fill="#E5384F"/><path d="M146 74 L154 60 L162 74 Z" fill="#E5384F"/><path d="M146 82 H162" stroke="#B0283C" stroke-width="2.5"/></g>
+<g><rect x="164" y="64" width="16" height="50" fill="#FFC93C"/><path d="M164 64 L172 50 L180 64 Z" fill="#FFC93C"/><path d="M164 72 H180" stroke="#E0A04A" stroke-width="2.5"/></g>
+<g><rect x="182" y="70" width="16" height="44" fill="#5BB8E8"/><path d="M182 70 L190 56 L198 70 Z" fill="#5BB8E8"/><path d="M182 78 H198" stroke="#2FB3A8" stroke-width="2.5"/></g>
+<g><rect x="200" y="62" width="16" height="52" fill="#FF9152"/><path d="M200 62 L208 48 L216 62 Z" fill="#FF9152"/><path d="M200 70 H216" stroke="#C2743A" stroke-width="2.5"/></g>
+<g><rect x="218" y="76" width="16" height="38" fill="#68DB8C"/><path d="M218 76 L226 62 L234 76 Z" fill="#68DB8C"/><path d="M218 84 H234" stroke="#3FB874" stroke-width="2.5"/></g>
+<rect x="138" y="100" width="104" height="66" rx="4" fill="#3FB874"/>
+<path d="M138 100 L130 88 L140 88 Z" fill="#2FB3A8"/>
+<rect x="138" y="118" width="104" height="24" fill="#FFC93C"/>
+<path d="M150 130 C160 122 170 138 180 130 C190 122 200 138 210 130 C220 122 226 136 232 130" stroke="#E5384F" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M144 106 H200" stroke="#68DB8C" stroke-width="3" stroke-linecap="round"/>
+<path d="M240 102 V164" stroke="#2E251F" stroke-width="2" opacity="0.3"/>
+<path d="M226 164 C236 152 246 170 256 160 C266 150 272 166 280 156" stroke="#FF7BC0" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<g transform="rotate(-38 280 156)"><rect x="284" y="148" width="40" height="16" rx="2" fill="#FF7BC0"/><path d="M284 148 L270 156 L284 164 Z" fill="#FF7BC0"/><path d="M292 148 V164" stroke="#E5384F" stroke-width="2.5"/></g>
+<g id="move"><path d="M290 60 L294 70 L304 71 L296 78 L299 88 L290 82 L281 88 L284 78 L276 71 L286 70 Z" fill="none" stroke="#FFC93C" stroke-width="2.6" stroke-linejoin="round"/></g>
+</svg>

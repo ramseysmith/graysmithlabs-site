@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="62" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M166 88 C158 96 156 104 156 116 L156 154 C156 162 162 167 170 167 L230 167 C238 167 244 162 244 154 L244 116 C244 104 242 96 234 88 Z" fill="#FFF3E0" opacity="0.22"/>
+<rect x="166" y="112" width="20" height="14" rx="2" fill="#FFD84D" transform="rotate(-14 176 119)"/>
+<rect x="190" y="108" width="20" height="14" rx="2" fill="#FF6FA0" transform="rotate(10 200 115)"/>
+<rect x="214" y="112" width="20" height="14" rx="2" fill="#FF8A3D" transform="rotate(-8 224 119)"/>
+<rect x="162" y="130" width="22" height="15" rx="2" fill="#FF8A3D" transform="rotate(8 173 137)"/>
+<rect x="186" y="128" width="22" height="15" rx="2" fill="#FFC93C" transform="rotate(-12 197 135)"/>
+<rect x="212" y="130" width="24" height="15" rx="2" fill="#E8455A" transform="rotate(14 224 137)"/>
+<rect x="162" y="148" width="24" height="15" rx="2" fill="#FF6FA0" transform="rotate(-6 174 155)"/>
+<rect x="188" y="148" width="24" height="15" rx="2" fill="#FFF3E0" transform="rotate(6 200 155)"/>
+<rect x="214" y="148" width="24" height="15" rx="2" fill="#FFD84D" transform="rotate(-10 226 155)"/>
+<path d="M166 88 C158 96 156 104 156 116 L156 154 C156 162 162 167 170 167 L230 167 C238 167 244 162 244 154 L244 116 C244 104 242 96 234 88" stroke="#FFF3E0" stroke-width="3" fill="none" opacity="0.7"/>
+<path d="M164 118 V152" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<rect x="164" y="80" width="72" height="10" rx="3" fill="#FFF3E0" opacity="0.5"/>
+<rect x="160" y="66" width="80" height="16" rx="5" fill="#C98A4E"/>
+<path d="M160 76 H240 V77 C240 80 238 82 235 82 H165 C162 82 160 80 160 77 Z" fill="#B06A2A"/>
+<path d="M166 70 H214" stroke="#FFF3E0" stroke-width="2.4" stroke-linecap="round" opacity="0.45"/>
+<path d="M236 80 C244 84 248 90 250 98" stroke="#FFF3E0" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M250 112 C238 102 238 92 245 92 C248 92 250 95 250 97 C250 95 252 92 255 92 C262 92 262 102 250 112 Z" fill="#E8455A"/>
+<g id="move">
+<rect x="190" y="38" width="20" height="14" rx="2" fill="#FFC93C" transform="rotate(-10 200 45)"/>
+<path d="M192 45 H208" stroke="#B06A2A" stroke-width="1.6" stroke-linecap="round" opacity="0.5" transform="rotate(-10 200 45)"/>
+</g>
+</svg>

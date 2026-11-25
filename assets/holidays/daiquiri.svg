@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="70" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="164" rx="30" ry="5" fill="#DFF3F1" opacity="0.9"/>
+<path d="M200 128 V162" stroke="#DFF3F1" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+<path d="M148 92 H252 C252 116 230 130 200 130 C170 130 148 116 148 92 Z" fill="#DFF3F1" opacity="0.35"/>
+<path d="M153 98 H247 C244 117 226 126 200 126 C174 126 156 117 153 98 Z" fill="#E5384F"/>
+<path d="M152 98 C152 88 162 84 170 88 C174 80 188 79 192 86 C198 78 212 78 216 86 C222 80 236 82 238 90 C246 88 250 94 248 98 Z" fill="#F7838F"/>
+<path d="M164 92 C170 88 178 88 182 91 M200 86 C206 83 212 84 214 88" stroke="#FEFAF7" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.55"/>
+<g fill="#FEFAF7" opacity="0.5"><circle cx="176" cy="104" r="1.6"/><circle cx="196" cy="110" r="1.6"/><circle cx="214" cy="104" r="1.6"/><circle cx="228" cy="112" r="1.6"/><circle cx="184" cy="116" r="1.6"/></g>
+<path d="M148 92 H252 C252 116 230 130 200 130 C170 130 148 116 148 92 Z" fill="none" stroke="#9FE3D9" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M158 104 C162 114 170 121 180 125" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+<path d="M156 100 C144 96 140 82 146 76 C150 72 158 72 164 76 C172 82 168 96 156 100 Z" fill="#E5384F" transform="rotate(-20 156 86)"/>
+<path d="M146 74 L150 66 L156 72 L162 66 L166 74 L156 78 Z" fill="#3FB874" transform="rotate(-20 156 86)"/>
+<g fill="#FFE08A"><circle cx="150" cy="84" r="1.1"/><circle cx="158" cy="82" r="1.1"/><circle cx="154" cy="90" r="1.1"/><circle cx="160" cy="92" r="1.1"/></g>
+<g id="move">
+<circle cx="246" cy="82" r="16" fill="#3FB874"/>
+<circle cx="246" cy="82" r="12.5" fill="#C9E37A"/>
+<path d="M246 71 V93 M236.5 76.5 L255.5 87.5 M236.5 87.5 L255.5 76.5" stroke="#F4F9D8" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="246" cy="82" r="2.2" fill="#F4F9D8"/>
+<path d="M236 74 C238 70 242 68 246 68" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+</g>
+</svg>

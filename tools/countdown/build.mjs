@@ -89,16 +89,16 @@ const html = `<!DOCTYPE html>
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
 <meta property="og:url" content="${URL}">
-<meta property="og:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg">
+<meta property="og:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg?v=1.8.1">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@GraysmithLabs">
-<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg">
+<meta name="twitter:image" content="https://graysmithlabs.com/assets/apps/celebriday/og.jpg?v=1.8.1">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Spline+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
 <script src="../main.js" defer></script>
 <meta name="apple-itunes-app" content="app-id=6760971240">
@@ -195,7 +195,7 @@ ${datesHtml}
     <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day of December.</p>
 
     <aside class="guide-app">
-      <img src="../assets/apps/celebriday/icon.png" alt="CelebriDay app icon" width="64" height="64">
+      <img src="../assets/apps/celebriday/icon.png?v=1.8.1" alt="CelebriDay app icon" width="64" height="64">
       <div>
         <h2>CelebriDay for iPhone</h2>
         <p>CelebriDay counts down to Thanksgiving on its Today screen and names the national day each morning, with a fun fact and a card to share for every one of its 700 plus holidays. Today and tomorrow are free.</p>

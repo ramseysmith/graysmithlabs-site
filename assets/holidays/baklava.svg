@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD84D"/><stop offset="1" stop-color="#FF9152"/></linearGradient></defs>
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.7"/>
+<ellipse cx="200" cy="158" rx="86" ry="11" fill="#FCE7D9"/>
+<ellipse cx="200" cy="156" rx="70" ry="7" fill="#FEFAF7"/>
+<g>
+<path d="M126 118 L162 130 L162 158 L126 146 Z" fill="#E8B06A"/><path d="M162 130 L198 118 L198 146 L162 158 Z" fill="#D9984A"/>
+<path d="M126 125 L162 137 M126 132 L162 144 M126 139 L162 151 M162 137 L198 125 M162 144 L198 132 M162 151 L198 139" stroke="#FFE3A0" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M126 118 L162 106 L198 118 L162 130 Z" fill="#FFC85A"/>
+<ellipse cx="162" cy="118" rx="18" ry="6" fill="#68DB8C"/>
+</g>
+<g>
+<path d="M202 118 L238 130 L238 158 L202 146 Z" fill="#E8B06A"/><path d="M238 130 L274 118 L274 146 L238 158 Z" fill="#D9984A"/>
+<path d="M202 125 L238 137 M202 132 L238 144 M202 139 L238 151 M238 137 L274 125 M238 144 L274 132 M238 151 L274 139" stroke="#FFE3A0" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M202 118 L238 106 L274 118 L238 130 Z" fill="#FFC85A"/>
+<ellipse cx="238" cy="118" rx="18" ry="6" fill="#68DB8C"/>
+</g>
+<g>
+<path d="M162 88 L200 101 L200 130 L162 117 Z" fill="#E8B06A"/><path d="M200 101 L238 88 L238 117 L200 130 Z" fill="#D9984A"/>
+<path d="M162 95 L200 108 M162 102 L200 115 M162 109 L200 122 M200 108 L238 95 M200 115 L238 102 M200 122 L238 109" stroke="#FFE3A0" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M162 88 L200 75 L238 88 L200 101 Z" fill="#FFC85A"/>
+<ellipse cx="200" cy="88" rx="20" ry="7" fill="#68DB8C"/>
+<g fill="#2FA866"><circle cx="192" cy="87" r="2.5"/><circle cx="206" cy="90" r="2.5"/><circle cx="201" cy="84" r="2"/></g>
+</g>
+<g fill="#2FA866"><circle cx="156" cy="117" r="2.2"/><circle cx="168" cy="120" r="2.2"/><circle cx="244" cy="120" r="2.2"/><circle cx="232" cy="116" r="2.2"/></g>
+<g id="move">
+<path d="M208 98 L232 90 C234 98 234 106 230 112 C228 118 230 126 226 128 C222 130 220 124 221 118 C222 112 216 108 212 106 C208 104 206 101 208 98 Z" fill="url(#h)"/>
+<path d="M226 96 C228 102 227 108 225 112" stroke="#FEFAF7" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+<circle cx="224" cy="134" r="3.5" fill="#FFB43D"/>
+<path d="M262 62 l-2.5 -8 l-2.5 8 l-8 2.5 l8 2.5 l2.5 8 l2.5 -8 l8 -2.5 z" fill="#FFD84D"/>
+</g>
+</svg>

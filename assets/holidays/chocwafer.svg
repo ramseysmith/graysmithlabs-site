@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M146 162 V158 H222 V162 A38 7 0 0 1 146 162 Z" fill="#5A3220"/><ellipse cx="184" cy="158" rx="38" ry="7" fill="#7A4628"/>
+<path d="M146 156 V152 H222 V156 A38 7 0 0 1 146 156 Z" fill="#5A3220"/><ellipse cx="184" cy="152" rx="38" ry="7" fill="#7A4628"/>
+<path d="M146 150 V146 H222 V150 A38 7 0 0 1 146 150 Z" fill="#5A3220"/><ellipse cx="184" cy="146" rx="38" ry="7" fill="#7A4628"/>
+<path d="M146 144 V140 H222 V144 A38 7 0 0 1 146 144 Z" fill="#5A3220"/><ellipse cx="184" cy="140" rx="38" ry="7" fill="#7A4628"/>
+<path d="M146 138 V134 H222 V138 A38 7 0 0 1 146 138 Z" fill="#5A3220"/><ellipse cx="184" cy="134" rx="38" ry="7" fill="#7A4628"/>
+<path d="M146 132 V128 H222 V132 A38 7 0 0 1 146 132 Z" fill="#5A3220"/><ellipse cx="184" cy="128" rx="38" ry="7" fill="#7A4628"/>
+<ellipse cx="184" cy="128" rx="38" ry="7" fill="#9C5A30"/><g fill="#6B3F25"><circle cx="168" cy="128" r="1.6"/><circle cx="184" cy="126" r="1.6"/><circle cx="200" cy="128" r="1.6"/><circle cx="176" cy="131" r="1.4"/><circle cx="192" cy="131" r="1.4"/></g>
+<path d="M156 125 C164 122 174 121 182 121" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+<path d="M250.7 114.9 A26 26 0 1 0 269.9 137.7 A8 8 0 0 0 261.7 130.6 A8 8 0 0 0 256.3 124.2 A8 8 0 0 0 250.7 114.9 Z" fill="#5A3220"/>
+<circle cx="244" cy="140" r="19" fill="#7A4628"/>
+<g fill="#5A3220"><circle cx="232" cy="136" r="1.8"/><circle cx="238" cy="128" r="1.8"/><circle cx="244" cy="140" r="1.8"/><circle cx="236" cy="146" r="1.8"/><circle cx="248" cy="150" r="1.8"/><circle cx="254" cy="144" r="1.8"/><circle cx="242" cy="134" r="1.8"/><circle cx="230" cy="146" r="1.8"/><circle cx="246" cy="126" r="1.8"/></g>
+<path d="M250.7 114.9 A26 26 0 1 0 269.9 137.7 A8 8 0 0 0 261.7 130.6 A8 8 0 0 0 256.3 124.2 A8 8 0 0 0 250.7 114.9 Z" fill="none" stroke="#9C5A30" stroke-width="2"/>
+<path d="M226 128 C228 122 232 119 236 117" stroke="#FEFAF7" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+<g id="move"><g fill="#7A4628"><circle cx="276" cy="112" r="2.8"/><circle cx="286" cy="124" r="2"/><circle cx="280" cy="100" r="1.8"/></g><g fill="#9C5A30"><circle cx="290" cy="108" r="2.2"/><circle cx="270" cy="96" r="1.6"/></g></g>
+</svg>

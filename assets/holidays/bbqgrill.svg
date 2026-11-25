@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M172 146 L154 166 M228 146 L246 166 M200 150 V166" stroke="#4A2A1C" stroke-width="5" stroke-linecap="round"/>
+<path d="M164 160 H236" stroke="#4A2A1C" stroke-width="3" stroke-linecap="round"/>
+<circle cx="246" cy="164" r="5" fill="#6B3F25"/>
+<path d="M146 112 H254 C254 140 232 156 200 156 C168 156 146 140 146 112 Z" fill="#E5384F"/>
+<path d="M158 124 C162 138 176 146 192 148" stroke="#FEFAF7" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+<g fill="#B8243A"><circle cx="186" cy="140" r="2.5"/><circle cx="200" cy="142" r="2.5"/><circle cx="214" cy="140" r="2.5"/></g>
+<ellipse cx="200" cy="112" rx="56" ry="7" fill="#B8243A"/>
+<ellipse cx="200" cy="111" rx="50" ry="5" fill="#4A2A1C"/>
+<path d="M156 111 H244 M164 108 V114 M180 107 V115 M196 106 V116 M212 106 V116 M228 107 V115 M240 108 V114" stroke="#9C5A30" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M144 104 H262" stroke="#B06A2A" stroke-width="3" stroke-linecap="round"/>
+<rect x="160" y="96" width="15" height="15" rx="4" fill="#9C5A30"/>
+<rect x="178" y="96" width="13" height="15" rx="4" fill="#3FB874"/>
+<rect x="194" y="96" width="15" height="15" rx="4" fill="#9C5A30"/>
+<rect x="212" y="96" width="13" height="15" rx="4" fill="#FFC93C"/>
+<rect x="228" y="96" width="15" height="15" rx="4" fill="#9C5A30"/>
+<path d="M164 100 H172 M198 100 H206 M232 100 H240" stroke="#6B3F25" stroke-width="2" stroke-linecap="round"/>
+<path d="M138 92 H250" stroke="#B06A2A" stroke-width="3" stroke-linecap="round"/>
+<rect x="152" y="84" width="14" height="14" rx="4" fill="#FFC93C"/>
+<rect x="169" y="84" width="15" height="14" rx="4" fill="#9C5A30"/>
+<rect x="187" y="84" width="13" height="14" rx="4" fill="#FEFAF7"/>
+<rect x="203" y="84" width="15" height="14" rx="4" fill="#9C5A30"/>
+<rect x="221" y="84" width="13" height="14" rx="4" fill="#3FB874"/>
+<g id="move" fill="#FEFAF7" opacity="0.6"><circle cx="206" cy="70" r="7"/><circle cx="216" cy="62" r="8"/><circle cx="206" cy="54" r="6"/></g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<defs>
+<radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFD84D" stop-opacity="0.55"/><stop offset="1" stop-color="#FFD84D" stop-opacity="0"/></radialGradient>
+<linearGradient id="h1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#68DB8C"/><stop offset="1" stop-color="#2E9E62"/></linearGradient>
+<linearGradient id="h2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3FB874"/><stop offset="1" stop-color="#1F6E48"/></linearGradient>
+</defs>
+<circle cx="200" cy="96" r="96" fill="url(#sun)"/>
+<circle cx="200" cy="96" r="34" fill="#FFD84D"/>
+<g stroke="#FFD84D" stroke-width="5" stroke-linecap="round" opacity="0.8">
+<path d="M200 44 v-14 M200 148 v14 M148 96 h-14 M252 96 h14 M163 59 l-10 -10 M237 59 l10 -10"/>
+</g>
+<path d="M0 150 C60 112 120 120 180 146 S320 118 400 138 V200 H0 Z" fill="url(#h2)"/>
+<path d="M0 170 C80 140 150 150 220 168 S340 152 400 164 V200 H0 Z" fill="url(#h1)"/>
+<rect x="72" y="112" width="8" height="34" rx="3" fill="#7A4E2D"/>
+<circle cx="76" cy="100" r="22" fill="#2E9E62"/>
+<circle cx="64" cy="110" r="14" fill="#3FB874"/>
+<circle cx="90" cy="108" r="14" fill="#3FB874"/>
+<rect x="320" y="104" width="8" height="40" rx="3" fill="#7A4E2D"/>
+<path d="M324 60 l26 50 h-52 z" fill="#2E9E62"/>
+<path d="M324 78 l30 44 h-60 z" fill="#3FB874"/>
+<g><path d="M150 184 v-16" stroke="#2E9E62" stroke-width="3"/><circle cx="150" cy="164" r="7" fill="#FF7BC0"/><circle cx="150" cy="164" r="3" fill="#FFD84D"/></g>
+<g><path d="M262 186 v-14" stroke="#2E9E62" stroke-width="3"/><circle cx="262" cy="168" r="6" fill="#F6BB94"/><circle cx="262" cy="168" r="2.5" fill="#FFD84D"/></g>
+<g><path d="M36 190 v-14" stroke="#2E9E62" stroke-width="3"/><circle cx="36" cy="172" r="6" fill="#FFD84D"/><circle cx="36" cy="172" r="2.5" fill="#FF9152"/></g>
+<path d="M120 50 c10 -12 24 -10 28 0 c-10 8 -20 8 -28 0 z" fill="#68DB8C" transform="rotate(-20 134 50)"/>
+<path d="M270 40 c10 -12 24 -10 28 0 c-10 8 -20 8 -28 0 z" fill="#FF9152" transform="rotate(25 284 40)"/>
+<path d="M360 30 c-6 -6 -14 -2 -12 4 c-8 -2 -10 8 -2 10 h18 c6 0 8 -10 -4 -14 z" fill="#FEFAF7" opacity="0.5"/>
+<path d="M40 40 c-6 -6 -14 -2 -12 4 c-8 -2 -10 8 -2 10 h24 c6 0 8 -10 -10 -14 z" fill="#FEFAF7" opacity="0.4"/>
+</svg>

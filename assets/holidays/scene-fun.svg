@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<defs>
+<radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFD84D" stop-opacity="0.3"/><stop offset="1" stop-color="#FFD84D" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="200" cy="100" rx="190" ry="96" fill="url(#g)"/>
+<path d="M150 112 C146 140 162 158 150 194" stroke="#FCE7D9" stroke-width="2" fill="none" opacity="0.7"/>
+<path d="M206 92 C214 130 192 160 206 194" stroke="#FCE7D9" stroke-width="2" fill="none" opacity="0.7"/>
+<path d="M258 118 C252 150 270 168 258 194" stroke="#FCE7D9" stroke-width="2" fill="none" opacity="0.7"/>
+<ellipse cx="150" cy="80" rx="28" ry="33" fill="#FF7BC0"/>
+<path d="M146 112 l4 -6 l4 6 z" fill="#FF7BC0"/>
+<ellipse cx="140" cy="68" rx="7" ry="11" fill="#FFFFFF" opacity="0.35" transform="rotate(20 140 68)"/>
+<ellipse cx="258" cy="86" rx="28" ry="33" fill="#3DDB72"/>
+<path d="M254 118 l4 -6 l4 6 z" fill="#3DDB72"/>
+<ellipse cx="248" cy="74" rx="7" ry="11" fill="#FFFFFF" opacity="0.35" transform="rotate(20 248 74)"/>
+<ellipse cx="206" cy="56" rx="32" ry="37" fill="#FFD84D"/>
+<path d="M202 92 l4 -6 l4 6 z" fill="#FFD84D"/>
+<ellipse cx="194" cy="42" rx="8" ry="12" fill="#FFFFFF" opacity="0.4" transform="rotate(20 194 42)"/>
+<path d="M40 150 l26 -62 l26 62 z" fill="#F6BB94"/>
+<path d="M50 126 l32 0 M58 106 l16 0" stroke="#FFD84D" stroke-width="5" stroke-linecap="round"/>
+<circle cx="66" cy="86" r="7" fill="#FF7BC0"/>
+<path d="M36 152 q30 10 60 0" stroke="#3DDB72" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M310 40 c20 0 20 20 40 20 s20 -20 40 -20" stroke="#FF9152" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M300 150 c16 -10 26 6 40 -4 s22 -16 36 -4" stroke="#6AA8FF" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M20 30 c14 8 24 -4 38 4" stroke="#68DB8C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M338 92 l-3 -10 l-3 10 l-10 3 l10 3 l3 10 l3 -10 l10 -3 z" fill="#FFFFFF" opacity="0.85"/>
+<path d="M108 30 l-2 -7 l-2 7 l-7 2 l7 2 l2 7 l2 -7 l7 -2 z" fill="#FFD84D"/>
+<circle cx="110" cy="160" r="5" fill="#FFD84D"/><circle cx="300" cy="110" r="5" fill="#FF7BC0"/><circle cx="372" cy="120" r="4" fill="#68DB8C"/><circle cx="96" cy="70" r="4" fill="#3DDB72"/>
+<rect x="290" y="178" width="14" height="6" rx="3" fill="#F6BB94" transform="rotate(30 297 181)"/>
+<rect x="116" y="120" width="14" height="6" rx="3" fill="#6AA8FF" transform="rotate(-30 123 123)"/>
+</svg>

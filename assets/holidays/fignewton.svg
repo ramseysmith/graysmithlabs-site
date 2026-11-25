@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="94" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M116 126 l10 -10 h48 l-10 10 z" fill="#F2C46B"/>
+<rect x="114" y="124" width="52" height="40" rx="10" fill="#D99A4A"/>
+<rect x="122" y="132" width="36" height="24" rx="7" fill="#6E2F4A"/>
+<path d="M166 132 l10 -10 v30 l-10 10 z" fill="#B97A3A"/>
+<path d="M176 126 l10 -10 h48 l-10 10 z" fill="#F2C46B"/>
+<rect x="174" y="124" width="52" height="40" rx="10" fill="#D99A4A"/>
+<rect x="182" y="132" width="36" height="24" rx="7" fill="#6E2F4A"/>
+<path d="M226 132 l10 -10 v30 l-10 10 z" fill="#B97A3A"/>
+<g transform="rotate(-6 172 104)">
+<path d="M148 86 l10 -10 h48 l-10 10 z" fill="#F2C46B"/>
+<rect x="146" y="84" width="52" height="40" rx="10" fill="#D99A4A"/>
+<rect x="154" y="92" width="36" height="24" rx="7" fill="#6E2F4A"/>
+<path d="M198 92 l10 -10 v30 l-10 10 z" fill="#B97A3A"/>
+<g fill="#E8B062"><circle cx="162" cy="100" r="1.6"/><circle cx="172" cy="106" r="1.6"/><circle cx="182" cy="98" r="1.6"/><circle cx="168" cy="96" r="1.4"/><circle cx="180" cy="108" r="1.4"/></g>
+</g>
+<g fill="#E8B062"><circle cx="130" cy="140" r="1.6"/><circle cx="140" cy="146" r="1.6"/><circle cx="150" cy="138" r="1.6"/><circle cx="136" cy="136" r="1.4"/><circle cx="148" cy="148" r="1.4"/><circle cx="190" cy="140" r="1.6"/><circle cx="200" cy="146" r="1.6"/><circle cx="210" cy="138" r="1.6"/><circle cx="196" cy="136" r="1.4"/><circle cx="208" cy="148" r="1.4"/></g>
+<path d="M266 102 C254 112 246 128 248 144 C250 158 262 166 272 166 C284 166 296 158 298 144 C300 128 292 112 280 102 Z" fill="#5A2A48"/>
+<path d="M268 108 C258 118 254 130 255 144 C257 154 264 160 273 160 C282 160 290 154 291 144 C292 130 288 118 278 108 Z" fill="#F28FA8"/>
+<path d="M273 116 C266 126 264 138 266 148 C268 154 278 154 280 148 C282 138 280 126 273 116 Z" fill="#C9406A"/>
+<g fill="#FFD84D"><circle cx="270" cy="132" r="1.5"/><circle cx="276" cy="128" r="1.5"/><circle cx="272" cy="142" r="1.5"/><circle cx="277" cy="138" r="1.5"/><circle cx="270" cy="150" r="1.4"/></g>
+<rect x="268" y="92" width="8" height="12" rx="3" fill="#5A2A48"/>
+<g id="move"><rect x="234" y="150" width="6" height="5" rx="2" fill="#D99A4A"/><rect x="228" y="158" width="4" height="4" rx="1.5" fill="#E8B062"/></g>
+</svg>

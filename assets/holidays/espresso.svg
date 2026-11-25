@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="162" rx="78" ry="10" fill="#FCE7D9"/>
+<ellipse cx="200" cy="158" rx="62" ry="6" fill="#FEFAF7"/>
+<path d="M240 114 c22 -2 24 26 2 28" stroke="#FEFAF7" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M156 104 h88 c-2 32 -16 50 -44 50 s-42 -18 -44 -50 z" fill="#FEFAF7"/>
+<ellipse cx="200" cy="104" rx="44" ry="8" fill="#6B3F25"/>
+<ellipse cx="200" cy="103" rx="36" ry="5" fill="#C98A4E"/>
+<path d="M188 102 c6 -3 18 -3 24 0" stroke="#E8C08A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M166 116 c2 14 8 24 18 30" stroke="#E5384F" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+<g id="move"><path d="M188 86 c-5 -9 5 -14 0 -24 M210 86 c-5 -9 5 -14 0 -24" stroke="#FEFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.55"/></g>
+<g fill="#6B3F25"><ellipse cx="282" cy="156" rx="7" ry="5" transform="rotate(-20 282 156)"/><ellipse cx="296" cy="160" rx="7" ry="5" transform="rotate(25 296 160)"/></g>
+<path d="M279 154 l6 4 M293 158 l6 4" stroke="#C98A4E" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M182 166 H218 L214 158 H186 Z" fill="#DFF3F1" opacity="0.5"/>
+<path d="M170 76 L180 156 C180 158 182 158 184 158 H216 C218 158 220 158 220 156 L230 76 Z" fill="#DFF3F1" opacity="0.3"/>
+<path d="M172 92 L180.5 154 C181 156 182 156 184 156 H216 C218 156 219 156 219.5 154 L228 92 Z" fill="#FF7BC0" opacity="0.9"/>
+<path d="M212 104 L236 34" stroke="#FEFAF7" stroke-width="6" stroke-linecap="round"/>
+<path d="M216 92 L219 83 M225 66 L228 57 M233 43 L235 37" stroke="#E5384F" stroke-width="6"/>
+<path d="M174 90 C174 70 186 62 200 62 C214 62 226 70 226 90 C222 96 218 92 214 98 C210 92 206 98 200 94 C194 100 190 92 186 98 C182 92 178 96 174 90 Z" fill="#FFF3E0"/>
+<path d="M182 76 C186 68 194 66 200 66" stroke="#FEFAF7" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+<path d="M200 54 C200 46 204 40 210 36" stroke="#3FB874" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<circle cx="199" cy="58" r="8" fill="#E5384F"/><circle cx="196" cy="55" r="2.3" fill="#FEFAF7" opacity="0.8"/>
+<path d="M170 76 L180 156 C180 158 182 158 184 158 H216 C218 158 220 158 220 156 L230 76" fill="none" stroke="#9FE3D9" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M186 166 L186 158 M214 166 L214 158" stroke="#9FE3D9" stroke-width="2.5"/>
+<ellipse cx="200" cy="166" rx="22" ry="2.5" fill="#9FE3D9"/>
+<path d="M178 100 L184 148" stroke="#FEFAF7" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+<g id="move"><circle cx="196" cy="140" r="3" fill="#FEFAF7" opacity="0.8"/><circle cx="206" cy="126" r="2.4" fill="#FEFAF7" opacity="0.75"/><circle cx="192" cy="116" r="2" fill="#FEFAF7" opacity="0.7"/><circle cx="210" cy="146" r="2.2" fill="#FEFAF7" opacity="0.7"/><circle cx="244" cy="80" r="2.5" fill="#FEFAF7" opacity="0.6"/><circle cx="160" cy="70" r="2" fill="#FEFAF7" opacity="0.55"/><circle cx="252" cy="62" r="1.8" fill="#FEFAF7" opacity="0.5"/></g>
+</svg>

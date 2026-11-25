@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="72" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M138 120 H262 C262 146 238 166 200 166 C162 166 138 146 138 120 Z" fill="#FEFAF7"/>
+<path d="M236 120 H262 C262 144 244 162 216 166 C236 156 240 138 236 120 Z" fill="#E9E2DA"/>
+<path d="M146 136 C158 148 176 152 200 152 C224 152 242 148 254 136" stroke="#3B82D6" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M150 128 C152 138 158 146 166 152" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+<ellipse cx="200" cy="120" rx="62" ry="13" fill="#F3E6D8"/>
+<ellipse cx="200" cy="120" rx="56" ry="10" fill="#F08A3C"/>
+<path d="M150 122 C170 128 230 128 252 122 C246 128 226 130 200 130 C176 130 156 128 150 122 Z" fill="#D9702A"/>
+<path d="M184 120 C184 113 214 113 214 120 C214 126 190 127 192 121 C194 116 206 117 204 121" stroke="#FEFAF7" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<circle cx="170" cy="116" r="1.8" fill="#4CAF6E"/><circle cx="226" cy="124" r="1.6" fill="#4CAF6E"/><circle cx="176" cy="124" r="1.4" fill="#4CAF6E"/>
+<path d="M240 117 L230 110 L232 122 Z" fill="#E8455A"/>
+<path d="M238 117 C240 100 262 96 268 110 C271 118 266 126 256 124" stroke="#FF7A5C" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M244 106 C250 100 258 100 262 104" stroke="#FFB49A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<g stroke="#E0503A" stroke-width="1.6" stroke-linecap="round">
+<path d="M244 104 L237 108 M252 100 L250 92 M261 102 L266 96 M265 112 L272 113"/>
+</g>
+<circle cx="258" cy="120" r="1.8" fill="#4A2A20"/>
+<path d="M252 125 C248 130 246 132 242 132" stroke="#E0503A" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<g id="move" stroke="#FEFAF7" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.6">
+<path d="M190 104 C184 96 196 90 190 80 C186 74 192 70 190 66"/>
+<path d="M204 104 C200 98 208 92 204 84"/>
+<path d="M216 102 C212 96 220 90 216 82" opacity="0.7"/>
+</g>
+</svg>

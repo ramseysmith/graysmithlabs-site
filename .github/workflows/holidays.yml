@@ -22,5 +22,5 @@ jobs:
         run: |
           git config user.name "Ramsey Graysmith"
           git config user.email "smith.s.ramsey@gmail.com"
-          git add holidays sitemap.xml
+          git add holidays sitemap.xml index.html
           git diff --cached --quiet || (git commit -m "Holiday pages for $(TZ=America/Denver date +'%B %-d')" && git push)

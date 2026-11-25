@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M120 158 L280 158 L277 166 L123 166 Z" fill="#9AA1AC"/>
+<path d="M130 114 L270 114 L282 158 L118 158 Z" fill="#C9CED6"/>
+<path d="M130 114 L270 114" stroke="#FEFAF7" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+<path d="M138 120 L204 120 L204 152 L130 152 Z" fill="#A9AFB8"/>
+<path d="M212 120 L262 120 L266 134 L212 134 Z" fill="#A9AFB8"/>
+<path d="M212 140 L237 140 L237 152 L212 152 Z" fill="#A9AFB8"/>
+<path d="M243 140 L268 140 L272 152 L243 152 Z" fill="#A9AFB8"/>
+<ellipse cx="160" cy="138" rx="20" ry="10" fill="#E0B47A" transform="rotate(-8 160 138)"/>
+<ellipse cx="182" cy="134" rx="18" ry="10" fill="#C98A4E" transform="rotate(6 182 134)"/>
+<path d="M150 144 C160 148 176 146 192 140" stroke="#B06A2A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M168 130 C174 128 182 128 188 130" stroke="#FFF3E0" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+<g fill="#4CAF6E"><circle cx="220" cy="127" r="3.6"/><circle cx="228" cy="125" r="3.6"/><circle cx="236" cy="128" r="3.6"/><circle cx="244" cy="125" r="3.6"/><circle cx="252" cy="128" r="3.6"/><circle cx="224" cy="131" r="3"/><circle cx="240" cy="131" r="3"/><circle cx="257" cy="131" r="3"/></g>
+<g fill="#7BC96F"><circle cx="232" cy="129" r="2.6"/><circle cx="248" cy="130" r="2.6"/></g>
+<path d="M214 151 C212 142 218 138 224 140 C230 136 238 142 235 151 Z" fill="#FEFAF7"/>
+<ellipse cx="225" cy="143" rx="3" ry="2" fill="#FFD84D"/>
+<path d="M245 151 L246 143 L268 143 L270 151 Z" fill="#7A4A2A"/>
+<path d="M247 143 H267" stroke="#C98A4E" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+<g id="move">
+<path d="M164 112 C156 104 170 98 162 90 C156 84 166 78 162 72" stroke="#FEFAF7" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.75"/>
+<path d="M182 110 C176 102 188 96 182 88" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+</g>
+</svg>

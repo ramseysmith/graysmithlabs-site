@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M172 166 C170 140 174 120 178 108 H222 C226 120 230 140 228 166 Z" fill="#FFF3E0"/>
+<path d="M216 112 C220 128 222 148 220 166 H228 C230 140 226 120 222 108 Z" fill="#F3D29E"/>
+<path d="M186 166 V144 C186 137 191 132 197 132 C203 132 208 137 208 144 V166 Z" fill="#B06A2A"/>
+<path d="M197 132 V166" stroke="#8A5A3C" stroke-width="1.6"/>
+<circle cx="203" cy="151" r="1.6" fill="#FFD84D"/>
+<circle cx="214" cy="124" r="6" fill="#FFD84D"/><path d="M214 118 V130 M208 124 H220" stroke="#B06A2A" stroke-width="1.6"/>
+<circle cx="214" cy="124" r="10" fill="#FFE08A" opacity="0.2"/>
+<path d="M180 128 C179 140 179 152 180 160" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+<ellipse cx="200" cy="110" rx="50" ry="8" fill="#F9A8B8"/>
+<path d="M146 108 C146 78 170 58 200 58 C230 58 254 78 254 108 C240 114 160 114 146 108 Z" fill="#E5384F"/>
+<circle cx="176" cy="80" r="7" fill="#FEFAF7"/><circle cx="206" cy="70" r="6" fill="#FEFAF7"/><circle cx="230" cy="88" r="7.5" fill="#FEFAF7"/><circle cx="160" cy="100" r="4.5" fill="#FEFAF7"/><circle cx="198" cy="96" r="5" fill="#FEFAF7"/><circle cx="244" cy="104" r="3.5" fill="#FEFAF7"/>
+<path d="M158 88 C164 74 176 66 188 63" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.35"/>
+<path d="M150 166 C150 160 156 158 160 162 C162 156 170 156 172 164" fill="#3FB874"/>
+<path d="M228 166 C230 158 236 158 238 162 C242 158 248 160 246 166 Z" fill="#3FB874"/>
+<path d="M256 166 L272 108" stroke="#C98A4E" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M273 92 L276.5 100.5 L285.5 101 L278.5 106.5 L281 115 L273 110 L265 115 L267.5 106.5 L260.5 101 L269.5 100.5 Z" fill="#FFD84D"/>
+<g id="move"><path d="M290 78 L291.7 82.3 L296 84 L291.7 85.7 L290 90 L288.3 85.7 L284 84 L288.3 82.3 Z" fill="#FFE08A" opacity="1"/><path d="M262 75.5 L263.3 78.7 L266.5 80 L263.3 81.3 L262 84.5 L260.7 81.3 L257.5 80 L260.7 78.7 Z" fill="#FEFAF7" opacity="0.9"/><path d="M292 108 L293.1 110.9 L296 112 L293.1 113.1 L292 116 L290.9 113.1 L288 112 L290.9 110.9 Z" fill="#FF7BC0" opacity="0.9"/><path d="M278 62.5 L279.0 65.0 L281.5 66 L279.0 67.0 L278 69.5 L277.0 67.0 L274.5 66 L277.0 65.0 Z" fill="#FFE08A" opacity="0.8"/></g>
+</svg>

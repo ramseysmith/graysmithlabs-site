@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="80" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="158" rx="76" ry="10" fill="#FEFAF7"/>
+<ellipse cx="200" cy="156" rx="60" ry="6" fill="#E9E2DA"/>
+<path d="M144 156 C148 130 174 120 200 120 C226 120 252 130 256 156 C232 160 168 160 144 156 Z" fill="#F7D27A"/>
+<path d="M230 126 C246 134 254 144 256 156 C246 158 236 159 228 159 C240 148 238 136 230 126 Z" fill="#E8B850"/>
+<g stroke="#E8B850" stroke-width="2.4" fill="none" stroke-linecap="round">
+<path d="M154 148 C162 140 168 152 176 144 C184 136 190 150 198 142"/>
+<path d="M162 138 C170 130 176 142 184 134"/>
+<path d="M150 154 C160 148 170 156 180 150 C190 144 200 154 210 148 C220 142 228 152 240 146"/>
+<path d="M214 134 C222 128 228 138 236 132"/>
+</g>
+<path d="M176 132 C178 122 196 116 210 120 C226 122 230 132 222 138 C214 142 206 136 198 140 C188 144 174 140 176 132 Z" fill="#D9402E"/>
+<path d="M206 124 C216 124 224 128 222 134" stroke="#F0705A" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<circle cx="186" cy="134" r="2" fill="#A82E22"/><circle cx="214" cy="132" r="2" fill="#A82E22"/>
+<path d="M190 128 C192 120 202 116 208 118 C206 126 198 130 190 128 Z" fill="#4CAF6E"/>
+<path d="M192 127 C196 123 201 120 206 119" stroke="#7BC96F" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<g stroke="#F7D27A" stroke-width="3.4" fill="none" stroke-linecap="round">
+<path d="M194 104 C190 110 198 114 194 122"/>
+<path d="M206 104 C210 110 204 116 208 124"/>
+</g>
+<path d="M202 80 L213 34" stroke="#8A929C" stroke-width="7" stroke-linecap="round"/>
+<path d="M202 80 L213 34" stroke="#C9CED6" stroke-width="4" stroke-linecap="round"/>
+<path d="M191 92 C191 82 211 82 211 92 Z" fill="#C9CED6"/>
+<g id="move">
+<ellipse cx="200" cy="96" rx="21" ry="12" fill="#F7D27A"/>
+<g stroke="#E8B850" stroke-width="2.2" fill="none" stroke-linecap="round">
+<path d="M182 96 C184 88 216 88 218 96 C216 103 186 104 186 97 C188 92 212 91 212 97 C210 101 192 101 194 96"/>
+</g>
+<path d="M186 90 C190 87 196 86 200 86" stroke="#FFF3C4" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+<circle cx="210" cy="100" r="3" fill="#D9402E"/>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<defs><radialGradient id="cg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE68A" stop-opacity="0.6"/><stop offset="1" stop-color="#FFE68A" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="200" cy="168" rx="48" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<g id="move"><circle cx="200" cy="78" r="66" fill="url(#cg)"/></g>
+<rect x="195" y="96" width="10" height="72" rx="3" fill="#8A5A3C"/>
+<path d="M183 112 c-8 14 4 22 -6 36 M217 112 c8 14 -4 22 6 36" stroke="#FF7BC0" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M190 112 c-4 16 6 22 0 40 M210 112 c4 16 -6 22 0 40" stroke="#6AA8FF" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M200 30 L208.4 57.7 L233.9 44.1 L220.3 69.6 L248 78 L220.3 86.4 L233.9 111.9 L208.4 98.3 L200 126 L191.6 98.3 L166.1 111.9 L179.7 86.4 L152 78 L179.7 69.6 L166.1 44.1 L191.6 57.7 Z" fill="#FFD84D" stroke="#E5384F" stroke-width="3" stroke-linejoin="round"/>
+<path d="M200 78 L200 30 L208.4 57.7 Z M200 78 L233.9 44.1 L220.3 69.6 Z M200 78 L248 78 L220.3 86.4 Z M200 78 L233.9 111.9 L208.4 98.3 Z M200 78 L200 126 L191.6 98.3 Z M200 78 L166.1 111.9 L179.7 86.4 Z M200 78 L152 78 L179.7 69.6 Z M200 78 L166.1 44.1 L191.6 57.7 Z" fill="#FF9152"/>
+<circle cx="200" cy="78" r="16" fill="#E5384F"/>
+<circle cx="200" cy="78" r="10" fill="#FEFAF7"/>
+<circle cx="200" cy="78" r="4" fill="#FFD84D"/>
+<g fill="#68DB8C"><circle cx="183" cy="112" r="3.5"/><circle cx="217" cy="112" r="3.5"/></g>
+</svg>

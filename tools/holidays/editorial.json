@@ -1,0 +1,1982 @@
+{
+ "_readme": "Made by editorial.mjs from CelebriDay; do not edit.",
+ "art": {
+  "1-1|New Year's Day": "scene-newyear",
+  "1-1|First Foot Day": "firstfoot",
+  "1-2|Science Fiction Day": "rocket",
+  "1-2|World Introvert Day": "armchair",
+  "1-3|Festival of Sleep Day": "sleepmask",
+  "1-4|Trivia Day": "buzzer",
+  "1-4|World Braille Day": "braille",
+  "1-5|National Bird Day": "birdhouse",
+  "1-5|Twelfth Night": "wassail",
+  "1-6|Epiphany": "magi",
+  "1-6|Bean Day": "beans",
+  "1-7|Orthodox Christmas": "carolstar",
+  "1-7|Old Rock Day": "rock",
+  "1-8|Earth Rotation Day": "pendulum",
+  "1-9|National Apricot Day": "apricot",
+  "1-9|Static Electricity Day": "plasmaball",
+  "1-10|Houseplant Appreciation Day": "houseplant",
+  "1-10|Bittersweet Chocolate Day": "cacao",
+  "1-11|National Milk Day": "milkbottle",
+  "1-11|Step in a Puddle and Splash Your Friends Day": "waterdrop",
+  "1-12|National Marzipan Day": "marzipan",
+  "1-12|Work Harder Day": "dumbbell",
+  "1-13|National Rubber Ducky Day": "duck",
+  "1-13|Korean American Day": "flag",
+  "1-14|Organize Your Home Day": "organizehome",
+  "1-14|Hot Pastrami Sandwich Day": "sandwich",
+  "1-15|Strawberry Ice Cream Day": "strawberrycone",
+  "1-16|National Nothing Day": "emptybubble",
+  "1-16|Fig Newton Day": "fignewton",
+  "1-17|Benjamin Franklin Day": "kitekey",
+  "1-18|Winnie the Pooh Day": "honeypot",
+  "1-18|Thesaurus Day": "thesaurus",
+  "1-19|National Popcorn Day": "popcorn",
+  "1-19|Tin Can Day": "tincan",
+  "1-20|National Cheese Lovers Day": "cheeseboard",
+  "1-20|Penguin Awareness Day": "penguin",
+  "1-21|National Hugging Day": "huggingbears",
+  "1-21|Squirrel Appreciation Day": "squirrel",
+  "1-22|National Blonde Brownie Day": "blondies",
+  "1-22|Answer Your Cat's Questions Day": "cat",
+  "1-23|National Pie Day": "pie",
+  "1-23|Handwriting Day": "fountainpen",
+  "1-24|National Compliment Day": "complimentbubble",
+  "1-24|Beer Can Appreciation Day": "beercans",
+  "1-25|Opposite Day": "oppositearrows",
+  "1-25|Burns Night": "bagpipes",
+  "1-26|Australia Day": "kangaroo",
+  "1-26|National Peanut Brittle Day": "peanutbrittle",
+  "1-27|Holocaust Remembrance Day": "candle",
+  "1-27|Chocolate Cake Day": "cake",
+  "1-28|National Blueberry Pancake Day": "blueberrypancakes",
+  "1-28|Data Privacy Day": "padlock",
+  "1-29|National Puzzle Day": "puzzle",
+  "1-29|Corn Chip Day": "cornchips",
+  "1-30|Croissant Day": "pastry",
+  "1-30|National Inane Answering Message Day": "answeringmachine",
+  "1-31|Backwards Day": "backwardsclock",
+  "1-31|Inspire Your Heart with Art Day": "palette",
+  "2-1|National Freedom Day": "dove",
+  "2-1|Serpent Day": "snake",
+  "2-2|Groundhog Day": "groundhog",
+  "2-2|Candlemas": "candle",
+  "2-3|National Carrot Cake Day": "cake",
+  "2-4|World Cancer Day": "ribbon",
+  "2-4|Liberace Day": "candelabra",
+  "2-5|World Nutella Day": "chocolate",
+  "2-5|National Weatherpersons Day": "weathervane",
+  "2-6|National Frozen Yogurt Day": "frozenyogurt",
+  "2-6|Lame Duck Day": "duck",
+  "2-7|National Send a Card to a Friend Day": "friendcard",
+  "2-7|Wave All Your Fingers at Your Neighbors Day": "smiley",
+  "2-8|Boy Scout Day": "scoutknot",
+  "2-8|Kite Flying Day": "kite",
+  "2-9|National Pizza Day": "pizza",
+  "2-9|Toothache Day": "tooth",
+  "2-10|World Pulses Day": "beans",
+  "2-10|Umbrella Day": "umbrella",
+  "2-11|National Inventors Day": "robot",
+  "2-11|Do Not Cry Over Spilled Milk Day": "spilledmilk",
+  "2-12|Darwin Day": "darwinfinch",
+  "2-12|National Plum Pudding Day": "plumpudding",
+  "2-13|World Radio Day": "radio",
+  "2-13|Galentines Day": "scene-fun",
+  "2-14|Valentines Day": "scene-valentines",
+  "2-15|National Gumdrop Day": "gumdrop",
+  "2-15|Singles Awareness Day": "heart",
+  "2-16|National Almond Day": "almond",
+  "2-16|Do a Grouch a Favor Day": "heart",
+  "2-17|National Random Acts of Kindness Day": "kindness",
+  "2-18|National Drink Wine Day": "wine",
+  "2-18|Battery Day": "battery",
+  "2-19|National Chocolate Mint Day": "chocmint",
+  "2-20|World Day of Social Justice": "dove",
+  "2-20|Love Your Pet Day": "dog",
+  "2-21|National Sticky Bun Day": "stickybun",
+  "2-21|International Mother Language Day": "globe",
+  "2-22|National Margarita Day": "margarita",
+  "2-23|National Banana Bread Day": "bananabread",
+  "2-23|Play Tennis Day": "ball",
+  "2-24|National Tortilla Chip Day": "chips",
+  "2-25|National Clam Chowder Day": "clamchowder",
+  "2-26|National Pistachio Day": "pistachio",
+  "2-26|Tell a Fairy Tale Day": "tophat",
+  "2-27|National Polar Bear Day": "polarbear",
+  "2-28|National Tooth Fairy Day": "toothfairy",
+  "2-28|Floral Design Day": "flower",
+  "3-1|National Peanut Butter Lovers Day": "nuts",
+  "3-1|World Compliment Day": "complimentbubble",
+  "3-2|Dr. Seuss Day": "book",
+  "3-2|National Banana Cream Pie Day": "pie",
+  "3-3|World Wildlife Day": "elephant",
+  "3-3|National Anthem Day": "anthem",
+  "3-4|National Grammar Day": "grammar",
+  "3-4|Hug a GI Day": "dogtags",
+  "3-5|National Cheese Doodle Day": "cheesedoodle",
+  "3-5|Multiple Personality Day": "theatermask",
+  "3-6|National Oreo Cookie Day": "cookie",
+  "3-6|National Dentists Day": "tooth",
+  "3-7|National Be Heard Day": "microphone",
+  "3-7|National Crown Roast of Pork Day": "steak",
+  "3-8|International Womens Day": "mimosa",
+  "3-8|National Peanut Cluster Day": "chocolate",
+  "3-9|National Meatball Day": "meatball",
+  "3-9|Barbies Birthday": "balloon",
+  "3-10|National Pack Your Lunch Day": "lunchbox",
+  "3-10|Mario Day": "gamepad",
+  "3-11|National Oatmeal Nut Waffles Day": "oatmealwaffle",
+  "3-11|Johnny Appleseed Day": "appleseed",
+  "3-12|National Plant a Flower Day": "plantflower",
+  "3-12|Girl Scout Day": "scoutsash",
+  "3-13|National Coconut Torte Day": "coconuttorte",
+  "3-13|Good Samaritan Day": "helpinghand",
+  "3-14|Pi Day": "scene-piday",
+  "3-14|National Potato Chip Day": "chips",
+  "3-15|The Ides of March": "crown",
+  "3-15|World Consumer Rights Day": "shoppingcart",
+  "3-16|National Artichoke Hearts Day": "artichoke",
+  "3-16|Freedom of Information Day": "infofolder",
+  "3-17|St. Patricks Day": "scene-stpatricks",
+  "3-17|National Corned Beef and Cabbage Day": "cornedbeef",
+  "3-18|National Awkward Moments Day": "awkward",
+  "3-18|Lacy Oatmeal Cookie Day": "lacycookie",
+  "3-19|National Poultry Day": "hen",
+  "3-19|National Lets Laugh Day": "laughface",
+  "3-20|World Frog Day": "frog",
+  "3-20|First Day of Spring": "flower",
+  "3-21|World Down Syndrome Day": "oddsocks",
+  "3-21|National French Bread Day": "baguette",
+  "3-22|World Water Day": "waterdrop",
+  "3-22|National Goof Off Day": "paperplane",
+  "3-23|National Puppy Day": "dog",
+  "3-23|World Meteorological Day": "umbrella",
+  "3-24|World Tuberculosis Day": "lungs",
+  "3-24|National Cocktail Day": "cocktail",
+  "3-25|Tolkien Reading Day": "rounddoor",
+  "3-25|International Waffle Day": "waffle",
+  "3-26|Make Up Your Own Holiday Day": "star",
+  "3-26|National Spinach Day": "spinach",
+  "3-26|National Nougat Day": "nougat",
+  "3-27|World Theatre Day": "stagecurtain",
+  "3-27|National Spanish Paella Day": "paella",
+  "3-28|National Black Forest Cake Day": "blackforest",
+  "3-28|Weed Appreciation Day": "flower",
+  "3-29|National Lemon Chiffon Cake Day": "lemonchiffon",
+  "3-29|National Mom and Pop Business Owners Day": "storefront",
+  "3-30|Take a Walk in the Park Day": "parkbench",
+  "3-30|National Doctors Day": "redcarnation",
+  "3-31|National Clams on the Half Shell Day": "halfclam",
+  "3-31|World Backup Day": "backupdrive",
+  "4-1|April Fools Day": "scene-fun",
+  "4-1|International Fun at Work Day": "partydesk",
+  "4-2|National Peanut Butter and Jelly Day": "pbj",
+  "4-2|World Autism Awareness Day": "infinity",
+  "4-3|National Chocolate Mousse Day": "dessertcup",
+  "4-3|World Party Day": "partypopper",
+  "4-4|National Carrot Day": "carrot",
+  "4-4|School Librarian Day": "book",
+  "4-5|National Caramel Day": "caramel",
+  "4-5|National Raisin and Spice Bar Day": "raisinbar",
+  "4-6|National Caramel Popcorn Day": "popcorn",
+  "4-6|New Beers Eve": "beerclock",
+  "4-7|World Health Day": "heartbeat",
+  "4-7|National Beer Day": "beer",
+  "4-8|National Zoo Lovers Day": "giraffe",
+  "4-8|Draw a Picture of a Bird Day": "bird",
+  "4-9|Winston Churchill Day": "flag",
+  "4-10|National Siblings Day": "heart",
+  "4-10|National Safety Pin Day": "safetypin",
+  "4-11|National Pet Day": "dog",
+  "4-11|National Barbershop Quartet Day": "barberpole",
+  "4-12|National Grilled Cheese Day": "grilledcheese",
+  "4-12|National Licorice Day": "licorice",
+  "4-13|National Scrabble Day": "puzzle",
+  "4-13|Thomas Jeffersons Birthday": "scene-cultural",
+  "4-14|National Pecan Day": "pecan",
+  "4-14|International Moment of Laughter Day": "theatermask",
+  "4-15|Tax Day": "taxform",
+  "4-15|National Glazed Spiral Ham Day": "ham",
+  "4-16|National Eggs Benedict Day": "eggsbenedict",
+  "4-16|Save the Elephant Day": "elephant",
+  "4-17|National Cheeseball Day": "cheeseball",
+  "4-17|Blah Blah Blah Day": "microphone",
+  "4-18|National Animal Crackers Day": "animalcracker",
+  "4-18|World Amateur Radio Day": "radio",
+  "4-19|National Garlic Day": "garlic",
+  "4-19|Bicycle Day": "vintagebike",
+  "4-20|National Cheddar Fries Day": "fries",
+  "4-20|Look Alike Day": "twinfaces",
+  "4-21|National Kindergarten Day": "crayonbox",
+  "4-21|National Chocolate Covered Cashews Day": "choccashew",
+  "4-22|Earth Day": "scene-earthday",
+  "4-22|National Jelly Bean Day": "jellybeans",
+  "4-23|National Picnic Day": "picnicbasket",
+  "4-23|World Book Day": "bookstack",
+  "4-24|National Pigs in a Blanket Day": "pigsblanket",
+  "4-25|World Penguin Day": "penguin",
+  "4-25|National Zucchini Bread Day": "zucchinibread",
+  "4-26|National Pretzel Day": "pretzel",
+  "4-26|Hug an Australian Day": "koalahug",
+  "4-27|National Prime Rib Day": "primerib",
+  "4-27|Tell a Story Day": "popupbook",
+  "4-28|National Superhero Day": "supercape",
+  "4-28|Workers Memorial Day": "hardhat",
+  "4-29|International Dance Day": "discoball",
+  "4-29|National Shrimp Scampi Day": "shrimp",
+  "4-30|National Raisin Day": "berries",
+  "4-30|Hairstyle Appreciation Day": "palette",
+  "5-1|May Day": "maypole",
+  "5-1|National Chocolate Parfait Day": "chocparfait",
+  "5-2|National Truffle Day": "truffles",
+  "5-2|World Tuna Day": "fish",
+  "5-3|World Press Freedom Day": "pressnews",
+  "5-3|Lumpy Rug Day": "lumpyrug",
+  "5-4|Star Wars Day": "star",
+  "5-4|National Orange Juice Day": "orangejuice",
+  "5-5|Cinco de Mayo": "scene-cincodemayo",
+  "5-5|National Hoagie Day": "hoagie",
+  "5-6|National Nurses Day": "nursecap",
+  "5-6|National Beverage Day": "soda",
+  "5-7|National Roast Leg of Lamb Day": "legoflamb",
+  "5-8|World Red Cross Day": "stethoscope",
+  "5-8|National Coconut Cream Pie Day": "coconutcreampie",
+  "5-9|National Butterscotch Brownie Day": "butterscotchbrownie",
+  "5-10|National Clean Up Your Room Day": "tidyroom",
+  "5-10|National Shrimp Day": "shrimp",
+  "5-11|National Eat What You Want Day": "treatplate",
+  "5-11|National Twilight Zone Day": "moon",
+  "5-12|National Nutty Fudge Day": "nuttyfudge",
+  "5-12|International Nurses Day": "nurselamp",
+  "5-13|National Apple Pie Day": "pie",
+  "5-13|Leprechaun Day": "shamrock",
+  "5-14|National Buttermilk Biscuit Day": "biscuits",
+  "5-14|Dance Like a Chicken Day": "bird",
+  "5-15|International Day of Families": "familyhouse",
+  "5-16|National Love a Tree Day": "tree",
+  "5-16|National Coquilles Saint Jacques Day": "coquilles",
+  "5-16|National Barbecue Day": "bbqgrill",
+  "5-17|National Cherry Cobbler Day": "cherrycobbler",
+  "5-17|World Telecommunications Day": "telecomtower",
+  "5-18|National Cheese Souffle Day": "cheesesouffle",
+  "5-18|International Museum Day": "scene-arts",
+  "5-19|National Devils Food Cake Day": "devilsfood",
+  "5-20|National Quiche Lorraine Day": "quiche",
+  "5-20|World Bee Day": "bee",
+  "5-21|National Strawberries and Cream Day": "strawberry",
+  "5-21|Talk Like Yoda Day": "hand",
+  "5-22|National Vanilla Pudding Day": "vanillapudding",
+  "5-22|World Biodiversity Day": "fernladybug",
+  "5-23|National Taffy Day": "taffy",
+  "5-23|World Turtle Day": "turtle",
+  "5-24|National Escargot Day": "escargot",
+  "5-24|Brothers Day": "brothertees",
+  "5-25|National Wine Day": "wine",
+  "5-25|Towel Day": "towel",
+  "5-26|National Blueberry Cheesecake Day": "blueberrycheesecake",
+  "5-26|World Dracula Day": "ghost",
+  "5-27|National Grape Popsicle Day": "grapepopsicle",
+  "5-27|Cellophane Tape Day": "tapedispenser",
+  "5-28|National Hamburger Day": "burger",
+  "5-28|World Hunger Day": "grainbowl",
+  "5-29|National Biscuit Day": "bread",
+  "5-29|Learn About Composting Day": "plant",
+  "5-30|National Mint Julep Day": "cocktail",
+  "5-30|World MS Day": "ribbon",
+  "5-31|National Macaroon Day": "cookie",
+  "5-31|World No Tobacco Day": "ribbon",
+  "6-1|World Milk Day": "milkglass",
+  "6-1|National Dare Day": "trophy",
+  "6-2|National Rocky Road Day": "rockyroad",
+  "6-2|National Rotisserie Chicken Day": "rotisserie",
+  "6-3|National Egg Day": "egg",
+  "6-3|World Bicycle Day": "bicycle",
+  "6-4|National Cheese Day": "cheesewheel",
+  "6-4|Old Maids Day": "teaknit",
+  "6-5|World Environment Day": "sproutearth",
+  "6-5|National Gingerbread Day": "gingerbreadman",
+  "6-6|D Day Anniversary": "flag",
+  "6-7|World Food Safety Day": "stethoscope",
+  "6-8|World Oceans Day": "whale",
+  "6-8|Best Friends Day": "bffbracelets",
+  "6-9|National Strawberry Rhubarb Pie Day": "rhubarbpie",
+  "6-9|Donald Duck Day": "duck",
+  "6-10|National Iced Tea Day": "icedtea",
+  "6-10|Ballpoint Pen Day": "ballpointpen",
+  "6-11|National Corn on the Cob Day": "corn",
+  "6-11|National World Day of Play": "ball",
+  "6-12|National Jerky Day": "steak",
+  "6-12|Loving Day": "clasphands",
+  "6-13|National Weed Your Garden Day": "gardenweed",
+  "6-13|Sewing Machine Day": "sewingmachine",
+  "6-14|Flag Day": "flag",
+  "6-14|National Strawberry Shortcake Day": "shortcake",
+  "6-15|Smile Power Day": "smilebadge",
+  "6-15|Nature Photography Day": "birdcamera",
+  "6-16|National Fudge Day": "fudgeslab",
+  "6-16|Bloomsday": "bloomsday",
+  "6-17|National Eat Your Vegetables Day": "veggiebasket",
+  "6-17|World Day to Combat Desertification": "tree",
+  "6-18|Autistic Pride Day": "ribbon",
+  "6-19|Juneteenth": "juneteenthflag",
+  "6-19|National Martini Day": "martini",
+  "6-20|World Refugee Day": "welcomesuitcase",
+  "6-20|National Vanilla Milkshake Day": "vanillashake",
+  "6-20|National Ice Cream Soda Day": "icecreamsoda",
+  "6-21|World Music Day": "handdrum",
+  "6-22|National Chocolate Eclair Day": "eclair",
+  "6-22|World Rainforest Day": "toucan",
+  "6-23|National Hydration Day": "waterbottle",
+  "6-23|International Olympic Day": "trophy",
+  "6-24|National Pralines Day": "pralines",
+  "6-24|International Fairy Day": "fairytoadstool",
+  "6-25|National Strawberry Parfait Day": "strawberryparfait",
+  "6-25|Global Beatles Day": "musicnote",
+  "6-26|National Chocolate Pudding Day": "chocpudding",
+  "6-26|International Day Against Drug Abuse": "ribbon",
+  "6-27|National Orange Blossom Day": "orangeblossom",
+  "6-27|National Sunglasses Day": "sunglasses",
+  "6-28|National Tapioca Day": "tapioca",
+  "6-28|Paul Bunyan Day": "axe",
+  "6-29|National Almond Buttercrunch Day": "buttercrunch",
+  "6-29|Camera Day": "vintagecamera",
+  "6-30|Social Media Day": "socialphone",
+  "7-1|Canada Day": "mapleleaf",
+  "7-1|National Gingersnap Day": "gingersnaps",
+  "7-2|World UFO Day": "ufo",
+  "7-2|National Anisette Day": "anisette",
+  "7-2|National Disco Day": "discoball",
+  "7-3|National Chocolate Wafer Day": "chocwafer",
+  "7-3|Stay Out of the Sun Day": "beachumbrella",
+  "7-4|Independence Day": "scene-july4",
+  "7-5|National Apple Turnover Day": "appleturnover",
+  "7-5|Workaholics Day": "clock",
+  "7-6|National Fried Chicken Day": "friedchicken",
+  "7-6|International Kissing Day": "kissingbirds",
+  "7-7|World Chocolate Day": "chocolate",
+  "7-7|National Strawberry Sundae Day": "strawberrysundae",
+  "7-8|National Milk Chocolate with Almonds Day": "almondbar",
+  "7-8|Video Games Day": "arcadecabinet",
+  "7-9|National Sugar Cookie Day": "sugarcookies",
+  "7-10|National Pina Colada Day": "pinacolada",
+  "7-10|Clerihew Day": "quillpoem",
+  "7-11|World Population Day": "populationglobe",
+  "7-11|National Blueberry Muffin Day": "blueberrymuffin",
+  "7-12|National Pecan Pie Day": "pecanpie",
+  "7-12|Different Colored Eyes Day": "sunglasses",
+  "7-13|National French Fries Day": "fries",
+  "7-13|Gruntled Workers Day": "happymug",
+  "7-14|Bastille Day": "flag",
+  "7-14|National Grand Marnier Day": "orangeliqueur",
+  "7-15|National Gummy Worm Day": "gummyworms",
+  "7-15|Give Something Away Day": "gift",
+  "7-16|National Fresh Spinach Day": "spinach",
+  "7-16|Guinea Pig Appreciation Day": "guineapig",
+  "7-17|National Peach Ice Cream Day": "peachicecream",
+  "7-17|World Emoji Day": "emojifaces",
+  "7-18|National Caviar Day": "fish",
+  "7-18|Nelson Mandela International Day": "dove",
+  "7-19|National Daiquiri Day": "daiquiri",
+  "7-19|Flitch Day": "flitch",
+  "7-20|National Moon Day": "moon",
+  "7-21|National Junk Food Day": "junkfood",
+  "7-21|National Creme Brulee Day": "cremebrulee",
+  "7-22|National Mango Day": "peach",
+  "7-22|National Hammock Day": "hammock",
+  "7-23|National Vanilla Ice Cream Day": "icecream",
+  "7-23|Hot Enough for Ya Day": "sun",
+  "7-24|National Drive Thru Day": "drivethru",
+  "7-24|National Tequila Day": "tequila",
+  "7-25|National Culinarians Day": "plate",
+  "7-25|Thread the Needle Day": "needlethread",
+  "7-26|National Coffee Milkshake Day": "coffeeshake",
+  "7-26|Americans with Disabilities Act Day": "scales",
+  "7-27|National Scotch Day": "scotchglass",
+  "7-27|Walk on Stilts Day": "stilts",
+  "7-28|National Milk Chocolate Day": "chocolate",
+  "7-28|World Hepatitis Day": "ribbon",
+  "7-29|National Chicken Wing Day": "drumstick",
+  "7-30|National Cheesecake Day": "cake",
+  "7-30|International Friendship Day": "bffbracelets",
+  "7-31|National Mutt Day": "muttdog",
+  "7-31|Uncommon Instrument Awareness Day": "musicnote",
+  "8-1|National Girlfriends Day": "girlstoast",
+  "8-1|National Raspberry Cream Pie Day": "raspberrycreampie",
+  "8-2|National Ice Cream Sandwich Day": "icecreamsandwich",
+  "8-2|National Coloring Book Day": "coloringbook",
+  "8-3|National Watermelon Day": "watermelon",
+  "8-3|Grab Some Nuts Day": "nutjar",
+  "8-4|National Chocolate Chip Cookie Day": "chocchipcookie",
+  "8-4|Coast Guard Day": "lighthouse",
+  "8-5|National Oyster Day": "shell",
+  "8-5|National Underwear Day": "spool",
+  "8-6|National Root Beer Float Day": "rootbeerfloat",
+  "8-6|Wiggle Your Toes Day": "wiggletoes",
+  "8-7|National Lighthouse Day": "lighthouse",
+  "8-7|Professional Speakers Day": "headsetmic",
+  "8-8|National Dollar Day": "dollarbill",
+  "8-8|Zucchini Day": "zucchinipair",
+  "8-9|National Rice Pudding Day": "ricepudding",
+  "8-9|National Book Lovers Day": "booklove",
+  "8-10|National Smores Day": "marshmallow",
+  "8-10|National Lazy Day": "lazysloth",
+  "8-11|National Presidential Joke Day": "jokelectern",
+  "8-11|National Raspberry Bombe Day": "raspberrybombe",
+  "8-12|National Middle Child Day": "middlebird",
+  "8-12|World Elephant Day": "elephantcalf",
+  "8-13|International Left Handers Day": "leftywriting",
+  "8-13|National Filet Mignon Day": "filetmignon",
+  "8-14|National Creamsicle Day": "creamsicle",
+  "8-14|National Financial Awareness Day": "piggybank",
+  "8-15|National Relaxation Day": "zenstones",
+  "8-15|National Lemon Meringue Pie Day": "lemonmeringue",
+  "8-16|National Tell a Joke Day": "jestercap",
+  "8-16|National Rum Day": "rumbarrel",
+  "8-17|National Vanilla Custard Day": "custardramekin",
+  "8-18|National Fajita Day": "taco",
+  "8-18|Bad Poetry Day": "crumpledpoem",
+  "8-19|World Photography Day": "camera",
+  "8-19|National Aviation Day": "airplane",
+  "8-20|National Radio Day": "vintageradio",
+  "8-20|World Mosquito Day": "bee",
+  "8-21|National Senior Citizens Day": "coin",
+  "8-21|National Spumoni Day": "spumoni",
+  "8-22|National Bao Day": "baobun",
+  "8-22|National Eat a Peach Day": "peach",
+  "8-23|National Sponge Cake Day": "spongecake",
+  "8-23|National Ride the Wind Day": "kite",
+  "8-24|National Waffle Day": "pancakes",
+  "8-24|National Peach Pie Day": "peachpie",
+  "8-25|National Banana Split Day": "bananasplit",
+  "8-25|National Whiskey Sour Day": "whiskeysour",
+  "8-26|National Dog Day": "dog",
+  "8-27|National Pots de Creme Day": "potsdecreme",
+  "8-27|National Just Because Day": "justbecause",
+  "8-28|National Bow Tie Day": "bowtie",
+  "8-28|Race Your Mouse Around the Icons Day": "laptop",
+  "8-29|National Chop Suey Day": "chopsuey",
+  "8-29|More Herbs Less Salt Day": "plant",
+  "8-30|National Toasted Marshmallow Day": "marshmallow",
+  "8-30|National Grief Awareness Day": "ribbon",
+  "8-31|National Trail Mix Day": "trailmix",
+  "8-31|National Matchmaker Day": "matchmaker",
+  "9-1|National Gyro Day": "gyro",
+  "9-1|World Letter Writing Day": "lettersealed",
+  "9-2|National VJ Day": "flag",
+  "9-2|World Coconut Day": "coconut",
+  "9-3|National Welsh Rarebit Day": "welshrarebit",
+  "9-3|Skyscraper Day": "skyscraper",
+  "9-4|National Macadamia Nut Day": "macadamia",
+  "9-4|Newspaper Carrier Day": "newsbike",
+  "9-5|National Cheese Pizza Day": "pizza",
+  "9-5|Be Late for Something Day": "clock",
+  "9-6|National Coffee Ice Cream Day": "coffeescoop",
+  "9-6|Read a Book Day": "bookglasses",
+  "9-7|National Acorn Squash Day": "pumpkin",
+  "9-7|National Neither Snow nor Rain Day": "snowflake",
+  "9-8|International Literacy Day": "chalkslate",
+  "9-9|National Teddy Bear Day": "bear",
+  "9-9|National Wiener Schnitzel Day": "schnitzel",
+  "9-10|National TV Dinner Day": "tvdinner",
+  "9-10|World Suicide Prevention Day": "ribbon",
+  "9-11|Patriot Day": "flag",
+  "9-11|National Hot Cross Bun Day": "hotcrossbun",
+  "9-12|National Chocolate Milkshake Day": "milkshake",
+  "9-12|National Video Games Day": "gamepad",
+  "9-13|National Peanut Day": "peanutshell",
+  "9-14|National Cream Filled Donut Day": "donut",
+  "9-14|Eat a Hoagie Day": "hoagie",
+  "9-15|National Linguine Day": "linguine",
+  "9-15|International Day of Democracy": "ballotbox",
+  "9-16|National Guacamole Day": "taco",
+  "9-16|Collect Rocks Day": "rock",
+  "9-17|National Monte Cristo Sandwich Day": "montecristo",
+  "9-17|Constitution Day": "parchment",
+  "9-18|National Cheeseburger Day": "cheeseburger",
+  "9-18|World Water Monitoring Day": "watertest",
+  "9-19|National Butterscotch Pudding Day": "butterscotchpud",
+  "9-19|Talk Like a Pirate Day": "piratehat",
+  "9-20|National Pepperoni Pizza Day": "pizza",
+  "9-20|National String Cheese Day": "stringcheese",
+  "9-21|World Gratitude Day": "gratitudejar",
+  "9-21|National Pecan Cookie Day": "pecancookie",
+  "9-22|National White Chocolate Day": "whitechoc",
+  "9-22|Business Womens Day": "briefcase",
+  "9-23|National Great American Pot Pie Day": "potpie",
+  "9-24|National Cherries Jubilee Day": "cherriesjubilee",
+  "9-24|National Punctuation Day": "pencil",
+  "9-25|National Lobster Day": "lobster",
+  "9-25|World Dream Day": "dreamcloud",
+  "9-26|National Pancake Day": "pancakes",
+  "9-26|Lumberjack Day": "axe",
+  "9-27|National Chocolate Milk Day": "chocmilk",
+  "9-27|World Tourism Day": "foldmap",
+  "9-28|National Strawberry Cream Pie Day": "strawcreampie",
+  "9-28|Ask a Stupid Question Day": "raisedhand",
+  "9-29|National Coffee Day": "coffee",
+  "9-29|World Heart Day": "heart",
+  "9-30|National Chewing Gum Day": "drumstick",
+  "9-30|International Podcast Day": "podmic",
+  "10-1|World Vegetarian Day": "veggieskewer",
+  "10-2|National Fried Scallops Day": "shell",
+  "10-3|National Caramel Custard Day": "caramelcustard",
+  "10-4|National Cinnamon Roll Day": "bread",
+  "10-4|World Animal Day": "animalfriends",
+  "10-5|World Teachers Day": "pencil",
+  "10-5|National Apple Betty Day": "applebetty",
+  "10-6|National Noodle Day": "ramenbowl",
+  "10-6|Mad Hatter Day": "tophat",
+  "10-7|National Frappe Day": "milkshake",
+  "10-8|National Pierogi Day": "pierogi",
+  "10-8|World Octopus Day": "octopus",
+  "10-9|National Moldy Cheese Day": "cheese",
+  "10-9|World Post Day": "envelope",
+  "10-10|World Mental Health Day": "mindsprout",
+  "10-10|National Cake Decorating Day": "pipingbag",
+  "10-11|National Sausage Pizza Day": "pizza",
+  "10-11|International Day of the Girl Child": "girlreader",
+  "10-12|National Gumbo Day": "gumbopot",
+  "10-13|International Day for Failure": "paperbin",
+  "10-14|National Dessert Day": "dessertstand",
+  "10-15|National Cheese Curd Day": "cheese",
+  "10-15|Global Handwashing Day": "handwash",
+  "10-16|World Food Day": "plate",
+  "10-16|National Boss Day": "briefcase",
+  "10-17|National Pasta Day": "spaghettifork",
+  "10-17|International Day for the Eradication of Poverty": "coinsprout",
+  "10-18|National Chocolate Cupcake Day": "choccupcake",
+  "10-18|World Menopause Day": "ribbon",
+  "10-19|National Seafood Bisque Day": "bisquebowl",
+  "10-19|Evaluate Your Life Day": "lifechecklist",
+  "10-20|National Brandied Fruit Day": "berries",
+  "10-21|National Apple Day": "apple",
+  "10-21|Count Your Buttons Day": "spool",
+  "10-21|National Pumpkin Cheesecake Day": "pumpkincheesecake",
+  "10-22|National Nut Day": "nuts",
+  "10-22|International Caps Lock Day": "laptop",
+  "10-23|National Boston Cream Pie Day": "bostoncream",
+  "10-23|TV Talk Show Host Day": "talkshowdesk",
+  "10-24|National Bologna Day": "hotdog",
+  "10-24|United Nations Day": "assemblydesk",
+  "10-25|National Greasy Foods Day": "greasyfries",
+  "10-25|World Pasta Day": "pasta",
+  "10-26|National Mincemeat Day": "mincepie",
+  "10-26|Pumpkin Day": "pumpkin",
+  "10-27|National American Beer Day": "beer",
+  "10-27|Cranky Coworkers Day": "smiley",
+  "10-28|National Chocolate Day": "chocolate",
+  "10-28|Plush Animal Lovers Day": "bear",
+  "10-29|National Oatmeal Day": "oatmealbowl",
+  "10-29|World Psoriasis Day": "ribbon",
+  "10-30|National Candy Corn Day": "candy",
+  "10-30|Haunted Refrigerator Night": "ghost",
+  "10-31|Halloween": "scene-halloween",
+  "10-31|National Caramel Apple Day": "apple",
+  "11-1|World Vegan Day": "greens",
+  "11-1|All Saints Day": "candle",
+  "11-2|National Deviled Egg Day": "egg",
+  "11-2|All Souls Day": "candle",
+  "11-3|National Sandwich Day": "sandwich",
+  "11-3|World Jellyfish Day": "jellyfish",
+  "11-4|National Candy Day": "candy",
+  "11-4|King Tut Day": "crown",
+  "11-5|National Doughnut Day": "donut",
+  "11-5|World Tsunami Awareness Day": "waterdrop",
+  "11-6|National Nachos Day": "chips",
+  "11-6|Saxophone Day": "horn",
+  "11-7|National Bittersweet Chocolate with Almonds Day": "chocolate",
+  "11-7|National Cancer Awareness Day": "ribbon",
+  "11-8|National Cappuccino Day": "coffee",
+  "11-9|National Scrapple Day": "steak",
+  "11-9|World Freedom Day": "dove",
+  "11-10|National Vanilla Cupcake Day": "cupcake",
+  "11-10|Marine Corps Birthday": "flag",
+  "11-11|Veterans Day": "flag",
+  "11-11|National Sundae Day": "icecream",
+  "11-12|National Pizza with the Works Day": "pizza",
+  "11-13|National Indian Pudding Day": "dessertcup",
+  "11-14|National Pickle Day": "pickle",
+  "11-14|World Diabetes Day": "ribbon",
+  "11-15|National Bundt Cake Day": "cake",
+  "11-15|America Recycles Day": "tincan",
+  "11-16|National Fast Food Day": "burger",
+  "11-16|International Day for Tolerance": "dove",
+  "11-17|National Baklava Day": "baklava",
+  "11-17|World Prematurity Day": "ribbon",
+  "11-18|National Vichyssoise Day": "soup",
+  "11-18|National Apple Cider Day": "soda",
+  "11-19|National Carbonated Beverage with Caffeine Day": "soda",
+  "11-19|World Toilet Day": "waterdrop",
+  "11-20|Universal Childrens Day": "scene-awareness",
+  "11-20|National Peanut Butter Fudge Day": "pbfudge",
+  "11-21|National Stuffing Day": "stuffing",
+  "11-21|World Hello Day": "phone",
+  "11-22|National Cranberry Relish Day": "cranberryrelish",
+  "11-22|Go for a Ride Day": "car",
+  "11-23|National Cashew Day": "cashew",
+  "11-23|National Espresso Day": "espresso",
+  "11-24|National Sardines Day": "sardines",
+  "11-24|Celebrate Your Unique Talent Day": "juggle",
+  "11-25|National Parfait Day": "parfait",
+  "11-26|National Cake Day": "cake",
+  "11-27|National Bavarian Cream Pie Day": "creampie",
+  "11-27|National Craft Jerky Day": "jerky",
+  "11-28|Red Planet Day": "planet",
+  "11-29|National Chocolates Day": "chocolate",
+  "11-29|Square Dance Day": "bowtie",
+  "11-30|National Mousse Day": "mousse",
+  "11-30|Computer Security Day": "padlock",
+  "12-1|World AIDS Day": "redribbon",
+  "12-1|National Pie Day": "pie",
+  "12-2|National Fritters Day": "fritter",
+  "12-2|International Day for the Abolition of Slavery": "brokenchain",
+  "12-3|National Peppermint Latte Day": "peppermintlatte",
+  "12-3|International Day of Persons with Disabilities": "wheelchair",
+  "12-4|National Cookie Day": "cookie",
+  "12-4|Wildlife Conservation Day": "rhino",
+  "12-5|National Sacher Torte Day": "sachertorte",
+  "12-5|International Volunteer Day": "donationbox",
+  "12-6|National Gazpacho Day": "gazpacho",
+  "12-6|St. Nicholas Day": "boot",
+  "12-7|National Cotton Candy Day": "cottoncandy",
+  "12-7|National Pearl Harbor Remembrance Day": "anchor",
+  "12-8|National Brownie Day": "brownie",
+  "12-8|Pretend to Be a Time Traveler Day": "ufo",
+  "12-9|National Pastry Day": "pastry",
+  "12-9|Christmas Card Day": "christmascard",
+  "12-10|National Lager Day": "lager",
+  "12-10|Human Rights Day": "scales",
+  "12-11|National Noodle Ring Day": "noodlering",
+  "12-11|International Mountain Day": "mountain",
+  "12-12|Poinsettia Day": "poinsettia",
+  "12-13|National Violin Day": "violin",
+  "12-13|St. Lucia Day": "stlucia",
+  "12-14|National Bouillabaisse Day": "bouillabaisse",
+  "12-15|National Cupcake Day": "cupcake",
+  "12-15|Bill of Rights Day": "billofrights",
+  "12-16|National Chocolate Covered Anything Day": "chocdipped",
+  "12-17|National Maple Syrup Day": "maplesyrup",
+  "12-17|Wright Brothers Day": "airplane",
+  "12-18|National Roast Suckling Pig Day": "roastpig",
+  "12-18|World Arabic Language Day": "arabesque",
+  "12-19|National Hard Candy Day": "hardcandy",
+  "12-19|Look for an Evergreen Day": "evergreen",
+  "12-20|National Sangria Day": "sangria",
+  "12-20|Go Caroling Day": "caroling",
+  "12-21|Winter Solstice": "solstice",
+  "12-21|National Flashlight Day": "flashlight",
+  "12-22|National Date Nut Bread Day": "datenutbread",
+  "12-22|Forefathers Day": "mayflower",
+  "12-23|National Pfeffernusse Day": "pfeffernusse",
+  "12-23|Festivus": "festivus",
+  "12-24|Christmas Eve": "scene-christmas",
+  "12-24|National Eggnog Day": "eggnog",
+  "12-25|Christmas Day": "scene-christmas",
+  "12-25|National Pumpkin Pie Day": "pumpkinpie",
+  "12-26|Kwanzaa Begins": "kinara",
+  "12-26|Boxing Day": "boxingday",
+  "12-27|National Fruitcake Day": "fruitcake",
+  "12-27|Make a Cut Out Snowflake Day": "cutoutsnowflake",
+  "12-28|National Card Playing Day": "cards",
+  "12-28|Holy Innocents Day": "candle",
+  "12-29|National Pepper Pot Day": "pepperpot",
+  "12-29|Tick Tock Day": "hourglass",
+  "12-30|National Bicarbonate of Soda Day": "bakingsoda",
+  "12-30|National Bacon Day": "bacon",
+  "12-31|New Years Eve": "scene-newyear",
+  "12-31|Make Up Your Mind Day": "signpost",
+  "moving|Super Bowl Sunday": "scene-sports",
+  "moving|Presidents Day": "scene-cultural",
+  "moving|Leap Day": "scene-fun",
+  "moving|Daylight Saving Time Begins": "scene-other",
+  "moving|Mardi Gras": "scene-mardigras",
+  "moving|Easter Sunday": "scene-easter",
+  "moving|Mothers Day": "scene-mothersday",
+  "moving|Memorial Day": "scene-cultural",
+  "moving|Fathers Day": "scene-fathersday",
+  "moving|Labor Day": "scene-cultural",
+  "moving|National Grandparents Day": "scene-cultural",
+  "moving|Daylight Saving Time Ends": "scene-other",
+  "moving|Thanksgiving": "scene-thanksgiving",
+  "moving|Black Friday": "scene-fun",
+  "moving|Giving Tuesday": "scene-awareness",
+  "moving|National Fruitcake Toss Day": "scene-fun",
+  "moving|Martin Luther King Jr. Day": "scene-awareness",
+  "moving|World Migratory Bird Day": "scene-nature",
+  "moving|National Donut Day": "donut",
+  "moving|National Honey Bee Day": "scene-nature",
+  "moving|World Architecture Day": "scene-arts",
+  "moving|World Habitat Day": "scene-nature",
+  "moving|World Smile Day": "scene-fun",
+  "moving|National Fossil Day": "scene-nature",
+  "moving|National Ugly Sweater Day": "scene-fun"
+ },
+ "story": {
+  "1-1|New Year's Day": {
+   "story": "January 1 became the start of the year in Rome when Julius Caesar's new Julian calendar took effect in 45 BC. The month is named for Janus, the Roman god of doorways and beginnings, often shown with two faces, one looking back and one looking ahead. Not everyone kept the date, though. England and its American colonies officially began the year on March 25 until the 1750s.\n\nMany cultures still celebrate a new year on other dates, such as Lunar New Year, Nowruz at the spring equinox and Rosh Hashanah in autumn. Because of time zones, the Line Islands of Kiribati are among the very first places on Earth to reach January 1 each year.",
+   "ways": [
+    "Write down one goal and one small first step.",
+    "Take a fresh air walk on the first morning.",
+    "Call someone you missed last year."
+   ]
+  },
+  "1-1|First Foot Day": {
+   "story": "First footing is part of Hogmanay, the Scottish celebration of the New Year. Nobody is sure exactly when it began, but the belief is old: the first person to cross your threshold after midnight sets your household's luck for the year ahead. Friends and neighbors would go from house to house through the night, first footing one another.\n\nThe first foot traditionally brings small symbolic gifts. A lump of coal promised warmth, salt or bread promised enough food, and a dram of whisky promised good cheer. Some visitors brought shortbread or black bun, a rich fruit cake baked inside pastry. In return the visitor was given food and a drink before moving on to the next house.",
+   "ways": [
+    "Bring a small gift to the first home you visit.",
+    "Bake shortbread to share with neighbors.",
+    "Learn all the words to Auld Lang Syne."
+   ]
+  },
+  "1-14|Organize Your Home Day": {
+   "story": "Nobody is sure who started Organize Your Home Day, but mid January is a natural time for it. The holiday decorations are packed away, new gifts need a place to live and many people want their home to match the fresh start they hoped for on New Year's Day.\n\nProfessional organizers often suggest a simple rule: give everything a home, and put things back there right after you use them. Another popular method is to sort one category at a time, such as all your books or all your shoes, rather than one room at a time, so you can see how much you really own. Starting with a single drawer is often easier than tackling a whole closet.",
+   "ways": [
+    "Clear out one drawer completely.",
+    "Donate clothes you have not worn in a year.",
+    "Label shelves so everything has a home."
+   ]
+  },
+  "1-14|Hot Pastrami Sandwich Day": {
+   "story": "Nobody is sure who started Hot Pastrami Sandwich Day, but the sandwich belongs to the Jewish delis of New York. Many accounts credit Sussman Volk, a Lithuanian immigrant, with selling one of the city's first pastrami sandwiches in the late 1880s, though the story is hard to confirm.\n\nPastrami starts as beef, usually brisket or navel, which is cured in brine, rubbed with black pepper and coriander, smoked and then steamed until tender. The name comes from the Romanian pastrama, a pressed and cured meat with roots in Turkish cooking. The classic is pastrami on rye with mustard, sliced by hand and piled high, served hot.",
+   "ways": [
+    "Build a hot pastrami on rye with mustard.",
+    "Visit a local deli you have never tried.",
+    "Learn how corned beef and pastrami differ."
+   ]
+  },
+  "1-21|National Hugging Day": {
+   "story": "National Hugging Day was created by Kevin Zaborney, a minister in Michigan, and first observed in 1986. He chose January 21 because it falls between the winter holidays and Valentine's Day, a stretch when he found many people were in low spirits.\n\nHugs look different around the world. In some cultures a warm embrace between friends is normal, while in others a bow, a handshake or a kiss on the cheek is the usual greeting. The best hug is one both people want, so asking first is always a kind choice, especially with children, coworkers and new friends. A wave or a warm word can say the same thing.",
+   "ways": [
+    "Give a long hug to someone you love.",
+    "Ask before hugging, and respect a no.",
+    "Send a warm message to a faraway friend."
+   ]
+  },
+  "1-21|Squirrel Appreciation Day": {
+   "story": "Squirrel Appreciation Day was started in 2001 by Christy Hargrove, a wildlife rehabilitator in North Carolina. Midwinter can be a lean time for squirrels, so the day encourages people to offer them a little extra food and to appreciate the acrobats living in their yards and parks.\n\nThere are close to 300 squirrel species, a family that includes tree squirrels, ground squirrels, chipmunks, prairie dogs and marmots. Flying squirrels do not actually fly. They glide using flaps of skin stretched between their front and back legs. Many tree squirrels can also rotate their hind ankles, which lets them run headfirst down a tree trunk without slipping.",
+   "ways": [
+    "Put out unsalted nuts for local squirrels.",
+    "Watch one squirrel's route for ten minutes.",
+    "Plant an oak or a walnut tree."
+   ]
+  },
+  "1-27|Holocaust Remembrance Day": {
+   "story": "On this day the world remembers the six million Jews murdered by Nazi Germany and its collaborators, along with Roma and Sinti people, disabled people, Polish and Soviet civilians, Soviet prisoners of war, gay men, political opponents and many others who were persecuted and killed.\n\nAuschwitz Birkenau was the largest of the Nazi camps. About 1.1 million people were murdered there, most of them Jews. When Soviet soldiers arrived, they found about 7,000 prisoners still alive, many of them gravely ill. Survivors spent their lives telling what happened so it would never be forgotten. The camp is now a memorial and museum, and survivors' testimonies are preserved so future generations can hear them in their own words.",
+   "ways": [
+    "Read or listen to a survivor's testimony.",
+    "Light a candle and keep a moment of silence.",
+    "Support a Holocaust education or memorial organization."
+   ]
+  },
+  "1-27|Chocolate Cake Day": {
+   "story": "Nobody is sure who started Chocolate Cake Day. For most of history chocolate was something people drank, not something they baked with, and some early recipes called chocolate cakes were plain cakes meant to be eaten with a cup of hot chocolate.\n\nBaking with chocolate became much easier in the 1800s. In 1828 Coenraad van Houten in the Netherlands patented a press that separated cocoa butter from the cocoa solids, which led to cocoa powder. By the late 1800s American cookbooks included cakes with chocolate in the batter. Devil's food cake, dark and moist, appeared in print around 1900, possibly named as a contrast to light, white angel food cake.",
+   "ways": [
+    "Bake a chocolate cake with cocoa powder.",
+    "Try a flourless chocolate cake recipe.",
+    "Share a slice with someone having a hard week."
+   ]
+  },
+  "2-2|Groundhog Day": {
+   "story": "Every February 2, crowds gather at Gobbler's Knob in Punxsutawney, Pennsylvania, to see whether a groundhog named Phil spots his shadow. A shadow means six more weeks of winter. No shadow means an early spring. The first official trip to the knob was in 1887.\n\nThe custom grew from older European weather lore tied to Candlemas, when German farmers watched a badger or hedgehog for the same sign. Phil's forecasts are more fun than accurate, and the 1993 film Groundhog Day made the town famous.",
+   "ways": [
+    "Make your own spring prediction and check it in six weeks.",
+    "Watch the Punxsutawney ceremony live in the morning.",
+    "Watch the movie Groundhog Day, once or several times."
+   ]
+  },
+  "2-2|Candlemas": {
+   "story": "Candlemas falls forty days after Christmas and marks the presentation of the infant Jesus at the Temple in Jerusalem. It is one of the oldest feasts in the Christian calendar, and churches traditionally bless the candles they will use for the year, which gave the day its English name.\n\nIt was also a weather day. An old English rhyme says that if Candlemas is fair and bright, winter will have another flight. In France the day is La Chandeleur, and families make crêpes, round and golden like the sun.",
+   "ways": [
+    "Make crêpes the way French families do for La Chandeleur.",
+    "Light a candle at dinner and talk about what you hope spring brings.",
+    "Take down the last of the winter decorations, as some families do today."
+   ]
+  },
+  "2-11|National Inventors Day": {
+   "story": "February 11 is Thomas Edison's birthday. He was born in 1847 in Milan, Ohio, and held 1,093 US patents, from the phonograph to improvements in electric light. President Ronald Reagan proclaimed National Inventors Day in 1983.\n\nThe day is for every inventor, famous or not: Hedy Lamarr, who helped invent a frequency hopping system during World War II, Garrett Morgan, who patented a traffic signal in 1923, and the people tinkering in garages right now.",
+   "ways": [
+    "Sketch an invention that would fix one small daily annoyance.",
+    "Take apart an old gadget and see how it works.",
+    "Read about an inventor you have never heard of."
+   ]
+  },
+  "2-11|Do Not Cry Over Spilled Milk Day": {
+   "story": "This day borrows an old proverb: there is no use crying over spilled milk, because what is done is done. The saying appears in James Howell's 1659 collection of proverbs, Paroimiographia, as no weeping for shed milk.\n\nIt is a day for letting go of small mistakes. Going over a mistake again and again rarely fixes it, and moving on to the next step usually helps more.",
+   "ways": [
+    "Let one small mistake go today.",
+    "Clean up a mess without any blame.",
+    "Share a story of a time something went wrong and turned out fine."
+   ]
+  },
+  "2-14|Valentines Day": {
+   "story": "Valentine's Day is named for Saint Valentine, a Roman martyr of the third century whose story is mostly legend. The link with love came much later. In the late 1300s Geoffrey Chaucer wrote of birds choosing their mates on Saint Valentine's day, and courtly romance did the rest.\n\nBy the 1700s English sweethearts swapped handwritten notes, and in the late 1840s Esther Howland of Massachusetts began selling lace trimmed valentines, earning the name Mother of the American Valentine. Today it is a day for cards, flowers and chocolate, for partners, friends and family alike.",
+   "ways": [
+    "Write a real love note, by hand.",
+    "Cook a favorite meal for someone you love.",
+    "Send valentines to friends and family, not just a partner."
+   ]
+  },
+  "2-16|National Almond Day": {
+   "story": "Almonds have been eaten for thousands of years, with wild almond trees native to West and Central Asia. They traveled the Silk Road and the Mediterranean, and they turn up in the Bible and in Tutankhamun's tomb.\n\nToday California grows most of the world's almonds. Botanically an almond is the seed of a drupe, the same kind of fruit as a peach or cherry, and every February the orchards bloom in clouds of pink and white.",
+   "ways": [
+    "Snack on a handful of roasted almonds.",
+    "Bake almond cookies or an almond cake.",
+    "Make almond butter in a food processor."
+   ]
+  },
+  "2-16|Do a Grouch a Favor Day": {
+   "story": "Everybody knows a grouch, and some days everybody is one. This day asks you to do something kind for the grumpiest person you know, with no strings attached.\n\nGrumpiness often comes from stress, pain or a bad night's sleep, so a small favor can mean more than it seems. Even Oscar the Grouch, who has lived in his trash can on Sesame Street since 1969, has a soft spot under the scowl.",
+   "ways": [
+    "Bring a coffee to the grumpiest person at work.",
+    "Do a chore someone dreads, without being asked.",
+    "Answer a grumpy comment with a kind one."
+   ]
+  },
+  "2-20|World Day of Social Justice": {
+   "story": "The United Nations General Assembly declared February 20 the World Day of Social Justice in 2007, and it was first observed in 2009. It asks countries and people to work toward fair chances for everyone, whatever their gender, age, race, religion, disability or income.\n\nThe day often focuses on decent work, fair pay and an end to poverty. Social justice starts close to home too, in schools, workplaces and neighborhoods where people make sure no one is left out.",
+   "ways": [
+    "Support a local food bank or shelter.",
+    "Read about a cause you care about and take one action.",
+    "Shop at a local small business today."
+   ]
+  },
+  "2-20|Love Your Pet Day": {
+   "story": "Love Your Pet Day is a day to spoil the animals who share our homes. About two thirds of American households have a pet, most often a dog or a cat, with fish, birds and small animals close behind.\n\nPets give back plenty. Many people say their pets ease stress and loneliness, and dogs get their owners walking every day. A little extra attention, a new toy or a vet checkup is a fair trade.",
+   "ways": [
+    "Take your dog on a longer walk or a new trail.",
+    "Make a simple homemade pet treat.",
+    "Donate food or blankets to a local animal shelter."
+   ]
+  },
+  "2-22|National Margarita Day": {
+   "story": "Several bartenders claim to have invented the margarita, usually in Mexico or along the border in the 1930s or 1940s, and nobody has settled it. Margarita means daisy in Spanish, and an older drink called the daisy mixed liquor, citrus and orange liqueur in much the same way.\n\nThe frozen margarita got a boost in 1971, when Dallas restaurant owner Mariano Martinez adapted a soft serve ice cream machine to make them. His machine is now in the Smithsonian's National Museum of American History.",
+   "ways": [
+    "Mix a classic margarita with tequila, lime and orange liqueur.",
+    "Make a mocktail with lime, orange and sparkling water.",
+    "Try a fruit twist like mango or strawberry."
+   ]
+  },
+  "2-24|National Tortilla Chip Day": {
+   "story": "Tortillas have been made in Mexico for thousands of years, but the bagged tortilla chip is a Los Angeles story. In the 1940s, Rebecca Webb Carranza and her husband ran the El Zarape tortilla factory, and rather than toss misshapen tortillas, she cut them into triangles and fried them.\n\nThe chips were such a hit that she sold them as Tort Chips, and in 1994 she was honored with a Golden Tortilla award. Today tortilla chips are the base for salsa, guacamole and nachos everywhere.",
+   "ways": [
+    "Fry or bake your own chips from corn tortillas.",
+    "Make a fresh salsa or guacamole for dipping.",
+    "Build a big tray of nachos to share."
+   ]
+  },
+  "2-27|National Polar Bear Day": {
+   "story": "Polar Bear Day, also called International Polar Bear Day, is led by Polar Bears International to call attention to the bears and the Arctic sea ice they need. Polar bears hunt seals from the ice, so when it melts earlier in spring, they have less time to feed.\n\nPolar bears are among the largest land carnivores. Their fur looks white, but each hair is clear and hollow, and the skin underneath is black, which helps soak up heat from the sun.",
+   "ways": [
+    "Watch a live polar bear cam from the Arctic.",
+    "Turn your heat down a degree to save energy.",
+    "Read or draw about polar bears with a child."
+   ]
+  },
+  "3-16|National Artichoke Hearts Day": {
+   "story": "The artichoke we eat is the flower bud of a thistle. Left on the plant, it opens into a large purple bloom. The tender heart sits at the base under the fuzzy choke, and the leaves have a little meat at the bottom for scraping with your teeth.\n\nArtichokes were grown around the Mediterranean in ancient times. In the United States nearly all are grown in California, and Castroville calls itself the artichoke center of the world.",
+   "ways": [
+    "Steam a whole artichoke and dip the leaves in butter.",
+    "Make spinach and artichoke dip.",
+    "Add marinated artichoke hearts to a pasta or pizza."
+   ]
+  },
+  "3-16|Freedom of Information Day": {
+   "story": "Freedom of Information Day falls on James Madison's birthday, March 16. Madison, the fourth president and a lead author of the Bill of Rights, argued that a people who mean to govern themselves must arm themselves with knowledge.\n\nThe Freedom of Information Act, signed in 1966, lets anyone ask federal agencies for their records, and states have similar laws. Journalists, researchers and ordinary people use these requests every day to learn how their government works.",
+   "ways": [
+    "Learn how to file a public records request in your state.",
+    "Read a news story that came from a records request.",
+    "Thank a local reporter."
+   ]
+  },
+  "3-17|St. Patricks Day": {
+   "story": "St. Patrick was a Roman Briton taken to Ireland as a slave in the 400s. He escaped, became a priest and returned to spread Christianity, and tradition says he used the three leaved shamrock to explain the Holy Trinity. March 17 is said to be the day he died.\n\nThe feast became a celebration of Irish heritage around the world, and parades grew in America first. Records show a procession in St. Augustine, Florida, in 1601, and New York has held a parade since 1762. Chicago dyes its river green each year.",
+   "ways": [
+    "Wear green and find a parade near you.",
+    "Cook soda bread or bacon and cabbage.",
+    "Listen to traditional Irish music."
+   ]
+  },
+  "3-17|National Corned Beef and Cabbage Day": {
+   "story": "Corned beef gets its name from the large grains of salt, called corns, once used to cure it. Ireland exported plenty of salted beef in the 1600s and 1700s, but most Irish families could not afford it and ate pork and bacon.\n\nIrish immigrants in American cities found beef cheaper and bought corned beef from Jewish delis, cooking it with cabbage as they had cooked bacon at home. The dish became a St. Patrick's Day tradition in America more than in Ireland.",
+   "ways": [
+    "Simmer corned beef and cabbage with potatoes and carrots.",
+    "Turn leftovers into hash or a Reuben.",
+    "Try bacon and cabbage the Irish way."
+   ]
+  },
+  "3-18|National Awkward Moments Day": {
+   "story": "Everyone has them: waving back at someone who was waving at the person behind you, calling a teacher Mom, or a silence that goes on just a bit too long. National Awkward Moments Day invites people to laugh at those moments instead of replaying them at night.\n\nPeople tend to remember their own slips far more than anyone else does, and psychologists call this the spotlight effect. Sharing an embarrassing story usually makes others like us more, because it shows we are human.",
+   "ways": [
+    "Share your most awkward moment with friends.",
+    "Do something a little embarrassing on purpose.",
+    "Watch a comedy built on awkward moments."
+   ]
+  },
+  "3-18|Lacy Oatmeal Cookie Day": {
+   "story": "Lacy oatmeal cookies are thin, crisp rounds full of little holes, made from oats, butter, sugar and very little flour. As they bake, the butter and sugar spread and caramelize, leaving a lacy pattern you can see light through.\n\nThey are related to Florentines and brandy snaps, and bakers sometimes roll them into tubes while warm or sandwich them with chocolate. The trick is to space them far apart on the sheet and let them cool a minute before lifting.",
+   "ways": [
+    "Bake a batch of lacy oatmeal cookies.",
+    "Sandwich two with melted chocolate.",
+    "Shape a few warm cookies into little bowls for ice cream."
+   ]
+  },
+  "3-19|National Poultry Day": {
+   "story": "Chickens were domesticated thousands of years ago in Southeast Asia from the red junglefowl, and they are now the most common bird on Earth, with more than twenty billion alive at any time. Turkeys, ducks, geese and quail are poultry too.\n\nPoultry Day honors the birds and the farmers who raise them. It is a good day to cook a favorite chicken dish, buy eggs from a local farm or learn what keeping backyard hens really takes.",
+   "ways": [
+    "Roast a whole chicken with lemon and herbs.",
+    "Buy eggs from a local farm or market.",
+    "Look into keeping backyard hens."
+   ]
+  },
+  "3-19|National Lets Laugh Day": {
+   "story": "National Let's Laugh Day is a day to find something funny and share it. Laughter is older than language: apes laugh during play, and babies laugh months before they say their first word.\n\nA good laugh relaxes muscles, eases stress and brings people closer, and we are about thirty times more likely to laugh with others than alone. So the best way to celebrate is with company, whether that means a comedy show, an old joke or a story everyone has heard but still loves.",
+   "ways": [
+    "Watch a stand up special with friends.",
+    "Text a friend the funniest thing you saw this week.",
+    "Try a laughter yoga video."
+   ]
+  },
+  "3-23|National Puppy Day": {
+   "story": "National Puppy Day was founded in 2006 by Colleen Paige, an animal welfare advocate, to celebrate puppies and to encourage adoption from shelters and rescues instead of puppy mills.\n\nPuppies are born with their eyes and ears closed and spend most of their first weeks sleeping and eating. Training and socializing in the first months shapes the dog they become, so a new puppy is a joy and a real commitment of time and patience.",
+   "ways": [
+    "Visit a shelter or rescue and meet the puppies.",
+    "Donate food or blankets to an animal shelter.",
+    "Sign up a new puppy for a training class."
+   ]
+  },
+  "3-23|World Meteorological Day": {
+   "story": "World Meteorological Day marks March 23, 1950, when the convention creating the World Meteorological Organization came into force. The WMO, part of the United Nations, connects weather services across the world.\n\nWeather does not stop at borders, so forecasts depend on countries sharing measurements from stations, balloons, ships, buoys and satellites. That cooperation is why forecasts have grown much more accurate and storm warnings come days in advance.",
+   "ways": [
+    "Keep a weather journal for a week.",
+    "Learn to read a weather map.",
+    "Visit a local weather station or science museum."
+   ]
+  },
+  "4-22|Earth Day": {
+   "story": "The first Earth Day, on April 22, 1970, brought about 20 million Americans out to rallies, teach ins and cleanups. It was organized by Senator Gaylord Nelson and activist Denis Hayes, and that same year the Environmental Protection Agency was created.\n\nEarth Day went global in 1990 and is now marked in more than 190 countries. Small actions add up: planting a tree, picking up litter or cutting food waste all help.",
+   "ways": [
+    "Join a park or beach cleanup.",
+    "Plant a tree or a pollinator garden.",
+    "Start composting kitchen scraps."
+   ]
+  },
+  "4-22|National Jelly Bean Day": {
+   "story": "Jelly beans have a soft center and a hard shell built up by panning, a candy coating method that goes back centuries. An 1861 advertisement by Boston candy maker William Schrafft urged people to send them to Union soldiers.\n\nThey became an Easter favorite in the 1930s, likely because of their egg shape. President Ronald Reagan kept a jar on his desk, and Jelly Belly made a blueberry flavor so he could serve red, white and blue beans at his 1981 inauguration.",
+   "ways": [
+    "Make up a new flavor combo by mixing beans.",
+    "Guess the flavor with your eyes closed.",
+    "Fill a jar and have friends guess how many."
+   ]
+  },
+  "4-26|National Pretzel Day": {
+   "story": "Pretzels are one of the oldest snacks in the world. A popular story says monks in Europe made them as rewards for children, shaping the dough like arms crossed in prayer. They were well known in Germany by the 1100s.\n\nGerman immigrants brought pretzels to Pennsylvania, where the Sturgis bakery in Lititz became one of the first commercial pretzel bakeries in America in 1861. Governor Ed Rendell declared National Pretzel Day in 2003.",
+   "ways": [
+    "Bake soft pretzels at home.",
+    "Try a pretzel with mustard or cheese dip.",
+    "Dip pretzel rods in chocolate."
+   ]
+  },
+  "4-26|Hug an Australian Day": {
+   "story": "Hug an Australian Day is a lighthearted day to show some love to the Australians in your life, or to anyone with a soft spot for Australia. It falls the day after Anzac Day, Australia's day of remembrance.\n\nAustralia is the only country that covers a whole continent, and it is home to animals found nowhere else, like kangaroos, koalas, wombats and platypuses. About 80 percent of its plants and mammals live only there.",
+   "ways": [
+    "Send a friendly message to an Australian friend.",
+    "Bake Anzac biscuits with oats and golden syrup.",
+    "Watch a nature film about Australian wildlife."
+   ]
+  },
+  "5-15|International Day of Families": {
+   "story": "The United Nations proclaimed this day in 1993 and first observed it on May 15, 1994, the International Year of the Family. Each year has a theme, from work and care to the effects of city life.\n\nThe word family is left broad on purpose, so that it covers the many ways people live together and look after one another.",
+   "ways": [
+    "Cook one dish from each side of the family.",
+    "Record a grandparent telling one story.",
+    "Start a shared photo album everyone can add to."
+   ]
+  },
+  "5-22|World Biodiversity Day": {
+   "story": "The text of the Convention on Biological Diversity was agreed in Nairobi on May 22, 1992, and the United Nations marks the date as the International Day for Biological Diversity.\n\nBiodiversity means variety at every level, from genes to whole forests. It is not distant: most of the crops people eat rely at least partly on animals to pollinate them.",
+   "ways": [
+    "Photograph three plants or insects and identify them.",
+    "Plant something native to your county.",
+    "Leave a corner of the yard unmown until summer."
+   ]
+  },
+  "6-8|World Oceans Day": {
+   "story": "Canada proposed an oceans day at the Earth Summit in Rio de Janeiro in 1992, and the United Nations recognized June 8 from 2009. The ocean covers about 71 percent of the planet and produces around half of the oxygen made on Earth, most of it by drifting plankton too small to see.\n\nOnly a small share of the sea floor has ever been seen directly. We have sharper maps of the surface of Mars.",
+   "ways": [
+    "Join a shore or river cleanup; rivers lead to the sea.",
+    "Choose seafood with a sustainability guide open on your phone.",
+    "Skip sunscreen sprays at the beach in favor of a shirt and shade."
+   ]
+  },
+  "6-14|Flag Day": {
+   "story": "On June 14, 1777, the Continental Congress resolved that the flag be thirteen stripes, alternate red and white, with thirteen stars in a blue field. It did not say how the stars should be arranged, so early flags vary.\n\nWisconsin teacher Bernard Cigrand held a flag birthday in his classroom in 1885 and spent years campaigning for the day. President Wilson proclaimed it in 1916 and Congress made it National Flag Day in 1949. The design with fifty stars began as a high school project by Robert Heft of Ohio.",
+   "ways": [
+    "Learn the triangle fold.",
+    "Retire a worn flag through a local veterans post.",
+    "Count the stars in an old photograph to date it."
+   ]
+  },
+  "6-19|Juneteenth": {
+   "story": "On June 19, 1865, Union General Gordon Granger arrived in Galveston, Texas, and announced that enslaved people there were free. The Emancipation Proclamation had been in force for two and a half years, but it had reached Texas only with the Union army. Freed families marked the date the very next year, and Juneteenth has been celebrated ever since.\n\nTexas made it a state holiday in 1980, and it became a federal holiday in 2021. Red food and drink, from strawberry soda to red velvet cake, are a long tradition at Juneteenth tables.",
+   "ways": [
+    "Read General Order No. 3 aloud; it is only a few sentences long.",
+    "Visit a local parade, cookout or museum program.",
+    "Buy from a Black owned business in your town."
+   ]
+  },
+  "7-4|Independence Day": {
+   "story": "The Continental Congress voted for independence on July 2, 1776, and adopted the wording of the Declaration two days later. John Adams expected Americans to celebrate the second. Most delegates did not sign the parchment copy until August 2.\n\nPhiladelphia set off fireworks for the first anniversary in 1777. Adams and Thomas Jefferson both died on July 4, 1826, the fiftieth anniversary, a coincidence that astonished the country.",
+   "ways": [
+    "Read the Declaration's second paragraph out loud before dinner.",
+    "Watch fireworks from farther back than usual; the view is wider and the sound gentler.",
+    "Keep pets indoors with a fan or steady noise running."
+   ]
+  },
+  "7-20|National Moon Day": {
+   "story": "On July 20, 1969, Neil Armstrong and Buzz Aldrin landed the lunar module Eagle in the Sea of Tranquility while Michael Collins orbited above. They spent a little over two and a half hours walking on the surface and brought home 47.5 pounds of rock and soil.\n\nPresident Nixon proclaimed a National Moon Landing Day in 1971. The footprints are probably still there, since there is no wind or rain to wear them away.",
+   "ways": [
+    "Find the Sea of Tranquility: the dark patch right of center on a full moon.",
+    "Listen to the landing audio; the last four minutes are gripping.",
+    "Sketch the moon at the same time three nights running."
+   ]
+  },
+  "8-13|International Left Handers Day": {
+   "story": "Dean R. Campbell started the day in 1976 for left handed people, who make up about one in ten of us. The share has stayed near that level for thousands of years, judging by hand stencils on cave walls.\n\nScissors, spiral notebooks, can openers and power saws are all built the other way. In some sports being left handed is an edge, because opponents get so little practice against it.",
+   "ways": [
+    "Use your other hand for everything until lunch.",
+    "Buy the lefty in your life true left handed scissors.",
+    "Set their place at the left end of the table."
+   ]
+  },
+  "9-19|Talk Like a Pirate Day": {
+   "story": "John Baur and Mark Summers, two friends in Oregon, invented the day during a racquetball game in 1995. It stayed a private joke until humor columnist Dave Barry wrote about it in 2002.\n\nReal pirates did not talk this way. The accent comes largely from Robert Newton, the actor from England's West Country who played Long John Silver in the 1950 film Treasure Island.",
+   "ways": [
+    "Say aye instead of yes until sunset.",
+    "Draw a treasure map of your own street.",
+    "Name your boat, car or bicycle."
+   ]
+  },
+  "10-4|National Cinnamon Roll Day": {
+   "story": "Sweden has had a day for its cinnamon bun, the kanelbulle, every October 4 since 1999, when the Home Baking Council created it to mark its fortieth year. The American roll is a softer, sweeter cousin, usually under a layer of icing.\n\nSwedish dough carries cardamom as well as cinnamon, and the buns are knotted or coiled and topped with pearl sugar.",
+   "ways": [
+    "Add a teaspoon of ground cardamom to your dough.",
+    "Cut the rolls with plain dental floss for clean edges.",
+    "Invite a friend for fika, a coffee break with something sweet."
+   ]
+  },
+  "10-4|World Animal Day": {
+   "story": "World Animal Day was first held in Berlin in 1925, organized by the writer Heinrich Zimmermann. It later settled on October 4, the feast day of Saint Francis of Assisi, who is remembered for his care for animals.\n\nChurches in many countries hold a blessing of the animals around this date, with dogs, cats and the occasional goat or horse in line.",
+   "ways": [
+    "Ask your local shelter what it is short of; it is often towels.",
+    "Put a shallow dish of fresh water out for birds.",
+    "Check that your pet's microchip has your current phone number."
+   ]
+  },
+  "10-6|National Noodle Day": {
+   "story": "The oldest noodles yet found were in an overturned bowl at Lajia in northwest China. They were about 4,000 years old, made from millet, and still long and thin.\n\nNearly every cuisine arrived at the same idea: flour and water, stretched or cut. Alkaline water gives ramen its spring and yellow color; egg gives many Italian noodles theirs.",
+   "ways": [
+    "Salt the water until it tastes pleasantly seasoned.",
+    "Save a cup of the cooking water for the sauce.",
+    "Slurp; in Japan it is perfectly polite."
+   ]
+  },
+  "10-6|Mad Hatter Day": {
+   "story": "The date is printed on the hat. In John Tenniel's drawings for Alice's Adventures in Wonderland, the Hatter wears a slip reading In this Style 10/6, a price of ten shillings and sixpence. Read as an American date, that is October 6.\n\nThe day began in Boulder, Colorado in 1986 among people working with computers, as an excuse for a second foolish day in the year.",
+   "ways": [
+    "Wear a hat all day and offer no explanation.",
+    "Hold a tea party where everyone moves one seat along each hour.",
+    "Read the tea party chapter; it takes about fifteen minutes."
+   ]
+  },
+  "10-13|International Day for Failure": {
+   "story": "The day was started in 2010 by students at Aalto University in Finland, who thought fear of failing was stopping people from trying to build things. It spread through schools and companies that share what went wrong and what they learned.\n\nThe point is not that failing is good. It is that a failure talked about openly costs the next person less.",
+   "ways": [
+    "Tell one story of something that flopped.",
+    "Try the hobby you quit because you were bad at it.",
+    "Thank someone who helped you recover."
+   ]
+  },
+  "10-31|Halloween": {
+   "story": "Halloween grew out of Samhain, the Celtic festival that closed the harvest and opened winter, and out of the evening before All Saints' Day, All Hallows' Eve. The name Halloween is that phrase worn down by use.\n\nThe carved lantern came with Irish and Scottish custom, where turnips did the job. Pumpkins, larger and softer, took over in North America.",
+   "ways": [
+    "Carve from the bottom so the lid never falls in.",
+    "Roast the seeds with salt while the carving is going on.",
+    "Leave a porch light on only while you have candy, so kids know where to knock."
+   ]
+  },
+  "11-2|National Deviled Egg Day": {
+   "story": "Stuffed eggs go back to ancient Rome, where boiled eggs were served with spicy sauces. The word deviled arrived in the 1700s in England for food made hot with pepper or mustard.\n\nMayonnaise only joined the filling in the late 1800s. Eggs a week or so old peel more cleanly than very fresh ones, because the membrane loosens as the egg ages.",
+   "ways": [
+    "Steam the eggs instead of boiling them for easier peeling.",
+    "Try a spoon of pickle brine in the filling.",
+    "Bring a dozen to a neighbor; nobody turns them down."
+   ]
+  },
+  "11-11|Veterans Day": {
+   "story": "The fighting of the First World War stopped at the eleventh hour of the eleventh day of the eleventh month in 1918. The date was kept as Armistice Day until 1954, when Congress renamed it Veterans Day to honor everyone who has served in the US armed forces.\n\nIt is not the same as Memorial Day, which remembers those who died in service. In 1971 the holiday was moved to a Monday in October; the change was so unpopular that it returned to November 11 in 1978. There is no apostrophe: the day belongs to all veterans.",
+   "ways": [
+    "Call a veteran you know and ask about the people they served with.",
+    "Write down a family member's service story while you can still ask.",
+    "Pause for a minute at 11 in the morning."
+   ]
+  },
+  "11-14|National Pickle Day": {
+   "story": "Pickling is one of the oldest ways to keep food, with roots thousands of years back in Mesopotamia. Salt water or vinegar makes the jar too sour for most spoilage, and the cucumber keeps its crunch for months.\n\nTwo methods share one name. Fermented pickles sour slowly in brine as friendly bacteria go to work; quick pickles get their bite from vinegar and are ready the next day.",
+   "ways": [
+    "Slice cucumbers into hot vinegar, salt and dill tonight and eat them tomorrow.",
+    "Save the brine for a marinade.",
+    "Taste a half sour next to a full sour."
+   ]
+  },
+  "11-14|World Diabetes Day": {
+   "story": "November 14 is the birthday of Frederick Banting, who with Charles Best first isolated insulin in Toronto in 1921. The International Diabetes Federation and the World Health Organization created the day in 1991, and the United Nations adopted it in 2006.\n\nIts symbol is a plain blue circle. Before insulin, type 1 diabetes was almost always fatal within a few years; the first patient, Leonard Thompson, was treated in January 1922.",
+   "ways": [
+    "Learn the early signs: thirst, frequent urination, tiredness and weight loss.",
+    "Ask at your next checkup whether a blood sugar test makes sense for you.",
+    "Wear something blue."
+   ]
+  },
+  "11-15|National Bundt Cake Day": {
+   "story": "H. David Dalquist of Nordic Ware made the first aluminum Bundt pan in Minnesota around 1950, after a group of women asked him for a lighter version of a European ceramic mold. It sold slowly for years.\n\nThen, in 1966, a Tunnel of Fudge cake baked in one placed second in the Pillsbury Bake Off, and the pan became a kitchen staple. The hole is practical: it lets heat reach the center so a dense cake bakes evenly.",
+   "ways": [
+    "Butter every groove, then dust with sugar instead of flour.",
+    "Wait ten minutes before turning the cake out.",
+    "Mail a slice of memory: send someone the recipe."
+   ]
+  },
+  "11-15|America Recycles Day": {
+   "story": "America Recycles Day began in 1997 to get people sorting more of what they throw away, and the White House has recognized it by proclamation. Aluminum is the great success of the bin, since it can be melted and remade again and again.\n\nThe most common mistake is hopeful recycling: greasy boxes, plastic bags and hoses that jam the sorting machines. An item that does not belong can spoil a whole load of things that do.",
+   "ways": [
+    "Look up what your own town accepts; the rules differ street to street.",
+    "Take plastic bags back to a grocery store bin.",
+    "Rinse jars; a quick swirl is enough."
+   ]
+  },
+  "11-16|National Fast Food Day": {
+   "story": "White Castle, which opened in Wichita in 1921, is usually counted as the first hamburger chain. It sold small square burgers for a nickel and kept its buildings gleaming white to show they were clean.\n\nDrive through windows came later. The idea of preparing food on an assembly line, with one job per person, is what made the food fast.",
+   "ways": [
+    "Order the thing you never order.",
+    "Try making smash burgers at home: hot pan, thin patty, hard press.",
+    "Tip the crew or leave a kind word with the manager."
+   ]
+  },
+  "11-16|International Day for Tolerance": {
+   "story": "UNESCO's members signed a Declaration of Principles on Tolerance on November 16, 1995, the fiftieth anniversary of the organization's constitution. The United Nations made the date a yearly observance the following year.\n\nThe declaration is careful with the word. Tolerance, it says, is not giving in or looking away; it is respect for the variety of the world's cultures and ways of being human.",
+   "ways": [
+    "Ask someone about a holiday you do not celebrate.",
+    "Read a book in translation.",
+    "Listen to the end of an argument you disagree with."
+   ]
+  },
+  "11-18|National Vichyssoise Day": {
+   "story": "Vichyssoise is a cold purée of leeks, potatoes and cream, and despite its French name it is best known from New York. Louis Diat, chef at the Ritz Carlton, said he based it on the hot soup of his childhood, which he and his brother cooled with milk in summer.\n\nHe named it after Vichy, a spa town near his home. The final s sound is pronounced: vee shee swahz.",
+   "ways": [
+    "Make it the night before, since cold soup needs time for flavor.",
+    "Season again after chilling; cold dulls salt.",
+    "Serve it hot and call it leek and potato."
+   ]
+  },
+  "11-18|National Apple Cider Day": {
+   "story": "In the United States cider usually means fresh, unfiltered apple juice; in most of the world it means a fermented drink. Colonists drank the hard kind daily, and many early American orchards were planted for pressing rather than eating.\n\nThe brown color is oxygen at work on the pressed fruit, the same thing that happens to a sliced apple on the counter.",
+   "ways": [
+    "Warm a pot with cinnamon sticks and orange peel.",
+    "Reduce a quart to a syrup for pancakes.",
+    "Visit a press while they are still running."
+   ]
+  },
+  "11-19|World Toilet Day": {
+   "story": "Jack Sim founded the World Toilet Organization in Singapore on November 19, 2001, and the United Nations made the date official in 2013. The name makes people laugh, which is part of the plan: it is easier to talk about after that.\n\nBillions of people still live without safely managed sanitation. Toilets keep waste out of drinking water, and at school they decide whether many girls can stay in class.",
+   "ways": [
+    "Read how your own town treats its wastewater.",
+    "Give to a group that builds school toilets.",
+    "Fix the one that runs; a steady leak can waste hundreds of gallons a day."
+   ]
+  },
+  "11-20|Universal Childrens Day": {
+   "story": "November 20 is a date the United Nations chose with care. The UN adopted the Declaration of the Rights of the Child on this day in 1959, and thirty years later, in 1989, it adopted the Convention on the Rights of the Child on the same date. The day asks adults everywhere to listen to children and protect their chances to learn, play and grow up safe.\n\nThe Convention became the most widely ratified human rights treaty in history. It treats children as people with their own rights, including the right to be heard on matters that affect them.",
+   "ways": [
+    "Ask a child what would make their school better.",
+    "Donate books or school supplies to a local drive.",
+    "Read a picture book about kindness together."
+   ]
+  },
+  "11-20|National Peanut Butter Fudge Day": {
+   "story": "Nobody is sure who first put this day on the calendar, but it celebrates a very American candy. Fudge itself shows up in the 1880s, and one of the best known early accounts comes from a Vassar College student who wrote about making it in 1888. Peanut butter fudge followed once jars of peanut butter became a pantry staple.\n\nFudge is all about sugar crystals. Stir it at the right moment as it cools and you get tiny crystals and a smooth bite. Stir too early and the crystals grow large and the fudge turns grainy.",
+   "ways": [
+    "Make a small batch of peanut butter fudge.",
+    "Gift a few squares to a neighbor.",
+    "Try swirling chocolate into the top layer."
+   ]
+  },
+  "11-21|National Stuffing Day": {
+   "story": "Nobody is sure who started National Stuffing Day, but its timing is no mystery: it lands right before Thanksgiving, when stuffing claims its spot on millions of plates. Whether you call it stuffing or dressing often depends on where you grew up, and some cooks use the words to mean baked inside the bird or baked in a pan.\n\nRegional versions say a lot about a place. The South leans on cornbread, New England cooks may add oysters, and many families add sausage, chestnuts or apples. Day old bread works best because dry bread soaks up broth without turning to mush.",
+   "ways": [
+    "Bake a pan of stuffing with a new mix in.",
+    "Call a relative and ask for their stuffing recipe.",
+    "Turn leftover bread into croutons or stuffing."
+   ]
+  },
+  "11-21|World Hello Day": {
+   "story": "World Hello Day was started in 1973 by two brothers, Brian and Michael McCormack, as a response to the conflict in the Middle East that year. Their idea was simple: if leaders and ordinary people talk to each other, conflicts are easier to resolve. They asked people to greet ten others on the day as a small act for peace.\n\nThe idea spread through letters, and over the years many well known figures, including Nobel Peace Prize winners, sent messages of support. The day is a reminder that a single word can open a door between strangers.",
+   "ways": [
+    "Say hello to ten people today.",
+    "Learn how to say hello in a new language.",
+    "Message a friend you have not talked to lately."
+   ]
+  },
+  "11-22|National Cranberry Relish Day": {
+   "story": "Nobody knows for sure who created National Cranberry Relish Day, but it sits right where it belongs, just before Thanksgiving. Unlike cooked cranberry sauce, many relish recipes use raw cranberries chopped with orange, sugar and sometimes nuts, which keeps the flavor bright and sharp.\n\nCranberries grow on low vines in sandy bogs. At harvest many farmers flood the bogs, shake the berries loose and let them float, since pockets of air inside each berry keep it buoyant. Those air pockets also make fresh cranberries bounce, which growers have long used to sort good berries from soft ones.",
+   "ways": [
+    "Make a raw cranberry orange relish.",
+    "Spoon cranberry relish onto a turkey sandwich.",
+    "Drop a fresh cranberry and watch it bounce."
+   ]
+  },
+  "11-22|Go for a Ride Day": {
+   "story": "Nobody is sure who started Go for a Ride Day, and that seems fitting for a day with no destination. The idea is simply to take a ride for the joy of it, whether in a car, on a bike, on a train or on a horse, and notice the world going by.\n\nA ride with no errand attached has a long history. In the early days of the automobile, a Sunday drive was a popular outing in itself. Today a slow ride on a back road or a bike path can be a cheap way to clear your head.",
+   "ways": [
+    "Take a scenic drive with a good playlist.",
+    "Ride a bike around a park or trail.",
+    "Hop on a local bus or train somewhere new."
+   ]
+  },
+  "11-23|National Cashew Day": {
+   "story": "Nobody is sure who started National Cashew Day, but the cashew has a long journey behind it. The cashew tree is native to northeastern Brazil, and Portuguese traders carried it to India and East Africa in the 1500s. Those regions became some of the world's biggest growers.\n\nYou will never see cashews sold in their shells, and there is a good reason. The shell holds an irritating oil related to the one found in poison ivy, so the nuts are roasted or steamed and carefully shelled before they reach a store. The fruit they hang from, the cashew apple, is eaten too.",
+   "ways": [
+    "Toast cashews with a pinch of salt and spice.",
+    "Stir cashews into a vegetable stir fry.",
+    "Blend soaked cashews into a creamy pasta sauce."
+   ]
+  },
+  "11-23|National Espresso Day": {
+   "story": "Nobody is sure who first named National Espresso Day, but the drink's own history is well documented. Luigi Bezzera of Milan patented an early espresso machine in 1901, and in the years that followed Italian makers kept improving it. Machines that used a spring lever to push water through coffee at high pressure helped create the layer of foam called crema.\n\nA shot of espresso is small, but it is the base for many drinks, from a cappuccino to a latte to a macchiato. In Italy it is often drunk standing at a bar, in a couple of sips.",
+   "ways": [
+    "Pull a shot or brew strong coffee at home.",
+    "Try a cappuccino and a macchiato side by side.",
+    "Visit a local cafe you have never tried."
+   ]
+  },
+  "11-24|National Sardines Day": {
+   "story": "Nobody is sure who started National Sardines Day. The word sardine is not one single species. It is a name given to several small, oily fish in the herring family that swim in large schools and are often packed tightly in tins, which is where the phrase packed like sardines comes from.\n\nCanning sardines was once a major industry along the coast of Maine, with dozens of canneries. The last one in the United States, in Prospect Harbor, Maine, closed in 2010. Sardines are still popular across Portugal and Spain, where they are often grilled whole.",
+   "ways": [
+    "Mash sardines on toast with lemon and pepper.",
+    "Grill fresh sardines if your market has them.",
+    "Toss tinned sardines into a simple pasta."
+   ]
+  },
+  "11-24|Celebrate Your Unique Talent Day": {
+   "story": "Nobody is sure who created Celebrate Your Unique Talent Day, but its message is easy to like. Everyone has something they do well, whether it is whistling, baking, fixing bikes, drawing or making people laugh. The day invites you to share that skill instead of keeping it to yourself.\n\nTalents are rarely fixed at birth. Most skills grow through practice, and many people discover a talent only after trying something new. A talent does not have to be useful or impressive to be worth celebrating. Sometimes the odd little skill is the one people remember most about you.",
+   "ways": [
+    "Show a friend a skill they have never seen.",
+    "Teach someone one thing you are good at.",
+    "Try a beginner class in something new."
+   ]
+  },
+  "11-25|National Parfait Day": {
+   "story": "Nobody is sure who first marked National Parfait Day. The parfait began in France as a frozen dessert, but in the United States the word came to mean something different: a tall glass filled with layers of ice cream, fruit, syrup and whipped cream. Today it most often means yogurt, granola and berries.\n\nPart of the charm of a parfait is the glass itself. Clear sides show off every layer, so it is a dessert built to be looked at before it is eaten. The layers also mean each spoonful tastes a little different from the last.",
+   "ways": [
+    "Layer yogurt, granola and berries in a glass.",
+    "Make a frozen parfait the classic French way.",
+    "Build a parfait bar for breakfast with family."
+   ]
+  },
+  "11-26|National Cake Day": {
+   "story": "Nobody is sure who started National Cake Day, but few foods are tied to as many happy moments. Cakes mark birthdays, weddings, graduations and holidays in cultures all over the world, from layered sponges to dense pound cakes to cheesecakes.\n\nMany cakes we know today owe their light texture to chemical leaveners. Before baking powder and baking soda were common in the 1800s, bakers relied on yeast or on beating eggs for a long time to trap air. That is one reason older cake recipes can read like a workout, with instructions to beat the batter for an hour.",
+   "ways": [
+    "Bake a simple cake from scratch.",
+    "Bring a slice to a coworker or neighbor.",
+    "Try a cake style from another country."
+   ]
+  },
+  "11-27|National Bavarian Cream Pie Day": {
+   "story": "Nobody is sure who started National Bavarian Cream Pie Day. Bavarian cream is a rich custard set with gelatin and lightened with whipped cream, and the classic dessert was usually shaped in a mold. Over time cooks began spooning it into a pie crust instead.\n\nThe cream gets its silky texture from careful cooking. The custard base of egg yolks, milk and sugar is heated gently so the eggs thicken without scrambling, then cooled before the whipped cream is folded in. A Bavarian cream pie is often topped with fruit or chocolate, and it is served cold.",
+   "ways": [
+    "Make a Bavarian cream pie with fresh berries.",
+    "Practice folding whipped cream into custard.",
+    "Share a slice with someone after dinner."
+   ]
+  },
+  "11-27|National Craft Jerky Day": {
+   "story": "Nobody is sure who first named National Craft Jerky Day, but it celebrates small batch makers who dry meat with their own marinades and smoke. Drying meat is one of the oldest ways people have kept food from spoiling, long before refrigerators existed.\n\nJerky works because removing water stops bacteria from growing. Lean cuts are sliced thin, often against the grain for a tender chew, then seasoned and dried slowly at low heat. Fat goes rancid faster than lean meat, which is why good jerky starts with very lean cuts. Mushrooms and other plants can be made into jerky too.",
+   "ways": [
+    "Make beef jerky in your oven.",
+    "Try a jerky from a local small maker.",
+    "Pack jerky for a hike or road trip."
+   ]
+  },
+  "11-28|Red Planet Day": {
+   "story": "Red Planet Day marks November 28, 1964, when NASA launched Mariner 4 toward Mars. The spacecraft flew past the planet in July 1965 and sent back the first close up pictures of another planet ever taken from space. The grainy images showed a cratered surface and changed how people imagined Mars.\n\nSince then many orbiters, landers and rovers have studied Mars. It has the tallest known volcano in the solar system, Olympus Mons, and a huge canyon system called Valles Marineris. Mars also has two small moons, Phobos and Deimos.",
+   "ways": [
+    "Find Mars in the night sky tonight.",
+    "Look at real rover photos from Mars.",
+    "Watch a documentary about Mars exploration."
+   ]
+  },
+  "11-29|National Chocolates Day": {
+   "story": "Nobody is sure who created National Chocolates Day, but chocolate has a long history. The cacao tree's scientific name is Theobroma cacao, and Theobroma means food of the gods in Greek. For most of its history chocolate was a drink. In 1847 the Fry company in Bristol, England, made one of the first solid chocolate bars for eating.\n\nChocolate starts as bitter seeds inside a cacao pod. The seeds are fermented, dried, roasted and ground before they taste like chocolate at all. Dark, milk and white chocolate differ in how much cocoa solids, milk and cocoa butter they contain.",
+   "ways": [
+    "Hold a chocolate tasting with three kinds.",
+    "Make chocolate bark with nuts and fruit.",
+    "Gift a few chocolates to someone you love."
+   ]
+  },
+  "11-29|Square Dance Day": {
+   "story": "Nobody is sure who first named Square Dance Day. Square dancing grew out of European dances such as the quadrille and English country dances, which settlers brought to America. Over time a caller became the star of the show, calling out moves so dancers did not need to memorize a routine.\n\nA square is made of four couples facing the center. Dancers follow calls such as allemande left and promenade, and a good caller can mix moves on the fly. Modern square dancing uses standard lists of calls, so dancers who learn them can join a dance almost anywhere.",
+   "ways": [
+    "Find a beginner square dance night.",
+    "Learn three basic calls with a partner.",
+    "Play fiddle music and dance in the kitchen."
+   ]
+  },
+  "11-30|National Mousse Day": {
+   "story": "Nobody is sure who first named National Mousse Day. Mousse is a French dish whose light texture comes from air folded into a base. Most dessert mousses use whipped egg whites, whipped cream or both, gently mixed into melted chocolate or a fruit puree.\n\nMousse is not only for dessert. French cooks also make savory versions with salmon, ham or chicken liver. The key in every mousse is folding, a slow lifting motion with a spatula that mixes ingredients without knocking out the bubbles. Rush the folding and the mousse turns dense instead of airy.",
+   "ways": [
+    "Make chocolate mousse from scratch.",
+    "Try a savory salmon mousse on crackers.",
+    "Practice folding egg whites without losing air."
+   ]
+  },
+  "11-30|Computer Security Day": {
+   "story": "Computer Security Day was started in 1988 by the Washington, D.C. chapter of the Association for Computing Machinery's special interest group on security. They chose a date near the end of the year so people would think about protecting their devices during the busy holiday season.\n\nMost security problems are less dramatic than movie hacking. Reused passwords, ignored updates and convincing phishing messages cause much of the trouble. Simple habits help a lot: unique passwords stored in a password manager, two step verification on important accounts, regular backups and a moment of doubt before clicking a link.",
+   "ways": [
+    "Turn on two step verification for email.",
+    "Install pending updates on every device.",
+    "Back up your photos and important files."
+   ]
+  },
+  "12-1|World AIDS Day": {
+   "story": "World AIDS Day was conceived in 1987 by James Bunn and Thomas Netter, two public information officers at the World Health Organization, and it was first observed on December 1, 1988. It is a day to remember the millions of people who have died of AIDS related illnesses and to stand with the people living with HIV today.\n\nThe red ribbon became its symbol in 1991, when a group of artists working with the New York arts organization Visual AIDS created it as a sign of awareness and compassion. Today, with testing and treatment, people living with HIV can lead long, healthy lives.",
+   "ways": [
+    "Get tested for HIV or help someone find testing.",
+    "Wear a red ribbon and share why.",
+    "Donate to a local HIV support organization."
+   ]
+  },
+  "12-1|National Pie Day": {
+   "story": "Nobody is sure who started this December pie day, and it is not the only one; another National Pie Day falls in January. Either way, pie has fed people for centuries. Early pies in medieval Europe often had thick crusts that served mainly as a container for cooking and carrying meat.\n\nThe flaky crust most people love today comes from cold fat. Small pieces of butter or shortening stay solid in the dough, then melt in the oven and release steam that pushes the layers apart. That is why many bakers chill their dough and even their tools before rolling.",
+   "ways": [
+    "Bake a fruit pie or a savory pot pie.",
+    "Share pie with a neighbor or coworker.",
+    "Learn to make an all butter crust."
+   ]
+  },
+  "12-2|National Fritters Day": {
+   "story": "Nobody is sure who started National Fritters Day. A fritter is simply a piece of food, often fruit, vegetables or seafood, coated or mixed in batter and fried. Nearly every cuisine has one: corn fritters in the American South, pakoras in India, buñuelos in Spain and Latin America, and conch fritters in the Bahamas.\n\nThe trick to a crisp fritter is hot oil. If the oil is too cool, the batter soaks it up and turns greasy. If it is too hot, the outside burns before the middle cooks. Many cooks drop in a little batter first to test the temperature.",
+   "ways": [
+    "Fry apple fritters for a weekend breakfast.",
+    "Turn leftover vegetables into crispy fritters.",
+    "Try a fritter from another cuisine."
+   ]
+  },
+  "12-2|International Day for the Abolition of Slavery": {
+   "story": "The United Nations marks this day on December 2 because the General Assembly adopted the Convention for the Suppression of the Traffic in Persons and of the Exploitation of the Prostitution of Others on that date in 1949. The day focuses on ending slavery in all its modern forms.\n\nModern slavery is often hidden. It includes forced labor, debt bondage, forced marriage and human trafficking, and it can be found in farms, factories, fishing boats and private homes. Learning the warning signs and supporting groups that help survivors are ways ordinary people can make a difference.",
+   "ways": [
+    "Learn the warning signs of human trafficking.",
+    "Support an organization that helps survivors.",
+    "Read a survivor's story or watch a documentary."
+   ]
+  },
+  "12-3|National Peppermint Latte Day": {
+   "story": "Nobody is sure who started National Peppermint Latte Day, but it arrives right when peppermint flavors fill cafes and kitchens for the holidays. A peppermint latte is espresso and steamed milk with peppermint syrup, often topped with whipped cream or chocolate shavings.\n\nPeppermint feels cool for a scientific reason. Menthol, a compound in peppermint oil, activates the same nerve receptors in your mouth that sense cold, so your brain reads it as chilly even in a hot drink. That cool and warm contrast is a big part of why the flavor feels so festive in winter.",
+   "ways": [
+    "Make peppermint syrup for homemade lattes.",
+    "Crush candy canes over whipped cream.",
+    "Bring a warm drink to a friend."
+   ]
+  },
+  "12-3|International Day of Persons with Disabilities": {
+   "story": "The United Nations General Assembly proclaimed this day in 1992 to promote the rights and well being of people with disabilities in every part of society, from schools and jobs to politics and culture. Each year it focuses on a theme about inclusion.\n\nThe day connects to the UN Convention on the Rights of Persons with Disabilities, adopted in 2006. The Convention shifted the focus away from seeing disability only as a medical issue and toward removing the barriers in buildings, technology and attitudes that keep people from taking part fully in everyday life.",
+   "ways": [
+    "Learn the basics of making documents accessible.",
+    "Support a business owned by a disabled person.",
+    "Learn a few signs in your local sign language."
+   ]
+  },
+  "12-4|National Cookie Day": {
+   "story": "Nobody is sure who started National Cookie Day, though several stories claim it. Whatever its origin, it lands right at the start of holiday baking season, when cookie swaps and decorated sugar cookies fill kitchens.\n\nThe chocolate chip cookie, one of the most popular in the United States, dates to the 1930s. Ruth Wakefield, who ran an inn in Whitman, Massachusetts, added chopped chocolate to a cookie dough, and the recipe spread quickly. Small changes matter in cookies: more brown sugar makes them chewy, while more white sugar makes them crisp.",
+   "ways": [
+    "Bake a batch of chocolate chip cookies.",
+    "Host a small cookie swap with friends.",
+    "Drop cookies off for a neighbor or nurse."
+   ]
+  },
+  "12-4|Wildlife Conservation Day": {
+   "story": "Wildlife Conservation Day was first marked on December 4, 2012, when the United States State Department, led by Secretary of State Hillary Clinton, launched a campaign against wildlife trafficking. People around the world were invited to sign a pledge not to buy illegal wildlife products.\n\nPoaching threatens animals such as elephants, rhinos, tigers and pangolins, which are hunted for ivory, horns, skins and scales. Conservation work today includes protecting habitats, training rangers and reducing demand for illegal products. Choosing souvenirs carefully when you travel is one simple way to help.",
+   "ways": [
+    "Adopt an animal through a wildlife charity.",
+    "Learn which souvenirs come from protected species.",
+    "Visit a local nature preserve or sanctuary."
+   ]
+  },
+  "12-5|National Sacher Torte Day": {
+   "story": "Nobody is sure who started National Sacher Torte Day, but the cake itself is a point of pride in Vienna. A Sacher torte is a dense chocolate cake with a thin layer of apricot jam, covered in a dark chocolate glaze and usually served with unsweetened whipped cream.\n\nThe cake once sparked a long legal fight. Hotel Sacher and the Viennese bakery Demel both claimed the right to sell the original. After years of dispute, the two sides reached a settlement in 1963 that let the hotel call its cake the original, while Demel sells its own version under a different seal.",
+   "ways": [
+    "Bake a Sacher torte with apricot jam.",
+    "Serve chocolate cake with unsweetened whipped cream.",
+    "Try a Viennese coffee drink with dessert."
+   ]
+  },
+  "12-5|International Volunteer Day": {
+   "story": "The United Nations General Assembly created International Volunteer Day in 1985 to thank volunteers and encourage more people to give their time. Volunteers help in disaster relief, health care, education, the environment and countless local causes.\n\nVolunteering is not only good for communities. Many people say it gives them a sense of purpose and new friendships, and it is a way to learn skills for a future job. You do not need much time to start. Even a single afternoon at a food bank, an animal shelter or a park cleanup makes a real difference.",
+   "ways": [
+    "Sign up for one volunteer shift this month.",
+    "Help an elderly neighbor with errands.",
+    "Thank a volunteer who has helped you."
+   ]
+  },
+  "12-6|National Gazpacho Day": {
+   "story": "Nobody is sure why National Gazpacho Day landed in December, when a cold soup seems out of season. Gazpacho comes from Andalusia in southern Spain, where it is a summer staple. The early versions were bread, garlic, olive oil, vinegar and water, long before tomatoes arrived from the Americas.\n\nToday most people know the red version, blended with ripe tomatoes, cucumber and peppers. Spain has other cold soups too, such as salmorejo, a thicker tomato and bread soup from Córdoba, and ajo blanco, a white soup made with almonds and garlic.",
+   "ways": [
+    "Blend a quick gazpacho with canned tomatoes.",
+    "Try ajo blanco, the white almond soup.",
+    "Serve gazpacho in small glasses as a starter."
+   ]
+  },
+  "12-6|St. Nicholas Day": {
+   "story": "St. Nicholas was a bishop of Myra, in what is now Turkey, in the fourth century. December 6 is traditionally said to be the day he died, and it became his feast day. Stories about him focus on secret generosity, especially one legend in which he quietly provided dowries for three poor sisters.\n\nHe became one of the most popular saints in Europe, the patron of children and sailors. In the Netherlands he is Sinterklaas, and Dutch settlers carried that tradition to New York. Over time Sinterklaas helped inspire the American figure of Santa Claus.",
+   "ways": [
+    "Leave small treats in someone's shoes tonight.",
+    "Do one secret good deed today.",
+    "Read the legend of St. Nicholas with kids."
+   ]
+  },
+  "12-7|National Cotton Candy Day": {
+   "story": "Nobody is sure who started National Cotton Candy Day. Cotton candy became famous at the 1904 World's Fair in St. Louis, where its inventors sold it as Fairy Floss and sold thousands of boxes. The name cotton candy caught on later in the United States, while Australians still call it fairy floss and the British call it candy floss.\n\nThe machine is simple and clever. A spinning head melts sugar and flings it through tiny holes, where it cools instantly into threads thinner than a hair. A cone of cotton candy is mostly air with a small amount of sugar.",
+   "ways": [
+    "Get cotton candy at a local fair or arcade.",
+    "Look up how a cotton candy machine works.",
+    "Try cotton candy flavored hot chocolate."
+   ]
+  },
+  "12-7|National Pearl Harbor Remembrance Day": {
+   "story": "On the morning of December 7, 1941, Japanese forces attacked the United States Pacific Fleet at Pearl Harbor, Hawaii. The next day the United States declared war on Japan. In 1994 Congress designated December 7 each year as National Pearl Harbor Remembrance Day, and flags fly at half staff.\n\nThe USS Arizona Memorial stands above the sunken battleship, where 1,177 of its crew were killed. Many of them remain inside the ship. Survivors and families have gathered at Pearl Harbor year after year to remember those who were lost, and visitors from around the world come to pay their respects.",
+   "ways": [
+    "Observe a moment of silence for those lost.",
+    "Read a survivor's account of December 7, 1941.",
+    "Thank a veteran or visit a memorial."
+   ]
+  },
+  "12-8|National Brownie Day": {
+   "story": "Nobody is sure who started National Brownie Day, and the brownie's own origin has a few versions. A popular story credits the kitchen of the Palmer House hotel in Chicago, which made a chocolate treat for the 1893 fair. Recipes called brownies began appearing in American cookbooks soon after.\n\nBakers love to argue about fudgy versus cakey. Fudgy brownies use more fat and chocolate and less flour, while cakey ones have more flour and often baking powder. The shiny, crackly top comes from sugar that dissolves well when it is beaten into the eggs.",
+   "ways": [
+    "Bake a pan of fudgy brownies.",
+    "Make a brownie sundae for dessert.",
+    "Share brownies with a friend who needs a lift."
+   ]
+  },
+  "12-8|Pretend to Be a Time Traveler Day": {
+   "story": "Nobody is sure who created Pretend to Be a Time Traveler Day, but the idea is simple fun. Dress like you are from another era, act confused by smartphones or talk about the future as if you have already seen it.\n\nTime travel stories have been popular for well over a century. H. G. Wells gave us the idea of a machine for it, and later stories added paradoxes, such as what would happen if you changed the past. Physicists point out that we are all time travelers in one direction, moving forward at one second per second.",
+   "ways": [
+    "Dress in clothes from another decade.",
+    "Write a letter to yourself in ten years.",
+    "Watch a classic time travel movie tonight."
+   ]
+  },
+  "12-9|National Pastry Day": {
+   "story": "Nobody is sure who started National Pastry Day, which celebrates a huge family of baked goods. Pastry includes flaky pie crusts, puff pastry, choux pastry for eclairs and cream puffs, and the yeasted, buttery doughs used for croissants and Danish pastries.\n\nPuff pastry and croissant dough get their layers from lamination. Bakers fold a block of butter into dough, then roll and fold it again and again, creating hundreds of thin layers. In the oven, water in the butter turns to steam and lifts each layer, which is why a good croissant shatters when you bite it.",
+   "ways": [
+    "Bake something simple with store bought puff pastry.",
+    "Try a pastry from a bakery you have never visited.",
+    "Make cream puffs from choux dough."
+   ]
+  },
+  "12-9|Christmas Card Day": {
+   "story": "Christmas Card Day honors a tradition that started in London in 1843. Henry Cole, a civil servant who helped launch the modern postal system, was too busy to write individual holiday letters, so he asked the artist John Callcott Horsley to design a printed card. It showed a family raising a toast, with scenes of giving to the poor.\n\nCheap postage helped the habit spread. Britain's Penny Post, introduced in 1840, made sending mail affordable for ordinary people. Later, printing advances made colorful cards cheap, and sending cards became a holiday ritual in many countries.",
+   "ways": [
+    "Write and mail three handwritten cards.",
+    "Make a homemade card with a family photo.",
+    "Send a card to someone living alone."
+   ]
+  },
+  "12-10|National Lager Day": {
+   "story": "Nobody is sure who started National Lager Day. Lager is defined by its yeast and its cold. Lager yeast ferments at cooler temperatures and settles at the bottom of the tank, and the beer is then stored cold for weeks, which gives it a clean, crisp taste.\n\nOne of the most important moments for lager came in 1842 in the Czech city of Plzeň, where brewer Josef Groll made the first golden pilsner. Its clear golden color looked striking in a glass, and pale lagers went on to become the most widely brewed beers in the world.",
+   "ways": [
+    "Taste a pilsner next to a dark lager.",
+    "Cook a dish with beer, like beer bread.",
+    "Choose a nonalcoholic lager if you prefer."
+   ]
+  },
+  "12-10|Human Rights Day": {
+   "story": "Human Rights Day marks December 10, 1948, when the United Nations General Assembly adopted the Universal Declaration of Human Rights in Paris. The drafting committee was chaired by Eleanor Roosevelt, and members came from many countries and traditions.\n\nThe Declaration has 30 articles setting out rights that belong to every person, including freedom from torture, the right to a fair trial, freedom of speech and the right to education. It is not itself a treaty, but it inspired many binding laws and treaties and has shaped constitutions around the world.",
+   "ways": [
+    "Read the 30 articles of the Declaration.",
+    "Support a human rights organization you trust.",
+    "Talk with family about which right matters most."
+   ]
+  },
+  "12-11|National Noodle Ring Day": {
+   "story": "Nobody is sure who started National Noodle Ring Day, which honors a dish that has mostly faded from dinner tables. A noodle ring is cooked egg noodles mixed with eggs, milk and cheese, then baked in a ring mold until set. Once unmolded, the center was often filled with creamed chicken, peas or another savory sauce.\n\nRing molds were popular for showy home cooking in the middle of the twentieth century, when gelatin salads and molded dishes signaled a special meal. Making a noodle ring today is a fun way to taste the history of American home cooking.",
+   "ways": [
+    "Bake a noodle ring in a bundt pan.",
+    "Fill the center with creamed chicken or mushrooms.",
+    "Look through an old family cookbook."
+   ]
+  },
+  "12-11|International Mountain Day": {
+   "story": "The United Nations named 2002 the International Year of Mountains, and the General Assembly then designated December 11 as International Mountain Day, first observed in 2003. It draws attention to the people who live in the mountains and to the land itself.\n\nMountains matter far beyond their slopes. Snow and glaciers on high peaks feed rivers that supply water to a huge share of humanity, and mountain regions hold a rich variety of plants and animals. They are also sensitive to climate change, with glaciers shrinking in many ranges around the world.",
+   "ways": [
+    "Take a hike, even a short one.",
+    "Watch a documentary about mountain communities.",
+    "Learn where your tap water comes from."
+   ]
+  },
+  "12-12|Poinsettia Day": {
+   "story": "Poinsettia Day falls on December 12, the date Joel Roberts Poinsett died in 1851. Poinsett was the first United States minister to Mexico, and he sent cuttings of the plant home to South Carolina in the 1820s. In Mexico the plant had long been tied to Christmas and is known as flor de Nochebuena, the Christmas Eve flower.\n\nThe red parts of a poinsettia are not petals. They are colored leaves called bracts. The real flowers are the tiny yellow buds in the center. To turn red, the plant needs long nights of darkness in the fall.",
+   "ways": [
+    "Buy a poinsettia for a friend or your home.",
+    "Water it only when the soil feels dry.",
+    "Learn how to make it rebloom next year."
+   ]
+  },
+  "12-13|National Violin Day": {
+   "story": "Nobody is sure who started National Violin Day. The violin took shape in northern Italy in the 1500s, and the town of Cremona became famous for its makers. Antonio Stradivari and the Guarneri family worked there, and their instruments are still prized by top players today.\n\nA violin has four strings tuned in fifths and no frets, so the player must find each note by ear and feel. Sound comes from the bow, strung with horsehair and rubbed with rosin so it grips the strings. The same instrument is called a fiddle in folk and country music.",
+   "ways": [
+    "Listen to a violin concerto start to finish.",
+    "Watch a beginner violin lesson online.",
+    "Compare classical violin with a fiddle tune."
+   ]
+  },
+  "12-13|St. Lucia Day": {
+   "story": "St. Lucia was a young Christian woman from Syracuse, Sicily, who was martyred in the early fourth century. Her feast day became a festival of light in Sweden and other Nordic countries. Under the old Julian calendar, December 13 fell close to the winter solstice, the darkest time of the year.\n\nToday many Swedish homes, schools and churches hold Lucia processions with singers in white gowns carrying candles. Families bake lussekatter, saffron buns twisted into S shapes and dotted with raisins. The songs, the candlelight and the buns bring warmth to one of the darkest weeks of the Nordic winter.",
+   "ways": [
+    "Bake saffron lussekatter buns.",
+    "Light candles at breakfast with your family.",
+    "Listen to a Swedish Lucia song."
+   ]
+  },
+  "12-14|National Bouillabaisse Day": {
+   "story": "Nobody is sure who started National Bouillabaisse Day. Bouillabaisse is a fish stew from Marseille, the old port city in southern France. Fishermen made it with the bony rockfish they could not sell, cooked with olive oil, tomatoes, fennel, garlic and saffron.\n\nThe name is often explained as coming from two Provençal words for boiling and lowering the heat, which describes how it is cooked. In Marseille the broth is traditionally served first over toasted bread spread with rouille, a garlicky sauce colored with saffron or chili, and the fish comes after.",
+   "ways": [
+    "Cook a simple fish stew with saffron.",
+    "Make rouille to spread on toasted bread.",
+    "Visit a fish market and ask what is fresh."
+   ]
+  },
+  "12-15|National Cupcake Day": {
+   "story": "Nobody is sure who started this December cupcake day. The name cupcake may come from baking in small cups or from measuring ingredients by the cup, as in old style recipes such as one cup of butter, two cups of sugar and three cups of flour. Both meanings show up in nineteenth century American cookbooks.\n\nCupcakes are popular partly because they solve problems. They bake faster than a large cake, need no slicing and are easy to share. Their small size also makes them a great way to try a new flavor or decorating technique without committing to a whole cake.",
+   "ways": [
+    "Bake a dozen cupcakes and decorate them.",
+    "Practice piping frosting swirls.",
+    "Drop cupcakes off at a fire station or office."
+   ]
+  },
+  "12-15|Bill of Rights Day": {
+   "story": "The Bill of Rights, the first ten amendments to the United States Constitution, took effect on December 15, 1791, when Virginia ratified them. In 1941, on the 150th anniversary, President Franklin D. Roosevelt proclaimed December 15 as Bill of Rights Day.\n\nThe amendments protect freedom of speech, religion, the press and assembly, along with rights such as a speedy public trial and protection against unreasonable searches. Many people who helped write the Constitution argued that a list of rights was needed before they would support it, and the promise of amendments helped win ratification.",
+   "ways": [
+    "Read all ten amendments of the Bill of Rights.",
+    "Visit the National Archives website exhibits.",
+    "Discuss one amendment with family at dinner."
+   ]
+  },
+  "12-16|National Chocolate Covered Anything Day": {
+   "story": "Nobody is sure who started National Chocolate Covered Anything Day, but the name says it all. Strawberries, pretzels, bacon, potato chips, marshmallows and even crickets have all been dipped in chocolate somewhere.\n\nThe secret to a glossy, snappy coating is tempering. Cocoa butter can form several kinds of crystals, and only one of them gives chocolate its shine and clean snap. Chocolatiers melt, cool and gently rewarm chocolate to encourage the right crystals. Untempered chocolate still tastes good, but it can set soft, dull or streaky, which is why many home dippers keep their treats in the fridge.",
+   "ways": [
+    "Dip strawberries or pretzels in melted chocolate.",
+    "Try one surprising dip, like chips or bacon.",
+    "Learn the basics of tempering chocolate."
+   ]
+  },
+  "12-17|National Maple Syrup Day": {
+   "story": "Nobody is sure who started National Maple Syrup Day, but the syrup itself has deep roots. Indigenous peoples of northeastern North America were making maple sugar long before Europeans arrived, and they taught early settlers how to tap the trees.\n\nSap runs best in late winter and early spring, when nights freeze and days thaw. Those swings in temperature build pressure inside the tree and push sap out of the tap. Quebec produces most of the world's maple syrup, and syrup is graded by color and flavor, from golden and delicate to very dark and strong.",
+   "ways": [
+    "Make pancakes with real maple syrup.",
+    "Glaze carrots or salmon with maple.",
+    "Compare a light and a dark syrup grade."
+   ]
+  },
+  "12-17|Wright Brothers Day": {
+   "story": "On December 17, 1903, at Kill Devil Hills near Kitty Hawk, North Carolina, Orville and Wilbur Wright made the first sustained, controlled, powered airplane flights. Congress first named Wright Brothers Day in 1959, and presidents now proclaim it every year.\n\nThe brothers ran a bicycle shop in Dayton, Ohio, and taught themselves aeronautics through careful experiments, including a homemade wind tunnel. They flew four times that day. The longest flight, piloted by Wilbur, covered 852 feet in 59 seconds. Their key insight was control: steering by twisting the wings, a method called wing warping.",
+   "ways": [
+    "Fold paper airplanes and test which flies farthest.",
+    "Visit a local air or space museum.",
+    "Read about the Wright brothers' wind tunnel tests."
+   ]
+  },
+  "12-18|National Roast Suckling Pig Day": {
+   "story": "Nobody is sure who started National Roast Suckling Pig Day, but whole roast pig is a feast dish in many cultures. Spain's Segovia is famous for cochinillo, the Philippines for lechón, and Puerto Rico and Cuba for lechón asado at Christmas and big family gatherings.\n\nA suckling pig is a very young pig, which is why the meat is so tender and the skin so thin. Slow roasting renders the fat under the skin and turns it into glassy crackling. In Segovia, some cooks famously cut the cooked pig with the edge of a plate to show how tender it is.",
+   "ways": [
+    "Roast pork shoulder with crackling skin.",
+    "Try lechón or cochinillo at a local restaurant.",
+    "Make a citrus garlic mojo marinade."
+   ]
+  },
+  "12-18|World Arabic Language Day": {
+   "story": "December 18 is the date in 1973 when the United Nations General Assembly made Arabic one of its official languages. UNESCO has led the celebration each year since 2012.\n\nArabic is written from right to left in a script of 28 letters, most of which change shape depending on where they sit in a word. Arabic calligraphy is a celebrated art form. Many English words came through Arabic, including algebra, coffee, sugar and alcohol, a sign of how much knowledge passed through the Arabic speaking world.",
+   "ways": [
+    "Learn to write your name in Arabic script.",
+    "Listen to music sung in Arabic.",
+    "Cook a dish from an Arabic speaking country."
+   ]
+  },
+  "12-19|National Hard Candy Day": {
+   "story": "Nobody is sure who started National Hard Candy Day, but it fits the season of candy canes, ribbon candy and peppermints. Hard candy is mostly sugar boiled until almost all the water is gone, then cooled into a glassy solid.\n\nCandy makers call that point the hard crack stage, around 300 degrees Fahrenheit. At that temperature, sugar syrup dropped into cold water snaps instead of bending. Because there is so little water left, hard candy keeps for a long time. Humidity is its enemy, since moisture from the air makes the surface sticky.",
+   "ways": [
+    "Make lollipops or hard candy at home.",
+    "Build a candy cane jar for guests.",
+    "Try a hard candy from another country."
+   ]
+  },
+  "12-19|Look for an Evergreen Day": {
+   "story": "Nobody is sure who started Look for an Evergreen Day, but it is perfect for a winter walk. When most trees stand bare, pines, spruces, firs, hollies and junipers stay green and give birds shelter and food.\n\nEvergreens keep their leaves through winter thanks to some clever features. Narrow needles and waxy coatings help them hold on to water when the ground is frozen, and many contain natural compounds that keep their cells from freezing solid. They do shed needles, just a few at a time instead of all at once.",
+   "ways": [
+    "Take a walk and name three evergreens.",
+    "Bring home fallen branches for a wreath.",
+    "Plant an evergreen in the spring."
+   ]
+  },
+  "12-20|National Sangria Day": {
+   "story": "Nobody is sure who started National Sangria Day. Sangria is a Spanish and Portuguese drink of wine mixed with chopped fruit and often a splash of brandy and sweetener. Since 2014, European Union rules say only drinks made in Spain or Portugal can be sold under the name sangria in the EU.\n\nSangria tastes best when it rests. Letting the fruit soak in the wine for a few hours lets the flavors blend. White wine versions, sometimes called sangria blanca, are popular too, and a fruit punch made with grape juice gives everyone at the table a version to enjoy.",
+   "ways": [
+    "Make a pitcher of red sangria.",
+    "Mix an alcohol free sangria with grape juice.",
+    "Serve sangria with tapas for friends."
+   ]
+  },
+  "12-20|Go Caroling Day": {
+   "story": "Nobody is sure who started Go Caroling Day, but caroling is an old tradition. The word carol may come from an old French word for a circle dance with singing, and early carols were not only about Christmas.\n\nMany well known carols came later. Silent Night was first performed in Austria in 1818, and Joy to the World uses words written by Isaac Watts in 1719. In Victorian England, collections of carols were printed and singing door to door became a popular custom. Today carolers often visit hospitals and care homes.",
+   "ways": [
+    "Sing carols for neighbors or a care home.",
+    "Learn the second verse of a carol.",
+    "Host a sing along with hot drinks."
+   ]
+  },
+  "12-21|Winter Solstice": {
+   "story": "The winter solstice happens when the Northern Hemisphere is tilted farthest from the sun, giving the shortest day and longest night of the year. It falls on December 21 or 22, depending on the year. After it, days slowly grow longer, which is why so many cultures have treated it as a time of renewal.\n\nAncient builders marked it in stone. At Newgrange in Ireland, a tomb older than the Egyptian pyramids, sunlight enters a small opening above the doorway at sunrise around the solstice and lights up the inner chamber for several minutes.",
+   "ways": [
+    "Watch the sunrise or sunset today.",
+    "Light candles and share a warm meal.",
+    "Take a night walk on the longest night."
+   ]
+  },
+  "12-21|National Flashlight Day": {
+   "story": "Nobody is sure who started National Flashlight Day, but placing it on the longest night of the year is a clever touch. Early battery flashlights from around 1899 had weak bulbs and batteries, so they only gave short bursts of light. That is one reason people started calling them flashlights.\n\nToday most flashlights use LEDs, which are much brighter and last far longer than old bulbs. In Britain and many other countries the same tool is called a torch. A good flashlight is one of the simplest and most useful things to keep in an emergency kit.",
+   "ways": [
+    "Check every flashlight and swap old batteries.",
+    "Build a small emergency kit for your home.",
+    "Make shadow puppets with kids tonight."
+   ]
+  },
+  "12-22|National Date Nut Bread Day": {
+   "story": "Nobody is sure who started National Date Nut Bread Day. Date nut bread is a quick bread, meaning it rises with baking soda or baking powder instead of yeast. Chopped dates are often soaked in boiling water first so they soften and melt into the batter, and walnuts add crunch.\n\nIn the United States it became a classic holiday bread in the twentieth century, sometimes even sold in cans, and it is often served in slices with cream cheese. Dates bring natural sweetness and moisture, which is why the loaf stays soft for days.",
+   "ways": [
+    "Bake a loaf of date nut bread.",
+    "Spread a slice with cream cheese.",
+    "Wrap a loaf as a neighbor gift."
+   ]
+  },
+  "12-22|Forefathers Day": {
+   "story": "Forefathers Day remembers the Pilgrims' landing at Plymouth in 1620. The Old Colony Club in Plymouth first celebrated it in 1769, and the day is still marked in Plymouth with a procession and a traditional dinner that features succotash.\n\nThe date itself has a curious twist. The Pilgrims recorded the landing under the old calendar, and when converting to the modern calendar, the early celebrants added the wrong number of days. As a result, December 22 is used, though many historians place the landing on December 21.",
+   "ways": [
+    "Read a short history of Plymouth Colony.",
+    "Cook a pot of succotash for dinner.",
+    "Look up your family's history online."
+   ]
+  },
+  "12-23|National Pfeffernusse Day": {
+   "story": "Nobody is sure who started National Pfeffernusse Day. Pfeffernüsse are small, round spice cookies baked in Germany and across northern Europe at Christmas. Their Dutch cousins, pepernoten, are tossed to children around St. Nicholas Day in the Netherlands.\n\nThe flavor comes from a warm mix of spices such as cinnamon, cloves, nutmeg, anise and black pepper, often with honey or molasses. Many recipes let the dough or the baked cookies rest for days, which deepens the flavor and softens the texture. A coat of powdered sugar or a thin glaze finishes them.",
+   "ways": [
+    "Bake a batch of pfeffernusse cookies.",
+    "Pack cookies in a tin for a friend.",
+    "Mix your own warm holiday spice blend."
+   ]
+  },
+  "12-23|Festivus": {
+   "story": "Festivus reached millions of people through The Strike, a Seinfeld episode that aired in December 1997, written by Dan O'Keefe. He based it on a family holiday his father, Daniel O'Keefe, had invented decades earlier. The TV version added the plain aluminum pole that needs no decorating.\n\nThe traditions are meant to be silly: the airing of grievances, where everyone shares how others disappointed them this year, and the feats of strength, where the holiday cannot end until the head of the household is pinned. Many people enjoy it as a lighthearted break from holiday pressure.",
+   "ways": [
+    "Host a friendly airing of grievances.",
+    "Stand a broom up as your Festivus pole.",
+    "Watch The Strike episode with friends."
+   ]
+  },
+  "12-24|Christmas Eve": {
+   "story": "Christmas Eve is the evening before Christmas, and for many Christians it is a night for midnight Mass or candlelight services. Families have their own customs, from opening one present early to a big Christmas Eve dinner.\n\nTraditions vary widely. In Italy many families hold a meal of several fish dishes. In Poland the Wigilia supper begins when the first star appears in the sky, and an empty place is often set for an unexpected guest. The carol Silent Night was first performed on Christmas Eve in 1818 in Oberndorf, Austria.",
+   "ways": [
+    "Attend a candlelight service or concert.",
+    "Set an extra place for a guest.",
+    "Read a Christmas story aloud with family."
+   ]
+  },
+  "12-24|National Eggnog Day": {
+   "story": "Nobody is sure who first set National Eggnog Day, though Christmas Eve is a natural fit. Eggnog likely descends from posset, a warm drink of milk, wine or ale and spices that was popular in medieval Britain. In the American colonies, it became a rich holiday drink made with eggs, cream, sugar and rum or brandy.\n\nEggnog even caused a riot. In 1826, cadets at West Point smuggled whiskey in for a Christmas eggnog party, and the night ended in a disturbance now called the Eggnog Riot. For homemade eggnog, cooked custard recipes avoid the safety worries of raw eggs.",
+   "ways": [
+    "Make a cooked custard eggnog at home.",
+    "Sprinkle fresh nutmeg on your eggnog.",
+    "Bake eggnog flavored cookies or bread."
+   ]
+  },
+  "12-25|Christmas Day": {
+   "story": "Christians celebrate Christmas as the birth of Jesus. The Bible does not give a date, and the earliest record of December 25 as the celebration comes from Rome in the year 336. Over the centuries the day picked up customs from many places, including evergreen trees from Germany and Santa Claus from Dutch and American traditions.\n\nIn the United States, Christmas became a federal holiday in 1870. Today it is celebrated by people of many faiths and none, with church services, family meals, gift giving and quiet time together. Many people also volunteer or reach out to those spending the day alone.",
+   "ways": [
+    "Call someone who is spending today alone.",
+    "Share a meal with family or friends.",
+    "Take a walk to see the lights."
+   ]
+  },
+  "12-25|National Pumpkin Pie Day": {
+   "story": "Nobody is sure who started National Pumpkin Pie Day, but pumpkin pie has a long American story. One of the first American cookbooks, Amelia Simmons's American Cookery from 1796, included a pompkin pudding baked in a crust, which is close to the pie we know.\n\nPumpkin pie is really a custard. Eggs, milk or cream and pumpkin set together in the oven, flavored with cinnamon, ginger, nutmeg and cloves. A common tip is to pull the pie out while the center still jiggles slightly, since it keeps cooking as it cools and cracks if it bakes too long.",
+   "ways": [
+    "Bake a pumpkin pie from scratch.",
+    "Make your own pumpkin pie spice blend.",
+    "Top a slice with fresh whipped cream."
+   ]
+  },
+  "12-26|Kwanzaa Begins": {
+   "story": "Kwanzaa runs from December 26 to January 1. Its name comes from the Swahili phrase matunda ya kwanza, meaning first fruits, a nod to harvest festivals across Africa. Each of the seven days honors one principle: unity, self determination, collective work and responsibility, cooperative economics, purpose, creativity and faith.\n\nThe main symbol is the kinara, a candleholder with seven candles: one black, three red and three green. A candle is lit each night. Many families also display a mat, ears of corn for the children and a unity cup, and the week ends with a feast called the karamu.",
+   "ways": [
+    "Learn the seven principles with your family.",
+    "Support a Black owned local business.",
+    "Light a candle and share a family story."
+   ]
+  },
+  "12-26|Boxing Day": {
+   "story": "Boxing Day falls on December 26, which is also St. Stephen's Day in the Christian calendar. The carol Good King Wenceslas is set on the Feast of Stephen and tells of a king giving to a poor man in the snow, which fits the day's spirit of generosity.\n\nOne common explanation is that employers gave servants and tradespeople a Christmas box of money or gifts the day after Christmas, but historians are not certain which story came first. Today in Britain, Canada, Australia and elsewhere it is a public holiday known for sports, leftovers and big sales.",
+   "ways": [
+    "Give a tip or gift to a service worker.",
+    "Donate gently used items to charity.",
+    "Take a long walk and eat leftovers."
+   ]
+  },
+  "12-27|National Fruitcake Day": {
+   "story": "Nobody is sure who started National Fruitcake Day, but cakes packed with dried fruit, nuts and spices have been baked in Europe for centuries, partly because they kept so well through the winter.\n\nFruitcake keeps because sugar draws water out of the fruit and slows spoilage, and many bakers brush the cake with brandy or rum over several weeks. In Britain a rich fruitcake is the classic Christmas cake and wedding cake, often covered with marzipan and icing. The jokes are mostly an American habit.",
+   "ways": [
+    "Bake a small fruitcake with dried fruits you like.",
+    "Try a slice with sharp cheese.",
+    "Give fruitcake one fair chance with friends."
+   ]
+  },
+  "12-27|Make a Cut Out Snowflake Day": {
+   "story": "Nobody is sure who started Make a Cut Out Snowflake Day, but it is a perfect project for the quiet days after Christmas. Folding a paper square into a triangle and cutting shapes along the edges creates a design that repeats as you unfold it.\n\nReal snowflakes have six sides because water molecules lock together in a six sided pattern as they freeze. Wilson Bentley, a farmer in Vermont, was the first person to photograph a single snowflake, in 1885. He took thousands of pictures over his life, which helped popularize the idea that no two look alike.",
+   "ways": [
+    "Fold and cut six sided paper snowflakes.",
+    "Hang snowflakes on a window.",
+    "Look at Wilson Bentley's snowflake photos."
+   ]
+  },
+  "12-28|National Card Playing Day": {
+   "story": "Nobody is sure who started National Card Playing Day, but the days after Christmas are a natural time for games at the kitchen table. Playing cards spread from Asia to Europe by the late 1300s, often carried along trade routes.\n\nThe suits most people use today, hearts, diamonds, clubs and spades, come from France in the late 1400s. Simple shapes made the cards cheaper to print with stencils. A single deck can play hundreds of games, from solitaire and rummy to bridge, and many families have house rules passed down for generations.",
+   "ways": [
+    "Teach someone your favorite card game.",
+    "Learn a new game like cribbage or euchre.",
+    "Play solitaire with a real deck of cards."
+   ]
+  },
+  "12-28|Holy Innocents Day": {
+   "story": "Holy Innocents Day remembers the children of Bethlehem who, according to the Gospel of Matthew, were killed by order of King Herod as he tried to kill the infant Jesus. In England the day was historically called Childermas. Churches mark it with prayers for children who suffer.\n\nMany Christians today use the day to pray for children affected by war, violence and poverty, and to support groups that protect them. In Spain and much of Latin America it has also become a day for harmless pranks, similar to April Fools' Day, and newspapers sometimes print joke stories.",
+   "ways": [
+    "Pray or reflect on children in need.",
+    "Donate to a group that protects children.",
+    "Spend focused time with a child you love."
+   ]
+  },
+  "12-29|National Pepper Pot Day": {
+   "story": "Nobody is sure who started National Pepper Pot Day. Pepper pot is a thick soup of tripe, vegetables and plenty of black pepper that became famous on the streets of Philadelphia, where vendors sold it hot from kettles.\n\nThe popular tale that it was invented at Valley Forge in 1777 is a legend that historians cannot confirm. Food historians point to a deeper root: pepper pot dishes in the Caribbean and West Africa, carried to Philadelphia by enslaved and free Black cooks. Guyana still serves a beloved pepperpot stew at Christmas.",
+   "ways": [
+    "Cook a pot of hearty pepper pot soup.",
+    "Try Guyanese pepperpot with bread.",
+    "Read about Philadelphia's pepper pot vendors."
+   ]
+  },
+  "12-29|Tick Tock Day": {
+   "story": "Nobody is sure who started Tick Tock Day, but its message is clear: the year is almost over, so it is a good moment to finish what you can. It falls just a couple of days before New Year's Eve, which leaves enough time for one or two small wins.\n\nThe tick tock of a mechanical clock comes from its escapement, a part that releases the gears in tiny regular steps. Each step makes a click. Before that kind of clock, people used sundials, water clocks and candles marked with hours to keep track of time.",
+   "ways": [
+    "Finish one task you have put off.",
+    "Clear your email inbox or desk.",
+    "Write three goals for next year."
+   ]
+  },
+  "12-30|National Bicarbonate of Soda Day": {
+   "story": "Nobody is sure who started National Bicarbonate of Soda Day. Bicarbonate of soda, also called baking soda or sodium bicarbonate, became a kitchen staple in the 1800s, when it helped make quick breads and cakes rise without yeast.\n\nBaking soda needs an acid to work. When it meets buttermilk, yogurt, lemon juice or brown sugar, it releases bubbles of carbon dioxide that lift the batter. Baking powder is baking soda with the acid already mixed in. Around the house, baking soda is used to scrub sinks, absorb fridge odors and freshen drains.",
+   "ways": [
+    "Bake soda bread with buttermilk.",
+    "Put an open box of baking soda in the fridge.",
+    "Do a baking soda and vinegar volcano with kids."
+   ]
+  },
+  "12-30|National Bacon Day": {
+   "story": "Nobody is sure who started National Bacon Day. Bacon is pork that has been cured with salt, and often smoked, a way of preserving meat that goes back centuries. American bacon is usually cut from the belly, with streaks of fat, while British back bacon comes from the loin and is leaner.\n\nCanadian bacon in the United States is closer to a lean cured loin, and in Canada it is often called peameal bacon. For crisp bacon, many cooks start it in a cold pan so the fat renders slowly. Baking strips on a tray in the oven also cooks them evenly.",
+   "ways": [
+    "Bake bacon on a sheet pan for even crispness.",
+    "Make a classic BLT sandwich.",
+    "Try peameal bacon on a breakfast roll."
+   ]
+  },
+  "12-31|New Years Eve": {
+   "story": "New Year's Eve is the last night of the year in the calendar most of the world uses. People mark it with countdowns, fireworks, songs and wishes. Because of time zones, the first places to greet the new year are islands in the Pacific such as Kiribati, while some American territories are among the last.\n\nThe song Auld Lang Syne, sung at midnight in many countries, comes from words Robert Burns wrote down in 1788. In Scotland the night is called Hogmanay. In Spain people eat twelve grapes at midnight, one for each chime of the clock.",
+   "ways": [
+    "Eat twelve grapes at midnight for luck.",
+    "Write down three highlights from this year.",
+    "Call someone you want to thank."
+   ]
+  },
+  "12-31|Make Up Your Mind Day": {
+   "story": "Nobody is sure who started Make Up Your Mind Day, but its place on the last day of the year makes sense. It is a nudge to settle the decisions you have been putting off, so you can start the new year with a clear head.\n\nBig choices often feel heavy because every option seems to have a cost. Simple tools can help: write the choice down, list the pros and cons, set a deadline, or ask what you would advise a friend in your place. Sometimes making a good decision now beats waiting for a perfect one.",
+   "ways": [
+    "Make one decision you have been postponing.",
+    "Write a pros and cons list for a choice.",
+    "Ask a trusted friend for honest advice."
+   ]
+  },
+  "moving|Super Bowl Sunday": {
+   "story": "The first championship game between the NFL and the AFL was played on January 15, 1967, in Los Angeles, and the Green Bay Packers won. It was not called the Super Bowl at first. The name caught on from Kansas City Chiefs owner Lamar Hunt, who said his children's Super Ball toy gave him the idea.\n\nToday it is one of the most watched broadcasts in the United States each year, with famous ads and a halftime show, and it is one of the biggest eating days of the year, from wings to dips.",
+   "ways": [
+    "Host a watch party where everyone brings a snack.",
+    "Run a friendly squares pool for bragging rights only.",
+    "Rate the commercials as a family."
+   ]
+  },
+  "moving|Presidents Day": {
+   "story": "Presidents Day began as Washington's Birthday, celebrated on February 22 and made a holiday for all federal offices in 1885. In 1971 the Uniform Monday Holiday Act moved it to the third Monday in February, which gives workers a long weekend but means it never falls on Washington's actual birthday.\n\nThe official federal name is still Washington's Birthday, but many states and stores call it Presidents Day, and many use it to honor Abraham Lincoln too, whose birthday is February 12.",
+   "ways": [
+    "Read a short biography of a president you know little about.",
+    "Visit a presidential library, home or memorial.",
+    "Quiz your family with presidential trivia."
+   ]
+  },
+  "moving|Leap Day": {
+   "story": "A year on Earth is about 365 and a quarter days long, so every four years the calendar adds February 29 to stay in step with the seasons. Julius Caesar's calendar added a leap day from 45 BCE, and the Gregorian calendar of 1582 refined the rule: century years skip it unless they divide by 400, which is why 2000 had one and 1900 did not.\n\nIn old Irish and British tradition, Leap Day was the one day a woman could propose to a man. People born today, called leaplings, often celebrate on February 28 or March 1 in other years.",
+   "ways": [
+    "Do something you have never done, since today is a bonus day.",
+    "Write a letter to yourself to open on the next Leap Day.",
+    "Wish a happy birthday to anyone born on February 29."
+   ]
+  },
+  "moving|Daylight Saving Time Begins": {
+   "story": "In most of the United States, clocks spring forward one hour at 2 a.m. on the second Sunday in March. The idea is to move an hour of daylight from the early morning, when many people are asleep, to the evening.\n\nBenjamin Franklin joked about it in 1784, and the United States first used it in 1918 during World War I. Hawaii and most of Arizona do not change their clocks. The lost hour can leave people groggy for a few days.",
+   "ways": [
+    "Go to bed a little earlier tonight.",
+    "Check that every clock, oven and car clock changed.",
+    "Swap the batteries in your smoke detectors."
+   ]
+  },
+  "moving|Mardi Gras": {
+   "story": "Mardi Gras means Fat Tuesday in French. It is the last day before Ash Wednesday and the forty days of Lent, when Christians traditionally fasted, so people feasted and used up rich foods like butter and eggs before it began.\n\nIn New Orleans the season brings parades, krewes, beads and king cake with a tiny baby hidden inside, and whoever finds it buys the next cake. The same day is Carnival in Brazil and Venice, and Shrove Tuesday or Pancake Day in Britain.",
+   "ways": [
+    "Bake or buy a king cake and hide the baby.",
+    "Make pancakes for Pancake Day.",
+    "Dress up in purple, green and gold."
+   ]
+  },
+  "moving|Easter Sunday": {
+   "story": "Easter is the most important Christian feast, celebrating the resurrection of Jesus. It falls on the first Sunday after the first full moon on or after the spring equinox, which puts it between March 22 and April 25.\n\nMany customs are about new life. Eggs were given up during Lent, so they were decorated and eaten on Easter, and German settlers brought the Easter Hare, which became the Easter Bunny, to Pennsylvania in the 1700s. The White House has held an Easter Egg Roll since 1878.",
+   "ways": [
+    "Dye eggs and hold an egg hunt.",
+    "Go to a sunrise service or a family brunch.",
+    "Bake hot cross buns."
+   ]
+  },
+  "moving|Mothers Day": {
+   "story": "Anna Jarvis held the first official Mother's Day service in Grafton, West Virginia, in 1908, in memory of her own mother, and handed out white carnations. President Wilson made it a national day in 1914, on the second Sunday in May.\n\nJarvis insisted on the singular, Mother's Day, one mother honored by one family. She later spent years fighting the greeting card and flower trade over what the day had become.",
+   "ways": [
+    "Write the letter yourself instead of buying the words.",
+    "Ask her for a story from before you were born.",
+    "Cook, and also do the dishes."
+   ]
+  },
+  "moving|Memorial Day": {
+   "story": "Memorial Day grew out of Decoration Day after the Civil War, when towns laid flowers on soldiers' graves. General John A. Logan called for a national observance on May 30, 1868, and about 5,000 people decorated graves at Arlington that day.\n\nIt moved to the last Monday in May in 1971. The flag flies at half staff until noon and is then raised to the top: grief in the morning, resolve in the afternoon.",
+   "ways": [
+    "Pause at 3 in the afternoon, the National Moment of Remembrance.",
+    "Visit a cemetery and read the names.",
+    "Place flowers on a grave nobody else has visited."
+   ]
+  },
+  "moving|Fathers Day": {
+   "story": "Sonora Smart Dodd of Spokane, Washington proposed the day after hearing a Mother's Day sermon. Her father had raised six children alone. Spokane held the first one on June 19, 1910.\n\nIt took decades to catch on. President Nixon signed it into law in 1972, on the third Sunday in June.",
+   "ways": [
+    "Ask him to teach you the one thing he is best at.",
+    "Look through old photos and write the dates on the back.",
+    "Let him pick the music."
+   ]
+  },
+  "moving|Labor Day": {
+   "story": "Unions in New York held the first Labor Day parade on September 5, 1882, when a working day of ten or twelve hours was common. Congress made it a national holiday in 1894, weeks after the deadly Pullman railroad strike.\n\nTwo men with nearly the same name, Matthew Maguire and Peter McGuire, have both been credited with the idea, and historians still argue over it.",
+   "ways": [
+    "Thank someone who works the holiday shift.",
+    "Read about the trade a grandparent worked in.",
+    "Take the whole day off, if you can."
+   ]
+  },
+  "moving|National Grandparents Day": {
+   "story": "Marian McQuade of West Virginia campaigned for the day, hoping children would visit and learn from older people. President Carter signed the proclamation in 1978, and it falls on the first Sunday after Labor Day.\n\nThe date was chosen for the autumn years of life. Its official flower is the forget me not.",
+   "ways": [
+    "Record a short interview on your phone.",
+    "Ask for the recipe nobody wrote down.",
+    "Visit an older neighbor who has no family nearby."
+   ]
+  },
+  "moving|Daylight Saving Time Ends": {
+   "story": "On the first Sunday in November most of the United States sets clocks back one hour at 2 in the morning. Germany was the first country to adopt the change nationwide, in 1916, to save fuel during the war.\n\nHawaii and most of Arizona skip it. Getting the hour back is easier on sleep than losing it in spring, but evening darkness arrives abruptly.",
+   "ways": [
+    "Change smoke alarm batteries while you change the clocks.",
+    "Get outside in the morning light for a few days.",
+    "Check bike and car lights before the first dark commute."
+   ]
+  },
+  "moving|Thanksgiving": {
+   "story": "In the fall of 1621, the Pilgrims of Plymouth Colony and about 90 Wampanoag men led by Massasoit shared a harvest feast that lasted three days. It was not called Thanksgiving at the time, and the menu likely had venison and wild fowl rather than the dinner we know now.\n\nDays of thanks came and went for two centuries, until the writer Sarah Josepha Hale campaigned for a national holiday. President Abraham Lincoln proclaimed one in 1863, and a 1941 law fixed it on the fourth Thursday of November. For many Native Americans it is also a day of remembrance.",
+   "ways": [
+    "Go around the table and share one thing you are thankful for.",
+    "Invite someone who would otherwise spend the day alone.",
+    "Take a walk together between dinner and dessert."
+   ]
+  },
+  "moving|Black Friday": {
+   "story": "Black Friday is the day after Thanksgiving, and for decades it has marked the start of the holiday shopping season in the United States. Philadelphia police used the name in the 1950s and 1960s for the crowds and traffic that jammed the city that day.\n\nA later explanation says it is the day stores move from red ink to black and turn a profit, a story retailers liked better. Today the deals start earlier and run online all weekend.",
+   "ways": [
+    "Make a list and a budget before you shop.",
+    "Shop at a local small business instead of a big chain.",
+    "Skip the stores and take a walk or watch a movie."
+   ]
+  },
+  "moving|Giving Tuesday": {
+   "story": "Giving Tuesday began in 2012 as a project of the 92nd Street Y in New York and the United Nations Foundation. After Black Friday and Cyber Monday, it offered a different kind of day, one for giving back.\n\nIt has grown into a movement around the world. Gifts of money matter, but so do time, skills and kindness, from volunteering to donating blood to checking on a neighbor.",
+   "ways": [
+    "Give to a cause you care about, any amount.",
+    "Sign up for a volunteer shift this month.",
+    "Donate blood or help set up a blood drive."
+   ]
+  },
+  "moving|National Fruitcake Toss Day": {
+   "story": "National Fruitcake Toss Day comes after the holidays, when leftover fruitcakes are looking for a new purpose. The best known toss is the Great Fruitcake Toss in Manitou Springs, Colorado, which began in 1996 and sends fruitcakes flying by hand, slingshot and homemade launcher.\n\nFruitcake has a long history, from Roman cakes made with pomegranate seeds and pine nuts to the dense, boozy loaves of Victorian England, which keep for months.",
+   "ways": [
+    "Hold a backyard fruitcake toss and measure the distance.",
+    "Give fruitcake a fair chance with a fresh slice.",
+    "Turn a leftover one into trifle or bread pudding."
+   ]
+  },
+  "moving|Martin Luther King Jr. Day": {
+   "story": "Dr. Martin Luther King Jr. was born on January 15, 1929, in Atlanta. A Baptist minister, he led the Montgomery bus boycott, helped organize the 1963 March on Washington, where he gave his I Have a Dream speech, and won the Nobel Peace Prize in 1964. He was assassinated in Memphis in 1968.\n\nPresident Ronald Reagan signed the holiday into law in 1983, and it was first observed in 1986 on the third Monday in January. In 1994 Congress made it a national day of service: a day on, not a day off.",
+   "ways": [
+    "Volunteer for a service project in your community.",
+    "Read or listen to the I Have a Dream speech in full.",
+    "Visit a civil rights museum or memorial."
+   ]
+  },
+  "moving|National Donut Day": {
+   "story": "The Salvation Army held the first one in Chicago in 1938 to honor its Donut Lassies, volunteers who fried donuts for soldiers near the front in France during the First World War, sometimes in a helmet. It falls on the first Friday in June.\n\nThere are two main families: yeast donuts, risen and airy, and cake donuts, raised with baking powder and crumbly at the edge.",
+   "ways": [
+    "Go early; the best ones are gone by nine.",
+    "Fry one batch at home at a steady 350 to 375 degrees.",
+    "Bring a box to a fire station."
+   ]
+  },
+  "moving|World Smile Day": {
+   "story": "Harvey Ball, a commercial artist in Worcester, Massachusetts, drew the yellow smiley face in 1963 to lift morale at an insurance company. It took about ten minutes, he was paid $45, and he never trademarked it.\n\nWorried that the symbol had become only a product, he started World Smile Day in 1999, on the first Friday in October, with the request to do one kind act.",
+   "ways": [
+    "Do one kind thing and tell nobody.",
+    "Send a photo that made you laugh.",
+    "Compliment a stranger on something they chose."
+   ]
+  },
+  "moving|National Ugly Sweater Day": {
+   "story": "National Ugly Sweater Day falls on the third Friday of December and celebrates the gloriously tacky holiday sweater. Bulky Christmas knits with reindeer and snowflakes were popular in the 1980s, faded, then came back as a joke in the early 2000s when friends began throwing ugly sweater parties.\n\nNow the sweaters are loud on purpose, with tinsel, bells and blinking lights. Many schools and offices use the day to raise money, like Save the Children's Christmas Jumper Day in the UK.",
+   "ways": [
+    "Wear your loudest holiday sweater all day.",
+    "Host an ugly sweater contest with silly prizes.",
+    "Decorate a plain sweater with felt, pom poms and bells."
+   ]
+  }
+ }
+}

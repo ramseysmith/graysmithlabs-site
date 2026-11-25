@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<defs><linearGradient id="rp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF9152"/><stop offset="1" stop-color="#C98A4E"/></linearGradient></defs>
+<ellipse cx="200" cy="168" rx="100" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="152" rx="98" ry="15" fill="#B9C3CF"/>
+<ellipse cx="200" cy="149" rx="86" ry="10" fill="#FEFAF7"/>
+<path d="M136 120 c-12 -2 -16 -12 -8 -16 c6 -2 8 6 2 8" stroke="#C98A4E" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g fill="#C98A4E"><rect x="146" y="136" width="22" height="12" rx="6"/><rect x="214" y="136" width="22" height="12" rx="6"/></g>
+<ellipse cx="186" cy="124" rx="56" ry="25" fill="url(#rp)"/>
+<circle cx="240" cy="120" r="21" fill="url(#rp)"/>
+<path d="M228 104 l4 -18 l14 14 z" fill="#C98A4E"/>
+<ellipse cx="258" cy="127" rx="8" ry="10" fill="#C98A4E"/>
+<circle cx="270" cy="130" r="11" fill="#E5384F"/>
+<path d="M270 120 v-5" stroke="#6B3F25" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M271 116 c4 -6 10 -6 12 -4 c-4 4 -8 5 -12 4 z" fill="#3FB874"/>
+<path d="M265 125 a6 6 0 0 1 5 -3" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+<path d="M240 113 c2 3 6 3 8 0" stroke="#6B3F25" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M160 104 c-2 8 -2 16 0 22 M182 101 c-2 8 -2 18 0 24 M204 102 c-2 8 -2 16 0 22" stroke="#6B3F25" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3"/>
+<path d="M148 108 c16 -10 44 -12 66 -6" stroke="#FEFAF7" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.45"/>
+<g fill="#3FB874"><ellipse cx="132" cy="150" rx="9" ry="4" transform="rotate(-20 132 150)"/><ellipse cx="146" cy="154" rx="9" ry="4" transform="rotate(15 146 154)"/><ellipse cx="248" cy="154" rx="9" ry="4" transform="rotate(-15 248 154)"/></g>
+<g fill="#68DB8C"><ellipse cx="140" cy="146" rx="7" ry="3" transform="rotate(30 140 146)"/><ellipse cx="262" cy="151" rx="8" ry="3.5" transform="rotate(20 262 151)"/></g>
+<g id="move"><path d="M178 86 c-4 -8 4 -12 0 -20 M198 86 c-4 -8 4 -12 0 -20" stroke="#FEFAF7" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.5"/></g>
+</svg>

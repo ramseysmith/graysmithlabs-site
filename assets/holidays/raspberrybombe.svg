@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="78" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<ellipse cx="200" cy="160" rx="76" ry="10" fill="#C9CED6"/>
+<ellipse cx="200" cy="157" rx="64" ry="6" fill="#FEFAF7"/>
+<path d="M146 158 C146 108 170 82 200 82 C230 82 254 108 254 158 Z" fill="#E5507A"/>
+<path d="M200 158 V82 C230.2 82 254 115.4 254 158 Z" fill="#C8335C"/>
+<path d="M200 158 V90 C226.3 90 247 119.9 247 158 Z" fill="#FFF3E0"/>
+<path d="M200 158 V106 C219.6 106 235 128.9 235 158 Z" fill="#FF9EC4"/>
+<path d="M200 158 V124 C212.3 124 222 139.0 222 158 Z" fill="#FCE7D9"/>
+<path d="M160 136 C160 116 170 100 184 92" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4"/>
+<circle cx="182.2" cy="82.5" r="3.6" fill="#C8223F"/>
+<circle cx="189.8" cy="82.5" r="3.6" fill="#C8223F"/>
+<circle cx="186.0" cy="80.2" r="3.6" fill="#C8223F"/>
+<circle cx="183.7" cy="85.9" r="3.6" fill="#C8223F"/>
+<circle cx="188.3" cy="85.9" r="3.6" fill="#C8223F"/>
+<circle cx="186.0" cy="88.2" r="3.6" fill="#C8223F"/>
+<circle cx="183.3" cy="81.7" r="1.3" fill="#FEFAF7" opacity="0.6"/>
+<circle cx="210.2" cy="82.5" r="3.6" fill="#C8223F"/>
+<circle cx="217.8" cy="82.5" r="3.6" fill="#C8223F"/>
+<circle cx="214.0" cy="80.2" r="3.6" fill="#C8223F"/>
+<circle cx="211.7" cy="85.9" r="3.6" fill="#C8223F"/>
+<circle cx="216.3" cy="85.9" r="3.6" fill="#C8223F"/>
+<circle cx="214.0" cy="88.2" r="3.6" fill="#C8223F"/>
+<circle cx="211.3" cy="81.7" r="1.3" fill="#FEFAF7" opacity="0.6"/>
+<path d="M198 78 C192 70 184 70 180 74 C186 76 192 78 198 80 Z" fill="#3FB874"/>
+<g id="move">
+<circle cx="195.6" cy="70.2" r="4.2" fill="#C8223F"/>
+<circle cx="204.4" cy="70.2" r="4.2" fill="#C8223F"/>
+<circle cx="200.0" cy="67.6" r="4.2" fill="#C8223F"/>
+<circle cx="197.4" cy="74.2" r="4.2" fill="#C8223F"/>
+<circle cx="202.6" cy="74.2" r="4.2" fill="#C8223F"/>
+<circle cx="200.0" cy="76.8" r="4.2" fill="#C8223F"/>
+<circle cx="196.9" cy="69.4" r="1.4" fill="#FEFAF7" opacity="0.6"/>
+<path d="M200 63 V59" stroke="#3FB874" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M220 49 Q220 56 227 56 Q220 56 220 63 Q220 56 213 56 Q220 56 220 49 Z" fill="#FEFAF7" opacity="1"/>
+<path d="M230 66.5 Q230 70 233.5 70 Q230 70 230 73.5 Q230 70 226.5 70 Q230 70 230 66.5 Z" fill="#FEFAF7" opacity="0.8"/>
+</g>
+</svg>

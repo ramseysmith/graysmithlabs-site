@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="60" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<g transform="translate(200 92)">
+<g fill="#3FB874">
+<path d="M0 0 c9 -6 12 -26 0 -46 c-12 20 -9 40 0 46 z" transform="rotate(30)"/>
+<path d="M0 0 c9 -6 12 -26 0 -46 c-12 20 -9 40 0 46 z" transform="rotate(102)"/>
+<path d="M0 0 c9 -6 12 -26 0 -46 c-12 20 -9 40 0 46 z" transform="rotate(174)"/>
+<path d="M0 0 c9 -6 12 -26 0 -46 c-12 20 -9 40 0 46 z" transform="rotate(246)"/>
+<path d="M0 0 c9 -6 12 -26 0 -46 c-12 20 -9 40 0 46 z" transform="rotate(318)"/>
+</g>
+<g fill="#C8102E">
+<path d="M0 0 c8 -6 11 -22 0 -38 c-11 16 -8 32 0 38 z" transform="rotate(36)"/>
+<path d="M0 0 c8 -6 11 -22 0 -38 c-11 16 -8 32 0 38 z" transform="rotate(108)"/>
+<path d="M0 0 c8 -6 11 -22 0 -38 c-11 16 -8 32 0 38 z" transform="rotate(180)"/>
+<path d="M0 0 c8 -6 11 -22 0 -38 c-11 16 -8 32 0 38 z" transform="rotate(252)"/>
+<path d="M0 0 c8 -6 11 -22 0 -38 c-11 16 -8 32 0 38 z" transform="rotate(324)"/>
+</g>
+<g fill="#E5384F">
+<path d="M0 0 c10 -6 13 -26 0 -44 c-13 18 -10 38 0 44 z"/>
+<path d="M0 0 c10 -6 13 -26 0 -44 c-13 18 -10 38 0 44 z" transform="rotate(72)"/>
+<path d="M0 0 c10 -6 13 -26 0 -44 c-13 18 -10 38 0 44 z" transform="rotate(144)"/>
+<path d="M0 0 c10 -6 13 -26 0 -44 c-13 18 -10 38 0 44 z" transform="rotate(216)"/>
+<path d="M0 0 c10 -6 13 -26 0 -44 c-13 18 -10 38 0 44 z" transform="rotate(288)"/>
+</g>
+<g stroke="#FF7BC0" stroke-width="1.8" stroke-linecap="round" opacity="0.7">
+<path d="M0 -8 v-28"/><path d="M0 -8 v-28" transform="rotate(72)"/><path d="M0 -8 v-28" transform="rotate(144)"/><path d="M0 -8 v-28" transform="rotate(216)"/><path d="M0 -8 v-28" transform="rotate(288)"/>
+</g>
+<g fill="#FFD84D"><circle cx="0" cy="-4" r="3.5"/><circle cx="-4" cy="2" r="3.5"/><circle cx="4" cy="2" r="3.5"/><circle cx="0" cy="0" r="2.5" fill="#3FB874"/></g>
+</g>
+<path d="M170 128 h60 l-8 38 h-44 z" fill="#FFD84D"/>
+<path d="M164 126 l12 6 l12 -8 l12 8 l12 -8 l12 8 l12 -6 v8 h-72 z" fill="#FFE68A"/>
+<path d="M186 134 l4 30 M212 134 l-4 30" stroke="#FF9152" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+<path d="M178 138 l4 24" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+<g id="move"><path d="M246 66 l-2 -6 l-2 6 l-6 2 l6 2 l2 6 l2 -6 l6 -2 z" fill="#FFD84D"/></g>
+</svg>

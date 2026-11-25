@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M118 160 L130 154 L282 154 L292 160 L286 166 H124 Z" fill="#C98A4E"/>
+<path d="M132 157 H278" stroke="#E0A86A" stroke-width="2" stroke-linecap="round"/>
+<path d="M134 116 L150 102 H218 L202 116 Z" fill="#FEFAF7"/>
+<path d="M202 116 L218 102 V142 L202 156 Z" fill="#E8CFA8"/>
+<rect x="134" y="116" width="68" height="40" fill="#F7EAD2"/>
+<path d="M134 116 H202" stroke="#F3D29E" stroke-width="3"/>
+<path d="M134 155 H202" stroke="#F3D29E" stroke-width="3"/>
+<g fill="#C98A4E"><ellipse cx="146" cy="128" rx="6" ry="3.6"/><ellipse cx="176" cy="124" rx="6" ry="3.6"/><ellipse cx="162" cy="142" rx="6" ry="3.6"/><ellipse cx="190" cy="146" rx="6" ry="3.6"/></g>
+<g fill="#8FB85A"><ellipse cx="160" cy="128" rx="4" ry="3"/><ellipse cx="190" cy="132" rx="4" ry="3"/><ellipse cx="146" cy="146" rx="4" ry="3"/><ellipse cx="176" cy="148" rx="4" ry="3"/></g>
+<path d="M156 108 H196" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+<g transform="rotate(-7 240 136)"><rect x="224" y="116" width="32" height="40" rx="3" fill="#F7EAD2"/><path d="M224 118 H256 M224 154 H256" stroke="#F3D29E" stroke-width="3"/><g transform="translate(226 120)"><ellipse cx="6" cy="6" rx="5" ry="3.2" fill="#C98A4E"/><ellipse cx="18" cy="14" rx="3.5" ry="2.6" fill="#8FB85A"/><ellipse cx="8" cy="22" rx="3.5" ry="2.6" fill="#8FB85A"/><ellipse cx="20" cy="28" rx="5" ry="3.2" fill="#C98A4E"/></g></g>
+<g transform="rotate(8 268 140)"><rect x="252" y="122" width="32" height="34" rx="3" fill="#FBF1DE"/><path d="M252 124 H284 M252 154 H284" stroke="#F3D29E" stroke-width="3"/><g transform="translate(256 122)"><ellipse cx="6" cy="6" rx="5" ry="3.2" fill="#C98A4E"/><ellipse cx="18" cy="14" rx="3.5" ry="2.6" fill="#8FB85A"/><ellipse cx="8" cy="22" rx="3.5" ry="2.6" fill="#8FB85A"/><ellipse cx="20" cy="28" rx="5" ry="3.2" fill="#C98A4E"/></g></g>
+<g id="move"><path d="M240 76 L242.5 82.5 L249 85 L242.5 87.5 L240 94 L237.5 87.5 L231 85 L237.5 82.5 Z" fill="#FFD84D"/><path d="M128 86 L130 91 L135 93 L130 95 L128 100 L126 95 L121 93 L126 91 Z" fill="#FEFAF7"/><circle cx="264" cy="100" r="2.5" fill="#FEFAF7"/></g>
+</svg>

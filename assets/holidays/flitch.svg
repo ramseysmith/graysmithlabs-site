@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="92" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="112" y="148" width="180" height="16" rx="6" fill="#B06A2A"/>
+<path d="M120 152 H284" stroke="#E0A04A" stroke-width="2.4" stroke-linecap="round" opacity="0.6"/>
+<path d="M140 158 H180 M210 159 H260" stroke="#8A4A1C" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+<rect x="122" y="104" width="122" height="46" rx="10" fill="#E5708A"/>
+<path d="M124 120 C150 116 180 124 210 118 C226 116 236 120 242 119" stroke="#FCE7D9" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M124 136 C146 132 176 140 206 134 C224 131 234 136 242 135" stroke="#FCE7D9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M132 104 H234 C240 104 244 106 244 112 H122 C122 106 126 104 132 104 Z" fill="#9C5A30"/>
+<path d="M136 128 C150 126 160 128 170 127" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4"/>
+<rect x="176" y="104" width="12" height="46" fill="#3FB874"/>
+<path d="M182 104 C170 92 156 94 160 102 C162 108 174 106 182 104 Z" fill="#3FB874"/>
+<path d="M182 104 C194 92 208 94 204 102 C202 108 190 106 182 104 Z" fill="#3FB874"/>
+<path d="M180 106 L170 120 M184 106 L194 120" stroke="#2E9A5E" stroke-width="5" stroke-linecap="round"/>
+<circle cx="182" cy="104" r="5" fill="#2E9A5E"/>
+<path d="M162 100 C166 97 170 97 174 99" stroke="#FEFAF7" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+<circle cx="260" cy="138" r="9" fill="none" stroke="#F2C06A" stroke-width="4"/>
+<circle cx="274" cy="138" r="9" fill="none" stroke="#E0A04A" stroke-width="4"/>
+<path d="M254 132 C256 130 258 129 260 129" stroke="#FEFAF7" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.7"/>
+<g id="move"><path d="M262 108 L264.0 113.0 L269 115 L264.0 117.0 L262 122 L260.0 117.0 L255 115 L260.0 113.0 Z" fill="#FEFAF7" opacity="0.95"/><path d="M284 118 L285.1 120.9 L288 122 L285.1 123.1 L284 126 L282.9 123.1 L280 122 L282.9 120.9 Z" fill="#FFE08A" opacity="0.9"/></g>
+</svg>

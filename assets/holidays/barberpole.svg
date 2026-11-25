@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<rect x="184" y="56" width="32" height="96" fill="#FEFAF7"/>
+<path d="M184 62 L216 46 L216 53 L184 69 Z" fill="#E5384F"/><path d="M184 74 L216 58 L216 65 L184 81 Z" fill="#6AA8FF"/><path d="M184 86 L216 70 L216 77 L184 93 Z" fill="#E5384F"/><path d="M184 98 L216 82 L216 89 L184 105 Z" fill="#6AA8FF"/><path d="M184 110 L216 94 L216 101 L184 117 Z" fill="#E5384F"/><path d="M184 122 L216 106 L216 113 L184 129 Z" fill="#6AA8FF"/><path d="M184 134 L216 118 L216 125 L184 141 Z" fill="#E5384F"/><path d="M184 146 L216 130 L216 137 L184 153 Z" fill="#6AA8FF"/>
+<path d="M210 64 V146" stroke="#FEFAF7" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+<path d="M184 56 V150" stroke="#2E251F" stroke-width="2" opacity="0.35"/>
+<rect x="178" y="48" width="44" height="10" rx="3" fill="#C9CED6"/>
+<path d="M186 48 C186 34 214 34 214 48 Z" fill="#FFE79A"/>
+<circle cx="200" cy="34" r="4" fill="#C9CED6"/>
+<rect x="178" y="146" width="44" height="10" rx="3" fill="#C9CED6"/>
+<path d="M184 156 H216 L220 166 H180 Z" fill="#8A9099"/>
+<path d="M182 52 H210" stroke="#FEFAF7" stroke-width="2" stroke-linecap="round"/>
+<g transform="rotate(-16 252 150)">
+<path d="M232 148 V126 C232 120 272 120 272 126 V148 Z" fill="#F3D29E"/>
+<ellipse cx="252" cy="125" rx="20" ry="5" fill="#FFE79A"/>
+<rect x="232" y="136" width="40" height="8" fill="#E5384F"/>
+<path d="M236 130 H268 M236 148 H268" stroke="#C9A57A" stroke-width="1.6" stroke-linecap="round"/>
+<ellipse cx="252" cy="150" rx="36" ry="8" fill="#F3D29E"/>
+<path d="M222 151 C236 155 268 155 282 151" stroke="#C9A57A" stroke-width="2" fill="none" stroke-linecap="round"/>
+</g>
+<g id="move" fill="#FFE79A" stroke="#FFE79A" stroke-linecap="round"><ellipse cx="146" cy="86" rx="6" ry="4.5" transform="rotate(-20 146 86)" stroke="none"/><path d="M151 85 V62 C156 66 162 68 162 76" stroke-width="3" fill="none"/><ellipse cx="166" cy="62" rx="4.5" ry="3.4" transform="rotate(-20 166 62)" stroke="none"/><path d="M170 61 V46" stroke-width="2.5" fill="none"/></g>
+</svg>

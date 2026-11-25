@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="202" cy="168" rx="78" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M146 128 L138 166 H150 L158 134 Z" fill="#7A4A2A"/>
+<path d="M208 134 L216 166 H228 L220 128 Z" fill="#7A4A2A"/>
+<rect x="140" y="150" width="86" height="6" rx="3" fill="#7A4A2A"/>
+<path d="M136 84 C164 74 204 74 230 82 V134 C204 142 164 142 136 132 C130 118 130 98 136 84 Z" fill="#C98A4E"/>
+<path d="M136 120 C150 126 200 128 230 122 V134 C204 142 164 142 136 132 C133 128 132 124 136 120 Z" fill="#B06A2A" opacity="0.7"/>
+<path d="M142 100 C170 94 206 94 226 98 M142 116 C170 114 206 114 226 116" stroke="#B06A2A" stroke-width="2" fill="none" opacity="0.6"/>
+<path d="M150 86 C170 80 196 79 214 81" stroke="#FFF3E0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.35"/>
+<path d="M156 80 C152 96 152 122 156 138 M208 78 C204 96 204 124 208 139" stroke="#7A4A2A" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="230" cy="108" rx="11" ry="26" fill="#B06A2A"/>
+<ellipse cx="231" cy="108" rx="7" ry="20" fill="#C98A4E"/>
+<ellipse cx="230" cy="108" rx="11" ry="26" fill="none" stroke="#7A4A2A" stroke-width="3"/>
+<rect x="243" y="96" width="4.5" height="11" rx="2.2" fill="#FFD84D"/>
+<path d="M234 104 H250 C253 104 254 106 254 108 V120 H248 V112 H234 Z" fill="#FFC93C"/>
+<path d="M238 136 H270 L268 162 C268 165 266 166 263 166 H245 C242 166 240 165 240 162 Z" fill="#FEFAF7" opacity="0.22"/>
+<path d="M239.5 146 H268.5 L267.4 160 C267.2 162.5 265.5 163.5 263 163.5 H245 C242.5 163.5 241 162.5 240.6 160 Z" fill="#FFC93C"/>
+<path d="M240.4 156 H267.8 L267.4 160 C267.2 162.5 265.5 163.5 263 163.5 H245 C242.5 163.5 241 162.5 240.6 160 Z" fill="#FF8A3D" opacity="0.7"/>
+<rect x="249" y="141" width="10" height="9" rx="2" fill="#FEFAF7" opacity="0.55"/>
+<path d="M238 136 H270 L268 162 C268 165 266 166 263 166 H245 C242 166 240 165 240 162 Z" fill="none" stroke="#C9CED6" stroke-width="2.6" stroke-linejoin="round"/>
+<g id="move">
+<path d="M251 122 C254 127 255.5 129 255.5 131 A4.5 4.5 0 0 1 246.5 131 C246.5 129 248 127 251 122 Z" fill="#FFC93C"/>
+</g>
+</svg>

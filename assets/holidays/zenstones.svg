@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="86" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M146 166 C144 148 140 132 134 112" stroke="#2FB35B" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+<path d="M0 0 Q9.0 -6.84 18 0 Q9.0 6.84 0 0 Z" fill="#3FB874" transform="translate(145 150) rotate(200)"/>
+<path d="M0 0 Q9.0 -6.84 18 0 Q9.0 6.84 0 0 Z" fill="#68DB8C" transform="translate(143 140) rotate(-20)"/>
+<path d="M0 0 Q8.0 -6.08 16 0 Q8.0 6.08 0 0 Z" fill="#68DB8C" transform="translate(140 128) rotate(210)"/>
+<path d="M0 0 Q7.5 -5.7 15 0 Q7.5 5.7 0 0 Z" fill="#3FB874" transform="translate(137 120) rotate(-40)"/>
+<path d="M0 0 Q6.5 -4.94 13 0 Q6.5 4.94 0 0 Z" fill="#68DB8C" transform="translate(134 112) rotate(-100)"/>
+<ellipse cx="196" cy="152" rx="42" ry="14" fill="#9AA4B1"/>
+<path d="M170.8 147.1 C183.4 142.2 196.0 141.5 204.4 142.2" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.45"/>
+<ellipse cx="194" cy="129" rx="33" ry="11" fill="#B9C3CF"/>
+<path d="M174.2 125.2 C184.1 121.3 194.0 120.8 200.6 121.3" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.45"/>
+<ellipse cx="198" cy="110" rx="24" ry="9" fill="#8A939E"/>
+<path d="M183.6 106.8 C190.8 103.7 198.0 103.2 202.8 103.7" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.45"/>
+<ellipse cx="196" cy="94" rx="15" ry="7" fill="#C9CED6"/>
+<path d="M187.0 91.5 C191.5 89.1 196.0 88.8 199.0 89.1" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.45"/>
+<rect x="252" y="130" width="22" height="36" rx="4" fill="#FFF3E0"/>
+<ellipse cx="263" cy="130" rx="11" ry="3" fill="#FCE7D9"/>
+<path d="M257 136 V158" stroke="#E0A04A" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<path d="M263 130 V124" stroke="#4A2A1C" stroke-width="2" stroke-linecap="round"/>
+<g id="move">
+<circle cx="263" cy="112" r="14" fill="#FFD84D" opacity="0.15"/>
+<path d="M263 98 C268 106 271 112 271 117 C271 122 267 125 263 125 C259 125 255 122 255 117 C255 112 258 106 263 98 Z" fill="#FF9152"/>
+<path d="M263 108 C266 112 267 115 267 118 C267 121 265 122 263 122 C261 122 259 121 259 118 C259 115 260 112 263 108 Z" fill="#FFD84D"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><radialGradient id="ball" cx="38%" cy="34%" r="70%"><stop offset="0" stop-color="#FEFAF7"/><stop offset="0.6" stop-color="#FCE7D9"/><stop offset="1" stop-color="#F6BB94"/></radialGradient></defs>
+<ellipse cx="200" cy="168" rx="40" ry="5" fill="#FCE7D9" opacity="0.7"/>
+<path d="M200 38 V60" stroke="#FCE7D9" stroke-width="3"/>
+<rect x="192" y="54" width="16" height="10" rx="3" fill="#F6BB94"/>
+<circle cx="200" cy="108" r="48" fill="url(#ball)"/>
+<path d="M156 90 Q200 80 244 90 M152 108 H248 M156 126 Q200 136 244 126 M168 72 Q200 66 232 72 M168 144 Q200 150 232 144 M200 60 V156 M176 66 Q160 108 176 150 M224 66 Q240 108 224 150" stroke="#AF734B" stroke-width="2" fill="none" opacity="0.4"/>
+<g><rect x="178" y="74" width="10" height="9" fill="#3DDB72"/><rect x="212" y="111" width="10" height="9" fill="#FF7BC0"/><rect x="188" y="129" width="10" height="9" fill="#FFD84D"/><rect x="226" y="93" width="9" height="9" fill="#6AA8FF"/><rect x="164" y="111" width="9" height="9" fill="#FF7BC0"/></g>
+<g id="move"><path d="M140 58 l3.6 8.4 l8.4 3.6 l-8.4 3.6 l-3.6 8.4 l-3.6 -8.4 l-8.4 -3.6 l8.4 -3.6 z" fill="#FFD84D"/><path d="M264 72 l3.0 7.0 l7.0 3.0 l-7.0 3.0 l-3.0 7.0 l-3.0 -7.0 l-7.0 -3.0 l7.0 -3.0 z" fill="#3DDB72"/><path d="M256 139 l2.7 6.3 l6.3 2.7 l-6.3 2.7 l-2.7 6.3 l-2.7 -6.3 l-6.3 -2.7 l6.3 -2.7 z" fill="#FEFAF7"/><path d="M148 139 l2.1 4.9 l4.9 2.1 l-4.9 2.1 l-2.1 4.9 l-2.1 -4.9 l-4.9 -2.1 l4.9 -2.1 z" fill="#FF7BC0"/></g>
+</svg>

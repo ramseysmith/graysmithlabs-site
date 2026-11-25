@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="66" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M148 128 H252 L244 160 C243 164 240 166 236 166 H164 C160 166 157 164 156 160 Z" fill="#3B82D6"/>
+<path d="M150 136 H250" stroke="#FEFAF7" stroke-width="4" opacity="0.9"/>
+<path d="M226 128 H252 L244 160 C243 164 240 166 236 166 H222 Z" fill="#2C6AB8"/>
+<path d="M160 142 V158" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+<path d="M150 128 C150 96 172 82 200 82 C228 82 250 96 250 128 Z" fill="#F2B45A"/>
+<path d="M228 92 C242 100 250 112 250 128 L230 128 C236 114 236 102 228 92 Z" fill="#E09A48"/>
+<path d="M164 104 C170 94 180 89 190 88" stroke="#FFF3E0" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.5"/>
+<path d="M196 92 L200 84 L204 92 M188 96 C192 94 196 94 196 94" stroke="#B06A2A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M212 108 C220 112 226 118 228 126 L212 126 C208 120 208 112 212 108 Z" fill="#7A4A2A"/>
+<circle cx="216" cy="118" r="3.6" fill="#7BC96F"/>
+<circle cx="222" cy="123" r="3" fill="#4CAF6E"/>
+<rect x="212" y="120" width="5" height="5" rx="1" fill="#FF8A3D"/>
+<g fill="#E09A48">
+<circle cx="152" cy="128" r="6"/><circle cx="164" cy="130" r="6"/><circle cx="176" cy="131" r="6"/><circle cx="188" cy="132" r="6"/><circle cx="200" cy="132" r="6"/><circle cx="212" cy="132" r="6"/><circle cx="224" cy="131" r="6"/><circle cx="236" cy="130" r="6"/><circle cx="248" cy="128" r="6"/>
+</g>
+<g fill="#F2C27A">
+<circle cx="152" cy="126" r="3"/><circle cx="164" cy="128" r="3"/><circle cx="176" cy="129" r="3"/><circle cx="188" cy="130" r="3"/><circle cx="200" cy="130" r="3"/><circle cx="212" cy="130" r="3"/><circle cx="224" cy="129" r="3"/><circle cx="236" cy="128" r="3"/><circle cx="248" cy="126" r="3"/>
+</g>
+<g id="move" stroke="#FEFAF7" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.6">
+<path d="M196 76 C190 68 202 62 196 52 C192 46 198 42 196 38"/>
+<path d="M208 76 C204 70 212 64 208 56"/>
+</g>
+</svg>

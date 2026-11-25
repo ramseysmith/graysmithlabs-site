@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M168 160 V154 H236 V160 A34 7 0 0 1 168 160 Z" fill="#9C5A30"/><ellipse cx="202" cy="154" rx="34" ry="7" fill="#B06A2A"/>
+<path d="M168 150 V144 H236 V150 A34 7 0 0 1 168 150 Z" fill="#9C5A30"/><ellipse cx="202" cy="144" rx="34" ry="7" fill="#B06A2A"/>
+<path d="M168 140 V134 H236 V140 A34 7 0 0 1 168 140 Z" fill="#9C5A30"/><ellipse cx="202" cy="134" rx="34" ry="7" fill="#B06A2A"/>
+<path d="M168 130 V124 H236 V130 A34 7 0 0 1 168 130 Z" fill="#9C5A30"/><ellipse cx="202" cy="124" rx="34" ry="7" fill="#B06A2A"/>
+<ellipse cx="202" cy="124" rx="34" ry="7" fill="#C9803A"/>
+<path d="M184 123 L192 125 L198 121 L208 126 L218 122 M196 127 L200 124" stroke="#F5C77E" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.8"/>
+<circle cx="146" cy="140" r="26" fill="#B06A2A"/>
+<circle cx="146" cy="140" r="22" fill="#C9803A"/>
+<path d="M132 128 L140 134 L136 142 M140 134 L150 130 L158 136 M150 130 L148 122 M136 142 L144 150 L156 148 M144 150 L142 158 M156 148 L162 142 M158 136 L162 142" stroke="#F5C77E" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#FEFAF7" opacity="0.7"><circle cx="128" cy="136" r="1.2"/><circle cx="152" cy="140" r="1.2"/><circle cx="140" cy="146" r="1.2"/><circle cx="160" cy="130" r="1.2"/></g>
+<path d="M128 126 C132 120 138 117 144 116" stroke="#FEFAF7" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+<path d="M240 160 C240 153 248 150 258 152 C266 148 280 148 286 154 C291 160 287 166 278 166 H248 C242 166 240 164 240 160 Z" fill="#F5C77E"/>
+<path d="M282 154 C284 146 292 144 296 148 C297 153 292 156 286 157 Z" fill="#F5C77E"/>
+<path d="M254 152 C252 158 253 162 255 165 M272 150 C270 156 271 161 273 165 M246 156 H250 M262 156 H266" stroke="#E0A04A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<ellipse cx="262" cy="152" rx="6" ry="2" fill="#FEFAF7" opacity="0.35"/>
+<g id="move"><g fill="#C9803A"><circle cx="226" cy="108" r="2.6"/><circle cx="236" cy="98" r="2"/><circle cx="218" cy="96" r="1.6"/></g><path d="M244 77 L246 82 L251 84 L246 86 L244 91 L242 86 L237 84 L242 82 Z" fill="#FFF3C4"/></g>
+</svg>

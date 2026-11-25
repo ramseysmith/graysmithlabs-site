@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="90" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M130 132 C116 128 112 116 118 112 L136 128" fill="#F9A8B8"/>
+<path d="M134 136 L116 116 C114 112 120 110 122 114 L140 132 Z" fill="#F9A8B8"/>
+<path d="M186 126 C202 124 204 150 186 152" stroke="#E5384F" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M130 140 C130 120 144 110 160 110 C176 110 190 120 190 140 C190 156 178 166 160 166 C142 166 130 156 130 140 Z" fill="#F9A8B8"/>
+<ellipse cx="160" cy="112" rx="20" ry="5" fill="#E5384F"/>
+<circle cx="160" cy="104" r="5" fill="#E5384F"/>
+<path d="M132 142 H188" stroke="#FEFAF7" stroke-width="4" opacity="0.8"/>
+<path d="M140 124 C144 118 150 116 156 116" stroke="#FEFAF7" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+<ellipse cx="216" cy="165" rx="22" ry="3.5" fill="#2FB3A8"/>
+<path d="M200 142 H232 C232 156 226 163 216 163 C206 163 200 156 200 142 Z" fill="#9FE3D9"/>
+<path d="M232 146 C240 146 240 156 230 156" stroke="#9FE3D9" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="216" cy="142" rx="16" ry="3" fill="#B06A2A"/>
+<path d="M264 158 C276 168 286 160 288 166" stroke="#E5384F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M250 102 L274 160 M282 104 L250 158" stroke="#C9C2BC" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="250" cy="102" r="4" fill="#FFE08A"/><circle cx="282" cy="104" r="4" fill="#FFE08A"/>
+<circle cx="264" cy="145" r="21" fill="#E5384F"/>
+<g stroke="#B82A3E" stroke-width="2.2" fill="none" stroke-linecap="round"><path d="M246 136 C256 144 262 156 260 165"/><path d="M252 128 C264 136 272 150 272 164"/><path d="M262 124 C274 130 282 140 284 150"/><path d="M244 150 C256 146 272 146 282 154"/></g>
+<path d="M250 134 C254 129 260 127 264 127" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.45"/>
+<path d="M262 122 L266 132" stroke="#C9C2BC" stroke-width="3.5" stroke-linecap="round"/>
+<g id="move" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"><path d="M210 134 C206 128 214 124 210 116"/><path d="M222 134 C218 126 226 122 222 112"/></g>
+</svg>

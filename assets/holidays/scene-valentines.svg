@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200"><defs><radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF5C8A" stop-opacity="0.4"/><stop offset="1" stop-color="#FF5C8A" stop-opacity="0"/></radialGradient>
+<linearGradient id="h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7BA0"/><stop offset="1" stop-color="#E5385F"/></linearGradient></defs>
+<ellipse cx="200" cy="100" rx="190" ry="96" fill="url(#g)"/>
+<path d="M200 156.2 C107.19999999999999 98.2 147.8 34.400000000000006 200 77.9 C252.2 34.400000000000006 292.8 98.2 200 156.2 Z" fill="url(#h)"/>
+<path d="M168 70 c-10 6 -16 18 -14 30" stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.4"/>
+<path d="M96 150 L300 52" stroke="#FFD84D" stroke-width="5" stroke-linecap="round"/>
+<path d="M300 52 l-18 -2 l8 16 z" fill="#FFD84D"/>
+<path d="M96 150 l-8 -12 M96 150 l-14 0 M104 146 l-8 -12 M104 146 l-14 0" stroke="#FEFAF7" stroke-width="3" stroke-linecap="round"/>
+<path d="M80 74.4 C54.4 58.4 65.6 40.8 80 52.8 C94.4 40.8 105.6 58.4 80 74.4 Z" fill="#FF9EC4"/><path d="M330 156.2 C301.2 138.2 313.8 118.4 330 131.9 C346.2 118.4 358.8 138.2 330 156.2 Z" fill="#FF9EC4"/><path d="M320 69.0 C304.0 59.0 311.0 48.0 320 55.5 C329.0 48.0 336.0 59.0 320 69.0 Z" fill="#FEFAF7" opacity="0.8"/><path d="M70 159.0 C54.0 149.0 61.0 138.0 70 145.5 C79.0 138.0 86.0 149.0 70 159.0 Z" fill="#FFB3D1"/>
+<path d="M130 36 l-2 -7 l-2 7 l-7 2 l7 2 l2 7 l2 -7 l7 -2 z" fill="#FFD84D"/><path d="M280 170 l-2 -7 l-2 7 l-7 2 l7 2 l2 7 l2 -7 l7 -2 z" fill="#FFFFFF" opacity="0.8"/>
+</svg>

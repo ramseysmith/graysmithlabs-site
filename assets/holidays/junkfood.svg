@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="86" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<g transform="rotate(-8 160 120)"><rect x="152" y="86" width="5" height="34" rx="2" fill="#F2C06A"/></g>
+<rect x="158" y="82" width="5" height="36" rx="2" fill="#FFD34D"/>
+<g transform="rotate(6 168 110)"><rect x="165" y="84" width="5" height="34" rx="2" fill="#F2C06A"/></g>
+<g transform="rotate(12 176 110)"><rect x="172" y="88" width="5" height="32" rx="2" fill="#FFD34D"/></g>
+<path d="M146 108 H184 L178 148 H152 Z" fill="#E5384F"/>
+<path d="M146 108 C156 116 174 116 184 108" stroke="#C02A3E" stroke-width="2" fill="none"/>
+<path d="M152 120 L156 142" stroke="#FEFAF7" stroke-width="2.4" stroke-linecap="round" opacity="0.5"/>
+<path d="M236 96 H264 L260 148 H240 Z" fill="#2FB35B"/>
+<path d="M237 116 H263 L262 128 H238 Z" fill="#FEFAF7" opacity="0.85"/>
+<path d="M242 102 L244 144" stroke="#FEFAF7" stroke-width="2.4" stroke-linecap="round" opacity="0.4"/>
+<ellipse cx="250" cy="96" rx="17" ry="4.5" fill="#FEFAF7"/>
+<path d="M132 146 H272 L262 164 H142 Z" fill="#F2C06A"/>
+<path d="M132 146 H272" stroke="#E0A04A" stroke-width="3" stroke-linecap="round"/>
+<path d="M150 156 H254" stroke="#E0A04A" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+<circle cx="208" cy="126" r="13" fill="none" stroke="#E8B06A" stroke-width="12"/>
+<circle cx="208" cy="126" r="12" fill="none" stroke="#F9A8B8" stroke-width="8"/>
+<g stroke-width="2" stroke-linecap="round"><path d="M201 116 L204 117" stroke="#FFE08A"/><path d="M214 115 L216 118" stroke="#2FB35B"/><path d="M219 127 L218 130" stroke="#E5384F"/><path d="M198 130 L200 132" stroke="#3FB874"/><path d="M210 137 L213 137" stroke="#FFE08A"/><path d="M197 122 L197 125" stroke="#E5384F"/></g>
+<path d="M200 117 C203 115 206 114 209 114" stroke="#FEFAF7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+<ellipse cx="184" cy="150" rx="7" ry="5" fill="#F08A3A" transform="rotate(-20 184 150)"/>
+<ellipse cx="226" cy="150" rx="7" ry="4.5" fill="#F08A3A" transform="rotate(25 226 150)"/>
+<ellipse cx="196" cy="152" rx="5" ry="4" fill="#E87A2A"/>
+<g id="move">
+<path d="M253 96 L258 62 L270 56" stroke="#E5384F" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="242" cy="84" r="3" fill="#9FE3B6"/><circle cx="236" cy="72" r="2.2" fill="#9FE3B6" opacity="0.8"/><circle cx="244" cy="64" r="1.6" fill="#9FE3B6" opacity="0.6"/>
+</g>
+</svg>

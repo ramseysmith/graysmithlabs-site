@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="84" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<g fill="none" stroke-width="17">
+<path d="M200 110 C228 52 288 60 288 110 C288 160 228 168 200 110 C172 52 112 60 112 110 C112 160 172 168 200 110 Z" stroke="#E5384F" stroke-dasharray="130.35 391.05" stroke-dashoffset="0"/>
+<path d="M200 110 C228 52 288 60 288 110 C288 160 228 168 200 110 C172 52 112 60 112 110 C112 160 172 168 200 110 Z" stroke="#FFC93C" stroke-dasharray="130.35 391.05" stroke-dashoffset="-130.35"/>
+<path d="M200 110 C228 52 288 60 288 110 C288 160 228 168 200 110 C172 52 112 60 112 110 C112 160 172 168 200 110 Z" stroke="#3FB874" stroke-dasharray="130.35 391.05" stroke-dashoffset="-260.7"/>
+<path d="M200 110 C228 52 288 60 288 110 C288 160 228 168 200 110 C172 52 112 60 112 110 C112 160 172 168 200 110 Z" stroke="#6AA8FF" stroke-dasharray="130.35 391.05" stroke-dashoffset="-391.05"/>
+</g>
+<path d="M240 76 C262 72 278 84 280 100" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+<path d="M126 96 C130 84 144 76 158 78" stroke="#FEFAF7" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+<g id="move"><path d="M292 52 L294.8 59.2 L302 62 L294.8 64.8 L292 72 L289.2 64.8 L282 62 L289.2 59.2 Z" fill="#FFE79A"/><circle cx="308" cy="80" r="2.4" fill="#FEFAF7"/></g>
+</svg>

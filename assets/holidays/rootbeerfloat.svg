@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<ellipse cx="200" cy="168" rx="60" ry="5" fill="#FCE7D9" opacity="0.2"/>
+<path d="M232 110 C256 106 262 118 262 130 C262 144 252 152 234 150" stroke="#C9CED6" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.85"/>
+<path d="M214 76 L244 34" stroke="#E5384F" stroke-width="6" stroke-linecap="round"/>
+<path d="M226 60 L230 54 M236 46 L240 40" stroke="#FEFAF7" stroke-width="6"/>
+<path d="M158 92 H238 L234 156 C234 162 230 166 224 166 H172 C166 166 162 162 162 156 Z" fill="#FEFAF7" opacity="0.22"/>
+<path d="M162 100 H234 L231 152 C231 156 228 158 224 158 H172 C168 158 165 156 165 152 Z" fill="#8A5A3C"/>
+<path d="M165 136 H231 L231 152 C231 156 228 158 224 158 H172 C168 158 165 156 165 152 Z" fill="#6B3F25"/>
+<path d="M158 92 H238 L234 156 C234 162 230 166 224 166 H172 C166 166 162 162 162 156 Z" fill="none" stroke="#C9CED6" stroke-width="3" stroke-linejoin="round"/>
+<path d="M162 158 H234" stroke="#C9CED6" stroke-width="3" opacity="0.7"/>
+<path d="M156 94 C156 88 160 86 166 86 H230 C236 86 240 88 240 94 C240 100 238 108 236 112 C234 116 230 116 230 110 C230 104 226 102 222 102 C218 102 218 106 218 110 C218 116 212 116 212 110 V104 C212 100 186 100 184 104 C182 108 184 122 178 122 C172 122 174 110 172 104 C170 100 164 100 162 104 C160 108 156 104 156 94 Z" fill="#FFF3E0"/>
+<circle cx="198" cy="76" r="26" fill="#FEFAF7"/>
+<path d="M174 82 C176 90 186 94 192 90 C196 96 206 96 210 90 C216 94 224 90 224 82" fill="#FEFAF7"/>
+<path d="M182 64 C186 58 192 56 198 56" stroke="#FCE7D9" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M178 82 C184 86 190 86 194 84" stroke="#FCE7D9" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M172 108 V146 M178 112 V128" stroke="#FEFAF7" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+<path d="M226 112 V140" stroke="#FEFAF7" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+<g id="move">
+<circle cx="196" cy="146" r="3" fill="none" stroke="#FFF3E0" stroke-width="1.6" opacity="0.8"/>
+<circle cx="206" cy="132" r="2.4" fill="none" stroke="#FFF3E0" stroke-width="1.6" opacity="0.8"/>
+<circle cx="194" cy="120" r="2" fill="none" stroke="#FFF3E0" stroke-width="1.4" opacity="0.8"/>
+<circle cx="212" cy="116" r="1.8" fill="none" stroke="#FFF3E0" stroke-width="1.4" opacity="0.8"/>
+<circle cx="186" cy="134" r="1.6" fill="none" stroke="#FFF3E0" stroke-width="1.4" opacity="0.8"/>
+</g>
+</svg>
