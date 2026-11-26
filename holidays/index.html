@@ -33,7 +33,7 @@
 (function () {
   var M = ["January","February","March","April","May","June","July","August","September","October","November","December"], W = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var now = new Date(), y = now.getFullYear(), m = now.getMonth() + 1, d = now.getDate();
-  var built = "2026-11-25";
+  var built = "2026-11-26";
   var local = y + "-" + String(m).padStart(2, "0") + "-" + String(d).padStart(2, "0");
   if (local === built) return;
   function go() {
@@ -92,27 +92,39 @@
   <div class="wrap hd">
     <p class="eyebrow">Daily holidays</p>
     <h1>What holiday is it today?</h1>
-    <p class="lede">Today is <b id="today-date">Wednesday, November 25</b>. Here is what people are celebrating.</p>
+    <p class="lede">Today is <b id="today-date">Thursday, November 26</b>. Here is what people are celebrating.</p>
     <p class="hd-by">Written and illustrated by <a href="../about.html">Graysmith Labs</a>, the makers of CelebriDay.</p>
     <div class="hd-grid" id="today-grid">
         <article class="hd-card has-story">
-          <span class="hd-stage cat-food"><img src="../assets/holidays/parfait.svg" alt="Drawing for National Parfait Day" width="400" height="200" loading="lazy" decoding="async"></span>
+          <span class="hd-stage cat-food"><img src="../assets/holidays/scene-thanksgiving.svg" alt="Drawing for Thanksgiving" width="400" height="200" loading="lazy" decoding="async"></span>
           <div class="hd-body">
             <span class="tag">Food</span>
-            <h2>National Parfait Day</h2>
-            <p class="hd-intro">A layered celebration of the beautiful and delicious parfait dessert.</p>
-            <p>Nobody is sure who first marked National Parfait Day. The parfait began in France as a frozen dessert, but in the United States the word came to mean something different: a tall glass filled with layers of ice cream, fruit, syrup and whipped cream. Today it most often means yogurt, granola and berries.</p>
-            <p>Part of the charm of a parfait is the glass itself. Clear sides show off every layer, so it is a dessert built to be looked at before it is eaten. The layers also mean each spoonful tastes a little different from the last.</p>
+            <h2>Thanksgiving</h2>
+            <p class="hd-intro">A day to gather with family and friends, share a big meal, and give thanks for the good things in life.</p>
+            <p>In the fall of 1621, the Pilgrims of Plymouth Colony and about 90 Wampanoag men led by Massasoit shared a harvest feast that lasted three days. It was not called Thanksgiving at the time, and the menu likely had venison and wild fowl rather than the dinner we know now.</p>
+            <p>Days of thanks came and went for two centuries, until the writer Sarah Josepha Hale campaigned for a national holiday. President Abraham Lincoln proclaimed one in 1863, and a 1941 law fixed it on the fourth Thursday of November. For many Native Americans it is also a day of remembrance.</p>
             <h3>Ways to celebrate</h3>
-            <ul class="hd-ways"><li>Layer yogurt, granola and berries in a glass.</li><li>Make a frozen parfait the classic French way.</li><li>Build a parfait bar for breakfast with family.</li></ul>
-            <p class="hd-when">Same date every year. Date checked against <a href="https://www.nationaldaycalendar.com/national-day/national-parfait-day-november-25" rel="noopener" target="_blank">nationaldaycalendar.com</a>. <a href="../about.html#dates">How we check</a>.</p>
+            <ul class="hd-ways"><li>Go around the table and share one thing you are thankful for.</li><li>Invite someone who would otherwise spend the day alone.</li><li>Take a walk together between dinner and dessert.</li></ul>
+            <p class="hd-when">The date moves each year. In 2026 it falls on Thursday, November 26.</p>
+          </div>
+        </article>
+        <article class="hd-card has-story">
+          <span class="hd-stage cat-food"><img src="../assets/holidays/cake.svg" alt="Drawing for National Cake Day" width="400" height="200" loading="lazy" decoding="async"></span>
+          <div class="hd-body">
+            <span class="tag">Food</span>
+            <h2>National Cake Day</h2>
+            <p class="hd-intro">A sweet and celebratory day devoted to all kinds of cakes in every flavor.</p>
+            <p>Nobody is sure who started National Cake Day, but few foods are tied to as many happy moments. Cakes mark birthdays, weddings, graduations and holidays in cultures all over the world, from layered sponges to dense pound cakes to cheesecakes.</p>
+            <p>Many cakes we know today owe their light texture to chemical leaveners. Before baking powder and baking soda were common in the 1800s, bakers relied on yeast or on beating eggs for a long time to trap air. That is one reason older cake recipes can read like a workout, with instructions to beat the batter for an hour.</p>
+            <h3>Ways to celebrate</h3>
+            <ul class="hd-ways"><li>Bake a simple cake from scratch.</li><li>Bring a slice to a coworker or neighbor.</li><li>Try a cake style from another country.</li></ul>
+            <p class="hd-when">Same date every year. Date checked against <a href="https://www.trvst.world/awareness-dates/november/26/" rel="noopener" target="_blank">trvst.world</a>. <a href="../about.html#dates">How we check</a>.</p>
           </div>
         </article>
     </div>
-    <p class="hd-more"><a class="link" id="today-link" href="november-25.html">The page for today &rarr;</a></p>
+    <p class="hd-more"><a class="link" id="today-link" href="november-26.html">The page for today &rarr;</a></p>
     <h2 class="hd-h2">Coming up this week</h2>
     <ul class="hd-tiles">
-      <li><a class="hd-tile" href="november-26.html"><span class="hd-stage cat-food"><img src="../assets/holidays/scene-thanksgiving.svg" alt="Drawing for Thanksgiving" width="400" height="200" loading="lazy" decoding="async"></span><b>Thursday, November 26</b><span>Thanksgiving, National Cake Day</span></a></li>
       <li><a class="hd-tile" href="november-27.html"><span class="hd-stage cat-fun"><img src="../assets/holidays/scene-fun.svg" alt="Drawing for Black Friday" width="400" height="200" loading="lazy" decoding="async"></span><b>Friday, November 27</b><span>Black Friday, National Bavarian Cream Pie Day, National Craft Jerky Day</span></a></li>
       <li><a class="hd-tile" href="november-28.html"><span class="hd-stage cat-nature"><img src="../assets/holidays/planet.svg" alt="Drawing for Red Planet Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Saturday, November 28</b><span>Red Planet Day</span></a></li>
       <li><a class="hd-tile" href="november-29.html"><span class="hd-stage cat-food"><img src="../assets/holidays/chocolate.svg" alt="Drawing for National Chocolates Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Sunday, November 29</b><span>National Chocolates Day, Square Dance Day</span></a></li>
@@ -120,17 +132,18 @@
       <li><a class="hd-tile" href="december-1.html"><span class="hd-stage cat-awareness"><img src="../assets/holidays/scene-awareness.svg" alt="Drawing for Giving Tuesday" width="400" height="200" loading="lazy" decoding="async"></span><b>Tuesday, December 1</b><span>Giving Tuesday, World AIDS Day, National Pie Day</span></a></li>
       <li><a class="hd-tile" href="december-2.html"><span class="hd-stage cat-food"><img src="../assets/holidays/fritter.svg" alt="Drawing for National Fritters Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Wednesday, December 2</b><span>National Fritters Day, International Day for the Abolition of Slavery</span></a></li>
       <li><a class="hd-tile" href="december-3.html"><span class="hd-stage cat-food"><img src="../assets/holidays/peppermintlatte.svg" alt="Drawing for National Peppermint Latte Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Thursday, December 3</b><span>National Peppermint Latte Day, International Day of Persons with Disabilities</span></a></li>
+      <li><a class="hd-tile" href="december-4.html"><span class="hd-stage cat-food"><img src="../assets/holidays/cookie.svg" alt="Drawing for National Cookie Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Friday, December 4</b><span>National Cookie Day, Wildlife Conservation Day</span></a></li>
     </ul>
     <h2 class="hd-h2">How long until the next big holiday?</h2>
     <ul class="hd-tiles">
-      <li><a class="hd-tile" href="november-26.html"><span class="hd-stage cat-food"><img src="../assets/holidays/scene-thanksgiving.svg" alt="Drawing for Thanksgiving" width="400" height="200" loading="lazy" decoding="async"></span><b>Thanksgiving</b><span>Thursday, November 26, 2026</span><span class="hd-off" data-at="2026-11-26">Tomorrow</span></a></li>
-      <li><a class="hd-tile" href="december-25.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-christmas.svg" alt="Drawing for Christmas Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Christmas Day</b><span>Friday, December 25, 2026</span><span class="hd-off" data-at="2026-12-25">In 30 days</span></a></li>
-      <li><a class="hd-tile" href="january-1.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-newyear.svg" alt="Drawing for New Year's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>New Year's Day</b><span>Friday, January 1, 2027</span><span class="hd-off" data-at="2027-01-01">In 37 days</span></a></li>
-      <li><a class="hd-tile" href="january-18.html"><span class="hd-stage cat-awareness"><img src="../assets/holidays/scene-awareness.svg" alt="Drawing for Martin Luther King Jr. Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Martin Luther King Jr. Day</b><span>Monday, January 18, 2027</span><span class="hd-off" data-at="2027-01-18">In 54 days</span></a></li>
-      <li><a class="hd-tile" href="february-14.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-valentines.svg" alt="Drawing for Valentine's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Valentine's Day</b><span>Sunday, February 14, 2027</span><span class="hd-off" data-at="2027-02-14">In 81 days</span></a></li>
-      <li><a class="hd-tile" href="march-17.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-stpatricks.svg" alt="Drawing for St. Patrick's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>St. Patrick's Day</b><span>Wednesday, March 17, 2027</span><span class="hd-off" data-at="2027-03-17">In 112 days</span></a></li>
-      <li><a class="hd-tile" href="march-28.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-easter.svg" alt="Drawing for Easter Sunday" width="400" height="200" loading="lazy" decoding="async"></span><b>Easter Sunday</b><span>Sunday, March 28, 2027</span><span class="hd-off" data-at="2027-03-28">In 123 days</span></a></li>
-      <li><a class="hd-tile" href="may-9.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-mothersday.svg" alt="Drawing for Mother's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Mother's Day</b><span>Sunday, May 9, 2027</span><span class="hd-off" data-at="2027-05-09">In 165 days</span></a></li>
+      <li><a class="hd-tile" href="november-26.html"><span class="hd-stage cat-food"><img src="../assets/holidays/scene-thanksgiving.svg" alt="Drawing for Thanksgiving" width="400" height="200" loading="lazy" decoding="async"></span><b>Thanksgiving</b><span>Thursday, November 26, 2026</span><span class="hd-off" data-at="2026-11-26">Today</span></a></li>
+      <li><a class="hd-tile" href="december-25.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-christmas.svg" alt="Drawing for Christmas Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Christmas Day</b><span>Friday, December 25, 2026</span><span class="hd-off" data-at="2026-12-25">In 29 days</span></a></li>
+      <li><a class="hd-tile" href="january-1.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-newyear.svg" alt="Drawing for New Year's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>New Year's Day</b><span>Friday, January 1, 2027</span><span class="hd-off" data-at="2027-01-01">In 36 days</span></a></li>
+      <li><a class="hd-tile" href="january-18.html"><span class="hd-stage cat-awareness"><img src="../assets/holidays/scene-awareness.svg" alt="Drawing for Martin Luther King Jr. Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Martin Luther King Jr. Day</b><span>Monday, January 18, 2027</span><span class="hd-off" data-at="2027-01-18">In 53 days</span></a></li>
+      <li><a class="hd-tile" href="february-14.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-valentines.svg" alt="Drawing for Valentine's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Valentine's Day</b><span>Sunday, February 14, 2027</span><span class="hd-off" data-at="2027-02-14">In 80 days</span></a></li>
+      <li><a class="hd-tile" href="march-17.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-stpatricks.svg" alt="Drawing for St. Patrick's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>St. Patrick's Day</b><span>Wednesday, March 17, 2027</span><span class="hd-off" data-at="2027-03-17">In 111 days</span></a></li>
+      <li><a class="hd-tile" href="march-28.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-easter.svg" alt="Drawing for Easter Sunday" width="400" height="200" loading="lazy" decoding="async"></span><b>Easter Sunday</b><span>Sunday, March 28, 2027</span><span class="hd-off" data-at="2027-03-28">In 122 days</span></a></li>
+      <li><a class="hd-tile" href="may-9.html"><span class="hd-stage cat-cultural"><img src="../assets/holidays/scene-mothersday.svg" alt="Drawing for Mother's Day" width="400" height="200" loading="lazy" decoding="async"></span><b>Mother's Day</b><span>Sunday, May 9, 2027</span><span class="hd-off" data-at="2027-05-09">In 164 days</span></a></li>
     </ul>
       <aside class="hd-app">
         <img src="../assets/apps/celebriday/icon.png?v=1.8.1" alt="CelebriDay app icon" width="64" height="64">
