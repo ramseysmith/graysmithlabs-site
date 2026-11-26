@@ -17,10 +17,16 @@ jobs:
         with:
           node-version: 22
       - run: node tools/holidays/build.mjs --site .
+      # The countdowns pick the next Thanksgiving and Christmas on their own, so they roll
+      # to next year the day after each holiday. seasonal.mjs drops the Thanksgiving footer
+      # link after Thanksgiving and brings it back on September 1.
+      - run: node tools/countdown/build.mjs
+      - run: node tools/countdown/christmas.mjs
+      - run: node tools/links/seasonal.mjs
       - run: node tools/links/tag.mjs
       - name: Commit if anything changed
         run: |
           git config user.name "Ramsey Graysmith"
           git config user.email "smith.s.ramsey@gmail.com"
-          git add holidays sitemap.xml index.html
+          git add -A -- '*.html' holidays sitemap.xml
           git diff --cached --quiet || (git commit -m "Holiday pages for $(TZ=America/Denver date +'%B %-d')" && git push)

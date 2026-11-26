@@ -361,11 +361,22 @@ function drawing(h, m, d, cls = "") {
   return `<span class="hd-stage cat-${h.category}${cls ? ` ${cls}` : ""}"><img src="../assets/holidays/${a}.svg" alt="Drawing for ${esc(show(h.name))}" width="400" height="200" loading="lazy" decoding="async"></span>`;
 }
 
+// The next four dates of a moving holiday after the one on this page, worked out
+// from the same rule, so the page answers "when is it next year" too.
+function nextDates(h) {
+  const out = [];
+  for (let y = h.year + 1; y <= h.year + 4; y++) {
+    const r = resolveRule(h.rule, y);
+    if (r) out.push(`${label(r.getUTCMonth() + 1, r.getUTCDate())} in ${y}`);
+  }
+  return out.length ? ` After that: ${listNames(out)}.` : "";
+}
+
 function card(h, m, d, level = "h2") {
   const s = storyOf(h, m, d);
   const host = h.source ? new URL(h.source).hostname.replace(/^www\./, "") : "";
   const when = h.year
-    ? `<p class="hd-when">The date moves each year. In ${h.year} it falls on ${WEEKDAYS[h.at.getUTCDay()]}, ${label(m, d)}.</p>`
+    ? `<p class="hd-when">The date moves each year. In ${h.year} it falls on ${WEEKDAYS[h.at.getUTCDay()]}, ${label(m, d)}.${nextDates(h)}</p>`
     : host ? `<p class="hd-when">Same date every year. Date checked against <a href="${esc(h.source)}" rel="noopener" target="_blank">${esc(host)}</a>. <a href="../about.html#dates">How we check</a>.</p>` : "";
   const body = s
     ? `<p class="hd-intro">${esc(h.description)}</p>

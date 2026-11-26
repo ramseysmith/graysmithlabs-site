@@ -162,6 +162,8 @@
       <noscript><p class="guide-note">The live countdown needs JavaScript turned on. Thanksgiving 2026 is Thursday, November 26.</p></noscript>
     </section>
 
+    <p class="guide-answer" id="cd-next" hidden><a class="link" href="../days-until-christmas/">Christmas is <span id="cd-xdays">on its way</span>: see the Christmas countdown</a>, with a national day for every day from Black Friday to Christmas Eve.</p>
+
     <section class="guide-sec" id="days">
       <h2>Every national day until Thanksgiving</h2>
       <p>Something to celebrate on each day of the countdown, from the same checked list as our <a href="../holidays/november.html">November holidays</a> page. Tap a day to see what each one is about.</p>
@@ -212,7 +214,7 @@
       </div>
     </section>
 
-    <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day of December.</p>
+    <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day from Black Friday to Christmas Eve.</p>
 
     <aside class="guide-app">
       <img src="../assets/apps/celebriday/icon.png?v=1.8.1" alt="CelebriDay app icon" width="64" height="64">
@@ -273,6 +275,13 @@
     list.querySelectorAll('li').forEach((li) => { if (Number(li.dataset.day) < now.getDate()) li.remove(); });
   }
   if (!list.children.length || now >= new Date(listYear, 10, 27)) $('days').hidden = true;
+  // From the day after Thanksgiving to Christmas, point people on to the Christmas countdown.
+  const thisTg = tg(now.getFullYear()), xmas = new Date(now.getFullYear(), 11, 25);
+  if (now >= new Date(thisTg.getFullYear(), thisTg.getMonth(), thisTg.getDate() + 1) && now < new Date(now.getFullYear(), 11, 26)) {
+    const xd = Math.round((xmas - midnight) / 86400000);
+    $('cd-xdays').textContent = xd <= 0 ? 'today' : xd === 1 ? '1 day away' : xd + ' days away';
+    $('cd-next').hidden = false;
+  }
 })();
 </script>
 </main>

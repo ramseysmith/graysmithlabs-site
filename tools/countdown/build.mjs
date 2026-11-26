@@ -6,7 +6,7 @@
 //   node tools/countdown/build.mjs            uses the current year
 //   node tools/countdown/build.mjs 2027       builds the list for 2027
 //
-// Run it once a year after Thanksgiving so the list shows the coming November.
+// With no year it picks the next Thanksgiving, so the daily workflow rolls it.
 // The page hides days that have passed on its own.
 
 import fs from "node:fs";
@@ -14,7 +14,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const YEAR = Number(process.argv[2]) || new Date().getFullYear();
+// With no year given it builds for the next Thanksgiving still ahead in Denver, so
+// the daily holidays workflow rolls the page to next year the day after by itself.
+const denver = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Denver" }).format(new Date());
+const [dy, dm, dd] = denver.split("-").map(Number);
+const YEAR = Number(process.argv[2]) || (dm > 11 || (dm === 11 && dd > thanksgiving(dy)) ? dy + 1 : dy);
 const data = JSON.parse(fs.readFileSync(path.join(SITE, "holidays/data.json"), "utf8"));
 const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -171,6 +175,8 @@ ${header}<main id="main">
       <noscript><p class="guide-note">The live countdown needs JavaScript turned on. Thanksgiving ${YEAR} is Thursday, November ${TG}.</p></noscript>
     </section>
 
+    <p class="guide-answer" id="cd-next" hidden><a class="link" href="../days-until-christmas/">Christmas is <span id="cd-xdays">on its way</span>: see the Christmas countdown</a>, with a national day for every day from Black Friday to Christmas Eve.</p>
+
     <section class="guide-sec" id="days">
       <h2>Every national day until Thanksgiving</h2>
       <p>Something to celebrate on each day of the countdown, from the same checked list as our <a href="../holidays/november.html">November holidays</a> page. Tap a day to see what each one is about.</p>
@@ -192,7 +198,7 @@ ${datesHtml}
       </div>
     </section>
 
-    <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day of December.</p>
+    <p class="guide-note">After Thanksgiving, keep counting with the <a href="../days-until-christmas/">Christmas countdown</a>: days, hours and sleeps until December 25, with a national day for every day from Black Friday to Christmas Eve.</p>
 
     <aside class="guide-app">
       <img src="../assets/apps/celebriday/icon.png?v=1.8.1" alt="CelebriDay app icon" width="64" height="64">
@@ -248,6 +254,13 @@ ${faqHtml}
     list.querySelectorAll('li').forEach((li) => { if (Number(li.dataset.day) < now.getDate()) li.remove(); });
   }
   if (!list.children.length || now >= new Date(listYear, 10, ${TG + 1})) $('days').hidden = true;
+  // From the day after Thanksgiving to Christmas, point people on to the Christmas countdown.
+  const thisTg = tg(now.getFullYear()), xmas = new Date(now.getFullYear(), 11, 25);
+  if (now >= new Date(thisTg.getFullYear(), thisTg.getMonth(), thisTg.getDate() + 1) && now < new Date(now.getFullYear(), 11, 26)) {
+    const xd = Math.round((xmas - midnight) / 86400000);
+    $('cd-xdays').textContent = xd <= 0 ? 'today' : xd === 1 ? '1 day away' : xd + ' days away';
+    $('cd-next').hidden = false;
+  }
 })();
 </script>
 </main>

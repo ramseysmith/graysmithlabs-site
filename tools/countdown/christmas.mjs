@@ -6,7 +6,7 @@
 //   node tools/countdown/christmas.mjs        uses the current year
 //   node tools/countdown/christmas.mjs 2027   builds the list for 2027
 //
-// Run it once a year after Christmas so the list shows the coming December.
+// A run with no year after December 25 builds next year, so the daily workflow rolls it.
 // The page hides days that have passed on its own.
 
 import fs from "node:fs";
@@ -14,7 +14,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const YEAR = Number(process.argv[2]) || new Date().getFullYear();
+// With no year given it builds for the next Christmas still ahead in Denver, so a
+// daily run rolls the page to next year on December 26 by itself.
+const denver = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Denver" }).format(new Date());
+const [dy, dm, dd] = denver.split("-").map(Number);
+const YEAR = Number(process.argv[2]) || (dm === 12 && dd > 25 ? dy + 1 : dy);
 const data = JSON.parse(fs.readFileSync(path.join(SITE, "holidays/data.json"), "utf8"));
 const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -27,24 +31,29 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, 
 
 const TG = 25;
 const wdOf = (y) => WEEKDAYS[new Date(Date.UTC(y, 11, 25)).getUTCDay()];
+// The list runs from the day after Thanksgiving (Black Friday) to Christmas, so
+// holiday shoppers who arrive in late November see their days too.
+const TGDAY = nthWeekday(YEAR, 11, 4, 4);
 const days = [];
-for (let d = 1; d <= TG; d++) {
-  const fixed = data.fixed.find((x) => x.month === 12 && x.day === d)?.holidays || [];
+for (let t = Date.UTC(YEAR, 10, TGDAY + 1); t <= Date.UTC(YEAR, 11, TG); t += 86400000) {
+  const at = new Date(t), mo = at.getUTCMonth() + 1, d = at.getUTCDate();
+  const fixed = data.fixed.find((x) => x.month === mo && x.day === d)?.holidays || [];
   const moving = data.moving.filter((m) => {
     const r = m.rule;
     if (r.kind !== "nthWeekday") return false;
     const base = new Date(Date.UTC(YEAR, r.month - 1, nthWeekday(YEAR, r.month, r.weekday, r.n) + (r.offsetDays || 0)));
-    return base.getUTCMonth() === 11 && base.getUTCDate() === d;
+    return base.getUTCMonth() === mo - 1 && base.getUTCDate() === d;
   });
   const names = [...moving, ...fixed].map((h) => h.name);
-  if (names.length) days.push({ d, names });
+  if (names.length) days.push({ mo, d, names });
 }
-if (!days.length) throw new Error("no December observances found in holidays/data.json");
+if (!days.length) throw new Error("no observances from Black Friday to Christmas found in holidays/data.json");
 
+const MONTH_NAME = { 11: "November", 12: "December" };
 const listHtml = days
-  .map(({ d, names }) => {
-    const wd = WEEKDAYS[new Date(Date.UTC(YEAR, 11, d)).getUTCDay()];
-    return `        <li data-day="${d}"><a href="../holidays/december-${d}.html"><b>${wd}, December ${d}</b><span>${names.map(esc).join(", ")}</span></a></li>`;
+  .map(({ mo, d, names }) => {
+    const wd = WEEKDAYS[new Date(Date.UTC(YEAR, mo - 1, d)).getUTCDay()];
+    return `        <li data-at="${YEAR}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}"><a href="../holidays/${MONTHS[mo - 1]}-${d}.html"><b>${wd}, ${MONTH_NAME[mo]} ${d}</b><span>${names.map(esc).join(", ")}</span></a></li>`;
   })
   .join("\n");
 
@@ -58,7 +67,7 @@ const faq = [
   ["How many sleeps until Christmas?", "The number of sleeps is the same as the number of days shown in the countdown: each night between now and Christmas Eve counts as one sleep, and the last one is the night of December 24."],
   [`When is Christmas ${YEAR + 1}?`, `Christmas ${YEAR + 1} is ${wdOf(YEAR + 1)}, December 25.`],
   ["Is Christmas a federal holiday?", "Yes. Christmas Day has been a federal holiday in the United States since 1870. When December 25 falls on a Saturday, federal workers get the Friday before off, and when it falls on a Sunday, the Monday after."],
-  ["What national days are in December before Christmas?", `The list on this page shows every verified observance from December 1 to Christmas, such as ${["National Ugly Sweater Day", "Festivus", "National Eggnog Day"].filter((n) => days.some((x) => x.names.includes(n))).join(", ")}. The CelebriDay app names each one in a morning notification.`],
+  ["What national days are in December before Christmas?", `The list on this page shows every verified observance from Black Friday to Christmas, such as ${["National Ugly Sweater Day", "Festivus", "National Eggnog Day"].filter((n) => days.some((x) => x.names.includes(n))).join(", ")}. The CelebriDay app names each one in a morning notification.`],
 ];
 const faqLd = faq.map(([q, a]) => `        {\n          "@type": "Question",\n          "name": ${JSON.stringify(q)},\n          "acceptedAnswer": {\n            "@type": "Answer",\n            "text": ${JSON.stringify(a)}\n          }\n        }`).join(",\n");
 const faqHtml = faq.map(([q, a]) => `        <details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("\n");
@@ -170,7 +179,7 @@ ${header}<main id="main">
 
     <section class="guide-sec" id="days">
       <h2>Every national day until Christmas</h2>
-      <p>Something to celebrate on each day of the countdown, from the same checked list as our <a href="../holidays/december.html">December holidays</a> page. Tap a day to see what each one is about.</p>
+      <p>Something to celebrate on each day of the countdown, from Black Friday and Giving Tuesday to Christmas Eve, from the same checked list as our <a href="../holidays/december.html">December holidays</a> page. Tap a day to see what each one is about.</p>
       <ol class="cd-days" id="cd-days">
 ${listHtml}
       </ol>
@@ -240,9 +249,8 @@ ${faqHtml}
   tick(); setInterval(tick, 1000);
   const list = $('cd-days');
   const listYear = ${YEAR};
-  if (now.getFullYear() === listYear && now.getMonth() === 11) {
-    list.querySelectorAll('li').forEach((li) => { if (Number(li.dataset.day) < now.getDate()) li.remove(); });
-  }
+  const todayKey = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+  list.querySelectorAll('li').forEach((li) => { if (li.dataset.at < todayKey) li.remove(); });
   if (!list.children.length || now >= new Date(listYear, 11, 26)) $('days').hidden = true;
 })();
 </script>
