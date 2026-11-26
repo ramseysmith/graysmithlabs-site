@@ -331,6 +331,7 @@
       ],
       "features": [
         "Tap the strip colors instead of typing numbers",
+        "Free drop kit readings: switch a tub to drop kit and type the number from each liquid test, and the choice is remembered per tub",
         "Scan chemical bottle labels to get their strength",
         "Exact amounts for your tub size and products",
         "Steps in the right order with wait times",
@@ -350,6 +351,10 @@
         [
           "Is there an app that reads hot tub test strips?",
           "TubTender reads your strip when you tap the color that matches each pad, so it works with any common spa strip. The camera is used to read the strength on your chemical bottle labels."
+        ],
+        [
+          "Does TubTender work with a liquid drop test kit?",
+          "Yes, for free. Switch a tub to drop kit readings and type the number from each test instead of tapping strip colors; TubTender remembers the choice for that tub and builds the same dose plan."
         ],
         [
           "How does TubTender work out how much to add?",
