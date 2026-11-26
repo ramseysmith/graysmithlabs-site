@@ -88,3 +88,11 @@
 @media (max-width: 520px) { .hd-tiles { grid-template-columns: 1fr 1fr; gap: 10px; } .hd-tile b { font-size: 16px; } }
 @media (prefers-color-scheme: dark) { .hd-stage { filter: brightness(0.9); } }
 @media (prefers-reduced-motion: reduce) { .hd-stage img, .hd-tile { transition: none; } }
+/* Calendar feed page */
+.hd-cal-btns { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 14px; }
+.hd-cal-btns .btn { white-space: normal; text-align: center; }
+.hd-cal-url { color: var(--muted); margin-bottom: 36px; overflow-wrap: anywhere; }
+.hd-cal-url code { font-family: var(--mono); font-size: 14px; }
+.hd-cal-list { list-style: none; padding: 0; margin: 0 0 40px; display: grid; gap: 8px; }
+.hd-cal-list a { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 12px 16px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: inherit; }
+.hd-cal-list b { min-width: 13ch; }

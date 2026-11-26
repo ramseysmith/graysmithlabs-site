@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 22
       - run: node tools/holidays/build.mjs --site .
+      # The subscribable feed (holidays/calendar.ics) is rebuilt with the pages; stop before committing a broken one.
+      - run: node tools/holidays/ics-check.mjs
       # The countdowns pick the next Thanksgiving and Christmas on their own, so they roll
       # to next year the day after each holiday. seasonal.mjs drops the Thanksgiving footer
       # link after Thanksgiving and brings it back on September 1.

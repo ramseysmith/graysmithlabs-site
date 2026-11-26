@@ -25,6 +25,7 @@ export function campaign(file) {
   if (p.startsWith("best/")) return "best";
   if (p.startsWith("apps/")) return "app-page";
   if (/^holidays\/(index\.html)$/.test(p)) return "holiday-home";
+  if (p === "holidays/calendar.html") return "holiday-calendar";
   if (p.startsWith("holidays/")) return "holiday-day";
   if (/^invoice-generator\/[^/]+\/index\.html$/.test(p)) return "inv-trade";
   return (p.startsWith("white-noise/") ? "white-noise-generator" : p.split("/")[0].replace(/\.html$/, "")).slice(0, 30);

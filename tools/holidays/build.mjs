@@ -291,6 +291,7 @@ ${body}
         <span class="label">Holidays</span>
         <ul>
           <li><a href="./">What holiday is it today?</a></li>
+          <li><a href="calendar.html">Subscribe to the calendar</a></li>
 ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a></li>`).join("\n")}
         </ul>
       </div>
@@ -310,6 +311,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
         <span class="label">Free tools</span>
         <ul>
           <li><a href="../holidays/">Today's holiday</a></li>
+          <li><a href="../holidays/calendar.html">Holiday calendar feed</a></li>
           <li><a href="../invoice-generator/">Invoice generator</a></li>
           <li><a href="../estimate-generator/">Estimate generator</a></li>
           <li><a href="../receipt-generator/">Receipt generator</a></li>
@@ -604,6 +606,7 @@ ${week.join("\n")}
 ${bigTiles.join("\n")}
     </ul>
 ${adSlot("today")}${appPitch("today's holiday")}
+    <p class="hd-more"><a class="link" href="calendar.html">Add every national day to your iPhone or Google Calendar &rarr;</a></p>
     <h2 class="hd-h2">Browse by month</h2>
     <ul class="hd-months">
 ${MONTHS.map((n, i) => `      <li><a href="${monthSlug(i + 1)}.html">${n}</a></li>`).join("\n")}
@@ -616,6 +619,121 @@ ${FAQ.map(([q, a]) => `      <div><h3>${esc(q)}</h3><p>${esc(a)}</p></div>`).joi
   return shell({ title, description, canonical: `${ORIGIN}/holidays/`, body, extraHead: script });
 }
 
+
+// ---------- calendar feed ----------
+// holidays/calendar.ics: every published observance from 30 days back to a year
+// ahead, rebuilt each morning with the pages, so subscribers' calendars roll
+// forward on their own and moving holidays land on the right date every year.
+const CAL_URL = `${ORIGIN}/holidays/calendar.ics`;
+const CAL_PAGE = `${ORIGIN}/holidays/calendar.html`;
+const icsText = (s) => String(s).replace(/\\/g, "\\\\").replace(/\r?\n/g, "\\n").replace(/([,;])/g, "\\$1");
+const ymd = (dt) => dt.toISOString().slice(0, 10).replace(/-/g, "");
+// RFC 5545 lines are at most 75 octets; longer ones continue on a line that starts with a space.
+function fold(line) {
+  const out = [];
+  let cur = "", bytes = 0;
+  for (const ch of line) {
+    const n = Buffer.byteLength(ch);
+    if (bytes + n > (out.length ? 74 : 75)) { out.push(cur); cur = ""; bytes = 0; }
+    cur += ch; bytes += n;
+  }
+  out.push(cur);
+  return out.join("\r\n ");
+}
+function calendarEvents(data, todayIso) {
+  const [y, m, d] = todayIso.split("-").map(Number);
+  const from = Date.UTC(y, m - 1, d) - 30 * 864e5, to = Date.UTC(y, m - 1, d) + 366 * 864e5;
+  const events = [];
+  for (const year of [y - 1, y, y + 1]) {
+    for (const e of data.fixed) {
+      const at = new Date(Date.UTC(year, e.month - 1, e.day));
+      if (at.getUTCMonth() !== e.month - 1) continue;
+      for (const h of e.holidays) events.push({ h, at });
+    }
+    for (const h of data.moving) {
+      const at = resolveRule(h.rule, year);
+      if (at) events.push({ h, at });
+    }
+  }
+  return events.filter(({ at }) => at.getTime() >= from && at.getTime() < to).sort((a, b) => a.at - b.at || a.h.name.localeCompare(b.h.name));
+}
+function calendarFeed(data, todayIso) {
+  const stamp = `${todayIso.replace(/-/g, "")}T000000Z`;
+  const lines = [
+    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Graysmith Labs//CelebriDay holidays//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+    "X-WR-CALNAME:National Days (CelebriDay)", "X-WR-TIMEZONE:America/Denver",
+    `X-WR-CALDESC:${icsText(`Every national day and holiday on graysmithlabs.com, dated from named sources. Updated daily. About this feed: ${CAL_PAGE}`)}`,
+    "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:P1D", `SOURCE;VALUE=URI:${CAL_URL}`,
+  ];
+  for (const { h, at } of calendarEvents(data, todayIso)) {
+    const m = at.getUTCMonth() + 1, d = at.getUTCDate(), end = new Date(at.getTime() + 864e5);
+    const page = fs.existsSync(path.join(OUT, `${slug(m, d)}.html`)) ? `${ORIGIN}/holidays/${slug(m, d)}.html` : `${ORIGIN}/holidays/`;
+    const uid = `${ymd(at)}-${show(h.name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}@graysmithlabs.com`;
+    lines.push("BEGIN:VEVENT", `UID:${uid}`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${ymd(at)}`, `DTEND;VALUE=DATE:${ymd(end)}`,
+      `SUMMARY:${icsText(`${h.emoji ? `${h.emoji} ` : ""}${show(h.name)}`)}`,
+      `DESCRIPTION:${icsText(`${h.description}\n\nThe story and more for ${label(m, d)}: ${page}`)}`,
+      `URL;VALUE=URI:${page}`, `CATEGORIES:${icsText(CATEGORY_LABEL[h.category] ?? "Observance")}`, "TRANSP:TRANSPARENT", "END:VEVENT");
+  }
+  lines.push("END:VCALENDAR");
+  return lines.map(fold).join("\r\n") + "\r\n";
+}
+
+const CAL_FAQ = [
+  ["Is the national day calendar free?", "Yes. The feed is free, has no account and no ads inside the events. Subscribe once and it keeps itself up to date."],
+  ["How do I add national days to my iPhone calendar?", "Tap the Add to Apple Calendar button on this page on your iPhone, then tap Subscribe. The days show up in the Calendar app under National Days, and you can turn them off any time in Calendars."],
+  ["How do I add national days to Google Calendar?", "On a computer, click Add to Google Calendar on this page, then Add. Google refreshes subscribed calendars on its own schedule, usually within a day."],
+  ["Does the calendar update by itself?", "Yes. It is rebuilt every morning and always covers the past month and the year ahead, so moving days like Thanksgiving and Mother's Day land on the right date each year without you doing anything."],
+  ["Which days are in the feed?", "The same days as our holiday pages: federal holidays, awareness days, food days and fun days, each one published only after its date was checked at a source we can name."],
+  ["Can I put this calendar on my website or in a newsletter?", "Yes. Link to this page or to the feed address. Teachers, social media managers and bloggers use it to plan posts and lessons."],
+];
+
+function calendarPage(data, todayIso) {
+  const events = calendarEvents(data, todayIso);
+  const [y, m, d] = todayIso.split("-").map(Number);
+  const now = Date.UTC(y, m - 1, d);
+  const ahead = events.filter(({ at }) => at.getTime() >= now && at.getTime() < now + 365 * 864e5).length;
+  const upcoming = events.filter(({ at }) => at.getTime() >= now).slice(0, 10);
+  const webcal = CAL_URL.replace(/^https:/, "webcal:");
+  const google = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}`;
+  const title = "National Day Calendar to Subscribe: iPhone, Google";
+  const description = `Free national day calendar feed for iPhone, Google Calendar and Outlook. ${ahead} verified holidays a year, updated daily. Subscribe in one tap.`;
+  const ld = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "DataFeed", name: "National Days (CelebriDay)", url: CAL_PAGE, encodingFormat: "text/calendar", distribution: { "@type": "DataDownload", contentUrl: CAL_URL, encodingFormat: "text/calendar" }, dateModified: todayIso, publisher: { "@type": "Organization", name: "Graysmith Labs", url: `${ORIGIN}/` }, isAccessibleForFree: true },
+      { "@type": "FAQPage", mainEntity: CAL_FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
+    ],
+  };
+  const body = `  <div class="wrap hd">
+    <p class="crumbs"><a href="./">Holidays</a> &nbsp;/&nbsp; Calendar feed</p>
+    <h1>National day calendar you can subscribe to</h1>
+    <p class="lede">Add every national day and holiday to your iPhone, Mac, Google or Outlook calendar with one free subscription. It holds ${ahead} verified days for the year ahead and updates itself every morning.</p>
+    ${BYLINE}
+    <p class="hd-cal-btns">
+      <a class="btn" href="${webcal}">Add to Apple Calendar</a>
+      <a class="btn ghost" href="${esc(google)}" rel="noopener">Add to Google Calendar</a>
+      <a class="btn ghost" href="calendar.ics" download>Download the .ics file</a>
+    </p>
+    <p class="hd-cal-url">Feed address for any calendar app: <code>${CAL_URL}</code></p>
+    <h2 class="hd-h2">Coming up in the feed</h2>
+    <ul class="hd-cal-list">
+${upcoming.map(({ h, at }) => `      <li><a href="${fs.existsSync(path.join(OUT, `${slug(at.getUTCMonth() + 1, at.getUTCDate())}.html`)) ? `${slug(at.getUTCMonth() + 1, at.getUTCDate())}.html` : "./"}"><b>${WEEKDAYS[at.getUTCDay()]}, ${label(at.getUTCMonth() + 1, at.getUTCDate())}</b> <span>${esc(show(h.name))}</span></a></li>`).join("\n")}
+    </ul>
+    <h2 class="hd-h2">How to add it</h2>
+    <div class="hd-faq">
+      <div><h3>iPhone or iPad</h3><p>Open this page in Safari and tap Add to Apple Calendar, then Subscribe. Or go to Settings, Apps, Calendar, Calendar Accounts, Add Account, Other, Add Subscribed Calendar, and paste the feed address.</p></div>
+      <div><h3>Mac</h3><p>In Calendar, choose File, New Calendar Subscription, paste the feed address and click Subscribe. Set Auto refresh to Every day.</p></div>
+      <div><h3>Google Calendar</h3><p>Click Add to Google Calendar, then Add. Or in Google Calendar on a computer, open Other calendars, the plus sign, From URL, and paste the feed address. It then shows on your phone too.</p></div>
+      <div><h3>Outlook</h3><p>In Outlook on the web, open Add calendar, Subscribe from web, paste the feed address and name it National Days.</p></div>
+    </div>
+${appPitch("one national day")}
+    <h2 class="hd-h2">Questions</h2>
+    <div class="hd-faq">
+${CAL_FAQ.map(([q, a]) => `      <div><h3>${esc(q)}</h3><p>${esc(a)}</p></div>`).join("\n")}
+    </div>
+  </div>`;
+  return shell({ title, description, canonical: CAL_PAGE, body, extraHead: `<script type="application/ld+json">${JSON.stringify(ld)}</script>\n` });
+}
 
 // ---------- sitemap ----------
 
@@ -675,6 +793,8 @@ days.forEach(([m, d], i) => {
 });
 for (let m = 1; m <= 12; m++) fs.writeFileSync(path.join(OUT, `${monthSlug(m)}.html`), monthPage(data, m, years, daysWithContent));
 fs.writeFileSync(path.join(OUT, "index.html"), indexPage(data, today, years, daysWithContent));
+fs.writeFileSync(path.join(OUT, "calendar.ics"), calendarFeed(data, today));
+fs.writeFileSync(path.join(OUT, "calendar.html"), calendarPage(data, today));
 
 // Today's card on the home page.
 {
@@ -705,6 +825,7 @@ if (pub) fs.writeFileSync(adsTxt, `google.com, ${pub}, DIRECT, f08c47fec0942fa0\
 else if (fs.existsSync(adsTxt) && /^google\.com, pub-/.test(fs.readFileSync(adsTxt, "utf8"))) fs.unlinkSync(adsTxt);
 updateSitemap([
   `${ORIGIN}/holidays/`,
+  CAL_PAGE,
   ...MONTHS.map((n) => `${ORIGIN}/holidays/${n.toLowerCase()}.html`),
   ...days.filter(([m, d]) => isIndexed(data, m, d)).map(([m, d]) => `${ORIGIN}/holidays/${slug(m, d)}.html`),
 ]);
