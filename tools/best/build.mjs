@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { tagHtml } from '../links/tag.mjs';
 
 const site = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const BASE = 'https://graysmithlabs.com';
@@ -250,7 +251,8 @@ sitemap = sitemap.includes('<!-- best -->')
 pages.set('sitemap.xml', sitemap);
 
 let stale = 0;
-for (const [rel, content] of pages) {
+for (const [rel, raw] of pages) {
+  const content = rel.endsWith('.html') ? tagHtml(raw, rel) : raw;
   const file = path.join(site, rel);
   const current = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
   if (current === content) continue;

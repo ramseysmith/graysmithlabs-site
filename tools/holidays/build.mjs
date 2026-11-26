@@ -16,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
 import { pathToFileURL } from "node:url";
+import { tagSite } from "../links/tag.mjs";
 
 const args = Object.fromEntries(
   process.argv.slice(2).reduce((acc, a, i, all) => {
@@ -830,3 +831,5 @@ updateSitemap([
   ...days.filter(([m, d]) => isIndexed(data, m, d)).map(([m, d]) => `${ORIGIN}/holidays/${slug(m, d)}.html`),
 ]);
 console.log(`built ${days.length} day pages, 12 month pages and the today page for ${today}`);
+// Day, month and app pages carry App Store links; keep their campaign tokens.
+tagSite({ root: SITE, quiet: true });

@@ -13,6 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { tagHtml } from "../links/tag.mjs";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const MAIN = path.join(SITE, "invoice-generator/index.html");
@@ -46,7 +47,7 @@ if (main.includes("<!-- INVOICE TRADES -->")) {
 } else {
   main = must(main, `    <aside class="guide-app">`, `${listHtml}\n\n    <aside class="guide-app">`, "guide-app aside");
 }
-fs.writeFileSync(MAIN, main);
+fs.writeFileSync(MAIN, tagHtml(main, "invoice-generator/index.html"));
 
 // The template is the main page without its trade list.
 const template = replaceBetween(main, "<!-- INVOICE TRADES -->", "<!-- /INVOICE TRADES -->\n\n", "", "trade list markers");
@@ -156,6 +157,6 @@ for (const t of trades) {
 
   const dir = path.join(SITE, "invoice-generator", t.slug);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "index.html"), html);
+  fs.writeFileSync(path.join(dir, "index.html"), tagHtml(html, path.join("invoice-generator", t.slug, "index.html")));
   console.log(`wrote invoice-generator/${t.slug}/index.html`);
 }

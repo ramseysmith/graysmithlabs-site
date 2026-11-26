@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { tagHtml } from "../links/tag.mjs";
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 // With no year given it builds for the next Christmas still ahead in Denver, so a
@@ -259,5 +260,5 @@ ${footer}`;
 
 const out = path.join(SITE, "days-until-christmas");
 fs.mkdirSync(out, { recursive: true });
-fs.writeFileSync(path.join(out, "index.html"), html);
+fs.writeFileSync(path.join(out, "index.html"), tagHtml(html, "days-until-christmas/index.html"));
 console.log(`days-until-christmas: Christmas ${YEAR} is ${wdOf(YEAR)}, ${days.length} days with observances`);
