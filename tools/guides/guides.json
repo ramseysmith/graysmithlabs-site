@@ -1269,6 +1269,182 @@
       ]
     },
     {
+      "slug": "hot-tub-test-strips-vs-drop-kit",
+      "art": "testing",
+      "app": "tubtender",
+      "title": "Hot Tub Test Strips vs Drop Kit: Which to Use",
+      "description": "Test strips are quick and fine for routine checks; a drop kit is more accurate when a fix fails. When to use each, how to read them, target levels.",
+      "h1": "Hot tub test strips vs a drop test kit",
+      "answer": "Test strips are fine for the routine checks most owners do two to three times a week; a liquid drop kit is more accurate and worth having when a reading looks wrong, a fix is not working or you have just refilled. CDC says test strips are less accurate than a DPD drop kit. Whichever you use, aim for bromine 4 to 8 ppm or free chlorine 3 to 10 ppm, with pH 7.2 to 7.8.",
+      "updated": "2026-11-26",
+      "sections": [
+        {
+          "h2": "Strips and drop kits side by side",
+          "intro": "CDC puts it plainly: test strips are less accurate than a DPD test kit, and for the most accurate results it recommends the drop kit (<a href=\"https://www.cdc.gov/healthy-swimming/about/home-pool-and-hot-tub-water-treatment-and-testing.html\" rel=\"noopener\">CDC home pool and hot tub testing</a>). That does not make strips useless. It means each one has a job.",
+          "table": {
+            "head": [
+              "",
+              "Test strips",
+              "Drop test kit"
+            ],
+            "rows": [
+              [
+                "Time per test",
+                "About 30 seconds",
+                "About 5 to 10 minutes for a full set"
+              ],
+              [
+                "How you read it",
+                "Match pad colors to the chart",
+                "Count drops to a color change, or match a tube color"
+              ],
+              [
+                "Precision",
+                "Steps on a color scale, such as 2, 4 or 6 ppm",
+                "Fine steps, such as 0.2 or 0.5 ppm per drop on a chlorine titration"
+              ],
+              [
+                "High sanitizer",
+                "Pads stop at the top color",
+                "Very high chlorine can bleach a DPD test to a false low or zero"
+              ],
+              [
+                "Cost",
+                "Less up front",
+                "More up front, refills last many tests"
+              ],
+              [
+                "Best for",
+                "Routine checks between full tests",
+                "Refills, odd readings and fixes that are not working"
+              ]
+            ]
+          },
+          "note": "Strip scales differ by brand. Read yours against the chart on its own bottle, never another brand's."
+        },
+        {
+          "h2": "When strips are enough",
+          "list": [
+            "<strong>Routine checks.</strong> Sanitizer and pH two to three times a week, and before a soak after a busy day. See <a href=\"how-often-to-test-hot-tub-water.html\">how often to test hot tub water</a>.",
+            "<strong>Clear water that behaves.</strong> If the tub looks and smells right and readings sit in range week after week, strips tell you what you need.",
+            "<strong>Quick checks before guests.</strong> A strip is fast enough to use every time."
+          ]
+        },
+        {
+          "h2": "When a drop kit helps",
+          "list": [
+            "<strong>The water and the strip disagree.</strong> Cloudy or smelly water with a strip that says all is well. See <a href=\"cloudy-hot-tub-water.html\">cloudy hot tub water</a>.",
+            "<strong>pH keeps drifting.</strong> An exact alkalinity number tells you how much acid it takes. See <a href=\"lower-hot-tub-alkalinity.html\">lower hot tub alkalinity</a> and <a href=\"hot-tub-ph-too-high.html\">hot tub pH too high</a>.",
+            "<strong>After a refill.</strong> Setting alkalinity and calcium in fresh water goes better with exact numbers.",
+            "<strong>Sanitizer off the top of the scale.</strong> A strip cannot tell 10 ppm from 20. Test a sample mixed half and half with distilled water and double the result, or wait and retest; do not soak until it reads in range."
+          ]
+        },
+        {
+          "h2": "Levels to aim for",
+          "intro": "The same targets apply whichever test you use. The sanitizer and pH windows are the ranges in <a href=\"https://www.cdc.gov/control-legionella/php/toolkit/hot-tub-module.html\" rel=\"noopener\">CDC hot tub guidance</a>; the free <a href=\"../hot-tub-calculator/\">hot tub calculator</a> and the TubTender app use the same targets.",
+          "table": {
+            "head": [
+              "Test",
+              "Range",
+              "Aim for"
+            ],
+            "rows": [
+              [
+                "Bromine",
+                "4 to 8 ppm",
+                "5 ppm"
+              ],
+              [
+                "Free chlorine",
+                "3 to 10 ppm",
+                "4 ppm"
+              ],
+              [
+                "pH",
+                "7.2 to 7.8",
+                "7.5"
+              ],
+              [
+                "Total alkalinity",
+                "80 to 120 ppm",
+                "90 ppm"
+              ],
+              [
+                "Calcium hardness",
+                "150 to 400 ppm",
+                "200 ppm"
+              ],
+              [
+                "Stabilizer (cyanuric acid)",
+                "None is best",
+                "0 ppm"
+              ]
+            ]
+          },
+          "note": "CDC recommends not using stabilizer or chlorine products that contain it in hot tubs. If yours has some, the chlorine you need rises with it."
+        },
+        {
+          "h2": "How to read test strips well",
+          "steps": [
+            "Use dry hands and close the bottle right away. Damp air spoils the pads left inside.",
+            "Dip the strip for the time on the label, usually a second or two, at elbow depth with the jets off.",
+            "Hold it flat; do not shake it hard. Shaking moves color from pad to pad.",
+            "Read each pad at the time the label gives, in daylight or a bright white light, against the chart on the bottle.",
+            "If a pad sits between two colors, take the value between them.",
+            "Check the expiry date. If the pads are off color before you dip, the strips are spoiled."
+          ]
+        },
+        {
+          "h2": "How to use a drop kit well",
+          "steps": [
+            "Rinse the sample tube in tub water, then fill it to the exact line for the test. The sample size sets what each drop is worth.",
+            "Hold the dropper straight up so every drop is the same size.",
+            "Swirl after each drop and count until the color changes for good.",
+            "Multiply the drops by the value in your kit's instructions. On many chlorine kits a drop is 0.5 ppm with the small sample and 0.2 ppm with the large one.",
+            "For bromine on a chlorine scale, multiply the chlorine result by 2.25, if your kit's instructions say to.",
+            "Keep reagents capped, cool and out of the sun, and replace them by the date on the bottle."
+          ],
+          "note": "Follow the instructions in your own kit. CDC says the same: whatever test you use, follow the maker's directions."
+        },
+        {
+          "h2": "Turn the reading into amounts",
+          "intro": "TubTender is an iPhone app from Graysmith Labs for bromine and chlorine tubs. Tap the colors on your strip, scan the labels of the chemicals you own, and it lists how much of each to add for your tub size, in order, with a countdown until the water is safe to soak. It works with any brand of strip.",
+          "note": "TubTender is on the App Store for iPhone. The free hot tub calculator on this site runs the same engine in your browser and takes exact numbers from any test."
+        },
+        {
+          "h2": "What to keep on hand",
+          "intro": "Any brand works. Buy for the sanitizer you use and check the date on the bottle.",
+          "steps": [
+            "<a href=\"https://www.amazon.com/s?k=hot+tub+test+strips+bromine+chlorine&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">Hot tub test strips</a> that read your sanitizer, pH and alkalinity.",
+            "A <a href=\"https://www.amazon.com/s?k=hot+tub+drop+test+kit&amp;tag=graysmithlabs-20\" target=\"_blank\" rel=\"sponsored nofollow noopener\">hot tub drop test kit</a> for full tests and second opinions."
+          ],
+          "note": "As an Amazon Associate, Graysmith Labs earns from qualifying purchases. The links search Amazon for each product type; none of them changes the readings or the amounts."
+        }
+      ],
+      "faq": [
+        [
+          "Are hot tub test strips accurate?",
+          "Accurate enough for routine checks if they are fresh and read on time, but CDC says they are less accurate than a DPD drop kit. Use a drop kit when a reading looks wrong."
+        ],
+        [
+          "Is a drop test kit better than test strips?",
+          "It is more precise and gives exact numbers for alkalinity and calcium. Strips are faster. Many owners use strips for routine checks and a drop kit for full tests."
+        ],
+        [
+          "Can you use pool test strips in a hot tub?",
+          "Only if they read your sanitizer. Pool strips often read chlorine but not bromine, so a bromine tub needs strips with a bromine pad. The pH and alkalinity targets are the same."
+        ],
+        [
+          "How long do hot tub test strips last?",
+          "Until the date on the bottle, if the cap stays tight and the bottle stays dry and out of heat. Pads that are off color before you dip mean the strips are spoiled."
+        ],
+        [
+          "What levels should a hot tub test show?",
+          "Bromine 4 to 8 ppm or free chlorine 3 to 10 ppm, pH 7.2 to 7.8, alkalinity 80 to 120 ppm and calcium 150 to 400 ppm."
+        ]
+      ]
+    },
+    {
       "slug": "sleep-sounds-offline-on-a-plane",
       "art": "plane",
       "app": "drift",
