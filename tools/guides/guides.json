@@ -974,6 +974,132 @@
       ]
     },
     {
+      "slug": "pool-chemical-log-sheet",
+      "art": "testing",
+      "app": "tubtender",
+      "title": "Pool Chemical Log Sheet, Free Printable PDF",
+      "description": "Free printable pool chemical log sheet with target ranges for chlorine, pH, alkalinity, calcium and CYA, plus a maintenance checklist. No email.",
+      "h1": "Pool chemical log sheet (free printable PDF)",
+      "answer": "<a href=\"../assets/printables/pool-chemical-log-sheet.pdf\">Download the pool chemical log sheet (PDF)</a>: one landscape page with a row for each test and the target range printed above every column, and one page of daily, weekly and monthly pool jobs to tick off. It prints on US letter paper, uses little ink and needs no email.",
+      "updated": "2026-11-26",
+      "sections": [
+        {
+          "h2": "What is on the log sheet",
+          "intro": "Page one has 20 rows, enough for a month of tests at five a week, or a busy fortnight at a pool tested every day. The range to aim for sits under each heading.",
+          "table": {
+            "head": [
+              "Column",
+              "Common target for a home pool",
+              "How often"
+            ],
+            "rows": [
+              [
+                "Free chlorine",
+                "1 to 4 ppm",
+                "Every day the pool is open"
+              ],
+              [
+                "Combined chlorine",
+                "Under 0.5 ppm",
+                "Every week, or when the water smells of chlorine"
+              ],
+              [
+                "pH",
+                "7.2 to 7.8",
+                "Every day the pool is open"
+              ],
+              [
+                "Total alkalinity",
+                "80 to 120 ppm",
+                "Once a week"
+              ],
+              [
+                "Calcium hardness",
+                "200 to 400 ppm",
+                "Once a month and after a refill"
+              ],
+              [
+                "Stabilizer (cyanuric acid, CYA)",
+                "30 to 50 ppm",
+                "Once a month, outdoor chlorine pools"
+              ],
+              [
+                "Water temperature and clarity",
+                "Your setting; clear to the floor",
+                "When you test"
+              ],
+              [
+                "Added, and how much",
+                "Product and amount",
+                "Every time you add something"
+              ],
+              [
+                "Initials",
+                "Who tested",
+                "Every row"
+              ]
+            ]
+          },
+          "note": "Ranges differ a little between test kit makers, and the label on your chemicals comes first when it disagrees with a range here. Salt pools make chlorine, so use the chlorine range."
+        },
+        {
+          "h2": "Public, HOA and rental pools",
+          "paras": [
+            "Pools open to the public, to an HOA, or to guests usually have to keep a daily chemical log because the local health code asks for one. The code also sets the minimum chlorine, the pH range, how often to test and how long to keep the records, and some inspectors want their own form.",
+            "Check with your county or city health department before you rely on this sheet for a public pool. Where it accepts any log with the required readings, the Initials column and the Combined chlorine column cover what inspectors most often look for."
+          ]
+        },
+        {
+          "h2": "The maintenance checklist on page two",
+          "list": [
+            "Every day the pool is open: test free chlorine and pH, skim, empty the skimmer baskets, check the pump and water level.",
+            "Two to three times a week: brush walls, steps and floor, and read the filter pressure gauge.",
+            "Every week: test alkalinity, vacuum, and shock when combined chlorine reaches 0.5 ppm.",
+            "Every month: test calcium hardness and stabilizer, and clean or backwash the filter once pressure is 8 to 10 psi over its clean reading."
+          ]
+        },
+        {
+          "h2": "How to read your own log",
+          "list": [
+            "Free chlorine is gone by the next morning: sunlight is burning it off (check stabilizer) or the pool needs a shock.",
+            "pH keeps climbing: common with salt pools and new plaster. Lower it in small doses and retest.",
+            "Combined chlorine rises while free chlorine looks fine: the water needs a shock, not more daily chlorine.",
+            "Stabilizer only goes up: it does not burn off, so the fix is to drain part of the water and refill."
+          ],
+          "note": "Write down what you added as well as the reading. The log is only useful when you can see what each dose did."
+        },
+        {
+          "h2": "Have a hot tub too?",
+          "paras": [
+            "Hot tub targets are different from pool targets: higher sanitizer, a much smaller volume and no stabilizer for most tubs. Use the free <a href=\"hot-tub-log-sheet.html\">hot tub log sheet</a> for the spa, and the <a href=\"../hot-tub-calculator/\">hot tub calculator</a> for amounts.",
+            "TubTender for iPhone keeps the hot tub log for you: tap the colors on your test strip, and it saves the test, lists what to add for your tub size and reminds you when the next test is due. It is made for hot tubs and swim spas, not for pools."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Is the pool chemical log sheet free to copy?",
+          "Yes. Print as many as you like for your home pool, HOA or front desk. No email or account is needed."
+        ],
+        [
+          "What should I record in a pool chemical log?",
+          "The date and time, free chlorine, combined chlorine, pH, alkalinity, calcium and stabilizer when you test them, the water temperature and clarity, what you added and how much, and the initials of the person who tested."
+        ],
+        [
+          "How often should I test pool water?",
+          "Free chlorine and pH every day the pool is in use, or at least two to three times a week for a quiet home pool. Alkalinity weekly, calcium and stabilizer monthly. Public pools follow the testing schedule in the local health code."
+        ],
+        [
+          "Does a public or HOA pool need a chemical log?",
+          "Usually yes. Most local health codes ask public and semi public pools to log chlorine and pH several times a day and keep the records for inspection. Ask your health department which readings and form it wants."
+        ],
+        [
+          "Is there an app for a pool log?",
+          "Pool test kit makers have free apps tied to their own test strips. Our app, TubTender, keeps the log for hot tubs and swim spas, not pools, so for a pool this printable sheet is the free option we offer."
+        ]
+      ]
+    },
+    {
       "slug": "bromine-vs-chlorine-hot-tub",
       "art": "versus",
       "app": "tubtender",
@@ -1558,6 +1684,122 @@
         [
           "Can SignSnap send a document to someone else to sign?",
           "No. SignSnap is for signing your own documents. To collect signatures from other people, use a service built for that, such as DocuSign."
+        ]
+      ]
+    },
+    {
+      "slug": "bill-of-sale-template",
+      "art": "lease",
+      "app": "signsnap",
+      "title": "Bill of Sale Template, Free Printable PDF",
+      "description": "Free printable bill of sale template for a car, trailer, boat or other item, with an as is clause, odometer line and signature lines. No email.",
+      "h1": "Bill of sale template (free printable PDF)",
+      "answer": "<a href=\"../assets/printables/bill-of-sale-template.pdf\">Download the bill of sale template (PDF)</a>: one page for a private sale of a car, trailer, boat or other item, with the seller, buyer, item, price, an as is line, an odometer line, signatures and an optional notary block. Before you use it, check your state DMV, because many states publish their own bill of sale form.",
+      "updated": "2026-11-26",
+      "sections": [
+        {
+          "h2": "What is on the template",
+          "table": {
+            "head": [
+              "Part",
+              "What to write"
+            ],
+            "rows": [
+              [
+                "Seller and buyer",
+                "Full legal names, addresses and phone numbers"
+              ],
+              [
+                "What is being sold",
+                "Vehicle, trailer, boat or other; year, make, model, color"
+              ],
+              [
+                "Identifier",
+                "VIN for a vehicle, hull ID for a boat, serial number for anything else, plus the title number if it has one"
+              ],
+              [
+                "Odometer",
+                "The mileage and whether it is the actual mileage"
+              ],
+              [
+                "Sale",
+                "Price, date, how it was paid, and any trade or other terms"
+              ],
+              [
+                "Ownership and condition",
+                "Any liens, and the as is line, or the warranty if you give one"
+              ],
+              [
+                "Signatures",
+                "Seller and buyer sign, print their names and date it"
+              ],
+              [
+                "Notary",
+                "Only where your state asks for one"
+              ]
+            ]
+          },
+          "note": "Each person keeps a signed copy. Take photos of both IDs and the signed page if you sell to a stranger."
+        },
+        {
+          "h2": "Check your state first",
+          "paras": [
+            "A bill of sale is a receipt for a private sale. For a titled vehicle, the title transfer is what changes ownership, and the bill of sale sits beside it. States differ on the details: some publish their own bill of sale form and expect it, some put a bill of sale section on the title itself, some ask for a notary, and some ask for one only for certain sales.",
+            "Search for your state name plus \"DMV bill of sale\" and use the state form when there is one. This template fits the cases where the state accepts any written bill of sale, and sales of things with no title at all, such as furniture, a bike, a camera or a small trailer in many states."
+          ],
+          "note": "This page and the template are general information, not legal advice. For a high value sale or anything unusual, ask the DMV or a lawyer in your state."
+        },
+        {
+          "h2": "How to fill it in",
+          "steps": [
+            "Print the PDF, or open it on your phone and type into it (see the next section).",
+            "Copy the VIN, hull ID or serial number from the item itself, not from memory, and check it matches the title.",
+            "Write the real price. A made up low price can cause trouble with sales tax and is not worth it.",
+            "Fill in the as is line, or write any promise the seller makes, such as a new battery.",
+            "Both people sign and date it at the time of the sale, and each keeps a copy."
+          ]
+        },
+        {
+          "h2": "Signing a bill of sale on your phone",
+          "paras": [
+            "You do not need a printer. Save the PDF to the Files app, tap Markup, add text boxes on the lines and add your signature. It works, but placing every text box by hand is slow.",
+            "SignSnap for iPhone signs a PDF in a few taps with no account: import the bill of sale from Files, or scan a filled in paper copy with the camera, drag your saved signature onto the line, stamp the date beside it and share the signed PDF by Mail, Messages or AirDrop. The other person then signs their line on their own phone the same way, or you both sign one printed copy."
+          ]
+        },
+        {
+          "h2": "Selling a car: what else to do",
+          "list": [
+            "Sign over the title in the seller section, exactly as the title asks, with the odometer reading where it has a space for it.",
+            "Remove your plates if your state keeps plates with the seller.",
+            "Tell the DMV you sold it, if your state has a notice of sale or release of liability form. This keeps later tickets and tolls off your record.",
+            "Cancel or move your insurance after the buyer drives away."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Is this bill of sale template free?",
+          "Yes. Print or copy it as often as you like. No email or account is needed."
+        ],
+        [
+          "Does my state have its own bill of sale form?",
+          "Many states do, usually on the DMV or motor vehicle website, and some put a bill of sale section on the title. Search for your state name plus \"DMV bill of sale\" and use that form when there is one."
+        ],
+        [
+          "Does a bill of sale need to be notarized?",
+          "In most states, no, but a few states ask for a notarized bill of sale for some vehicle or boat sales. Your state DMV says whether yours does. The template has an optional notary block for those cases."
+        ],
+        [
+          "Is a handwritten bill of sale legal?",
+          "In many states a handwritten bill of sale is accepted when it has the same details: names, the item and its VIN or serial number, the price, the date and both signatures. Check your state DMV, since some states ask for their own form."
+        ],
+        [
+          "Can I sign a bill of sale on my phone?",
+          "Yes, where an electronic signature is accepted. Open the PDF in SignSnap or in the Files app Markup tool, add your signature and date, and send it to the other person to sign. Some DMV offices still want ink signatures on the title itself."
+        ],
+        [
+          "What does sold as is mean?",
+          "The buyer takes the item in its current condition and the seller makes no promise about it, unless something is written on the bill of sale."
         ]
       ]
     },
