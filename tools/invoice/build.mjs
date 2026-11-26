@@ -36,7 +36,7 @@ function replaceBetween(html, start, end, inner, label) {
 
 // The trade list on the main page, rebuilt every run.
 const listHtml =
-  `<!-- INVOICE TRADES -->\n    <section class="guide-sec" id="trades">\n      <h2>Invoice templates by trade</h2>\n      <p>Start from the lines your trade bills most, already filled in:</p>\n      <ul>\n` +
+  `<!-- INVOICE TRADES -->\n    <section class="guide-sec" id="trades">\n      <h2>Invoice templates by trade</h2>\n      <p>Start from the lines your trade bills most, already filled in. Each page also has a printable blank invoice and estimate PDF:</p>\n      <ul>\n` +
   trades.map((t) => `        <li><a href="${t.slug}/">${esc(t.h1.replace(/^Free /, "").replace(/^./, (c) => c.toUpperCase()))}</a></li>`).join("\n") +
   `\n      </ul>\n    </section>\n    <!-- /INVOICE TRADES -->`;
 
@@ -132,6 +132,14 @@ for (const t of trades) {
     t.how.map(([a, b]) => `        <li><strong>${esc(a)}</strong> ${esc(b)}</li>`).join("\n") +
     `\n      </ol>\n      <p>New to invoices? The <a href="../">main invoice generator</a> walks through what every invoice needs.</p>\n    </section>`;
   html = replaceBetween(html, '<section class="guide-sec">\n      <h2>How to make an invoice</h2>', "</section>", how, "how to section");
+  // Printable blank invoice and estimate (tools/printables/trade-blanks.py), ahead of the how to.
+  const pdf = `assets/printables/${t.slug}-invoice-estimate-blank.pdf`;
+  if (!fs.existsSync(path.join(SITE, pdf))) throw new Error(`${pdf} missing: run tools/printables/trade-blanks.py`);
+  const blank =
+    `<section class="guide-sec" id="printable">\n      <h2>Printable blank ${esc(t.trade)} invoice and estimate (PDF)</h2>\n` +
+    `      <p>Rather fill it in by hand? <a href="../../${pdf}" download>Download the free blank ${esc(t.trade)} invoice and estimate</a>: two letter size pages, an invoice and an estimate with a client signature line, with your usual lines already printed (${esc(t.blank.join("; "))}). Print as many as you need; no sign up and no watermark.</p>\n    </section>\n\n    `;
+  html = html.replace('<section class="guide-sec">\n      <h2>' + t.howTitle.replace(/&/g, "&amp;"), blank + '<section class="guide-sec">\n      <h2>' + t.howTitle.replace(/&/g, "&amp;"));
+  if (!html.includes('id="printable"')) throw new Error(`${t.slug}: printable section not placed`);
 
   // Tallyhand card with this trade's Quick add sentence and a campaign token.
   html = html.replace(

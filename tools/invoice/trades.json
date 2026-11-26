@@ -1,6 +1,7 @@
 [
   {
     "slug": "lawn-care",
+    "blank": ["Mowing, trimming and edging", "Leaf or yard cleanup", "Yard waste haul away", "Mulch, seed or fertilizer"],
     "trade": "lawn care",
     "title": "Free Lawn Care Invoice Template: Make a PDF Invoice",
     "h1": "Free lawn care invoice template",
@@ -29,6 +30,7 @@
   },
   {
     "slug": "cleaning",
+    "blank": ["Standard or deep clean", "Inside oven and fridge", "Windows, baseboards or blinds", "Supplies"],
     "trade": "house cleaning",
     "title": "Free House Cleaning Invoice Template: Make a PDF Invoice",
     "h1": "Free house cleaning invoice template",
@@ -57,6 +59,7 @@
   },
   {
     "slug": "handyman",
+    "blank": ["Labor (hours)", "Trip charge", "Materials"],
     "trade": "handyman",
     "title": "Free Handyman Invoice Template: Make a PDF Invoice",
     "h1": "Free handyman invoice template",
@@ -85,6 +88,7 @@
   },
   {
     "slug": "pet-sitting",
+    "blank": ["Drop in visits", "Dog walks", "Overnight stays", "Extra pet or holiday fee"],
     "trade": "pet sitting",
     "title": "Free Pet Sitting Invoice Template: Make a PDF Invoice",
     "h1": "Free pet sitting invoice template",
@@ -113,6 +117,7 @@
   },
   {
     "slug": "detailing",
+    "blank": ["Interior detail", "Exterior wash and wax", "Add ons: sealant, pet hair, odor"],
     "trade": "auto detailing",
     "title": "Free Auto Detailing Invoice Template: Make a PDF Invoice",
     "h1": "Free car detailing invoice template",
@@ -141,6 +146,7 @@
   },
   {
     "slug": "tutoring",
+    "blank": ["Sessions (hours)", "Test prep or review", "Materials or workbook"],
     "trade": "tutoring",
     "title": "Free Tutoring Invoice Template: Make a PDF Invoice",
     "h1": "Free tutoring invoice template",
