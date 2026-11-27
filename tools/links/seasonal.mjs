@@ -20,8 +20,13 @@ const tgDay = 1 + ((4 - first + 7) % 7) + 21;
 export const showThanksgiving = (m >= 9 && m < 11) || (m === 11 && d <= tgDay);
 
 const TG = (pre) => `<li><a href="${pre}days-until-thanksgiving/">Thanksgiving countdown</a></li>`;
-const HOME_ON = `<a class="link" href="receipt-generator/">receipt generator</a>, <a class="link" href="days-until-christmas/">Christmas countdown</a> and <a class="link" href="days-until-thanksgiving/">Thanksgiving countdown</a>.`;
-const HOME_OFF = `<a class="link" href="receipt-generator/">receipt generator</a> and <a class="link" href="days-until-christmas/">Christmas countdown</a>.`;
+// The home page's "Also here" line: the Thanksgiving link is always its last item,
+// so these work however many links sit before it.
+const TG_HOME = `<a class="link" href="days-until-thanksgiving/">Thanksgiving countdown</a>`;
+const LINK = `<a class="link" href="[^"]+">[^<]+<\\/a>`;
+const homeOff = (line) => line.replace(new RegExp(`, (${LINK}) and ${TG_HOME.replace(/[.*+?^${}()|[\]\\/]/g, "\\$&")}\\.`), " and $1.");
+const homeOn = (line) => line.includes(TG_HOME) ? line : line.replace(new RegExp(` and (${LINK})\\.<\\/p>`), `, $1 and ${TG_HOME}.</p>`);
+const moreLinks = (html, fn) => html.replace(/^.*class="more-links".*$/gm, fn);
 
 function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -41,10 +46,10 @@ for (const file of walk(SITE)) {
     // Put the line back just above the Christmas line, with the same indent and prefix.
     next = next.replace(/^( *)<li><a href="((?:\.\.\/)*)days-until-christmas\/">Christmas countdown<\/a><\/li>/gm, (all, ind, pre, at, src) =>
       src.slice(Math.max(0, at - 200), at).includes(TG(pre)) ? all : `${ind}${TG(pre)}\n${all}`);
-    next = next.replace(HOME_OFF, HOME_ON);
+    next = moreLinks(next, homeOn);
   } else {
     next = next.replace(/^ *<li><a href="(?:\.\.\/)*days-until-thanksgiving\/">Thanksgiving countdown<\/a><\/li>\n/gm, "");
-    next = next.replace(HOME_ON, HOME_OFF);
+    next = moreLinks(next, homeOff);
   }
   if (next !== html) { fs.writeFileSync(file, next); changed++; }
 }
