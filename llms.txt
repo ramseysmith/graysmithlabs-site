@@ -111,6 +111,7 @@ Graysmith Labs is preparing an Expo starter kit for subscription and ad supporte
 * Reaction time test: https://graysmithlabs.com/reaction-time-test/ (five rounds, tap when the box turns green, average and best in milliseconds, from the team behind BlitzTap)
 * Thanksgiving countdown: https://graysmithlabs.com/days-until-thanksgiving/ (days, hours and minutes until US Thanksgiving, the dates for the next five years and every verified national day until then, from the team behind CelebriDay)
 * Christmas countdown: https://graysmithlabs.com/days-until-christmas/ (days, hours, minutes and sleeps until Christmas Day, its weekday for the next five years and every verified national day in December until then, from the team behind CelebriDay)
+* New Year countdown: https://graysmithlabs.com/days-until-new-year/ (days, hours, minutes and seconds until midnight on New Year's Day in your own time zone, its weekday for the next five years and every verified national day from December 26 to January 1, from the team behind CelebriDay)
 
 ## Guides
 

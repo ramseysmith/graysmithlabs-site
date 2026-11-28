@@ -188,7 +188,7 @@ ${listHtml}
 
     <section class="guide-sec">
       <h2>Christmas for the next five years</h2>
-      <p>Christmas is always December 25, so only the day of the week moves: one day later each year, two after a leap year.</p>
+      <p>Christmas is always December 25, so only the day of the week moves: one day later each year, two after a leap year. After Christmas, the <a href="../days-until-new-year/">New Year countdown</a> takes over.</p>
       <div class="guide-table">
         <table>
           <thead><tr><th scope="col">Year</th><th scope="col">Christmas Day</th></tr></thead>

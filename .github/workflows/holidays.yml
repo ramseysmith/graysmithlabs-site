@@ -24,6 +24,7 @@ jobs:
       # link after Thanksgiving and brings it back on September 1.
       - run: node tools/countdown/build.mjs
       - run: node tools/countdown/christmas.mjs
+      - run: node tools/countdown/newyear.mjs
       - run: node tools/links/seasonal.mjs
       - run: node tools/links/tag.mjs
       - name: Commit if anything changed

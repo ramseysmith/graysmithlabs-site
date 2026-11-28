@@ -323,6 +323,7 @@ ${MONTHS.map((n, i) => `          <li><a href="${monthSlug(i + 1)}.html">${n}</a
           <li><a href="../reaction-time-test/">Reaction time test</a></li>
           <li><a href="../days-until-thanksgiving/">Thanksgiving countdown</a></li>
           <li><a href="../days-until-christmas/">Christmas countdown</a></li>
+          <li><a href="../days-until-new-year/">New Year countdown</a></li>
           <li><a href="../affirmations/">Affirmation of the day</a></li>
           <li><a href="../guides/">Guides</a></li><li><a href="../best/">App comparisons</a></li>
         </ul>
